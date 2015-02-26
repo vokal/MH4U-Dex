@@ -1,0 +1,43 @@
+//
+//  AppDelegate.m
+//  MH4U Dex
+//
+//  Created by Joseph Goldberg on 2/5/15.
+//  Copyright (c) 2015 Joseph Goldberg. All rights reserved.
+//
+
+#import "AppDelegate.h"
+
+#import "HomeViewController.h"
+#import "CoreDataController.h"
+
+@interface AppDelegate ()
+
+@property (nonatomic, strong) CoreDataController *coreDataController;
+
+@end
+
+@implementation AppDelegate
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    NSLog(@"Loading Data");
+    self.coreDataController = [[CoreDataController alloc] init];
+    [self.coreDataController loadMonsterData];
+    [self.coreDataController loadMonsterDropData];
+    [self.coreDataController loadRegionData];
+    NSLog(@"Data loaded.");
+    UINavigationController *rootViewController = (UINavigationController *)self.window.rootViewController;
+    HomeViewController *homeViewController = (HomeViewController *)[rootViewController viewControllers][0];
+    homeViewController.managedObjectContext = self.coreDataController.managedObjectContext;
+    return YES;
+}
+
+- (void)applicationWillTerminate:(UIApplication *)application
+{
+    // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    // Saves changes in the application's managed object context before the application terminates.
+    [self.coreDataController saveContext];
+}
+
+@end

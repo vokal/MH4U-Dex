@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6254" systemVersion="14B25" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Area" representedClassName="Area" syncable="YES">
+        <attribute name="combinedName" attributeType="String" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <attribute name="rank" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="drop" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="AreaDrop" inverseName="area" inverseEntity="AreaDrop" syncable="YES"/>
+        <relationship name="region" maxCount="1" deletionRule="Nullify" destinationEntity="Region" inverseName="area" inverseEntity="Region" syncable="YES"/>
+    </entity>
+    <entity name="AreaDrop" representedClassName="AreaDrop" syncable="YES">
+        <attribute name="idDecimalString" attributeType="String" syncable="YES"/>
+        <attribute name="method" attributeType="String" syncable="YES"/>
+        <attribute name="percent" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="quantity" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="rank" attributeType="String" syncable="YES"/>
+        <relationship name="area" maxCount="1" deletionRule="Nullify" destinationEntity="Area" inverseName="drop" inverseEntity="Area" syncable="YES"/>
+        <relationship name="item" maxCount="1" deletionRule="Nullify" destinationEntity="Item" inverseName="areaSource" inverseEntity="Item" syncable="YES"/>
+    </entity>
+    <entity name="Armor" representedClassName="Armor" syncable="YES">
+        <attribute name="maxDefense" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="minDefense" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <relationship name="material" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Item" inverseName="armorUse" inverseEntity="Item" syncable="YES"/>
+        <relationship name="set" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ArmorSet" inverseName="piece" inverseEntity="ArmorSet" syncable="YES"/>
+        <relationship name="skilltree" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Skilltree" inverseName="armor" inverseEntity="Skilltree" syncable="YES"/>
+    </entity>
+    <entity name="ArmorSet" representedClassName="ArmorSet" syncable="YES">
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <relationship name="piece" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Armor" inverseName="set" inverseEntity="Armor" syncable="YES"/>
+    </entity>
+    <entity name="Combination" representedClassName="Combination" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="firstItem" maxCount="1" deletionRule="Nullify" destinationEntity="Item" inverseName="comboFirst" inverseEntity="Item" syncable="YES"/>
+        <relationship name="secondItem" maxCount="1" deletionRule="Nullify" destinationEntity="Item" inverseName="comboSecond" inverseEntity="Item" syncable="YES"/>
+        <relationship name="thirdItem" maxCount="1" deletionRule="Nullify" destinationEntity="Item" inverseName="comboThird" inverseEntity="Item" syncable="YES"/>
+    </entity>
+    <entity name="DamageZone" representedClassName="DamageZone" syncable="YES">
+        <attribute name="bodyPart" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cut" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="dragon" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="extract" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fire" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="ice" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="impact" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="jpnMonsterName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ko" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="monsterID" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="monsterName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shot" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="thunder" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="water" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="monster" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Monster" inverseName="damageZone" inverseEntity="Monster" syncable="YES"/>
+    </entity>
+    <entity name="Decoration" representedClassName="Decoration" syncable="YES">
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <relationship name="material" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Item" inverseName="decorationUse" inverseEntity="Item" syncable="YES"/>
+        <relationship name="skilltree" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Skilltree" inverseName="decoration" inverseEntity="Skilltree" syncable="YES"/>
+    </entity>
+    <entity name="Item" representedClassName="Item" syncable="YES">
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <relationship name="areaSource" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="AreaDrop" inverseName="item" inverseEntity="AreaDrop" syncable="YES"/>
+        <relationship name="armorUse" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Armor" inverseName="material" inverseEntity="Armor" syncable="YES"/>
+        <relationship name="comboFirst" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Combination" inverseName="firstItem" inverseEntity="Combination" syncable="YES"/>
+        <relationship name="comboSecond" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Combination" inverseName="secondItem" inverseEntity="Combination" syncable="YES"/>
+        <relationship name="comboThird" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Combination" inverseName="thirdItem" inverseEntity="Combination" syncable="YES"/>
+        <relationship name="decorationUse" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Decoration" inverseName="material" inverseEntity="Decoration" syncable="YES"/>
+        <relationship name="monsterSource" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="MonsterDrop" inverseName="item" inverseEntity="MonsterDrop" syncable="YES"/>
+        <relationship name="tradeIn" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Trade" inverseName="tradeIn" inverseEntity="Trade" syncable="YES"/>
+        <relationship name="tradeOut" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Trade" inverseName="tradeOut" inverseEntity="Trade" syncable="YES"/>
+        <relationship name="weaponUse" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Weapon" inverseName="material" inverseEntity="Weapon" syncable="YES"/>
+    </entity>
+    <entity name="Monster" representedClassName="Monster" syncable="YES">
+        <attribute name="icon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="jpn_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="monster_class" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sort_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="trait" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="damageZone" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DamageZone" inverseName="monster" inverseEntity="DamageZone" syncable="YES"/>
+        <relationship name="drop" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="MonsterDrop" inverseName="monsterSource" inverseEntity="MonsterDrop" syncable="YES"/>
+    </entity>
+    <entity name="MonsterDrop" representedClassName="MonsterDrop" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="method" attributeType="String" syncable="YES"/>
+        <attribute name="percent" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="quantity" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="rank" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="item" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Item" inverseName="monsterSource" inverseEntity="Item" syncable="YES"/>
+        <relationship name="monsterSource" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Monster" inverseName="drop" inverseEntity="Monster" syncable="YES"/>
+    </entity>
+    <entity name="Quest" representedClassName="Quest" syncable="YES">
+        <attribute name="name" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Region" representedClassName="Region" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="keyName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <relationship name="area" toMany="YES" deletionRule="Nullify" destinationEntity="Area" inverseName="region" inverseEntity="Area" syncable="YES"/>
+    </entity>
+    <entity name="Skilltree" representedClassName="Skilltree" syncable="YES">
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <relationship name="armor" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Armor" inverseName="skilltree" inverseEntity="Armor" syncable="YES"/>
+        <relationship name="decoration" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Decoration" inverseName="skilltree" inverseEntity="Decoration" syncable="YES"/>
+    </entity>
+    <entity name="Trade" representedClassName="Trade" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="tradeIn" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Item" inverseName="tradeIn" inverseEntity="Item" syncable="YES"/>
+        <relationship name="tradeOut" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Item" inverseName="tradeOut" inverseEntity="Item" syncable="YES"/>
+    </entity>
+    <entity name="Weapon" representedClassName="Weapon" syncable="YES">
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <relationship name="material" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Item" inverseName="weaponUse" inverseEntity="Item" syncable="YES"/>
+    </entity>
+    <fetchRequest name="FetchRequest" entity="MonsterDrop" predicateString="rank CONTAINS &quot;&quot;"/>
+    <elements>
+        <element name="Area" positionX="-774" positionY="-288" width="128" height="118"/>
+        <element name="Armor" positionX="-398" positionY="-432" width="128" height="133"/>
+        <element name="ArmorSet" positionX="-245" positionY="-414" width="128" height="73"/>
+        <element name="Combination" positionX="-632" positionY="-124" width="128" height="103"/>
+        <element name="DamageZone" positionX="-416" positionY="-36" width="128" height="283"/>
+        <element name="Decoration" positionX="-398" positionY="-288" width="128" height="88"/>
+        <element name="MonsterDrop" positionX="-785" positionY="-153" width="128" height="148"/>
+        <element name="Item" positionX="-632" positionY="-331" width="128" height="208"/>
+        <element name="Monster" positionX="-785" positionY="36" width="128" height="193"/>
+        <element name="Quest" positionX="-974" positionY="-271" width="128" height="58"/>
+        <element name="Region" positionX="-974" positionY="-189" width="128" height="103"/>
+        <element name="Skilltree" positionX="-243" positionY="-316" width="128" height="88"/>
+        <element name="Trade" positionX="-632" positionY="-432" width="128" height="88"/>
+        <element name="Weapon" positionX="-398" positionY="-193" width="128" height="73"/>
+        <element name="AreaDrop" positionX="-927" positionY="-36" width="128" height="148"/>
+    </elements>
+</model>
