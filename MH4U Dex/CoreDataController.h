@@ -14,7 +14,7 @@
 - (void)loadMonsterData;
 - (void)loadMonsterDropData;
 - (void)loadRegionData;
-- (BOOL)didSuccessfullySaveContext;
+- (BOOL)attemptSaveContext;
 
 #pragma mark - Boilerplate Core Data Code
 

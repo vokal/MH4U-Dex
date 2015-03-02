@@ -12,93 +12,165 @@
 #import "AreaDrop.h"
 #import "Item.h"
 #import "Monster.h"
+#import "DamageZone.h"
 #import "Region.h"
 #import "Area.h"
 
 @implementation CoreDataController
+
+NSString *const JSON = @"json";
+
+#pragma mark - Item Constants
+
+NSString *const ItemNameKey = @"name";
+
+#pragma mark - Monster Constants
+
+NSString *const MonsterIDKey = @"id";
+
+#pragma mark - Area Constants
+
+NSString *const AreaCombinedNameKey = @"combinedName";
+
+#pragma mark - Region Constants
+
+NSString *const RegionsFileName = @"regions";
+NSString *const RegionIDKey = @"_id";
+NSString *const RegionNameKey = @"region_name";
+NSString *const RegionKeyNameKey = @"keyName";
+NSString *const RegionDropsFileNameSuffix = @"_drops";
+
+#pragma mark - Monster Drop Constants
+
+NSString *const MonsterDropsFileName = @"monsterDrops";
+NSString *const MonsterDropIDKey = @"_dropID";
+NSString *const MonsterDropMethodKey = @"method";
+NSString *const MonsterDropQuantityKey = @"quantity";
+NSString *const MonsterDropRankKey = @"rank";
+NSString *const MonsterDropPercentKey = @"percent";
+NSString *const MonsterDropMonsterNameKey = @"monster_name";
+NSString *const MonsterDropMonsterIDKey = @"monster_id";
+NSString *const MonsterDropItemNameKey = @"item_name";
+
+#pragma mark - Area Drop Constants
+
+NSString *const AreaDropAreaNameKey = @"area";
+NSString *const AreaDropRankKey = @"rank";
+NSString *const AreaDropIDKey = @"_id";
+NSString *const AreaDropMethodKey = @"method";
+NSString *const AreaDropPercentKey = @"chance";
+NSString *const AreaDropQuantityKey = @"number";
+NSString *const AreaDropItemNameKey = @"item";
+NSString *const AreaDropIDDecimalStringKey = @"idDecimalString";
 
 #pragma mark - Initial Data Loading
 
 - (void)loadMonsterData
 {
     // Because monsters are added first, there are no relationships to set up, so we can hydrate them.
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"monsters" ofType:@"json"];
-    NSDictionary *attributes = @{@"id":@"_id", @"monster_class":@"class", @"name":@"name", @"jpn_name":@"jpn_name", @"sort_name":@"sort_name", @"trait":@"trait", @"icon":@"icon_name", @"url":@"url"};
-    [self.managedObjectContext hydrateStoreWithJSONAtPath:path attributeMappings:attributes forEntityName:@"Monster"];
-    path = [[NSBundle mainBundle] pathForResource:@"damageZones" ofType:@"json"];
-    attributes = @{@"id":@"_id", @"monster_id":@"monster_id", @"monsterName":@"monster_name", @"jpnMonsterName":@"jpn_monster_name", @"bodyPart":@"body_part", @"cut":@"cut", @"impact":@"impact", @"shot":@"shot", @"fire":@"fire", @"water":@"water", @"thunder":@"thunder", @"ice":@"ice", @"dragon":@"dragon", @"ko":@"ko", @"extract":@"extract"};
-    [self.managedObjectContext hydrateStoreWithJSONAtPath:path attributeMappings:attributes forEntityName:@"DamageZone"];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"monsters" ofType:JSON];
+    NSDictionary *attributes = @{
+                                 @"id":@"_id",
+                                 @"monster_class":@"class",
+                                 @"name":@"name",
+                                 @"jpn_name":@"jpn_name",
+                                 @"sort_name":@"sort_name",
+                                 @"trait":@"trait",
+                                 @"icon":@"icon_name",
+                                 @"url":@"url"
+                                 };
+    [self.managedObjectContext hydrateStoreWithJSONAtPath:path attributeMappings:attributes forEntityName:[Monster entityName]];
+    path = [[NSBundle mainBundle] pathForResource:@"damageZones" ofType:JSON];
+    attributes = @{
+                   @"id":@"_id",
+                   @"monster_id":@"monster_id",
+                   @"monsterName":@"monster_name",
+                   @"jpnMonsterName":@"jpn_monster_name",
+                   @"bodyPart":@"body_part",
+                   @"cut":@"cut",
+                   @"impact":@"impact",
+                   @"shot":@"shot",
+                   @"fire":@"fire",
+                   @"water":@"water",
+                   @"thunder":@"thunder",
+                   @"ice":@"ice",
+                   @"dragon":@"dragon",
+                   @"ko":@"ko",
+                   @"extract":@"extract"
+                   };
+    [self.managedObjectContext hydrateStoreWithJSONAtPath:path attributeMappings:attributes forEntityName:[DamageZone entityName]];
 }
 
 - (void)loadMonsterDropData
 {
-    NSArray *dropList = [self loadArrayFromJsonFileNamed:@"monsterDrops"];
+    NSArray *dropList = [self loadArrayFromJsonFileNamed:MonsterDropsFileName];
     for (NSDictionary *drop in dropList) {
         // Only add the drop if it is not already there
-        if (![self checkCountForEntityWithEntityName:@"MonsterDrop" withIDNumber:drop[@"_dropID"]]) {
-            NSEntityDescription *newDropDescription = [NSEntityDescription entityForName:@"MonsterDrop" inManagedObjectContext:self.managedObjectContext];
-            MonsterDrop *newDrop = [[MonsterDrop alloc] initWithEntity:newDropDescription insertIntoManagedObjectContext:self.managedObjectContext];
-            [newDrop setDropBasicValuesWithID:drop[@"_dropID"] method:drop[@"method"] quantity:drop[@"quantity"]];
+        NSNumber *monsterDropID = drop[MonsterDropIDKey];
+        NSPredicate *monsterDropPredicate = [NSPredicate predicateWithFormat:@"%K == %d", MonsterDropIDKey, monsterDropID.intValue];
+        if (![self countForEntityWithEntityName:[MonsterDrop entityName] withPredicate:monsterDropPredicate]) {
+            MonsterDrop *newDrop = [MonsterDrop insertInManagedObjectContext:self.managedObjectContext];
+            [newDrop setDropBasicValuesWithID:drop[MonsterDropIDKey] method:drop[MonsterDropMethodKey] quantity:drop[MonsterDropQuantityKey]];
             
             // If the Item for this drop already exists in the persistent store ...
-            Item *item = (Item *)[self getUniqueEntityWithEntityName:@"Item" withNameAttribute:drop[@"item_name"]];
+            NSPredicate *itemPredicate = [NSPredicate predicateWithFormat:@"%K == %@", ItemNameKey, drop[MonsterDropItemNameKey]];
+            Item *item = (Item *)[self getUniqueEntityWithEntityName:[Item entityName] withPredicate:itemPredicate];
             if (item) {
                 // We need to hook up relationships appropriately.
                 newDrop.item = item;
-                [item.monsterSourceSet addObject:newDrop];
             } else {
                 // Otherwise, we should create the item.
-                NSEntityDescription *newItemDescription = [NSEntityDescription entityForName:@"Item" inManagedObjectContext:self.managedObjectContext];
-                Item *newItem = [[Item alloc] initWithEntity:newItemDescription insertIntoManagedObjectContext:self.managedObjectContext];
-                [newItem.monsterSourceSet addObject:newDrop];
-                newItem.name = drop[@"item_name"];
+                Item *newItem = [Item insertInManagedObjectContext:self.managedObjectContext];
+                newItem.name = drop[MonsterDropItemNameKey];
                 newDrop.item = newItem;
             }
             
             // If this is a monster drop ...
-            if (![drop[@"monster_name"] isEqualToString:@""]) {
+            NSString *monsterName = drop[MonsterDropMonsterNameKey];
+            if (monsterName.length) {
                 // We need to add this drop to the monster's list, if it is not there already.
                 
                 // First we should ensure that the monster already exists in the persistent store
-                Monster *monster = (Monster *)[self getUniqueEntityWithEntityName:@"Monster" withIDNumber:drop[@"monster_id"]];
+                NSNumber *monsterID = drop[MonsterDropMonsterIDKey];
+                NSPredicate *monsterPredicate = [NSPredicate predicateWithFormat:@"%K == %d", MonsterIDKey, monsterID.intValue];
+                Monster *monster = (Monster *)[self getUniqueEntityWithEntityName:[Monster entityName] withPredicate:monsterPredicate];
                 if (!monster) {
-                    NSLog(@"Monster not found! Returning early.");
-                    @throw @"Monster nto found!";
-                    return;
+                    // TODO: Handle better, later.
+                    NSLog(@"The Monster, %@, was not found!", monsterName);
                 } else {
-                    [monster.dropSet addObject:newDrop];
                     newDrop.monsterSource = monster;
-                    newDrop.rank = drop[@"rank"];
-                    newDrop.percent = drop[@"percent"];
+                    newDrop.rank = drop[MonsterDropRankKey];
+                    newDrop.percent = drop[MonsterDropPercentKey];
                 }
             }
         }
     }
     
     // We should now try to save the manged object context
-    if (![self didSuccessfullySaveContext]) {
+    if (![self attemptSaveContext]) {
         NSLog(@"WARNING: Failed to save the item context!");
     }
 }
 
 - (void)loadRegionData
 {
-    NSArray *regionList = [self loadArrayFromJsonFileNamed:@"regions"];
+    NSArray *regionList = [self loadArrayFromJsonFileNamed:RegionsFileName];
     
     for (NSDictionary *regionDict in regionList) {
         Region *region;
-        region = (Region *)[self getUniqueEntityWithEntityName:@"Region" withIDNumber:regionDict[@"_id"]];
+        NSNumber *regionID = regionDict[RegionIDKey];
+        NSPredicate *regionPredicate = [NSPredicate predicateWithFormat:@"%K == %d", RegionIDKey, regionID.intValue];
+        region = (Region *)[self getUniqueEntityWithEntityName:[Region entityName] withPredicate:regionPredicate];
         // Only add the region if it is not already there
         if (!region) {
-            NSEntityDescription *newRegionDescription = [NSEntityDescription entityForName:@"Region" inManagedObjectContext:self.managedObjectContext];
-            region = [[Region alloc] initWithEntity:newRegionDescription insertIntoManagedObjectContext:self.managedObjectContext];
-            region.name = regionDict[@"region_name"];
-            region.id = regionDict[@"_id"];
-            region.keyName = regionDict[@"keyName"];
+            region = [Region insertInManagedObjectContext:self.managedObjectContext];
+            region.name = regionDict[RegionNameKey];
+            region.id = regionDict[RegionIDKey];
+            region.keyName = regionDict[RegionKeyNameKey];
         }
         // regardless if the region is new or not, we should populate it with area data
         // But first, we need to check that the region file exists
-        NSArray *areaDrops = [self loadArrayFromJsonFileNamed:[NSString stringWithFormat:@"%@_drops", region.keyName]];
+        NSArray *areaDrops = [self loadArrayFromJsonFileNamed:[NSString stringWithFormat:@"%@%@", region.keyName, RegionDropsFileNameSuffix]];
         // If the file actually exists...
         if (areaDrops) {
             // ... go through the file, and construct areas/drops as appropriate
@@ -110,7 +182,7 @@
     }
     
     // We should now try to save the manged object context
-    if (![self didSuccessfullySaveContext]) {
+    if (![self attemptSaveContext]) {
         NSLog(@"WARNING: Failed to save the item context!");
     }
 }
@@ -120,55 +192,54 @@
     //First, let's check if the area that this areaDrop takes place in actually exists!
     NSString *areaCombinedName = [NSString stringWithFormat:@"%@-%@-%@",
                                   region.name,
-                                  areaDropDict[@"area"],
-                                  areaDropDict[@"rank"]];
-    Area *area = [self getUniqueAreaWithCombinedName:areaCombinedName];
+                                  areaDropDict[AreaDropAreaNameKey],
+                                  areaDropDict[AreaDropRankKey]];
+    NSPredicate *areaPredicate = [NSPredicate predicateWithFormat:@"%K == %@", AreaCombinedNameKey, areaCombinedName];
+    Area *area = (Area *)[self getUniqueEntityWithEntityName:[Area entityName] withPredicate:areaPredicate];
     // If the area doesn't already exist...
     if (!area) {
         // ... We need to create it, and add it to this region
-        NSEntityDescription *newAreaDescription = [NSEntityDescription entityForName:@"Area" inManagedObjectContext:self.managedObjectContext];
-        area = [[Area alloc] initWithEntity:newAreaDescription insertIntoManagedObjectContext:self.managedObjectContext];
-        area.name = areaDropDict[@"area"];
+        area = [Area insertInManagedObjectContext:self.managedObjectContext];
+        area.name = areaDropDict[AreaDropAreaNameKey];
         area.combinedName = areaCombinedName;
         area.region = region;
-        area.rank = areaDropDict[@"rank"];
+        area.rank = areaDropDict[AreaDropRankKey];
         [region.areaSet addObject:area];
     }
     // If it wasn't already, the area is now attached to the region
     
     // We should now consider adding this drop to the area.
     // First, check if the area drop already exists, by way of checking the idDecimalString
-    NSString *idDecimalString = areaDropDict[@"_id"];
-    AreaDrop *drop = [self getUniqueAreaDropWithDecimalID:idDecimalString];
+    NSString *idDecimalString = areaDropDict[AreaDropIDKey];
+    NSPredicate *areaDropPredicate = [NSPredicate predicateWithFormat:@"%K == %@", AreaDropIDDecimalStringKey, idDecimalString];
+    AreaDrop *drop = (AreaDrop *)[self getUniqueEntityWithEntityName:[AreaDrop entityName] withPredicate:areaDropPredicate];
     //If the drop already exists...
     if (drop) {
+        // TODO: do we need to do more here?
         // ... do nothing. (At least for now).
         return;
     } else {
         // This else is not needed, but helps for clarity IMO.
         // Hook up the drop.
-        NSEntityDescription *newDropDescription = [NSEntityDescription entityForName:@"AreaDrop" inManagedObjectContext:self.managedObjectContext];
-        drop = [[AreaDrop alloc] initWithEntity:newDropDescription insertIntoManagedObjectContext:self.managedObjectContext];
+        drop = [AreaDrop insertInManagedObjectContext:self.managedObjectContext];
         drop.idDecimalString = idDecimalString;
-        drop.method = areaDropDict[@"method"];
-        NSString *percent = areaDropDict[@"chance"];
+        drop.method = areaDropDict[AreaDropMethodKey];
+        NSString *percent = areaDropDict[AreaDropPercentKey];
         drop.percentValue = percent.integerValue;
-        drop.quantity = areaDropDict[@"number"];
-        drop.rank = areaDropDict[@"rank"];
+        drop.quantity = areaDropDict[AreaDropQuantityKey];
+        drop.rank = areaDropDict[AreaDropRankKey];
         
         // Hook up the area relationship.  We already ensured the area exists.
         drop.area = area;
-        [area.dropSet addObject:drop];
         
         // Time to hook up the item relationship.  The item may or may not already exist.
-        NSString *itemName = areaDropDict[@"item"];
-        Item *item = (Item *)[self getUniqueEntityWithEntityName:@"Item" withNameAttribute:itemName];
+        NSString *itemName = areaDropDict[AreaDropItemNameKey];
+        NSPredicate *itemPredicate = [NSPredicate predicateWithFormat:@"%K == %@", ItemNameKey, itemName];
+        Item *item = (Item *)[self getUniqueEntityWithEntityName:[Item entityName] withPredicate:itemPredicate];
         if (!item) {
-            NSEntityDescription *newItemDescription = [NSEntityDescription entityForName:@"Item" inManagedObjectContext:self.managedObjectContext];
-            item = [[Item alloc] initWithEntity:newItemDescription insertIntoManagedObjectContext:self.managedObjectContext];
+            item = [Item insertInManagedObjectContext:self.managedObjectContext];
             item.name = itemName;
         }
-        [item.areaSourceSet addObject:drop];
         drop.item = item;
         
         // The Drop should now exist, and be properly hooked up to the area, which exists and is hooked up to the region.
@@ -179,33 +250,45 @@
 
 - (NSDictionary *)loadDictionaryFromJsonFileNamed:(NSString *)fileName
 {
-    NSString *filePath = [[NSBundle mainBundle] pathForResource:fileName ofType:@"json"];
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:fileName ofType:JSON];
     NSError *error;
     NSString *fileContents = [NSString stringWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:&error];
-    if (error) {
+    if (!fileContents) {
         NSLog(@"Error reading file: %@", error.localizedDescription);
         return nil;
     }
-    return (NSDictionary *)[NSJSONSerialization JSONObjectWithData:[fileContents dataUsingEncoding:NSUTF8StringEncoding]
-                                                           options:0
-                                                             error:nil];
+    NSDictionary *results = (NSDictionary *)[NSJSONSerialization JSONObjectWithData:[fileContents dataUsingEncoding:NSUTF8StringEncoding]
+                                                                            options:0
+                                                                              error:&error];
+    if (!results) {
+        NSLog(@"Error serializing data: %@", error.localizedDescription);
+        return nil;
+    } else {
+        return results;
+    }
 }
 
 - (NSArray *)loadArrayFromJsonFileNamed:(NSString *)fileName
 {
-    NSString *filePath = [[NSBundle mainBundle] pathForResource:fileName ofType:@"json"];
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:fileName ofType:JSON];
     NSError *error;
     NSString *fileContents = [NSString stringWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:&error];
-    if (error) {
+    if (!fileContents) {
         NSLog(@"Error reading file: %@", error.localizedDescription);
         return nil;
     }
-    return (NSArray *)[NSJSONSerialization JSONObjectWithData:[fileContents dataUsingEncoding:NSUTF8StringEncoding]
+    NSArray *results = (NSArray *)[NSJSONSerialization JSONObjectWithData:[fileContents dataUsingEncoding:NSUTF8StringEncoding]
                                                       options:0
-                                                        error:nil];
+                                                        error:&error];
+    if (!results) {
+        NSLog(@"Error serializing data: %@", error.localizedDescription);
+        return nil;
+    } else {
+        return results;
+    }
 }
 
-- (BOOL)didSuccessfullySaveContext
+- (BOOL)attemptSaveContext
 {
     NSError *error = nil;
     if (![self.managedObjectContext save:&error]) {
@@ -216,70 +299,19 @@
     return YES;
 }
 
-- (AreaDrop *)getUniqueAreaDropWithDecimalID:(NSString *)decimalID
-{
-    NSError *error = nil;
-    NSFetchRequest *request = [[NSFetchRequest alloc] initWithEntityName:@"AreaDrop"];
-    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"%K == %@", @"idDecimalString", decimalID];
-    [request setPredicate:predicate];
-    
-    NSArray *results = [self.managedObjectContext executeFetchRequest:request error:&error];
-    if (!error) {
-        if (results.count == 0) {
-            // Object not found.
-            return nil;
-        } else if (results.count == 1) {
-            return results.firstObject;
-        } else {
-            NSLog(@"Too many entities found!");
-            return nil;
-        }
-    } else {
-        NSLog(@"Error fetching object!");
-        NSLog(@"%@, %@", error, error.localizedDescription);
-        return nil;
-    }
-
-}
-
-- (Area *)getUniqueAreaWithCombinedName:(NSString *)combinedName
-{
-    NSError *error = nil;
-    NSFetchRequest *request = [[NSFetchRequest alloc] initWithEntityName:@"Area"];
-    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"%K == %@", @"combinedName", combinedName];
-    [request setPredicate:predicate];
-    
-    NSArray *results = [self.managedObjectContext executeFetchRequest:request error:&error];
-    if (!error) {
-        if (results.count == 0) {
-            // Object not found.
-            return nil;
-        } else if (results.count == 1) {
-            return results.firstObject;
-        } else {
-            NSLog(@"Too many entities found!");
-            return nil;
-        }
-    } else {
-        NSLog(@"Error fetching object!");
-        NSLog(@"%@, %@", error, error.localizedDescription);
-        return nil;
-    }
-}
-
-- (NSManagedObject *)getUniqueEntityWithEntityName:(NSString *)entityName withNameAttribute:(NSString *)name
+- (NSManagedObject *)getUniqueEntityWithEntityName:(NSString *)entityName withPredicate:(NSPredicate *)predicate
 {
     NSError *error = nil;
     NSFetchRequest *request = [[NSFetchRequest alloc] initWithEntityName:entityName];
-    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"%K == %@", @"name", name];
     [request setPredicate:predicate];
     
     NSArray *results = [self.managedObjectContext executeFetchRequest:request error:&error];
-    if (!error) {
+    if (results) {
         if (results.count == 0) {
             // Object not found.
             return nil;
-        } else if (results.count == 1) {
+        }
+        if (results.count == 1) {
             return results.firstObject;
         } else {
             NSLog(@"Too many entities found!");
@@ -292,53 +324,14 @@
     }
 }
 
-- (NSManagedObject *)getUniqueEntityWithEntityName:(NSString *)entityName withIDNumber:(NSNumber *)entity_id
+- (NSUInteger)countForEntityWithEntityName:(NSString *)entityName withPredicate:(NSPredicate *)predicate
 {
     NSError *error = nil;
     NSFetchRequest *request = [[NSFetchRequest alloc] initWithEntityName:entityName];
-    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"%K == %d", @"id", entity_id.intValue];
-    [request setPredicate:predicate];
-    
-    NSArray *results = [self.managedObjectContext executeFetchRequest:request error:&error];
-    if (!error) {
-        if (results.count == 0) {
-            return nil;
-        } else if (results.count == 1) {
-            return results.firstObject;
-        } else {
-            NSLog(@"Too many entities found!");
-            return nil;
-        }
-    } else {
-        NSLog(@"Error fetching object!");
-        NSLog(@"%@, %@", error, error.localizedDescription);
-        return nil;
-    }
-}
-
-- (NSUInteger)checkCountForEntityWithEntityName:(NSString *)entityName withNameAttribute:(NSString *)name
-{
-    NSError *error = nil;
-    NSFetchRequest *request = [[NSFetchRequest alloc] initWithEntityName:entityName];
-    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"%K == %@", @"name", name];
     [request setPredicate:predicate];
     
     NSUInteger count = [self.managedObjectContext countForFetchRequest:request error:&error];
-    if (!error) {
-        return count;
-    } else {
-        return 0;
-    }
-}
-
-- (NSUInteger)checkCountForEntityWithEntityName:(NSString *)entityName withIDNumber:(NSNumber *)entity_id
-{
-    NSError *error = nil;
-    NSFetchRequest *request = [[NSFetchRequest alloc] initWithEntityName:entityName];
-    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"%K == %d", @"id", entity_id.intValue];
-    [request setPredicate:predicate];
-    NSUInteger count = [self.managedObjectContext countForFetchRequest:request error:&error];
-    if (!error) {
+    if (count != NSNotFound) {
         return count;
     } else {
         return 0;
@@ -376,6 +369,7 @@
     NSError *error = nil;
     NSString *failureReason = @"There was an error creating or loading the application's saved data.";
     if (![_persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:storeURL options:nil error:&error]) {
+        // TODO: fix all of this later.
         // Report any error we got.
         NSMutableDictionary *dict = [NSMutableDictionary dictionary];
         dict[NSLocalizedDescriptionKey] = @"Failed to initialize the application's saved data";
