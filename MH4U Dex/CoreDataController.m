@@ -35,7 +35,8 @@ NSString *const AreaCombinedNameKey = @"combinedName";
 #pragma mark - Region Constants
 
 NSString *const RegionsFileName = @"regions";
-NSString *const RegionIDKey = @"_id";
+NSString *const RegionIDJSONKey = @"_id";
+NSString *const RegionIDKey = @"id";
 NSString *const RegionNameKey = @"region_name";
 NSString *const RegionKeyNameKey = @"keyName";
 NSString *const RegionDropsFileNameSuffix = @"_drops";
@@ -43,7 +44,7 @@ NSString *const RegionDropsFileNameSuffix = @"_drops";
 #pragma mark - Monster Drop Constants
 
 NSString *const MonsterDropsFileName = @"monsterDrops";
-NSString *const MonsterDropIDKey = @"_dropID";
+NSString *const MonsterDropIDKey = @"id";
 NSString *const MonsterDropMethodKey = @"method";
 NSString *const MonsterDropQuantityKey = @"quantity";
 NSString *const MonsterDropRankKey = @"rank";
@@ -110,7 +111,9 @@ NSString *const AreaDropIDDecimalStringKey = @"idDecimalString";
         NSPredicate *monsterDropPredicate = [NSPredicate predicateWithFormat:@"%K == %d", MonsterDropIDKey, monsterDropID.intValue];
         if (![self countForEntityWithEntityName:[MonsterDrop entityName] withPredicate:monsterDropPredicate]) {
             MonsterDrop *newDrop = [MonsterDrop insertInManagedObjectContext:self.managedObjectContext];
-            [newDrop setDropBasicValuesWithID:drop[MonsterDropIDKey] method:drop[MonsterDropMethodKey] quantity:drop[MonsterDropQuantityKey]];
+            newDrop.id = drop[MonsterDropIDKey];
+            newDrop.method = drop[MonsterDropMethodKey];
+            newDrop.quantity = drop[MonsterDropQuantityKey];
             
             // If the Item for this drop already exists in the persistent store ...
             NSPredicate *itemPredicate = [NSPredicate predicateWithFormat:@"%K == %@", ItemNameKey, drop[MonsterDropItemNameKey]];
@@ -158,14 +161,14 @@ NSString *const AreaDropIDDecimalStringKey = @"idDecimalString";
     
     for (NSDictionary *regionDict in regionList) {
         Region *region;
-        NSNumber *regionID = regionDict[RegionIDKey];
+        NSNumber *regionID = regionDict[RegionIDJSONKey];
         NSPredicate *regionPredicate = [NSPredicate predicateWithFormat:@"%K == %d", RegionIDKey, regionID.intValue];
         region = (Region *)[self getUniqueEntityWithEntityName:[Region entityName] withPredicate:regionPredicate];
         // Only add the region if it is not already there
         if (!region) {
             region = [Region insertInManagedObjectContext:self.managedObjectContext];
             region.name = regionDict[RegionNameKey];
-            region.id = regionDict[RegionIDKey];
+            region.id = regionDict[RegionIDJSONKey];
             region.keyName = regionDict[RegionKeyNameKey];
         }
         // regardless if the region is new or not, we should populate it with area data

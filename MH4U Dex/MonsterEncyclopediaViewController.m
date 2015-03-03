@@ -29,7 +29,7 @@
     [super viewDidLoad];
 
     NSError *fetchError = nil;
-    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:@"Monster"];
+    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:[Monster entityName]];
     NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:@"sort_name" ascending:YES];
     NSPredicate *predicate = [NSPredicate predicateWithFormat:@"%K == %@", @"monster_class", @"Minion"];
     [fetchRequest setPredicate:predicate];
@@ -86,11 +86,11 @@
     Monster *monster;
     switch (indexPath.section) {
         case 0:
-        monster = (Monster *)self.smallMonsters[indexPath.row];
-        break;
+            monster = (Monster *)self.smallMonsters[indexPath.row];
+            break;
         case 1:
-        monster = (Monster *)self.largeMonsters[indexPath.row];
-        break;
+            monster = (Monster *)self.largeMonsters[indexPath.row];
+            break;
     }
     cell.monsterName = monster.name;
     [cell displayContents];

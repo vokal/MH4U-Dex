@@ -27,7 +27,7 @@
     [super viewDidLoad];
     
     NSError *fetchError = nil;
-    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:@"Item"];
+    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:[Item entityName]];
     NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:@"name" ascending:YES];
     [fetchRequest setSortDescriptors:@[sortDescriptor]];
     self.items = [self.managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];

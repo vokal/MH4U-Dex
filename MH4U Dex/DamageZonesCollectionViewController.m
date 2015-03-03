@@ -12,10 +12,15 @@
 
 #import "DamageZoneCell.h"
 #import "DamageZone.h"
+//
+//typedef NS_ENUM(NSUInteger, SectionConstants) {
+//    foo = 0,
+//    bar
+//};
 
 @interface DamageZonesCollectionViewController ()
 
-@property (weak, nonatomic) IBOutlet UICollectionViewFlowLayout *flowLayout;
+@property (nonatomic, weak) IBOutlet UICollectionViewFlowLayout *flowLayout;
 @property (nonatomic, strong) NSArray *damageZones;
 
 @end
@@ -27,7 +32,7 @@
     [super viewDidLoad];
     self.flowLayout.itemSize = CGSizeMake(CGRectGetWidth(self.collectionView.bounds), 40.0f);
     NSError *fetchError = nil;
-    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:@"DamageZone"];
+    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:[DamageZone entityName]];
     NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:@"id" ascending:YES];
     NSPredicate *predicate = [NSPredicate predicateWithFormat:@"%K == %@", @"monsterName", self.monsterName];
     [fetchRequest setPredicate:predicate];
@@ -44,48 +49,26 @@
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-    if (section == 0) {
-        return 1;
-    } else {
-        return self.damageZones.count;
+    switch (section) {
+        case 0:
+            return 1;
+        default:
+            return self.damageZones.count;
     }
-    return 0;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     DamageZoneCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:NSStringFromClass([DamageZoneCell class]) forIndexPath:indexPath];
-    
-    if (indexPath.section == 0) {
-        cell.bodyPart = @"Body Part";
-        cell.extract = @"Extract";
-        cell.cut = -1;
-        cell.impact = -1;
-        cell.shot = -1;
-        cell.ko = -1;
-        cell.fire = -1;
-        cell.ice = -1;
-        cell.thunder = -1;
-        cell.water = -1;
-        cell.dragon = -1;
-        [cell displayContents];
-    } else {
-        // Change the cell's label
-        DamageZone *damageZone = (DamageZone *)self.damageZones[indexPath.row];
-        cell.bodyPart = damageZone.bodyPart;
-        cell.cut = damageZone.cutValue;
-        cell.impact = damageZone.impactValue;
-        cell.shot = damageZone.shotValue;
-        cell.ko = damageZone.koValue;
-        cell.extract = damageZone.extract;
-        cell.fire = damageZone.fireValue;
-        cell.ice = damageZone.iceValue;
-        cell.thunder = damageZone.thunderValue;
-        cell.water = damageZone.waterValue;
-        cell.dragon = damageZone.dragonValue;
-        [cell displayContents];
+    DamageZone *damageZone = (DamageZone *)self.damageZones[indexPath.row];
+    switch (indexPath.section) {
+        case 0:
+            // Don't do anything for the first cell.
+            break;
+        default:
+            // Change the cell's label
+            [cell displayContentsWithDamageZone:damageZone];
     }
-    
     return cell;
 }
 

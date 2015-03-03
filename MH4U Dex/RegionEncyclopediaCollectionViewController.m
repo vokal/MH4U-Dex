@@ -12,6 +12,8 @@
 
 #import <CoreData/CoreData.h>
 
+#import "Region.h"
+
 @interface RegionEncyclopediaCollectionViewController ()
 
 @property (nonatomic, strong) NSArray *regions;
@@ -27,7 +29,7 @@
     
     
     NSError *fetchError = nil;
-    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:@"Region"];
+    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:[Region entityName]];
     NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:@"id" ascending:YES];
     [fetchRequest setSortDescriptors:@[sortDescriptor]];
     self.regions = [self.managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];

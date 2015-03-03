@@ -8,20 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+#import "DamageZone.h"
+
 @interface DamageZoneCell : UICollectionViewCell
 
-@property (nonatomic, strong) NSString *bodyPart;
-@property (nonatomic, assign) NSInteger cut;
-@property (nonatomic, assign) NSInteger impact;
-@property (nonatomic, assign) NSInteger shot;
-@property (nonatomic, assign) NSInteger ko;
-@property (nonatomic, strong) NSString *extract;
-@property (nonatomic, assign) NSInteger fire;
-@property (nonatomic, assign) NSInteger water;
-@property (nonatomic, assign) NSInteger thunder;
-@property (nonatomic, assign) NSInteger ice;
-@property (nonatomic, assign) NSInteger dragon;
-
-- (void)displayContents;
+- (void)displayContentsWithDamageZone:(DamageZone *)damageZone;
 
 @end

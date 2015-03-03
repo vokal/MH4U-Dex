@@ -33,12 +33,12 @@
 {
     switch (segmentedControl.selectedSegmentIndex) {
         case 0:
-            [self.monsterSourceSubView setHidden:NO];
-            [self.areaSourceSubView setHidden:YES];
+            self.monsterSourceSubView.hidden = NO;
+            self.areaSourceSubView.hidden = YES;
             break;
         case 1:
-            [self.monsterSourceSubView setHidden:YES];
-            [self.areaSourceSubView setHidden:NO];
+            self.monsterSourceSubView.hidden = YES;
+            self.areaSourceSubView.hidden = NO;
             break;
         default:
             break;

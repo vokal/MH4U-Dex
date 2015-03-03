@@ -27,12 +27,12 @@
 {
     [super viewDidLoad];
     NSError *fetchError = nil;
-    NSFetchRequest *monsterFetchRequest = [[NSFetchRequest alloc] initWithEntityName:@"Monster"];
+    NSFetchRequest *monsterFetchRequest = [[NSFetchRequest alloc] initWithEntityName:[Monster entityName]];
     NSPredicate *monsterPredicate = [NSPredicate predicateWithFormat:@"%K == %@", @"name", self.monster];
     [monsterFetchRequest setPredicate:monsterPredicate];
     Monster *monster = (Monster *)[self.managedObjectContext executeFetchRequest:monsterFetchRequest error:&fetchError].firstObject;
     
-    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:@"MonsterDrop"];
+    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:[MonsterDrop entityName]];
     NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:@"method" ascending:YES];
     NSPredicate *predicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterDropRelationships.monsterSource, monster];
     [fetchRequest setPredicate:predicate];

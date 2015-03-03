@@ -32,12 +32,12 @@
     [super viewDidLoad];
     
     NSError *fetchError = nil;
-    NSFetchRequest *itemFetchRequest = [[NSFetchRequest alloc] initWithEntityName:@"Item"];
+    NSFetchRequest *itemFetchRequest = [[NSFetchRequest alloc] initWithEntityName:[Item entityName]];
     NSPredicate *itemPredicate = [NSPredicate predicateWithFormat:@"%K == %@", @"name", self.itemName];
     [itemFetchRequest setPredicate:itemPredicate];
     Item *item = (Item *)[self.managedObjectContext executeFetchRequest:itemFetchRequest error:&fetchError].firstObject;
     
-    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:@"AreaDrop"];
+    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:[AreaDrop entityName]];
     NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:@"idDecimalString" ascending:YES];
     NSPredicate *predicate = [NSPredicate predicateWithFormat:@"%K == %@", AreaDropRelationships.item, item];
     [fetchRequest setPredicate:predicate];
@@ -69,11 +69,10 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    ItemAreaSourceTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([ItemAreaSourceTableViewCell class])];
+    ItemAreaSourceTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([ItemAreaSourceTableViewCell class]) forIndexPath:indexPath];
     AreaDrop *drop = self.sources[indexPath.row];
     cell.method = drop.method;
-    Area *area = [drop valueForKey:AreaDropRelationships.area];
-    cell.sourceName = area.combinedName;
+    cell.sourceName = drop.area.combinedName;
     [cell displayContents];
     return cell;
 }

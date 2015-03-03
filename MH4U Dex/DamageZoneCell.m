@@ -26,11 +26,11 @@
 
 @implementation DamageZoneCell
 
-- (void)displayContents
+- (void)displayContentsWithDamageZone:(DamageZone *)damageZone
 {
-    self.bodyPartLabel.text = self.bodyPart;
-    self.extractLabel.text = self.extract;
-    if ([self.bodyPart isEqualToString:@"Body Part"]) {
+    self.bodyPartLabel.text = damageZone.bodyPart;
+    self.extractLabel.text = damageZone.extract;
+    if ([damageZone.bodyPart isEqualToString:@"Body Part"]) {
         // This is the template.
         self.cutLabel.text = @"Cut";
         self.impactLabel.text = @"Impact";
@@ -42,15 +42,15 @@
         self.waterLabel.text = @"Water";
         self.thunderLabel.text = @"Thunder";
     } else {
-        self.cutLabel.text = [NSString stringWithFormat:@"%lu", (unsigned long)self.cut];
-        self.impactLabel.text = [NSString stringWithFormat:@"%lu", (unsigned long)self.impact];
-        self.shotLabel.text = [NSString stringWithFormat:@"%lu", (unsigned long)self.shot];
-        self.fireLabel.text = [NSString stringWithFormat:@"%lu", (unsigned long)self.fire];
-        self.waterLabel.text = [NSString stringWithFormat:@"%lu", (unsigned long)self.water];
-        self.thunderLabel.text = [NSString stringWithFormat:@"%lu", (unsigned long)self.thunder];
-        self.iceLabel.text = [NSString stringWithFormat:@"%lu", (unsigned long)self.ice];
-        self.dragonLabel.text = [NSString stringWithFormat:@"%lu", (unsigned long)self.dragon];
-        self.koLabel.text = [NSString stringWithFormat:@"%lu", (unsigned long)self.ko];
+        self.cutLabel.text = [NSString stringWithFormat:@"%@", damageZone.cut];
+        self.impactLabel.text = [NSString stringWithFormat:@"%@", damageZone.impact];
+        self.shotLabel.text = [NSString stringWithFormat:@"%@", damageZone.shot];
+        self.fireLabel.text = [NSString stringWithFormat:@"%@", damageZone.fire];
+        self.waterLabel.text = [NSString stringWithFormat:@"%@", damageZone.water];
+        self.thunderLabel.text = [NSString stringWithFormat:@"%@", damageZone.thunder];
+        self.iceLabel.text = [NSString stringWithFormat:@"%@", damageZone.ice];
+        self.dragonLabel.text = [NSString stringWithFormat:@"%@", damageZone.dragon];
+        self.koLabel.text = [NSString stringWithFormat:@"%@", damageZone.ko];
     }
 }
 

@@ -31,12 +31,12 @@
     [super viewDidLoad];
     
     NSError *fetchError = nil;
-    NSFetchRequest *itemFetchRequest = [[NSFetchRequest alloc] initWithEntityName:@"Item"];
+    NSFetchRequest *itemFetchRequest = [[NSFetchRequest alloc] initWithEntityName:[Item entityName]];
     NSPredicate *itemPredicate = [NSPredicate predicateWithFormat:@"%K == %@", @"name", self.itemName];
     [itemFetchRequest setPredicate:itemPredicate];
     Item *item = (Item *)[self.managedObjectContext executeFetchRequest:itemFetchRequest error:&fetchError].firstObject;
     
-    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:@"MonsterDrop"];
+    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:[MonsterDrop entityName]];
     NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:@"id" ascending:YES];
     NSPredicate *predicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterDropRelationships.item, item];
     [fetchRequest setPredicate:predicate];
@@ -46,7 +46,7 @@
     // If the fetch failed (most likely because the item cannot be found from any monsters) ...
     if (!self.sources) {
         // Set sources to empty.
-        self.sources = [NSArray arrayWithObjects:nil];
+        self.sources = @[];
     }
 }
 
