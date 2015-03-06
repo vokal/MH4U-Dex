@@ -13,8 +13,6 @@
 
 @interface AppDelegate ()
 
-@property (nonatomic, strong) CoreDataController *coreDataController;
-
 @end
 
 @implementation AppDelegate
@@ -22,14 +20,14 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     NSLog(@"Loading Data");
-    self.coreDataController = [[CoreDataController alloc] init];
-    [self.coreDataController loadMonsterData];
-    [self.coreDataController loadMonsterDropData];
-    [self.coreDataController loadRegionData];
+    CoreDataController *coreDataController = [CoreDataController sharedCDController];
+    [coreDataController loadMonsterData];
+    [coreDataController loadMonsterDropData];
+    [coreDataController loadRegionData];
     NSLog(@"Data loaded.");
     UINavigationController *rootViewController = (UINavigationController *)self.window.rootViewController;
     HomeViewController *homeViewController = (HomeViewController *)[rootViewController viewControllers][0];
-    homeViewController.managedObjectContext = self.coreDataController.managedObjectContext;
+    homeViewController.managedObjectContext = coreDataController.managedObjectContext;
     return YES;
 }
 
@@ -37,7 +35,7 @@
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     // Saves changes in the application's managed object context before the application terminates.
-    [self.coreDataController saveContext];
+    [[CoreDataController sharedCDController] saveContext];
 }
 
 @end

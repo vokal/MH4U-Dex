@@ -11,6 +11,8 @@
 
 @interface CoreDataController : NSObject
 
++ (CoreDataController *)sharedCDController;
+
 - (void)loadMonsterData;
 - (void)loadMonsterDropData;
 - (void)loadRegionData;

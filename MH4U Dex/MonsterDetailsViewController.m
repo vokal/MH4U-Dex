@@ -10,6 +10,13 @@
 #import "MonsterOverviewViewController.h"
 #import "MonsterLowRankTableViewController.h"
 
+typedef NS_ENUM(NSInteger, MonsterSegmentedControlPage) {
+    Overview = 0,
+    LowRank = 1,
+    
+    MonsterSegmentedControlCount
+};
+
 @interface MonsterDetailsViewController ()
 
 @property (nonatomic, weak) IBOutlet UIView *overviewSubView;
@@ -28,12 +35,12 @@
 - (IBAction)segmentedControlChanged:(UISegmentedControl *)segmentedControl
 {
     switch (segmentedControl.selectedSegmentIndex) {
-        case 0:
+        case Overview:
             [self.overviewSubView setHidden:NO];
             [self.lowRankSubView setHidden:YES];
             self.navigationItem.title = [NSString stringWithFormat:@"%@ Overview", self.monster];
             break;
-        case 1:
+        case LowRank:
             [self.overviewSubView setHidden:YES];
             [self.lowRankSubView setHidden:NO];
             self.navigationItem.title = [NSString stringWithFormat:@"%@ LR Drops", self.monster];

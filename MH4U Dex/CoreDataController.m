@@ -16,6 +16,14 @@
 #import "Region.h"
 #import "Area.h"
 
+@interface CoreDataController ()
+
+@property (readwrite, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
+@property (readwrite, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
+@property (readwrite, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
+
+@end
+
 @implementation CoreDataController
 
 NSString *const JSON = @"json";
@@ -27,6 +35,8 @@ NSString *const ItemNameKey = @"name";
 #pragma mark - Monster Constants
 
 NSString *const MonsterIDKey = @"id";
+NSString *const MonstersFileName = @"monsters";
+NSString *const MonsterDamageZonesFileName = @"damageZones";
 
 #pragma mark - Area Constants
 
@@ -64,12 +74,24 @@ NSString *const AreaDropQuantityKey = @"number";
 NSString *const AreaDropItemNameKey = @"item";
 NSString *const AreaDropIDDecimalStringKey = @"idDecimalString";
 
+#pragma mark - Singleton Method
+
++ (CoreDataController *)sharedCDController
+{
+    static CoreDataController *sharedInstance = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        sharedInstance = [[CoreDataController alloc] init];
+    });
+    return sharedInstance;
+}
+
 #pragma mark - Initial Data Loading
 
 - (void)loadMonsterData
 {
     // Because monsters are added first, there are no relationships to set up, so we can hydrate them.
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"monsters" ofType:JSON];
+    NSString *path = [[NSBundle mainBundle] pathForResource:MonstersFileName ofType:JSON];
     NSDictionary *attributes = @{
                                  @"id":@"_id",
                                  @"monster_class":@"class",
@@ -81,7 +103,7 @@ NSString *const AreaDropIDDecimalStringKey = @"idDecimalString";
                                  @"url":@"url"
                                  };
     [self.managedObjectContext hydrateStoreWithJSONAtPath:path attributeMappings:attributes forEntityName:[Monster entityName]];
-    path = [[NSBundle mainBundle] pathForResource:@"damageZones" ofType:JSON];
+    path = [[NSBundle mainBundle] pathForResource:MonsterDamageZonesFileName ofType:JSON];
     attributes = @{
                    @"id":@"_id",
                    @"monster_id":@"monster_id",
@@ -343,10 +365,6 @@ NSString *const AreaDropIDDecimalStringKey = @"idDecimalString";
 
 #pragma mark - Boilerplate Core Data Code
 
-@synthesize managedObjectContext = _managedObjectContext;
-@synthesize managedObjectModel = _managedObjectModel;
-@synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
-
 - (NSManagedObjectModel *)managedObjectModel
 {
     // The managed object model for the application. It is a fatal error for the application not to be able to find and load its model.
@@ -374,10 +392,11 @@ NSString *const AreaDropIDDecimalStringKey = @"idDecimalString";
     if (![_persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:storeURL options:nil error:&error]) {
         // TODO: fix all of this later.
         // Report any error we got.
-        NSMutableDictionary *dict = [NSMutableDictionary dictionary];
-        dict[NSLocalizedDescriptionKey] = @"Failed to initialize the application's saved data";
-        dict[NSLocalizedFailureReasonErrorKey] = failureReason;
-        dict[NSUnderlyingErrorKey] = error;
+        NSDictionary *dict = @{
+                               NSLocalizedDescriptionKey: @"Failed to initialize the application's saved data",
+                               NSLocalizedFailureReasonErrorKey: failureReason,
+                               NSUnderlyingErrorKey: error,
+                               };
         error = [NSError errorWithDomain:@"YOUR_ERROR_DOMAIN" code:9999 userInfo:dict];
         // Replace this with code to handle the error appropriately.
         // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.

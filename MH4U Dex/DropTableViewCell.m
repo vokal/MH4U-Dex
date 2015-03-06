@@ -23,8 +23,8 @@
 {
     self.itemNameLabel.text = self.itemName;
     self.sourceLabel.text = self.method;
-    self.quantityLabel.text = [NSString stringWithFormat:@"#: %d", self.quantity];
-    self.percentLabel.text = [NSString stringWithFormat:@"%d%%", self.percent];
+    self.quantityLabel.text = [NSString stringWithFormat:@"#: %@", @(self.quantity)];
+    self.percentLabel.text = [NSString stringWithFormat:@"%@%%", @(self.percent)];
 }
 
 @end

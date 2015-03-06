@@ -11,6 +11,13 @@
 #import "ItemMonsterSourcesTableViewController.h"
 #import "ItemAreaSourcesTableViewController.h"
 
+typedef NS_ENUM(NSInteger, ItemSegmentedControlPage) {
+    MonsterSources = 0,
+    AreaSources = 1,
+    
+    ItemSegmentedControlCount
+};
+
 @interface ItemContainerViewController ()
 
 @property (weak, nonatomic) IBOutlet UIView *monsterSourceSubView;
@@ -32,11 +39,11 @@
 - (IBAction)segmentedControlChanged:(UISegmentedControl *)segmentedControl
 {
     switch (segmentedControl.selectedSegmentIndex) {
-        case 0:
+        case MonsterSources:
             self.monsterSourceSubView.hidden = NO;
             self.areaSourceSubView.hidden = YES;
             break;
-        case 1:
+        case AreaSources:
             self.monsterSourceSubView.hidden = YES;
             self.areaSourceSubView.hidden = NO;
             break;

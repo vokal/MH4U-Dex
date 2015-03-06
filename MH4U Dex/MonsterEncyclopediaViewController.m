@@ -15,6 +15,13 @@
 #import "MonsterOverviewViewController.h"
 #import "MonsterDetailsViewController.h"
 
+typedef NS_ENUM(NSInteger, MonsterEncyclopediaSections) {
+    SmallMonsterSection = 0,
+    LargeMonsterSection = 1,
+    
+    MonsterEncyclopediaSectionCount
+};
+
 @interface MonsterEncyclopediaViewController ()
 
 @property (nonatomic, strong) NSArray *smallMonsters;
@@ -64,15 +71,15 @@
 
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView
 {
-    return 2;
+    return MonsterEncyclopediaSectionCount;
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
     switch (section) {
-        case 0:
+        case SmallMonsterSection:
             return self.smallMonsters.count;
-        case 1:
+        case LargeMonsterSection:
             return self.largeMonsters.count;
         default:
             return 0;
@@ -85,10 +92,10 @@
                                                                               forIndexPath:indexPath];
     Monster *monster;
     switch (indexPath.section) {
-        case 0:
+        case SmallMonsterSection:
             monster = (Monster *)self.smallMonsters[indexPath.row];
             break;
-        case 1:
+        case LargeMonsterSection:
             monster = (Monster *)self.largeMonsters[indexPath.row];
             break;
     }

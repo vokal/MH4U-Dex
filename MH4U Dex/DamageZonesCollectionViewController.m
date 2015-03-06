@@ -12,11 +12,13 @@
 
 #import "DamageZoneCell.h"
 #import "DamageZone.h"
-//
-//typedef NS_ENUM(NSUInteger, SectionConstants) {
-//    foo = 0,
-//    bar
-//};
+
+typedef NS_ENUM(NSInteger, DamageZoneSections) {
+    DamageZoneLegendSection = 0,
+    DamageZoneListSection = 1,
+    
+    DamageZoneSectionCount
+};
 
 @interface DamageZonesCollectionViewController ()
 
@@ -44,13 +46,13 @@
 
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView
 {
-    return 2;
+    return DamageZoneSectionCount;
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
     switch (section) {
-        case 0:
+        case DamageZoneLegendSection:
             return 1;
         default:
             return self.damageZones.count;
@@ -62,7 +64,7 @@
     DamageZoneCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:NSStringFromClass([DamageZoneCell class]) forIndexPath:indexPath];
     DamageZone *damageZone = (DamageZone *)self.damageZones[indexPath.row];
     switch (indexPath.section) {
-        case 0:
+        case DamageZoneLegendSection:
             // Don't do anything for the first cell.
             break;
         default:
