@@ -22,12 +22,11 @@
     NSString *imageName = [NSString stringWithFormat:@"%@-icon", [self.monsterName lowercaseString]];
     UIImage *image = [UIImage imageNamed:imageName];
     if (image) {
-        self.monsterNameLabel.text = @"";
         self.monsterImageView.image = image;
     } else {
         self.monsterImageView.image = nil;
-        self.monsterNameLabel.text = self.monsterName;
     }
+    self.monsterNameLabel.text = self.monsterName;
 }
 
 @end

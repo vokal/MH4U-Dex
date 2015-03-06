@@ -12,6 +12,7 @@
 
 #import <CoreData/CoreData.h>
 
+#import "RegionContainerViewController.h"
 #import "Region.h"
 
 @interface RegionEncyclopediaCollectionViewController ()
@@ -56,10 +57,23 @@
     RegionEncylcopediaCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:NSStringFromClass([RegionEncylcopediaCollectionViewCell class]) forIndexPath:indexPath];
     
     // Configure the cell
-    cell.backgroundColor = [UIColor blueColor];
+    Region *region = self.regions[indexPath.row];
+    cell.regionName = region.name;
+    cell.regionKeyName = region.keyName;
+    [cell displayContents];
     return cell;
 }
 
-#pragma mark <UICollectionViewDelegate>
+#pragma mark - Navigation
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([segue.identifier isEqualToString:@"showRegionDetails"]) {
+        RegionContainerViewController *regionVC = (RegionContainerViewController *)segue.destinationViewController;
+        regionVC.managedObjectContext = self.managedObjectContext;
+        regionVC.regionName = [sender regionName];
+        regionVC.regionKeyName = [sender regionKeyName];
+    }
+}
 
 @end

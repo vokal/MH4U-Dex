@@ -10,4 +10,9 @@
 
 @interface RegionEncylcopediaCollectionViewCell : UICollectionViewCell
 
+@property (nonatomic, strong) NSString *regionName;
+@property (nonatomic, strong) NSString *regionKeyName;
+
+- (void)displayContents;
+
 @end

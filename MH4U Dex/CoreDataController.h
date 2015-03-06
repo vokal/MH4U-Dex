@@ -18,6 +18,8 @@
 - (void)loadRegionData;
 - (BOOL)attemptSaveContext;
 
+- (NSManagedObject *)getUniqueEntityWithEntityName:(NSString *)entityName withPredicate:(NSPredicate *)predicate;
+
 #pragma mark - Boilerplate Core Data Code
 
 @property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
