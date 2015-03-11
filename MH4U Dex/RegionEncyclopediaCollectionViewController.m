@@ -12,6 +12,8 @@
 
 #import <CoreData/CoreData.h>
 
+#import "CoreDataController.h"
+
 #import "RegionContainerViewController.h"
 #import "Region.h"
 
@@ -73,6 +75,10 @@
         regionVC.managedObjectContext = self.managedObjectContext;
         regionVC.regionName = [sender regionName];
         regionVC.regionKeyName = [sender regionKeyName];
+        
+        CoreDataController *coreDataController = [CoreDataController sharedCDController];
+        NSPredicate *predicate = [NSPredicate predicateWithFormat:@"%K == %@", @"name", [sender regionName]];
+        regionVC.region = (Region *)[coreDataController getUniqueEntityWithEntityName:[Region entityName] withPredicate:predicate];
     }
 }
 

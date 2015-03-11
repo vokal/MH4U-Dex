@@ -8,7 +8,7 @@
 
 #import "ItemAreaSourcesTableViewController.h"
 
-#import "RegionEncyclopediaCollectionViewController.h"
+#import "RegionContainerViewController.h"
 
 #import "Item.h"
 #import "Area.h"
@@ -79,10 +79,12 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    // ToDo: chage to specific area/region once area/region views are in.
     UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    RegionEncyclopediaCollectionViewController *regionVC = [storyBoard instantiateViewControllerWithIdentifier:@"RegionEncyclopediaCollectionViewController"];
-    regionVC.managedObjectContext = self.managedObjectContext;
+    AreaDrop *drop = self.sources[indexPath.row];
+    RegionContainerViewController *regionVC = [storyBoard instantiateViewControllerWithIdentifier:@"RegionContainerViewController"];
+    regionVC.region = drop.area.region;
+    regionVC.regionName = regionVC.region.name;
+    regionVC.regionKeyName = regionVC.region.keyName;
     [self.navigationController pushViewController:regionVC animated:YES];
 }
 

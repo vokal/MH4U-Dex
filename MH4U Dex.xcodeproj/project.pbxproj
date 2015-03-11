@@ -75,6 +75,7 @@
 		E49958131A83D28E00799BBE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E49958121A83D28E00799BBE /* Images.xcassets */; };
 		E49958161A83D28E00799BBE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E49958141A83D28E00799BBE /* LaunchScreen.xib */; };
 		E49958221A83D28E00799BBE /* MH4U_DexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E49958211A83D28E00799BBE /* MH4U_DexTests.m */; };
+		E4A72CE71AB0A75B006D338A /* AreaDropTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A72CE61AB0A75B006D338A /* AreaDropTableViewCell.m */; };
 		E4A7698D1A85207D00AC93DA /* MonsterEncyclopediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A7698C1A85207D00AC93DA /* MonsterEncyclopediaViewController.m */; };
 		E4A769921A8521B100AC93DA /* MonsterEncyclopediaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A769911A8521B100AC93DA /* MonsterEncyclopediaCell.m */; };
 		E4C76B341A85638D00AD753B /* MonsterOverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C76B331A85638D00AD753B /* MonsterOverviewViewController.m */; };
@@ -202,6 +203,8 @@
 		E499581B1A83D28E00799BBE /* MH4U DexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MH4U DexTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E49958201A83D28E00799BBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E49958211A83D28E00799BBE /* MH4U_DexTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MH4U_DexTests.m; sourceTree = "<group>"; };
+		E4A72CE51AB0A75B006D338A /* AreaDropTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AreaDropTableViewCell.h; sourceTree = "<group>"; };
+		E4A72CE61AB0A75B006D338A /* AreaDropTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AreaDropTableViewCell.m; sourceTree = "<group>"; };
 		E4A7698B1A85207D00AC93DA /* MonsterEncyclopediaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonsterEncyclopediaViewController.h; sourceTree = "<group>"; };
 		E4A7698C1A85207D00AC93DA /* MonsterEncyclopediaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonsterEncyclopediaViewController.m; sourceTree = "<group>"; };
 		E4A769901A8521B100AC93DA /* MonsterEncyclopediaCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonsterEncyclopediaCell.h; sourceTree = "<group>"; };
@@ -476,6 +479,8 @@
 				E4A769911A8521B100AC93DA /* MonsterEncyclopediaCell.m */,
 				E471BE331A979F060076CBD7 /* RegionEncylcopediaCollectionViewCell.h */,
 				E471BE341A979F060076CBD7 /* RegionEncylcopediaCollectionViewCell.m */,
+				E4A72CE51AB0A75B006D338A /* AreaDropTableViewCell.h */,
+				E4A72CE61AB0A75B006D338A /* AreaDropTableViewCell.m */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -750,6 +755,7 @@
 				E471BE3F1A979FFE0076CBD7 /* _Area.m in Sources */,
 				E4456EAD1A895D7600FCC7DC /* DamageZonesCollectionViewController.m in Sources */,
 				E4C76B341A85638D00AD753B /* MonsterOverviewViewController.m in Sources */,
+				E4A72CE71AB0A75B006D338A /* AreaDropTableViewCell.m in Sources */,
 				E434F3811A83F5CA004C10BF /* Skilltree.m in Sources */,
 				E49958051A83D28E00799BBE /* main.m in Sources */,
 				E434F3711A83F5CA004C10BF /* _Decoration.m in Sources */,

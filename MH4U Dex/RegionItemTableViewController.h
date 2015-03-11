@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Region.h"
 
 @interface RegionItemTableViewController : UITableViewController
 
