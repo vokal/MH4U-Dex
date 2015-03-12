@@ -21,6 +21,7 @@
 @interface RegionItemTableViewController ()
 
 @property (nonatomic, strong) NSArray *areaArray;
+@property (nonatomic, strong) NSMutableDictionary *areaDropsArray;
 
 @end
 
@@ -39,6 +40,12 @@
     [areaFetchRequest setPredicate:compoundPredicate];
     [areaFetchRequest setSortDescriptors:@[areaSortDescriptor]];
     self.areaArray = [coreDataController.managedObjectContext executeFetchRequest:areaFetchRequest error:&fetchError];
+    self.areaDropsArray = [NSMutableDictionary dictionary];
+    for (Area *area in self.areaArray) {
+        NSSortDescriptor *dropSortDescriptor = [NSSortDescriptor sortDescriptorWithKey:AreaDropAttributes.idDecimalString ascending:YES];
+        NSArray *dropsArray = [area.drop sortedArrayUsingDescriptors:@[dropSortDescriptor]];
+        [self.areaDropsArray setObject:dropsArray forKey:area.combinedName];
+    }
 }
 
 #pragma mark - Table view data source
@@ -51,18 +58,16 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     Area *area = self.areaArray[section];
-    NSSet *drops = area.drop;
-    return drops.count;
+    return area.drop.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     Area *area = self.areaArray[indexPath.section];
-    NSSortDescriptor *dropSortDescriptor = [NSSortDescriptor sortDescriptorWithKey:AreaDropAttributes.idDecimalString ascending:YES];
-    NSArray *dropsArray = [area.drop sortedArrayUsingDescriptors:@[dropSortDescriptor]];
-    AreaDrop *drop = dropsArray[indexPath.row];
+    NSArray *dropsArray = self.areaDropsArray[area.combinedName];
+    AreaDrop *areaDrop = dropsArray[indexPath.row];
     AreaDropTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"AreaDropTableViewCell"];
-    [cell displayContentsWithAreaDrop:drop];
+    [cell displayContentsWithAreaDrop:areaDrop];
     return cell;
 }
 
