@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>folder_path</key>
+		<string>MH4U Dex/Model/MH4U_Dex.xcdatamodeld</string>
+		<key>script_path</key>
+		<string>scripts/mogenerator.sh</string>
+		<key>should_recurse</key>
+		<false/>
+	</dict>
+</array>
+</plist>

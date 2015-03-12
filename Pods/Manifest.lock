@@ -1,0 +1,10 @@
+PODS:
+  - NSManagedObjectContext-Hydrate (1.0.4)
+
+DEPENDENCIES:
+  - NSManagedObjectContext-Hydrate (~> 1.0.3)
+
+SPEC CHECKSUMS:
+  NSManagedObjectContext-Hydrate: efb82fdc5958b1c2e0c8bedb4ce8cfa57d335a79
+
+COCOAPODS: 0.35.0
