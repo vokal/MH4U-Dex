@@ -78,8 +78,7 @@
     CoreDataController *coreDataController = [CoreDataController sharedCDController];
     itemVC.managedObjectContext = coreDataController.managedObjectContext;
     Area *area = self.areaArray[indexPath.section];
-    NSSortDescriptor *dropSortDescriptor = [NSSortDescriptor sortDescriptorWithKey:AreaDropAttributes.idDecimalString ascending:YES];
-    NSArray *dropsArray = [area.drop sortedArrayUsingDescriptors:@[dropSortDescriptor]];
+    NSArray *dropsArray = self.areaDropsArray[area.combinedName];
     AreaDrop *drop = dropsArray[indexPath.row];
     itemVC.itemName = drop.item.name;
     [self.navigationController pushViewController:itemVC animated:YES];
