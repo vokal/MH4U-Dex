@@ -89,6 +89,10 @@
 		E4CE45D61A97E34D0059C056 /* primal_forest_drops.json in Resources */ = {isa = PBXBuildFile; fileRef = E4CE45D51A97E34D0059C056 /* primal_forest_drops.json */; };
 		E4CE45D81A97E6F80059C056 /* frozen_seaway_drops.json in Resources */ = {isa = PBXBuildFile; fileRef = E4CE45D71A97E6F80059C056 /* frozen_seaway_drops.json */; };
 		E4E1CA701A8543A000043E9E /* CoreDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E1CA6F1A8543A000043E9E /* CoreDataController.m */; };
+		E4E2127C1AB1FDBE00320E39 /* volcanic_hollow_drops.json in Resources */ = {isa = PBXBuildFile; fileRef = E4E2127B1AB1FDBE00320E39 /* volcanic_hollow_drops.json */; };
+		E4E2127E1AB1FE1200320E39 /* heavens_mount_drops.json in Resources */ = {isa = PBXBuildFile; fileRef = E4E2127D1AB1FE1200320E39 /* heavens_mount_drops.json */; };
+		E4E212851AB1FE7E00320E39 /* dunes_day_drops.json in Resources */ = {isa = PBXBuildFile; fileRef = E4E212831AB1FE7E00320E39 /* dunes_day_drops.json */; };
+		E4E212861AB1FE7E00320E39 /* dunes_night_drops.json in Resources */ = {isa = PBXBuildFile; fileRef = E4E212841AB1FE7E00320E39 /* dunes_night_drops.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -228,6 +232,10 @@
 		E4CE45D71A97E6F80059C056 /* frozen_seaway_drops.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = frozen_seaway_drops.json; sourceTree = "<group>"; };
 		E4E1CA6E1A8543A000043E9E /* CoreDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataController.h; sourceTree = "<group>"; };
 		E4E1CA6F1A8543A000043E9E /* CoreDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataController.m; sourceTree = "<group>"; };
+		E4E2127B1AB1FDBE00320E39 /* volcanic_hollow_drops.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = volcanic_hollow_drops.json; sourceTree = "<group>"; };
+		E4E2127D1AB1FE1200320E39 /* heavens_mount_drops.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = heavens_mount_drops.json; sourceTree = "<group>"; };
+		E4E212831AB1FE7E00320E39 /* dunes_day_drops.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dunes_day_drops.json; sourceTree = "<group>"; };
+		E4E212841AB1FE7E00320E39 /* dunes_night_drops.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dunes_night_drops.json; sourceTree = "<group>"; };
 		EFF686F2CEDA0CD8DF2150B1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -358,6 +366,10 @@
 				E4CE45D31A97E03A0059C056 /* sunken_hollow_drops.json */,
 				E4CE45D51A97E34D0059C056 /* primal_forest_drops.json */,
 				E4CE45D71A97E6F80059C056 /* frozen_seaway_drops.json */,
+				E4E2127B1AB1FDBE00320E39 /* volcanic_hollow_drops.json */,
+				E4E2127D1AB1FE1200320E39 /* heavens_mount_drops.json */,
+				E4E212831AB1FE7E00320E39 /* dunes_day_drops.json */,
+				E4E212841AB1FE7E00320E39 /* dunes_night_drops.json */,
 			);
 			name = Regions;
 			sourceTree = "<group>";
@@ -620,12 +632,16 @@
 				E4CE45D41A97E03A0059C056 /* sunken_hollow_drops.json in Resources */,
 				E471BE1A1A96456F0076CBD7 /* monsterDrops.json in Resources */,
 				E49958111A83D28E00799BBE /* Main.storyboard in Resources */,
+				E4E2127C1AB1FDBE00320E39 /* volcanic_hollow_drops.json in Resources */,
 				E41C4D1A1A8BBBCB00A2D0CB /* damageZones.json in Resources */,
 				E471BE321A979DF40076CBD7 /* regions.json in Resources */,
 				E471BE2F1A979DAC0076CBD7 /* ancestral_steppe_drops.json in Resources */,
 				E41C4D1C1A8BBF5E00A2D0CB /* monsters.json in Resources */,
+				E4E212851AB1FE7E00320E39 /* dunes_day_drops.json in Resources */,
 				E49958161A83D28E00799BBE /* LaunchScreen.xib in Resources */,
 				E49958131A83D28E00799BBE /* Images.xcassets in Resources */,
+				E4E2127E1AB1FE1200320E39 /* heavens_mount_drops.json in Resources */,
+				E4E212861AB1FE7E00320E39 /* dunes_night_drops.json in Resources */,
 				E4CE45D81A97E6F80059C056 /* frozen_seaway_drops.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

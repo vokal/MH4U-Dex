@@ -1,6 +1,6 @@
 [
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Bitterbug",
     "method":"Insect",
     "node_letter":"A",
@@ -11,7 +11,7 @@
     "_id":"4.1d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Glueglopper",
     "method":"Insect",
     "node_letter":"A",
@@ -22,7 +22,7 @@
     "_id":"4.2d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Mega Fishing Fly",
     "method":"Insect",
     "node_letter":"A",
@@ -33,7 +33,7 @@
     "_id":"4.3d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Stinkhopper",
     "method":"Insect",
     "node_letter":"A",
@@ -44,7 +44,7 @@
     "_id":"4.4d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Insect Husk",
     "method":"Insect",
     "node_letter":"A",
@@ -55,7 +55,7 @@
     "_id":"4.5d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Honey",
     "method":"Gather",
     "node_letter":"B",
@@ -66,7 +66,7 @@
     "_id":"4.6d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Snakebee Larva",
     "method":"Gather",
     "node_letter":"B",
@@ -77,7 +77,7 @@
     "_id":"4.7d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Insect Husk",
     "method":"Gather",
     "node_letter":"B",
@@ -88,7 +88,7 @@
     "_id":"4.8d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Honey",
     "method":"Gather",
     "node_letter":"C",
@@ -99,7 +99,7 @@
     "_id":"4.9d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Honey",
     "method":"Gather",
     "node_letter":"C",
@@ -110,7 +110,7 @@
     "_id":"4.10d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Snakebee Larva",
     "method":"Gather",
     "node_letter":"C",
@@ -121,7 +121,7 @@
     "_id":"4.11d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"B",
@@ -132,7 +132,7 @@
     "_id":"4.12d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Felvine",
     "method":"Gather",
     "node_letter":"B",
@@ -143,7 +143,7 @@
     "_id":"4.13d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Herb",
     "method":"Gather",
     "node_letter":"B",
@@ -154,7 +154,7 @@
     "_id":"4.14d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"B",
@@ -165,7 +165,7 @@
     "_id":"4.15d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Might Seed",
     "method":"Gather",
     "node_letter":"C",
@@ -176,7 +176,7 @@
     "_id":"4.16d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"C",
@@ -187,7 +187,7 @@
     "_id":"4.17d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Sap Plant",
     "method":"Gather",
     "node_letter":"C",
@@ -198,7 +198,7 @@
     "_id":"4.18d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Herb",
     "method":"Gather",
     "node_letter":"C",
@@ -209,7 +209,7 @@
     "_id":"4.19d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"C",
@@ -220,7 +220,7 @@
     "_id":"4.20d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"A",
@@ -231,7 +231,7 @@
     "_id":"4.21d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Might Seed",
     "method":"Gather",
     "node_letter":"A",
@@ -242,7 +242,7 @@
     "_id":"4.22d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Herb",
     "method":"Gather",
     "node_letter":"A",
@@ -253,7 +253,7 @@
     "_id":"4.23d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Sap Plant",
     "method":"Gather",
     "node_letter":"A",
@@ -264,7 +264,7 @@
     "_id":"4.24d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Machalite Ore",
     "method":"Mining",
     "node_letter":"A",
@@ -275,7 +275,7 @@
     "_id":"4.25d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Bloodstone",
     "method":"Mining",
     "node_letter":"A",
@@ -286,7 +286,7 @@
     "_id":"4.26d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Iron Ore",
     "method":"Mining",
     "node_letter":"A",
@@ -297,7 +297,7 @@
     "_id":"4.27d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Mystery Charm",
     "method":"Mining",
     "node_letter":"A",
@@ -308,7 +308,7 @@
     "_id":"4.28d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Whetstone",
     "method":"Mining",
     "node_letter":"A",
@@ -319,7 +319,7 @@
     "_id":"4.29d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Bomberry",
     "method":"Gather",
     "node_letter":"B",
@@ -330,7 +330,7 @@
     "_id":"4.30d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Huskberry",
     "method":"Gather",
     "node_letter":"B",
@@ -341,7 +341,7 @@
     "_id":"4.31d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Paintberry",
     "method":"Gather",
     "node_letter":"B",
@@ -352,7 +352,7 @@
     "_id":"4.32d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Needleberry",
     "method":"Gather",
     "node_letter":"B",
@@ -363,7 +363,7 @@
     "_id":"4.33d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Bomberry",
     "method":"Gather",
     "node_letter":"C",
@@ -374,7 +374,7 @@
     "_id":"4.34d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Huskberry",
     "method":"Gather",
     "node_letter":"C",
@@ -385,7 +385,7 @@
     "_id":"4.35d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Needleberry",
     "method":"Gather",
     "node_letter":"C",
@@ -396,7 +396,7 @@
     "_id":"4.36d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Paintberry",
     "method":"Gather",
     "node_letter":"C",
@@ -407,7 +407,7 @@
     "_id":"4.37d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Bone Husk",
     "method":"Gather",
     "node_letter":"B",
@@ -418,7 +418,7 @@
     "_id":"4.38d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Fossilized Bone",
     "method":"Gather",
     "node_letter":"B",
@@ -429,7 +429,7 @@
     "_id":"4.39d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Bone Husk",
     "method":"Gather",
     "node_letter":"B",
@@ -440,7 +440,7 @@
     "_id":"4.40d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Mystery Bone",
     "method":"Gather",
     "node_letter":"B",
@@ -451,7 +451,7 @@
     "_id":"4.41d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Unknown Skull",
     "method":"Gather",
     "node_letter":"B",
@@ -462,7 +462,7 @@
     "_id":"4.42d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Unknown Skull",
     "method":"Gather",
     "node_letter":"C",
@@ -473,7 +473,7 @@
     "_id":"4.43d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Bone Husk",
     "method":"Gather",
     "node_letter":"C",
@@ -484,7 +484,7 @@
     "_id":"4.44d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Mystery Bone",
     "method":"Gather",
     "node_letter":"C",
@@ -495,7 +495,7 @@
     "_id":"4.45d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Fossilized Bone",
     "method":"Gather",
     "node_letter":"C",
@@ -506,7 +506,7 @@
     "_id":"4.46d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Monster Bone S",
     "method":"Gather",
     "node_letter":"C",
@@ -517,7 +517,7 @@
     "_id":"4.47d"
   },
   {
-    "area":"1",
+    "area":"Area 1",
     "item":"Frog",
     "method":"Gather",
     "node_letter":"A",
@@ -528,7 +528,7 @@
     "_id":"4.48d"
   },
   {
-    "area":"1",
+    "area":"Area 1",
     "item":"Worm",
     "method":"Gather",
     "node_letter":"A",
@@ -539,7 +539,7 @@
     "_id":"4.49d"
   },
   {
-    "area":"1",
+    "area":"Area 1",
     "item":"Insect Husk",
     "method":"Gather",
     "node_letter":"A",
@@ -550,7 +550,7 @@
     "_id":"4.50d"
   },
   {
-    "area":"1",
+    "area":"Area 1",
     "item":"Bomberry",
     "method":"Gather",
     "node_letter":"B",
@@ -561,7 +561,7 @@
     "_id":"4.51d"
   },
   {
-    "area":"1",
+    "area":"Area 1",
     "item":"Huskberry",
     "method":"Gather",
     "node_letter":"B",
@@ -572,7 +572,7 @@
     "_id":"4.52d"
   },
   {
-    "area":"1",
+    "area":"Area 1",
     "item":"Paintberry",
     "method":"Gather",
     "node_letter":"B",
@@ -583,7 +583,7 @@
     "_id":"4.53d"
   },
   {
-    "area":"1",
+    "area":"Area 1",
     "item":"Needleberry",
     "method":"Gather",
     "node_letter":"B",
@@ -594,7 +594,7 @@
     "_id":"4.54d"
   },
   {
-    "area":"1",
+    "area":"Area 1",
     "item":"Bomberry",
     "method":"Gather",
     "node_letter":"C",
@@ -605,7 +605,7 @@
     "_id":"4.55d"
   },
   {
-    "area":"1",
+    "area":"Area 1",
     "item":"Huskberry",
     "method":"Gather",
     "node_letter":"C",
@@ -616,7 +616,7 @@
     "_id":"4.56d"
   },
   {
-    "area":"1",
+    "area":"Area 1",
     "item":"Needleberry",
     "method":"Gather",
     "node_letter":"C",
@@ -627,7 +627,7 @@
     "_id":"4.57d"
   },
   {
-    "area":"1",
+    "area":"Area 1",
     "item":"Paintberry",
     "method":"Gather",
     "node_letter":"C",
@@ -638,7 +638,7 @@
     "_id":"4.58d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Whetstone",
     "method":"Gather",
     "node_letter":"A",
@@ -649,7 +649,7 @@
     "_id":"4.59d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Stone",
     "method":"Gather",
     "node_letter":"A",
@@ -660,7 +660,7 @@
     "_id":"4.60d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Bomberry",
     "method":"Gather",
     "node_letter":"B",
@@ -671,7 +671,7 @@
     "_id":"4.61d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Huskberry",
     "method":"Gather",
     "node_letter":"B",
@@ -682,7 +682,7 @@
     "_id":"4.62d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Paintberry",
     "method":"Gather",
     "node_letter":"B",
@@ -693,7 +693,7 @@
     "_id":"4.63d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Needleberry",
     "method":"Gather",
     "node_letter":"B",
@@ -704,7 +704,7 @@
     "_id":"4.64d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Bomberry",
     "method":"Gather",
     "node_letter":"C",
@@ -715,7 +715,7 @@
     "_id":"4.65d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Huskberry",
     "method":"Gather",
     "node_letter":"C",
@@ -726,7 +726,7 @@
     "_id":"4.66d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Needleberry",
     "method":"Gather",
     "node_letter":"C",
@@ -737,7 +737,7 @@
     "_id":"4.67d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Paintberry",
     "method":"Gather",
     "node_letter":"C",
@@ -748,7 +748,7 @@
     "_id":"4.68d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Scatterfish",
     "method":"Fishing",
     "node_letter":"A",
@@ -759,7 +759,7 @@
     "_id":"4.69d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Speartuna",
     "method":"Fishing",
     "node_letter":"A",
@@ -770,7 +770,7 @@
     "_id":"4.70d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Wanchovy",
     "method":"Fishing",
     "node_letter":"A",
@@ -781,7 +781,7 @@
     "_id":"4.71d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Bomb Arowana",
     "method":"Fishing",
     "node_letter":"A",
@@ -792,7 +792,7 @@
     "_id":"4.72d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Popfish",
     "method":"Fishing",
     "node_letter":"A",
@@ -803,7 +803,7 @@
     "_id":"4.73d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Sleepyfish",
     "method":"Fishing",
     "node_letter":"A",
@@ -814,7 +814,7 @@
     "_id":"4.74d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Gastronome Tuna",
     "method":"Fishing",
     "node_letter":"A",
@@ -825,7 +825,7 @@
     "_id":"4.75d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Goldenfish",
     "method":"Fishing",
     "node_letter":"A",
@@ -836,7 +836,7 @@
     "_id":"4.76d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Small Goldenfish",
     "method":"Fishing",
     "node_letter":"A",
@@ -847,7 +847,7 @@
     "_id":"4.77d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Sushifish",
     "method":"Fishing",
     "node_letter":"A",
@@ -858,7 +858,7 @@
     "_id":"4.78d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Machalite Ore",
     "method":"Mining",
     "node_letter":"A",
@@ -869,7 +869,7 @@
     "_id":"4.79d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Ice Crystal",
     "method":"Mining",
     "node_letter":"A",
@@ -880,7 +880,7 @@
     "_id":"4.80d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Bloodstone",
     "method":"Mining",
     "node_letter":"A",
@@ -891,7 +891,7 @@
     "_id":"4.81d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Aquaglow Jewel",
     "method":"Mining",
     "node_letter":"A",
@@ -902,7 +902,7 @@
     "_id":"4.82d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Stone",
     "method":"Mining",
     "node_letter":"A",
@@ -913,7 +913,7 @@
     "_id":"4.83d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Sunspire Jewel",
     "method":"Mining",
     "node_letter":"A",
@@ -924,7 +924,7 @@
     "_id":"4.84d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"A",
@@ -935,7 +935,7 @@
     "_id":"4.85d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Might Seed",
     "method":"Gather",
     "node_letter":"A",
@@ -946,7 +946,7 @@
     "_id":"4.86d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Herb",
     "method":"Gather",
     "node_letter":"A",
@@ -957,7 +957,7 @@
     "_id":"4.87d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Sap Plant",
     "method":"Gather",
     "node_letter":"A",
@@ -968,7 +968,7 @@
     "_id":"4.88d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Speed Nectar: Ice",
     "method":"Gather",
     "node_letter":"A",
@@ -979,7 +979,7 @@
     "_id":"4.89d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"A",
@@ -990,7 +990,7 @@
     "_id":"4.90d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Insect Husk",
     "method":"Gather",
     "node_letter":"A",
@@ -1001,7 +1001,7 @@
     "_id":"4.91d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Ice Crystal",
     "method":"Mining",
     "node_letter":"B",
@@ -1012,7 +1012,7 @@
     "_id":"4.92d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Machalite Ore",
     "method":"Mining",
     "node_letter":"B",
@@ -1023,7 +1023,7 @@
     "_id":"4.93d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Bloodstone",
     "method":"Mining",
     "node_letter":"B",
@@ -1034,7 +1034,7 @@
     "_id":"4.94d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Aquaglow Jewel",
     "method":"Mining",
     "node_letter":"B",
@@ -1045,7 +1045,7 @@
     "_id":"4.95d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Mystery Charm",
     "method":"Mining",
     "node_letter":"B",
@@ -1056,7 +1056,7 @@
     "_id":"4.96d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Armor Sphere",
     "method":"Mining",
     "node_letter":"B",
@@ -1067,7 +1067,7 @@
     "_id":"4.97d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Armor Sphere+",
     "method":"Mining",
     "node_letter":"B",
@@ -1078,7 +1078,7 @@
     "_id":"4.98d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Dragonite Ore",
     "method":"Mining",
     "node_letter":"C",
@@ -1089,7 +1089,7 @@
     "_id":"4.99d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Mystery Charm",
     "method":"Mining",
     "node_letter":"C",
@@ -1100,7 +1100,7 @@
     "_id":"4.100d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Lightcrystal",
     "method":"Mining",
     "node_letter":"C",
@@ -1111,7 +1111,7 @@
     "_id":"4.101d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Armor Sphere",
     "method":"Mining",
     "node_letter":"C",
@@ -1122,7 +1122,7 @@
     "_id":"4.102d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Ice Crystal",
     "method":"Mining",
     "node_letter":"C",
@@ -1133,7 +1133,7 @@
     "_id":"4.103d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Sunspire Jewel",
     "method":"Mining",
     "node_letter":"C",
@@ -1144,7 +1144,7 @@
     "_id":"4.104d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Armor Sphere+",
     "method":"Mining",
     "node_letter":"C",
@@ -1155,7 +1155,7 @@
     "_id":"4.105d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Herb",
     "method":"Gather",
     "node_letter":"B",
@@ -1166,7 +1166,7 @@
     "_id":"4.106d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"B",
@@ -1177,7 +1177,7 @@
     "_id":"4.107d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Insect Husk",
     "method":"Gather",
     "node_letter":"B",
@@ -1188,7 +1188,7 @@
     "_id":"4.108d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Nectar: Ice+",
     "method":"Gather",
     "node_letter":"B",
@@ -1199,7 +1199,7 @@
     "_id":"4.109d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"C",
@@ -1210,7 +1210,7 @@
     "_id":"4.110d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Nectar: Ice+",
     "method":"Gather",
     "node_letter":"C",
@@ -1221,7 +1221,7 @@
     "_id":"4.111d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Herb",
     "method":"Gather",
     "node_letter":"C",
@@ -1232,7 +1232,7 @@
     "_id":"4.112d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Might Seed",
     "method":"Gather",
     "node_letter":"C",
@@ -1243,7 +1243,7 @@
     "_id":"4.113d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Decayed Scale",
     "method":"Gather",
     "node_letter":"A",
@@ -1254,7 +1254,7 @@
     "_id":"4.114d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Stone",
     "method":"Gather",
     "node_letter":"A",
@@ -1265,7 +1265,7 @@
     "_id":"4.115d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Dragonite Ore",
     "method":"Mining",
     "node_letter":"A",
@@ -1276,7 +1276,7 @@
     "_id":"4.116d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Lightcrystal",
     "method":"Mining",
     "node_letter":"A",
@@ -1287,7 +1287,7 @@
     "_id":"4.117d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Machalite Ore",
     "method":"Mining",
     "node_letter":"A",
@@ -1298,7 +1298,7 @@
     "_id":"4.118d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Armor Sphere",
     "method":"Mining",
     "node_letter":"A",
@@ -1309,7 +1309,7 @@
     "_id":"4.119d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Sunspire Jewel",
     "method":"Mining",
     "node_letter":"A",
@@ -1320,7 +1320,7 @@
     "_id":"4.120d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Armor Sphere+",
     "method":"Mining",
     "node_letter":"A",
@@ -1331,7 +1331,7 @@
     "_id":"4.121d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"B",
@@ -1342,7 +1342,7 @@
     "_id":"4.122d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Felvine",
     "method":"Gather",
     "node_letter":"B",
@@ -1353,7 +1353,7 @@
     "_id":"4.123d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Herb",
     "method":"Gather",
     "node_letter":"B",
@@ -1364,7 +1364,7 @@
     "_id":"4.124d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"B",
@@ -1375,7 +1375,7 @@
     "_id":"4.125d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Might Seed",
     "method":"Gather",
     "node_letter":"C",
@@ -1386,7 +1386,7 @@
     "_id":"4.126d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"C",
@@ -1397,7 +1397,7 @@
     "_id":"4.127d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Sap Plant",
     "method":"Gather",
     "node_letter":"C",
@@ -1408,7 +1408,7 @@
     "_id":"4.128d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Herb",
     "method":"Gather",
     "node_letter":"C",
@@ -1419,7 +1419,7 @@
     "_id":"4.129d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"C",
@@ -1430,7 +1430,7 @@
     "_id":"4.130d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Ice Crystal",
     "method":"Mining",
     "node_letter":"B",
@@ -1441,7 +1441,7 @@
     "_id":"4.131d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Machalite Ore",
     "method":"Mining",
     "node_letter":"B",
@@ -1452,7 +1452,7 @@
     "_id":"4.132d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Bloodstone",
     "method":"Mining",
     "node_letter":"B",
@@ -1463,7 +1463,7 @@
     "_id":"4.133d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Aquaglow Jewel",
     "method":"Mining",
     "node_letter":"B",
@@ -1474,7 +1474,7 @@
     "_id":"4.134d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Mystery Charm",
     "method":"Mining",
     "node_letter":"B",
@@ -1485,7 +1485,7 @@
     "_id":"4.135d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Armor Sphere",
     "method":"Mining",
     "node_letter":"B",
@@ -1496,7 +1496,7 @@
     "_id":"4.136d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Armor Sphere+",
     "method":"Mining",
     "node_letter":"B",
@@ -1507,7 +1507,7 @@
     "_id":"4.137d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Dragonite Ore",
     "method":"Mining",
     "node_letter":"C",
@@ -1518,7 +1518,7 @@
     "_id":"4.138d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Mystery Charm",
     "method":"Mining",
     "node_letter":"C",
@@ -1529,7 +1529,7 @@
     "_id":"4.139d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Lightcrystal",
     "method":"Mining",
     "node_letter":"C",
@@ -1540,7 +1540,7 @@
     "_id":"4.140d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Armor Sphere",
     "method":"Mining",
     "node_letter":"C",
@@ -1551,7 +1551,7 @@
     "_id":"4.141d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Ice Crystal",
     "method":"Mining",
     "node_letter":"C",
@@ -1562,7 +1562,7 @@
     "_id":"4.142d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Sunspire Jewel",
     "method":"Mining",
     "node_letter":"C",
@@ -1573,7 +1573,7 @@
     "_id":"4.143d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Armor Sphere+",
     "method":"Mining",
     "node_letter":"C",
@@ -1584,7 +1584,7 @@
     "_id":"4.144d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Dragonite Ore",
     "method":"Mining",
     "node_letter":"A",
@@ -1595,7 +1595,7 @@
     "_id":"4.145d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Lightcrystal",
     "method":"Mining",
     "node_letter":"A",
@@ -1606,7 +1606,7 @@
     "_id":"4.146d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Machalite Ore",
     "method":"Mining",
     "node_letter":"A",
@@ -1617,7 +1617,7 @@
     "_id":"4.147d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Armor Sphere",
     "method":"Mining",
     "node_letter":"A",
@@ -1628,7 +1628,7 @@
     "_id":"4.148d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Sunspire Jewel",
     "method":"Mining",
     "node_letter":"A",
@@ -1639,7 +1639,7 @@
     "_id":"4.149d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Armor Sphere+",
     "method":"Mining",
     "node_letter":"A",
@@ -1650,7 +1650,7 @@
     "_id":"4.150d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Honey",
     "method":"Gather",
     "node_letter":"A",
@@ -1661,7 +1661,7 @@
     "_id":"4.151d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Snakebee Larva",
     "method":"Gather",
     "node_letter":"A",
@@ -1672,7 +1672,7 @@
     "_id":"4.152d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Honey",
     "method":"Gather",
     "node_letter":"A",
@@ -1683,7 +1683,7 @@
     "_id":"4.153d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Nulberry",
     "method":"Gather",
     "node_letter":"A",
@@ -1694,7 +1694,7 @@
     "_id":"4.154d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Huskberry",
     "method":"Gather",
     "node_letter":"A",
@@ -1705,7 +1705,7 @@
     "_id":"4.155d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Needleberry",
     "method":"Gather",
     "node_letter":"A",
@@ -1716,7 +1716,7 @@
     "_id":"4.156d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Huskberry",
     "method":"Gather",
     "node_letter":"A",
@@ -1727,7 +1727,7 @@
     "_id":"4.157d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Ice Crystal",
     "method":"Mining",
     "node_letter":"B",
@@ -1738,7 +1738,7 @@
     "_id":"4.158d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Machalite Ore",
     "method":"Mining",
     "node_letter":"B",
@@ -1749,7 +1749,7 @@
     "_id":"4.159d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Bloodstone",
     "method":"Mining",
     "node_letter":"B",
@@ -1760,7 +1760,7 @@
     "_id":"4.160d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Aquaglow Jewel",
     "method":"Mining",
     "node_letter":"B",
@@ -1771,7 +1771,7 @@
     "_id":"4.161d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Mystery Charm",
     "method":"Mining",
     "node_letter":"B",
@@ -1782,7 +1782,7 @@
     "_id":"4.162d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Armor Sphere",
     "method":"Mining",
     "node_letter":"B",
@@ -1793,7 +1793,7 @@
     "_id":"4.163d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Armor Sphere+",
     "method":"Mining",
     "node_letter":"B",
@@ -1804,7 +1804,7 @@
     "_id":"4.164d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Dragonite Ore",
     "method":"Mining",
     "node_letter":"C",
@@ -1815,7 +1815,7 @@
     "_id":"4.165d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Mystery Charm",
     "method":"Mining",
     "node_letter":"C",
@@ -1826,7 +1826,7 @@
     "_id":"4.166d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Lightcrystal",
     "method":"Mining",
     "node_letter":"C",
@@ -1837,7 +1837,7 @@
     "_id":"4.167d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Armor Sphere",
     "method":"Mining",
     "node_letter":"C",
@@ -1848,7 +1848,7 @@
     "_id":"4.168d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Ice Crystal",
     "method":"Mining",
     "node_letter":"C",
@@ -1859,7 +1859,7 @@
     "_id":"4.169d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Sunspire Jewel",
     "method":"Mining",
     "node_letter":"C",
@@ -1870,7 +1870,7 @@
     "_id":"4.170d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Armor Sphere+",
     "method":"Mining",
     "node_letter":"C",
@@ -1881,7 +1881,7 @@
     "_id":"4.171d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Bitterbug",
     "method":"Insect",
     "node_letter":"B",
@@ -1892,7 +1892,7 @@
     "_id":"4.172d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Stinkhopper",
     "method":"Insect",
     "node_letter":"B",
@@ -1903,7 +1903,7 @@
     "_id":"4.173d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Flashbug",
     "method":"Insect",
     "node_letter":"B",
@@ -1914,7 +1914,7 @@
     "_id":"4.174d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Mega Fishing Fly",
     "method":"Insect",
     "node_letter":"B",
@@ -1925,7 +1925,7 @@
     "_id":"4.175d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Killer Beetle",
     "method":"Insect",
     "node_letter":"C",
@@ -1936,7 +1936,7 @@
     "_id":"4.176d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Flashbug",
     "method":"Insect",
     "node_letter":"C",
@@ -1947,7 +1947,7 @@
     "_id":"4.177d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Thunderbug",
     "method":"Insect",
     "node_letter":"C",
@@ -1958,7 +1958,7 @@
     "_id":"4.178d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Godbug",
     "method":"Insect",
     "node_letter":"C",
@@ -1969,7 +1969,7 @@
     "_id":"4.179d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Machalite Ore",
     "method":"Mining",
     "node_letter":"A",
@@ -1980,7 +1980,7 @@
     "_id":"4.180d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Bloodstone",
     "method":"Mining",
     "node_letter":"A",
@@ -1991,7 +1991,7 @@
     "_id":"4.181d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Iron Ore",
     "method":"Mining",
     "node_letter":"A",
@@ -2002,7 +2002,7 @@
     "_id":"4.182d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Mystery Charm",
     "method":"Mining",
     "node_letter":"A",
@@ -2013,7 +2013,7 @@
     "_id":"4.183d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Whetstone",
     "method":"Mining",
     "node_letter":"A",
@@ -2024,7 +2024,7 @@
     "_id":"4.184d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Ice Crystal",
     "method":"Mining",
     "node_letter":"B",
@@ -2035,7 +2035,7 @@
     "_id":"4.185d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Machalite Ore",
     "method":"Mining",
     "node_letter":"B",
@@ -2046,7 +2046,7 @@
     "_id":"4.186d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Bloodstone",
     "method":"Mining",
     "node_letter":"B",
@@ -2057,7 +2057,7 @@
     "_id":"4.187d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Aquaglow Jewel",
     "method":"Mining",
     "node_letter":"B",
@@ -2068,7 +2068,7 @@
     "_id":"4.188d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Mystery Charm",
     "method":"Mining",
     "node_letter":"B",
@@ -2079,7 +2079,7 @@
     "_id":"4.189d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Armor Sphere",
     "method":"Mining",
     "node_letter":"B",
@@ -2090,7 +2090,7 @@
     "_id":"4.190d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Armor Sphere+",
     "method":"Mining",
     "node_letter":"B",
@@ -2101,7 +2101,7 @@
     "_id":"4.191d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Dragonite Ore",
     "method":"Mining",
     "node_letter":"C",
@@ -2112,7 +2112,7 @@
     "_id":"4.192d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Mystery Charm",
     "method":"Mining",
     "node_letter":"C",
@@ -2123,7 +2123,7 @@
     "_id":"4.193d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Lightcrystal",
     "method":"Mining",
     "node_letter":"C",
@@ -2134,7 +2134,7 @@
     "_id":"4.194d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Armor Sphere",
     "method":"Mining",
     "node_letter":"C",
@@ -2145,7 +2145,7 @@
     "_id":"4.195d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Ice Crystal",
     "method":"Mining",
     "node_letter":"C",
@@ -2156,7 +2156,7 @@
     "_id":"4.196d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Sunspire Jewel",
     "method":"Mining",
     "node_letter":"C",
@@ -2167,7 +2167,7 @@
     "_id":"4.197d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Armor Sphere+",
     "method":"Mining",
     "node_letter":"C",
@@ -2178,7 +2178,7 @@
     "_id":"4.198d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Bone Husk",
     "method":"Gather",
     "node_letter":"B",
@@ -2189,7 +2189,7 @@
     "_id":"4.199d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Fossilized Bone",
     "method":"Gather",
     "node_letter":"B",
@@ -2200,7 +2200,7 @@
     "_id":"4.200d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Bone Husk",
     "method":"Gather",
     "node_letter":"B",
@@ -2211,7 +2211,7 @@
     "_id":"4.201d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Mystery Bone",
     "method":"Gather",
     "node_letter":"B",
@@ -2222,7 +2222,7 @@
     "_id":"4.202d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Unknown Skull",
     "method":"Gather",
     "node_letter":"B",
@@ -2233,7 +2233,7 @@
     "_id":"4.203d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Unknown Skull",
     "method":"Gather",
     "node_letter":"C",
@@ -2244,7 +2244,7 @@
     "_id":"4.204d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Bone Husk",
     "method":"Gather",
     "node_letter":"C",
@@ -2255,7 +2255,7 @@
     "_id":"4.205d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Mystery Bone",
     "method":"Gather",
     "node_letter":"C",
@@ -2266,7 +2266,7 @@
     "_id":"4.206d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Fossilized Bone",
     "method":"Gather",
     "node_letter":"C",
@@ -2277,7 +2277,7 @@
     "_id":"4.207d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Monster Bone S",
     "method":"Gather",
     "node_letter":"C",
@@ -2288,7 +2288,7 @@
     "_id":"4.208d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Machalite Ore",
     "method":"Mining",
     "node_letter":"A",
@@ -2299,7 +2299,7 @@
     "_id":"4.209d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Bloodstone",
     "method":"Mining",
     "node_letter":"A",
@@ -2310,7 +2310,7 @@
     "_id":"4.210d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Iron Ore",
     "method":"Mining",
     "node_letter":"A",
@@ -2321,7 +2321,7 @@
     "_id":"4.211d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Mystery Charm",
     "method":"Mining",
     "node_letter":"A",
@@ -2332,7 +2332,7 @@
     "_id":"4.212d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Whetstone",
     "method":"Mining",
     "node_letter":"A",
@@ -2343,7 +2343,7 @@
     "_id":"4.213d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Flashbug",
     "method":"Insect",
     "node_letter":"A",
@@ -2354,7 +2354,7 @@
     "_id":"4.214d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Thunderbug",
     "method":"Insect",
     "node_letter":"A",
@@ -2365,7 +2365,7 @@
     "_id":"4.215d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Killer Beetle",
     "method":"Insect",
     "node_letter":"A",
@@ -2376,7 +2376,7 @@
     "_id":"4.216d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Glueglopper",
     "method":"Insect",
     "node_letter":"A",
@@ -2387,7 +2387,7 @@
     "_id":"4.217d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Insect Husk",
     "method":"Insect",
     "node_letter":"A",
@@ -2398,7 +2398,7 @@
     "_id":"4.218d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Bone Husk",
     "method":"Gather",
     "node_letter":"A",
@@ -2409,7 +2409,7 @@
     "_id":"4.219d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Mystery Bone",
     "method":"Gather",
     "node_letter":"A",
@@ -2420,7 +2420,7 @@
     "_id":"4.220d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Fossilized Bone",
     "method":"Gather",
     "node_letter":"A",
@@ -2431,7 +2431,7 @@
     "_id":"4.221d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Monster Bone S",
     "method":"Gather",
     "node_letter":"A",
@@ -2442,7 +2442,7 @@
     "_id":"4.222d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Mystery Bone",
     "method":"Gather",
     "node_letter":"A",
@@ -2453,7 +2453,7 @@
     "_id":"4.223d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Bitterbug",
     "method":"Insect",
     "node_letter":"B",
@@ -2464,7 +2464,7 @@
     "_id":"4.224d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Stinkhopper",
     "method":"Insect",
     "node_letter":"B",
@@ -2475,7 +2475,7 @@
     "_id":"4.225d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Flashbug",
     "method":"Insect",
     "node_letter":"B",
@@ -2486,7 +2486,7 @@
     "_id":"4.226d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Mega Fishing Fly",
     "method":"Insect",
     "node_letter":"B",
@@ -2497,7 +2497,7 @@
     "_id":"4.227d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Killer Beetle",
     "method":"Insect",
     "node_letter":"C",
@@ -2508,7 +2508,7 @@
     "_id":"4.228d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Flashbug",
     "method":"Insect",
     "node_letter":"C",
@@ -2519,7 +2519,7 @@
     "_id":"4.229d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Thunderbug",
     "method":"Insect",
     "node_letter":"C",
@@ -2530,7 +2530,7 @@
     "_id":"4.230d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Godbug",
     "method":"Insect",
     "node_letter":"C",
@@ -2541,7 +2541,7 @@
     "_id":"4.231d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Bitterbug",
     "method":"Insect",
     "node_letter":"A",
@@ -2552,7 +2552,7 @@
     "_id":"4.232d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Glueglopper",
     "method":"Insect",
     "node_letter":"A",
@@ -2563,7 +2563,7 @@
     "_id":"4.233d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Mega Fishing Fly",
     "method":"Insect",
     "node_letter":"A",
@@ -2574,7 +2574,7 @@
     "_id":"4.234d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Stinkhopper",
     "method":"Insect",
     "node_letter":"A",
@@ -2585,7 +2585,7 @@
     "_id":"4.235d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Insect Husk",
     "method":"Insect",
     "node_letter":"A",
@@ -2596,7 +2596,7 @@
     "_id":"4.236d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Honey",
     "method":"Gather",
     "node_letter":"B",
@@ -2607,7 +2607,7 @@
     "_id":"4.237d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Snakebee Larva",
     "method":"Gather",
     "node_letter":"B",
@@ -2618,7 +2618,7 @@
     "_id":"4.238d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Insect Husk",
     "method":"Gather",
     "node_letter":"B",
@@ -2629,7 +2629,7 @@
     "_id":"4.239d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Honey",
     "method":"Gather",
     "node_letter":"C",
@@ -2640,7 +2640,7 @@
     "_id":"4.240d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Honey",
     "method":"Gather",
     "node_letter":"C",
@@ -2651,7 +2651,7 @@
     "_id":"4.241d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Snakebee Larva",
     "method":"Gather",
     "node_letter":"C",
@@ -2662,7 +2662,7 @@
     "_id":"4.242d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"B",
@@ -2673,7 +2673,7 @@
     "_id":"4.243d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Felvine",
     "method":"Gather",
     "node_letter":"B",
@@ -2684,7 +2684,7 @@
     "_id":"4.244d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Herb",
     "method":"Gather",
     "node_letter":"B",
@@ -2695,7 +2695,7 @@
     "_id":"4.245d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"B",
@@ -2706,7 +2706,7 @@
     "_id":"4.246d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Might Seed",
     "method":"Gather",
     "node_letter":"C",
@@ -2717,7 +2717,7 @@
     "_id":"4.247d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"C",
@@ -2728,7 +2728,7 @@
     "_id":"4.248d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Sap Plant",
     "method":"Gather",
     "node_letter":"C",
@@ -2739,7 +2739,7 @@
     "_id":"4.249d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Herb",
     "method":"Gather",
     "node_letter":"C",
@@ -2750,7 +2750,7 @@
     "_id":"4.250d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"C",
@@ -2761,7 +2761,7 @@
     "_id":"4.251d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"A",
@@ -2772,7 +2772,7 @@
     "_id":"4.252d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Might Seed",
     "method":"Gather",
     "node_letter":"A",
@@ -2783,7 +2783,7 @@
     "_id":"4.253d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Herb",
     "method":"Gather",
     "node_letter":"A",
@@ -2794,7 +2794,7 @@
     "_id":"4.254d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Sap Plant",
     "method":"Gather",
     "node_letter":"A",
@@ -2805,7 +2805,7 @@
     "_id":"4.255d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Machalite Ore",
     "method":"Mining",
     "node_letter":"A",
@@ -2816,7 +2816,7 @@
     "_id":"4.256d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Bloodstone",
     "method":"Mining",
     "node_letter":"A",
@@ -2827,7 +2827,7 @@
     "_id":"4.257d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Iron Ore",
     "method":"Mining",
     "node_letter":"A",
@@ -2838,7 +2838,7 @@
     "_id":"4.258d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Mystery Charm",
     "method":"Mining",
     "node_letter":"A",
@@ -2849,7 +2849,7 @@
     "_id":"4.259d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Whetstone",
     "method":"Mining",
     "node_letter":"A",
@@ -2860,7 +2860,7 @@
     "_id":"4.260d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Bomberry",
     "method":"Gather",
     "node_letter":"B",
@@ -2871,7 +2871,7 @@
     "_id":"4.261d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Huskberry",
     "method":"Gather",
     "node_letter":"B",
@@ -2882,7 +2882,7 @@
     "_id":"4.262d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Paintberry",
     "method":"Gather",
     "node_letter":"B",
@@ -2893,7 +2893,7 @@
     "_id":"4.263d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Needleberry",
     "method":"Gather",
     "node_letter":"B",
@@ -2904,7 +2904,7 @@
     "_id":"4.264d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Bomberry",
     "method":"Gather",
     "node_letter":"C",
@@ -2915,7 +2915,7 @@
     "_id":"4.265d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Huskberry",
     "method":"Gather",
     "node_letter":"C",
@@ -2926,7 +2926,7 @@
     "_id":"4.266d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Needleberry",
     "method":"Gather",
     "node_letter":"C",
@@ -2937,7 +2937,7 @@
     "_id":"4.267d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Paintberry",
     "method":"Gather",
     "node_letter":"C",
@@ -2948,7 +2948,7 @@
     "_id":"4.268d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Bone Husk",
     "method":"Gather",
     "node_letter":"B",
@@ -2959,7 +2959,7 @@
     "_id":"4.269d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Fossilized Bone",
     "method":"Gather",
     "node_letter":"B",
@@ -2970,7 +2970,7 @@
     "_id":"4.270d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Bone Husk",
     "method":"Gather",
     "node_letter":"B",
@@ -2981,7 +2981,7 @@
     "_id":"4.271d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Mystery Bone",
     "method":"Gather",
     "node_letter":"B",
@@ -2992,7 +2992,7 @@
     "_id":"4.272d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Unknown Skull",
     "method":"Gather",
     "node_letter":"B",
@@ -3003,7 +3003,7 @@
     "_id":"4.273d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Unknown Skull",
     "method":"Gather",
     "node_letter":"C",
@@ -3014,7 +3014,7 @@
     "_id":"4.274d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Bone Husk",
     "method":"Gather",
     "node_letter":"C",
@@ -3025,7 +3025,7 @@
     "_id":"4.275d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Mystery Bone",
     "method":"Gather",
     "node_letter":"C",
@@ -3036,7 +3036,7 @@
     "_id":"4.276d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Fossilized Bone",
     "method":"Gather",
     "node_letter":"C",
@@ -3047,7 +3047,7 @@
     "_id":"4.277d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Monster Bone S",
     "method":"Gather",
     "node_letter":"C",
@@ -3058,7 +3058,7 @@
     "_id":"4.278d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Insect Husk",
     "method":"Insect",
     "node_letter":"A",
@@ -3069,7 +3069,7 @@
     "_id":"4.279d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Glueglopper",
     "method":"Insect",
     "node_letter":"A",
@@ -3080,7 +3080,7 @@
     "_id":"4.280d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Flashbug",
     "method":"Insect",
     "node_letter":"A",
@@ -3091,7 +3091,7 @@
     "_id":"4.281d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Bitterbug",
     "method":"Insect",
     "node_letter":"A",
@@ -3102,7 +3102,7 @@
     "_id":"4.282d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Stinkhopper",
     "method":"Insect",
     "node_letter":"A",
@@ -3113,7 +3113,7 @@
     "_id":"4.283d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Mega Fishing Fly",
     "method":"Insect",
     "node_letter":"A",
@@ -3124,7 +3124,7 @@
     "_id":"4.284d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Honey",
     "method":"Gather",
     "node_letter":"B",
@@ -3135,7 +3135,7 @@
     "_id":"4.285d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Snakebee Larva",
     "method":"Gather",
     "node_letter":"B",
@@ -3146,7 +3146,7 @@
     "_id":"4.286d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Insect Husk",
     "method":"Gather",
     "node_letter":"B",
@@ -3157,7 +3157,7 @@
     "_id":"4.287d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Honey",
     "method":"Gather",
     "node_letter":"C",
@@ -3168,7 +3168,7 @@
     "_id":"4.288d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Honey",
     "method":"Gather",
     "node_letter":"C",
@@ -3179,7 +3179,7 @@
     "_id":"4.289d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Snakebee Larva",
     "method":"Gather",
     "node_letter":"C",
@@ -3190,7 +3190,7 @@
     "_id":"4.290d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Felvine",
     "method":"Gather",
     "node_letter":"B",
@@ -3201,7 +3201,7 @@
     "_id":"4.291d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"B",
@@ -3212,7 +3212,7 @@
     "_id":"4.292d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Herb",
     "method":"Gather",
     "node_letter":"B",
@@ -3223,7 +3223,7 @@
     "_id":"4.293d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"B",
@@ -3234,7 +3234,7 @@
     "_id":"4.294d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Might Seed",
     "method":"Gather",
     "node_letter":"C",
@@ -3245,7 +3245,7 @@
     "_id":"4.295d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"C",
@@ -3256,7 +3256,7 @@
     "_id":"4.296d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Sap Plant",
     "method":"Gather",
     "node_letter":"C",
@@ -3267,7 +3267,7 @@
     "_id":"4.297d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Herb",
     "method":"Gather",
     "node_letter":"C",
@@ -3278,7 +3278,7 @@
     "_id":"4.298d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"C",
@@ -3289,7 +3289,7 @@
     "_id":"4.299d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Might Seed",
     "method":"Gather",
     "node_letter":"A",
@@ -3300,7 +3300,7 @@
     "_id":"4.300d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"A",
@@ -3311,7 +3311,7 @@
     "_id":"4.301d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Herb",
     "method":"Gather",
     "node_letter":"A",
@@ -3322,7 +3322,7 @@
     "_id":"4.302d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Sap Plant",
     "method":"Gather",
     "node_letter":"A",
@@ -3333,7 +3333,7 @@
     "_id":"4.303d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Bloodstone",
     "method":"Mining",
     "node_letter":"A",
@@ -3344,7 +3344,7 @@
     "_id":"4.304d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Carbalite Ore",
     "method":"Mining",
     "node_letter":"A",
@@ -3355,7 +3355,7 @@
     "_id":"4.305d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Shining Charm",
     "method":"Mining",
     "node_letter":"A",
@@ -3366,7 +3366,7 @@
     "_id":"4.306d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Mystery Charm",
     "method":"Mining",
     "node_letter":"A",
@@ -3377,7 +3377,7 @@
     "_id":"4.307d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Machalite Ore",
     "method":"Mining",
     "node_letter":"A",
@@ -3388,7 +3388,7 @@
     "_id":"4.308d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Fucium Ore",
     "method":"Mining",
     "node_letter":"A",
@@ -3399,7 +3399,7 @@
     "_id":"4.309d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Timeworn Charm",
     "method":"Mining",
     "node_letter":"A",
@@ -3410,7 +3410,7 @@
     "_id":"4.310d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Paintberry",
     "method":"Gather",
     "node_letter":"B",
@@ -3421,7 +3421,7 @@
     "_id":"4.311d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Huskberry",
     "method":"Gather",
     "node_letter":"B",
@@ -3432,7 +3432,7 @@
     "_id":"4.312d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Bomberry",
     "method":"Gather",
     "node_letter":"B",
@@ -3443,7 +3443,7 @@
     "_id":"4.313d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Needleberry",
     "method":"Gather",
     "node_letter":"B",
@@ -3454,7 +3454,7 @@
     "_id":"4.314d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Needleberry",
     "method":"Gather",
     "node_letter":"C",
@@ -3465,7 +3465,7 @@
     "_id":"4.315d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Bomberry",
     "method":"Gather",
     "node_letter":"C",
@@ -3476,7 +3476,7 @@
     "_id":"4.316d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Huskberry",
     "method":"Gather",
     "node_letter":"C",
@@ -3487,7 +3487,7 @@
     "_id":"4.317d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Paintberry",
     "method":"Gather",
     "node_letter":"C",
@@ -3498,7 +3498,7 @@
     "_id":"4.318d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Bone Husk",
     "method":"Gather",
     "node_letter":"B",
@@ -3509,7 +3509,7 @@
     "_id":"4.319d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Fossilized Bone",
     "method":"Gather",
     "node_letter":"B",
@@ -3520,7 +3520,7 @@
     "_id":"4.320d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Bone Husk",
     "method":"Gather",
     "node_letter":"B",
@@ -3531,7 +3531,7 @@
     "_id":"4.321d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Mystery Bone",
     "method":"Gather",
     "node_letter":"B",
@@ -3542,7 +3542,7 @@
     "_id":"4.322d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Unknown Skull",
     "method":"Gather",
     "node_letter":"B",
@@ -3553,7 +3553,7 @@
     "_id":"4.323d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Unknown Skull",
     "method":"Gather",
     "node_letter":"C",
@@ -3564,7 +3564,7 @@
     "_id":"4.324d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Dragonbone Relic",
     "method":"Gather",
     "node_letter":"C",
@@ -3575,7 +3575,7 @@
     "_id":"4.325d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Bone Husk",
     "method":"Gather",
     "node_letter":"C",
@@ -3586,7 +3586,7 @@
     "_id":"4.326d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Monster Bone S",
     "method":"Gather",
     "node_letter":"C",
@@ -3597,7 +3597,7 @@
     "_id":"4.327d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Mystery Bone",
     "method":"Gather",
     "node_letter":"C",
@@ -3608,7 +3608,7 @@
     "_id":"4.328d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Lightcrystal",
     "method":"Mining",
     "node_letter":"D",
@@ -3619,7 +3619,7 @@
     "_id":"4.329d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Fucium Ore",
     "method":"Mining",
     "node_letter":"D",
@@ -3630,7 +3630,7 @@
     "_id":"4.330d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Rustshard",
     "method":"Mining",
     "node_letter":"D",
@@ -3641,7 +3641,7 @@
     "_id":"4.331d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Lazurite Jewel",
     "method":"Mining",
     "node_letter":"D",
@@ -3652,7 +3652,7 @@
     "_id":"4.332d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Novacrystal",
     "method":"Mining",
     "node_letter":"D",
@@ -3663,7 +3663,7 @@
     "_id":"4.333d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Carbalite Ore",
     "method":"Mining",
     "node_letter":"D",
@@ -3674,7 +3674,7 @@
     "_id":"4.334d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Shining Charm",
     "method":"Mining",
     "node_letter":"D",
@@ -3685,7 +3685,7 @@
     "_id":"4.335d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Mystery Charm",
     "method":"Mining",
     "node_letter":"D",
@@ -3696,7 +3696,7 @@
     "_id":"4.336d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Timeworn Charm",
     "method":"Mining",
     "node_letter":"D",
@@ -3707,7 +3707,7 @@
     "_id":"4.337d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Bone Husk",
     "method":"Gather",
     "node_letter":"D",
@@ -3718,7 +3718,7 @@
     "_id":"4.338d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Dragonbone Relic",
     "method":"Gather",
     "node_letter":"D",
@@ -3729,7 +3729,7 @@
     "_id":"4.339d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Mystery Bone",
     "method":"Gather",
     "node_letter":"D",
@@ -3740,7 +3740,7 @@
     "_id":"4.340d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Bone Husk",
     "method":"Gather",
     "node_letter":"D",
@@ -3751,7 +3751,7 @@
     "_id":"4.341d"
   },
   {
-    "area":"1",
+    "area":"Area 1",
     "item":"Frog",
     "method":"Gather",
     "node_letter":"A",
@@ -3762,7 +3762,7 @@
     "_id":"4.342d"
   },
   {
-    "area":"1",
+    "area":"Area 1",
     "item":"Worm",
     "method":"Gather",
     "node_letter":"A",
@@ -3773,7 +3773,7 @@
     "_id":"4.343d"
   },
   {
-    "area":"1",
+    "area":"Area 1",
     "item":"Insect Husk",
     "method":"Gather",
     "node_letter":"A",
@@ -3784,7 +3784,7 @@
     "_id":"4.344d"
   },
   {
-    "area":"1",
+    "area":"Area 1",
     "item":"Paintberry",
     "method":"Gather",
     "node_letter":"B",
@@ -3795,7 +3795,7 @@
     "_id":"4.345d"
   },
   {
-    "area":"1",
+    "area":"Area 1",
     "item":"Huskberry",
     "method":"Gather",
     "node_letter":"B",
@@ -3806,7 +3806,7 @@
     "_id":"4.346d"
   },
   {
-    "area":"1",
+    "area":"Area 1",
     "item":"Bomberry",
     "method":"Gather",
     "node_letter":"B",
@@ -3817,7 +3817,7 @@
     "_id":"4.347d"
   },
   {
-    "area":"1",
+    "area":"Area 1",
     "item":"Needleberry",
     "method":"Gather",
     "node_letter":"B",
@@ -3828,7 +3828,7 @@
     "_id":"4.348d"
   },
   {
-    "area":"1",
+    "area":"Area 1",
     "item":"Needleberry",
     "method":"Gather",
     "node_letter":"C",
@@ -3839,7 +3839,7 @@
     "_id":"4.349d"
   },
   {
-    "area":"1",
+    "area":"Area 1",
     "item":"Bomberry",
     "method":"Gather",
     "node_letter":"C",
@@ -3850,7 +3850,7 @@
     "_id":"4.350d"
   },
   {
-    "area":"1",
+    "area":"Area 1",
     "item":"Huskberry",
     "method":"Gather",
     "node_letter":"C",
@@ -3861,7 +3861,7 @@
     "_id":"4.351d"
   },
   {
-    "area":"1",
+    "area":"Area 1",
     "item":"Paintberry",
     "method":"Gather",
     "node_letter":"C",
@@ -3872,7 +3872,7 @@
     "_id":"4.352d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Whetstone",
     "method":"Gather",
     "node_letter":"A",
@@ -3883,7 +3883,7 @@
     "_id":"4.353d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Stone",
     "method":"Gather",
     "node_letter":"A",
@@ -3894,7 +3894,7 @@
     "_id":"4.354d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Paintberry",
     "method":"Gather",
     "node_letter":"B",
@@ -3905,7 +3905,7 @@
     "_id":"4.355d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Huskberry",
     "method":"Gather",
     "node_letter":"B",
@@ -3916,7 +3916,7 @@
     "_id":"4.356d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Bomberry",
     "method":"Gather",
     "node_letter":"B",
@@ -3927,7 +3927,7 @@
     "_id":"4.357d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Needleberry",
     "method":"Gather",
     "node_letter":"B",
@@ -3938,7 +3938,7 @@
     "_id":"4.358d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Bomberry",
     "method":"Gather",
     "node_letter":"C",
@@ -3949,7 +3949,7 @@
     "_id":"4.359d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Huskberry",
     "method":"Gather",
     "node_letter":"C",
@@ -3960,7 +3960,7 @@
     "_id":"4.360d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Needleberry",
     "method":"Gather",
     "node_letter":"C",
@@ -3971,7 +3971,7 @@
     "_id":"4.361d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Paintberry",
     "method":"Gather",
     "node_letter":"C",
@@ -3982,7 +3982,7 @@
     "_id":"4.362d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Scatterfish",
     "method":"Fishing",
     "node_letter":"A",
@@ -3993,7 +3993,7 @@
     "_id":"4.363d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Goldenfish",
     "method":"Fishing",
     "node_letter":"A",
@@ -4004,7 +4004,7 @@
     "_id":"4.364d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Ancient Fish",
     "method":"Fishing",
     "node_letter":"A",
@@ -4015,7 +4015,7 @@
     "_id":"4.365d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Sleepyfish",
     "method":"Fishing",
     "node_letter":"A",
@@ -4026,7 +4026,7 @@
     "_id":"4.366d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Speartuna",
     "method":"Fishing",
     "node_letter":"A",
@@ -4037,7 +4037,7 @@
     "_id":"4.367d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Bomb Arowana",
     "method":"Fishing",
     "node_letter":"A",
@@ -4048,7 +4048,7 @@
     "_id":"4.368d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Small Goldenfish",
     "method":"Fishing",
     "node_letter":"A",
@@ -4059,7 +4059,7 @@
     "_id":"4.369d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Gastronome Tuna",
     "method":"Fishing",
     "node_letter":"A",
@@ -4070,7 +4070,7 @@
     "_id":"4.370d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Popfish",
     "method":"Fishing",
     "node_letter":"A",
@@ -4081,7 +4081,7 @@
     "_id":"4.371d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Sushifish",
     "method":"Fishing",
     "node_letter":"A",
@@ -4092,7 +4092,7 @@
     "_id":"4.372d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Carbalite Ore",
     "method":"Mining",
     "node_letter":"A",
@@ -4103,7 +4103,7 @@
     "_id":"4.373d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Ice Crystal",
     "method":"Mining",
     "node_letter":"A",
@@ -4114,7 +4114,7 @@
     "_id":"4.374d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Machalite Ore",
     "method":"Mining",
     "node_letter":"A",
@@ -4125,7 +4125,7 @@
     "_id":"4.375d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Bloodrun Jewel",
     "method":"Mining",
     "node_letter":"A",
@@ -4136,7 +4136,7 @@
     "_id":"4.376d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Whetstone",
     "method":"Mining",
     "node_letter":"A",
@@ -4147,7 +4147,7 @@
     "_id":"4.377d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Sunspire Jewel",
     "method":"Mining",
     "node_letter":"A",
@@ -4158,7 +4158,7 @@
     "_id":"4.378d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Lazurite Jewel",
     "method":"Mining",
     "node_letter":"A",
@@ -4169,7 +4169,7 @@
     "_id":"4.379d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"A",
@@ -4180,7 +4180,7 @@
     "_id":"4.380d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Might Seed",
     "method":"Gather",
     "node_letter":"A",
@@ -4191,7 +4191,7 @@
     "_id":"4.381d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Herb",
     "method":"Gather",
     "node_letter":"A",
@@ -4202,7 +4202,7 @@
     "_id":"4.382d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Sap Plant",
     "method":"Gather",
     "node_letter":"A",
@@ -4213,7 +4213,7 @@
     "_id":"4.383d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Speed Nectar: Ice",
     "method":"Gather",
     "node_letter":"A",
@@ -4224,7 +4224,7 @@
     "_id":"4.384d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"A",
@@ -4235,7 +4235,7 @@
     "_id":"4.385d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Insect Husk",
     "method":"Gather",
     "node_letter":"A",
@@ -4246,7 +4246,7 @@
     "_id":"4.386d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Carbalite Ore",
     "method":"Mining",
     "node_letter":"B",
@@ -4257,7 +4257,7 @@
     "_id":"4.387d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Bloodrun Jewel",
     "method":"Mining",
     "node_letter":"B",
@@ -4268,7 +4268,7 @@
     "_id":"4.388d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Machalite Ore",
     "method":"Mining",
     "node_letter":"B",
@@ -4279,7 +4279,7 @@
     "_id":"4.389d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Mystery Charm",
     "method":"Mining",
     "node_letter":"B",
@@ -4290,7 +4290,7 @@
     "_id":"4.390d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Rustshard",
     "method":"Mining",
     "node_letter":"B",
@@ -4301,7 +4301,7 @@
     "_id":"4.391d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Lightcrystal",
     "method":"Mining",
     "node_letter":"B",
@@ -4312,7 +4312,7 @@
     "_id":"4.392d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Adv Armor Sphere",
     "method":"Mining",
     "node_letter":"B",
@@ -4323,7 +4323,7 @@
     "_id":"4.393d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Armor Sphere+",
     "method":"Mining",
     "node_letter":"B",
@@ -4334,7 +4334,7 @@
     "_id":"4.394d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Carbalite Ore",
     "method":"Mining",
     "node_letter":"C",
@@ -4345,7 +4345,7 @@
     "_id":"4.395d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Fucium Ore",
     "method":"Mining",
     "node_letter":"C",
@@ -4356,7 +4356,7 @@
     "_id":"4.396d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Novacrystal",
     "method":"Mining",
     "node_letter":"C",
@@ -4367,7 +4367,7 @@
     "_id":"4.397d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Lazurite Jewel",
     "method":"Mining",
     "node_letter":"C",
@@ -4378,7 +4378,7 @@
     "_id":"4.398d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Shining Charm",
     "method":"Mining",
     "node_letter":"C",
@@ -4389,7 +4389,7 @@
     "_id":"4.399d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Adv Armor Sphere",
     "method":"Mining",
     "node_letter":"C",
@@ -4400,7 +4400,7 @@
     "_id":"4.400d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Timeworn Charm",
     "method":"Mining",
     "node_letter":"C",
@@ -4411,7 +4411,7 @@
     "_id":"4.401d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Armor Sphere+",
     "method":"Mining",
     "node_letter":"C",
@@ -4422,7 +4422,7 @@
     "_id":"4.402d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Herb",
     "method":"Gather",
     "node_letter":"B",
@@ -4433,7 +4433,7 @@
     "_id":"4.403d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Nectar: Ice+",
     "method":"Gather",
     "node_letter":"B",
@@ -4444,7 +4444,7 @@
     "_id":"4.404d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"B",
@@ -4455,7 +4455,7 @@
     "_id":"4.405d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Insect Husk",
     "method":"Gather",
     "node_letter":"B",
@@ -4466,7 +4466,7 @@
     "_id":"4.406d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Nectar: Ice+",
     "method":"Gather",
     "node_letter":"C",
@@ -4477,7 +4477,7 @@
     "_id":"4.407d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"C",
@@ -4488,7 +4488,7 @@
     "_id":"4.408d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Herb",
     "method":"Gather",
     "node_letter":"C",
@@ -4499,7 +4499,7 @@
     "_id":"4.409d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Might Seed",
     "method":"Gather",
     "node_letter":"C",
@@ -4510,7 +4510,7 @@
     "_id":"4.410d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Decayed Scale",
     "method":"Gather",
     "node_letter":"A",
@@ -4521,7 +4521,7 @@
     "_id":"4.411d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Rustshard",
     "method":"Gather",
     "node_letter":"A",
@@ -4532,7 +4532,7 @@
     "_id":"4.412d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Carbalite Ore",
     "method":"Mining",
     "node_letter":"A",
@@ -4543,7 +4543,7 @@
     "_id":"4.413d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Lightcrystal",
     "method":"Mining",
     "node_letter":"A",
@@ -4554,7 +4554,7 @@
     "_id":"4.414d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Lazurite Jewel",
     "method":"Mining",
     "node_letter":"A",
@@ -4565,7 +4565,7 @@
     "_id":"4.415d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Fucium Ore",
     "method":"Mining",
     "node_letter":"A",
@@ -4576,7 +4576,7 @@
     "_id":"4.416d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Adv Armor Sphere",
     "method":"Mining",
     "node_letter":"A",
@@ -4587,7 +4587,7 @@
     "_id":"4.417d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Novacrystal",
     "method":"Mining",
     "node_letter":"A",
@@ -4598,7 +4598,7 @@
     "_id":"4.418d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Armor Sphere+",
     "method":"Mining",
     "node_letter":"A",
@@ -4609,7 +4609,7 @@
     "_id":"4.419d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Felvine",
     "method":"Gather",
     "node_letter":"B",
@@ -4620,7 +4620,7 @@
     "_id":"4.420d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"B",
@@ -4631,7 +4631,7 @@
     "_id":"4.421d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Herb",
     "method":"Gather",
     "node_letter":"B",
@@ -4642,7 +4642,7 @@
     "_id":"4.422d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"B",
@@ -4653,7 +4653,7 @@
     "_id":"4.423d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Might Seed",
     "method":"Gather",
     "node_letter":"C",
@@ -4664,7 +4664,7 @@
     "_id":"4.424d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"C",
@@ -4675,7 +4675,7 @@
     "_id":"4.425d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Sap Plant",
     "method":"Gather",
     "node_letter":"C",
@@ -4686,7 +4686,7 @@
     "_id":"4.426d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Herb",
     "method":"Gather",
     "node_letter":"C",
@@ -4697,7 +4697,7 @@
     "_id":"4.427d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"C",
@@ -4708,7 +4708,7 @@
     "_id":"4.428d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Carbalite Ore",
     "method":"Mining",
     "node_letter":"B",
@@ -4719,7 +4719,7 @@
     "_id":"4.429d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Bloodrun Jewel",
     "method":"Mining",
     "node_letter":"B",
@@ -4730,7 +4730,7 @@
     "_id":"4.430d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Machalite Ore",
     "method":"Mining",
     "node_letter":"B",
@@ -4741,7 +4741,7 @@
     "_id":"4.431d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Mystery Charm",
     "method":"Mining",
     "node_letter":"B",
@@ -4752,7 +4752,7 @@
     "_id":"4.432d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Rustshard",
     "method":"Mining",
     "node_letter":"B",
@@ -4763,7 +4763,7 @@
     "_id":"4.433d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Lightcrystal",
     "method":"Mining",
     "node_letter":"B",
@@ -4774,7 +4774,7 @@
     "_id":"4.434d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Adv Armor Sphere",
     "method":"Mining",
     "node_letter":"B",
@@ -4785,7 +4785,7 @@
     "_id":"4.435d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Armor Sphere+",
     "method":"Mining",
     "node_letter":"B",
@@ -4796,7 +4796,7 @@
     "_id":"4.436d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Carbalite Ore",
     "method":"Mining",
     "node_letter":"C",
@@ -4807,7 +4807,7 @@
     "_id":"4.437d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Fucium Ore",
     "method":"Mining",
     "node_letter":"C",
@@ -4818,7 +4818,7 @@
     "_id":"4.438d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Novacrystal",
     "method":"Mining",
     "node_letter":"C",
@@ -4829,7 +4829,7 @@
     "_id":"4.439d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Lazurite Jewel",
     "method":"Mining",
     "node_letter":"C",
@@ -4840,7 +4840,7 @@
     "_id":"4.440d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Shining Charm",
     "method":"Mining",
     "node_letter":"C",
@@ -4851,7 +4851,7 @@
     "_id":"4.441d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Adv Armor Sphere",
     "method":"Mining",
     "node_letter":"C",
@@ -4862,7 +4862,7 @@
     "_id":"4.442d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Timeworn Charm",
     "method":"Mining",
     "node_letter":"C",
@@ -4873,7 +4873,7 @@
     "_id":"4.443d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Armor Sphere+",
     "method":"Mining",
     "node_letter":"C",
@@ -4884,7 +4884,7 @@
     "_id":"4.444d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Carbalite Ore",
     "method":"Mining",
     "node_letter":"A",
@@ -4895,7 +4895,7 @@
     "_id":"4.445d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Lightcrystal",
     "method":"Mining",
     "node_letter":"A",
@@ -4906,7 +4906,7 @@
     "_id":"4.446d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Lazurite Jewel",
     "method":"Mining",
     "node_letter":"A",
@@ -4917,7 +4917,7 @@
     "_id":"4.447d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Fucium Ore",
     "method":"Mining",
     "node_letter":"A",
@@ -4928,7 +4928,7 @@
     "_id":"4.448d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Adv Armor Sphere",
     "method":"Mining",
     "node_letter":"A",
@@ -4939,7 +4939,7 @@
     "_id":"4.449d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Novacrystal",
     "method":"Mining",
     "node_letter":"A",
@@ -4950,7 +4950,7 @@
     "_id":"4.450d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Armor Sphere+",
     "method":"Mining",
     "node_letter":"A",
@@ -4961,7 +4961,7 @@
     "_id":"4.451d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Honey",
     "method":"Gather",
     "node_letter":"A",
@@ -4972,7 +4972,7 @@
     "_id":"4.452d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Snakebee Larva",
     "method":"Gather",
     "node_letter":"A",
@@ -4983,7 +4983,7 @@
     "_id":"4.453d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Honey",
     "method":"Gather",
     "node_letter":"A",
@@ -4994,7 +4994,7 @@
     "_id":"4.454d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Nulberry",
     "method":"Gather",
     "node_letter":"A",
@@ -5005,7 +5005,7 @@
     "_id":"4.455d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Huskberry",
     "method":"Gather",
     "node_letter":"A",
@@ -5016,7 +5016,7 @@
     "_id":"4.456d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Needleberry",
     "method":"Gather",
     "node_letter":"A",
@@ -5027,7 +5027,7 @@
     "_id":"4.457d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Huskberry",
     "method":"Gather",
     "node_letter":"A",
@@ -5038,7 +5038,7 @@
     "_id":"4.458d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Carbalite Ore",
     "method":"Mining",
     "node_letter":"B",
@@ -5049,7 +5049,7 @@
     "_id":"4.459d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Bloodrun Jewel",
     "method":"Mining",
     "node_letter":"B",
@@ -5060,7 +5060,7 @@
     "_id":"4.460d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Machalite Ore",
     "method":"Mining",
     "node_letter":"B",
@@ -5071,7 +5071,7 @@
     "_id":"4.461d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Mystery Charm",
     "method":"Mining",
     "node_letter":"B",
@@ -5082,7 +5082,7 @@
     "_id":"4.462d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Rustshard",
     "method":"Mining",
     "node_letter":"B",
@@ -5093,7 +5093,7 @@
     "_id":"4.463d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Lightcrystal",
     "method":"Mining",
     "node_letter":"B",
@@ -5104,7 +5104,7 @@
     "_id":"4.464d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Adv Armor Sphere",
     "method":"Mining",
     "node_letter":"B",
@@ -5115,7 +5115,7 @@
     "_id":"4.465d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Armor Sphere+",
     "method":"Mining",
     "node_letter":"B",
@@ -5126,7 +5126,7 @@
     "_id":"4.466d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Carbalite Ore",
     "method":"Mining",
     "node_letter":"C",
@@ -5137,7 +5137,7 @@
     "_id":"4.467d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Fucium Ore",
     "method":"Mining",
     "node_letter":"C",
@@ -5148,7 +5148,7 @@
     "_id":"4.468d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Novacrystal",
     "method":"Mining",
     "node_letter":"C",
@@ -5159,7 +5159,7 @@
     "_id":"4.469d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Lazurite Jewel",
     "method":"Mining",
     "node_letter":"C",
@@ -5170,7 +5170,7 @@
     "_id":"4.470d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Shining Charm",
     "method":"Mining",
     "node_letter":"C",
@@ -5181,7 +5181,7 @@
     "_id":"4.471d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Adv Armor Sphere",
     "method":"Mining",
     "node_letter":"C",
@@ -5192,7 +5192,7 @@
     "_id":"4.472d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Timeworn Charm",
     "method":"Mining",
     "node_letter":"C",
@@ -5203,7 +5203,7 @@
     "_id":"4.473d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Armor Sphere+",
     "method":"Mining",
     "node_letter":"C",
@@ -5214,7 +5214,7 @@
     "_id":"4.474d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Stinkhopper",
     "method":"Insect",
     "node_letter":"B",
@@ -5225,7 +5225,7 @@
     "_id":"4.475d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Flashbug",
     "method":"Insect",
     "node_letter":"B",
@@ -5236,7 +5236,7 @@
     "_id":"4.476d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Mega Fishing Fly",
     "method":"Insect",
     "node_letter":"B",
@@ -5247,7 +5247,7 @@
     "_id":"4.477d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Bitterbug",
     "method":"Insect",
     "node_letter":"B",
@@ -5258,7 +5258,7 @@
     "_id":"4.478d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Rare Scarab",
     "method":"Insect",
     "node_letter":"B",
@@ -5269,7 +5269,7 @@
     "_id":"4.479d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Godbug",
     "method":"Insect",
     "node_letter":"C",
@@ -5280,7 +5280,7 @@
     "_id":"4.480d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Rare Scarab",
     "method":"Insect",
     "node_letter":"C",
@@ -5291,7 +5291,7 @@
     "_id":"4.481d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Hercudrome",
     "method":"Insect",
     "node_letter":"C",
@@ -5302,7 +5302,7 @@
     "_id":"4.482d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Killer Beetle",
     "method":"Insect",
     "node_letter":"C",
@@ -5313,7 +5313,7 @@
     "_id":"4.483d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Thunderbug",
     "method":"Insect",
     "node_letter":"C",
@@ -5324,7 +5324,7 @@
     "_id":"4.484d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Bloodstone",
     "method":"Mining",
     "node_letter":"A",
@@ -5335,7 +5335,7 @@
     "_id":"4.485d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Carbalite Ore",
     "method":"Mining",
     "node_letter":"A",
@@ -5346,7 +5346,7 @@
     "_id":"4.486d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Shining Charm",
     "method":"Mining",
     "node_letter":"A",
@@ -5357,7 +5357,7 @@
     "_id":"4.487d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Mystery Charm",
     "method":"Mining",
     "node_letter":"A",
@@ -5368,7 +5368,7 @@
     "_id":"4.488d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Machalite Ore",
     "method":"Mining",
     "node_letter":"A",
@@ -5379,7 +5379,7 @@
     "_id":"4.489d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Fucium Ore",
     "method":"Mining",
     "node_letter":"A",
@@ -5390,7 +5390,7 @@
     "_id":"4.490d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Timeworn Charm",
     "method":"Mining",
     "node_letter":"A",
@@ -5401,7 +5401,7 @@
     "_id":"4.491d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Carbalite Ore",
     "method":"Mining",
     "node_letter":"B",
@@ -5412,7 +5412,7 @@
     "_id":"4.492d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Bloodrun Jewel",
     "method":"Mining",
     "node_letter":"B",
@@ -5423,7 +5423,7 @@
     "_id":"4.493d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Machalite Ore",
     "method":"Mining",
     "node_letter":"B",
@@ -5434,7 +5434,7 @@
     "_id":"4.494d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Mystery Charm",
     "method":"Mining",
     "node_letter":"B",
@@ -5445,7 +5445,7 @@
     "_id":"4.495d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Rustshard",
     "method":"Mining",
     "node_letter":"B",
@@ -5456,7 +5456,7 @@
     "_id":"4.496d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Lightcrystal",
     "method":"Mining",
     "node_letter":"B",
@@ -5467,7 +5467,7 @@
     "_id":"4.497d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Adv Armor Sphere",
     "method":"Mining",
     "node_letter":"B",
@@ -5478,7 +5478,7 @@
     "_id":"4.498d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Armor Sphere+",
     "method":"Mining",
     "node_letter":"B",
@@ -5489,7 +5489,7 @@
     "_id":"4.499d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Carbalite Ore",
     "method":"Mining",
     "node_letter":"C",
@@ -5500,7 +5500,7 @@
     "_id":"4.500d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Fucium Ore",
     "method":"Mining",
     "node_letter":"C",
@@ -5511,7 +5511,7 @@
     "_id":"4.501d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Novacrystal",
     "method":"Mining",
     "node_letter":"C",
@@ -5522,7 +5522,7 @@
     "_id":"4.502d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Lazurite Jewel",
     "method":"Mining",
     "node_letter":"C",
@@ -5533,7 +5533,7 @@
     "_id":"4.503d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Shining Charm",
     "method":"Mining",
     "node_letter":"C",
@@ -5544,7 +5544,7 @@
     "_id":"4.504d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Adv Armor Sphere",
     "method":"Mining",
     "node_letter":"C",
@@ -5555,7 +5555,7 @@
     "_id":"4.505d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Timeworn Charm",
     "method":"Mining",
     "node_letter":"C",
@@ -5566,7 +5566,7 @@
     "_id":"4.506d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Armor Sphere+",
     "method":"Mining",
     "node_letter":"C",
@@ -5577,7 +5577,7 @@
     "_id":"4.507d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Bone Husk",
     "method":"Gather",
     "node_letter":"B",
@@ -5588,7 +5588,7 @@
     "_id":"4.508d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Fossilized Bone",
     "method":"Gather",
     "node_letter":"B",
@@ -5599,7 +5599,7 @@
     "_id":"4.509d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Bone Husk",
     "method":"Gather",
     "node_letter":"B",
@@ -5610,7 +5610,7 @@
     "_id":"4.510d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Mystery Bone",
     "method":"Gather",
     "node_letter":"B",
@@ -5621,7 +5621,7 @@
     "_id":"4.511d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Unknown Skull",
     "method":"Gather",
     "node_letter":"B",
@@ -5632,7 +5632,7 @@
     "_id":"4.512d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Unknown Skull",
     "method":"Gather",
     "node_letter":"C",
@@ -5643,7 +5643,7 @@
     "_id":"4.513d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Dragonbone Relic",
     "method":"Gather",
     "node_letter":"C",
@@ -5654,7 +5654,7 @@
     "_id":"4.514d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Bone Husk",
     "method":"Gather",
     "node_letter":"C",
@@ -5665,7 +5665,7 @@
     "_id":"4.515d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Mystery Bone",
     "method":"Gather",
     "node_letter":"C",
@@ -5676,7 +5676,7 @@
     "_id":"4.516d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Monster Bone S",
     "method":"Gather",
     "node_letter":"C",
@@ -5687,7 +5687,7 @@
     "_id":"4.517d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Bloodstone",
     "method":"Mining",
     "node_letter":"A",
@@ -5698,7 +5698,7 @@
     "_id":"4.518d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Carbalite Ore",
     "method":"Mining",
     "node_letter":"A",
@@ -5709,7 +5709,7 @@
     "_id":"4.519d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Shining Charm",
     "method":"Mining",
     "node_letter":"A",
@@ -5720,7 +5720,7 @@
     "_id":"4.520d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Mystery Charm",
     "method":"Mining",
     "node_letter":"A",
@@ -5731,7 +5731,7 @@
     "_id":"4.521d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Machalite Ore",
     "method":"Mining",
     "node_letter":"A",
@@ -5742,7 +5742,7 @@
     "_id":"4.522d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Fucium Ore",
     "method":"Mining",
     "node_letter":"A",
@@ -5753,7 +5753,7 @@
     "_id":"4.523d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Timeworn Charm",
     "method":"Mining",
     "node_letter":"A",
@@ -5764,7 +5764,7 @@
     "_id":"4.524d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Flashbug",
     "method":"Insect",
     "node_letter":"A",
@@ -5775,7 +5775,7 @@
     "_id":"4.525d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Thunderbug",
     "method":"Insect",
     "node_letter":"A",
@@ -5786,7 +5786,7 @@
     "_id":"4.526d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Killer Beetle",
     "method":"Insect",
     "node_letter":"A",
@@ -5797,7 +5797,7 @@
     "_id":"4.527d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Hercudrome",
     "method":"Insect",
     "node_letter":"A",
@@ -5808,7 +5808,7 @@
     "_id":"4.528d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Rare Scarab",
     "method":"Insect",
     "node_letter":"A",
@@ -5819,7 +5819,7 @@
     "_id":"4.529d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Fossilized Bone",
     "method":"Gather",
     "node_letter":"A",
@@ -5830,7 +5830,7 @@
     "_id":"4.530d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Mystery Bone",
     "method":"Gather",
     "node_letter":"A",
@@ -5841,7 +5841,7 @@
     "_id":"4.531d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Bone Husk",
     "method":"Gather",
     "node_letter":"A",
@@ -5852,7 +5852,7 @@
     "_id":"4.532d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Dragonbone Relic",
     "method":"Gather",
     "node_letter":"A",
@@ -5863,7 +5863,7 @@
     "_id":"4.533d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Monster Bone S",
     "method":"Gather",
     "node_letter":"A",
@@ -5874,7 +5874,7 @@
     "_id":"4.534d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Stinkhopper",
     "method":"Insect",
     "node_letter":"B",
@@ -5885,7 +5885,7 @@
     "_id":"4.535d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Flashbug",
     "method":"Insect",
     "node_letter":"B",
@@ -5896,7 +5896,7 @@
     "_id":"4.536d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Mega Fishing Fly",
     "method":"Insect",
     "node_letter":"B",
@@ -5907,7 +5907,7 @@
     "_id":"4.537d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Bitterbug",
     "method":"Insect",
     "node_letter":"B",
@@ -5918,7 +5918,7 @@
     "_id":"4.538d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Rare Scarab",
     "method":"Insect",
     "node_letter":"B",
@@ -5929,7 +5929,7 @@
     "_id":"4.539d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Godbug",
     "method":"Insect",
     "node_letter":"C",
@@ -5940,7 +5940,7 @@
     "_id":"4.540d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Rare Scarab",
     "method":"Insect",
     "node_letter":"C",
@@ -5951,7 +5951,7 @@
     "_id":"4.541d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Hercudrome",
     "method":"Insect",
     "node_letter":"C",
@@ -5962,7 +5962,7 @@
     "_id":"4.542d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Killer Beetle",
     "method":"Insect",
     "node_letter":"C",
@@ -5973,7 +5973,7 @@
     "_id":"4.543d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Thunderbug",
     "method":"Insect",
     "node_letter":"C",
@@ -5984,7 +5984,7 @@
     "_id":"4.544d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Insect Husk",
     "method":"Insect",
     "node_letter":"A",
@@ -5995,7 +5995,7 @@
     "_id":"4.545d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Glueglopper",
     "method":"Insect",
     "node_letter":"A",
@@ -6006,7 +6006,7 @@
     "_id":"4.546d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Flashbug",
     "method":"Insect",
     "node_letter":"A",
@@ -6017,7 +6017,7 @@
     "_id":"4.547d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Bitterbug",
     "method":"Insect",
     "node_letter":"A",
@@ -6028,7 +6028,7 @@
     "_id":"4.548d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Stinkhopper",
     "method":"Insect",
     "node_letter":"A",
@@ -6039,7 +6039,7 @@
     "_id":"4.549d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Mega Fishing Fly",
     "method":"Insect",
     "node_letter":"A",
@@ -6050,7 +6050,7 @@
     "_id":"4.550d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Honey",
     "method":"Gather",
     "node_letter":"B",
@@ -6061,7 +6061,7 @@
     "_id":"4.551d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Snakebee Larva",
     "method":"Gather",
     "node_letter":"B",
@@ -6072,7 +6072,7 @@
     "_id":"4.552d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Insect Husk",
     "method":"Gather",
     "node_letter":"B",
@@ -6083,7 +6083,7 @@
     "_id":"4.553d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Honey",
     "method":"Gather",
     "node_letter":"C",
@@ -6094,7 +6094,7 @@
     "_id":"4.554d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Honey",
     "method":"Gather",
     "node_letter":"C",
@@ -6105,7 +6105,7 @@
     "_id":"4.555d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Snakebee Larva",
     "method":"Gather",
     "node_letter":"C",
@@ -6116,7 +6116,7 @@
     "_id":"4.556d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Felvine",
     "method":"Gather",
     "node_letter":"B",
@@ -6127,7 +6127,7 @@
     "_id":"4.557d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"B",
@@ -6138,7 +6138,7 @@
     "_id":"4.558d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Herb",
     "method":"Gather",
     "node_letter":"B",
@@ -6149,7 +6149,7 @@
     "_id":"4.559d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"B",
@@ -6160,7 +6160,7 @@
     "_id":"4.560d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Might Seed",
     "method":"Gather",
     "node_letter":"C",
@@ -6171,7 +6171,7 @@
     "_id":"4.561d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"C",
@@ -6182,7 +6182,7 @@
     "_id":"4.562d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Sap Plant",
     "method":"Gather",
     "node_letter":"C",
@@ -6193,7 +6193,7 @@
     "_id":"4.563d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Herb",
     "method":"Gather",
     "node_letter":"C",
@@ -6204,7 +6204,7 @@
     "_id":"4.564d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"C",
@@ -6215,7 +6215,7 @@
     "_id":"4.565d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Might Seed",
     "method":"Gather",
     "node_letter":"A",
@@ -6226,7 +6226,7 @@
     "_id":"4.566d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"A",
@@ -6237,7 +6237,7 @@
     "_id":"4.567d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Herb",
     "method":"Gather",
     "node_letter":"A",
@@ -6248,7 +6248,7 @@
     "_id":"4.568d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Sap Plant",
     "method":"Gather",
     "node_letter":"A",
@@ -6259,7 +6259,7 @@
     "_id":"4.569d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Bloodstone",
     "method":"Mining",
     "node_letter":"A",
@@ -6270,7 +6270,7 @@
     "_id":"4.570d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Carbalite Ore",
     "method":"Mining",
     "node_letter":"A",
@@ -6281,7 +6281,7 @@
     "_id":"4.571d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Shining Charm",
     "method":"Mining",
     "node_letter":"A",
@@ -6292,7 +6292,7 @@
     "_id":"4.572d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Mystery Charm",
     "method":"Mining",
     "node_letter":"A",
@@ -6303,7 +6303,7 @@
     "_id":"4.573d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Machalite Ore",
     "method":"Mining",
     "node_letter":"A",
@@ -6314,7 +6314,7 @@
     "_id":"4.574d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Fucium Ore",
     "method":"Mining",
     "node_letter":"A",
@@ -6325,7 +6325,7 @@
     "_id":"4.575d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Timeworn Charm",
     "method":"Mining",
     "node_letter":"A",
@@ -6336,7 +6336,7 @@
     "_id":"4.576d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Paintberry",
     "method":"Gather",
     "node_letter":"B",
@@ -6347,7 +6347,7 @@
     "_id":"4.577d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Huskberry",
     "method":"Gather",
     "node_letter":"B",
@@ -6358,7 +6358,7 @@
     "_id":"4.578d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Bomberry",
     "method":"Gather",
     "node_letter":"B",
@@ -6369,7 +6369,7 @@
     "_id":"4.579d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Needleberry",
     "method":"Gather",
     "node_letter":"B",
@@ -6380,7 +6380,7 @@
     "_id":"4.580d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Needleberry",
     "method":"Gather",
     "node_letter":"C",
@@ -6391,7 +6391,7 @@
     "_id":"4.581d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Bomberry",
     "method":"Gather",
     "node_letter":"C",
@@ -6402,7 +6402,7 @@
     "_id":"4.582d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Huskberry",
     "method":"Gather",
     "node_letter":"C",
@@ -6413,7 +6413,7 @@
     "_id":"4.583d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Paintberry",
     "method":"Gather",
     "node_letter":"C",
@@ -6424,7 +6424,7 @@
     "_id":"4.584d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Bone Husk",
     "method":"Gather",
     "node_letter":"B",
@@ -6435,7 +6435,7 @@
     "_id":"4.585d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Fossilized Bone",
     "method":"Gather",
     "node_letter":"B",
@@ -6446,7 +6446,7 @@
     "_id":"4.586d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Bone Husk",
     "method":"Gather",
     "node_letter":"B",
@@ -6457,7 +6457,7 @@
     "_id":"4.587d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Mystery Bone",
     "method":"Gather",
     "node_letter":"B",
@@ -6468,7 +6468,7 @@
     "_id":"4.588d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Unknown Skull",
     "method":"Gather",
     "node_letter":"B",
@@ -6479,7 +6479,7 @@
     "_id":"4.589d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Unknown Skull",
     "method":"Gather",
     "node_letter":"C",
@@ -6490,7 +6490,7 @@
     "_id":"4.590d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Dragonbone Relic",
     "method":"Gather",
     "node_letter":"C",
@@ -6501,7 +6501,7 @@
     "_id":"4.591d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Bone Husk",
     "method":"Gather",
     "node_letter":"C",
@@ -6512,7 +6512,7 @@
     "_id":"4.592d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Monster Bone S",
     "method":"Gather",
     "node_letter":"C",
@@ -6523,7 +6523,7 @@
     "_id":"4.593d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Mystery Bone",
     "method":"Gather",
     "node_letter":"C",
@@ -6534,7 +6534,7 @@
     "_id":"4.594d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Insect Husk",
     "method":"Insect",
     "node_letter":"A",
@@ -6545,7 +6545,7 @@
     "_id":"4.595d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Stinkhopper",
     "method":"Insect",
     "node_letter":"A",
@@ -6556,7 +6556,7 @@
     "_id":"4.596d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Hercudrome",
     "method":"Insect",
     "node_letter":"A",
@@ -6567,7 +6567,7 @@
     "_id":"4.597d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Glueglopper",
     "method":"Insect",
     "node_letter":"A",
@@ -6578,7 +6578,7 @@
     "_id":"4.598d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Rare Scarab",
     "method":"Insect",
     "node_letter":"A",
@@ -6589,7 +6589,7 @@
     "_id":"4.599d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Mega Fishing Fly",
     "method":"Insect",
     "node_letter":"A",
@@ -6600,7 +6600,7 @@
     "_id":"4.600d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Honey",
     "method":"Gather",
     "node_letter":"B",
@@ -6611,7 +6611,7 @@
     "_id":"4.601d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Snakebee Larva",
     "method":"Gather",
     "node_letter":"B",
@@ -6622,7 +6622,7 @@
     "_id":"4.602d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Insect Husk",
     "method":"Gather",
     "node_letter":"B",
@@ -6633,7 +6633,7 @@
     "_id":"4.603d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Honey",
     "method":"Gather",
     "node_letter":"C",
@@ -6644,7 +6644,7 @@
     "_id":"4.604d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Honey",
     "method":"Gather",
     "node_letter":"C",
@@ -6655,7 +6655,7 @@
     "_id":"4.605d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Snakebee Larva",
     "method":"Gather",
     "node_letter":"C",
@@ -6666,7 +6666,7 @@
     "_id":"4.606d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Felvine",
     "method":"Gather",
     "node_letter":"B",
@@ -6677,7 +6677,7 @@
     "_id":"4.607d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"B",
@@ -6688,7 +6688,7 @@
     "_id":"4.608d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Herb",
     "method":"Gather",
     "node_letter":"B",
@@ -6699,7 +6699,7 @@
     "_id":"4.609d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"B",
@@ -6710,7 +6710,7 @@
     "_id":"4.610d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Might Seed",
     "method":"Gather",
     "node_letter":"C",
@@ -6721,7 +6721,7 @@
     "_id":"4.611d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"C",
@@ -6732,7 +6732,7 @@
     "_id":"4.612d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Sap Plant",
     "method":"Gather",
     "node_letter":"C",
@@ -6743,7 +6743,7 @@
     "_id":"4.613d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Herb",
     "method":"Gather",
     "node_letter":"C",
@@ -6754,7 +6754,7 @@
     "_id":"4.614d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"C",
@@ -6765,7 +6765,7 @@
     "_id":"4.615d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"A",
@@ -6776,7 +6776,7 @@
     "_id":"4.616d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Might Seed",
     "method":"Gather",
     "node_letter":"A",
@@ -6787,7 +6787,7 @@
     "_id":"4.617d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Herb",
     "method":"Gather",
     "node_letter":"A",
@@ -6798,7 +6798,7 @@
     "_id":"4.618d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Sap Plant",
     "method":"Gather",
     "node_letter":"A",
@@ -6809,7 +6809,7 @@
     "_id":"4.619d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Fucium Ore",
     "method":"Mining",
     "node_letter":"A",
@@ -6820,7 +6820,7 @@
     "_id":"4.620d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Eltalite Ore",
     "method":"Mining",
     "node_letter":"A",
@@ -6831,7 +6831,7 @@
     "_id":"4.621d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Bloodstone",
     "method":"Mining",
     "node_letter":"A",
@@ -6842,7 +6842,7 @@
     "_id":"4.622d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Shining Charm",
     "method":"Mining",
     "node_letter":"A",
@@ -6853,7 +6853,7 @@
     "_id":"4.623d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Timeworn Charm",
     "method":"Mining",
     "node_letter":"A",
@@ -6864,7 +6864,7 @@
     "_id":"4.624d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Paintberry",
     "method":"Gather",
     "node_letter":"B",
@@ -6875,7 +6875,7 @@
     "_id":"4.625d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Huskberry",
     "method":"Gather",
     "node_letter":"B",
@@ -6886,7 +6886,7 @@
     "_id":"4.626d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Bomberry",
     "method":"Gather",
     "node_letter":"B",
@@ -6897,7 +6897,7 @@
     "_id":"4.627d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Needleberry",
     "method":"Gather",
     "node_letter":"B",
@@ -6908,7 +6908,7 @@
     "_id":"4.628d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Needleberry",
     "method":"Gather",
     "node_letter":"C",
@@ -6919,7 +6919,7 @@
     "_id":"4.629d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Bomberry",
     "method":"Gather",
     "node_letter":"C",
@@ -6930,7 +6930,7 @@
     "_id":"4.630d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Huskberry",
     "method":"Gather",
     "node_letter":"C",
@@ -6941,7 +6941,7 @@
     "_id":"4.631d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Paintberry",
     "method":"Gather",
     "node_letter":"C",
@@ -6952,7 +6952,7 @@
     "_id":"4.632d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Fossilized Bone",
     "method":"Gather",
     "node_letter":"B",
@@ -6963,7 +6963,7 @@
     "_id":"4.633d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Dragonbone Relic",
     "method":"Gather",
     "node_letter":"B",
@@ -6974,7 +6974,7 @@
     "_id":"4.634d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Unknown Skull",
     "method":"Gather",
     "node_letter":"B",
@@ -6985,7 +6985,7 @@
     "_id":"4.635d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Mystery Bone",
     "method":"Gather",
     "node_letter":"B",
@@ -6996,7 +6996,7 @@
     "_id":"4.636d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Bone Husk",
     "method":"Gather",
     "node_letter":"B",
@@ -7007,7 +7007,7 @@
     "_id":"4.637d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Unknown Skull",
     "method":"Gather",
     "node_letter":"C",
@@ -7018,7 +7018,7 @@
     "_id":"4.638d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Dragonbone Relic",
     "method":"Gather",
     "node_letter":"C",
@@ -7029,7 +7029,7 @@
     "_id":"4.639d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Dragonbone Artifact",
     "method":"Gather",
     "node_letter":"C",
@@ -7040,7 +7040,7 @@
     "_id":"4.640d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Bone Husk",
     "method":"Gather",
     "node_letter":"C",
@@ -7051,7 +7051,7 @@
     "_id":"4.641d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Mystery Bone",
     "method":"Gather",
     "node_letter":"C",
@@ -7062,7 +7062,7 @@
     "_id":"4.642d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Adamant Orb",
     "method":"Mining",
     "node_letter":"D",
@@ -7073,7 +7073,7 @@
     "_id":"4.643d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Purecrystal",
     "method":"Mining",
     "node_letter":"D",
@@ -7084,7 +7084,7 @@
     "_id":"4.644d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Ancient Shard",
     "method":"Mining",
     "node_letter":"D",
@@ -7095,7 +7095,7 @@
     "_id":"4.645d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Enduring Charm",
     "method":"Mining",
     "node_letter":"D",
@@ -7106,7 +7106,7 @@
     "_id":"4.646d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Eltalite Ore",
     "method":"Mining",
     "node_letter":"D",
@@ -7117,7 +7117,7 @@
     "_id":"4.647d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Novacrystal",
     "method":"Mining",
     "node_letter":"D",
@@ -7128,7 +7128,7 @@
     "_id":"4.648d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Timeworn Charm",
     "method":"Gather",
     "node_letter":"D",
@@ -7139,7 +7139,7 @@
     "_id":"4.649d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Shining Charm",
     "method":"Gather",
     "node_letter":"D",
@@ -7150,7 +7150,7 @@
     "_id":"4.650d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Enduring Charm",
     "method":"Gather",
     "node_letter":"D",
@@ -7161,7 +7161,7 @@
     "_id":"4.651d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Dragonbone Artifact",
     "method":"Gather",
     "node_letter":"D",
@@ -7172,7 +7172,7 @@
     "_id":"4.652d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Dragonbone Relic",
     "method":"Gather",
     "node_letter":"D",
@@ -7183,7 +7183,7 @@
     "_id":"4.653d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Bone Husk",
     "method":"Gather",
     "node_letter":"D",
@@ -7194,7 +7194,7 @@
     "_id":"4.654d"
   },
   {
-    "area":"Secret",
+    "area":"Secret Area",
     "item":"Unknown Skull",
     "method":"Gather",
     "node_letter":"D",
@@ -7205,7 +7205,7 @@
     "_id":"4.655d"
   },
   {
-    "area":"1",
+    "area":"Area 1",
     "item":"Frog",
     "method":"Gather",
     "node_letter":"A",
@@ -7216,7 +7216,7 @@
     "_id":"4.656d"
   },
   {
-    "area":"1",
+    "area":"Area 1",
     "item":"Worm",
     "method":"Gather",
     "node_letter":"A",
@@ -7227,7 +7227,7 @@
     "_id":"4.657d"
   },
   {
-    "area":"1",
+    "area":"Area 1",
     "item":"Insect Husk",
     "method":"Gather",
     "node_letter":"A",
@@ -7238,7 +7238,7 @@
     "_id":"4.658d"
   },
   {
-    "area":"1",
+    "area":"Area 1",
     "item":"Paintberry",
     "method":"Gather",
     "node_letter":"B",
@@ -7249,7 +7249,7 @@
     "_id":"4.659d"
   },
   {
-    "area":"1",
+    "area":"Area 1",
     "item":"Huskberry",
     "method":"Gather",
     "node_letter":"B",
@@ -7260,7 +7260,7 @@
     "_id":"4.660d"
   },
   {
-    "area":"1",
+    "area":"Area 1",
     "item":"Bomberry",
     "method":"Gather",
     "node_letter":"B",
@@ -7271,7 +7271,7 @@
     "_id":"4.661d"
   },
   {
-    "area":"1",
+    "area":"Area 1",
     "item":"Needleberry",
     "method":"Gather",
     "node_letter":"B",
@@ -7282,7 +7282,7 @@
     "_id":"4.662d"
   },
   {
-    "area":"1",
+    "area":"Area 1",
     "item":"Needleberry",
     "method":"Gather",
     "node_letter":"C",
@@ -7293,7 +7293,7 @@
     "_id":"4.663d"
   },
   {
-    "area":"1",
+    "area":"Area 1",
     "item":"Bomberry",
     "method":"Gather",
     "node_letter":"C",
@@ -7304,7 +7304,7 @@
     "_id":"4.664d"
   },
   {
-    "area":"1",
+    "area":"Area 1",
     "item":"Huskberry",
     "method":"Gather",
     "node_letter":"C",
@@ -7315,7 +7315,7 @@
     "_id":"4.665d"
   },
   {
-    "area":"1",
+    "area":"Area 1",
     "item":"Paintberry",
     "method":"Gather",
     "node_letter":"C",
@@ -7326,7 +7326,7 @@
     "_id":"4.666d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Whetstone",
     "method":"Gather",
     "node_letter":"A",
@@ -7337,7 +7337,7 @@
     "_id":"4.667d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Stone",
     "method":"Gather",
     "node_letter":"A",
@@ -7348,7 +7348,7 @@
     "_id":"4.668d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Paintberry",
     "method":"Gather",
     "node_letter":"B",
@@ -7359,7 +7359,7 @@
     "_id":"4.669d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Huskberry",
     "method":"Gather",
     "node_letter":"B",
@@ -7370,7 +7370,7 @@
     "_id":"4.670d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Bomberry",
     "method":"Gather",
     "node_letter":"B",
@@ -7381,7 +7381,7 @@
     "_id":"4.671d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Needleberry",
     "method":"Gather",
     "node_letter":"B",
@@ -7392,7 +7392,7 @@
     "_id":"4.672d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Needleberry",
     "method":"Gather",
     "node_letter":"C",
@@ -7403,7 +7403,7 @@
     "_id":"4.673d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Bomberry",
     "method":"Gather",
     "node_letter":"C",
@@ -7414,7 +7414,7 @@
     "_id":"4.674d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Huskberry",
     "method":"Gather",
     "node_letter":"C",
@@ -7425,7 +7425,7 @@
     "_id":"4.675d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Paintberry",
     "method":"Gather",
     "node_letter":"C",
@@ -7436,7 +7436,7 @@
     "_id":"4.676d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Scatterfish",
     "method":"Fishing",
     "node_letter":"A",
@@ -7447,7 +7447,7 @@
     "_id":"4.677d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Goldenfish",
     "method":"Fishing",
     "node_letter":"A",
@@ -7458,7 +7458,7 @@
     "_id":"4.678d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Ancient Fish",
     "method":"Fishing",
     "node_letter":"A",
@@ -7469,7 +7469,7 @@
     "_id":"4.679d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Sleepyfish",
     "method":"Fishing",
     "node_letter":"A",
@@ -7480,7 +7480,7 @@
     "_id":"4.680d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Speartuna",
     "method":"Fishing",
     "node_letter":"A",
@@ -7491,7 +7491,7 @@
     "_id":"4.681d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Bomb Arowana",
     "method":"Fishing",
     "node_letter":"A",
@@ -7502,7 +7502,7 @@
     "_id":"4.682d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Small Goldenfish",
     "method":"Fishing",
     "node_letter":"A",
@@ -7513,7 +7513,7 @@
     "_id":"4.683d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Gastronome Tuna",
     "method":"Fishing",
     "node_letter":"A",
@@ -7524,7 +7524,7 @@
     "_id":"4.684d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Popfish",
     "method":"Fishing",
     "node_letter":"A",
@@ -7535,7 +7535,7 @@
     "_id":"4.685d"
   },
   {
-    "area":"2",
+    "area":"Area 2",
     "item":"Sushifish",
     "method":"Fishing",
     "node_letter":"A",
@@ -7546,7 +7546,7 @@
     "_id":"4.686d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Eltalite Ore",
     "method":"Mining",
     "node_letter":"A",
@@ -7557,7 +7557,7 @@
     "_id":"4.687d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Ice Crystal",
     "method":"Mining",
     "node_letter":"A",
@@ -7568,7 +7568,7 @@
     "_id":"4.688d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Carbalite Ore",
     "method":"Mining",
     "node_letter":"A",
@@ -7579,7 +7579,7 @@
     "_id":"4.689d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Adamant Orb",
     "method":"Mining",
     "node_letter":"A",
@@ -7590,7 +7590,7 @@
     "_id":"4.690d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Ice Crystal",
     "method":"Mining",
     "node_letter":"A",
@@ -7601,7 +7601,7 @@
     "_id":"4.691d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Lazurite Jewel",
     "method":"Mining",
     "node_letter":"A",
@@ -7612,7 +7612,7 @@
     "_id":"4.692d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Bloodrun Jewel",
     "method":"Mining",
     "node_letter":"A",
@@ -7623,7 +7623,7 @@
     "_id":"4.693d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"A",
@@ -7634,7 +7634,7 @@
     "_id":"4.694d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Might Seed",
     "method":"Gather",
     "node_letter":"A",
@@ -7645,7 +7645,7 @@
     "_id":"4.695d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Herb",
     "method":"Gather",
     "node_letter":"A",
@@ -7656,7 +7656,7 @@
     "_id":"4.696d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Sap Plant",
     "method":"Gather",
     "node_letter":"A",
@@ -7667,7 +7667,7 @@
     "_id":"4.697d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Speed Nectar: Ice",
     "method":"Gather",
     "node_letter":"A",
@@ -7678,7 +7678,7 @@
     "_id":"4.698d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Nectar: Ice+",
     "method":"Gather",
     "node_letter":"A",
@@ -7689,7 +7689,7 @@
     "_id":"4.699d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"A",
@@ -7700,7 +7700,7 @@
     "_id":"4.700d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Insect Husk",
     "method":"Gather",
     "node_letter":"A",
@@ -7711,7 +7711,7 @@
     "_id":"4.701d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Eltalite Ore",
     "method":"Mining",
     "node_letter":"B",
@@ -7722,7 +7722,7 @@
     "_id":"4.702d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Hard Armor Sphere",
     "method":"Mining",
     "node_letter":"B",
@@ -7733,7 +7733,7 @@
     "_id":"4.703d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Shining Charm",
     "method":"Mining",
     "node_letter":"B",
@@ -7744,7 +7744,7 @@
     "_id":"4.704d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Ice Crystal",
     "method":"Mining",
     "node_letter":"B",
@@ -7755,7 +7755,7 @@
     "_id":"4.705d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Lazurite Jewel",
     "method":"Mining",
     "node_letter":"B",
@@ -7766,7 +7766,7 @@
     "_id":"4.706d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Bloodstone",
     "method":"Mining",
     "node_letter":"B",
@@ -7777,7 +7777,7 @@
     "_id":"4.707d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Timeworn Charm",
     "method":"Mining",
     "node_letter":"B",
@@ -7788,7 +7788,7 @@
     "_id":"4.708d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Eltalite Ore",
     "method":"Mining",
     "node_letter":"C",
@@ -7799,7 +7799,7 @@
     "_id":"4.709d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Adamant Orb",
     "method":"Mining",
     "node_letter":"C",
@@ -7810,7 +7810,7 @@
     "_id":"4.710d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Heavy Armor Sphere",
     "method":"Mining",
     "node_letter":"C",
@@ -7821,7 +7821,7 @@
     "_id":"4.711d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Novacrystal",
     "method":"Mining",
     "node_letter":"C",
@@ -7832,7 +7832,7 @@
     "_id":"4.712d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Timeworn Charm",
     "method":"Mining",
     "node_letter":"C",
@@ -7843,7 +7843,7 @@
     "_id":"4.713d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Purecrystal",
     "method":"Mining",
     "node_letter":"C",
@@ -7854,7 +7854,7 @@
     "_id":"4.714d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Enduring Charm",
     "method":"Mining",
     "node_letter":"C",
@@ -7865,7 +7865,7 @@
     "_id":"4.715d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Herb",
     "method":"Gather",
     "node_letter":"B",
@@ -7876,7 +7876,7 @@
     "_id":"4.716d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Nectar: Ice+",
     "method":"Gather",
     "node_letter":"B",
@@ -7887,7 +7887,7 @@
     "_id":"4.717d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"B",
@@ -7898,7 +7898,7 @@
     "_id":"4.718d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Insect Husk",
     "method":"Gather",
     "node_letter":"B",
@@ -7909,7 +7909,7 @@
     "_id":"4.719d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Speed Nectar: Ice+",
     "method":"Gather",
     "node_letter":"B",
@@ -7920,7 +7920,7 @@
     "_id":"4.720d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Nectar: Ice+",
     "method":"Gather",
     "node_letter":"C",
@@ -7931,7 +7931,7 @@
     "_id":"4.721d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"C",
@@ -7942,7 +7942,7 @@
     "_id":"4.722d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Speed Nectar: Ice+",
     "method":"Gather",
     "node_letter":"C",
@@ -7953,7 +7953,7 @@
     "_id":"4.723d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Herb",
     "method":"Gather",
     "node_letter":"C",
@@ -7964,7 +7964,7 @@
     "_id":"4.724d"
   },
   {
-    "area":"3",
+    "area":"Area 3",
     "item":"Might Seed",
     "method":"Gather",
     "node_letter":"C",
@@ -7975,7 +7975,7 @@
     "_id":"4.725d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Decayed Scale",
     "method":"Gather",
     "node_letter":"A",
@@ -7986,7 +7986,7 @@
     "_id":"4.726d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Decayed Scale",
     "method":"Gather",
     "node_letter":"A",
@@ -7997,7 +7997,7 @@
     "_id":"4.727d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Novacrystal",
     "method":"Mining",
     "node_letter":"A",
@@ -8008,7 +8008,7 @@
     "_id":"4.728d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Eltalite Ore",
     "method":"Mining",
     "node_letter":"A",
@@ -8019,7 +8019,7 @@
     "_id":"4.729d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Adamant Orb",
     "method":"Mining",
     "node_letter":"A",
@@ -8030,7 +8030,7 @@
     "_id":"4.730d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Purecrystal",
     "method":"Mining",
     "node_letter":"A",
@@ -8041,7 +8041,7 @@
     "_id":"4.731d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Hard Armor Sphere",
     "method":"Mining",
     "node_letter":"A",
@@ -8052,7 +8052,7 @@
     "_id":"4.732d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Heavy Armor Sphere",
     "method":"Mining",
     "node_letter":"A",
@@ -8063,7 +8063,7 @@
     "_id":"4.733d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Felvine",
     "method":"Gather",
     "node_letter":"B",
@@ -8074,7 +8074,7 @@
     "_id":"4.734d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"B",
@@ -8085,7 +8085,7 @@
     "_id":"4.735d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Herb",
     "method":"Gather",
     "node_letter":"B",
@@ -8096,7 +8096,7 @@
     "_id":"4.736d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"B",
@@ -8107,7 +8107,7 @@
     "_id":"4.737d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Might Seed",
     "method":"Gather",
     "node_letter":"C",
@@ -8118,7 +8118,7 @@
     "_id":"4.738d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"C",
@@ -8129,7 +8129,7 @@
     "_id":"4.739d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Sap Plant",
     "method":"Gather",
     "node_letter":"C",
@@ -8140,7 +8140,7 @@
     "_id":"4.740d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Herb",
     "method":"Gather",
     "node_letter":"C",
@@ -8151,7 +8151,7 @@
     "_id":"4.741d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"C",
@@ -8162,7 +8162,7 @@
     "_id":"4.742d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Eltalite Ore",
     "method":"Mining",
     "node_letter":"B",
@@ -8173,7 +8173,7 @@
     "_id":"4.743d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Hard Armor Sphere",
     "method":"Mining",
     "node_letter":"B",
@@ -8184,7 +8184,7 @@
     "_id":"4.744d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Shining Charm",
     "method":"Mining",
     "node_letter":"B",
@@ -8195,7 +8195,7 @@
     "_id":"4.745d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Ice Crystal",
     "method":"Mining",
     "node_letter":"B",
@@ -8206,7 +8206,7 @@
     "_id":"4.746d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Lazurite Jewel",
     "method":"Mining",
     "node_letter":"B",
@@ -8217,7 +8217,7 @@
     "_id":"4.747d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Bloodstone",
     "method":"Mining",
     "node_letter":"B",
@@ -8228,7 +8228,7 @@
     "_id":"4.748d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Timeworn Charm",
     "method":"Mining",
     "node_letter":"B",
@@ -8239,7 +8239,7 @@
     "_id":"4.749d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Eltalite Ore",
     "method":"Mining",
     "node_letter":"C",
@@ -8250,7 +8250,7 @@
     "_id":"4.750d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Adamant Orb",
     "method":"Mining",
     "node_letter":"C",
@@ -8261,7 +8261,7 @@
     "_id":"4.751d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Heavy Armor Sphere",
     "method":"Mining",
     "node_letter":"C",
@@ -8272,7 +8272,7 @@
     "_id":"4.752d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Novacrystal",
     "method":"Mining",
     "node_letter":"C",
@@ -8283,7 +8283,7 @@
     "_id":"4.753d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Timeworn Charm",
     "method":"Mining",
     "node_letter":"C",
@@ -8294,7 +8294,7 @@
     "_id":"4.754d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Purecrystal",
     "method":"Mining",
     "node_letter":"C",
@@ -8305,7 +8305,7 @@
     "_id":"4.755d"
   },
   {
-    "area":"4",
+    "area":"Area 4",
     "item":"Enduring Charm",
     "method":"Mining",
     "node_letter":"C",
@@ -8316,7 +8316,7 @@
     "_id":"4.756d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Novacrystal",
     "method":"Mining",
     "node_letter":"A",
@@ -8327,7 +8327,7 @@
     "_id":"4.757d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Eltalite Ore",
     "method":"Mining",
     "node_letter":"A",
@@ -8338,7 +8338,7 @@
     "_id":"4.758d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Adamant Orb",
     "method":"Mining",
     "node_letter":"A",
@@ -8349,7 +8349,7 @@
     "_id":"4.759d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Purecrystal",
     "method":"Mining",
     "node_letter":"A",
@@ -8360,7 +8360,7 @@
     "_id":"4.760d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Hard Armor Sphere",
     "method":"Mining",
     "node_letter":"A",
@@ -8371,7 +8371,7 @@
     "_id":"4.761d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Heavy Armor Sphere",
     "method":"Mining",
     "node_letter":"A",
@@ -8382,7 +8382,7 @@
     "_id":"4.762d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Honey",
     "method":"Gather",
     "node_letter":"A",
@@ -8393,7 +8393,7 @@
     "_id":"4.763d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Snakebee Larva",
     "method":"Gather",
     "node_letter":"A",
@@ -8404,7 +8404,7 @@
     "_id":"4.764d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Honey",
     "method":"Gather",
     "node_letter":"A",
@@ -8415,7 +8415,7 @@
     "_id":"4.765d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Nulberry",
     "method":"Gather",
     "node_letter":"A",
@@ -8426,7 +8426,7 @@
     "_id":"4.766d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Huskberry",
     "method":"Gather",
     "node_letter":"A",
@@ -8437,7 +8437,7 @@
     "_id":"4.767d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Needleberry",
     "method":"Gather",
     "node_letter":"A",
@@ -8448,7 +8448,7 @@
     "_id":"4.768d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Huskberry",
     "method":"Gather",
     "node_letter":"A",
@@ -8459,7 +8459,7 @@
     "_id":"4.769d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Eltalite Ore",
     "method":"Mining",
     "node_letter":"B",
@@ -8470,7 +8470,7 @@
     "_id":"4.770d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Hard Armor Sphere",
     "method":"Mining",
     "node_letter":"B",
@@ -8481,7 +8481,7 @@
     "_id":"4.771d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Shining Charm",
     "method":"Mining",
     "node_letter":"B",
@@ -8492,7 +8492,7 @@
     "_id":"4.772d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Ice Crystal",
     "method":"Mining",
     "node_letter":"B",
@@ -8503,7 +8503,7 @@
     "_id":"4.773d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Lazurite Jewel",
     "method":"Mining",
     "node_letter":"B",
@@ -8514,7 +8514,7 @@
     "_id":"4.774d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Bloodstone",
     "method":"Mining",
     "node_letter":"B",
@@ -8525,7 +8525,7 @@
     "_id":"4.775d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Timeworn Charm",
     "method":"Mining",
     "node_letter":"B",
@@ -8536,7 +8536,7 @@
     "_id":"4.776d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Eltalite Ore",
     "method":"Mining",
     "node_letter":"C",
@@ -8547,7 +8547,7 @@
     "_id":"4.777d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Adamant Orb",
     "method":"Mining",
     "node_letter":"C",
@@ -8558,7 +8558,7 @@
     "_id":"4.778d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Heavy Armor Sphere",
     "method":"Mining",
     "node_letter":"C",
@@ -8569,7 +8569,7 @@
     "_id":"4.779d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Novacrystal",
     "method":"Mining",
     "node_letter":"C",
@@ -8580,7 +8580,7 @@
     "_id":"4.780d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Timeworn Charm",
     "method":"Mining",
     "node_letter":"C",
@@ -8591,7 +8591,7 @@
     "_id":"4.781d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Purecrystal",
     "method":"Mining",
     "node_letter":"C",
@@ -8602,7 +8602,7 @@
     "_id":"4.782d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Enduring Charm",
     "method":"Mining",
     "node_letter":"C",
@@ -8613,7 +8613,7 @@
     "_id":"4.783d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Godbug",
     "method":"Insect",
     "node_letter":"B",
@@ -8624,7 +8624,7 @@
     "_id":"4.784d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Stinkhopper",
     "method":"Insect",
     "node_letter":"B",
@@ -8635,7 +8635,7 @@
     "_id":"4.785d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Rare Scarab",
     "method":"Insect",
     "node_letter":"B",
@@ -8646,7 +8646,7 @@
     "_id":"4.786d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Emperor Hopper",
     "method":"Insect",
     "node_letter":"B",
@@ -8657,7 +8657,7 @@
     "_id":"4.787d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Mega Fishing Fly",
     "method":"Insect",
     "node_letter":"B",
@@ -8668,7 +8668,7 @@
     "_id":"4.788d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Emperor Hopper",
     "method":"Insect",
     "node_letter":"C",
@@ -8679,7 +8679,7 @@
     "_id":"4.789d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Rare Scarab",
     "method":"Insect",
     "node_letter":"C",
@@ -8690,7 +8690,7 @@
     "_id":"4.790d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Thunderbug",
     "method":"Insect",
     "node_letter":"C",
@@ -8701,7 +8701,7 @@
     "_id":"4.791d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Godbug",
     "method":"Insect",
     "node_letter":"C",
@@ -8712,7 +8712,7 @@
     "_id":"4.792d"
   },
   {
-    "area":"5",
+    "area":"Area 5",
     "item":"Hercudrome",
     "method":"Insect",
     "node_letter":"C",
@@ -8723,7 +8723,7 @@
     "_id":"4.793d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Fucium Ore",
     "method":"Mining",
     "node_letter":"A",
@@ -8734,7 +8734,7 @@
     "_id":"4.794d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Eltalite Ore",
     "method":"Mining",
     "node_letter":"A",
@@ -8745,7 +8745,7 @@
     "_id":"4.795d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Bloodstone",
     "method":"Mining",
     "node_letter":"A",
@@ -8756,7 +8756,7 @@
     "_id":"4.796d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Timeworn Charm",
     "method":"Mining",
     "node_letter":"A",
@@ -8767,7 +8767,7 @@
     "_id":"4.797d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Shining Charm",
     "method":"Mining",
     "node_letter":"A",
@@ -8778,7 +8778,7 @@
     "_id":"4.798d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Eltalite Ore",
     "method":"Mining",
     "node_letter":"B",
@@ -8789,7 +8789,7 @@
     "_id":"4.799d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Hard Armor Sphere",
     "method":"Mining",
     "node_letter":"B",
@@ -8800,7 +8800,7 @@
     "_id":"4.800d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Shining Charm",
     "method":"Mining",
     "node_letter":"B",
@@ -8811,7 +8811,7 @@
     "_id":"4.801d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Ice Crystal",
     "method":"Mining",
     "node_letter":"B",
@@ -8822,7 +8822,7 @@
     "_id":"4.802d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Lazurite Jewel",
     "method":"Mining",
     "node_letter":"B",
@@ -8833,7 +8833,7 @@
     "_id":"4.803d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Bloodstone",
     "method":"Mining",
     "node_letter":"B",
@@ -8844,7 +8844,7 @@
     "_id":"4.804d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Timeworn Charm",
     "method":"Mining",
     "node_letter":"B",
@@ -8855,7 +8855,7 @@
     "_id":"4.805d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Eltalite Ore",
     "method":"Mining",
     "node_letter":"C",
@@ -8866,7 +8866,7 @@
     "_id":"4.806d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Adamant Orb",
     "method":"Mining",
     "node_letter":"C",
@@ -8877,7 +8877,7 @@
     "_id":"4.807d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Heavy Armor Sphere",
     "method":"Mining",
     "node_letter":"C",
@@ -8888,7 +8888,7 @@
     "_id":"4.808d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Novacrystal",
     "method":"Mining",
     "node_letter":"C",
@@ -8899,7 +8899,7 @@
     "_id":"4.809d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Timeworn Charm",
     "method":"Mining",
     "node_letter":"C",
@@ -8910,7 +8910,7 @@
     "_id":"4.810d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Purecrystal",
     "method":"Mining",
     "node_letter":"C",
@@ -8921,7 +8921,7 @@
     "_id":"4.811d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Enduring Charm",
     "method":"Mining",
     "node_letter":"C",
@@ -8932,7 +8932,7 @@
     "_id":"4.812d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Fossilized Bone",
     "method":"Gather",
     "node_letter":"B",
@@ -8943,7 +8943,7 @@
     "_id":"4.813d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Dragonbone Relic",
     "method":"Gather",
     "node_letter":"B",
@@ -8954,7 +8954,7 @@
     "_id":"4.814d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Unknown Skull",
     "method":"Gather",
     "node_letter":"B",
@@ -8965,7 +8965,7 @@
     "_id":"4.815d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Mystery Bone",
     "method":"Gather",
     "node_letter":"B",
@@ -8976,7 +8976,7 @@
     "_id":"4.816d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Bone Husk",
     "method":"Gather",
     "node_letter":"B",
@@ -8987,7 +8987,7 @@
     "_id":"4.817d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Unknown Skull",
     "method":"Gather",
     "node_letter":"C",
@@ -8998,7 +8998,7 @@
     "_id":"4.818d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Dragonbone Relic",
     "method":"Gather",
     "node_letter":"C",
@@ -9009,7 +9009,7 @@
     "_id":"4.819d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Dragonbone Artifact",
     "method":"Gather",
     "node_letter":"C",
@@ -9020,7 +9020,7 @@
     "_id":"4.820d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Bone Husk",
     "method":"Gather",
     "node_letter":"C",
@@ -9031,7 +9031,7 @@
     "_id":"4.821d"
   },
   {
-    "area":"6",
+    "area":"Area 6",
     "item":"Mystery Bone",
     "method":"Gather",
     "node_letter":"C",
@@ -9042,7 +9042,7 @@
     "_id":"4.822d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Fucium Ore",
     "method":"Mining",
     "node_letter":"A",
@@ -9053,7 +9053,7 @@
     "_id":"4.823d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Eltalite Ore",
     "method":"Mining",
     "node_letter":"A",
@@ -9064,7 +9064,7 @@
     "_id":"4.824d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Bloodstone",
     "method":"Mining",
     "node_letter":"A",
@@ -9075,7 +9075,7 @@
     "_id":"4.825d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Shining Charm",
     "method":"Mining",
     "node_letter":"A",
@@ -9086,7 +9086,7 @@
     "_id":"4.826d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Timeworn Charm",
     "method":"Mining",
     "node_letter":"A",
@@ -9097,7 +9097,7 @@
     "_id":"4.827d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Godbug",
     "method":"Insect",
     "node_letter":"A",
@@ -9108,7 +9108,7 @@
     "_id":"4.828d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Thunderbug",
     "method":"Insect",
     "node_letter":"A",
@@ -9119,7 +9119,7 @@
     "_id":"4.829d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Hercudrome",
     "method":"Insect",
     "node_letter":"A",
@@ -9130,7 +9130,7 @@
     "_id":"4.830d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Rare Scarab",
     "method":"Insect",
     "node_letter":"A",
@@ -9141,7 +9141,7 @@
     "_id":"4.831d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Emperor Hopper",
     "method":"Insect",
     "node_letter":"A",
@@ -9152,7 +9152,7 @@
     "_id":"4.832d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Mystery Bone",
     "method":"Gather",
     "node_letter":"A",
@@ -9163,7 +9163,7 @@
     "_id":"4.833d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Bone Husk",
     "method":"Gather",
     "node_letter":"A",
@@ -9174,7 +9174,7 @@
     "_id":"4.834d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Fossilized Bone",
     "method":"Gather",
     "node_letter":"A",
@@ -9185,7 +9185,7 @@
     "_id":"4.835d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Unknown Skull",
     "method":"Gather",
     "node_letter":"A",
@@ -9196,7 +9196,7 @@
     "_id":"4.836d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Monster Bone S",
     "method":"Gather",
     "node_letter":"A",
@@ -9207,7 +9207,7 @@
     "_id":"4.837d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Dragonbone Relic",
     "method":"Gather",
     "node_letter":"A",
@@ -9218,7 +9218,7 @@
     "_id":"4.838d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Godbug",
     "method":"Insect",
     "node_letter":"B",
@@ -9229,7 +9229,7 @@
     "_id":"4.839d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Stinkhopper",
     "method":"Insect",
     "node_letter":"B",
@@ -9240,7 +9240,7 @@
     "_id":"4.840d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Rare Scarab",
     "method":"Insect",
     "node_letter":"B",
@@ -9251,7 +9251,7 @@
     "_id":"4.841d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Emperor Hopper",
     "method":"Insect",
     "node_letter":"B",
@@ -9262,7 +9262,7 @@
     "_id":"4.842d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Mega Fishing Fly",
     "method":"Insect",
     "node_letter":"B",
@@ -9273,7 +9273,7 @@
     "_id":"4.843d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Emperor Hopper",
     "method":"Insect",
     "node_letter":"C",
@@ -9284,7 +9284,7 @@
     "_id":"4.844d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Rare Scarab",
     "method":"Insect",
     "node_letter":"C",
@@ -9295,7 +9295,7 @@
     "_id":"4.845d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Thunderbug",
     "method":"Insect",
     "node_letter":"C",
@@ -9306,7 +9306,7 @@
     "_id":"4.846d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Godbug",
     "method":"Insect",
     "node_letter":"C",
@@ -9317,7 +9317,7 @@
     "_id":"4.847d"
   },
   {
-    "area":"7",
+    "area":"Area 7",
     "item":"Hercudrome",
     "method":"Insect",
     "node_letter":"C",
@@ -9328,7 +9328,7 @@
     "_id":"4.848d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Insect Husk",
     "method":"Insect",
     "node_letter":"A",
@@ -9339,7 +9339,7 @@
     "_id":"4.849d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Stinkhopper",
     "method":"Insect",
     "node_letter":"A",
@@ -9350,7 +9350,7 @@
     "_id":"4.850d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Hercudrome",
     "method":"Insect",
     "node_letter":"A",
@@ -9361,7 +9361,7 @@
     "_id":"4.851d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Glueglopper",
     "method":"Insect",
     "node_letter":"A",
@@ -9372,7 +9372,7 @@
     "_id":"4.852d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Rare Scarab",
     "method":"Insect",
     "node_letter":"A",
@@ -9383,7 +9383,7 @@
     "_id":"4.853d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Mega Fishing Fly",
     "method":"Insect",
     "node_letter":"A",
@@ -9394,7 +9394,7 @@
     "_id":"4.854d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Honey",
     "method":"Gather",
     "node_letter":"B",
@@ -9405,7 +9405,7 @@
     "_id":"4.855d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Snakebee Larva",
     "method":"Gather",
     "node_letter":"B",
@@ -9416,7 +9416,7 @@
     "_id":"4.856d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Insect Husk",
     "method":"Gather",
     "node_letter":"B",
@@ -9427,7 +9427,7 @@
     "_id":"4.857d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Honey",
     "method":"Gather",
     "node_letter":"C",
@@ -9438,7 +9438,7 @@
     "_id":"4.858d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Honey",
     "method":"Gather",
     "node_letter":"C",
@@ -9449,7 +9449,7 @@
     "_id":"4.859d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Snakebee Larva",
     "method":"Gather",
     "node_letter":"C",
@@ -9460,7 +9460,7 @@
     "_id":"4.860d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Felvine",
     "method":"Gather",
     "node_letter":"B",
@@ -9471,7 +9471,7 @@
     "_id":"4.861d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"B",
@@ -9482,7 +9482,7 @@
     "_id":"4.862d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Herb",
     "method":"Gather",
     "node_letter":"B",
@@ -9493,7 +9493,7 @@
     "_id":"4.863d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"B",
@@ -9504,7 +9504,7 @@
     "_id":"4.864d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Might Seed",
     "method":"Gather",
     "node_letter":"C",
@@ -9515,7 +9515,7 @@
     "_id":"4.865d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"C",
@@ -9526,7 +9526,7 @@
     "_id":"4.866d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Sap Plant",
     "method":"Gather",
     "node_letter":"C",
@@ -9537,7 +9537,7 @@
     "_id":"4.867d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Herb",
     "method":"Gather",
     "node_letter":"C",
@@ -9548,7 +9548,7 @@
     "_id":"4.868d"
   },
   {
-    "area":"8",
+    "area":"Area 8",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"C",
@@ -9559,7 +9559,7 @@
     "_id":"4.869d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Sleep Herb",
     "method":"Gather",
     "node_letter":"A",
@@ -9570,7 +9570,7 @@
     "_id":"4.870d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Might Seed",
     "method":"Gather",
     "node_letter":"A",
@@ -9581,7 +9581,7 @@
     "_id":"4.871d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Herb",
     "method":"Gather",
     "node_letter":"A",
@@ -9592,7 +9592,7 @@
     "_id":"4.872d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Sap Plant",
     "method":"Gather",
     "node_letter":"A",
@@ -9603,7 +9603,7 @@
     "_id":"4.873d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Fucium Ore",
     "method":"Mining",
     "node_letter":"A",
@@ -9614,7 +9614,7 @@
     "_id":"4.874d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Eltalite Ore",
     "method":"Mining",
     "node_letter":"A",
@@ -9625,7 +9625,7 @@
     "_id":"4.875d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Bloodstone",
     "method":"Mining",
     "node_letter":"A",
@@ -9636,7 +9636,7 @@
     "_id":"4.876d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Shining Charm",
     "method":"Mining",
     "node_letter":"A",
@@ -9647,7 +9647,7 @@
     "_id":"4.877d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Timeworn Charm",
     "method":"Mining",
     "node_letter":"A",
@@ -9658,7 +9658,7 @@
     "_id":"4.878d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Paintberry",
     "method":"Gather",
     "node_letter":"B",
@@ -9669,7 +9669,7 @@
     "_id":"4.879d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Huskberry",
     "method":"Gather",
     "node_letter":"B",
@@ -9680,7 +9680,7 @@
     "_id":"4.880d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Bomberry",
     "method":"Gather",
     "node_letter":"B",
@@ -9691,7 +9691,7 @@
     "_id":"4.881d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Needleberry",
     "method":"Gather",
     "node_letter":"B",
@@ -9702,7 +9702,7 @@
     "_id":"4.882d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Needleberry",
     "method":"Gather",
     "node_letter":"C",
@@ -9713,7 +9713,7 @@
     "_id":"4.883d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Bomberry",
     "method":"Gather",
     "node_letter":"C",
@@ -9724,7 +9724,7 @@
     "_id":"4.884d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Huskberry",
     "method":"Gather",
     "node_letter":"C",
@@ -9735,7 +9735,7 @@
     "_id":"4.885d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Paintberry",
     "method":"Gather",
     "node_letter":"C",
@@ -9746,7 +9746,7 @@
     "_id":"4.886d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Fossilized Bone",
     "method":"Gather",
     "node_letter":"B",
@@ -9757,7 +9757,7 @@
     "_id":"4.887d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Dragonbone Relic",
     "method":"Gather",
     "node_letter":"B",
@@ -9768,7 +9768,7 @@
     "_id":"4.888d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Unknown Skull",
     "method":"Gather",
     "node_letter":"B",
@@ -9779,7 +9779,7 @@
     "_id":"4.889d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Mystery Bone",
     "method":"Gather",
     "node_letter":"B",
@@ -9790,7 +9790,7 @@
     "_id":"4.890d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Bone Husk",
     "method":"Gather",
     "node_letter":"B",
@@ -9801,7 +9801,7 @@
     "_id":"4.891d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Unknown Skull",
     "method":"Gather",
     "node_letter":"C",
@@ -9812,7 +9812,7 @@
     "_id":"4.892d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Dragonbone Relic",
     "method":"Gather",
     "node_letter":"C",
@@ -9823,7 +9823,7 @@
     "_id":"4.893d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Dragonbone Artifact",
     "method":"Gather",
     "node_letter":"C",
@@ -9834,7 +9834,7 @@
     "_id":"4.894d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Bone Husk",
     "method":"Gather",
     "node_letter":"C",
@@ -9845,7 +9845,7 @@
     "_id":"4.895d"
   },
   {
-    "area":"9",
+    "area":"Area 9",
     "item":"Mystery Bone",
     "method":"Gather",
     "node_letter":"C",
