@@ -26,53 +26,53 @@
 
 @implementation CoreDataController
 
-NSString *const JSON = @"json";
+static NSString *const JSON = @"json";
 
 #pragma mark - Item Constants
 
-NSString *const ItemNameKey = @"name";
+static NSString *const ItemNameKey = @"name";
 
 #pragma mark - Monster Constants
 
-NSString *const MonsterIDKey = @"id";
-NSString *const MonstersFileName = @"monsters";
-NSString *const MonsterDamageZonesFileName = @"damageZones";
+static NSString *const MonsterIDKey = @"id";
+static NSString *const MonstersFileName = @"monsters";
+static NSString *const MonsterDamageZonesFileName = @"damageZones";
 
 #pragma mark - Area Constants
 
-NSString *const AreaCombinedNameKey = @"combinedName";
+static NSString *const AreaCombinedNameKey = @"combinedName";
 
 #pragma mark - Region Constants
 
-NSString *const RegionsFileName = @"regions";
-NSString *const RegionIDJSONKey = @"_id";
-NSString *const RegionIDKey = @"id";
-NSString *const RegionNameKey = @"region_name";
-NSString *const RegionKeyNameKey = @"keyName";
-NSString *const RegionDropsFileNameSuffix = @"_drops";
+static NSString *const RegionsFileName = @"regions";
+static NSString *const RegionIDJSONKey = @"_id";
+static NSString *const RegionIDKey = @"id";
+static NSString *const RegionNameKey = @"region_name";
+static NSString *const RegionKeyNameKey = @"keyName";
+static NSString *const RegionDropsFileNameSuffix = @"_drops";
 
 #pragma mark - Monster Drop Constants
 
-NSString *const MonsterDropsFileName = @"monsterDrops";
-NSString *const MonsterDropIDKey = @"id";
-NSString *const MonsterDropMethodKey = @"method";
-NSString *const MonsterDropQuantityKey = @"quantity";
-NSString *const MonsterDropRankKey = @"rank";
-NSString *const MonsterDropPercentKey = @"percent";
-NSString *const MonsterDropMonsterNameKey = @"monster_name";
-NSString *const MonsterDropMonsterIDKey = @"monster_id";
-NSString *const MonsterDropItemNameKey = @"item_name";
+static NSString *const MonsterDropsFileName = @"monsterDrops";
+static NSString *const MonsterDropIDKey = @"id";
+static NSString *const MonsterDropMethodKey = @"method";
+static NSString *const MonsterDropQuantityKey = @"quantity";
+static NSString *const MonsterDropRankKey = @"rank";
+static NSString *const MonsterDropPercentKey = @"percent";
+static NSString *const MonsterDropMonsterNameKey = @"monster_name";
+static NSString *const MonsterDropMonsterIDKey = @"monster_id";
+static NSString *const MonsterDropItemNameKey = @"item_name";
 
 #pragma mark - Area Drop Constants
 
-NSString *const AreaDropAreaNameKey = @"area";
-NSString *const AreaDropRankKey = @"rank";
-NSString *const AreaDropIDKey = @"_id";
-NSString *const AreaDropMethodKey = @"method";
-NSString *const AreaDropPercentKey = @"chance";
-NSString *const AreaDropQuantityKey = @"number";
-NSString *const AreaDropItemNameKey = @"item";
-NSString *const AreaDropIDDecimalStringKey = @"idDecimalString";
+static NSString *const AreaDropAreaNameKey = @"area";
+static NSString *const AreaDropRankKey = @"rank";
+static NSString *const AreaDropIDKey = @"_id";
+static NSString *const AreaDropMethodKey = @"method";
+static NSString *const AreaDropPercentKey = @"chance";
+static NSString *const AreaDropQuantityKey = @"number";
+static NSString *const AreaDropItemNameKey = @"item";
+static NSString *const AreaDropIDDecimalStringKey = @"idDecimalString";
 
 #pragma mark - Singleton Method
 
@@ -93,33 +93,33 @@ NSString *const AreaDropIDDecimalStringKey = @"idDecimalString";
     // Because monsters are added first, there are no relationships to set up, so we can hydrate them.
     NSString *path = [[NSBundle mainBundle] pathForResource:MonstersFileName ofType:JSON];
     NSDictionary *attributes = @{
-                                 @"id":@"_id",
-                                 @"monster_class":@"class",
-                                 @"name":@"name",
-                                 @"jpn_name":@"jpn_name",
-                                 @"sort_name":@"sort_name",
-                                 @"trait":@"trait",
-                                 @"icon":@"icon_name",
-                                 @"url":@"url"
+                                 @"id": @"_id",
+                                 @"monster_class": @"class",
+                                 @"name": @"name",
+                                 @"jpn_name": @"jpn_name",
+                                 @"sort_name": @"sort_name",
+                                 @"trait": @"trait",
+                                 @"icon": @"icon_name",
+                                 @"url": @"url",
                                  };
     [self.managedObjectContext hydrateStoreWithJSONAtPath:path attributeMappings:attributes forEntityName:[Monster entityName]];
     path = [[NSBundle mainBundle] pathForResource:MonsterDamageZonesFileName ofType:JSON];
     attributes = @{
-                   @"id":@"_id",
-                   @"monster_id":@"monster_id",
-                   @"monsterName":@"monster_name",
-                   @"jpnMonsterName":@"jpn_monster_name",
-                   @"bodyPart":@"body_part",
-                   @"cut":@"cut",
-                   @"impact":@"impact",
-                   @"shot":@"shot",
-                   @"fire":@"fire",
-                   @"water":@"water",
-                   @"thunder":@"thunder",
-                   @"ice":@"ice",
-                   @"dragon":@"dragon",
-                   @"ko":@"ko",
-                   @"extract":@"extract"
+                   @"id": @"_id",
+                   @"monster_id": @"monster_id",
+                   @"monsterName": @"monster_name",
+                   @"jpnMonsterName": @"jpn_monster_name",
+                   @"bodyPart": @"body_part",
+                   @"cut": @"cut",
+                   @"impact": @"impact",
+                   @"shot": @"shot",
+                   @"fire": @"fire",
+                   @"water": @"water",
+                   @"thunder": @"thunder",
+                   @"ice": @"ice",
+                   @"dragon": @"dragon",
+                   @"ko": @"ko",
+                   @"extract": @"extract",
                    };
     [self.managedObjectContext hydrateStoreWithJSONAtPath:path attributeMappings:attributes forEntityName:[DamageZone entityName]];
 }
@@ -130,7 +130,7 @@ NSString *const AreaDropIDDecimalStringKey = @"idDecimalString";
     for (NSDictionary *drop in dropList) {
         // Only add the drop if it is not already there
         NSNumber *monsterDropID = drop[MonsterDropIDKey];
-        NSPredicate *monsterDropPredicate = [NSPredicate predicateWithFormat:@"%K == %d", MonsterDropIDKey, monsterDropID.intValue];
+        NSPredicate *monsterDropPredicate = [NSPredicate predicateWithFormat:@"%K == %d", MonsterAttributes.id, monsterDropID.intValue];
         if (![self countForEntityWithEntityName:[MonsterDrop entityName] withPredicate:monsterDropPredicate]) {
             MonsterDrop *newDrop = [MonsterDrop insertInManagedObjectContext:self.managedObjectContext];
             newDrop.id = drop[MonsterDropIDKey];
@@ -138,18 +138,13 @@ NSString *const AreaDropIDDecimalStringKey = @"idDecimalString";
             newDrop.quantity = drop[MonsterDropQuantityKey];
             
             // If the Item for this drop already exists in the persistent store ...
-            NSPredicate *itemPredicate = [NSPredicate predicateWithFormat:@"%K == %@", ItemNameKey, drop[MonsterDropItemNameKey]];
+            NSPredicate *itemPredicate = [NSPredicate predicateWithFormat:@"%K == %@", ItemAttributes.name, drop[MonsterDropItemNameKey]];
             Item *item = (Item *)[self getUniqueEntityWithEntityName:[Item entityName] withPredicate:itemPredicate];
-            if (item) {
-                // We need to hook up relationships appropriately.
-                newDrop.item = item;
-            } else {
-                // Otherwise, we should create the item.
-                Item *newItem = [Item insertInManagedObjectContext:self.managedObjectContext];
-                newItem.name = drop[MonsterDropItemNameKey];
-                newDrop.item = newItem;
+            if (!item) {
+                item = [Item insertInManagedObjectContext:self.managedObjectContext];
+                item.name = drop[MonsterDropItemNameKey];
             }
-            
+            newDrop.item = item;
             // If this is a monster drop ...
             NSString *monsterName = drop[MonsterDropMonsterNameKey];
             if (monsterName.length) {
@@ -157,7 +152,7 @@ NSString *const AreaDropIDDecimalStringKey = @"idDecimalString";
                 
                 // First we should ensure that the monster already exists in the persistent store
                 NSNumber *monsterID = drop[MonsterDropMonsterIDKey];
-                NSPredicate *monsterPredicate = [NSPredicate predicateWithFormat:@"%K == %d", MonsterIDKey, monsterID.intValue];
+                NSPredicate *monsterPredicate = [NSPredicate predicateWithFormat:@"%K == %d", MonsterAttributes.id, monsterID.intValue];
                 Monster *monster = (Monster *)[self getUniqueEntityWithEntityName:[Monster entityName] withPredicate:monsterPredicate];
                 if (!monster) {
                     // TODO: Handle better, later.
@@ -184,7 +179,7 @@ NSString *const AreaDropIDDecimalStringKey = @"idDecimalString";
     for (NSDictionary *regionDict in regionList) {
         Region *region;
         NSNumber *regionID = regionDict[RegionIDJSONKey];
-        NSPredicate *regionPredicate = [NSPredicate predicateWithFormat:@"%K == %d", RegionIDKey, regionID.intValue];
+        NSPredicate *regionPredicate = [NSPredicate predicateWithFormat:@"%K == %d", RegionAttributes.id, regionID.intValue];
         region = (Region *)[self getUniqueEntityWithEntityName:[Region entityName] withPredicate:regionPredicate];
         // Only add the region if it is not already there
         if (!region) {
@@ -195,7 +190,7 @@ NSString *const AreaDropIDDecimalStringKey = @"idDecimalString";
         }
         // regardless if the region is new or not, we should populate it with area data
         // But first, we need to check that the region file exists
-        NSArray *areaDrops = [self loadArrayFromJsonFileNamed:[NSString stringWithFormat:@"%@%@", region.keyName, RegionDropsFileNameSuffix]];
+        NSArray *areaDrops = [self loadArrayFromJsonFileNamed:[region.keyName stringByAppendingString:RegionDropsFileNameSuffix]];
         // If the file actually exists...
         if (areaDrops) {
             // ... go through the file, and construct areas/drops as appropriate
@@ -219,7 +214,7 @@ NSString *const AreaDropIDDecimalStringKey = @"idDecimalString";
                                   region.name,
                                   areaDropDict[AreaDropAreaNameKey],
                                   areaDropDict[AreaDropRankKey]];
-    NSPredicate *areaPredicate = [NSPredicate predicateWithFormat:@"%K == %@", AreaCombinedNameKey, areaCombinedName];
+    NSPredicate *areaPredicate = [NSPredicate predicateWithFormat:@"%K == %@", AreaAttributes.combinedName, areaCombinedName];
     Area *area = (Area *)[self getUniqueEntityWithEntityName:[Area entityName] withPredicate:areaPredicate];
     // If the area doesn't already exist...
     if (!area) {
@@ -236,7 +231,7 @@ NSString *const AreaDropIDDecimalStringKey = @"idDecimalString";
     // We should now consider adding this drop to the area.
     // First, check if the area drop already exists, by way of checking the idDecimalString
     NSString *idDecimalString = areaDropDict[AreaDropIDKey];
-    NSPredicate *areaDropPredicate = [NSPredicate predicateWithFormat:@"%K == %@", AreaDropIDDecimalStringKey, idDecimalString];
+    NSPredicate *areaDropPredicate = [NSPredicate predicateWithFormat:@"%K == %@", AreaDropAttributes.idDecimalString, idDecimalString];
     AreaDrop *drop = (AreaDrop *)[self getUniqueEntityWithEntityName:[AreaDrop entityName] withPredicate:areaDropPredicate];
     //If the drop already exists...
     if (drop) {
@@ -259,7 +254,7 @@ NSString *const AreaDropIDDecimalStringKey = @"idDecimalString";
         
         // Time to hook up the item relationship.  The item may or may not already exist.
         NSString *itemName = areaDropDict[AreaDropItemNameKey];
-        NSPredicate *itemPredicate = [NSPredicate predicateWithFormat:@"%K == %@", ItemNameKey, itemName];
+        NSPredicate *itemPredicate = [NSPredicate predicateWithFormat:@"%K == %@", ItemAttributes.name, itemName];
         Item *item = (Item *)[self getUniqueEntityWithEntityName:[Item entityName] withPredicate:itemPredicate];
         if (!item) {
             item = [Item insertInManagedObjectContext:self.managedObjectContext];
