@@ -12,6 +12,9 @@
 
 @interface DamageZoneCell : UICollectionViewCell
 
+/**
+ Update the cell's labels with information based on the DamageZone object passed in.
+ */
 - (void)displayContentsWithDamageZone:(DamageZone *)damageZone;
 
 @end

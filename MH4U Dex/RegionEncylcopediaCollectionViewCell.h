@@ -13,6 +13,9 @@
 @property (nonatomic, strong) NSString *regionName;
 @property (nonatomic, strong) NSString *regionKeyName;
 
+/**
+ Update the cell's labels.
+ */
 - (void)displayContents;
 
 @end

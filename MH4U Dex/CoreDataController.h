@@ -13,11 +13,29 @@
 
 + (CoreDataController *)sharedCDController;
 
+/**
+ Load into Core Data the data on Monsters and their damage zones.
+ */
 - (void)loadMonsterData;
+
+/**
+ Load into Core Data the data on what Items can be obtained from monsters.
+ */
 - (void)loadMonsterDropData;
+
+/**
+ Load into Core Data the data on Regions, Areas, and what Items can be obtained from Areas.
+ */
 - (void)loadRegionData;
+
+/**
+ Attempt to save the persistent store, and return true if succesful
+ */
 - (BOOL)attemptSaveContext;
 
+/**
+ Returns the Unique entity that matches the entityName and predicate, or nil if the entity does not exist, or is not unique.
+ */
 - (NSManagedObject *)getUniqueEntityWithEntityName:(NSString *)entityName withPredicate:(NSPredicate *)predicate;
 
 #pragma mark - Boilerplate Core Data Code

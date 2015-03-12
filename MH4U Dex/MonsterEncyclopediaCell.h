@@ -12,6 +12,9 @@
 
 @property (nonatomic, strong) NSString *monsterName;
 
+/**
+ Update the cell's labels.
+ */
 - (void)displayContents;
 
 @end

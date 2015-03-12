@@ -12,6 +12,9 @@
 
 @interface AreaDropTableViewCell : UITableViewCell
 
+/**
+ Update the cell's labels with information based on the AreaDrop object passed in.
+ */
 - (void)displayContentsWithAreaDrop:(AreaDrop *)areaDrop;
 
 @end

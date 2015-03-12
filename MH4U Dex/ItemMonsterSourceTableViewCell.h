@@ -13,6 +13,9 @@
 @property (nonatomic, strong) NSString *method;
 @property (nonatomic, strong) NSString *sourceName;
 
+/**
+ Update the cell's labels.
+ */
 - (void)displayContents;
 
 @end

@@ -14,8 +14,6 @@
 
 #import "CoreDataController.h"
 
-//NSString *const RegionNameKey = @"name";
-
 @interface RegionContainerViewController ()
 
 @property (nonatomic, weak) IBOutlet UIView *regionMapSubview;
@@ -29,6 +27,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    //TODO: Uncomment or remove once a solution for map displays is found.
     //[self.regionMapSubview setHidden:YES];
     self.navigationItem.title = [NSString stringWithFormat:@"%@ Low-Rank Items", self.regionName];
     self.regionNameLabel.text = self.regionName;

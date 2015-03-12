@@ -13,6 +13,4 @@
 @property (nonatomic, strong) NSManagedObjectContext *managedObjectContext;
 @property (nonatomic, strong) NSString *monster;
 
-- (void)setMonster:(NSString *)monster;
-
 @end

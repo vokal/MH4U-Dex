@@ -15,6 +15,9 @@
 @property (nonatomic, assign) NSInteger percent;
 @property (nonatomic, assign) NSInteger quantity;
 
+/**
+ Update the cell's labels.
+ */
 - (void)displayContents;
 
 @end

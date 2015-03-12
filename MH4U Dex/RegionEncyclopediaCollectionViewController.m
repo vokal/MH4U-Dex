@@ -77,7 +77,7 @@
         regionVC.regionKeyName = [sender regionKeyName];
         
         CoreDataController *coreDataController = [CoreDataController sharedCDController];
-        NSPredicate *predicate = [NSPredicate predicateWithFormat:@"%K == %@", @"name", [sender regionName]];
+        NSPredicate *predicate = [NSPredicate predicateWithFormat:@"%K == %@", RegionAttributes.name, [sender regionName]];
         regionVC.region = (Region *)[coreDataController getUniqueEntityWithEntityName:[Region entityName] withPredicate:predicate];
     }
 }

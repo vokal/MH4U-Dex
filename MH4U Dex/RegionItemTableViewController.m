@@ -21,7 +21,6 @@
 @interface RegionItemTableViewController ()
 
 @property (nonatomic, strong) NSArray *areaArray;
-@property (nonatomic, strong) NSMutableDictionary *areaDrops;
 
 @end
 
@@ -30,19 +29,16 @@
 - (void)viewDidLoad
 {
     CoreDataController *coreDataController = [CoreDataController sharedCDController];
-    self.areaDrops = [NSMutableDictionary dictionary];
     NSError *fetchError = nil;
-    NSSortDescriptor *areaSortDescriptor = [NSSortDescriptor sortDescriptorWithKey:@"name" ascending:YES];
+    NSSortDescriptor *areaSortDescriptor = [NSSortDescriptor sortDescriptorWithKey:AreaAttributes.name ascending:YES];
     NSFetchRequest *areaFetchRequest = [[NSFetchRequest alloc] initWithEntityName:[Area entityName]];
-    NSPredicate *areaPredicate = [NSPredicate predicateWithFormat:@"%K == %@", @"region", self.region];
+    NSPredicate *areaPredicate = [NSPredicate predicateWithFormat:@"%K == %@", AreaRelationships.region, self.region];
     //TODO: Support all ranks.
-    NSPredicate *rankPredicate = [NSPredicate predicateWithFormat:@"%K == %@", @"rank", @"Low"];
+    NSPredicate *rankPredicate = [NSPredicate predicateWithFormat:@"%K == %@", AreaAttributes.rank, @"Low"];
     NSCompoundPredicate *compoundPredicate = [NSCompoundPredicate andPredicateWithSubpredicates:@[rankPredicate, areaPredicate]];
     [areaFetchRequest setPredicate:compoundPredicate];
     [areaFetchRequest setSortDescriptors:@[areaSortDescriptor]];
     self.areaArray = [coreDataController.managedObjectContext executeFetchRequest:areaFetchRequest error:&fetchError];
-    
-   
 }
 
 #pragma mark - Table view data source
@@ -62,7 +58,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     Area *area = self.areaArray[indexPath.section];
-    NSSortDescriptor *dropSortDescriptor = [NSSortDescriptor sortDescriptorWithKey:@"idDecimalString" ascending:YES];
+    NSSortDescriptor *dropSortDescriptor = [NSSortDescriptor sortDescriptorWithKey:AreaDropAttributes.idDecimalString ascending:YES];
     NSArray *dropsArray = [area.drop sortedArrayUsingDescriptors:@[dropSortDescriptor]];
     AreaDrop *drop = dropsArray[indexPath.row];
     AreaDropTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"AreaDropTableViewCell"];
@@ -77,7 +73,7 @@
     CoreDataController *coreDataController = [CoreDataController sharedCDController];
     itemVC.managedObjectContext = coreDataController.managedObjectContext;
     Area *area = self.areaArray[indexPath.section];
-    NSSortDescriptor *dropSortDescriptor = [NSSortDescriptor sortDescriptorWithKey:@"idDecimalString" ascending:YES];
+    NSSortDescriptor *dropSortDescriptor = [NSSortDescriptor sortDescriptorWithKey:AreaDropAttributes.idDecimalString ascending:YES];
     NSArray *dropsArray = [area.drop sortedArrayUsingDescriptors:@[dropSortDescriptor]];
     AreaDrop *drop = dropsArray[indexPath.row];
     itemVC.itemName = drop.item.name;

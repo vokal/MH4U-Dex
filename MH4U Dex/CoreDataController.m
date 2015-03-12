@@ -46,7 +46,6 @@ static NSString *const AreaCombinedNameKey = @"combinedName";
 
 static NSString *const RegionsFileName = @"regions";
 static NSString *const RegionIDJSONKey = @"_id";
-static NSString *const RegionIDKey = @"id";
 static NSString *const RegionNameKey = @"region_name";
 static NSString *const RegionKeyNameKey = @"keyName";
 static NSString *const RegionDropsFileNameSuffix = @"_drops";
@@ -72,7 +71,6 @@ static NSString *const AreaDropMethodKey = @"method";
 static NSString *const AreaDropPercentKey = @"chance";
 static NSString *const AreaDropQuantityKey = @"number";
 static NSString *const AreaDropItemNameKey = @"item";
-static NSString *const AreaDropIDDecimalStringKey = @"idDecimalString";
 
 #pragma mark - Singleton Method
 

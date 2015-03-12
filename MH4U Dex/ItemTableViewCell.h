@@ -12,6 +12,10 @@
 
 @property (nonatomic, strong) NSString *itemName;
 
+
+/**
+ Update the cell's labels.
+ */
 - (void)displayContents;
 
 @end
