@@ -66,7 +66,6 @@ static NSString *const QuestHRPKey = @"hrp";
 static NSString *const QuestMapKeyNameKey = @"map";
 static NSString *const QuestKeyIndicatorKey = @"key";
 static NSString *const QuestObjectiveKey = @"objective";
-static NSString *const QuestOutbreakKey = @"outbreak";
 static NSString *const QuestRewardKey = @"reward";
 static NSString *const QuestStarsKey = @"stars";
 static NSString *const QuestSubQuestObjectiveKey = @"subquest";
@@ -80,6 +79,14 @@ static NSString *const QuestCaravanKey = @"caravan";
 static NSString *const QuestNoneString = @"None";
 
 #pragma mark - Quest Drop Constants
+
+static NSString *const QuestDropsFileName = @"quest_drops";
+static NSString *const QuestDropIDKey = @"dropID";
+static NSString *const QuestDropQuestIDKey = @"questID";
+static NSString *const QuestDropRowKey = @"row";
+static NSString *const QuestDropItemNameKey = @"item";
+static NSString *const QuestDropQuantityKey = @"quantity";
+static NSString *const QuestDropPercentKey = @"percent";
 
 #pragma mark - Monster Drop Constants
 
@@ -223,7 +230,26 @@ static NSString *const AreaDropItemNameKey = @"item";
 
 - (void)loadQuestDropData
 {
-    //TODO: Implement questDropData once mock data is created.
+    NSArray *questDropList = [self loadArrayFromJsonFileNamed:QuestDropsFileName];
+    
+    for (NSDictionary *dropDict in questDropList) {
+        QuestDrop *drop;
+        NSNumber *dropID = dropDict[QuestDropIDKey];
+        NSPredicate *dropPredicate = [NSPredicate predicateWithFormat:@"%K == %d", QuestDropAttributes.id, dropID.intValue];
+        drop = (QuestDrop *)[self getUniqueEntityWithEntityName:[QuestDrop entityName] withPredicate:dropPredicate];
+        if (!drop) {
+            drop = [self questDropFromDictionary:dropDict];
+            if (!drop) {
+                //If we reach this point, then the quest that this drop belongs to did not exist, and we should return without saving the context;
+                //TODO: Better way to handle this?  Though this never SHOULD happen.
+                return;
+            }
+        }
+    }
+    
+    if (![self attemptSaveContext]) {
+        NSLog(@"WARNING: Failed to save the item context!");
+    }
 }
 
 - (void)loadRegionData
@@ -315,7 +341,6 @@ static NSString *const AreaDropItemNameKey = @"item";
             item.name = itemName;
         }
         drop.item = item;
-        
         // The Drop should now exist, and be properly hooked up to the area, which exists and is hooked up to the region.
     }
 }
@@ -410,6 +435,30 @@ static NSString *const AreaDropItemNameKey = @"item";
     } else {
         return 0;
     }
+}
+
+- (QuestDrop *)questDropFromDictionary:(NSDictionary *)dropDict
+{
+    QuestDrop *drop = [QuestDrop insertInManagedObjectContext:self.managedObjectContext];
+    NSPredicate *questPredicate = [NSPredicate predicateWithFormat:@"%K == %@", QuestAttributes.id, dropDict[QuestDropQuestIDKey]];
+    drop.quest = (Quest *)[self getUniqueEntityWithEntityName:[Quest entityName] withPredicate:questPredicate];
+    if (!drop.quest) {
+        //If the quest was not found, then it makes no sense to store this reward.  Just return nil.
+        NSLog(@"The quest for a quest reward was not found!");
+        return nil;
+    }
+    drop.id = dropDict[QuestDropIDKey];
+    drop.row = dropDict[QuestDropRowKey];
+    drop.quantity = dropDict[QuestDropQuantityKey];
+    drop.percent = dropDict[QuestDropPercentKey];
+    NSPredicate *itemPredicate = [NSPredicate predicateWithFormat:@"%K == %@", ItemAttributes.name, dropDict[QuestDropItemNameKey]];
+    Item *item = (Item *)[self getUniqueEntityWithEntityName:[Item entityName] withPredicate:itemPredicate];
+    if (!item) {
+        item = [Item insertInManagedObjectContext:self.managedObjectContext];
+        item.name = dropDict[QuestDropItemNameKey];
+    }
+    drop.item = item;
+    return drop;
 }
 
 - (Quest *)questFromDictionary:(NSDictionary *)questDict

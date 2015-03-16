@@ -15,6 +15,7 @@ const struct ItemRelationships ItemRelationships = {
 	.comboThird = @"comboThird",
 	.decorationUse = @"decorationUse",
 	.monsterSource = @"monsterSource",
+	.questSource = @"questSource",
 	.tradeIn = @"tradeIn",
 	.tradeOut = @"tradeOut",
 	.weaponUse = @"weaponUse",
@@ -125,6 +126,17 @@ const struct ItemRelationships ItemRelationships = {
 	NSMutableSet *result = (NSMutableSet*)[self mutableSetValueForKey:@"monsterSource"];
 
 	[self didAccessValueForKey:@"monsterSource"];
+	return result;
+}
+
+@dynamic questSource;
+
+- (NSMutableSet*)questSourceSet {
+	[self willAccessValueForKey:@"questSource"];
+
+	NSMutableSet *result = (NSMutableSet*)[self mutableSetValueForKey:@"questSource"];
+
+	[self didAccessValueForKey:@"questSource"];
 	return result;
 }
 

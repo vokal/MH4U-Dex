@@ -66,6 +66,7 @@
         <relationship name="comboThird" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Combination" inverseName="thirdItem" inverseEntity="Combination" syncable="YES"/>
         <relationship name="decorationUse" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Decoration" inverseName="material" inverseEntity="Decoration" syncable="YES"/>
         <relationship name="monsterSource" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="MonsterDrop" inverseName="item" inverseEntity="MonsterDrop" syncable="YES"/>
+        <relationship name="questSource" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="QuestDrop" inverseName="item" inverseEntity="QuestDrop" syncable="YES"/>
         <relationship name="tradeIn" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Trade" inverseName="tradeIn" inverseEntity="Trade" syncable="YES"/>
         <relationship name="tradeOut" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Trade" inverseName="tradeOut" inverseEntity="Trade" syncable="YES"/>
         <relationship name="weaponUse" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Weapon" inverseName="material" inverseEntity="Weapon" syncable="YES"/>
@@ -117,6 +118,11 @@
         <relationship name="thirdMonster" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Monster" inverseName="questThirdTarget" inverseEntity="Monster" syncable="YES"/>
     </entity>
     <entity name="QuestDrop" representedClassName="QuestDrop" syncable="YES">
+        <attribute name="id" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="percent" attributeType="String" syncable="YES"/>
+        <attribute name="quantity" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="row" attributeType="String" syncable="YES"/>
+        <relationship name="item" maxCount="1" deletionRule="Nullify" destinationEntity="Item" inverseName="questSource" inverseEntity="Item" syncable="YES"/>
         <relationship name="quest" maxCount="1" deletionRule="Nullify" destinationEntity="Quest" inverseName="drop" inverseEntity="Quest" syncable="YES"/>
     </entity>
     <entity name="Region" representedClassName="Region" syncable="YES">
@@ -149,7 +155,7 @@
         <element name="Combination" positionX="-632" positionY="-124" width="128" height="103"/>
         <element name="DamageZone" positionX="-416" positionY="-36" width="128" height="283"/>
         <element name="Decoration" positionX="-398" positionY="-288" width="128" height="88"/>
-        <element name="Item" positionX="-632" positionY="-331" width="128" height="208"/>
+        <element name="Item" positionX="-632" positionY="-331" width="128" height="225"/>
         <element name="Monster" positionX="-785" positionY="36" width="128" height="253"/>
         <element name="MonsterDrop" positionX="-785" positionY="-153" width="128" height="148"/>
         <element name="Quest" positionX="-974" positionY="-271" width="128" height="328"/>
@@ -157,6 +163,6 @@
         <element name="Skilltree" positionX="-243" positionY="-316" width="128" height="88"/>
         <element name="Trade" positionX="-632" positionY="-432" width="128" height="88"/>
         <element name="Weapon" positionX="-398" positionY="-193" width="128" height="73"/>
-        <element name="QuestDrop" positionX="-774" positionY="-288" width="128" height="58"/>
+        <element name="QuestDrop" positionX="-774" positionY="-288" width="128" height="133"/>
     </elements>
 </model>

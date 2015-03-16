@@ -15,6 +15,7 @@ extern const struct ItemRelationships {
 	__unsafe_unretained NSString *comboThird;
 	__unsafe_unretained NSString *decorationUse;
 	__unsafe_unretained NSString *monsterSource;
+	__unsafe_unretained NSString *questSource;
 	__unsafe_unretained NSString *tradeIn;
 	__unsafe_unretained NSString *tradeOut;
 	__unsafe_unretained NSString *weaponUse;
@@ -27,6 +28,7 @@ extern const struct ItemRelationships {
 @class Combination;
 @class Decoration;
 @class MonsterDrop;
+@class QuestDrop;
 @class Trade;
 @class Trade;
 @class Weapon;
@@ -71,6 +73,10 @@ extern const struct ItemRelationships {
 @property (nonatomic, strong) NSSet *monsterSource;
 
 - (NSMutableSet*)monsterSourceSet;
+
+@property (nonatomic, strong) NSSet *questSource;
+
+- (NSMutableSet*)questSourceSet;
 
 @property (nonatomic, strong) Trade *tradeIn;
 
@@ -142,6 +148,14 @@ extern const struct ItemRelationships {
 
 @end
 
+@interface _Item (QuestSourceCoreDataGeneratedAccessors)
+- (void)addQuestSource:(NSSet*)value_;
+- (void)removeQuestSource:(NSSet*)value_;
+- (void)addQuestSourceObject:(QuestDrop*)value_;
+- (void)removeQuestSourceObject:(QuestDrop*)value_;
+
+@end
+
 @interface _Item (WeaponUseCoreDataGeneratedAccessors)
 - (void)addWeaponUse:(NSSet*)value_;
 - (void)removeWeaponUse:(NSSet*)value_;
@@ -175,6 +189,9 @@ extern const struct ItemRelationships {
 
 - (NSMutableSet*)primitiveMonsterSource;
 - (void)setPrimitiveMonsterSource:(NSMutableSet*)value;
+
+- (NSMutableSet*)primitiveQuestSource;
+- (void)setPrimitiveQuestSource:(NSMutableSet*)value;
 
 - (Trade*)primitiveTradeIn;
 - (void)setPrimitiveTradeIn:(Trade*)value;
