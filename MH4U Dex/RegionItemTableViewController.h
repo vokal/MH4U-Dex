@@ -12,5 +12,6 @@
 @interface RegionItemTableViewController : UITableViewController
 
 @property (nonatomic, strong) Region *region;
+@property (nonatomic, strong) NSString *rank;
 
 @end

@@ -34,8 +34,13 @@
     NSSortDescriptor *areaSortDescriptor = [NSSortDescriptor sortDescriptorWithKey:AreaAttributes.name ascending:YES];
     NSFetchRequest *areaFetchRequest = [[NSFetchRequest alloc] initWithEntityName:[Area entityName]];
     NSPredicate *areaPredicate = [NSPredicate predicateWithFormat:@"%K == %@", AreaRelationships.region, self.region];
-    //TODO: Support all ranks.
-    NSPredicate *rankPredicate = [NSPredicate predicateWithFormat:@"%K == %@", AreaAttributes.rank, @"Low"];
+    NSPredicate *rankPredicate;
+    //TODO: Clean this up a little bit.
+    if (self.rank) {
+        rankPredicate = [NSPredicate predicateWithFormat:@"%K == %@", AreaAttributes.rank, self.rank];
+    } else {
+        rankPredicate = [NSPredicate predicateWithFormat:@"%K == %@", AreaAttributes.rank, @"Low"];
+    }
     NSCompoundPredicate *compoundPredicate = [NSCompoundPredicate andPredicateWithSubpredicates:@[rankPredicate, areaPredicate]];
     [areaFetchRequest setPredicate:compoundPredicate];
     [areaFetchRequest setSortDescriptors:@[areaSortDescriptor]];

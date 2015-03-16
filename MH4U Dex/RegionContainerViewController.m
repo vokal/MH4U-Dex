@@ -14,10 +14,21 @@
 
 #import "CoreDataController.h"
 
+typedef NS_ENUM(NSInteger, RegionSegmentedControlPage) {
+    LowRank = 0,
+    HighRank = 1,
+    GRank = 2,
+    Map = 3,
+    
+    MonsterSegmentedControlCount
+};
+
+
 @interface RegionContainerViewController ()
 
-@property (nonatomic, weak) IBOutlet UIView *regionMapSubview;
-@property (nonatomic, weak) IBOutlet UIView *regionDropSubview;
+@property (nonatomic, weak) IBOutlet UIView *regionLowRankSubview;
+@property (nonatomic, weak) IBOutlet UIView *regionHighRankSubview;
+@property (nonatomic, weak) IBOutlet UIView *regionGRankSubview;
 @property (nonatomic, weak) IBOutlet UILabel *regionNameLabel;
 
 @end
@@ -29,6 +40,9 @@
     [super viewDidLoad];
     //TODO: Uncomment or remove once a solution for map displays is found.
     //[self.regionMapSubview setHidden:YES];
+    self.regionLowRankSubview.hidden = NO;
+    self.regionHighRankSubview.hidden = YES;
+    self.regionGRankSubview.hidden = YES;
     self.navigationItem.title = [NSString stringWithFormat:@"%@ Low-Rank Items", self.regionName];
     self.regionNameLabel.text = self.regionName;
    
@@ -36,9 +50,36 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    if ([segue.identifier isEqualToString:@"embedRegionItems"]) {
-        RegionItemTableViewController *dropVC = (RegionItemTableViewController *)segue.destinationViewController;
-        dropVC.region = self.region;  // This is a much cleaner way to handle these transitions.
+    RegionItemTableViewController *dropVC = (RegionItemTableViewController *)segue.destinationViewController;
+    dropVC.region = self.region;  // This is a much cleaner way to handle these transitions.
+    
+    if ([segue.identifier isEqualToString:@"embedLowRankRegionItems"]) {
+        dropVC.rank = @"Low";
+    } else if ([segue.identifier isEqualToString:@"embedHighRankRegionItems"]) {
+        dropVC.rank = @"High";
+    } else if ([segue.identifier isEqualToString:@"embedGRankRegionItems"]) {
+        dropVC.rank = @"G";
+    }
+}
+
+- (IBAction)segmentedControlChanged:(UISegmentedControl *)segmentedControl
+{
+    switch (segmentedControl.selectedSegmentIndex) {
+        case LowRank:
+            self.regionLowRankSubview.hidden = NO;
+            self.regionHighRankSubview.hidden = YES;
+            self.regionGRankSubview.hidden = YES;
+            //self.navigationItem.title = [NSString stringWithFormat:@"%@ Overview", self.monster];
+            break;
+        case HighRank:
+            self.regionLowRankSubview.hidden = YES;
+            self.regionHighRankSubview.hidden = NO;
+            self.regionGRankSubview.hidden = YES;
+            break;
+        case GRank:
+            self.regionLowRankSubview.hidden = YES;
+            self.regionHighRankSubview.hidden = YES;
+            self.regionGRankSubview.hidden = NO;
     }
 }
 

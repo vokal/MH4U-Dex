@@ -80,10 +80,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zoj-nd-0Bf" userLabel="DropContainer">
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zoj-nd-0Bf" userLabel="LowRankDropContainer">
                                 <rect key="frame" x="0.0" y="114" width="600" height="456"/>
                                 <connections>
-                                    <segue destination="jDA-QE-11i" kind="embed" identifier="embedRegionItems" id="mCf-Y8-vX3"/>
+                                    <segue destination="jDA-QE-11i" kind="embed" identifier="embedLowRankRegionItems" id="mCf-Y8-vX3"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C79-9Q-R1N" userLabel="HighRankDropContainer">
+                                <rect key="frame" x="0.0" y="114" width="600" height="456"/>
+                                <connections>
+                                    <segue destination="jDA-QE-11i" kind="embed" identifier="embedHighRankRegionItems" id="t5b-D9-VWj"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mkv-vf-Zjy" userLabel="GRankDropContainer">
+                                <rect key="frame" x="0.0" y="114" width="600" height="456"/>
+                                <connections>
+                                    <segue destination="jDA-QE-11i" kind="embed" identifier="embedGRankRegionItems" id="W2D-xv-a7l"/>
                                 </connections>
                             </containerView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Region Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="2" translatesAutoresizingMaskIntoConstraints="NO" id="12S-jo-BsU">
@@ -104,27 +116,37 @@
                                     <segment title="Gather Node Map"/>
                                 </segments>
                                 <connections>
-                                    <action selector="segmentedControlChanged:" destination="ilN-Gx-iPA" eventType="valueChanged" id="Epc-6G-b1g"/>
+                                    <action selector="segmentedControlChanged:" destination="3ay-fh-pTm" eventType="valueChanged" id="s6P-aO-OeF"/>
                                 </connections>
                             </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="zoj-nd-0Bf" firstAttribute="trailing" secondItem="Mkv-vf-Zjy" secondAttribute="trailing" id="6nD-DD-t4h"/>
+                            <constraint firstItem="zoj-nd-0Bf" firstAttribute="width" secondItem="Mkv-vf-Zjy" secondAttribute="width" id="7cg-Vl-bTT"/>
                             <constraint firstItem="4Ei-Nb-H0z" firstAttribute="top" secondItem="H3p-SW-Bxj" secondAttribute="bottom" constant="1" id="9np-cY-Aed"/>
                             <constraint firstItem="12S-jo-BsU" firstAttribute="leading" secondItem="DpF-SY-oC9" secondAttribute="leading" constant="20" id="ACD-RK-H90"/>
+                            <constraint firstItem="zoj-nd-0Bf" firstAttribute="centerY" secondItem="Mkv-vf-Zjy" secondAttribute="centerY" id="CGD-Hc-ZP7"/>
+                            <constraint firstItem="zoj-nd-0Bf" firstAttribute="centerX" secondItem="C79-9Q-R1N" secondAttribute="centerX" id="Ems-Xi-8YK"/>
                             <constraint firstAttribute="width" secondItem="zoj-nd-0Bf" secondAttribute="width" id="MBo-fh-xeA"/>
                             <constraint firstAttribute="trailingMargin" secondItem="12S-jo-BsU" secondAttribute="trailing" constant="20" id="Q5w-9q-PxZ"/>
                             <constraint firstAttribute="centerX" secondItem="zoj-nd-0Bf" secondAttribute="centerX" id="TBR-GB-jB0"/>
                             <constraint firstItem="zoj-nd-0Bf" firstAttribute="top" secondItem="WN5-EI-1Ru" secondAttribute="bottom" constant="50" id="TPm-Mz-beX"/>
                             <constraint firstItem="H3p-SW-Bxj" firstAttribute="width" secondItem="DpF-SY-oC9" secondAttribute="width" id="U1e-fP-d2G"/>
+                            <constraint firstItem="zoj-nd-0Bf" firstAttribute="height" secondItem="Mkv-vf-Zjy" secondAttribute="height" id="UNa-Ve-x8K"/>
+                            <constraint firstItem="zoj-nd-0Bf" firstAttribute="height" secondItem="C79-9Q-R1N" secondAttribute="height" id="XIX-K0-MPJ"/>
                             <constraint firstItem="H3p-SW-Bxj" firstAttribute="top" secondItem="zoj-nd-0Bf" secondAttribute="bottom" constant="1" id="ac2-bC-VLX"/>
                             <constraint firstAttribute="centerX" secondItem="H3p-SW-Bxj" secondAttribute="centerX" id="hA5-4G-mii"/>
                             <constraint firstItem="zoj-nd-0Bf" firstAttribute="top" secondItem="12S-jo-BsU" secondAttribute="bottom" constant="14" id="t9o-Xs-oA7"/>
+                            <constraint firstItem="zoj-nd-0Bf" firstAttribute="width" secondItem="C79-9Q-R1N" secondAttribute="width" id="xgU-8d-3sX"/>
+                            <constraint firstItem="zoj-nd-0Bf" firstAttribute="centerY" secondItem="C79-9Q-R1N" secondAttribute="centerY" id="yWw-cE-Nax"/>
                             <constraint firstItem="12S-jo-BsU" firstAttribute="top" secondItem="WN5-EI-1Ru" secondAttribute="bottom" constant="15" id="zh8-h8-Mm5"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="regionDropSubview" destination="zoj-nd-0Bf" id="eH2-mO-VCb"/>
+                        <outlet property="regionGRankSubview" destination="Mkv-vf-Zjy" id="fGe-9I-ZAl"/>
+                        <outlet property="regionHighRankSubview" destination="C79-9Q-R1N" id="dOb-Md-9r5"/>
+                        <outlet property="regionLowRankSubview" destination="zoj-nd-0Bf" id="kSW-fz-PJc"/>
                         <outlet property="regionNameLabel" destination="12S-jo-BsU" id="u6m-7l-OgW"/>
                     </connections>
                 </viewController>
@@ -858,4 +880,7 @@
             <point key="canvasLocation" x="-1458" y="-1272"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="W2D-xv-a7l"/>
+    </inferredMetricsTieBreakers>
 </document>
