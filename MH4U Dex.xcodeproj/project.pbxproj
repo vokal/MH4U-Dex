@@ -52,7 +52,7 @@
 		E4456EB31A89663900FCC7DC /* _DamageZone.m in Sources */ = {isa = PBXBuildFile; fileRef = E4456EB21A89663900FCC7DC /* _DamageZone.m */; };
 		E4456EB61A89664F00FCC7DC /* DamageZone.m in Sources */ = {isa = PBXBuildFile; fileRef = E4456EB51A89664F00FCC7DC /* DamageZone.m */; };
 		E45E9A8E1A890CC400D75592 /* MonsterDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E45E9A8D1A890CC400D75592 /* MonsterDetailsViewController.m */; };
-		E45E9A911A890ED300D75592 /* MonsterLowRankTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E45E9A901A890ED300D75592 /* MonsterLowRankTableViewController.m */; };
+		E45E9A911A890ED300D75592 /* MonsterItemTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E45E9A901A890ED300D75592 /* MonsterItemTableViewController.m */; };
 		E46BBBA31AAA483100068F02 /* RegionContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E46BBBA21AAA483000068F02 /* RegionContainerViewController.m */; };
 		E46BBBA61AAA4CEE00068F02 /* RegionItemTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E46BBBA51AAA4CEE00068F02 /* RegionItemTableViewController.m */; };
 		E471BE1A1A96456F0076CBD7 /* monsterDrops.json in Resources */ = {isa = PBXBuildFile; fileRef = E471BE191A96456F0076CBD7 /* monsterDrops.json */; };
@@ -165,8 +165,8 @@
 		E4456EB51A89664F00FCC7DC /* DamageZone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DamageZone.m; sourceTree = "<group>"; };
 		E45E9A8C1A890CC400D75592 /* MonsterDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonsterDetailsViewController.h; sourceTree = "<group>"; };
 		E45E9A8D1A890CC400D75592 /* MonsterDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonsterDetailsViewController.m; sourceTree = "<group>"; };
-		E45E9A8F1A890ED300D75592 /* MonsterLowRankTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonsterLowRankTableViewController.h; sourceTree = "<group>"; };
-		E45E9A901A890ED300D75592 /* MonsterLowRankTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonsterLowRankTableViewController.m; sourceTree = "<group>"; };
+		E45E9A8F1A890ED300D75592 /* MonsterItemTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonsterItemTableViewController.h; sourceTree = "<group>"; };
+		E45E9A901A890ED300D75592 /* MonsterItemTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonsterItemTableViewController.m; sourceTree = "<group>"; };
 		E46BBBA11AAA483000068F02 /* RegionContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionContainerViewController.h; sourceTree = "<group>"; };
 		E46BBBA21AAA483000068F02 /* RegionContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegionContainerViewController.m; sourceTree = "<group>"; };
 		E46BBBA41AAA4CEE00068F02 /* RegionItemTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionItemTableViewController.h; sourceTree = "<group>"; };
@@ -506,8 +506,8 @@
 				E45E9A8D1A890CC400D75592 /* MonsterDetailsViewController.m */,
 				E4A7698B1A85207D00AC93DA /* MonsterEncyclopediaViewController.h */,
 				E4A7698C1A85207D00AC93DA /* MonsterEncyclopediaViewController.m */,
-				E45E9A8F1A890ED300D75592 /* MonsterLowRankTableViewController.h */,
-				E45E9A901A890ED300D75592 /* MonsterLowRankTableViewController.m */,
+				E45E9A8F1A890ED300D75592 /* MonsterItemTableViewController.h */,
+				E45E9A901A890ED300D75592 /* MonsterItemTableViewController.m */,
 				E4C76B321A85638D00AD753B /* MonsterOverviewViewController.h */,
 				E4C76B331A85638D00AD753B /* MonsterOverviewViewController.m */,
 			);
@@ -757,7 +757,7 @@
 				E4CE45D21A97BCC70059C056 /* ItemAreaSourceTableViewCell.m in Sources */,
 				E4CE45C31A97A8D30059C056 /* _MonsterDrop.m in Sources */,
 				E434F3781A83F5CA004C10BF /* _Weapon.m in Sources */,
-				E45E9A911A890ED300D75592 /* MonsterLowRankTableViewController.m in Sources */,
+				E45E9A911A890ED300D75592 /* MonsterItemTableViewController.m in Sources */,
 				E434F3831A83F5CA004C10BF /* Weapon.m in Sources */,
 				E4456EB01A895DBF00FCC7DC /* DamageZoneCell.m in Sources */,
 				E471BE1D1A96620E0076CBD7 /* DropTableViewCell.m in Sources */,

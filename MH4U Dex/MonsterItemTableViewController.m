@@ -1,12 +1,12 @@
 //
-//  MonsterLowRankTableViewController.m
+//  MonsterItemTableViewController.m
 //  MH4U Dex
 //
 //  Created by Joseph Goldberg on 2/9/15.
 //  Copyright (c) 2015 Joseph Goldberg. All rights reserved.
 //
 
-#import "MonsterLowRankTableViewController.h"
+#import "MonsterItemTableViewController.h"
 #import "MonsterEncyclopediaViewController.h"
 #import "Monster.h"
 #import "MonsterDrop.h"
@@ -15,13 +15,13 @@
 #import "DropTableViewCell.h"
 #import "ItemContainerViewController.h"
 
-@interface MonsterLowRankTableViewController ()
+@interface MonsterItemTableViewController ()
 
 @property (nonatomic, strong) NSArray *drops;
 
 @end
 
-@implementation MonsterLowRankTableViewController
+@implementation MonsterItemTableViewController
 
 - (void)viewDidLoad
 {
@@ -34,8 +34,16 @@
     
     NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:[MonsterDrop entityName]];
     NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:@"method" ascending:YES];
-    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterDropRelationships.monsterSource, monster];
-    [fetchRequest setPredicate:predicate];
+    NSPredicate *dropPredicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterDropRelationships.monsterSource, monster];
+    NSPredicate *rankPredicate;
+    //TODO: Clean this up a little bit.
+    if (self.rank) {
+        rankPredicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterDropAttributes.rank, self.rank];
+    } else {
+        rankPredicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterDropAttributes.rank, @"Low"];
+    }
+    NSCompoundPredicate *compoundPredicate = [NSCompoundPredicate andPredicateWithSubpredicates:@[dropPredicate, rankPredicate]];
+    [fetchRequest setPredicate:compoundPredicate];
     [fetchRequest setSortDescriptors:@[sortDescriptor]];
     
     self.drops = [self.managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];

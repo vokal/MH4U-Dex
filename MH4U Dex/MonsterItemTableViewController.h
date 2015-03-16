@@ -1,5 +1,5 @@
 //
-//  MonsterLowRankTableViewController.h
+//  MonsterItemTableViewController.h
 //  MH4U Dex
 //
 //  Created by Joseph Goldberg on 2/9/15.
@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MonsterLowRankTableViewController : UITableViewController
+@interface MonsterItemTableViewController : UITableViewController
 
 @property (nonatomic, strong) NSManagedObjectContext *managedObjectContext;
 @property (nonatomic, strong) NSString *monster;
+@property (nonatomic, strong) NSString *rank;
 
 @end

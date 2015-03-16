@@ -437,6 +437,8 @@
                                 <segments>
                                     <segment title="Overview"/>
                                     <segment title="Low-Rank"/>
+                                    <segment title="High-Rank"/>
+                                    <segment title="G-Rank"/>
                                 </segments>
                                 <connections>
                                     <action selector="segmentedControlChanged:" destination="2UP-qa-Qp3" eventType="valueChanged" id="cfR-k8-k5x"/>
@@ -454,17 +456,37 @@
                                     <segue destination="PJK-g0-5c6" kind="embed" identifier="embedLowRank" id="lL3-k8-0fN"/>
                                 </connections>
                             </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" restorationIdentifier="MonsterHighRankContainer" translatesAutoresizingMaskIntoConstraints="NO" id="HQ6-Ef-TMG" userLabel="MonsterHighRankContainer">
+                                <rect key="frame" x="0.0" y="64" width="600" height="506"/>
+                                <connections>
+                                    <segue destination="PJK-g0-5c6" kind="embed" identifier="embedHighRank" id="Q4G-NL-56b"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" restorationIdentifier="MonsterGRankContainer" translatesAutoresizingMaskIntoConstraints="NO" id="kuM-h9-52H" userLabel="MonsterGRankContainer">
+                                <rect key="frame" x="0.0" y="64" width="600" height="506"/>
+                                <connections>
+                                    <segue destination="PJK-g0-5c6" kind="embed" identifier="embedGRank" id="OWj-AQ-QBO"/>
+                                </connections>
+                            </containerView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="fmB-Sh-Qwq" firstAttribute="top" secondItem="LqV-qk-bVx" secondAttribute="bottom" constant="1" id="9RL-He-vOj"/>
+                            <constraint firstItem="8JQ-yt-UGq" firstAttribute="centerX" secondItem="HQ6-Ef-TMG" secondAttribute="centerX" id="9YR-ku-HZE"/>
                             <constraint firstAttribute="trailingMargin" secondItem="8JQ-yt-UGq" secondAttribute="trailing" constant="-16" id="9up-Ro-szR"/>
                             <constraint firstItem="LqV-qk-bVx" firstAttribute="top" secondItem="8JQ-yt-UGq" secondAttribute="bottom" constant="1" id="BPA-rp-GVN"/>
                             <constraint firstItem="8JQ-yt-UGq" firstAttribute="leading" secondItem="E4a-6Z-bdR" secondAttribute="leadingMargin" constant="-16" id="BUx-ZJ-EhK"/>
                             <constraint firstAttribute="centerX" secondItem="LqV-qk-bVx" secondAttribute="centerX" id="FVC-Em-r8Z"/>
                             <constraint firstItem="LqV-qk-bVx" firstAttribute="leading" secondItem="E4a-6Z-bdR" secondAttribute="leading" id="HoK-7n-nHV"/>
+                            <constraint firstItem="8JQ-yt-UGq" firstAttribute="height" secondItem="kuM-h9-52H" secondAttribute="height" id="LRu-kf-Mrf"/>
+                            <constraint firstItem="8JQ-yt-UGq" firstAttribute="centerY" secondItem="kuM-h9-52H" secondAttribute="centerY" id="LxO-rG-PTc"/>
+                            <constraint firstItem="8JQ-yt-UGq" firstAttribute="height" secondItem="HQ6-Ef-TMG" secondAttribute="height" id="VPH-EQ-tCS"/>
                             <constraint firstItem="Vmj-tc-gSh" firstAttribute="top" secondItem="2DX-GU-ruT" secondAttribute="bottom" id="YD6-aj-gm3"/>
+                            <constraint firstItem="8JQ-yt-UGq" firstAttribute="centerX" secondItem="kuM-h9-52H" secondAttribute="centerX" id="YvT-eJ-whM"/>
                             <constraint firstItem="LqV-qk-bVx" firstAttribute="top" secondItem="Vmj-tc-gSh" secondAttribute="bottom" constant="1" id="ZF3-bl-9gl"/>
+                            <constraint firstItem="8JQ-yt-UGq" firstAttribute="centerY" secondItem="HQ6-Ef-TMG" secondAttribute="centerY" id="bAY-96-aDq"/>
+                            <constraint firstItem="8JQ-yt-UGq" firstAttribute="width" secondItem="HQ6-Ef-TMG" secondAttribute="width" id="hgv-mz-Tsf"/>
+                            <constraint firstItem="8JQ-yt-UGq" firstAttribute="width" secondItem="kuM-h9-52H" secondAttribute="width" id="ijz-6d-J7y"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Vmj-tc-gSh" secondAttribute="trailing" constant="-16" id="sQI-Sv-LMb"/>
                             <constraint firstItem="Vmj-tc-gSh" firstAttribute="leading" secondItem="E4a-6Z-bdR" secondAttribute="leadingMargin" constant="-16" id="wkL-jT-HcG"/>
                             <constraint firstItem="8JQ-yt-UGq" firstAttribute="top" secondItem="2DX-GU-ruT" secondAttribute="bottom" id="ybL-dN-e2u"/>
@@ -473,6 +495,8 @@
                     <tabBarItem key="tabBarItem" systemItem="search" id="dpB-D9-Vwk"/>
                     <navigationItem key="navigationItem" title="Monster Details" id="TGc-CV-55I" userLabel="Monster Details"/>
                     <connections>
+                        <outlet property="GRankSubView" destination="kuM-h9-52H" id="Fuh-2M-Xlv"/>
+                        <outlet property="highRankSubView" destination="HQ6-Ef-TMG" id="Ra8-Gx-mg8"/>
                         <outlet property="lowRankSubView" destination="8JQ-yt-UGq" id="YgO-e2-ngv"/>
                         <outlet property="overviewSubView" destination="Vmj-tc-gSh" id="PfW-ed-VKR"/>
                     </connections>
@@ -481,10 +505,10 @@
             </objects>
             <point key="canvasLocation" x="-2194" y="-1290"/>
         </scene>
-        <!--Monster Low Rank Table View Controller-->
+        <!--Monster Item Table View Controller-->
         <scene sceneID="1bS-sD-c3R">
             <objects>
-                <tableViewController id="PJK-g0-5c6" customClass="MonsterLowRankTableViewController" sceneMemberID="viewController">
+                <tableViewController id="PJK-g0-5c6" customClass="MonsterItemTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Vss-k8-IJt">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="506"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -824,7 +848,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4a7-uR-v7I" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1442" y="-798"/>
+            <point key="canvasLocation" x="-1458" y="-622.5"/>
         </scene>
         <!--Monster Overview View Controller-->
         <scene sceneID="oAL-NQ-WUx">
@@ -882,5 +906,6 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="W2D-xv-a7l"/>
+        <segue reference="OWj-AQ-QBO"/>
     </inferredMetricsTieBreakers>
 </document>
