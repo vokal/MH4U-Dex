@@ -11,9 +11,11 @@ extern const struct RegionAttributes {
 
 extern const struct RegionRelationships {
 	__unsafe_unretained NSString *area;
+	__unsafe_unretained NSString *quest;
 } RegionRelationships;
 
 @class Area;
+@class Quest;
 
 @interface RegionID : NSManagedObjectID {}
 @end
@@ -44,6 +46,10 @@ extern const struct RegionRelationships {
 
 - (NSMutableSet*)areaSet;
 
+@property (nonatomic, strong) NSSet *quest;
+
+- (NSMutableSet*)questSet;
+
 @end
 
 @interface _Region (AreaCoreDataGeneratedAccessors)
@@ -51,6 +57,14 @@ extern const struct RegionRelationships {
 - (void)removeArea:(NSSet*)value_;
 - (void)addAreaObject:(Area*)value_;
 - (void)removeAreaObject:(Area*)value_;
+
+@end
+
+@interface _Region (QuestCoreDataGeneratedAccessors)
+- (void)addQuest:(NSSet*)value_;
+- (void)removeQuest:(NSSet*)value_;
+- (void)addQuestObject:(Quest*)value_;
+- (void)removeQuestObject:(Quest*)value_;
 
 @end
 
@@ -70,5 +84,8 @@ extern const struct RegionRelationships {
 
 - (NSMutableSet*)primitiveArea;
 - (void)setPrimitiveArea:(NSMutableSet*)value;
+
+- (NSMutableSet*)primitiveQuest;
+- (void)setPrimitiveQuest:(NSMutableSet*)value;
 
 @end

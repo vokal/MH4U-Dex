@@ -88,6 +88,9 @@
 		E4CE45D41A97E03A0059C056 /* sunken_hollow_drops.json in Resources */ = {isa = PBXBuildFile; fileRef = E4CE45D31A97E03A0059C056 /* sunken_hollow_drops.json */; };
 		E4CE45D61A97E34D0059C056 /* primal_forest_drops.json in Resources */ = {isa = PBXBuildFile; fileRef = E4CE45D51A97E34D0059C056 /* primal_forest_drops.json */; };
 		E4CE45D81A97E6F80059C056 /* frozen_seaway_drops.json in Resources */ = {isa = PBXBuildFile; fileRef = E4CE45D71A97E6F80059C056 /* frozen_seaway_drops.json */; };
+		E4DAD2231AB734CE0048DACA /* QuestDrop.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAD2221AB734CE0048DACA /* QuestDrop.m */; };
+		E4DAD2261AB734DF0048DACA /* _QuestDrop.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAD2251AB734DF0048DACA /* _QuestDrop.m */; };
+		E4DAD2281AB739050048DACA /* quests.json in Resources */ = {isa = PBXBuildFile; fileRef = E4DAD2271AB739050048DACA /* quests.json */; };
 		E4E1CA701A8543A000043E9E /* CoreDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E1CA6F1A8543A000043E9E /* CoreDataController.m */; };
 		E4E2127C1AB1FDBE00320E39 /* volcanic_hollow_drops.json in Resources */ = {isa = PBXBuildFile; fileRef = E4E2127B1AB1FDBE00320E39 /* volcanic_hollow_drops.json */; };
 		E4E2127E1AB1FE1200320E39 /* heavens_mount_drops.json in Resources */ = {isa = PBXBuildFile; fileRef = E4E2127D1AB1FE1200320E39 /* heavens_mount_drops.json */; };
@@ -230,6 +233,11 @@
 		E4CE45D31A97E03A0059C056 /* sunken_hollow_drops.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sunken_hollow_drops.json; sourceTree = "<group>"; };
 		E4CE45D51A97E34D0059C056 /* primal_forest_drops.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = primal_forest_drops.json; sourceTree = "<group>"; };
 		E4CE45D71A97E6F80059C056 /* frozen_seaway_drops.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = frozen_seaway_drops.json; sourceTree = "<group>"; };
+		E4DAD2211AB734CE0048DACA /* QuestDrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestDrop.h; sourceTree = "<group>"; };
+		E4DAD2221AB734CE0048DACA /* QuestDrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestDrop.m; sourceTree = "<group>"; };
+		E4DAD2241AB734DF0048DACA /* _QuestDrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _QuestDrop.h; sourceTree = "<group>"; };
+		E4DAD2251AB734DF0048DACA /* _QuestDrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _QuestDrop.m; sourceTree = "<group>"; };
+		E4DAD2271AB739050048DACA /* quests.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quests.json; sourceTree = "<group>"; };
 		E4E1CA6E1A8543A000043E9E /* CoreDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataController.h; sourceTree = "<group>"; };
 		E4E1CA6F1A8543A000043E9E /* CoreDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataController.m; sourceTree = "<group>"; };
 		E4E2127B1AB1FDBE00320E39 /* volcanic_hollow_drops.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = volcanic_hollow_drops.json; sourceTree = "<group>"; };
@@ -292,6 +300,8 @@
 				E4CE45C21A97A8D30059C056 /* _MonsterDrop.m */,
 				E434F34D1A83F5CA004C10BF /* _Quest.h */,
 				E434F34E1A83F5CA004C10BF /* _Quest.m */,
+				E4DAD2241AB734DF0048DACA /* _QuestDrop.h */,
+				E4DAD2251AB734DF0048DACA /* _QuestDrop.m */,
 				E434F34F1A83F5CA004C10BF /* _Region.h */,
 				E434F3501A83F5CA004C10BF /* _Region.m */,
 				E434F3511A83F5CA004C10BF /* _Skilltree.h */,
@@ -330,6 +340,8 @@
 				E4CE45CB1A97A8F50059C056 /* MonsterDrop.m */,
 				E434F3641A83F5CA004C10BF /* Quest.h */,
 				E434F3651A83F5CA004C10BF /* Quest.m */,
+				E4DAD2211AB734CE0048DACA /* QuestDrop.h */,
+				E4DAD2221AB734CE0048DACA /* QuestDrop.m */,
 				E434F3661A83F5CA004C10BF /* Region.h */,
 				E434F3671A83F5CA004C10BF /* Region.m */,
 				E434F3681A83F5CA004C10BF /* Skilltree.h */,
@@ -453,6 +465,7 @@
 			children = (
 				E471BE301A979DB30076CBD7 /* Regions */,
 				E41C4D191A8BBBCB00A2D0CB /* damageZones.json */,
+				E4DAD2271AB739050048DACA /* quests.json */,
 				E41C4D1B1A8BBF5E00A2D0CB /* monsters.json */,
 				E471BE191A96456F0076CBD7 /* monsterDrops.json */,
 				E42DDC891A83FD140016596C /* MH4U_Dex.xcdatamodeld */,
@@ -636,6 +649,7 @@
 				E41C4D1A1A8BBBCB00A2D0CB /* damageZones.json in Resources */,
 				E471BE321A979DF40076CBD7 /* regions.json in Resources */,
 				E471BE2F1A979DAC0076CBD7 /* ancestral_steppe_drops.json in Resources */,
+				E4DAD2281AB739050048DACA /* quests.json in Resources */,
 				E41C4D1C1A8BBF5E00A2D0CB /* monsters.json in Resources */,
 				E4E212851AB1FE7E00320E39 /* dunes_day_drops.json in Resources */,
 				E49958161A83D28E00799BBE /* LaunchScreen.xib in Resources */,
@@ -765,6 +779,8 @@
 				E434F3771A83F5CA004C10BF /* _Trade.m in Sources */,
 				E434F3741A83F5CA004C10BF /* _Quest.m in Sources */,
 				E471BE2A1A9679270076CBD7 /* ItemMonsterSourcesTableViewController.m in Sources */,
+				E4DAD2231AB734CE0048DACA /* QuestDrop.m in Sources */,
+				E4DAD2261AB734DF0048DACA /* _QuestDrop.m in Sources */,
 				E434F37E1A83F5CA004C10BF /* Monster.m in Sources */,
 				E471BE3C1A979FF70076CBD7 /* Area.m in Sources */,
 				E4CE45C91A97A8E70059C056 /* AreaDrop.m in Sources */,

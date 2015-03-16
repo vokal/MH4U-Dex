@@ -14,6 +14,8 @@
 #import "Monster.h"
 #import "DamageZone.h"
 #import "Region.h"
+#import "Quest.h"
+#import "QuestDrop.h"
 #import "Area.h"
 
 @interface CoreDataController ()
@@ -27,6 +29,8 @@
 @implementation CoreDataController
 
 static NSString *const JSON = @"json";
+static NSString *const FalseString = @"FALSE";
+static NSString *const TrueString = @"TRUE";
 
 #pragma mark - Item Constants
 
@@ -49,6 +53,33 @@ static NSString *const RegionIDJSONKey = @"_id";
 static NSString *const RegionNameKey = @"region_name";
 static NSString *const RegionKeyNameKey = @"keyName";
 static NSString *const RegionDropsFileNameSuffix = @"_drops";
+
+#pragma mark - Quest Constants
+
+static NSString *const QuestsFileName = @"quests";
+static NSString *const QuestIDKey = @"unique_id";
+static NSString *const QuestNameKey = @"name";
+static NSString *const QuestCaravanHallKey = @"caravan/hall";
+static NSString *const QuestDangerKey = @"danger";
+static NSString *const QuestFeeKey = @"fee";
+static NSString *const QuestHRPKey = @"hrp";
+static NSString *const QuestMapKeyNameKey = @"map";
+static NSString *const QuestKeyIndicatorKey = @"key";
+static NSString *const QuestObjectiveKey = @"objective";
+static NSString *const QuestOutbreakKey = @"outbreak";
+static NSString *const QuestRewardKey = @"reward";
+static NSString *const QuestStarsKey = @"stars";
+static NSString *const QuestSubQuestObjectiveKey = @"subquest";
+static NSString *const QuestFirstMonsterKey = @"target";
+static NSString *const QuestSecondMonsterKey = @"second_target";
+static NSString *const QuestThirdMonsterKey = @"third_target";
+static NSString *const QuestFourthMonsterKey = @"fourth_target";
+static NSString *const QuestTypeKey = @"type";
+static NSString *const QuestUrgentKey = @"urgent";
+static NSString *const QuestCaravanKey = @"caravan";
+static NSString *const QuestNoneString = @"None";
+
+#pragma mark - Quest Drop Constants
 
 #pragma mark - Monster Drop Constants
 
@@ -168,6 +199,31 @@ static NSString *const AreaDropItemNameKey = @"item";
     if (![self attemptSaveContext]) {
         NSLog(@"WARNING: Failed to save the item context!");
     }
+}
+
+- (void)loadQuestData
+{
+    NSArray *questList = [self loadArrayFromJsonFileNamed:QuestsFileName];
+    
+    for (NSDictionary *questDict in questList) {
+        Quest *quest;
+        NSNumber *questID = questDict[QuestIDKey];
+        NSPredicate *questPredicate = [NSPredicate predicateWithFormat:@"%K == %d", QuestAttributes.id, questID.intValue];
+        quest = (Quest *)[self getUniqueEntityWithEntityName:[Quest entityName] withPredicate:questPredicate];
+        //Only add the quest if it is not already there
+        if (!quest) {
+            // Quests have a lot of information to populate, so I'm moving this to a helper method to cut down on the size of this method.
+            quest = [self questFromDictionary:questDict];
+        }
+    }
+    if (![self attemptSaveContext]) {
+        NSLog(@"WARNING: Failed to save the item context!");
+    }
+}
+
+- (void)loadQuestDropData
+{
+    //TODO: Implement questDropData once mock data is created.
 }
 
 - (void)loadRegionData
@@ -354,6 +410,63 @@ static NSString *const AreaDropItemNameKey = @"item";
     } else {
         return 0;
     }
+}
+
+- (Quest *)questFromDictionary:(NSDictionary *)questDict
+{
+    Quest *quest = [Quest insertInManagedObjectContext:self.managedObjectContext];
+    quest.id = questDict[QuestIDKey];
+    quest.name = questDict[QuestNameKey];
+    if ([questDict[QuestCaravanHallKey] isEqualToString:QuestCaravanKey]) {
+        quest.caravanValue = YES;
+    } else {
+        quest.caravanValue = NO;
+    }
+    if ([questDict[QuestDangerKey] isEqualToString:TrueString]) {
+        quest.dangerValue = YES;
+    } else {
+        quest.dangerValue = NO;
+    }
+    quest.fee = questDict[QuestFeeKey];
+    quest.hrp = questDict[QuestHRPKey];
+    if ([questDict[QuestKeyIndicatorKey] isEqualToString:TrueString]) {
+        quest.keyValue = YES;
+    } else {
+        quest.keyValue = NO;
+    }
+    quest.objective = questDict[QuestObjectiveKey];
+    quest.subObjective = questDict[QuestSubQuestObjectiveKey];
+    quest.reward = questDict[QuestRewardKey];
+    quest.stars = questDict[QuestStarsKey];
+    quest.type = questDict[QuestTypeKey];
+    if ([questDict[QuestUrgentKey] isEqualToString:TrueString]) {
+        quest.urgentValue = YES;
+    } else {
+        quest.urgentValue = NO;
+    }
+    //TODO: add in outbreak bool handling once that data can be verified.
+    
+    NSPredicate *regionPredicate = [NSPredicate predicateWithFormat:@"%K == %@", RegionAttributes.keyName, questDict[QuestMapKeyNameKey]];
+    // If this method call returns nil, then quest.region will be nil.  That is okay!
+    quest.region = (Region *)[self getUniqueEntityWithEntityName:[Region entityName] withPredicate:regionPredicate];
+    
+    NSPredicate *monsterPredicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterAttributes.name, questDict[QuestFirstMonsterKey]];
+    // The same is the case with the following monster-fetching calls
+    quest.firstMonster = (Monster *)[self getUniqueEntityWithEntityName:[Monster entityName] withPredicate:monsterPredicate];
+    if (quest.firstMonster) {
+        //Continue on to the second, and so on.  By nesting this way, we can avoid unnecessary fetches
+        monsterPredicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterAttributes.name, questDict[QuestSecondMonsterKey]];
+        quest.secondMonster = (Monster *)[self getUniqueEntityWithEntityName:[Monster entityName] withPredicate:monsterPredicate];
+        if (quest.secondMonster) {
+            monsterPredicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterAttributes.name, questDict[QuestThirdMonsterKey]];
+            quest.thirdMonster = (Monster *)[self getUniqueEntityWithEntityName:[Monster entityName] withPredicate:monsterPredicate];
+            if (quest.thirdMonster) {
+                monsterPredicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterAttributes.name, questDict[QuestFourthMonsterKey]];
+                quest.fourthMonster = (Monster *)[self getUniqueEntityWithEntityName:[Monster entityName] withPredicate:monsterPredicate];
+            }
+        }
+    }
+    return quest;
 }
 
 #pragma mark - Boilerplate Core Data Code

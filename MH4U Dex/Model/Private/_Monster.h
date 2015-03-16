@@ -17,10 +17,18 @@ extern const struct MonsterAttributes {
 extern const struct MonsterRelationships {
 	__unsafe_unretained NSString *damageZone;
 	__unsafe_unretained NSString *drop;
+	__unsafe_unretained NSString *questFirstTarget;
+	__unsafe_unretained NSString *questFourthTarget;
+	__unsafe_unretained NSString *questSecondTarget;
+	__unsafe_unretained NSString *questThirdTarget;
 } MonsterRelationships;
 
 @class DamageZone;
 @class MonsterDrop;
+@class Quest;
+@class Quest;
+@class Quest;
+@class Quest;
 
 @interface MonsterID : NSManagedObjectID {}
 @end
@@ -75,6 +83,22 @@ extern const struct MonsterRelationships {
 
 - (NSMutableSet*)dropSet;
 
+@property (nonatomic, strong) NSSet *questFirstTarget;
+
+- (NSMutableSet*)questFirstTargetSet;
+
+@property (nonatomic, strong) NSSet *questFourthTarget;
+
+- (NSMutableSet*)questFourthTargetSet;
+
+@property (nonatomic, strong) NSSet *questSecondTarget;
+
+- (NSMutableSet*)questSecondTargetSet;
+
+@property (nonatomic, strong) NSSet *questThirdTarget;
+
+- (NSMutableSet*)questThirdTargetSet;
+
 @end
 
 @interface _Monster (DamageZoneCoreDataGeneratedAccessors)
@@ -90,6 +114,38 @@ extern const struct MonsterRelationships {
 - (void)removeDrop:(NSSet*)value_;
 - (void)addDropObject:(MonsterDrop*)value_;
 - (void)removeDropObject:(MonsterDrop*)value_;
+
+@end
+
+@interface _Monster (QuestFirstTargetCoreDataGeneratedAccessors)
+- (void)addQuestFirstTarget:(NSSet*)value_;
+- (void)removeQuestFirstTarget:(NSSet*)value_;
+- (void)addQuestFirstTargetObject:(Quest*)value_;
+- (void)removeQuestFirstTargetObject:(Quest*)value_;
+
+@end
+
+@interface _Monster (QuestFourthTargetCoreDataGeneratedAccessors)
+- (void)addQuestFourthTarget:(NSSet*)value_;
+- (void)removeQuestFourthTarget:(NSSet*)value_;
+- (void)addQuestFourthTargetObject:(Quest*)value_;
+- (void)removeQuestFourthTargetObject:(Quest*)value_;
+
+@end
+
+@interface _Monster (QuestSecondTargetCoreDataGeneratedAccessors)
+- (void)addQuestSecondTarget:(NSSet*)value_;
+- (void)removeQuestSecondTarget:(NSSet*)value_;
+- (void)addQuestSecondTargetObject:(Quest*)value_;
+- (void)removeQuestSecondTargetObject:(Quest*)value_;
+
+@end
+
+@interface _Monster (QuestThirdTargetCoreDataGeneratedAccessors)
+- (void)addQuestThirdTarget:(NSSet*)value_;
+- (void)removeQuestThirdTarget:(NSSet*)value_;
+- (void)addQuestThirdTargetObject:(Quest*)value_;
+- (void)removeQuestThirdTargetObject:(Quest*)value_;
 
 @end
 
@@ -127,5 +183,17 @@ extern const struct MonsterRelationships {
 
 - (NSMutableSet*)primitiveDrop;
 - (void)setPrimitiveDrop:(NSMutableSet*)value;
+
+- (NSMutableSet*)primitiveQuestFirstTarget;
+- (void)setPrimitiveQuestFirstTarget:(NSMutableSet*)value;
+
+- (NSMutableSet*)primitiveQuestFourthTarget;
+- (void)setPrimitiveQuestFourthTarget:(NSMutableSet*)value;
+
+- (NSMutableSet*)primitiveQuestSecondTarget;
+- (void)setPrimitiveQuestSecondTarget:(NSMutableSet*)value;
+
+- (NSMutableSet*)primitiveQuestThirdTarget;
+- (void)setPrimitiveQuestThirdTarget:(NSMutableSet*)value;
 
 @end

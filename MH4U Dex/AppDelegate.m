@@ -23,8 +23,13 @@
     CoreDataController *coreDataController = [CoreDataController sharedCDController];
     [coreDataController loadMonsterData];
     [coreDataController loadMonsterDropData];
+    NSLog(@"Monster data loaded.");
     [coreDataController loadRegionData];
-    NSLog(@"Data loaded.");
+    NSLog(@"Region data loaded.");
+    [coreDataController loadQuestData];
+    NSLog(@"Quest Data loaded.");
+    [coreDataController loadQuestDropData];
+    NSLog(@"Quest Drop Data loaded.");
     UINavigationController *rootViewController = (UINavigationController *)self.window.rootViewController;
     HomeViewController *homeViewController = (HomeViewController *)[rootViewController viewControllers][0];
     homeViewController.managedObjectContext = coreDataController.managedObjectContext;

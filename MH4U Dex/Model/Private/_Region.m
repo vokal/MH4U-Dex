@@ -11,6 +11,7 @@ const struct RegionAttributes RegionAttributes = {
 
 const struct RegionRelationships RegionRelationships = {
 	.area = @"area",
+	.quest = @"quest",
 };
 
 @implementation RegionID
@@ -80,6 +81,17 @@ const struct RegionRelationships RegionRelationships = {
 	NSMutableSet *result = (NSMutableSet*)[self mutableSetValueForKey:@"area"];
 
 	[self didAccessValueForKey:@"area"];
+	return result;
+}
+
+@dynamic quest;
+
+- (NSMutableSet*)questSet {
+	[self willAccessValueForKey:@"quest"];
+
+	NSMutableSet *result = (NSMutableSet*)[self mutableSetValueForKey:@"quest"];
+
+	[self didAccessValueForKey:@"quest"];
 	return result;
 }
 

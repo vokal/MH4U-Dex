@@ -81,6 +81,10 @@
         <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="damageZone" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DamageZone" inverseName="monster" inverseEntity="DamageZone" syncable="YES"/>
         <relationship name="drop" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="MonsterDrop" inverseName="monsterSource" inverseEntity="MonsterDrop" syncable="YES"/>
+        <relationship name="questFirstTarget" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Quest" inverseName="firstMonster" inverseEntity="Quest" syncable="YES"/>
+        <relationship name="questFourthTarget" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Quest" inverseName="fourthMonster" inverseEntity="Quest" syncable="YES"/>
+        <relationship name="questSecondTarget" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Quest" inverseName="secondMonster" inverseEntity="Quest" syncable="YES"/>
+        <relationship name="questThirdTarget" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Quest" inverseName="thirdMonster" inverseEntity="Quest" syncable="YES"/>
     </entity>
     <entity name="MonsterDrop" representedClassName="MonsterDrop" syncable="YES">
         <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
@@ -92,13 +96,35 @@
         <relationship name="monsterSource" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Monster" inverseName="drop" inverseEntity="Monster" syncable="YES"/>
     </entity>
     <entity name="Quest" representedClassName="Quest" syncable="YES">
+        <attribute name="caravan" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="danger" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="fee" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hrp" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="key" optional="YES" attributeType="Boolean" syncable="YES"/>
         <attribute name="name" attributeType="String" syncable="YES"/>
+        <attribute name="objective" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="reward" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="stars" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="subObjective" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="urgent" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <relationship name="drop" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="QuestDrop" inverseName="quest" inverseEntity="QuestDrop" syncable="YES"/>
+        <relationship name="firstMonster" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Monster" inverseName="questFirstTarget" inverseEntity="Monster" syncable="YES"/>
+        <relationship name="fourthMonster" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Monster" inverseName="questFourthTarget" inverseEntity="Monster" syncable="YES"/>
+        <relationship name="region" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Region" inverseName="quest" inverseEntity="Region" syncable="YES"/>
+        <relationship name="secondMonster" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Monster" inverseName="questSecondTarget" inverseEntity="Monster" syncable="YES"/>
+        <relationship name="thirdMonster" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Monster" inverseName="questThirdTarget" inverseEntity="Monster" syncable="YES"/>
+    </entity>
+    <entity name="QuestDrop" representedClassName="QuestDrop" syncable="YES">
+        <relationship name="quest" maxCount="1" deletionRule="Nullify" destinationEntity="Quest" inverseName="drop" inverseEntity="Quest" syncable="YES"/>
     </entity>
     <entity name="Region" representedClassName="Region" syncable="YES">
         <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="keyName" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="name" attributeType="String" syncable="YES"/>
         <relationship name="area" toMany="YES" deletionRule="Nullify" destinationEntity="Area" inverseName="region" inverseEntity="Area" syncable="YES"/>
+        <relationship name="quest" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Quest" inverseName="region" inverseEntity="Quest" syncable="YES"/>
     </entity>
     <entity name="Skilltree" representedClassName="Skilltree" syncable="YES">
         <attribute name="name" attributeType="String" syncable="YES"/>
@@ -117,19 +143,20 @@
     <fetchRequest name="FetchRequest" entity="MonsterDrop" predicateString="rank CONTAINS &quot;&quot;"/>
     <elements>
         <element name="Area" positionX="-774" positionY="-288" width="128" height="118"/>
+        <element name="AreaDrop" positionX="-927" positionY="-36" width="128" height="148"/>
         <element name="Armor" positionX="-398" positionY="-432" width="128" height="133"/>
         <element name="ArmorSet" positionX="-245" positionY="-414" width="128" height="73"/>
         <element name="Combination" positionX="-632" positionY="-124" width="128" height="103"/>
         <element name="DamageZone" positionX="-416" positionY="-36" width="128" height="283"/>
         <element name="Decoration" positionX="-398" positionY="-288" width="128" height="88"/>
-        <element name="MonsterDrop" positionX="-785" positionY="-153" width="128" height="148"/>
         <element name="Item" positionX="-632" positionY="-331" width="128" height="208"/>
-        <element name="Monster" positionX="-785" positionY="36" width="128" height="193"/>
-        <element name="Quest" positionX="-974" positionY="-271" width="128" height="58"/>
-        <element name="Region" positionX="-974" positionY="-189" width="128" height="103"/>
+        <element name="Monster" positionX="-785" positionY="36" width="128" height="253"/>
+        <element name="MonsterDrop" positionX="-785" positionY="-153" width="128" height="148"/>
+        <element name="Quest" positionX="-974" positionY="-271" width="128" height="328"/>
+        <element name="Region" positionX="-974" positionY="-189" width="128" height="120"/>
         <element name="Skilltree" positionX="-243" positionY="-316" width="128" height="88"/>
         <element name="Trade" positionX="-632" positionY="-432" width="128" height="88"/>
         <element name="Weapon" positionX="-398" positionY="-193" width="128" height="73"/>
-        <element name="AreaDrop" positionX="-927" positionY="-36" width="128" height="148"/>
+        <element name="QuestDrop" positionX="-774" positionY="-288" width="128" height="58"/>
     </elements>
 </model>

@@ -29,6 +29,16 @@
 - (void)loadRegionData;
 
 /**
+ Load into Core Data the data on Quests.
+ */
+- (void)loadQuestData;
+
+/**
+ Load into Core Data the rewards that can be obtained from Quests
+ */
+- (void)loadQuestDropData;
+
+/**
  Attempt to save the persistent store, and return true if succesful
  */
 - (BOOL)attemptSaveContext;

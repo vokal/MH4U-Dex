@@ -17,6 +17,10 @@ const struct MonsterAttributes MonsterAttributes = {
 const struct MonsterRelationships MonsterRelationships = {
 	.damageZone = @"damageZone",
 	.drop = @"drop",
+	.questFirstTarget = @"questFirstTarget",
+	.questFourthTarget = @"questFourthTarget",
+	.questSecondTarget = @"questSecondTarget",
+	.questThirdTarget = @"questThirdTarget",
 };
 
 @implementation MonsterID
@@ -107,6 +111,50 @@ const struct MonsterRelationships MonsterRelationships = {
 	NSMutableSet *result = (NSMutableSet*)[self mutableSetValueForKey:@"drop"];
 
 	[self didAccessValueForKey:@"drop"];
+	return result;
+}
+
+@dynamic questFirstTarget;
+
+- (NSMutableSet*)questFirstTargetSet {
+	[self willAccessValueForKey:@"questFirstTarget"];
+
+	NSMutableSet *result = (NSMutableSet*)[self mutableSetValueForKey:@"questFirstTarget"];
+
+	[self didAccessValueForKey:@"questFirstTarget"];
+	return result;
+}
+
+@dynamic questFourthTarget;
+
+- (NSMutableSet*)questFourthTargetSet {
+	[self willAccessValueForKey:@"questFourthTarget"];
+
+	NSMutableSet *result = (NSMutableSet*)[self mutableSetValueForKey:@"questFourthTarget"];
+
+	[self didAccessValueForKey:@"questFourthTarget"];
+	return result;
+}
+
+@dynamic questSecondTarget;
+
+- (NSMutableSet*)questSecondTargetSet {
+	[self willAccessValueForKey:@"questSecondTarget"];
+
+	NSMutableSet *result = (NSMutableSet*)[self mutableSetValueForKey:@"questSecondTarget"];
+
+	[self didAccessValueForKey:@"questSecondTarget"];
+	return result;
+}
+
+@dynamic questThirdTarget;
+
+- (NSMutableSet*)questThirdTargetSet {
+	[self willAccessValueForKey:@"questThirdTarget"];
+
+	NSMutableSet *result = (NSMutableSet*)[self mutableSetValueForKey:@"questThirdTarget"];
+
+	[self didAccessValueForKey:@"questThirdTarget"];
 	return result;
 }
 
