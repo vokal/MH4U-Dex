@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import "AreaDrop.h"
+@class AreaDrop;
 
 @interface AreaDropTableViewCell : UITableViewCell
 

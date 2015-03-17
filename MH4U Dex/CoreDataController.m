@@ -7,16 +7,18 @@
 //
 
 #import "CoreDataController.h"
+
 #import <NSManagedObjectContext+Hydrate.h>
-#import "MonsterDrop.h"
+
+#import "Area.h"
 #import "AreaDrop.h"
+#import "DamageZone.h"
 #import "Item.h"
 #import "Monster.h"
-#import "DamageZone.h"
-#import "Region.h"
+#import "MonsterDrop.h"
 #import "Quest.h"
 #import "QuestDrop.h"
-#import "Area.h"
+#import "Region.h"
 
 @interface CoreDataController ()
 

@@ -8,8 +8,9 @@
 
 #import "AppDelegate.h"
 
-#import "HomeViewController.h"
 #import "CoreDataController.h"
+
+#import "HomeViewController.h"
 
 @interface AppDelegate ()
 

@@ -6,6 +6,94 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
+        <!--Quest Encyclopedia Container View Controller-->
+        <scene sceneID="OjZ-pj-CrL">
+            <objects>
+                <viewController id="hfi-eK-gsg" customClass="QuestEncyclopediaContainerViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9hD-Kl-Gug"/>
+                        <viewControllerLayoutGuide type="bottom" id="aiB-ap-L3K"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Fl2-8H-pMd">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="hi2-gC-x51">
+                                <rect key="frame" x="0.0" y="571" width="600" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="kKu-ci-poj"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="Caravan"/>
+                                    <segment title="Gathering Hall"/>
+                                </segments>
+                                <connections>
+                                    <action selector="segmentedControlChanged:" destination="hfi-eK-gsg" eventType="valueChanged" id="iSA-et-5XA"/>
+                                </connections>
+                            </segmentedControl>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DGq-JY-Vuu" userLabel="Caravan">
+                                <rect key="frame" x="0.0" y="64" width="600" height="506"/>
+                                <connections>
+                                    <segue destination="zua-EO-zTb" kind="embed" identifier="showCaravanList" id="MKc-sF-dxr"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rwF-Qs-fQf" userLabel="GatheringHall">
+                                <rect key="frame" x="0.0" y="64" width="600" height="506"/>
+                                <connections>
+                                    <segue destination="zua-EO-zTb" kind="embed" identifier="showGatheringHallList" id="29O-7M-oxN"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="hi2-gC-x51" secondAttribute="centerX" constant="-0.5" id="2Vj-m5-48u"/>
+                            <constraint firstItem="DGq-JY-Vuu" firstAttribute="height" secondItem="rwF-Qs-fQf" secondAttribute="height" id="9Qu-Ck-OZy"/>
+                            <constraint firstItem="hi2-gC-x51" firstAttribute="top" secondItem="DGq-JY-Vuu" secondAttribute="bottom" constant="1" id="Eou-YP-WtA"/>
+                            <constraint firstItem="DGq-JY-Vuu" firstAttribute="width" secondItem="rwF-Qs-fQf" secondAttribute="width" id="Hbl-l0-UDq"/>
+                            <constraint firstItem="hi2-gC-x51" firstAttribute="width" secondItem="Fl2-8H-pMd" secondAttribute="width" id="dtZ-Q6-oss"/>
+                            <constraint firstItem="DGq-JY-Vuu" firstAttribute="centerY" secondItem="rwF-Qs-fQf" secondAttribute="centerY" id="lbk-yJ-L02"/>
+                            <constraint firstAttribute="centerX" secondItem="DGq-JY-Vuu" secondAttribute="centerX" id="r6V-dS-Q6D"/>
+                            <constraint firstItem="DGq-JY-Vuu" firstAttribute="width" secondItem="Fl2-8H-pMd" secondAttribute="width" id="sn4-lq-WZa"/>
+                            <constraint firstItem="DGq-JY-Vuu" firstAttribute="top" secondItem="9hD-Kl-Gug" secondAttribute="bottom" id="t5N-sZ-tdh"/>
+                            <constraint firstItem="aiB-ap-L3K" firstAttribute="top" secondItem="hi2-gC-x51" secondAttribute="bottom" constant="1" id="u2F-Bn-F89"/>
+                            <constraint firstItem="DGq-JY-Vuu" firstAttribute="centerX" secondItem="rwF-Qs-fQf" secondAttribute="centerX" id="wAJ-vN-ilr"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="caravanSubView" destination="DGq-JY-Vuu" id="2zZ-x1-xwM"/>
+                        <outlet property="hallSubView" destination="rwF-Qs-fQf" id="8KW-nf-j0g"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YoH-Vg-rHG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2847" y="-3978"/>
+        </scene>
+        <!--Quest List Table View Controller-->
+        <scene sceneID="sRg-An-gmc">
+            <objects>
+                <tableViewController id="zua-EO-zTb" customClass="QuestListTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="43" sectionHeaderHeight="22" sectionFooterHeight="22" id="dGl-4d-FGD">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="506"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="QuestListTableViewCell" rowHeight="43" id="F6b-6n-EmZ" customClass="QuestListTableViewCell">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="F6b-6n-EmZ" id="NgA-HL-wd6">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="zua-EO-zTb" id="gyd-JX-05t"/>
+                            <outlet property="delegate" destination="zua-EO-zTb" id="hgy-AD-OgY"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oB9-Gy-ofg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2141" y="-3982"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="hG2-jh-r0j">
             <objects>
@@ -57,6 +145,15 @@
                                 </state>
                                 <connections>
                                     <segue destination="mCb-Rc-oQ0" kind="show" identifier="showRegionEncyclopedia" id="mid-SU-e3D"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B6S-ij-o9c">
+                                <rect key="frame" x="76" y="256" width="49" height="30"/>
+                                <state key="normal" title="Quests">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="hfi-eK-gsg" kind="show" id="dX6-Hf-8Bu"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -152,7 +249,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oaf-EH-2f7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1567" y="-3306"/>
+            <point key="canvasLocation" x="-2115" y="-3254"/>
         </scene>
         <!--Region Item Table View Controller-->
         <scene sceneID="VqW-UI-1q1">
@@ -210,7 +307,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="US6-Qp-tCO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-898" y="-3306"/>
+            <point key="canvasLocation" x="-1446" y="-3254"/>
         </scene>
         <!--Item Encyclopedia Table View Controller-->
         <scene sceneID="Fkd-J4-Mye">
@@ -656,7 +753,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iZ9-co-R32" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2266" y="-3306"/>
+            <point key="canvasLocation" x="-2814" y="-3254"/>
         </scene>
         <!--Monster Encyclopedia View Controller-->
         <scene sceneID="FPk-vz-w8C">
@@ -907,5 +1004,6 @@
     <inferredMetricsTieBreakers>
         <segue reference="W2D-xv-a7l"/>
         <segue reference="OWj-AQ-QBO"/>
+        <segue reference="MKc-sF-dxr"/>
     </inferredMetricsTieBreakers>
 </document>

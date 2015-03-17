@@ -8,6 +8,7 @@
 
 #import "AreaDropTableViewCell.h"
 
+#import "AreaDrop.h"
 #import "Item.h"
 
 @interface AreaDropTableViewCell ()

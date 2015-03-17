@@ -8,11 +8,13 @@
 
 #import "RegionContainerViewController.h"
 
-#import "RegionItemTableViewController.h"
-
 #import <CoreData/CoreData.h>
 
 #import "CoreDataController.h"
+
+#import "RegionItemTableViewController.h"
+
+#import "Region.h"
 
 typedef NS_ENUM(NSInteger, RegionSegmentedControlPage) {
     LowRank = 0,
@@ -22,7 +24,6 @@ typedef NS_ENUM(NSInteger, RegionSegmentedControlPage) {
     
     MonsterSegmentedControlCount
 };
-
 
 @interface RegionContainerViewController ()
 
@@ -45,7 +46,6 @@ typedef NS_ENUM(NSInteger, RegionSegmentedControlPage) {
     self.regionGRankSubview.hidden = YES;
     self.navigationItem.title = [NSString stringWithFormat:@"%@ Low-Rank Items", self.regionName];
     self.regionNameLabel.text = self.regionName;
-   
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender

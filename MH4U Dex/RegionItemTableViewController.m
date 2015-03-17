@@ -11,17 +11,20 @@
 #import <CoreData/CoreData.h>
 
 #import "CoreDataController.h"
+
+#import "ItemContainerViewController.h"
+
 #import "Area.h"
 #import "AreaDrop.h"
 #import "Item.h"
+#import "Region.h"
 
 #import "AreaDropTableViewCell.h"
-#import "ItemContainerViewController.h"
 
 @interface RegionItemTableViewController ()
 
 @property (nonatomic, strong) NSArray *areaArray;
-@property (nonatomic, strong) NSMutableDictionary *areaDropsArray;
+@property (nonatomic, strong) NSMutableDictionary *areaDropsDict;
 
 @end
 
@@ -29,13 +32,13 @@
 
 - (void)viewDidLoad
 {
+    [super viewDidLoad];
     CoreDataController *coreDataController = [CoreDataController sharedCDController];
     NSError *fetchError = nil;
     NSSortDescriptor *areaSortDescriptor = [NSSortDescriptor sortDescriptorWithKey:AreaAttributes.name ascending:YES];
     NSFetchRequest *areaFetchRequest = [[NSFetchRequest alloc] initWithEntityName:[Area entityName]];
     NSPredicate *areaPredicate = [NSPredicate predicateWithFormat:@"%K == %@", AreaRelationships.region, self.region];
     NSPredicate *rankPredicate;
-    //TODO: Clean this up a little bit.
     if (self.rank) {
         rankPredicate = [NSPredicate predicateWithFormat:@"%K == %@", AreaAttributes.rank, self.rank];
     } else {
@@ -45,12 +48,31 @@
     [areaFetchRequest setPredicate:compoundPredicate];
     [areaFetchRequest setSortDescriptors:@[areaSortDescriptor]];
     self.areaArray = [coreDataController.managedObjectContext executeFetchRequest:areaFetchRequest error:&fetchError];
-    self.areaDropsArray = [NSMutableDictionary dictionary];
+    self.areaDropsDict = [NSMutableDictionary dictionary];
     for (Area *area in self.areaArray) {
         NSSortDescriptor *dropSortDescriptor = [NSSortDescriptor sortDescriptorWithKey:AreaDropAttributes.idDecimalString ascending:YES];
         NSArray *dropsArray = [area.drop sortedArrayUsingDescriptors:@[dropSortDescriptor]];
-        [self.areaDropsArray setObject:dropsArray forKey:area.combinedName];
+        [self.areaDropsDict setObject:dropsArray forKey:area.combinedName];
     }
+}
+
+#pragma mark - Helper Methods
+
+- (Area *)areaAtSection:(NSInteger)section
+{
+    return self.areaArray[section];
+}
+
+- (NSArray *)areaDropsForKey:(NSString *)key
+{
+    return self.areaDropsDict[key];
+}
+
+- (AreaDrop *)areaDropForIndexPath:(NSIndexPath *)indexPath
+{
+    Area *area = [self areaAtSection:indexPath.section];
+    NSArray *dropsArray = [self areaDropsForKey:area.combinedName];
+    return dropsArray[indexPath.row];
 }
 
 #pragma mark - Table view data source
@@ -62,17 +84,13 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    Area *area = self.areaArray[section];
-    return area.drop.count;
+    return [self areaAtSection:section].drop.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    Area *area = self.areaArray[indexPath.section];
-    NSArray *dropsArray = self.areaDropsArray[area.combinedName];
-    AreaDrop *areaDrop = dropsArray[indexPath.row];
     AreaDropTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"AreaDropTableViewCell"];
-    [cell displayContentsWithAreaDrop:areaDrop];
+    [cell displayContentsWithAreaDrop:[self areaDropForIndexPath:indexPath]];
     return cell;
 }
 
@@ -82,10 +100,7 @@
     ItemContainerViewController *itemVC = [storyBoard instantiateViewControllerWithIdentifier:@"ItemContainerViewController"];
     CoreDataController *coreDataController = [CoreDataController sharedCDController];
     itemVC.managedObjectContext = coreDataController.managedObjectContext;
-    Area *area = self.areaArray[indexPath.section];
-    NSArray *dropsArray = self.areaDropsArray[area.combinedName];
-    AreaDrop *drop = dropsArray[indexPath.row];
-    itemVC.itemName = drop.item.name;
+    itemVC.itemName = [self areaDropForIndexPath:indexPath].item.name;
     [self.navigationController pushViewController:itemVC animated:YES];
 }
 

@@ -8,14 +8,16 @@
 
 #import "RegionEncyclopediaCollectionViewController.h"
 
-#import "RegionEncylcopediaCollectionViewCell.h"
-
 #import <CoreData/CoreData.h>
 
 #import "CoreDataController.h"
 
 #import "RegionContainerViewController.h"
+
 #import "Region.h"
+
+#import "RegionEncylcopediaCollectionViewCell.h"
+
 
 @interface RegionEncyclopediaCollectionViewController ()
 
@@ -33,7 +35,7 @@
     
     NSError *fetchError = nil;
     NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:[Region entityName]];
-    NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:@"id" ascending:YES];
+    NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:RegionAttributes.id ascending:YES];
     [fetchRequest setSortDescriptors:@[sortDescriptor]];
     self.regions = [self.managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];
     if (fetchError) {
@@ -59,11 +61,18 @@
     RegionEncylcopediaCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:NSStringFromClass([RegionEncylcopediaCollectionViewCell class]) forIndexPath:indexPath];
     
     // Configure the cell
-    Region *region = self.regions[indexPath.row];
+    Region *region = [self regionAtIndexPath:indexPath];
     cell.regionName = region.name;
     cell.regionKeyName = region.keyName;
     [cell displayContents];
     return cell;
+}
+
+#pragma mark - Helper Methods
+
+- (Region *)regionAtIndexPath:(NSIndexPath *)indexPath
+{
+    return self.regions[indexPath.row];
 }
 
 #pragma mark - Navigation

@@ -8,8 +8,8 @@
 
 #import "HomeViewController.h"
 
-#import "MonsterEncyclopediaViewController.h"
 #import "ItemEncyclopediaTableViewController.h"
+#import "MonsterEncyclopediaViewController.h"
 #import "RegionEncyclopediaCollectionViewController.h"
 
 @interface HomeViewController ()

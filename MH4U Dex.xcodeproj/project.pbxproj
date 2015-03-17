@@ -92,6 +92,9 @@
 		E4DAD2261AB734DF0048DACA /* _QuestDrop.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAD2251AB734DF0048DACA /* _QuestDrop.m */; };
 		E4DAD2281AB739050048DACA /* quests.json in Resources */ = {isa = PBXBuildFile; fileRef = E4DAD2271AB739050048DACA /* quests.json */; };
 		E4DAD22A1AB772C50048DACA /* quest_drops.json in Resources */ = {isa = PBXBuildFile; fileRef = E4DAD2291AB772C50048DACA /* quest_drops.json */; };
+		E4DAD22E1AB77F8B0048DACA /* QuestEncyclopediaContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAD22D1AB77F8B0048DACA /* QuestEncyclopediaContainerViewController.m */; };
+		E4DAD2311AB7813C0048DACA /* QuestListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAD2301AB7813C0048DACA /* QuestListTableViewController.m */; };
+		E4DAD2341AB89A210048DACA /* QuestListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAD2331AB89A210048DACA /* QuestListTableViewCell.m */; };
 		E4E1CA701A8543A000043E9E /* CoreDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E1CA6F1A8543A000043E9E /* CoreDataController.m */; };
 		E4E2127C1AB1FDBE00320E39 /* volcanic_hollow_drops.json in Resources */ = {isa = PBXBuildFile; fileRef = E4E2127B1AB1FDBE00320E39 /* volcanic_hollow_drops.json */; };
 		E4E2127E1AB1FE1200320E39 /* heavens_mount_drops.json in Resources */ = {isa = PBXBuildFile; fileRef = E4E2127D1AB1FE1200320E39 /* heavens_mount_drops.json */; };
@@ -240,6 +243,12 @@
 		E4DAD2251AB734DF0048DACA /* _QuestDrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _QuestDrop.m; sourceTree = "<group>"; };
 		E4DAD2271AB739050048DACA /* quests.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quests.json; sourceTree = "<group>"; };
 		E4DAD2291AB772C50048DACA /* quest_drops.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quest_drops.json; sourceTree = "<group>"; };
+		E4DAD22C1AB77F8B0048DACA /* QuestEncyclopediaContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestEncyclopediaContainerViewController.h; sourceTree = "<group>"; };
+		E4DAD22D1AB77F8B0048DACA /* QuestEncyclopediaContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestEncyclopediaContainerViewController.m; sourceTree = "<group>"; };
+		E4DAD22F1AB7813C0048DACA /* QuestListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestListTableViewController.h; sourceTree = "<group>"; };
+		E4DAD2301AB7813C0048DACA /* QuestListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestListTableViewController.m; sourceTree = "<group>"; };
+		E4DAD2321AB89A210048DACA /* QuestListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestListTableViewCell.h; sourceTree = "<group>"; };
+		E4DAD2331AB89A210048DACA /* QuestListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestListTableViewCell.m; sourceTree = "<group>"; };
 		E4E1CA6E1A8543A000043E9E /* CoreDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataController.h; sourceTree = "<group>"; };
 		E4E1CA6F1A8543A000043E9E /* CoreDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataController.m; sourceTree = "<group>"; };
 		E4E2127B1AB1FDBE00320E39 /* volcanic_hollow_drops.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = volcanic_hollow_drops.json; sourceTree = "<group>"; };
@@ -481,6 +490,7 @@
 		E4A7698E1A85208300AC93DA /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				E4DAD22B1AB77F600048DACA /* Quests */,
 				E471BE361A979F320076CBD7 /* Area/Region */,
 				E471BE1E1A9671460076CBD7 /* Item */,
 				E499580C1A83D28E00799BBE /* HomeViewController.h */,
@@ -509,6 +519,8 @@
 				E471BE341A979F060076CBD7 /* RegionEncylcopediaCollectionViewCell.m */,
 				E4A72CE51AB0A75B006D338A /* AreaDropTableViewCell.h */,
 				E4A72CE61AB0A75B006D338A /* AreaDropTableViewCell.m */,
+				E4DAD2321AB89A210048DACA /* QuestListTableViewCell.h */,
+				E4DAD2331AB89A210048DACA /* QuestListTableViewCell.m */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -528,6 +540,17 @@
 				E4C76B331A85638D00AD753B /* MonsterOverviewViewController.m */,
 			);
 			name = Monster;
+			sourceTree = "<group>";
+		};
+		E4DAD22B1AB77F600048DACA /* Quests */ = {
+			isa = PBXGroup;
+			children = (
+				E4DAD22C1AB77F8B0048DACA /* QuestEncyclopediaContainerViewController.h */,
+				E4DAD22D1AB77F8B0048DACA /* QuestEncyclopediaContainerViewController.m */,
+				E4DAD22F1AB7813C0048DACA /* QuestListTableViewController.h */,
+				E4DAD2301AB7813C0048DACA /* QuestListTableViewController.m */,
+			);
+			name = Quests;
 			sourceTree = "<group>";
 		};
 		E4E1CA6D1A85437B00043E9E /* Controller */ = {
@@ -739,8 +762,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4A769921A8521B100AC93DA /* MonsterEncyclopediaCell.m in Sources */,
+				E4DAD2311AB7813C0048DACA /* QuestListTableViewController.m in Sources */,
 				E45E9A8E1A890CC400D75592 /* MonsterDetailsViewController.m in Sources */,
 				E434F37D1A83F5CA004C10BF /* Item.m in Sources */,
+				E4DAD2341AB89A210048DACA /* QuestListTableViewCell.m in Sources */,
 				E4CE45C61A97A8DA0059C056 /* _AreaDrop.m in Sources */,
 				E434F37A1A83F5CA004C10BF /* ArmorSet.m in Sources */,
 				E434F3801A83F5CA004C10BF /* Region.m in Sources */,
@@ -749,6 +774,7 @@
 				E49958081A83D28E00799BBE /* AppDelegate.m in Sources */,
 				E434F3731A83F5CA004C10BF /* _Monster.m in Sources */,
 				E434F3791A83F5CA004C10BF /* Armor.m in Sources */,
+				E4DAD22E1AB77F8B0048DACA /* QuestEncyclopediaContainerViewController.m in Sources */,
 				E434F36F1A83F5CA004C10BF /* _ArmorSet.m in Sources */,
 				E471BE351A979F060076CBD7 /* RegionEncylcopediaCollectionViewCell.m in Sources */,
 				E434F3701A83F5CA004C10BF /* _Combination.m in Sources */,

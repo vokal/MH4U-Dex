@@ -6,8 +6,8 @@
 //  Copyright (c) 2015 Joseph Goldberg. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
+#import <Foundation/Foundation.h>
 
 @interface CoreDataController : NSObject
 

@@ -8,8 +8,8 @@
 
 #import "ItemContainerViewController.h"
 
-#import "ItemMonsterSourcesTableViewController.h"
 #import "ItemAreaSourcesTableViewController.h"
+#import "ItemMonsterSourcesTableViewController.h"
 
 typedef NS_ENUM(NSInteger, ItemSegmentedControlPage) {
     MonsterSources = 0,

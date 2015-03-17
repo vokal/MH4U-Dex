@@ -8,11 +8,13 @@
 
 #import "ItemEncyclopediaTableViewController.h"
 
-#import "ItemTableViewCell.h"
-#import "Item.h"
+#import <CoreData/CoreData.h>
+
 #import "ItemContainerViewController.h"
 
-#import <CoreData/CoreData.h>
+#import "Item.h"
+
+#import "ItemTableViewCell.h"
 
 @interface ItemEncyclopediaTableViewController ()
 
@@ -28,7 +30,7 @@
     
     NSError *fetchError = nil;
     NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:[Item entityName]];
-    NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:@"name" ascending:YES];
+    NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:ItemAttributes.name ascending:YES];
     [fetchRequest setSortDescriptors:@[sortDescriptor]];
     self.items = [self.managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];
     if (fetchError) {
@@ -52,10 +54,16 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     ItemTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([ItemTableViewCell class])];
-    Item *item = self.items[indexPath.row];
-    cell.itemName = item.name;
+    cell.itemName = [self itemAtIndexPath:indexPath].name;
     [cell displayContents];
     return cell;
+}
+
+#pragma mark - Helper Methods
+
+- (Item *)itemAtIndexPath:(NSIndexPath *)indexPath
+{
+    return self.items[indexPath.row];
 }
 
 #pragma mark - Navigation

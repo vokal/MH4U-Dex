@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import "DamageZone.h"
+@class DamageZone;
 
 @interface DamageZoneCell : UICollectionViewCell
 

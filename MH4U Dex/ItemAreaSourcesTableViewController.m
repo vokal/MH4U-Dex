@@ -8,16 +8,16 @@
 
 #import "ItemAreaSourcesTableViewController.h"
 
-#import "RegionContainerViewController.h"
-
-#import "Item.h"
-#import "Area.h"
-#import "AreaDrop.h"
-
-#import "ItemAreaSourceTableViewCell.h"
-
 #import <CoreData/CoreData.h>
 
+#import "RegionContainerViewController.h"
+
+#import "Area.h"
+#import "AreaDrop.h"
+#import "Item.h"
+#import "Region.h"
+
+#import "ItemAreaSourceTableViewCell.h"
 
 @interface ItemAreaSourcesTableViewController ()
 
@@ -33,12 +33,12 @@
     
     NSError *fetchError = nil;
     NSFetchRequest *itemFetchRequest = [[NSFetchRequest alloc] initWithEntityName:[Item entityName]];
-    NSPredicate *itemPredicate = [NSPredicate predicateWithFormat:@"%K == %@", @"name", self.itemName];
+    NSPredicate *itemPredicate = [NSPredicate predicateWithFormat:@"%K == %@", ItemAttributes.name, self.itemName];
     [itemFetchRequest setPredicate:itemPredicate];
     Item *item = (Item *)[self.managedObjectContext executeFetchRequest:itemFetchRequest error:&fetchError].firstObject;
     
     NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:[AreaDrop entityName]];
-    NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:@"idDecimalString" ascending:YES];
+    NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:AreaDropAttributes.idDecimalString ascending:YES];
     NSPredicate *predicate = [NSPredicate predicateWithFormat:@"%K == %@", AreaDropRelationships.item, item];
     [fetchRequest setPredicate:predicate];
     [fetchRequest setSortDescriptors:@[sortDescriptor]];
@@ -80,12 +80,18 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    AreaDrop *drop = self.sources[indexPath.row];
     RegionContainerViewController *regionVC = [storyBoard instantiateViewControllerWithIdentifier:@"RegionContainerViewController"];
-    regionVC.region = drop.area.region;
+    regionVC.region = [self dropAtIndexPath:indexPath].area.region;
     regionVC.regionName = regionVC.region.name;
     regionVC.regionKeyName = regionVC.region.keyName;
     [self.navigationController pushViewController:regionVC animated:YES];
+}
+
+#pragma mark - Helper Methods
+
+- (AreaDrop *)dropAtIndexPath:(NSIndexPath *)indexPath
+{
+    return self.sources[indexPath.row];
 }
 
 @end

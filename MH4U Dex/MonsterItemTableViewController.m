@@ -7,13 +7,17 @@
 //
 
 #import "MonsterItemTableViewController.h"
+
+#import <CoreData/CoreData.h>
+
+#import "ItemContainerViewController.h"
 #import "MonsterEncyclopediaViewController.h"
+
+#import "Item.h"
 #import "Monster.h"
 #import "MonsterDrop.h"
-#import <CoreData/CoreData.h>
-#import "Item.h"
+
 #import "DropTableViewCell.h"
-#import "ItemContainerViewController.h"
 
 @interface MonsterItemTableViewController ()
 
@@ -28,12 +32,12 @@
     [super viewDidLoad];
     NSError *fetchError = nil;
     NSFetchRequest *monsterFetchRequest = [[NSFetchRequest alloc] initWithEntityName:[Monster entityName]];
-    NSPredicate *monsterPredicate = [NSPredicate predicateWithFormat:@"%K == %@", @"name", self.monster];
+    NSPredicate *monsterPredicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterAttributes.name, self.monster];
     [monsterFetchRequest setPredicate:monsterPredicate];
     Monster *monster = (Monster *)[self.managedObjectContext executeFetchRequest:monsterFetchRequest error:&fetchError].firstObject;
     
     NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:[MonsterDrop entityName]];
-    NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:@"method" ascending:YES];
+    NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:MonsterDropAttributes.method ascending:YES];
     NSPredicate *dropPredicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterDropRelationships.monsterSource, monster];
     NSPredicate *rankPredicate;
     //TODO: Clean this up a little bit.
@@ -47,7 +51,6 @@
     [fetchRequest setSortDescriptors:@[sortDescriptor]];
     
     self.drops = [self.managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];
-    NSLog(@"Loaded drops!");
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender

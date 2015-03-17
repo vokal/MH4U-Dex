@@ -10,10 +10,12 @@
 
 #import <CoreData/CoreData.h>
 
-#import "MonsterEncyclopediaCell.h"
-#import "Monster.h"
-#import "MonsterOverviewViewController.h"
 #import "MonsterDetailsViewController.h"
+#import "MonsterOverviewViewController.h"
+
+#import "Monster.h"
+
+#import "MonsterEncyclopediaCell.h"
 
 typedef NS_ENUM(NSInteger, MonsterEncyclopediaSections) {
     SmallMonsterSection = 0,
@@ -37,8 +39,8 @@ typedef NS_ENUM(NSInteger, MonsterEncyclopediaSections) {
 
     NSError *fetchError = nil;
     NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:[Monster entityName]];
-    NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:@"sort_name" ascending:YES];
-    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"%K == %@", @"monster_class", @"Minion"];
+    NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:MonsterAttributes.sort_name ascending:YES];
+    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterAttributes.monster_class, @"Minion"];
     [fetchRequest setPredicate:predicate];
     [fetchRequest setSortDescriptors:@[sortDescriptor]];
     self.smallMonsters = [self.managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];
@@ -46,7 +48,7 @@ typedef NS_ENUM(NSInteger, MonsterEncyclopediaSections) {
         NSLog(@"Error fetching small monster data.");
         NSLog(@"%@, %@", fetchError, fetchError.localizedDescription);
     }
-    predicate = [NSPredicate predicateWithFormat:@"%K == %@", @"monster_class", @"Boss"];
+    predicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterAttributes.monster_class, @"Boss"];
     [fetchRequest setPredicate:predicate];
     self.largeMonsters = [self.managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];
     if (fetchError) {

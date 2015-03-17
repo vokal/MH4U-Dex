@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Region.h"
+
+@class Region;
 
 @interface RegionContainerViewController : UIViewController
 

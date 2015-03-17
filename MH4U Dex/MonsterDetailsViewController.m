@@ -7,8 +7,9 @@
 //
 
 #import "MonsterDetailsViewController.h"
-#import "MonsterOverviewViewController.h"
+
 #import "MonsterItemTableViewController.h"
+#import "MonsterOverviewViewController.h"
 
 typedef NS_ENUM(NSInteger, MonsterSegmentedControlPage) {
     Overview = 0,
