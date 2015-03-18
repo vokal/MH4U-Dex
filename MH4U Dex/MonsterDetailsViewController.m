@@ -49,19 +49,19 @@ typedef NS_ENUM(NSInteger, MonsterSegmentedControlPage) {
     switch (segmentedControl.selectedSegmentIndex) {
         case Overview:
             self.overviewSubView.hidden = NO;
-            self.navigationItem.title = [NSString stringWithFormat:@"%@ Overview", self.monster];
+            self.title = [NSString stringWithFormat:@"%@ Overview", self.monster];
             break;
         case LowRank:
             self.lowRankSubView.hidden = NO;
-            self.navigationItem.title = [NSString stringWithFormat:@"%@ LR Drops", self.monster];
+            self.title = [NSString stringWithFormat:@"%@ LR Drops", self.monster];
             break;
         case HighRank:
             self.highRankSubView.hidden = NO;
-            self.navigationItem.title = [NSString stringWithFormat:@"%@ HR Drops", self.monster];
+            self.title = [NSString stringWithFormat:@"%@ HR Drops", self.monster];
             break;
         case GRank:
             self.GRankSubView.hidden = NO;
-            self.navigationItem.title = [NSString stringWithFormat:@"%@ GR Drops", self.monster];
+            self.title = [NSString stringWithFormat:@"%@ GR Drops", self.monster];
             break;
         default:
             break;
