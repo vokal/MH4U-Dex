@@ -8,16 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DropTableViewCell : UITableViewCell
+@class MonsterDrop;
 
-@property (nonatomic, strong) NSString *itemName;
-@property (nonatomic, strong) NSString *method;
-@property (nonatomic, assign) NSInteger percent;
-@property (nonatomic, assign) NSInteger quantity;
+@interface DropTableViewCell : UITableViewCell
 
 /**
  Update the cell's labels.
  */
-- (void)displayContents;
+- (void)displayContentsOfMonsterDrop:(MonsterDrop *)drop;
 
 @end

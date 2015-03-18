@@ -8,6 +8,8 @@
 
 #import "ItemTableViewCell.h"
 
+#import "Item.h"
+
 @interface ItemTableViewCell ()
 
 @property (nonatomic, weak) IBOutlet UILabel *itemNameLabel;
@@ -16,9 +18,9 @@
 
 @implementation ItemTableViewCell
 
-- (void)displayContents
+- (void)displayContentsWithItem:(Item *)item
 {
-    self.itemNameLabel.text = self.itemName;
+    self.itemNameLabel.text = item.name;
 }
 
 @end

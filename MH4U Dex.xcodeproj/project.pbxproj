@@ -64,7 +64,7 @@
 		E471BE2D1A96798F0076CBD7 /* ItemMonsterSourceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E471BE2C1A96798F0076CBD7 /* ItemMonsterSourceTableViewCell.m */; };
 		E471BE2F1A979DAC0076CBD7 /* ancestral_steppe_drops.json in Resources */ = {isa = PBXBuildFile; fileRef = E471BE2E1A979DAC0076CBD7 /* ancestral_steppe_drops.json */; };
 		E471BE321A979DF40076CBD7 /* regions.json in Resources */ = {isa = PBXBuildFile; fileRef = E471BE311A979DF40076CBD7 /* regions.json */; };
-		E471BE351A979F060076CBD7 /* RegionEncylcopediaCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E471BE341A979F060076CBD7 /* RegionEncylcopediaCollectionViewCell.m */; };
+		E471BE351A979F060076CBD7 /* RegionEncyclopediaCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E471BE341A979F060076CBD7 /* RegionEncyclopediaCollectionViewCell.m */; };
 		E471BE391A979F4C0076CBD7 /* RegionEncyclopediaCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E471BE381A979F4C0076CBD7 /* RegionEncyclopediaCollectionViewController.m */; };
 		E471BE3C1A979FF70076CBD7 /* Area.m in Sources */ = {isa = PBXBuildFile; fileRef = E471BE3B1A979FF70076CBD7 /* Area.m */; };
 		E471BE3F1A979FFE0076CBD7 /* _Area.m in Sources */ = {isa = PBXBuildFile; fileRef = E471BE3E1A979FFE0076CBD7 /* _Area.m */; };
@@ -193,8 +193,8 @@
 		E471BE2C1A96798F0076CBD7 /* ItemMonsterSourceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemMonsterSourceTableViewCell.m; sourceTree = "<group>"; };
 		E471BE2E1A979DAC0076CBD7 /* ancestral_steppe_drops.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ancestral_steppe_drops.json; sourceTree = "<group>"; };
 		E471BE311A979DF40076CBD7 /* regions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = regions.json; sourceTree = "<group>"; };
-		E471BE331A979F060076CBD7 /* RegionEncylcopediaCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionEncylcopediaCollectionViewCell.h; sourceTree = "<group>"; };
-		E471BE341A979F060076CBD7 /* RegionEncylcopediaCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegionEncylcopediaCollectionViewCell.m; sourceTree = "<group>"; };
+		E471BE331A979F060076CBD7 /* RegionEncyclopediaCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionEncyclopediaCollectionViewCell.h; sourceTree = "<group>"; };
+		E471BE341A979F060076CBD7 /* RegionEncyclopediaCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegionEncyclopediaCollectionViewCell.m; sourceTree = "<group>"; };
 		E471BE371A979F4C0076CBD7 /* RegionEncyclopediaCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionEncyclopediaCollectionViewController.h; sourceTree = "<group>"; };
 		E471BE381A979F4C0076CBD7 /* RegionEncyclopediaCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegionEncyclopediaCollectionViewController.m; sourceTree = "<group>"; };
 		E471BE3A1A979FF70076CBD7 /* Area.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Area.h; sourceTree = "<group>"; };
@@ -515,8 +515,8 @@
 				E471BE231A9672A80076CBD7 /* ItemTableViewCell.m */,
 				E4A769901A8521B100AC93DA /* MonsterEncyclopediaCell.h */,
 				E4A769911A8521B100AC93DA /* MonsterEncyclopediaCell.m */,
-				E471BE331A979F060076CBD7 /* RegionEncylcopediaCollectionViewCell.h */,
-				E471BE341A979F060076CBD7 /* RegionEncylcopediaCollectionViewCell.m */,
+				E471BE331A979F060076CBD7 /* RegionEncyclopediaCollectionViewCell.h */,
+				E471BE341A979F060076CBD7 /* RegionEncyclopediaCollectionViewCell.m */,
 				E4A72CE51AB0A75B006D338A /* AreaDropTableViewCell.h */,
 				E4A72CE61AB0A75B006D338A /* AreaDropTableViewCell.m */,
 				E4DAD2321AB89A210048DACA /* QuestListTableViewCell.h */,
@@ -776,7 +776,7 @@
 				E434F3791A83F5CA004C10BF /* Armor.m in Sources */,
 				E4DAD22E1AB77F8B0048DACA /* QuestEncyclopediaContainerViewController.m in Sources */,
 				E434F36F1A83F5CA004C10BF /* _ArmorSet.m in Sources */,
-				E471BE351A979F060076CBD7 /* RegionEncylcopediaCollectionViewCell.m in Sources */,
+				E471BE351A979F060076CBD7 /* RegionEncyclopediaCollectionViewCell.m in Sources */,
 				E434F3701A83F5CA004C10BF /* _Combination.m in Sources */,
 				E4A7698D1A85207D00AC93DA /* MonsterEncyclopediaViewController.m in Sources */,
 				E434F3821A83F5CA004C10BF /* Trade.m in Sources */,

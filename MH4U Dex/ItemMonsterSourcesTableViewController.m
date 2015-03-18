@@ -32,15 +32,12 @@
     
     NSError *fetchError = nil;
     NSFetchRequest *itemFetchRequest = [[NSFetchRequest alloc] initWithEntityName:[Item entityName]];
-    NSPredicate *itemPredicate = [NSPredicate predicateWithFormat:@"%K == %@", ItemAttributes.name, self.itemName];
-    [itemFetchRequest setPredicate:itemPredicate];
+    itemFetchRequest.predicate = [NSPredicate predicateWithFormat:@"%K == %@", ItemAttributes.name, self.itemName];
     Item *item = (Item *)[self.managedObjectContext executeFetchRequest:itemFetchRequest error:&fetchError].firstObject;
     
     NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:[MonsterDrop entityName]];
-    NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:MonsterDropAttributes.id ascending:YES];
-    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterDropRelationships.item, item];
-    [fetchRequest setPredicate:predicate];
-    [fetchRequest setSortDescriptors:@[sortDescriptor]];
+    fetchRequest.predicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterDropRelationships.item, item];
+    fetchRequest.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:MonsterDropAttributes.id ascending:YES]];
     
     self.sources = [self.managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];
     // If the fetch failed (most likely because the item cannot be found from any monsters) ...
@@ -69,11 +66,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     ItemMonsterSourceTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([ItemMonsterSourceTableViewCell class])];
-    MonsterDrop *drop = self.sources[indexPath.row];
-    cell.method = drop.method;
-    Monster *monster = [drop valueForKey:MonsterDropRelationships.monsterSource];
-    cell.sourceName = monster.name;
-    [cell displayContents];
+    [cell displayContentsWithMonsterDrop:self.sources[indexPath.row]];
     return cell;
     
 }

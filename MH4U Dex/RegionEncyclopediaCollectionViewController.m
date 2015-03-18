@@ -16,8 +16,7 @@
 
 #import "Region.h"
 
-#import "RegionEncylcopediaCollectionViewCell.h"
-
+#import "RegionEncyclopediaCollectionViewCell.h"
 
 @interface RegionEncyclopediaCollectionViewController ()
 
@@ -35,8 +34,7 @@
     
     NSError *fetchError = nil;
     NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:[Region entityName]];
-    NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:RegionAttributes.id ascending:YES];
-    [fetchRequest setSortDescriptors:@[sortDescriptor]];
+    fetchRequest.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:RegionAttributes.id ascending:YES]];
     self.regions = [self.managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];
     if (fetchError) {
         NSLog(@"Error fetching region data.");
@@ -58,13 +56,8 @@
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    RegionEncylcopediaCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:NSStringFromClass([RegionEncylcopediaCollectionViewCell class]) forIndexPath:indexPath];
-    
-    // Configure the cell
-    Region *region = [self regionAtIndexPath:indexPath];
-    cell.regionName = region.name;
-    cell.regionKeyName = region.keyName;
-    [cell displayContents];
+    RegionEncyclopediaCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:NSStringFromClass([RegionEncyclopediaCollectionViewCell class]) forIndexPath:indexPath];
+    [cell displayContentsWithRegion:[self regionAtIndexPath:indexPath]];
     return cell;
 }
 
@@ -82,12 +75,14 @@
     if ([segue.identifier isEqualToString:@"showRegionDetails"]) {
         RegionContainerViewController *regionVC = (RegionContainerViewController *)segue.destinationViewController;
         regionVC.managedObjectContext = self.managedObjectContext;
-        regionVC.regionName = [sender regionName];
-        regionVC.regionKeyName = [sender regionKeyName];
         
-        CoreDataController *coreDataController = [CoreDataController sharedCDController];
-        NSPredicate *predicate = [NSPredicate predicateWithFormat:@"%K == %@", RegionAttributes.name, [sender regionName]];
-        regionVC.region = (Region *)[coreDataController getUniqueEntityWithEntityName:[Region entityName] withPredicate:predicate];
+        if ([sender isMemberOfClass:[RegionEncyclopediaCollectionViewCell class]]) {
+            RegionEncyclopediaCollectionViewCell *cell = (RegionEncyclopediaCollectionViewCell *)sender;
+            Region *region = [self regionAtIndexPath:[self.collectionView indexPathForCell:cell]];
+            regionVC.regionName = region.name;
+            regionVC.regionKeyName = region.keyName;
+            regionVC.region = region;
+        }
     }
 }
 

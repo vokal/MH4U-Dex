@@ -23,8 +23,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.monsterNameLabel.text = self.monster;
-    NSString *imageName = [NSString stringWithFormat:@"%@-icon", [self.monster lowercaseString]];
+    self.monsterNameLabel.text = self.monsterName;
+    NSString *imageName = [NSString stringWithFormat:@"%@-icon", [self.monsterName lowercaseString]];
     UIImage *image = [UIImage imageNamed:imageName];
     if (image) {
         self.monsterIconImage.image = image;
@@ -35,7 +35,7 @@
 {
     if ([segue.identifier isEqualToString:@"embedDamageZones"]) {
         DamageZonesCollectionViewController *damageVC = (DamageZonesCollectionViewController *)segue.destinationViewController;
-        damageVC.monsterName = self.monster;
+        damageVC.monsterName = self.monsterName;
         damageVC.managedObjectContext = self.managedObjectContext;
     }
 }

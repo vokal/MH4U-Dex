@@ -43,9 +43,7 @@ typedef NS_ENUM(NSInteger, StarSections) {
 {
     [super viewDidLoad];
     
-    
-    
-    CoreDataController *coreDataController = [CoreDataController sharedCDController];
+    NSManagedObjectContext *managedObjectContext = [CoreDataController sharedCDController].managedObjectContext;
     NSError *fetchError = nil;
     NSPredicate *caravanPredicate = [NSPredicate predicateWithFormat:@"%K == %@", QuestAttributes.caravan, [NSNumber numberWithBool:self.isCaravan]];
     NSFetchRequest *questFetchRequest = [NSFetchRequest fetchRequestWithEntityName:[Quest entityName]];
@@ -55,8 +53,13 @@ typedef NS_ENUM(NSInteger, StarSections) {
     for (NSUInteger starNumber = 1; starNumber <= 10; starNumber++) {
         starPredicate = [NSPredicate predicateWithFormat:@"%K == %@", QuestAttributes.stars, @(starNumber)];
         compoundPredicate = [NSCompoundPredicate andPredicateWithSubpredicates:@[caravanPredicate, starPredicate]];
-        [questFetchRequest setPredicate:compoundPredicate];
-        [self.questMasterArray addObject:[coreDataController.managedObjectContext executeFetchRequest:questFetchRequest error:&fetchError]];;
+        questFetchRequest.predicate = [NSCompoundPredicate andPredicateWithSubpredicates:@[caravanPredicate, starPredicate]];
+        NSArray *questList = [managedObjectContext executeFetchRequest:questFetchRequest error:&fetchError];
+        if (questList) {
+            [self.questMasterArray addObject:questList];
+        } else {
+            //TODO: Consider doing something with fetchError
+        }
     }
 }
 

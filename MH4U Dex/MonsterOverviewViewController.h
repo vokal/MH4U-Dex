@@ -11,6 +11,6 @@
 @interface MonsterOverviewViewController : UIViewController
 
 @property (nonatomic, strong) NSManagedObjectContext *managedObjectContext;
-@property (nonatomic, strong) NSString *monster;
+@property (nonatomic, strong) NSString *monsterName;
 
 @end

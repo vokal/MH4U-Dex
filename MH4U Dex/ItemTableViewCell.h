@@ -8,14 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+@class Item;
+
 @interface ItemTableViewCell : UITableViewCell
-
-@property (nonatomic, strong) NSString *itemName;
-
 
 /**
  Update the cell's labels.
  */
-- (void)displayContents;
+- (void)displayContentsWithItem:(Item *)item;
 
 @end

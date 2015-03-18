@@ -8,6 +8,8 @@
 
 #import "MonsterEncyclopediaCell.h"
 
+#import "Monster.h"
+
 @interface MonsterEncyclopediaCell ()
 
 @property (nonatomic, weak) IBOutlet UILabel *monsterNameLabel;
@@ -17,16 +19,16 @@
 
 @implementation MonsterEncyclopediaCell
 
-- (void)displayContents
+- (void)displayContentsWithMonster:(Monster *)monster
 {
-    NSString *imageName = [NSString stringWithFormat:@"%@-icon", [self.monsterName lowercaseString]];
+    NSString *imageName = [NSString stringWithFormat:@"%@-icon", [monster.name lowercaseString]];
     UIImage *image = [UIImage imageNamed:imageName];
     if (image) {
         self.monsterImageView.image = image;
     } else {
         self.monsterImageView.image = nil;
     }
-    self.monsterNameLabel.text = self.monsterName;
+    self.monsterNameLabel.text = monster.name;
 }
 
 @end

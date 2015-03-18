@@ -8,13 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MonsterEncyclopediaCell : UICollectionViewCell
+@class Monster;
 
-@property (nonatomic, strong) NSString *monsterName;
+@interface MonsterEncyclopediaCell : UICollectionViewCell
 
 /**
  Update the cell's labels.
  */
-- (void)displayContents;
+- (void)displayContentsWithMonster:(Monster *)monster;
 
 @end

@@ -1,32 +1,34 @@
 //
-//  RegionEncylcopediaCollectionViewCell.m
+//  RegionEncyclopediaCollectionViewCell.m
 //  MH4U Dex
 //
 //  Created by Joseph Goldberg on 2/20/15.
 //  Copyright (c) 2015 Joseph Goldberg. All rights reserved.
 //
 
-#import "RegionEncylcopediaCollectionViewCell.h"
+#import "RegionEncyclopediaCollectionViewCell.h"
 
-@interface RegionEncylcopediaCollectionViewCell ()
+#import "Region.h"
+
+@interface RegionEncyclopediaCollectionViewCell ()
 
 @property (nonatomic, weak) IBOutlet UILabel *regionNameLabel;
 @property (nonatomic, weak) IBOutlet UIImageView *regionIconImageView;
 
 @end
 
-@implementation RegionEncylcopediaCollectionViewCell
+@implementation RegionEncyclopediaCollectionViewCell
 
-- (void)displayContents
+- (void)displayContentsWithRegion:(Region *)region
 {
-    NSString *imageName = [NSString stringWithFormat:@"%@-icon", self.regionKeyName];
+    NSString *imageName = [NSString stringWithFormat:@"%@-icon", region.keyName];
     UIImage *image = [UIImage imageNamed:imageName];
     if (image) {
         self.regionIconImageView.image = image;
     } else {
         self.regionIconImageView.image = nil;
     }
-    self.regionNameLabel.text = self.regionName;
+    self.regionNameLabel.text = region.name;
     [self.regionNameLabel sizeToFit];
 }
 

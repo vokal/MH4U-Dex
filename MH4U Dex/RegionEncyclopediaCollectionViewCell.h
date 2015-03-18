@@ -1,5 +1,5 @@
 //
-//  ItemAreaSourceTableViewCell.h
+//  RegionEncyclopediaCollectionViewCell.h
 //  MH4U Dex
 //
 //  Created by Joseph Goldberg on 2/20/15.
@@ -8,13 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@class AreaDrop;
+@class Region;
 
-@interface ItemAreaSourceTableViewCell : UITableViewCell
+@interface RegionEncyclopediaCollectionViewCell : UICollectionViewCell
 
 /**
  Update the cell's labels.
  */
-- (void)displayContentsWithAreaDrop:(AreaDrop *)drop;
+- (void)displayContentsWithRegion:(Region *)region;
 
 @end

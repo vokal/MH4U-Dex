@@ -596,6 +596,7 @@
                         <outlet property="highRankSubView" destination="HQ6-Ef-TMG" id="Ra8-Gx-mg8"/>
                         <outlet property="lowRankSubView" destination="8JQ-yt-UGq" id="YgO-e2-ngv"/>
                         <outlet property="overviewSubView" destination="Vmj-tc-gSh" id="PfW-ed-VKR"/>
+                        <outlet property="segmentedControl" destination="LqV-qk-bVx" id="fJ4-nF-anb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QgW-G2-hwm" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -703,7 +704,7 @@
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="RegionEncylcopediaCollectionViewCell" id="loO-8V-vTo" customClass="RegionEncylcopediaCollectionViewCell">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="RegionEncyclopediaCollectionViewCell" id="loO-8V-vTo" customClass="RegionEncyclopediaCollectionViewCell">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="205" height="205"/>
@@ -811,7 +812,6 @@
                                 </constraints>
                                 <connections>
                                     <outlet property="monsterImageView" destination="o3L-L2-0p4" id="nPt-fh-22v"/>
-                                    <outlet property="monsterName" destination="P7u-XC-2xb" id="xM5-Pe-hyh"/>
                                     <outlet property="monsterNameLabel" destination="P7u-XC-2xb" id="ioZ-o5-aVf"/>
                                     <segue destination="2UP-qa-Qp3" kind="show" identifier="showMonsterDetails" id="57L-bR-5PZ"/>
                                 </connections>

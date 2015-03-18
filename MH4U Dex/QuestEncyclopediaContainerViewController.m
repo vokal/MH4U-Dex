@@ -21,16 +21,15 @@
 
 - (IBAction)segmentedControlChanged:(id)sender
 {
-    
+    // TODO: Implement
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
+    QuestListTableViewController *questListVC = (QuestListTableViewController *)segue.destinationViewController;
     if ([segue.identifier isEqualToString:@"showCaravanList"]) {
-        QuestListTableViewController *questListVC = (QuestListTableViewController *)segue.destinationViewController;
         questListVC.isCaravan = YES;
     } else if ([segue.identifier isEqualToString:@"showGatheringHallList"]) {
-        QuestListTableViewController *questListVC = (QuestListTableViewController *)segue.destinationViewController;
         questListVC.isCaravan = NO;
     }
 }

@@ -30,8 +30,7 @@
     
     NSError *fetchError = nil;
     NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:[Item entityName]];
-    NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:ItemAttributes.name ascending:YES];
-    [fetchRequest setSortDescriptors:@[sortDescriptor]];
+    fetchRequest.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:ItemAttributes.name ascending:YES]];
     self.items = [self.managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];
     if (fetchError) {
         NSLog(@"Error fetching item data.");
@@ -54,8 +53,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     ItemTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([ItemTableViewCell class])];
-    cell.itemName = [self itemAtIndexPath:indexPath].name;
-    [cell displayContents];
+    [cell displayContentsWithItem:[self itemAtIndexPath:indexPath]];
     return cell;
 }
 
@@ -73,7 +71,10 @@
     if ([segue.identifier isEqualToString:@"showItemDetails"]) {
         ItemContainerViewController *itemVC = (ItemContainerViewController *)segue.destinationViewController;
         itemVC.managedObjectContext = self.managedObjectContext;
-        itemVC.itemName = [sender itemName];
+        if ([sender isMemberOfClass:[ItemTableViewCell class]]) {
+            ItemTableViewCell *cell = (ItemTableViewCell *)sender;
+            itemVC.itemName = [self itemAtIndexPath:[self.tableView indexPathForCell:cell]].name;
+        }
     }
 }
 

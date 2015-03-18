@@ -10,4 +10,5 @@
 
 @implementation QuestListTableViewCell
 
+//TODO: Add implementation details
 @end

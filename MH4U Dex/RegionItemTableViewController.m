@@ -35,24 +35,18 @@
     [super viewDidLoad];
     CoreDataController *coreDataController = [CoreDataController sharedCDController];
     NSError *fetchError = nil;
-    NSSortDescriptor *areaSortDescriptor = [NSSortDescriptor sortDescriptorWithKey:AreaAttributes.name ascending:YES];
     NSFetchRequest *areaFetchRequest = [[NSFetchRequest alloc] initWithEntityName:[Area entityName]];
     NSPredicate *areaPredicate = [NSPredicate predicateWithFormat:@"%K == %@", AreaRelationships.region, self.region];
-    NSPredicate *rankPredicate;
-    if (self.rank) {
-        rankPredicate = [NSPredicate predicateWithFormat:@"%K == %@", AreaAttributes.rank, self.rank];
-    } else {
-        rankPredicate = [NSPredicate predicateWithFormat:@"%K == %@", AreaAttributes.rank, @"Low"];
-    }
-    NSCompoundPredicate *compoundPredicate = [NSCompoundPredicate andPredicateWithSubpredicates:@[rankPredicate, areaPredicate]];
-    [areaFetchRequest setPredicate:compoundPredicate];
-    [areaFetchRequest setSortDescriptors:@[areaSortDescriptor]];
+    NSPredicate *rankPredicate = [NSPredicate predicateWithFormat:@"%K == %@", AreaAttributes.rank, self.rank ?: @"Low"];
+    areaFetchRequest.predicate = [NSCompoundPredicate andPredicateWithSubpredicates:@[rankPredicate, areaPredicate]];
+    areaFetchRequest.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:AreaAttributes.name ascending:YES]];
     self.areaArray = [coreDataController.managedObjectContext executeFetchRequest:areaFetchRequest error:&fetchError];
     self.areaDropsDict = [NSMutableDictionary dictionary];
+    NSSortDescriptor *dropSortDescriptor = [NSSortDescriptor sortDescriptorWithKey:AreaDropAttributes.idDecimalString ascending:YES];
+    NSArray *sortDescriptors = @[dropSortDescriptor];
     for (Area *area in self.areaArray) {
-        NSSortDescriptor *dropSortDescriptor = [NSSortDescriptor sortDescriptorWithKey:AreaDropAttributes.idDecimalString ascending:YES];
-        NSArray *dropsArray = [area.drop sortedArrayUsingDescriptors:@[dropSortDescriptor]];
-        [self.areaDropsDict setObject:dropsArray forKey:area.combinedName];
+        NSArray *dropsArray = [area.drop sortedArrayUsingDescriptors:sortDescriptors];
+        self.areaDropsDict[area.combinedName] = dropsArray;
     }
 }
 

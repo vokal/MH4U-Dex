@@ -148,21 +148,21 @@
     </entity>
     <fetchRequest name="FetchRequest" entity="MonsterDrop" predicateString="rank CONTAINS &quot;&quot;"/>
     <elements>
-        <element name="Area" positionX="-774" positionY="-288" width="128" height="118"/>
-        <element name="AreaDrop" positionX="-927" positionY="-36" width="128" height="148"/>
-        <element name="Armor" positionX="-398" positionY="-432" width="128" height="133"/>
-        <element name="ArmorSet" positionX="-245" positionY="-414" width="128" height="73"/>
-        <element name="Combination" positionX="-632" positionY="-124" width="128" height="103"/>
-        <element name="DamageZone" positionX="-416" positionY="-36" width="128" height="283"/>
-        <element name="Decoration" positionX="-398" positionY="-288" width="128" height="88"/>
-        <element name="Item" positionX="-632" positionY="-331" width="128" height="225"/>
-        <element name="Monster" positionX="-785" positionY="36" width="128" height="253"/>
-        <element name="MonsterDrop" positionX="-785" positionY="-153" width="128" height="148"/>
-        <element name="Quest" positionX="-974" positionY="-271" width="128" height="328"/>
-        <element name="Region" positionX="-974" positionY="-189" width="128" height="120"/>
-        <element name="Skilltree" positionX="-243" positionY="-316" width="128" height="88"/>
-        <element name="Trade" positionX="-632" positionY="-432" width="128" height="88"/>
-        <element name="Weapon" positionX="-398" positionY="-193" width="128" height="73"/>
-        <element name="QuestDrop" positionX="-774" positionY="-288" width="128" height="133"/>
+        <element name="Area" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="AreaDrop" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Armor" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="ArmorSet" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Combination" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="DamageZone" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Decoration" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Item" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Monster" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="MonsterDrop" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Quest" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="QuestDrop" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Region" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Skilltree" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Trade" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Weapon" positionX="0" positionY="0" width="0" height="0"/>
     </elements>
 </model>

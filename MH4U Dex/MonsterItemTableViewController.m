@@ -32,23 +32,16 @@
     [super viewDidLoad];
     NSError *fetchError = nil;
     NSFetchRequest *monsterFetchRequest = [[NSFetchRequest alloc] initWithEntityName:[Monster entityName]];
-    NSPredicate *monsterPredicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterAttributes.name, self.monster];
-    [monsterFetchRequest setPredicate:monsterPredicate];
+    monsterFetchRequest.predicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterAttributes.name, self.monsterName];
     Monster *monster = (Monster *)[self.managedObjectContext executeFetchRequest:monsterFetchRequest error:&fetchError].firstObject;
     
     NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:[MonsterDrop entityName]];
     NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:MonsterDropAttributes.method ascending:YES];
     NSPredicate *dropPredicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterDropRelationships.monsterSource, monster];
-    NSPredicate *rankPredicate;
-    //TODO: Clean this up a little bit.
-    if (self.rank) {
-        rankPredicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterDropAttributes.rank, self.rank];
-    } else {
-        rankPredicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterDropAttributes.rank, @"Low"];
-    }
+    NSPredicate *rankPredicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterDropAttributes.rank, self.rank ?: @"Low"];
     NSCompoundPredicate *compoundPredicate = [NSCompoundPredicate andPredicateWithSubpredicates:@[dropPredicate, rankPredicate]];
-    [fetchRequest setPredicate:compoundPredicate];
-    [fetchRequest setSortDescriptors:@[sortDescriptor]];
+    fetchRequest.predicate = compoundPredicate;
+    fetchRequest.sortDescriptors = @[sortDescriptor];
     
     self.drops = [self.managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];
 }
@@ -64,14 +57,8 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    MonsterDrop *drop = self.drops[indexPath.row];
     DropTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"DropTableViewCell"];
-    Item *item = [drop valueForKey:MonsterDropRelationships.item];
-    cell.percent = drop.percentValue;
-    cell.quantity = drop.quantityValue;
-    cell.itemName = item.name;
-    cell.method = drop.method;
-    [cell displayContents];
+    [cell displayContentsOfMonsterDrop:self.drops[indexPath.row]];
     return cell;
 }
 

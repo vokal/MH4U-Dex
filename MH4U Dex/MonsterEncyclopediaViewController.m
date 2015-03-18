@@ -24,6 +24,9 @@ typedef NS_ENUM(NSInteger, MonsterEncyclopediaSections) {
     MonsterEncyclopediaSectionCount
 };
 
+static NSString *const Boss = @"Boss";
+static NSString *const Minion = @"Minion";
+
 @interface MonsterEncyclopediaViewController ()
 
 @property (nonatomic, strong) NSArray *smallMonsters;
@@ -39,17 +42,14 @@ typedef NS_ENUM(NSInteger, MonsterEncyclopediaSections) {
 
     NSError *fetchError = nil;
     NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:[Monster entityName]];
-    NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:MonsterAttributes.sort_name ascending:YES];
-    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterAttributes.monster_class, @"Minion"];
-    [fetchRequest setPredicate:predicate];
-    [fetchRequest setSortDescriptors:@[sortDescriptor]];
+    fetchRequest.predicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterAttributes.monster_class, Minion];
+    fetchRequest.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:MonsterAttributes.sort_name ascending:YES]];
     self.smallMonsters = [self.managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];
     if (fetchError) {
         NSLog(@"Error fetching small monster data.");
         NSLog(@"%@, %@", fetchError, fetchError.localizedDescription);
     }
-    predicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterAttributes.monster_class, @"Boss"];
-    [fetchRequest setPredicate:predicate];
+    fetchRequest.predicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterAttributes.monster_class, Boss];
     self.largeMonsters = [self.managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];
     if (fetchError) {
         NSLog(@"Error fetching large monster data.");
@@ -64,9 +64,26 @@ typedef NS_ENUM(NSInteger, MonsterEncyclopediaSections) {
     if ([segue.identifier isEqualToString:@"showMonsterDetails"]) {
         MonsterDetailsViewController *detailVC = (MonsterDetailsViewController *)segue.destinationViewController;
         detailVC.managedObjectContext = self.managedObjectContext;
-        detailVC.monster = [sender monsterName];
+        if ([sender isMemberOfClass:[MonsterEncyclopediaCell class]]) {
+            MonsterEncyclopediaCell *cell = (MonsterEncyclopediaCell *)sender;
+            detailVC.monster = [self monsterForIndexPath:[self.collectionView indexPathForCell:cell]].name;
+        }
     }
-    
+}
+
+#pragma mark - Helper Methods
+
+- (Monster *)monsterForIndexPath:(NSIndexPath *)indexPath
+{
+    switch (indexPath.section) {
+        case SmallMonsterSection:
+            return self.smallMonsters[indexPath.row];
+            break;
+        case LargeMonsterSection:
+            return self.largeMonsters[indexPath.row];
+            break;
+    }
+    return nil;
 }
 
 #pragma mark <UICollectionViewDataSource>
@@ -90,19 +107,10 @@ typedef NS_ENUM(NSInteger, MonsterEncyclopediaSections) {
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
+    
     MonsterEncyclopediaCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:NSStringFromClass([MonsterEncyclopediaCell class])
                                                                               forIndexPath:indexPath];
-    Monster *monster;
-    switch (indexPath.section) {
-        case SmallMonsterSection:
-            monster = (Monster *)self.smallMonsters[indexPath.row];
-            break;
-        case LargeMonsterSection:
-            monster = (Monster *)self.largeMonsters[indexPath.row];
-            break;
-    }
-    cell.monsterName = monster.name;
-    [cell displayContents];
+    [cell displayContentsWithMonster:[self monsterForIndexPath:indexPath]];
     return cell;
 }
 

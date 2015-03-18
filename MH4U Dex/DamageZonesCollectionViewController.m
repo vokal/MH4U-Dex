@@ -36,10 +36,8 @@ typedef NS_ENUM(NSInteger, DamageZoneSections) {
     self.flowLayout.itemSize = CGSizeMake(CGRectGetWidth(self.collectionView.bounds), 40.0f);
     NSError *fetchError = nil;
     NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:[DamageZone entityName]];
-    NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:DamageZoneAttributes.id ascending:YES];
-    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"%K == %@", DamageZoneAttributes.monsterName, self.monsterName];
-    [fetchRequest setPredicate:predicate];
-    [fetchRequest setSortDescriptors:@[sortDescriptor]];
+    fetchRequest.predicate = [NSPredicate predicateWithFormat:@"%K == %@", DamageZoneAttributes.monsterName, self.monsterName];
+    fetchRequest.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:DamageZoneAttributes.id ascending:YES]];
     self.damageZones = [self.managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];
 }
 

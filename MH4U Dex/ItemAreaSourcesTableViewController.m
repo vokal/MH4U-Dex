@@ -33,16 +33,12 @@
     
     NSError *fetchError = nil;
     NSFetchRequest *itemFetchRequest = [[NSFetchRequest alloc] initWithEntityName:[Item entityName]];
-    NSPredicate *itemPredicate = [NSPredicate predicateWithFormat:@"%K == %@", ItemAttributes.name, self.itemName];
-    [itemFetchRequest setPredicate:itemPredicate];
+    itemFetchRequest.predicate = [NSPredicate predicateWithFormat:@"%K == %@", ItemAttributes.name, self.itemName];
     Item *item = (Item *)[self.managedObjectContext executeFetchRequest:itemFetchRequest error:&fetchError].firstObject;
     
     NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:[AreaDrop entityName]];
-    NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:AreaDropAttributes.idDecimalString ascending:YES];
-    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"%K == %@", AreaDropRelationships.item, item];
-    [fetchRequest setPredicate:predicate];
-    [fetchRequest setSortDescriptors:@[sortDescriptor]];
-    
+    fetchRequest.predicate = [NSPredicate predicateWithFormat:@"%K == %@", AreaDropRelationships.item, item];
+    fetchRequest.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:AreaDropAttributes.idDecimalString ascending:YES]];
     self.sources = [self.managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];
     // If the fetch failed (most likely because the item cannot be found from any areas) ...
     if (!self.sources) {
@@ -70,10 +66,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     ItemAreaSourceTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([ItemAreaSourceTableViewCell class]) forIndexPath:indexPath];
-    AreaDrop *drop = self.sources[indexPath.row];
-    cell.method = drop.method;
-    cell.sourceName = drop.area.combinedName;
-    [cell displayContents];
+    [cell displayContentsWithAreaDrop:self.sources[indexPath.row]];
     return cell;
 }
 
