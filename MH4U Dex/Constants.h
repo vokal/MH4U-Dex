@@ -12,16 +12,23 @@
 
 FOUNDATION_EXPORT NSString *const JSON;
 FOUNDATION_EXPORT NSString *const TrueString;
+FOUNDATION_EXPORT NSString *const LowConstString;
+FOUNDATION_EXPORT NSString *const HighConstString;
+FOUNDATION_EXPORT NSString *const GConstString;
 
 #pragma mark - Item Constants
 
 FOUNDATION_EXPORT NSString *const ItemNameKey;
+FOUNDATION_EXPORT NSString *const ItemEncyclopedia;
 
 #pragma mark - Monster Constants
 
 FOUNDATION_EXPORT NSString *const MonsterIDKey;
 FOUNDATION_EXPORT NSString *const MonstersFileName;
 FOUNDATION_EXPORT NSString *const MonsterDamageZonesFileName;
+FOUNDATION_EXPORT NSString *const MonsterEncyclopedia;
+FOUNDATION_EXPORT NSString *const Boss;
+FOUNDATION_EXPORT NSString *const Minion;
 
 #pragma mark - Area Constants
 
@@ -34,6 +41,7 @@ FOUNDATION_EXPORT NSString *const RegionIDJSONKey;
 FOUNDATION_EXPORT NSString *const RegionNameKey;
 FOUNDATION_EXPORT NSString *const RegionKeyNameKey;
 FOUNDATION_EXPORT NSString *const RegionDropsFileNameSuffix;
+FOUNDATION_EXPORT NSString *const RegionEncyclopedia;
 
 #pragma mark - Quest Constants
 

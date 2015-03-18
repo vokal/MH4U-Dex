@@ -8,6 +8,8 @@
 
 #import "HomeViewController.h"
 
+#import "Constants.h";
+
 #import "ItemEncyclopediaTableViewController.h"
 #import "MonsterEncyclopediaViewController.h"
 #import "RegionEncyclopediaCollectionViewController.h"
@@ -23,14 +25,15 @@
     if ([segue.identifier isEqualToString:@"showMonsterEncyclopedia"]) {
         MonsterEncyclopediaViewController *monsterVC = (MonsterEncyclopediaViewController *)segue.destinationViewController;
         monsterVC.managedObjectContext = self.managedObjectContext;
-        monsterVC.navigationItem.title = @"Monster Encyclopedia";
+        monsterVC.navigationItem.title = MonsterEncyclopedia;
     } else if ([segue.identifier isEqualToString:@"showItemEncyclopedia"]) {
         ItemEncyclopediaTableViewController *itemVC = (ItemEncyclopediaTableViewController *)segue.destinationViewController;
         itemVC.managedObjectContext = self.managedObjectContext;
-        itemVC.navigationItem.title = @"Item Encyclopedia";
+        itemVC.navigationItem.title = ItemEncyclopedia;
     } else if ([segue.identifier isEqualToString:@"showRegionEncyclopedia"]) {
         RegionEncyclopediaCollectionViewController *regionVC = (RegionEncyclopediaCollectionViewController *)segue.destinationViewController;
         regionVC.managedObjectContext = self.managedObjectContext;
+        regionVC.navigationItem.title = RegionEncyclopedia;
     }
 }
 

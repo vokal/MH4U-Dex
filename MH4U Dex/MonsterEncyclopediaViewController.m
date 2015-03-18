@@ -10,6 +10,8 @@
 
 #import <CoreData/CoreData.h>
 
+#import "Constants.h"
+
 #import "MonsterDetailsViewController.h"
 #import "MonsterOverviewViewController.h"
 
@@ -23,9 +25,6 @@ typedef NS_ENUM(NSInteger, MonsterEncyclopediaSections) {
     
     MonsterEncyclopediaSectionCount
 };
-
-static NSString *const Boss = @"Boss";
-static NSString *const Minion = @"Minion";
 
 @interface MonsterEncyclopediaViewController ()
 

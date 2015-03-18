@@ -12,16 +12,23 @@
 
 NSString *const JSON = @"json";
 NSString *const TrueString = @"TRUE";
+NSString *const LowConstString = @"Low";
+NSString *const HighConstString = @"High";
+NSString *const GConstString = @"G";
 
 #pragma mark - Item Constants
 
 NSString *const ItemNameKey = @"name";
+NSString *const ItemEncyclopedia = @"Item Encyclopedia";
 
 #pragma mark - Monster Constants
 
 NSString *const MonsterIDKey = @"id";
 NSString *const MonstersFileName = @"monsters";
 NSString *const MonsterDamageZonesFileName = @"damageZones";
+NSString *const MonsterEncyclopedia = @"Monster Encyclopedia";
+NSString *const Boss = @"Boss";
+NSString *const Minion = @"Minion";
 
 #pragma mark - Area Constants
 
@@ -34,6 +41,7 @@ NSString *const RegionIDJSONKey = @"_id";
 NSString *const RegionNameKey = @"region_name";
 NSString *const RegionKeyNameKey = @"keyName";
 NSString *const RegionDropsFileNameSuffix = @"_drops";
+NSString *const RegionEncyclopedia = @"Region Encyclopedia";
 
 #pragma mark - Quest Constants
 
