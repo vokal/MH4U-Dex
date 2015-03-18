@@ -8,6 +8,8 @@
 
 #import "DamageZoneCell.h"
 
+#import "Constants.h"
+
 #import "DamageZone.h"
 
 @interface DamageZoneCell ()
@@ -32,17 +34,17 @@
 {
     self.bodyPartLabel.text = damageZone.bodyPart;
     self.extractLabel.text = damageZone.extract;
-    if ([damageZone.bodyPart isEqualToString:@"Body Part"]) {
+    if ([damageZone.bodyPart isEqualToString:BodyPartLabelText]) {
         // This is the template.
-        self.cutLabel.text = @"Cut";
-        self.impactLabel.text = @"Impact";
-        self.shotLabel.text = @"Shot";
-        self.koLabel.text = @"KO";
-        self.fireLabel.text = @"Fire";
-        self.iceLabel.text = @"Ice";
-        self.dragonLabel.text = @"Dragon";
-        self.waterLabel.text = @"Water";
-        self.thunderLabel.text = @"Thunder";
+        self.cutLabel.text = CutLabelText;
+        self.impactLabel.text = ImpactLabelText;
+        self.shotLabel.text = ShotLabelText;
+        self.koLabel.text = KOLabelText;
+        self.fireLabel.text = FireLabelText;
+        self.iceLabel.text = IceLabelText;
+        self.dragonLabel.text = DragonLabelText;
+        self.waterLabel.text = WaterLabelText;
+        self.thunderLabel.text = ThunderLabelText;
     } else {
         self.cutLabel.text = [NSString stringWithFormat:@"%@", damageZone.cut];
         self.impactLabel.text = [NSString stringWithFormat:@"%@", damageZone.impact];

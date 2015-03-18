@@ -91,4 +91,17 @@ FOUNDATION_EXPORT NSString *const AreaDropPercentKey;
 FOUNDATION_EXPORT NSString *const AreaDropQuantityKey;
 FOUNDATION_EXPORT NSString *const AreaDropItemNameKey;
 
+#pragma mark - Damage Zone Cell Constants
+
+FOUNDATION_EXPORT NSString *const BodyPartLabelText;
+FOUNDATION_EXPORT NSString *const CutLabelText;
+FOUNDATION_EXPORT NSString *const ImpactLabelText;
+FOUNDATION_EXPORT NSString *const ShotLabelText;
+FOUNDATION_EXPORT NSString *const KOLabelText;
+FOUNDATION_EXPORT NSString *const FireLabelText;
+FOUNDATION_EXPORT NSString *const IceLabelText;
+FOUNDATION_EXPORT NSString *const DragonLabelText;
+FOUNDATION_EXPORT NSString *const WaterLabelText;
+FOUNDATION_EXPORT NSString *const ThunderLabelText;
+
 @end

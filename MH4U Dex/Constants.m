@@ -91,4 +91,17 @@ NSString *const AreaDropPercentKey = @"chance";
 NSString *const AreaDropQuantityKey = @"number";
 NSString *const AreaDropItemNameKey = @"item";
 
+#pragma mark - Damage Zone Cell Constants
+
+NSString *const BodyPartLabelText = @"Body Part";
+NSString *const CutLabelText = @"Cut";
+NSString *const ImpactLabelText = @"Impact";
+NSString *const ShotLabelText = @"Shot";
+NSString *const KOLabelText = @"KO";
+NSString *const FireLabelText = @"Fire";
+NSString *const IceLabelText = @"Ice";
+NSString *const DragonLabelText = @"Dragon";
+NSString *const WaterLabelText = @"Water";
+NSString *const ThunderLabelText = @"Thunder";
+
 @end
