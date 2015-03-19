@@ -1,0 +1,2765 @@
+[
+  {
+    "dropID":3733,
+    "monster_name":"Kushala Daora",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Daora Scale",
+    "quantity":1,
+    "percent":42
+  },
+  {
+    "dropID":3734,
+    "monster_name":"Kushala Daora",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Dragon Treasure",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":3735,
+    "monster_name":"Kushala Daora",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Old Dragon Treasure",
+    "quantity":1,
+    "percent":27
+  },
+  {
+    "dropID":3736,
+    "monster_name":"Kushala Daora",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Daora Gem",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":3737,
+    "monster_name":"Kushala Daora",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Daora Carapace",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":3738,
+    "monster_name":"Kushala Daora",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Daora Scale",
+    "quantity":1,
+    "percent":31
+  },
+  {
+    "dropID":3739,
+    "monster_name":"Kushala Daora",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Daora Claw+",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":3740,
+    "monster_name":"Kushala Daora",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Daora Gem",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3741,
+    "monster_name":"Kushala Daora",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Daora Horn+",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":3742,
+    "monster_name":"Kushala Daora",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Daora Carapace",
+    "quantity":1,
+    "percent":36
+  },
+  {
+    "dropID":3743,
+    "monster_name":"Kushala Daora",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Daora Gem",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":3744,
+    "monster_name":"Kushala Daora",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Daora Tail",
+    "quantity":1,
+    "percent":76
+  },
+  {
+    "dropID":3745,
+    "monster_name":"Kushala Daora",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Daora Carapace",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3746,
+    "monster_name":"Kushala Daora",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Daora Gem",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":3747,
+    "monster_name":"Kushala Daora",
+    "rank":"High",
+    "method":"Break Wing",
+    "item_name":"Daora Webbing",
+    "quantity":1,
+    "percent":65
+  },
+  {
+    "dropID":3748,
+    "monster_name":"Kushala Daora",
+    "rank":"High",
+    "method":"Break Wing",
+    "item_name":"Daora Claw+",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":3749,
+    "monster_name":"Kushala Daora",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Old Dragon Treasure",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":3750,
+    "monster_name":"Kushala Daora",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Daora Shard",
+    "quantity":1,
+    "percent":37
+  },
+  {
+    "dropID":3751,
+    "monster_name":"Kushala Daora",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Daora Gem",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":3752,
+    "monster_name":"Kushala Daora",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Lrg Elder Dragon Gem",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":3753,
+    "monster_name":"Kushala Daora",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Daora Cortex",
+    "quantity":1,
+    "percent":51
+  },
+  {
+    "dropID":3754,
+    "monster_name":"Kushala Daora",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Daora Shard",
+    "quantity":1,
+    "percent":31
+  },
+  {
+    "dropID":3755,
+    "monster_name":"Kushala Daora",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Daora Hardclaw",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":3756,
+    "monster_name":"Kushala Daora",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Daora Gem",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":3757,
+    "monster_name":"Kushala Daora",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Lrg Elder Dragon Gem",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3758,
+    "monster_name":"Kushala Daora",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Daora Hardhorn",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":3759,
+    "monster_name":"Kushala Daora",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Daora Cortex",
+    "quantity":1,
+    "percent":36
+  },
+  {
+    "dropID":3760,
+    "monster_name":"Kushala Daora",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Lrg Elder Dragon Gem",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":3761,
+    "monster_name":"Kushala Daora",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Daora Lash",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":3762,
+    "monster_name":"Kushala Daora",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Daora Cortex",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":3763,
+    "monster_name":"Kushala Daora",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Daora Gem",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":3764,
+    "monster_name":"Kushala Daora",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Lrg Elder Dragon Gem",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3765,
+    "monster_name":"Kushala Daora",
+    "rank":"G",
+    "method":"Break Wing",
+    "item_name":"Daora Fellwing",
+    "quantity":1,
+    "percent":65
+  },
+  {
+    "dropID":3766,
+    "monster_name":"Kushala Daora",
+    "rank":"G",
+    "method":"Break Wing",
+    "item_name":"Daora Hardclaw",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":3767,
+    "monster_name":"Rusted Kushala Daora",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Daora Scale",
+    "quantity":1,
+    "percent":97
+  },
+  {
+    "dropID":3768,
+    "monster_name":"Rusted Kushala Daora",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Daora Gem",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":3769,
+    "monster_name":"Rusted Kushala Daora",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Daora Carapace",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":3770,
+    "monster_name":"Rusted Kushala Daora",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Daora Scale",
+    "quantity":1,
+    "percent":31
+  },
+  {
+    "dropID":3771,
+    "monster_name":"Rusted Kushala Daora",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Daora Claw+",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":3772,
+    "monster_name":"Rusted Kushala Daora",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Daora Gem",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3773,
+    "monster_name":"Rusted Kushala Daora",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Daora Horn+",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":3774,
+    "monster_name":"Rusted Kushala Daora",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Daora Carapace",
+    "quantity":1,
+    "percent":36
+  },
+  {
+    "dropID":3775,
+    "monster_name":"Rusted Kushala Daora",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Daora Gem",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":3776,
+    "monster_name":"Rusted Kushala Daora",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Daora Tail",
+    "quantity":1,
+    "percent":76
+  },
+  {
+    "dropID":3777,
+    "monster_name":"Rusted Kushala Daora",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Daora Carapace",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3778,
+    "monster_name":"Rusted Kushala Daora",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Daora Gem",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":3779,
+    "monster_name":"Rusted Kushala Daora",
+    "rank":"High",
+    "method":"Break Wing",
+    "item_name":"Daora Webbing",
+    "quantity":1,
+    "percent":65
+  },
+  {
+    "dropID":3780,
+    "monster_name":"Rusted Kushala Daora",
+    "rank":"High",
+    "method":"Break Wing",
+    "item_name":"Daora Claw+",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":3781,
+    "monster_name":"Rusted Kushala Daora",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Old Dragon Treasure",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":3782,
+    "monster_name":"Rusted Kushala Daora",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Steelrust Scale",
+    "quantity":1,
+    "percent":38
+  },
+  {
+    "dropID":3783,
+    "monster_name":"Rusted Kushala Daora",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Daora Gem",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":3784,
+    "monster_name":"Rusted Kushala Daora",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Lrg Elder Dragon Gem",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3785,
+    "monster_name":"Rusted Kushala Daora",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Steelrust Drakeshell",
+    "quantity":1,
+    "percent":41
+  },
+  {
+    "dropID":3786,
+    "monster_name":"Rusted Kushala Daora",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Steelrust Scale",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":3787,
+    "monster_name":"Rusted Kushala Daora",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Steelrust Claw",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":3788,
+    "monster_name":"Rusted Kushala Daora",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Silverpeak Corona",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":3789,
+    "monster_name":"Rusted Kushala Daora",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Lrg Elder Dragon Gem",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":3790,
+    "monster_name":"Rusted Kushala Daora",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Daora Hardhorn",
+    "quantity":1,
+    "percent":67
+  },
+  {
+    "dropID":3791,
+    "monster_name":"Rusted Kushala Daora",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Silverpeak Corona",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":3792,
+    "monster_name":"Rusted Kushala Daora",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Lrg Elder Dragon Gem",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":3793,
+    "monster_name":"Rusted Kushala Daora",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Daora Lash",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":3794,
+    "monster_name":"Rusted Kushala Daora",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Steelrust Drakeshell",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":3795,
+    "monster_name":"Rusted Kushala Daora",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Daora Gem",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":3796,
+    "monster_name":"Rusted Kushala Daora",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Lrg Elder Dragon Gem",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3797,
+    "monster_name":"Rusted Kushala Daora",
+    "rank":"G",
+    "method":"Break Wing",
+    "item_name":"Steelrust Claw",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":3798,
+    "monster_name":"Rusted Kushala Daora",
+    "rank":"G",
+    "method":"Break Wing",
+    "item_name":"Maelstriker Wing",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":3799,
+    "monster_name":"Rusted Kushala Daora",
+    "rank":"G",
+    "method":"Break Wing",
+    "item_name":"Daora Fellwing",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":3800,
+    "monster_name":"Teostra",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Teostra Powder",
+    "quantity":1,
+    "percent":65
+  },
+  {
+    "dropID":3801,
+    "monster_name":"Teostra",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Dragon Treasure",
+    "quantity":1,
+    "percent":17
+  },
+  {
+    "dropID":3802,
+    "monster_name":"Teostra",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Old Dragon Treasure",
+    "quantity":1,
+    "percent":16
+  },
+  {
+    "dropID":3803,
+    "monster_name":"Teostra",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Teostra Gem",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3804,
+    "monster_name":"Teostra",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Teostra Carapace",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":3805,
+    "monster_name":"Teostra",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Fire Dragon Scale+",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3806,
+    "monster_name":"Teostra",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Teostra Mane",
+    "quantity":1,
+    "percent":14
+  },
+  {
+    "dropID":3807,
+    "monster_name":"Teostra",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Teostra Claw+",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":3808,
+    "monster_name":"Teostra",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Teostra Gem",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":3809,
+    "monster_name":"Teostra",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Teostra Horn+",
+    "quantity":1,
+    "percent":63
+  },
+  {
+    "dropID":3810,
+    "monster_name":"Teostra",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Teostra Mane",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":3811,
+    "monster_name":"Teostra",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Teostra Mane",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":3812,
+    "monster_name":"Teostra",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Teostra Gem",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3813,
+    "monster_name":"Teostra",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Teostra Tail",
+    "quantity":1,
+    "percent":65
+  },
+  {
+    "dropID":3814,
+    "monster_name":"Teostra",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Teostra Carapace",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":3815,
+    "monster_name":"Teostra",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Teostra Gem",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":3816,
+    "monster_name":"Teostra",
+    "rank":"High",
+    "method":"Break Talon",
+    "item_name":"Teostra Webbing",
+    "quantity":1,
+    "percent":65
+  },
+  {
+    "dropID":3817,
+    "monster_name":"Teostra",
+    "rank":"High",
+    "method":"Break Talon",
+    "item_name":"Teostra Claw+",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":3818,
+    "monster_name":"Teostra",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Teostra Powder",
+    "quantity":1,
+    "percent":61
+  },
+  {
+    "dropID":3819,
+    "monster_name":"Teostra",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Old Dragon Treasure",
+    "quantity":1,
+    "percent":33
+  },
+  {
+    "dropID":3820,
+    "monster_name":"Teostra",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Lrg Elder Dragon Gem",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":3821,
+    "monster_name":"Teostra",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Teostra Gem",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3822,
+    "monster_name":"Teostra",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Teostra Cortex",
+    "quantity":1,
+    "percent":52
+  },
+  {
+    "dropID":3823,
+    "monster_name":"Teostra",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Flame Shard",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3824,
+    "monster_name":"Teostra",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Teostra Mane",
+    "quantity":1,
+    "percent":14
+  },
+  {
+    "dropID":3825,
+    "monster_name":"Teostra",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Fire Dragon Hardclaw",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":3826,
+    "monster_name":"Teostra",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Teostra Gem",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":3827,
+    "monster_name":"Teostra",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Lrg Elder Dragon Gem",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3828,
+    "monster_name":"Teostra",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Teostra Hardhorn",
+    "quantity":1,
+    "percent":63
+  },
+  {
+    "dropID":3829,
+    "monster_name":"Teostra",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Teostra Mane",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":3830,
+    "monster_name":"Teostra",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Teostra Mane",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":3831,
+    "monster_name":"Teostra",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Lrg Elder Dragon Gem",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3832,
+    "monster_name":"Teostra",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Teostra Lash",
+    "quantity":1,
+    "percent":62
+  },
+  {
+    "dropID":3833,
+    "monster_name":"Teostra",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Teostra Cortex",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":3834,
+    "monster_name":"Teostra",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Teostra Gem",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":3835,
+    "monster_name":"Teostra",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Lrg Elder Dragon Gem",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":3836,
+    "monster_name":"Teostra",
+    "rank":"G",
+    "method":"Break Talon",
+    "item_name":"Teostra Webbing",
+    "quantity":1,
+    "percent":65
+  },
+  {
+    "dropID":3837,
+    "monster_name":"Teostra",
+    "rank":"G",
+    "method":"Break Talon",
+    "item_name":"Fire Dragon Hardclaw",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":3838,
+    "monster_name":"Chameleos",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Old Dragon Treasure",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":3839,
+    "monster_name":"Chameleos",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Meldspar Ore",
+    "quantity":1,
+    "percent":37
+  },
+  {
+    "dropID":3840,
+    "monster_name":"Chameleos",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Chameleos Gem",
+    "quantity":1,
+    "percent":7
+  },
+  {
+    "dropID":3841,
+    "monster_name":"Chameleos",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Lrg Elder Dragon Gem",
+    "quantity":1,
+    "percent":1
+  },
+  {
+    "dropID":3842,
+    "monster_name":"Chameleos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Chameleos Finehide",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":3843,
+    "monster_name":"Chameleos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Chameleos Fellwing",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":3844,
+    "monster_name":"Chameleos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Meldspar Ore",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":3845,
+    "monster_name":"Chameleos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Elder Dragon Blood",
+    "quantity":1,
+    "percent":7
+  },
+  {
+    "dropID":3846,
+    "monster_name":"Chameleos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Chameleos Gem",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":3847,
+    "monster_name":"Chameleos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Lrg Elder Dragon Gem",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3848,
+    "monster_name":"Chameleos",
+    "rank":"G",
+    "method":"Break Horn",
+    "item_name":"Chameleos Hardhorn",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":3849,
+    "monster_name":"Chameleos",
+    "rank":"G",
+    "method":"Break Horn",
+    "item_name":"Meldspar Ore",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":3850,
+    "monster_name":"Chameleos",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Chameleos Lash",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":3851,
+    "monster_name":"Chameleos",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Meldspar Ore",
+    "quantity":1,
+    "percent":17
+  },
+  {
+    "dropID":3852,
+    "monster_name":"Chameleos",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Elder Dragon Blood",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":3853,
+    "monster_name":"Chameleos",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Chameleos Gem",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":3854,
+    "monster_name":"Chameleos",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Lrg Elder Dragon Gem",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":3855,
+    "monster_name":"Chameleos",
+    "rank":"G",
+    "method":"Break Wing",
+    "item_name":"Chameleos Fellwing",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":3856,
+    "monster_name":"Chameleos",
+    "rank":"G",
+    "method":"Break Wing",
+    "item_name":"Chameleos Finehide",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":3857,
+    "monster_name":"Dalamadur",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Dalamadur Gazer",
+    "quantity":1,
+    "percent":93
+  },
+  {
+    "dropID":3858,
+    "monster_name":"Dalamadur",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Skyblade Gem",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":3859,
+    "monster_name":"Dalamadur",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Dalamadur Gazer",
+    "quantity":2,
+    "percent":2
+  },
+  {
+    "dropID":3860,
+    "monster_name":"Dalamadur",
+    "rank":"High",
+    "method":"Break Tail",
+    "item_name":"Dalam Tail Shell",
+    "quantity":1,
+    "percent":68
+  },
+  {
+    "dropID":3861,
+    "monster_name":"Dalamadur",
+    "rank":"High",
+    "method":"Break Tail",
+    "item_name":"Dalam Tail Scale",
+    "quantity":2,
+    "percent":20
+  },
+  {
+    "dropID":3862,
+    "monster_name":"Dalamadur",
+    "rank":"High",
+    "method":"Break Tail",
+    "item_name":"Vortex Bone",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":3863,
+    "monster_name":"Dalamadur",
+    "rank":"High",
+    "method":"Break Tail",
+    "item_name":"Dalam Tail Shell",
+    "quantity":2,
+    "percent":2
+  },
+  {
+    "dropID":3864,
+    "monster_name":"Dalamadur",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Dalam Tail Shell",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":3865,
+    "monster_name":"Dalamadur",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Dalamadur Glaive",
+    "quantity":1,
+    "percent":22
+  },
+  {
+    "dropID":3866,
+    "monster_name":"Dalamadur",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Skyblade Gem",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":3867,
+    "monster_name":"Dalamadur",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"Dalamadur Fanblade",
+    "quantity":1,
+    "percent":78
+  },
+  {
+    "dropID":3868,
+    "monster_name":"Dalamadur",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"Dalamadur Glaive",
+    "quantity":1,
+    "percent":16
+  },
+  {
+    "dropID":3869,
+    "monster_name":"Dalamadur",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"Skyblade Gem",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":3870,
+    "monster_name":"Dalamadur",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"Dalamadur Fanblade",
+    "quantity":2,
+    "percent":2
+  },
+  {
+    "dropID":3871,
+    "monster_name":"Dalamadur",
+    "rank":"High",
+    "method":"Break Back Leg",
+    "item_name":"Vortex Bone",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":3872,
+    "monster_name":"Dalamadur",
+    "rank":"High",
+    "method":"Break Back Leg",
+    "item_name":"Dalam Tail Scale",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":3873,
+    "monster_name":"Dalamadur",
+    "rank":"High",
+    "method":"Break Back Leg",
+    "item_name":"Dalamadur Glaive",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":3874,
+    "monster_name":"Dalamadur",
+    "rank":"High",
+    "method":"Break Front Leg",
+    "item_name":"Dalamadur Talon",
+    "quantity":1,
+    "percent":78
+  },
+  {
+    "dropID":3875,
+    "monster_name":"Dalamadur",
+    "rank":"High",
+    "method":"Break Front Leg",
+    "item_name":"Dalamadur Glaive",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3876,
+    "monster_name":"Dalamadur",
+    "rank":"High",
+    "method":"Break Front Leg",
+    "item_name":"Dalamadur Talon",
+    "quantity":2,
+    "percent":2
+  },
+  {
+    "dropID":3877,
+    "monster_name":"Dalamadur",
+    "rank":"High",
+    "method":"Head Carve",
+    "item_name":"Dalamadur Glaive",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":3878,
+    "monster_name":"Dalamadur",
+    "rank":"High",
+    "method":"Head Carve",
+    "item_name":"Dalamadur Gazer",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3879,
+    "monster_name":"Dalamadur",
+    "rank":"High",
+    "method":"Upper Body Carve",
+    "item_name":"Dalamadur Steel",
+    "quantity":1,
+    "percent":65
+  },
+  {
+    "dropID":3880,
+    "monster_name":"Dalamadur",
+    "rank":"High",
+    "method":"Upper Body Carve",
+    "item_name":"Vortex Bone",
+    "quantity":1,
+    "percent":13
+  },
+  {
+    "dropID":3881,
+    "monster_name":"Dalamadur",
+    "rank":"High",
+    "method":"Upper Body Carve",
+    "item_name":"Dalamadur Pectus",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":3882,
+    "monster_name":"Dalamadur",
+    "rank":"High",
+    "method":"Upper Body Carve",
+    "item_name":"Dalamadur Talon",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":3883,
+    "monster_name":"Dalamadur",
+    "rank":"High",
+    "method":"Upper Body Carve",
+    "item_name":"Skyblade Gem",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3884,
+    "monster_name":"Dalamadur",
+    "rank":"High",
+    "method":"Lower Body Carve",
+    "item_name":"Dalam Tail Scale",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":3885,
+    "monster_name":"Dalamadur",
+    "rank":"High",
+    "method":"Lower Body Carve",
+    "item_name":"Vortex Bone",
+    "quantity":1,
+    "percent":27
+  },
+  {
+    "dropID":3886,
+    "monster_name":"Dalamadur",
+    "rank":"High",
+    "method":"Lower Body Carve",
+    "item_name":"Dalamadur Steel",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":3887,
+    "monster_name":"Dalamadur",
+    "rank":"High",
+    "method":"Lower Body Carve",
+    "item_name":"Skyblade Gem",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":3888,
+    "monster_name":"Dalamadur",
+    "rank":"High",
+    "method":"Mining Scale",
+    "item_name":"Shattered Omen",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":3889,
+    "monster_name":"Dalamadur",
+    "rank":"High",
+    "method":"Mining Scale",
+    "item_name":"Gossamite Ore",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":3890,
+    "monster_name":"Dalamadur",
+    "rank":"High",
+    "method":"Mining Scale",
+    "item_name":"Yoldspar Ore",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":3891,
+    "monster_name":"Dalamadur",
+    "rank":"High",
+    "method":"Mining Scale",
+    "item_name":"Novacrystal",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":3892,
+    "monster_name":"Dalamadur",
+    "rank":"High",
+    "method":"Break Breast",
+    "item_name":"Dalamadur Pectus",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":3893,
+    "monster_name":"Dalamadur",
+    "rank":"High",
+    "method":"Break Breast",
+    "item_name":"Dalamadur Glaive",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3894,
+    "monster_name":"Dalamadur",
+    "rank":"High",
+    "method":"Break Breast",
+    "item_name":"Elder Dragon Blood",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":3895,
+    "monster_name":"Dalamadur",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Dalamadur Gazer",
+    "quantity":1,
+    "percent":85
+  },
+  {
+    "dropID":3896,
+    "monster_name":"Dalamadur",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Skyblade Gem",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":3897,
+    "monster_name":"Dalamadur",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Skyblade Drgnsphire",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":3898,
+    "monster_name":"Dalamadur",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Dalamadur Gazer",
+    "quantity":2,
+    "percent":2
+  },
+  {
+    "dropID":3899,
+    "monster_name":"Dalamadur",
+    "rank":"G",
+    "method":"Break Tail",
+    "item_name":"Dalam Tail Shell+",
+    "quantity":1,
+    "percent":68
+  },
+  {
+    "dropID":3900,
+    "monster_name":"Dalamadur",
+    "rank":"G",
+    "method":"Break Tail",
+    "item_name":"Dalam Tail Scale+",
+    "quantity":2,
+    "percent":20
+  },
+  {
+    "dropID":3901,
+    "monster_name":"Dalamadur",
+    "rank":"G",
+    "method":"Break Tail",
+    "item_name":"Vortex Bone",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":3902,
+    "monster_name":"Dalamadur",
+    "rank":"G",
+    "method":"Break Tail",
+    "item_name":"Dalam Tail Shell+",
+    "quantity":2,
+    "percent":2
+  },
+  {
+    "dropID":3903,
+    "monster_name":"Dalamadur",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Dalam Tail Shell+",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":3904,
+    "monster_name":"Dalamadur",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Dalamadur Glaive+",
+    "quantity":1,
+    "percent":22
+  },
+  {
+    "dropID":3905,
+    "monster_name":"Dalamadur",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Skyblade Drgnsphire",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":3906,
+    "monster_name":"Dalamadur",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Dalamadur Fanblade+",
+    "quantity":1,
+    "percent":72
+  },
+  {
+    "dropID":3907,
+    "monster_name":"Dalamadur",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Dalamadur Glaive+",
+    "quantity":1,
+    "percent":16
+  },
+  {
+    "dropID":3908,
+    "monster_name":"Dalamadur",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Skyblade Gem",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":3909,
+    "monster_name":"Dalamadur",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Skyblade Drgnsphire",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":3910,
+    "monster_name":"Dalamadur",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Dalamadur Fanblade+",
+    "quantity":2,
+    "percent":2
+  },
+  {
+    "dropID":3911,
+    "monster_name":"Dalamadur",
+    "rank":"G",
+    "method":"Break Back Leg",
+    "item_name":"Dalam Tail Scale+",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":3912,
+    "monster_name":"Dalamadur",
+    "rank":"G",
+    "method":"Break Back Leg",
+    "item_name":"Vortex Bone",
+    "quantity":2,
+    "percent":30
+  },
+  {
+    "dropID":3913,
+    "monster_name":"Dalamadur",
+    "rank":"G",
+    "method":"Break Back Leg",
+    "item_name":"Dalamadur Glaive+",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":3914,
+    "monster_name":"Dalamadur",
+    "rank":"G",
+    "method":"Break Front Leg",
+    "item_name":"Dalamadur Ripper",
+    "quantity":1,
+    "percent":78
+  },
+  {
+    "dropID":3915,
+    "monster_name":"Dalamadur",
+    "rank":"G",
+    "method":"Break Front Leg",
+    "item_name":"Dalamadur Glaive+",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3916,
+    "monster_name":"Dalamadur",
+    "rank":"G",
+    "method":"Break Front Leg",
+    "item_name":"Dalamadur Ripper",
+    "quantity":2,
+    "percent":2
+  },
+  {
+    "dropID":3917,
+    "monster_name":"Dalamadur",
+    "rank":"G",
+    "method":"Head Carve",
+    "item_name":"Dalamadur Glaive+",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":3918,
+    "monster_name":"Dalamadur",
+    "rank":"G",
+    "method":"Head Carve",
+    "item_name":"Dalamadur Gazer",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3919,
+    "monster_name":"Dalamadur",
+    "rank":"G",
+    "method":"Upper Body Carve",
+    "item_name":"Dalamadur Steel+",
+    "quantity":1,
+    "percent":64
+  },
+  {
+    "dropID":3920,
+    "monster_name":"Dalamadur",
+    "rank":"G",
+    "method":"Upper Body Carve",
+    "item_name":"Dalamadur Pectus+",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":3921,
+    "monster_name":"Dalamadur",
+    "rank":"G",
+    "method":"Upper Body Carve",
+    "item_name":"Vortex Bone",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":3922,
+    "monster_name":"Dalamadur",
+    "rank":"G",
+    "method":"Upper Body Carve",
+    "item_name":"Dalamadur Ripper",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":3923,
+    "monster_name":"Dalamadur",
+    "rank":"G",
+    "method":"Upper Body Carve",
+    "item_name":"Skyblade Gem",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":3924,
+    "monster_name":"Dalamadur",
+    "rank":"G",
+    "method":"Upper Body Carve",
+    "item_name":"Skyblade Drgnsphire",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3925,
+    "monster_name":"Dalamadur",
+    "rank":"G",
+    "method":"Lower Body Carve",
+    "item_name":"Dalam Tail Scale+",
+    "quantity":1,
+    "percent":46
+  },
+  {
+    "dropID":3926,
+    "monster_name":"Dalamadur",
+    "rank":"G",
+    "method":"Lower Body Carve",
+    "item_name":"Dalamadur Steel+",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":3927,
+    "monster_name":"Dalamadur",
+    "rank":"G",
+    "method":"Lower Body Carve",
+    "item_name":"Vortex Bone",
+    "quantity":1,
+    "percent":16
+  },
+  {
+    "dropID":3928,
+    "monster_name":"Dalamadur",
+    "rank":"G",
+    "method":"Lower Body Carve",
+    "item_name":"Skyblade Gem",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":3929,
+    "monster_name":"Dalamadur",
+    "rank":"G",
+    "method":"Lower Body Carve",
+    "item_name":"Skyblade Drgnsphire",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":3930,
+    "monster_name":"Dalamadur",
+    "rank":"G",
+    "method":"Mining Scale",
+    "item_name":"Shattered Omen",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":3931,
+    "monster_name":"Dalamadur",
+    "rank":"G",
+    "method":"Mining Scale",
+    "item_name":"Cosmicite Ore",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":3932,
+    "monster_name":"Dalamadur",
+    "rank":"G",
+    "method":"Mining Scale",
+    "item_name":"Purecrystal",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":3933,
+    "monster_name":"Dalamadur",
+    "rank":"G",
+    "method":"Break Breast",
+    "item_name":"Dalamadur Pectus+",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":3934,
+    "monster_name":"Dalamadur",
+    "rank":"G",
+    "method":"Break Breast",
+    "item_name":"Dalamadur Glaive+",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3935,
+    "monster_name":"Dalamadur",
+    "rank":"G",
+    "method":"Break Breast",
+    "item_name":"Elder Dragon Blood",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":3936,
+    "monster_name":"Shah Dalamadur",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"S.Dalamadur Gazer",
+    "quantity":1,
+    "percent":85
+  },
+  {
+    "dropID":3937,
+    "monster_name":"Shah Dalamadur",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Skyblade Gem",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":3938,
+    "monster_name":"Shah Dalamadur",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Skyblade Drgnsphire",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":3939,
+    "monster_name":"Shah Dalamadur",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"S.Dalamadur Gazer",
+    "quantity":2,
+    "percent":2
+  },
+  {
+    "dropID":3940,
+    "monster_name":"Shah Dalamadur",
+    "rank":"G",
+    "method":"Break Tail",
+    "item_name":"S.Dalam Tail Shell+",
+    "quantity":1,
+    "percent":68
+  },
+  {
+    "dropID":3941,
+    "monster_name":"Shah Dalamadur",
+    "rank":"G",
+    "method":"Break Tail",
+    "item_name":"S.Dalam Tail Scale+",
+    "quantity":2,
+    "percent":20
+  },
+  {
+    "dropID":3942,
+    "monster_name":"Shah Dalamadur",
+    "rank":"G",
+    "method":"Break Tail",
+    "item_name":"Vortex Bone",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":3943,
+    "monster_name":"Shah Dalamadur",
+    "rank":"G",
+    "method":"Break Tail",
+    "item_name":"S.Dalam Tail Shell+",
+    "quantity":2,
+    "percent":2
+  },
+  {
+    "dropID":3944,
+    "monster_name":"Shah Dalamadur",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"S.Dalam Tail Shell+",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":3945,
+    "monster_name":"Shah Dalamadur",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"S.Dalamadur Glaive+",
+    "quantity":1,
+    "percent":22
+  },
+  {
+    "dropID":3946,
+    "monster_name":"Shah Dalamadur",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Skyblade Drgnsphire",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":3947,
+    "monster_name":"Shah Dalamadur",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"S.Dalam Fanblade+",
+    "quantity":1,
+    "percent":72
+  },
+  {
+    "dropID":3948,
+    "monster_name":"Shah Dalamadur",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"S.Dalamadur Glaive+",
+    "quantity":1,
+    "percent":16
+  },
+  {
+    "dropID":3949,
+    "monster_name":"Shah Dalamadur",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Skyblade Gem",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":3950,
+    "monster_name":"Shah Dalamadur",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Skyblade Drgnsphire",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":3951,
+    "monster_name":"Shah Dalamadur",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"S.Dalam Fanblade+",
+    "quantity":2,
+    "percent":2
+  },
+  {
+    "dropID":3952,
+    "monster_name":"Shah Dalamadur",
+    "rank":"G",
+    "method":"Break Back Leg",
+    "item_name":"S.Dalam Tail Scale+",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":3953,
+    "monster_name":"Shah Dalamadur",
+    "rank":"G",
+    "method":"Break Back Leg",
+    "item_name":"Vortex Bone",
+    "quantity":2,
+    "percent":30
+  },
+  {
+    "dropID":3954,
+    "monster_name":"Shah Dalamadur",
+    "rank":"G",
+    "method":"Break Back Leg",
+    "item_name":"S.Dalamadur Glaive+",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":3955,
+    "monster_name":"Shah Dalamadur",
+    "rank":"G",
+    "method":"Break Front Leg",
+    "item_name":"S.Dalamadur Ripper",
+    "quantity":1,
+    "percent":78
+  },
+  {
+    "dropID":3956,
+    "monster_name":"Shah Dalamadur",
+    "rank":"G",
+    "method":"Break Front Leg",
+    "item_name":"S.Dalamadur Glaive+",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3957,
+    "monster_name":"Shah Dalamadur",
+    "rank":"G",
+    "method":"Break Front Leg",
+    "item_name":"S.Dalamadur Ripper",
+    "quantity":2,
+    "percent":2
+  },
+  {
+    "dropID":3958,
+    "monster_name":"Shah Dalamadur",
+    "rank":"G",
+    "method":"Head Carve",
+    "item_name":"S.Dalamadur Glaive+",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":3959,
+    "monster_name":"Shah Dalamadur",
+    "rank":"G",
+    "method":"Head Carve",
+    "item_name":"S.Dalamadur Gazer",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3960,
+    "monster_name":"Shah Dalamadur",
+    "rank":"G",
+    "method":"Upper Body Carve",
+    "item_name":"S.Dalamadur Steel+",
+    "quantity":1,
+    "percent":64
+  },
+  {
+    "dropID":3961,
+    "monster_name":"Shah Dalamadur",
+    "rank":"G",
+    "method":"Upper Body Carve",
+    "item_name":"S.Dalamadur Pectus+",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":3962,
+    "monster_name":"Shah Dalamadur",
+    "rank":"G",
+    "method":"Upper Body Carve",
+    "item_name":"Vortex Bone",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":3963,
+    "monster_name":"Shah Dalamadur",
+    "rank":"G",
+    "method":"Upper Body Carve",
+    "item_name":"S.Dalamadur Ripper",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":3964,
+    "monster_name":"Shah Dalamadur",
+    "rank":"G",
+    "method":"Upper Body Carve",
+    "item_name":"Skyblade Gem",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":3965,
+    "monster_name":"Shah Dalamadur",
+    "rank":"G",
+    "method":"Upper Body Carve",
+    "item_name":"Skyblade Drgnsphire",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3966,
+    "monster_name":"Shah Dalamadur",
+    "rank":"G",
+    "method":"Lower Body Carve",
+    "item_name":"S.Dalam Tail Scale+",
+    "quantity":1,
+    "percent":46
+  },
+  {
+    "dropID":3967,
+    "monster_name":"Shah Dalamadur",
+    "rank":"G",
+    "method":"Lower Body Carve",
+    "item_name":"S.Dalamadur Steel+",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":3968,
+    "monster_name":"Shah Dalamadur",
+    "rank":"G",
+    "method":"Lower Body Carve",
+    "item_name":"Vortex Bone",
+    "quantity":1,
+    "percent":16
+  },
+  {
+    "dropID":3969,
+    "monster_name":"Shah Dalamadur",
+    "rank":"G",
+    "method":"Lower Body Carve",
+    "item_name":"Skyblade Gem",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":3970,
+    "monster_name":"Shah Dalamadur",
+    "rank":"G",
+    "method":"Lower Body Carve",
+    "item_name":"Skyblade Drgnsphire",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":3971,
+    "monster_name":"Shah Dalamadur",
+    "rank":"G",
+    "method":"Mining Scale",
+    "item_name":"Shattered Omen",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":3972,
+    "monster_name":"Shah Dalamadur",
+    "rank":"G",
+    "method":"Mining Scale",
+    "item_name":"Cosmicite Ore",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":3973,
+    "monster_name":"Shah Dalamadur",
+    "rank":"G",
+    "method":"Mining Scale",
+    "item_name":"Purecrystal",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":3974,
+    "monster_name":"Shah Dalamadur",
+    "rank":"G",
+    "method":"Break Breast",
+    "item_name":"S.Dalamadur Pectus+",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":3975,
+    "monster_name":"Shah Dalamadur",
+    "rank":"G",
+    "method":"Break Breast",
+    "item_name":"S.Dalamadur Glaive+",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3976,
+    "monster_name":"Shah Dalamadur",
+    "rank":"G",
+    "method":"Break Breast",
+    "item_name":"Elder Dragon Blood",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":3977,
+    "monster_name":"Gogmazios",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Heavy Drakesbone Oil",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":3978,
+    "monster_name":"Gogmazios",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Old Dragon Treasure",
+    "quantity":1,
+    "percent":0
+  },
+  {
+    "dropID":3979,
+    "monster_name":"Gogmazios",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Wartorn Dragonsphire",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":3980,
+    "monster_name":"Gogmazios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Gogmazios Battlement",
+    "quantity":1,
+    "percent":38
+  },
+  {
+    "dropID":3981,
+    "monster_name":"Gogmazios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Gogmazios Fortress",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":3982,
+    "monster_name":"Gogmazios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Gogmazios Offenders",
+    "quantity":1,
+    "percent":13
+  },
+  {
+    "dropID":3983,
+    "monster_name":"Gogmazios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Gogmazios Fiberwing",
+    "quantity":1,
+    "percent":0
+  },
+  {
+    "dropID":3984,
+    "monster_name":"Gogmazios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Heavy Drakesbone Oil",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":3985,
+    "monster_name":"Gogmazios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Wartorn Dragonsphire",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":3986,
+    "monster_name":"Gogmazios",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Gogmazios Fortress",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":3987,
+    "monster_name":"Gogmazios",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Heavy Drakesbone Oil",
+    "quantity":2,
+    "percent":8
+  },
+  {
+    "dropID":3988,
+    "monster_name":"Gogmazios",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Wartorn Dragonsphire",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":3989,
+    "monster_name":"Gogmazios",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Gogmazios Briartail",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":3990,
+    "monster_name":"Gogmazios",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Gogmazios Battlement",
+    "quantity":1,
+    "percent":38
+  },
+  {
+    "dropID":3991,
+    "monster_name":"Gogmazios",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Wartorn Dragonsphire",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":3992,
+    "monster_name":"Gogmazios",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Gogmazios Battlement",
+    "quantity":1,
+    "percent":38
+  },
+  {
+    "dropID":3993,
+    "monster_name":"Gogmazios",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Gogmazios Gasher",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3994,
+    "monster_name":"Gogmazios",
+    "rank":"G",
+    "method":"Break Wing",
+    "item_name":"Gogmazios Fiberwing",
+    "quantity":1,
+    "percent":0
+  },
+  {
+    "dropID":3995,
+    "monster_name":"Gogmazios",
+    "rank":"G",
+    "method":"Break Wing",
+    "item_name":"Gogmazios Offenders",
+    "quantity":1,
+    "percent":13
+  },
+  {
+    "dropID":3996,
+    "monster_name":"Gogmazios",
+    "rank":"G",
+    "method":"Break Wing",
+    "item_name":"Heavy Drakesbone Oil",
+    "quantity":2,
+    "percent":8
+  },
+  {
+    "dropID":3997,
+    "monster_name":"Gogmazios",
+    "rank":"G",
+    "method":"Break Breast",
+    "item_name":"Gogmazios Gasher",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3998,
+    "monster_name":"Gogmazios",
+    "rank":"G",
+    "method":"Break Breast",
+    "item_name":"Heavy Drakesbone Oil",
+    "quantity":2,
+    "percent":8
+  },
+  {
+    "dropID":3999,
+    "monster_name":"Gogmazios",
+    "rank":"G",
+    "method":"Shiny Drops (Ballista)",
+    "item_name":"One-shot Binder",
+    "quantity":1,
+    "percent":0
+  },
+  {
+    "dropID":4000,
+    "monster_name":"Fatalis",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Fatalis Shell",
+    "quantity":1,
+    "percent":0
+  },
+  {
+    "dropID":4001,
+    "monster_name":"Fatalis",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Fatalis Scale",
+    "quantity":1,
+    "percent":0
+  },
+  {
+    "dropID":4002,
+    "monster_name":"Fatalis",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Fatalis Horn",
+    "quantity":1,
+    "percent":0
+  },
+  {
+    "dropID":4003,
+    "monster_name":"Fatalis",
+    "rank":"High",
+    "method":"Break Horn",
+    "item_name":"Fatalis Horn",
+    "quantity":1,
+    "percent":0
+  },
+  {
+    "dropID":4004,
+    "monster_name":"Fatalis",
+    "rank":"High",
+    "method":"Break Wing",
+    "item_name":"Fatalis Webbing",
+    "quantity":1,
+    "percent":0
+  },
+  {
+    "dropID":4005,
+    "monster_name":"Fatalis",
+    "rank":"High",
+    "method":"Break Breast",
+    "item_name":"Fatalis Shell",
+    "quantity":1,
+    "percent":0
+  },
+  {
+    "dropID":4006,
+    "monster_name":"Fatalis",
+    "rank":"High",
+    "method":"Break Breast",
+    "item_name":"Fatalis Scale",
+    "quantity":1,
+    "percent":0
+  },
+  {
+    "dropID":4007,
+    "monster_name":"Fatalis",
+    "rank":"High",
+    "method":"Break Eye",
+    "item_name":"Fatalis Eye",
+    "quantity":1,
+    "percent":0
+  },
+  {
+    "dropID":4008,
+    "monster_name":"Fatalis",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Fatalis Cortex",
+    "quantity":1,
+    "percent":0
+  },
+  {
+    "dropID":4009,
+    "monster_name":"Fatalis",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Fatalis Shard",
+    "quantity":1,
+    "percent":0
+  },
+  {
+    "dropID":4010,
+    "monster_name":"Fatalis",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Fatalis Hardhorn",
+    "quantity":1,
+    "percent":0
+  },
+  {
+    "dropID":4011,
+    "monster_name":"Fatalis",
+    "rank":"G",
+    "method":"Break Horn",
+    "item_name":"Fatalis Hardhorn",
+    "quantity":1,
+    "percent":0
+  },
+  {
+    "dropID":4012,
+    "monster_name":"Fatalis",
+    "rank":"G",
+    "method":"Break Wing",
+    "item_name":"Fatalis Fellwing",
+    "quantity":1,
+    "percent":0
+  },
+  {
+    "dropID":4013,
+    "monster_name":"Fatalis",
+    "rank":"G",
+    "method":"Break Breast",
+    "item_name":"Fatalis Cortex",
+    "quantity":1,
+    "percent":0
+  },
+  {
+    "dropID":4014,
+    "monster_name":"Fatalis",
+    "rank":"G",
+    "method":"Break Breast",
+    "item_name":"Fatalis Shard",
+    "quantity":1,
+    "percent":0
+  },
+  {
+    "dropID":4015,
+    "monster_name":"Fatalis",
+    "rank":"G",
+    "method":"Break Eye",
+    "item_name":"Fatalis Evil Eye",
+    "quantity":1,
+    "percent":0
+  },
+  {
+    "dropID":4016,
+    "monster_name":"Crimson Fatalis",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Fatalis Bloodshell",
+    "quantity":1,
+    "percent":0
+  },
+  {
+    "dropID":4017,
+    "monster_name":"Crimson Fatalis",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Fatalis Bloodscale",
+    "quantity":1,
+    "percent":0
+  },
+  {
+    "dropID":4018,
+    "monster_name":"Crimson Fatalis",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Fatalis Bloodhorn",
+    "quantity":1,
+    "percent":0
+  },
+  {
+    "dropID":4019,
+    "monster_name":"Crimson Fatalis",
+    "rank":"High",
+    "method":"Break Horn",
+    "item_name":"Fatalis Bloodhorn",
+    "quantity":1,
+    "percent":0
+  },
+  {
+    "dropID":4020,
+    "monster_name":"Crimson Fatalis",
+    "rank":"High",
+    "method":"Break Wing",
+    "item_name":"Fatalis Bloodwing",
+    "quantity":1,
+    "percent":0
+  },
+  {
+    "dropID":4021,
+    "monster_name":"Crimson Fatalis",
+    "rank":"High",
+    "method":"Break Breast",
+    "item_name":"Fatalis Bloodshell",
+    "quantity":1,
+    "percent":0
+  },
+  {
+    "dropID":4022,
+    "monster_name":"Crimson Fatalis",
+    "rank":"High",
+    "method":"Break Breast",
+    "item_name":"Fatalis Bloodscale",
+    "quantity":1,
+    "percent":0
+  },
+  {
+    "dropID":4023,
+    "monster_name":"Crimson Fatalis",
+    "rank":"High",
+    "method":"Break Eye",
+    "item_name":"Fatalis Devileye",
+    "quantity":1,
+    "percent":0
+  },
+  {
+    "dropID":4024,
+    "monster_name":"Crimson Fatalis",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Fatalis Flameshell",
+    "quantity":1,
+    "percent":0
+  },
+  {
+    "dropID":4025,
+    "monster_name":"Crimson Fatalis",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Fatalis Flamescale",
+    "quantity":1,
+    "percent":0
+  },
+  {
+    "dropID":4026,
+    "monster_name":"Crimson Fatalis",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Fatalis Flamehorn",
+    "quantity":1,
+    "percent":0
+  },
+  {
+    "dropID":4027,
+    "monster_name":"Crimson Fatalis",
+    "rank":"G",
+    "method":"Break Horn",
+    "item_name":"Fatalis Flamehorn",
+    "quantity":1,
+    "percent":0
+  },
+  {
+    "dropID":4028,
+    "monster_name":"Crimson Fatalis",
+    "rank":"G",
+    "method":"Break Wing",
+    "item_name":"Fatalis Flamewing",
+    "quantity":1,
+    "percent":0
+  },
+  {
+    "dropID":4029,
+    "monster_name":"Crimson Fatalis",
+    "rank":"G",
+    "method":"Break Breast",
+    "item_name":"Fatalis Flameshell",
+    "quantity":1,
+    "percent":0
+  },
+  {
+    "dropID":4030,
+    "monster_name":"Crimson Fatalis",
+    "rank":"G",
+    "method":"Break Breast",
+    "item_name":"Fatalis Flamescale",
+    "quantity":1,
+    "percent":0
+  },
+  {
+    "dropID":4031,
+    "monster_name":"Crimson Fatalis",
+    "rank":"G",
+    "method":"Break Eye",
+    "item_name":"Fatalis Devileye+",
+    "quantity":1,
+    "percent":0
+  },
+  {
+    "dropID":4032,
+    "monster_name":"White Fatalis",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Old Fatalis Cortex",
+    "quantity":1,
+    "percent":0
+  },
+  {
+    "dropID":4033,
+    "monster_name":"White Fatalis",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Old Fatalis Shard",
+    "quantity":1,
+    "percent":0
+  },
+  {
+    "dropID":4034,
+    "monster_name":"White Fatalis",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Old Fatalis Hardhorn",
+    "quantity":1,
+    "percent":0
+  },
+  {
+    "dropID":4035,
+    "monster_name":"White Fatalis",
+    "rank":"G",
+    "method":"Break Horn",
+    "item_name":"Old Fatalis Hardhorn",
+    "quantity":1,
+    "percent":0
+  },
+  {
+    "dropID":4036,
+    "monster_name":"White Fatalis",
+    "rank":"G",
+    "method":"Break Wing",
+    "item_name":"Old Fatalis Fellwing",
+    "quantity":1,
+    "percent":0
+  },
+  {
+    "dropID":4037,
+    "monster_name":"White Fatalis",
+    "rank":"G",
+    "method":"Break Breast",
+    "item_name":"Old Fatalis Cortex",
+    "quantity":1,
+    "percent":0
+  },
+  {
+    "dropID":4038,
+    "monster_name":"White Fatalis",
+    "rank":"G",
+    "method":"Break Breast",
+    "item_name":"Old Fatalis Shard",
+    "quantity":1,
+    "percent":0
+  },
+  {
+    "dropID":4039,
+    "monster_name":"White Fatalis",
+    "rank":"G",
+    "method":"Break Eye",
+    "item_name":"Old Fatalis Souleye",
+    "quantity":1,
+    "percent":0
+  }
+]

@@ -1,0 +1,4376 @@
+[
+  {
+    "dropID":1,
+    "monster_name":"Seltas",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Drone Substance",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":2,
+    "monster_name":"Seltas",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Monster Fluid",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3,
+    "monster_name":"Seltas",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Aqua Sac",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":4,
+    "monster_name":"Seltas",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Seltas Shell",
+    "quantity":1,
+    "percent":65
+  },
+  {
+    "dropID":5,
+    "monster_name":"Seltas",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Seltas Wing",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":6,
+    "monster_name":"Seltas",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Aqua Sac",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":7,
+    "monster_name":"Seltas",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Seltas Wing",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":8,
+    "monster_name":"Seltas",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Monster Fluid",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":9,
+    "monster_name":"Seltas",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Seltas Shell",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":10,
+    "monster_name":"Seltas",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Seltas Horn",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":11,
+    "monster_name":"Seltas",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Monster Fluid",
+    "quantity":2,
+    "percent":5
+  },
+  {
+    "dropID":12,
+    "monster_name":"Seltas",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Aqua Sac",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":13,
+    "monster_name":"Seltas",
+    "rank":"Low",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":90
+  },
+  {
+    "dropID":14,
+    "monster_name":"Seltas",
+    "rank":"Low",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":15,
+    "monster_name":"Seltas",
+    "rank":"Low",
+    "method":"Break Horn",
+    "item_name":"Seltas Horn",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":16,
+    "monster_name":"Seltas",
+    "rank":"Low",
+    "method":"Break Horn",
+    "item_name":"Seltas Shell",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":17,
+    "monster_name":"Seltas",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Drone Substance",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":18,
+    "monster_name":"Seltas",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Queen Substance",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":19,
+    "monster_name":"Seltas",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Monster Broth",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":20,
+    "monster_name":"Seltas",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Torrent Sac",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":21,
+    "monster_name":"Seltas",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Seltas Carapace",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":22,
+    "monster_name":"Seltas",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Seltas Innerwing",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":23,
+    "monster_name":"Seltas",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Seltas Shell",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":24,
+    "monster_name":"Seltas",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Torrent Sac",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":25,
+    "monster_name":"Seltas",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Seltas Innerwing",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":26,
+    "monster_name":"Seltas",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Seltas Horn+",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":27,
+    "monster_name":"Seltas",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Seltas Carapace",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":28,
+    "monster_name":"Seltas",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Monster Broth",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":29,
+    "monster_name":"Seltas",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Seltas Wing",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":30,
+    "monster_name":"Seltas",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Monster Broth",
+    "quantity":2,
+    "percent":5
+  },
+  {
+    "dropID":31,
+    "monster_name":"Seltas",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Torrent Sac",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":32,
+    "monster_name":"Seltas",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":33,
+    "monster_name":"Seltas",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":34,
+    "monster_name":"Seltas",
+    "rank":"High",
+    "method":"Break Horn",
+    "item_name":"Seltas Horn+",
+    "quantity":1,
+    "percent":65
+  },
+  {
+    "dropID":35,
+    "monster_name":"Seltas",
+    "rank":"High",
+    "method":"Break Horn",
+    "item_name":"Seltas Carapace",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":36,
+    "monster_name":"Seltas",
+    "rank":"High",
+    "method":"Break Horn",
+    "item_name":"Seltas Horn",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":37,
+    "monster_name":"Seltas",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Queen Substance",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":38,
+    "monster_name":"Seltas",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Monster Essence",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":39,
+    "monster_name":"Seltas",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Flood Sac",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":40,
+    "monster_name":"Seltas",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Seltas Cortex",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":41,
+    "monster_name":"Seltas",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Seltas Razorwing",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":42,
+    "monster_name":"Seltas",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Seltas Carapace",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":43,
+    "monster_name":"Seltas",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Flood Sac",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":44,
+    "monster_name":"Seltas",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Seltas Razorwing",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":45,
+    "monster_name":"Seltas",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Seltas Hardhorn",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":46,
+    "monster_name":"Seltas",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Seltas Cortex",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":47,
+    "monster_name":"Seltas",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Monster Essence",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":48,
+    "monster_name":"Seltas",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Seltas Innerwing",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":49,
+    "monster_name":"Seltas",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Monster Essence",
+    "quantity":2,
+    "percent":5
+  },
+  {
+    "dropID":50,
+    "monster_name":"Seltas",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Flood Sac",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":51,
+    "monster_name":"Seltas",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":52,
+    "monster_name":"Seltas",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":53,
+    "monster_name":"Seltas",
+    "rank":"G",
+    "method":"Break Horn",
+    "item_name":"Seltas Hardhorn",
+    "quantity":1,
+    "percent":65
+  },
+  {
+    "dropID":54,
+    "monster_name":"Seltas",
+    "rank":"G",
+    "method":"Break Horn",
+    "item_name":"Seltas Cortex",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":55,
+    "monster_name":"Seltas",
+    "rank":"G",
+    "method":"Break Horn",
+    "item_name":"Seltas Horn+",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":56,
+    "monster_name":"Desert Seltas",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Queen Substance",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":57,
+    "monster_name":"Desert Seltas",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Monster Essence",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":58,
+    "monster_name":"Desert Seltas",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Omniplegia Sac",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":59,
+    "monster_name":"Desert Seltas",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"D.Seltas Cortex",
+    "quantity":1,
+    "percent":65
+  },
+  {
+    "dropID":60,
+    "monster_name":"Desert Seltas",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"D.Seltas Razorwing",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":61,
+    "monster_name":"Desert Seltas",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Omniplegia Sac",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":62,
+    "monster_name":"Desert Seltas",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"D.Seltas Razorwing",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":63,
+    "monster_name":"Desert Seltas",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Monster Essence",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":64,
+    "monster_name":"Desert Seltas",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"D.Seltas Hardhorn",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":65,
+    "monster_name":"Desert Seltas",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"D.Seltas Cortex",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":66,
+    "monster_name":"Desert Seltas",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Monster Essence",
+    "quantity":2,
+    "percent":5
+  },
+  {
+    "dropID":67,
+    "monster_name":"Desert Seltas",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Omniplegia Sac",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":68,
+    "monster_name":"Desert Seltas",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":69,
+    "monster_name":"Desert Seltas",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":70,
+    "monster_name":"Desert Seltas",
+    "rank":"G",
+    "method":"Break Horn",
+    "item_name":"D.Seltas Hardhorn",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":71,
+    "monster_name":"Desert Seltas",
+    "rank":"G",
+    "method":"Break Horn",
+    "item_name":"D.Seltas Cortex",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":72,
+    "monster_name":"Seltas Queen",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Drone Substance",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":73,
+    "monster_name":"Seltas Queen",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"S.Queen Shell",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":74,
+    "monster_name":"Seltas Queen",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"S.Queen Shell",
+    "quantity":1,
+    "percent":46
+  },
+  {
+    "dropID":75,
+    "monster_name":"Seltas Queen",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"S.Queen Pectus",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":76,
+    "monster_name":"Seltas Queen",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"S.Queen Claw",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":77,
+    "monster_name":"Seltas Queen",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"S.Queen Extract",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":78,
+    "monster_name":"Seltas Queen",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"S.Queen Pectus",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":79,
+    "monster_name":"Seltas Queen",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"S.Queen Shell",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":80,
+    "monster_name":"Seltas Queen",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"S.Queen Claw",
+    "quantity":1,
+    "percent":19
+  },
+  {
+    "dropID":81,
+    "monster_name":"Seltas Queen",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Aqua Sac",
+    "quantity":2,
+    "percent":15
+  },
+  {
+    "dropID":82,
+    "monster_name":"Seltas Queen",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"S.Queen Jaw",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":83,
+    "monster_name":"Seltas Queen",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"S.Queen Extract",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":84,
+    "monster_name":"Seltas Queen",
+    "rank":"Low",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":85,
+    "monster_name":"Seltas Queen",
+    "rank":"Low",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":86,
+    "monster_name":"Seltas Queen",
+    "rank":"Low",
+    "method":"Break Head",
+    "item_name":"S.Queen Jaw",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":87,
+    "monster_name":"Seltas Queen",
+    "rank":"Low",
+    "method":"Break Head",
+    "item_name":"S.Queen Pectus",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":88,
+    "monster_name":"Seltas Queen",
+    "rank":"Low",
+    "method":"Break Head",
+    "item_name":"S.Queen Extract",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":89,
+    "monster_name":"Seltas Queen",
+    "rank":"Low",
+    "method":"Break Claw",
+    "item_name":"S.Queen Claw",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":90,
+    "monster_name":"Seltas Queen",
+    "rank":"Low",
+    "method":"Break Claw",
+    "item_name":"S.Queen Pectus",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":91,
+    "monster_name":"Seltas Queen",
+    "rank":"Low",
+    "method":"Break Leg",
+    "item_name":"S.Queen Claw",
+    "quantity":1,
+    "percent":65
+  },
+  {
+    "dropID":92,
+    "monster_name":"Seltas Queen",
+    "rank":"Low",
+    "method":"Break Leg",
+    "item_name":"S.Queen Shell",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":93,
+    "monster_name":"Seltas Queen",
+    "rank":"Low",
+    "method":"Break Leg",
+    "item_name":"S.Queen Pectus",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":94,
+    "monster_name":"Seltas Queen",
+    "rank":"Low",
+    "method":"Break Tail",
+    "item_name":"S.Queen Crescent",
+    "quantity":1,
+    "percent":76
+  },
+  {
+    "dropID":95,
+    "monster_name":"Seltas Queen",
+    "rank":"Low",
+    "method":"Break Tail",
+    "item_name":"S.Queen Shell",
+    "quantity":1,
+    "percent":16
+  },
+  {
+    "dropID":96,
+    "monster_name":"Seltas Queen",
+    "rank":"Low",
+    "method":"Break Tail",
+    "item_name":"Aqua Sac",
+    "quantity":2,
+    "percent":8
+  },
+  {
+    "dropID":97,
+    "monster_name":"Seltas Queen",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Queen Substance",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":98,
+    "monster_name":"Seltas Queen",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Drone Substance",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":99,
+    "monster_name":"Seltas Queen",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"S.Queen Carapace",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":100,
+    "monster_name":"Seltas Queen",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"S.Queen Carapace",
+    "quantity":1,
+    "percent":42
+  },
+  {
+    "dropID":101,
+    "monster_name":"Seltas Queen",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"S.Queen Hardpectus",
+    "quantity":1,
+    "percent":34
+  },
+  {
+    "dropID":102,
+    "monster_name":"Seltas Queen",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"S.Queen Sharpclaw",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":103,
+    "monster_name":"Seltas Queen",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"S.Queen Jaw",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":104,
+    "monster_name":"Seltas Queen",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"S.Queen Extract",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":105,
+    "monster_name":"Seltas Queen",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"S.Queen Concentrate",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":106,
+    "monster_name":"Seltas Queen",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"S.Queen Hardpectus",
+    "quantity":1,
+    "percent":38
+  },
+  {
+    "dropID":107,
+    "monster_name":"Seltas Queen",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"S.Queen Carapace",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":108,
+    "monster_name":"Seltas Queen",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Torrent Sac",
+    "quantity":2,
+    "percent":12
+  },
+  {
+    "dropID":109,
+    "monster_name":"Seltas Queen",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"S.Queen Jaw",
+    "quantity":1,
+    "percent":11
+  },
+  {
+    "dropID":110,
+    "monster_name":"Seltas Queen",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"S.Queen Sharpclaw",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":111,
+    "monster_name":"Seltas Queen",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"S.Queen Extract",
+    "quantity":1,
+    "percent":7
+  },
+  {
+    "dropID":112,
+    "monster_name":"Seltas Queen",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"S.Queen Concentrate",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":113,
+    "monster_name":"Seltas Queen",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":114,
+    "monster_name":"Seltas Queen",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":115,
+    "monster_name":"Seltas Queen",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"S.Queen Jaw",
+    "quantity":1,
+    "percent":58
+  },
+  {
+    "dropID":116,
+    "monster_name":"Seltas Queen",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"S.Queen Hardpectus",
+    "quantity":1,
+    "percent":21
+  },
+  {
+    "dropID":117,
+    "monster_name":"Seltas Queen",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"S.Queen Jaw",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":118,
+    "monster_name":"Seltas Queen",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"S.Queen Extract",
+    "quantity":1,
+    "percent":7
+  },
+  {
+    "dropID":119,
+    "monster_name":"Seltas Queen",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"S.Queen Concentrate",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":120,
+    "monster_name":"Seltas Queen",
+    "rank":"High",
+    "method":"Break Claw",
+    "item_name":"S.Queen Sharpclaw",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":121,
+    "monster_name":"Seltas Queen",
+    "rank":"High",
+    "method":"Break Claw",
+    "item_name":"S.Queen Hardpectus",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":122,
+    "monster_name":"Seltas Queen",
+    "rank":"High",
+    "method":"Break Leg",
+    "item_name":"S.Queen Sharpclaw",
+    "quantity":1,
+    "percent":65
+  },
+  {
+    "dropID":123,
+    "monster_name":"Seltas Queen",
+    "rank":"High",
+    "method":"Break Leg",
+    "item_name":"S.Queen Carapace",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":124,
+    "monster_name":"Seltas Queen",
+    "rank":"High",
+    "method":"Break Leg",
+    "item_name":"S.Queen Hardpectus",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":125,
+    "monster_name":"Seltas Queen",
+    "rank":"High",
+    "method":"Break Tail",
+    "item_name":"S.Queen Crescent",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":126,
+    "monster_name":"Seltas Queen",
+    "rank":"High",
+    "method":"Break Tail",
+    "item_name":"S.Queen Carapace",
+    "quantity":1,
+    "percent":32
+  },
+  {
+    "dropID":127,
+    "monster_name":"Seltas Queen",
+    "rank":"High",
+    "method":"Break Tail",
+    "item_name":"Torrent Sac",
+    "quantity":2,
+    "percent":8
+  },
+  {
+    "dropID":128,
+    "monster_name":"Seltas Queen",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Queen Substance",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":129,
+    "monster_name":"Seltas Queen",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"S.Queen Cortex",
+    "quantity":1,
+    "percent":27
+  },
+  {
+    "dropID":130,
+    "monster_name":"Seltas Queen",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Monster Essence",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":131,
+    "monster_name":"Seltas Queen",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"S.Queen Concentrate",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":132,
+    "monster_name":"Seltas Queen",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"D.S.QueenConcentrate",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":133,
+    "monster_name":"Seltas Queen",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"S.Queen Cortex",
+    "quantity":1,
+    "percent":42
+  },
+  {
+    "dropID":134,
+    "monster_name":"Seltas Queen",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"S.Queen Pectus+",
+    "quantity":1,
+    "percent":34
+  },
+  {
+    "dropID":135,
+    "monster_name":"Seltas Queen",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"S.Queen Hardclaw",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":136,
+    "monster_name":"Seltas Queen",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"S.Queen Maw",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":137,
+    "monster_name":"Seltas Queen",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"S.Queen Concentrate",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":138,
+    "monster_name":"Seltas Queen",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"D.S.QueenConcentrate",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":139,
+    "monster_name":"Seltas Queen",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"S.Queen Pectus+",
+    "quantity":1,
+    "percent":38
+  },
+  {
+    "dropID":140,
+    "monster_name":"Seltas Queen",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"S.Queen Cortex",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":141,
+    "monster_name":"Seltas Queen",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Flood Sac",
+    "quantity":2,
+    "percent":12
+  },
+  {
+    "dropID":142,
+    "monster_name":"Seltas Queen",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"S.Queen Maw",
+    "quantity":1,
+    "percent":11
+  },
+  {
+    "dropID":143,
+    "monster_name":"Seltas Queen",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"S.Queen Hardclaw",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":144,
+    "monster_name":"Seltas Queen",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"S.Queen Concentrate",
+    "quantity":1,
+    "percent":7
+  },
+  {
+    "dropID":145,
+    "monster_name":"Seltas Queen",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"D.S.QueenConcentrate",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":146,
+    "monster_name":"Seltas Queen",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":147,
+    "monster_name":"Seltas Queen",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":148,
+    "monster_name":"Seltas Queen",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"S.Queen Maw",
+    "quantity":1,
+    "percent":68
+  },
+  {
+    "dropID":149,
+    "monster_name":"Seltas Queen",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"S.Queen Pectus+",
+    "quantity":1,
+    "percent":21
+  },
+  {
+    "dropID":150,
+    "monster_name":"Seltas Queen",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"S.Queen Concentrate",
+    "quantity":1,
+    "percent":7
+  },
+  {
+    "dropID":151,
+    "monster_name":"Seltas Queen",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"D.S.QueenConcentrate",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":152,
+    "monster_name":"Seltas Queen",
+    "rank":"G",
+    "method":"Break Claw",
+    "item_name":"S.Queen Hardclaw",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":153,
+    "monster_name":"Seltas Queen",
+    "rank":"G",
+    "method":"Break Claw",
+    "item_name":"S.Queen Pectus+",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":154,
+    "monster_name":"Seltas Queen",
+    "rank":"G",
+    "method":"Break Leg",
+    "item_name":"S.Queen Hardclaw",
+    "quantity":1,
+    "percent":65
+  },
+  {
+    "dropID":155,
+    "monster_name":"Seltas Queen",
+    "rank":"G",
+    "method":"Break Leg",
+    "item_name":"S.Queen Cortex",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":156,
+    "monster_name":"Seltas Queen",
+    "rank":"G",
+    "method":"Break Leg",
+    "item_name":"S.Queen Pectus+",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":157,
+    "monster_name":"Seltas Queen",
+    "rank":"G",
+    "method":"Break Tail",
+    "item_name":"S.Queen Moonlash",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":158,
+    "monster_name":"Seltas Queen",
+    "rank":"G",
+    "method":"Break Tail",
+    "item_name":"S.Queen Cortex",
+    "quantity":1,
+    "percent":32
+  },
+  {
+    "dropID":159,
+    "monster_name":"Seltas Queen",
+    "rank":"G",
+    "method":"Break Tail",
+    "item_name":"Flood Sac",
+    "quantity":2,
+    "percent":8
+  },
+  {
+    "dropID":160,
+    "monster_name":"Desert Seltas Queen",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Queen Substance",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":161,
+    "monster_name":"Desert Seltas Queen",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"D.S.Queen Cortex",
+    "quantity":1,
+    "percent":27
+  },
+  {
+    "dropID":162,
+    "monster_name":"Desert Seltas Queen",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Monster Essence",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":163,
+    "monster_name":"Desert Seltas Queen",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"S.Queen Concentrate",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":164,
+    "monster_name":"Desert Seltas Queen",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"D.S.QueenConcentrate",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":165,
+    "monster_name":"Desert Seltas Queen",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"D.S.Queen Cortex",
+    "quantity":1,
+    "percent":42
+  },
+  {
+    "dropID":166,
+    "monster_name":"Desert Seltas Queen",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"D.S.Queen Pectus+",
+    "quantity":1,
+    "percent":31
+  },
+  {
+    "dropID":167,
+    "monster_name":"Desert Seltas Queen",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"D.S.Queen Hardclaw",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":168,
+    "monster_name":"Desert Seltas Queen",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"S.Queen Concentrate",
+    "quantity":1,
+    "percent":7
+  },
+  {
+    "dropID":169,
+    "monster_name":"Desert Seltas Queen",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"D.S.Queen Maw",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":170,
+    "monster_name":"Desert Seltas Queen",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"D.S.QueenConcentrate",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":171,
+    "monster_name":"Desert Seltas Queen",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"D.S.Queen Pectus+",
+    "quantity":1,
+    "percent":36
+  },
+  {
+    "dropID":172,
+    "monster_name":"Desert Seltas Queen",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"D.S.Queen Cortex",
+    "quantity":1,
+    "percent":17
+  },
+  {
+    "dropID":173,
+    "monster_name":"Desert Seltas Queen",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Flood Sac",
+    "quantity":2,
+    "percent":12
+  },
+  {
+    "dropID":174,
+    "monster_name":"Desert Seltas Queen",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"D.S.Queen Maw",
+    "quantity":1,
+    "percent":11
+  },
+  {
+    "dropID":175,
+    "monster_name":"Desert Seltas Queen",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"D.S.Queen Hardclaw",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":176,
+    "monster_name":"Desert Seltas Queen",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"S.Queen Concentrate",
+    "quantity":1,
+    "percent":9
+  },
+  {
+    "dropID":177,
+    "monster_name":"Desert Seltas Queen",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"D.S.QueenConcentrate",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":178,
+    "monster_name":"Desert Seltas Queen",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":179,
+    "monster_name":"Desert Seltas Queen",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":2,
+    "percent":25
+  },
+  {
+    "dropID":180,
+    "monster_name":"Desert Seltas Queen",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":2,
+    "percent":20
+  },
+  {
+    "dropID":181,
+    "monster_name":"Desert Seltas Queen",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"D.S.Queen Maw",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":182,
+    "monster_name":"Desert Seltas Queen",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"D.S.Queen Pectus+",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":183,
+    "monster_name":"Desert Seltas Queen",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"D.S.QueenConcentrate",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":184,
+    "monster_name":"Desert Seltas Queen",
+    "rank":"G",
+    "method":"Break Claw",
+    "item_name":"D.S.Queen Hardclaw",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":185,
+    "monster_name":"Desert Seltas Queen",
+    "rank":"G",
+    "method":"Break Claw",
+    "item_name":"D.S.Queen Pectus+",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":186,
+    "monster_name":"Desert Seltas Queen",
+    "rank":"G",
+    "method":"Break Leg",
+    "item_name":"D.S.Queen Hardclaw",
+    "quantity":1,
+    "percent":65
+  },
+  {
+    "dropID":187,
+    "monster_name":"Desert Seltas Queen",
+    "rank":"G",
+    "method":"Break Leg",
+    "item_name":"D.S.Queen Cortex",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":188,
+    "monster_name":"Desert Seltas Queen",
+    "rank":"G",
+    "method":"Break Leg",
+    "item_name":"D.S.Queen Pectus+",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":189,
+    "monster_name":"Desert Seltas Queen",
+    "rank":"G",
+    "method":"Break Tail",
+    "item_name":"D.S.Queen Moonlash",
+    "quantity":1,
+    "percent":76
+  },
+  {
+    "dropID":190,
+    "monster_name":"Desert Seltas Queen",
+    "rank":"G",
+    "method":"Break Tail",
+    "item_name":"D.S.Queen Cortex",
+    "quantity":1,
+    "percent":16
+  },
+  {
+    "dropID":191,
+    "monster_name":"Desert Seltas Queen",
+    "rank":"G",
+    "method":"Break Tail",
+    "item_name":"Flood Sac",
+    "quantity":2,
+    "percent":8
+  },
+  {
+    "dropID":192,
+    "monster_name":"Nerscylla",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Drone Substance",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":193,
+    "monster_name":"Nerscylla",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Monster Fluid",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":194,
+    "monster_name":"Nerscylla",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Nerscylla Shell",
+    "quantity":1,
+    "percent":42
+  },
+  {
+    "dropID":195,
+    "monster_name":"Nerscylla",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Nerscylla Chelicera",
+    "quantity":1,
+    "percent":21
+  },
+  {
+    "dropID":196,
+    "monster_name":"Nerscylla",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Nerscylla Claw",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":197,
+    "monster_name":"Nerscylla",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Sleep Sac",
+    "quantity":1,
+    "percent":14
+  },
+  {
+    "dropID":198,
+    "monster_name":"Nerscylla",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Nerscylla Spike",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":199,
+    "monster_name":"Nerscylla",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Nerscylla Chelicera",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":200,
+    "monster_name":"Nerscylla",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Nerscylla Spike",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":201,
+    "monster_name":"Nerscylla",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Sleep Sac",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":202,
+    "monster_name":"Nerscylla",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Nerscylla Shell",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":203,
+    "monster_name":"Nerscylla",
+    "rank":"Low",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":204,
+    "monster_name":"Nerscylla",
+    "rank":"Low",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":205,
+    "monster_name":"Nerscylla",
+    "rank":"Low",
+    "method":"Break Claw",
+    "item_name":"Nerscylla Claw",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":206,
+    "monster_name":"Nerscylla",
+    "rank":"Low",
+    "method":"Break Claw",
+    "item_name":"Nerscylla Shell",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":207,
+    "monster_name":"Nerscylla",
+    "rank":"Low",
+    "method":"Break Poison Stinger",
+    "item_name":"Nerscylla Spike",
+    "quantity":1,
+    "percent":65
+  },
+  {
+    "dropID":208,
+    "monster_name":"Nerscylla",
+    "rank":"Low",
+    "method":"Break Poison Stinger",
+    "item_name":"Nerscylla Shell",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":209,
+    "monster_name":"Nerscylla",
+    "rank":"Low",
+    "method":"Break Cover Skin",
+    "item_name":"Nerscylla Shell",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":210,
+    "monster_name":"Nerscylla",
+    "rank":"Low",
+    "method":"Break Cover Skin",
+    "item_name":"Rubbery Hide",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":211,
+    "monster_name":"Nerscylla",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Drone Substance",
+    "quantity":1,
+    "percent":38
+  },
+  {
+    "dropID":212,
+    "monster_name":"Nerscylla",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Queen Substance",
+    "quantity":1,
+    "percent":37
+  },
+  {
+    "dropID":213,
+    "monster_name":"Nerscylla",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Monster Broth",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":214,
+    "monster_name":"Nerscylla",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Monster Fluid",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":215,
+    "monster_name":"Nerscylla",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Nerscylla Carapace",
+    "quantity":1,
+    "percent":46
+  },
+  {
+    "dropID":216,
+    "monster_name":"Nerscylla",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Nerscylla Shear",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":217,
+    "monster_name":"Nerscylla",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Nerscylla Sharpclaw",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":218,
+    "monster_name":"Nerscylla",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Nerscylla Spike+",
+    "quantity":1,
+    "percent":11
+  },
+  {
+    "dropID":219,
+    "monster_name":"Nerscylla",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Nerscylla Shear",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":220,
+    "monster_name":"Nerscylla",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Nerscylla Carapace",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":221,
+    "monster_name":"Nerscylla",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Nerscylla Spike+",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":222,
+    "monster_name":"Nerscylla",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Nerscylla Chelicera",
+    "quantity":2,
+    "percent":15
+  },
+  {
+    "dropID":223,
+    "monster_name":"Nerscylla",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":224,
+    "monster_name":"Nerscylla",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":225,
+    "monster_name":"Nerscylla",
+    "rank":"High",
+    "method":"Break Claw",
+    "item_name":"Nerscylla Sharpclaw",
+    "quantity":1,
+    "percent":65
+  },
+  {
+    "dropID":226,
+    "monster_name":"Nerscylla",
+    "rank":"High",
+    "method":"Break Claw",
+    "item_name":"Nerscylla Carapace",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":227,
+    "monster_name":"Nerscylla",
+    "rank":"High",
+    "method":"Break Claw",
+    "item_name":"Nerscylla Claw",
+    "quantity":2,
+    "percent":15
+  },
+  {
+    "dropID":228,
+    "monster_name":"Nerscylla",
+    "rank":"High",
+    "method":"Break Poison Stinger",
+    "item_name":"Nerscylla Spike+",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":229,
+    "monster_name":"Nerscylla",
+    "rank":"High",
+    "method":"Break Poison Stinger",
+    "item_name":"Nerscylla Carapace",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":230,
+    "monster_name":"Nerscylla",
+    "rank":"High",
+    "method":"Break Poison Stinger",
+    "item_name":"Nerscylla Spike",
+    "quantity":2,
+    "percent":15
+  },
+  {
+    "dropID":231,
+    "monster_name":"Nerscylla",
+    "rank":"High",
+    "method":"Break Cover Skin",
+    "item_name":"Nerscylla Carapace",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":232,
+    "monster_name":"Nerscylla",
+    "rank":"High",
+    "method":"Break Cover Skin",
+    "item_name":"Rubbery Hide+",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":233,
+    "monster_name":"Nerscylla",
+    "rank":"High",
+    "method":"Break Cover Skin",
+    "item_name":"Rubbery Hide",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":234,
+    "monster_name":"Nerscylla",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Queen Substance",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":235,
+    "monster_name":"Nerscylla",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Monster Essence",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":236,
+    "monster_name":"Nerscylla",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Nerscylla Cortex",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":237,
+    "monster_name":"Nerscylla",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Nerscylla Cortex",
+    "quantity":1,
+    "percent":46
+  },
+  {
+    "dropID":238,
+    "monster_name":"Nerscylla",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Nerscylla Scishorn",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":239,
+    "monster_name":"Nerscylla",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Nerscylla Hardclaw",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":240,
+    "monster_name":"Nerscylla",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Nerscylla Surspike",
+    "quantity":1,
+    "percent":11
+  },
+  {
+    "dropID":241,
+    "monster_name":"Nerscylla",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Nerscylla Scishorn",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":242,
+    "monster_name":"Nerscylla",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Nerscylla Surspike",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":243,
+    "monster_name":"Nerscylla",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Nerscylla Cortex",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":244,
+    "monster_name":"Nerscylla",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Nerscylla Shear",
+    "quantity":2,
+    "percent":15
+  },
+  {
+    "dropID":245,
+    "monster_name":"Nerscylla",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":246,
+    "monster_name":"Nerscylla",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":247,
+    "monster_name":"Nerscylla",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":2,
+    "percent":25
+  },
+  {
+    "dropID":248,
+    "monster_name":"Nerscylla",
+    "rank":"G",
+    "method":"Break Claw",
+    "item_name":"Nerscylla Hardclaw",
+    "quantity":1,
+    "percent":65
+  },
+  {
+    "dropID":249,
+    "monster_name":"Nerscylla",
+    "rank":"G",
+    "method":"Break Claw",
+    "item_name":"Nerscylla Cortex",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":250,
+    "monster_name":"Nerscylla",
+    "rank":"G",
+    "method":"Break Claw",
+    "item_name":"Nerscylla Sharpclaw",
+    "quantity":2,
+    "percent":15
+  },
+  {
+    "dropID":251,
+    "monster_name":"Nerscylla",
+    "rank":"G",
+    "method":"Break Poison Stinger",
+    "item_name":"Nerscylla Surspike",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":252,
+    "monster_name":"Nerscylla",
+    "rank":"G",
+    "method":"Break Poison Stinger",
+    "item_name":"Nerscylla Cortex",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":253,
+    "monster_name":"Nerscylla",
+    "rank":"G",
+    "method":"Break Poison Stinger",
+    "item_name":"Nerscylla Spike+",
+    "quantity":2,
+    "percent":15
+  },
+  {
+    "dropID":254,
+    "monster_name":"Nerscylla",
+    "rank":"G",
+    "method":"Break Cover Skin",
+    "item_name":"Nerscylla Cortex",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":255,
+    "monster_name":"Nerscylla",
+    "rank":"G",
+    "method":"Break Cover Skin",
+    "item_name":"Rubbery Finehide",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":256,
+    "monster_name":"Nerscylla",
+    "rank":"G",
+    "method":"Break Cover Skin",
+    "item_name":"Rubbery Hide+",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":257,
+    "monster_name":"Shrouded Nerscylla",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Queen Substance",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":258,
+    "monster_name":"Shrouded Nerscylla",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Monster Essence",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":259,
+    "monster_name":"Shrouded Nerscylla",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Omniplegia Sac",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":260,
+    "monster_name":"Shrouded Nerscylla",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"S.Nerscylla Cortex",
+    "quantity":1,
+    "percent":42
+  },
+  {
+    "dropID":261,
+    "monster_name":"Shrouded Nerscylla",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"S.Nerscylla Scishorn",
+    "quantity":1,
+    "percent":21
+  },
+  {
+    "dropID":262,
+    "monster_name":"Shrouded Nerscylla",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"S.Nerscylla Hardclaw",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":263,
+    "monster_name":"Shrouded Nerscylla",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Omniplegia Sac",
+    "quantity":1,
+    "percent":14
+  },
+  {
+    "dropID":264,
+    "monster_name":"Shrouded Nerscylla",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"S.Nerscylla Surspike",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":265,
+    "monster_name":"Shrouded Nerscylla",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"S.Nerscylla Scishorn",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":266,
+    "monster_name":"Shrouded Nerscylla",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"S.Nerscylla Surspike",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":267,
+    "monster_name":"Shrouded Nerscylla",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"S.Nerscylla Cortex",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":268,
+    "monster_name":"Shrouded Nerscylla",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Omniplegia Sac",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":269,
+    "monster_name":"Shrouded Nerscylla",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":270,
+    "monster_name":"Shrouded Nerscylla",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":271,
+    "monster_name":"Shrouded Nerscylla",
+    "rank":"G",
+    "method":"Break Claw",
+    "item_name":"S.Nerscylla Hardclaw",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":272,
+    "monster_name":"Shrouded Nerscylla",
+    "rank":"G",
+    "method":"Break Claw",
+    "item_name":"S.Nerscylla Cortex",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":273,
+    "monster_name":"Shrouded Nerscylla",
+    "rank":"G",
+    "method":"Break Poison Stinger",
+    "item_name":"S.Nerscylla Surspike",
+    "quantity":1,
+    "percent":65
+  },
+  {
+    "dropID":274,
+    "monster_name":"Shrouded Nerscylla",
+    "rank":"G",
+    "method":"Break Poison Stinger",
+    "item_name":"S.Nerscylla Cortex",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":275,
+    "monster_name":"Shrouded Nerscylla",
+    "rank":"G",
+    "method":"Break Cover Skin",
+    "item_name":"S.Nerscylla Cortex",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":276,
+    "monster_name":"Shrouded Nerscylla",
+    "rank":"G",
+    "method":"Break Cover Skin",
+    "item_name":"Pearl Glosshide",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":277,
+    "monster_name":"Cephadrome",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":278,
+    "monster_name":"Cephadrome",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":279,
+    "monster_name":"Cephadrome",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Cephalos Scale+",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":280,
+    "monster_name":"Cephadrome",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Piscine Liver",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":281,
+    "monster_name":"Cephadrome",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Cephalos Scale+",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":282,
+    "monster_name":"Cephadrome",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Cephalos Fang+",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":283,
+    "monster_name":"Cephadrome",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Cephalos Fin+",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":284,
+    "monster_name":"Cephadrome",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Cephalos Scale+",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":285,
+    "monster_name":"Cephadrome",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Cephalos Fang+",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":286,
+    "monster_name":"Cephadrome",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Cephalos Fin+",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":287,
+    "monster_name":"Cephadrome",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Monster Keenbone",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":288,
+    "monster_name":"Cephadrome",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":289,
+    "monster_name":"Cephadrome",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":290,
+    "monster_name":"Cephadrome",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Cephalos Fang+",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":291,
+    "monster_name":"Cephadrome",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Cephalos Fang+",
+    "quantity":2,
+    "percent":25
+  },
+  {
+    "dropID":292,
+    "monster_name":"Cephadrome",
+    "rank":"High",
+    "method":"Break Tail",
+    "item_name":"Cephalos Scale+",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":293,
+    "monster_name":"Cephadrome",
+    "rank":"High",
+    "method":"Break Tail",
+    "item_name":"Cephalos Fin+",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":294,
+    "monster_name":"Cephadrome",
+    "rank":"High",
+    "method":"Break Fin",
+    "item_name":"Cephalos Fin+",
+    "quantity":1,
+    "percent":100
+  },
+  {
+    "dropID":295,
+    "monster_name":"Cephadrome",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":296,
+    "monster_name":"Cephadrome",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Cephalos Shard",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":297,
+    "monster_name":"Cephadrome",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Cephalos Hardfang",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":298,
+    "monster_name":"Cephadrome",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Cephalos Purpscale",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":299,
+    "monster_name":"Cephadrome",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Cephalos Shard",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":300,
+    "monster_name":"Cephadrome",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Cephalos Hardfang",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":301,
+    "monster_name":"Cephadrome",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Cephalos Grandfin",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":302,
+    "monster_name":"Cephadrome",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Cephalos Purpscale",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":303,
+    "monster_name":"Cephadrome",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Cephalos Shard",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":304,
+    "monster_name":"Cephadrome",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Cephalos Hardfang",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":305,
+    "monster_name":"Cephadrome",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Cephalos Purpscale",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":306,
+    "monster_name":"Cephadrome",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Cephalos Pinkfin",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":307,
+    "monster_name":"Cephadrome",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Monster Slogbone",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":308,
+    "monster_name":"Cephadrome",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":309,
+    "monster_name":"Cephadrome",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":310,
+    "monster_name":"Cephadrome",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Cephalos Hardfang",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":311,
+    "monster_name":"Cephadrome",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Cephalos Hardfang",
+    "quantity":2,
+    "percent":25
+  },
+  {
+    "dropID":312,
+    "monster_name":"Cephadrome",
+    "rank":"G",
+    "method":"Break Tail",
+    "item_name":"Cephalos Purpscale",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":313,
+    "monster_name":"Cephadrome",
+    "rank":"G",
+    "method":"Break Tail",
+    "item_name":"Cephalos Grandfin",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":314,
+    "monster_name":"Cephadrome",
+    "rank":"G",
+    "method":"Break Tail",
+    "item_name":"Cephalos Pinkfin",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":315,
+    "monster_name":"Cephadrome",
+    "rank":"G",
+    "method":"Break Fin",
+    "item_name":"Cephalos Grandfin",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":316,
+    "monster_name":"Cephadrome",
+    "rank":"G",
+    "method":"Break Fin",
+    "item_name":"Cephalos Pinkfin",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":317,
+    "monster_name":"Great Jaggi",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":318,
+    "monster_name":"Great Jaggi",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Jaggi Scale",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":319,
+    "monster_name":"Great Jaggi",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"G.Jaggi Hide",
+    "quantity":1,
+    "percent":43
+  },
+  {
+    "dropID":320,
+    "monster_name":"Great Jaggi",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"G.Jaggi Claw",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":321,
+    "monster_name":"Great Jaggi",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Screamer Sac",
+    "quantity":1,
+    "percent":19
+  },
+  {
+    "dropID":322,
+    "monster_name":"Great Jaggi",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Jaggi Scale",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":323,
+    "monster_name":"Great Jaggi",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Screamer Sac",
+    "quantity":2,
+    "percent":45
+  },
+  {
+    "dropID":324,
+    "monster_name":"Great Jaggi",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"G.Jaggi Claw",
+    "quantity":1,
+    "percent":32
+  },
+  {
+    "dropID":325,
+    "monster_name":"Great Jaggi",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"G.Jaggi Hide",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":326,
+    "monster_name":"Great Jaggi",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Great Jaggi Head",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":327,
+    "monster_name":"Great Jaggi",
+    "rank":"Low",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":100
+  },
+  {
+    "dropID":328,
+    "monster_name":"Great Jaggi",
+    "rank":"Low",
+    "method":"Break Head",
+    "item_name":"King's Frill",
+    "quantity":1,
+    "percent":65
+  },
+  {
+    "dropID":329,
+    "monster_name":"Great Jaggi",
+    "rank":"Low",
+    "method":"Break Head",
+    "item_name":"Screamer Sac",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":330,
+    "monster_name":"Great Jaggi",
+    "rank":"Low",
+    "method":"Break Head",
+    "item_name":"Great Jaggi Head",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":331,
+    "monster_name":"Great Jaggi",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":332,
+    "monster_name":"Great Jaggi",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":333,
+    "monster_name":"Great Jaggi",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"G.Jaggi Hide+",
+    "quantity":1,
+    "percent":23
+  },
+  {
+    "dropID":334,
+    "monster_name":"Great Jaggi",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Bird Wyvern Gem",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":335,
+    "monster_name":"Great Jaggi",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"G.Jaggi Hide+",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":336,
+    "monster_name":"Great Jaggi",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"G.Jaggi Claw+",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":337,
+    "monster_name":"Great Jaggi",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Screamer Sac",
+    "quantity":1,
+    "percent":17
+  },
+  {
+    "dropID":338,
+    "monster_name":"Great Jaggi",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"G.Jaggi Hide",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":339,
+    "monster_name":"Great Jaggi",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"G.Jaggi Claw",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":340,
+    "monster_name":"Great Jaggi",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Bird Wyvern Gem",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":341,
+    "monster_name":"Great Jaggi",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Screamer Sac",
+    "quantity":2,
+    "percent":43
+  },
+  {
+    "dropID":342,
+    "monster_name":"Great Jaggi",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"G.Jaggi Claw+",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":343,
+    "monster_name":"Great Jaggi",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"G.Jaggi Hide+",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":344,
+    "monster_name":"Great Jaggi",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Great Jaggi Head",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":345,
+    "monster_name":"Great Jaggi",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Bird Wyvern Gem",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":346,
+    "monster_name":"Great Jaggi",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":347,
+    "monster_name":"Great Jaggi",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":348,
+    "monster_name":"Great Jaggi",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"King's Frill",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":349,
+    "monster_name":"Great Jaggi",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Great Jaggi Head",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":350,
+    "monster_name":"Great Jaggi",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Bird Wyvern Gem",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":351,
+    "monster_name":"Great Jaggi",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Screamer Sac",
+    "quantity":2,
+    "percent":8
+  },
+  {
+    "dropID":352,
+    "monster_name":"Velocidrome",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":353,
+    "monster_name":"Velocidrome",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Velociprey Scale",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":354,
+    "monster_name":"Velocidrome",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Velocidrome Claw",
+    "quantity":1,
+    "percent":53
+  },
+  {
+    "dropID":355,
+    "monster_name":"Velocidrome",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Velocidrome Hide",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":356,
+    "monster_name":"Velocidrome",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Velociprey Scale",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":357,
+    "monster_name":"Velocidrome",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Velocidrome Head",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":358,
+    "monster_name":"Velocidrome",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Velocidrome Hide",
+    "quantity":1,
+    "percent":56
+  },
+  {
+    "dropID":359,
+    "monster_name":"Velocidrome",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Screamer Sac",
+    "quantity":2,
+    "percent":39
+  },
+  {
+    "dropID":360,
+    "monster_name":"Velocidrome",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Velocidrome Head",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":361,
+    "monster_name":"Velocidrome",
+    "rank":"Low",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":100
+  },
+  {
+    "dropID":362,
+    "monster_name":"Velocidrome",
+    "rank":"Low",
+    "method":"Break Head",
+    "item_name":"Screamer Sac",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":363,
+    "monster_name":"Velocidrome",
+    "rank":"Low",
+    "method":"Break Head",
+    "item_name":"Velocidrome Hide",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":364,
+    "monster_name":"Velocidrome",
+    "rank":"Low",
+    "method":"Break Head",
+    "item_name":"Velocidrome Head",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":365,
+    "monster_name":"Velocidrome",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":366,
+    "monster_name":"Velocidrome",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":367,
+    "monster_name":"Velocidrome",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Velocidrome Claw+",
+    "quantity":1,
+    "percent":23
+  },
+  {
+    "dropID":368,
+    "monster_name":"Velocidrome",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Bird Wyvern Gem",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":369,
+    "monster_name":"Velocidrome",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Velocidrome Claw+",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":370,
+    "monster_name":"Velocidrome",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Tough Bird Wyv Hide",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":371,
+    "monster_name":"Velocidrome",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Velociprey Scale+",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":372,
+    "monster_name":"Velocidrome",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Velociprey Hide+",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":373,
+    "monster_name":"Velocidrome",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Velocidrome Head",
+    "quantity":1,
+    "percent":7
+  },
+  {
+    "dropID":374,
+    "monster_name":"Velocidrome",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Bird Wyvern Gem",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":375,
+    "monster_name":"Velocidrome",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Velociprey Hide+",
+    "quantity":2,
+    "percent":34
+  },
+  {
+    "dropID":376,
+    "monster_name":"Velocidrome",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Velociprey Scale+",
+    "quantity":2,
+    "percent":30
+  },
+  {
+    "dropID":377,
+    "monster_name":"Velocidrome",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Screamer Sac",
+    "quantity":2,
+    "percent":25
+  },
+  {
+    "dropID":378,
+    "monster_name":"Velocidrome",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Velocidrome Head",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":379,
+    "monster_name":"Velocidrome",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Bird Wyvern Gem",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":380,
+    "monster_name":"Velocidrome",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":381,
+    "monster_name":"Velocidrome",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":382,
+    "monster_name":"Velocidrome",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Screamer Sac",
+    "quantity":2,
+    "percent":40
+  },
+  {
+    "dropID":383,
+    "monster_name":"Velocidrome",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Screamer Sac",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":384,
+    "monster_name":"Velocidrome",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Velocidrome Head",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":385,
+    "monster_name":"Velocidrome",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Bird Wyvern Gem",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":386,
+    "monster_name":"Velocidrome",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":387,
+    "monster_name":"Velocidrome",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Velocidrome Claw+",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":388,
+    "monster_name":"Velocidrome",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Velocidrome Hardclaw",
+    "quantity":1,
+    "percent":23
+  },
+  {
+    "dropID":389,
+    "monster_name":"Velocidrome",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Fey Wyvern Gem",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":390,
+    "monster_name":"Velocidrome",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Velocidrome Hardclaw",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":391,
+    "monster_name":"Velocidrome",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Tough Bird Wyv Hide",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":392,
+    "monster_name":"Velocidrome",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Velociprey Hide+",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":393,
+    "monster_name":"Velocidrome",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Fey Wyvern Gem",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":394,
+    "monster_name":"Velocidrome",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Velociprey Hide+",
+    "quantity":2,
+    "percent":37
+  },
+  {
+    "dropID":395,
+    "monster_name":"Velocidrome",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Tough Bird Wyv Hide",
+    "quantity":2,
+    "percent":35
+  },
+  {
+    "dropID":396,
+    "monster_name":"Velocidrome",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Screamer Sac",
+    "quantity":2,
+    "percent":25
+  },
+  {
+    "dropID":397,
+    "monster_name":"Velocidrome",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Fey Wyvern Gem",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":398,
+    "monster_name":"Velocidrome",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":399,
+    "monster_name":"Velocidrome",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":400,
+    "monster_name":"Velocidrome",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Screamer Sac",
+    "quantity":2,
+    "percent":50
+  },
+  {
+    "dropID":401,
+    "monster_name":"Velocidrome",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Screamer Sac",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":402,
+    "monster_name":"Velocidrome",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Fey Wyvern Gem",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":403,
+    "monster_name":"Gendrome",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":404,
+    "monster_name":"Gendrome",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Genprey Scale",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":405,
+    "monster_name":"Gendrome",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Gendrome Hide",
+    "quantity":1,
+    "percent":48
+  },
+  {
+    "dropID":406,
+    "monster_name":"Gendrome",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Paralysis Sac",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":407,
+    "monster_name":"Gendrome",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Genprey Scale",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":408,
+    "monster_name":"Gendrome",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Gendrome Head",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":409,
+    "monster_name":"Gendrome",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Gendrome Hide",
+    "quantity":1,
+    "percent":56
+  },
+  {
+    "dropID":410,
+    "monster_name":"Gendrome",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Paralysis Sac",
+    "quantity":2,
+    "percent":39
+  },
+  {
+    "dropID":411,
+    "monster_name":"Gendrome",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Gendrome Head",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":412,
+    "monster_name":"Gendrome",
+    "rank":"Low",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":100
+  },
+  {
+    "dropID":413,
+    "monster_name":"Gendrome",
+    "rank":"Low",
+    "method":"Break Head",
+    "item_name":"Gendrome Hide",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":414,
+    "monster_name":"Gendrome",
+    "rank":"Low",
+    "method":"Break Head",
+    "item_name":"Paralysis Sac",
+    "quantity":1,
+    "percent":39
+  },
+  {
+    "dropID":415,
+    "monster_name":"Gendrome",
+    "rank":"Low",
+    "method":"Break Head",
+    "item_name":"Gendrome Head",
+    "quantity":1,
+    "percent":11
+  },
+  {
+    "dropID":416,
+    "monster_name":"Gendrome",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":417,
+    "monster_name":"Gendrome",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":418,
+    "monster_name":"Gendrome",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Gendrome Tail",
+    "quantity":1,
+    "percent":23
+  },
+  {
+    "dropID":419,
+    "monster_name":"Gendrome",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Bird Wyvern Gem",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":420,
+    "monster_name":"Gendrome",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Gendrome Tail",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":421,
+    "monster_name":"Gendrome",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Tough Bird Wyv Hide",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":422,
+    "monster_name":"Gendrome",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Paralysis Sac",
+    "quantity":1,
+    "percent":16
+  },
+  {
+    "dropID":423,
+    "monster_name":"Gendrome",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Genprey Scale+",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":424,
+    "monster_name":"Gendrome",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Genprey Hide+",
+    "quantity":1,
+    "percent":7
+  },
+  {
+    "dropID":425,
+    "monster_name":"Gendrome",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Gendrome Head",
+    "quantity":1,
+    "percent":7
+  },
+  {
+    "dropID":426,
+    "monster_name":"Gendrome",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Genprey Hide+",
+    "quantity":2,
+    "percent":34
+  },
+  {
+    "dropID":427,
+    "monster_name":"Gendrome",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Genprey Scale+",
+    "quantity":2,
+    "percent":30
+  },
+  {
+    "dropID":428,
+    "monster_name":"Gendrome",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Paralysis Sac",
+    "quantity":2,
+    "percent":25
+  },
+  {
+    "dropID":429,
+    "monster_name":"Gendrome",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Gendrome Head",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":430,
+    "monster_name":"Gendrome",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Bird Wyvern Gem",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":431,
+    "monster_name":"Gendrome",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":432,
+    "monster_name":"Gendrome",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":433,
+    "monster_name":"Gendrome",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Paralysis Sac",
+    "quantity":2,
+    "percent":40
+  },
+  {
+    "dropID":434,
+    "monster_name":"Gendrome",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Paralysis Sac",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":435,
+    "monster_name":"Gendrome",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Gendrome Head",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":436,
+    "monster_name":"Gendrome",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Bird Wyvern Gem",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":437,
+    "monster_name":"Iodrome",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":438,
+    "monster_name":"Iodrome",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Ioprey Scale",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":439,
+    "monster_name":"Iodrome",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Iodrome Hide",
+    "quantity":1,
+    "percent":48
+  },
+  {
+    "dropID":440,
+    "monster_name":"Iodrome",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Poison Sac",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":441,
+    "monster_name":"Iodrome",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Ioprey Scale",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":442,
+    "monster_name":"Iodrome",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Iodrome Head",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":443,
+    "monster_name":"Iodrome",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Iodrome Hide",
+    "quantity":1,
+    "percent":56
+  },
+  {
+    "dropID":444,
+    "monster_name":"Iodrome",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Poison Sac",
+    "quantity":2,
+    "percent":39
+  },
+  {
+    "dropID":445,
+    "monster_name":"Iodrome",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Iodrome Head",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":446,
+    "monster_name":"Iodrome",
+    "rank":"Low",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":100
+  },
+  {
+    "dropID":447,
+    "monster_name":"Iodrome",
+    "rank":"Low",
+    "method":"Break Head",
+    "item_name":"Poison Sac",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":448,
+    "monster_name":"Iodrome",
+    "rank":"Low",
+    "method":"Break Head",
+    "item_name":"Iodrome Hide",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":449,
+    "monster_name":"Iodrome",
+    "rank":"Low",
+    "method":"Break Head",
+    "item_name":"Iodrome Head",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":450,
+    "monster_name":"Iodrome",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":451,
+    "monster_name":"Iodrome",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":452,
+    "monster_name":"Iodrome",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Tough Bird Wyv Hide",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":453,
+    "monster_name":"Iodrome",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Bird Wyvern Gem",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":454,
+    "monster_name":"Iodrome",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Tough Bird Wyv Hide",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":455,
+    "monster_name":"Iodrome",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Toxin Sac",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":456,
+    "monster_name":"Iodrome",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Ioprey Scale+",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":457,
+    "monster_name":"Iodrome",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Ioprey Hide+",
+    "quantity":1,
+    "percent":13
+  },
+  {
+    "dropID":458,
+    "monster_name":"Iodrome",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Iodrome Head",
+    "quantity":1,
+    "percent":7
+  },
+  {
+    "dropID":459,
+    "monster_name":"Iodrome",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Bird Wyvern Gem",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":460,
+    "monster_name":"Iodrome",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Toxin Sac",
+    "quantity":2,
+    "percent":33
+  },
+  {
+    "dropID":461,
+    "monster_name":"Iodrome",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Ioprey Hide+",
+    "quantity":2,
+    "percent":30
+  },
+  {
+    "dropID":462,
+    "monster_name":"Iodrome",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Ioprey Scale+",
+    "quantity":2,
+    "percent":26
+  },
+  {
+    "dropID":463,
+    "monster_name":"Iodrome",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Iodrome Head",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":464,
+    "monster_name":"Iodrome",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Bird Wyvern Gem",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":465,
+    "monster_name":"Iodrome",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":466,
+    "monster_name":"Iodrome",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":467,
+    "monster_name":"Iodrome",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Toxin Sac",
+    "quantity":1,
+    "percent":43
+  },
+  {
+    "dropID":468,
+    "monster_name":"Iodrome",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Toxin Sac",
+    "quantity":2,
+    "percent":32
+  },
+  {
+    "dropID":469,
+    "monster_name":"Iodrome",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Iodrome Head",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":470,
+    "monster_name":"Iodrome",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Bird Wyvern Gem",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":471,
+    "monster_name":"Iodrome",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":472,
+    "monster_name":"Iodrome",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Tough Bird Wyv Hide",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":473,
+    "monster_name":"Iodrome",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Ioprey Piel",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":474,
+    "monster_name":"Iodrome",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Fey Wyvern Gem",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":475,
+    "monster_name":"Iodrome",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Ioprey Piel",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":476,
+    "monster_name":"Iodrome",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Tough Bird Wyv Hide",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":477,
+    "monster_name":"Iodrome",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Deadly Poison Sac",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":478,
+    "monster_name":"Iodrome",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Fey Wyvern Gem",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":479,
+    "monster_name":"Iodrome",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Deadly Poison Sac",
+    "quantity":2,
+    "percent":52
+  },
+  {
+    "dropID":480,
+    "monster_name":"Iodrome",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Ioprey Piel",
+    "quantity":2,
+    "percent":45
+  },
+  {
+    "dropID":481,
+    "monster_name":"Iodrome",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Fey Wyvern Gem",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":482,
+    "monster_name":"Iodrome",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":483,
+    "monster_name":"Iodrome",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":484,
+    "monster_name":"Iodrome",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Deadly Poison Sac",
+    "quantity":2,
+    "percent":60
+  },
+  {
+    "dropID":485,
+    "monster_name":"Iodrome",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Deadly Poison Sac",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":486,
+    "monster_name":"Iodrome",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Fey Wyvern Gem",
+    "quantity":1,
+    "percent":10
+  }
+]

@@ -1,0 +1,3080 @@
+[
+  {
+    "dropID":487,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":74
+  },
+  {
+    "dropID":488,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Kut-Ku Scale",
+    "quantity":1,
+    "percent":16
+  },
+  {
+    "dropID":489,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Kut-Ku Ear",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":490,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Kut-Ku Shell",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":491,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Kut-Ku Webbing",
+    "quantity":1,
+    "percent":32
+  },
+  {
+    "dropID":492,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Kut-Ku Scale",
+    "quantity":1,
+    "percent":13
+  },
+  {
+    "dropID":493,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Giant Beak",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":494,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Kut-Ku Shell",
+    "quantity":1,
+    "percent":33
+  },
+  {
+    "dropID":495,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Screamer Sac",
+    "quantity":2,
+    "percent":24
+  },
+  {
+    "dropID":496,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Flame Sac",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":497,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Monster Bone M",
+    "quantity":2,
+    "percent":20
+  },
+  {
+    "dropID":498,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Giant Beak",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":499,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"Low",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":100
+  },
+  {
+    "dropID":500,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"Low",
+    "method":"Break Ear",
+    "item_name":"Kut-Ku Ear",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":501,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"Low",
+    "method":"Break Ear",
+    "item_name":"Kut-Ku Scale",
+    "quantity":3,
+    "percent":50
+  },
+  {
+    "dropID":502,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":37
+  },
+  {
+    "dropID":503,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":37
+  },
+  {
+    "dropID":504,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Kut-Ku Scale+",
+    "quantity":1,
+    "percent":16
+  },
+  {
+    "dropID":505,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Kut-Ku Auricle",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":506,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Kut-Ku Scale+",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":507,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Kut-Ku Carapace",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":508,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Kut-Ku Webbing",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":509,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Giant Beak",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":510,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Splendid Beak",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":511,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Kut-Ku Carapace",
+    "quantity":1,
+    "percent":43
+  },
+  {
+    "dropID":512,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Monster Keenbone",
+    "quantity":1,
+    "percent":27
+  },
+  {
+    "dropID":513,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Screamer Sac",
+    "quantity":2,
+    "percent":17
+  },
+  {
+    "dropID":514,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Inferno Sac",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":515,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Splendid Beak",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":516,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":100
+  },
+  {
+    "dropID":517,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"High",
+    "method":"Break Ear",
+    "item_name":"Kut-Ku Ear",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":518,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"High",
+    "method":"Break Ear",
+    "item_name":"Kut-Ku Auricle",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":519,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"High",
+    "method":"Break Ear",
+    "item_name":"Kut-Ku Scale+",
+    "quantity":3,
+    "percent":25
+  },
+  {
+    "dropID":520,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":521,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Kut-Ku Shard",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":522,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Kut-Ku Luckear",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":523,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Kut-Ku Shard",
+    "quantity":1,
+    "percent":33
+  },
+  {
+    "dropID":524,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Kut-Ku Fellwing",
+    "quantity":1,
+    "percent":32
+  },
+  {
+    "dropID":525,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Kut-Ku Cortex",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":526,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Splendid Beak",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":527,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Kut-Ku Cortex",
+    "quantity":1,
+    "percent":43
+  },
+  {
+    "dropID":528,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Monster Hardbone",
+    "quantity":1,
+    "percent":27
+  },
+  {
+    "dropID":529,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Screamer Sac",
+    "quantity":2,
+    "percent":17
+  },
+  {
+    "dropID":530,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Conflagrant Sac",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":531,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Splendid Beak",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":532,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":533,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":534,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"G",
+    "method":"Break Ear",
+    "item_name":"Kut-Ku Auricle",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":535,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"G",
+    "method":"Break Ear",
+    "item_name":"Kut-Ku Luckear",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":536,
+    "monster_name":"Yian Kut-Ku",
+    "rank":"G",
+    "method":"Break Ear",
+    "item_name":"Kut-Ku Shard",
+    "quantity":3,
+    "percent":20
+  },
+  {
+    "dropID":537,
+    "monster_name":"Blue Yian Kut-Ku",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":37
+  },
+  {
+    "dropID":538,
+    "monster_name":"Blue Yian Kut-Ku",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":37
+  },
+  {
+    "dropID":539,
+    "monster_name":"Blue Yian Kut-Ku",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Blue Kut-Ku Scale+",
+    "quantity":1,
+    "percent":16
+  },
+  {
+    "dropID":540,
+    "monster_name":"Blue Yian Kut-Ku",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Kut-Ku Auricle",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":541,
+    "monster_name":"Blue Yian Kut-Ku",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Blue Kut-Ku Scale+",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":542,
+    "monster_name":"Blue Yian Kut-Ku",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Blue Kut-Ku Carapace",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":543,
+    "monster_name":"Blue Yian Kut-Ku",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Kut-Ku Webbing",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":544,
+    "monster_name":"Blue Yian Kut-Ku",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Giant Beak",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":545,
+    "monster_name":"Blue Yian Kut-Ku",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Splendid Beak",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":546,
+    "monster_name":"Blue Yian Kut-Ku",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Blue Kut-Ku Carapace",
+    "quantity":1,
+    "percent":43
+  },
+  {
+    "dropID":547,
+    "monster_name":"Blue Yian Kut-Ku",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Monster Bone+",
+    "quantity":1,
+    "percent":27
+  },
+  {
+    "dropID":548,
+    "monster_name":"Blue Yian Kut-Ku",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Screamer Sac",
+    "quantity":2,
+    "percent":17
+  },
+  {
+    "dropID":549,
+    "monster_name":"Blue Yian Kut-Ku",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Inferno Sac",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":550,
+    "monster_name":"Blue Yian Kut-Ku",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Splendid Beak",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":551,
+    "monster_name":"Blue Yian Kut-Ku",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":100
+  },
+  {
+    "dropID":552,
+    "monster_name":"Blue Yian Kut-Ku",
+    "rank":"High",
+    "method":"Break Ear",
+    "item_name":"Kut-Ku Ear",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":553,
+    "monster_name":"Blue Yian Kut-Ku",
+    "rank":"High",
+    "method":"Break Ear",
+    "item_name":"Kut-Ku Auricle",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":554,
+    "monster_name":"Blue Yian Kut-Ku",
+    "rank":"High",
+    "method":"Break Ear",
+    "item_name":"Blue Kut-Ku Scale+",
+    "quantity":3,
+    "percent":25
+  },
+  {
+    "dropID":555,
+    "monster_name":"Blue Yian Kut-Ku",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":556,
+    "monster_name":"Blue Yian Kut-Ku",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Blue Kut-Ku Shard",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":557,
+    "monster_name":"Blue Yian Kut-Ku",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Kut-Ku Luckear",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":558,
+    "monster_name":"Blue Yian Kut-Ku",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Blue Kut-Ku Shard",
+    "quantity":1,
+    "percent":33
+  },
+  {
+    "dropID":559,
+    "monster_name":"Blue Yian Kut-Ku",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Kut-Ku Fellwing",
+    "quantity":1,
+    "percent":32
+  },
+  {
+    "dropID":560,
+    "monster_name":"Blue Yian Kut-Ku",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Blue Kut-Ku Cortex",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":561,
+    "monster_name":"Blue Yian Kut-Ku",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Splendid Beak",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":562,
+    "monster_name":"Blue Yian Kut-Ku",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Blue Kut-Ku Cortex",
+    "quantity":1,
+    "percent":43
+  },
+  {
+    "dropID":563,
+    "monster_name":"Blue Yian Kut-Ku",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Monster Hardbone",
+    "quantity":1,
+    "percent":27
+  },
+  {
+    "dropID":564,
+    "monster_name":"Blue Yian Kut-Ku",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Screamer Sac",
+    "quantity":2,
+    "percent":17
+  },
+  {
+    "dropID":565,
+    "monster_name":"Blue Yian Kut-Ku",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Conflagrant Sac",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":566,
+    "monster_name":"Blue Yian Kut-Ku",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Splendid Beak",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":567,
+    "monster_name":"Blue Yian Kut-Ku",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":568,
+    "monster_name":"Blue Yian Kut-Ku",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":569,
+    "monster_name":"Blue Yian Kut-Ku",
+    "rank":"G",
+    "method":"Break Ear",
+    "item_name":"Kut-Ku Auricle",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":570,
+    "monster_name":"Blue Yian Kut-Ku",
+    "rank":"G",
+    "method":"Break Ear",
+    "item_name":"Kut-Ku Luckear",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":571,
+    "monster_name":"Blue Yian Kut-Ku",
+    "rank":"G",
+    "method":"Break Ear",
+    "item_name":"Blue Kut-Ku Shard",
+    "quantity":3,
+    "percent":20
+  },
+  {
+    "dropID":572,
+    "monster_name":"Gypceros",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":74
+  },
+  {
+    "dropID":573,
+    "monster_name":"Gypceros",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Dash Extract",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":574,
+    "monster_name":"Gypceros",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Lightcrystal",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":575,
+    "monster_name":"Gypceros",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Rubbery Hide",
+    "quantity":1,
+    "percent":61
+  },
+  {
+    "dropID":576,
+    "monster_name":"Gypceros",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Dash Extract",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":577,
+    "monster_name":"Gypceros",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Poison Sac",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":578,
+    "monster_name":"Gypceros",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Lightcrystal",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":579,
+    "monster_name":"Gypceros",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Gypceros Head",
+    "quantity":1,
+    "percent":1
+  },
+  {
+    "dropID":580,
+    "monster_name":"Gypceros",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Poison Sac",
+    "quantity":2,
+    "percent":46
+  },
+  {
+    "dropID":581,
+    "monster_name":"Gypceros",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Dash Extract",
+    "quantity":2,
+    "percent":34
+  },
+  {
+    "dropID":582,
+    "monster_name":"Gypceros",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Rubbery Hide",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":583,
+    "monster_name":"Gypceros",
+    "rank":"Low",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":584,
+    "monster_name":"Gypceros",
+    "rank":"Low",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":585,
+    "monster_name":"Gypceros",
+    "rank":"Low",
+    "method":"Break Head",
+    "item_name":"Iron Ore",
+    "quantity":2,
+    "percent":40
+  },
+  {
+    "dropID":586,
+    "monster_name":"Gypceros",
+    "rank":"Low",
+    "method":"Break Head",
+    "item_name":"Lightcrystal",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":587,
+    "monster_name":"Gypceros",
+    "rank":"Low",
+    "method":"Break Head",
+    "item_name":"Gypceros Head",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":588,
+    "monster_name":"Gypceros",
+    "rank":"Low",
+    "method":"Body Carve (Apparent Death)",
+    "item_name":"Dash Extract",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":589,
+    "monster_name":"Gypceros",
+    "rank":"Low",
+    "method":"Body Carve (Apparent Death)",
+    "item_name":"Rubbery Hide",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":590,
+    "monster_name":"Gypceros",
+    "rank":"Low",
+    "method":"Body Carve (Apparent Death)",
+    "item_name":"Poison Sac",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":591,
+    "monster_name":"Gypceros",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":592,
+    "monster_name":"Gypceros",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":593,
+    "monster_name":"Gypceros",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Dash Extract",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":594,
+    "monster_name":"Gypceros",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Novacrystal",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":595,
+    "monster_name":"Gypceros",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Rubbery Hide+",
+    "quantity":1,
+    "percent":43
+  },
+  {
+    "dropID":596,
+    "monster_name":"Gypceros",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Dash Extract",
+    "quantity":1,
+    "percent":23
+  },
+  {
+    "dropID":597,
+    "monster_name":"Gypceros",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Toxin Sac",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":598,
+    "monster_name":"Gypceros",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Novacrystal",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":599,
+    "monster_name":"Gypceros",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Gypceros Head",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":600,
+    "monster_name":"Gypceros",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Lightcrystal",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":601,
+    "monster_name":"Gypceros",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Toxin Sac",
+    "quantity":2,
+    "percent":42
+  },
+  {
+    "dropID":602,
+    "monster_name":"Gypceros",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Dash Extract",
+    "quantity":2,
+    "percent":30
+  },
+  {
+    "dropID":603,
+    "monster_name":"Gypceros",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Rubbery Hide+",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":604,
+    "monster_name":"Gypceros",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Rubbery Hide",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":605,
+    "monster_name":"Gypceros",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":606,
+    "monster_name":"Gypceros",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":607,
+    "monster_name":"Gypceros",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Dragonite Ore",
+    "quantity":1,
+    "percent":43
+  },
+  {
+    "dropID":608,
+    "monster_name":"Gypceros",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Gypceros Head",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":609,
+    "monster_name":"Gypceros",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Lightcrystal",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":610,
+    "monster_name":"Gypceros",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Novacrystal",
+    "quantity":1,
+    "percent":7
+  },
+  {
+    "dropID":611,
+    "monster_name":"Gypceros",
+    "rank":"High",
+    "method":"Body Carve (Apparent Death)",
+    "item_name":"Rubbery Hide+",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":612,
+    "monster_name":"Gypceros",
+    "rank":"High",
+    "method":"Body Carve (Apparent Death)",
+    "item_name":"Poison Sac",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":613,
+    "monster_name":"Gypceros",
+    "rank":"High",
+    "method":"Body Carve (Apparent Death)",
+    "item_name":"Dash Extract",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":614,
+    "monster_name":"Gypceros",
+    "rank":"High",
+    "method":"Body Carve (Apparent Death)",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":615,
+    "monster_name":"Gypceros",
+    "rank":"High",
+    "method":"Body Carve (Apparent Death)",
+    "item_name":"Toxin Sac",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":616,
+    "monster_name":"Gypceros",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":617,
+    "monster_name":"Gypceros",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Dash Extract",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":618,
+    "monster_name":"Gypceros",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Deadly Poison Sac",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":619,
+    "monster_name":"Gypceros",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Purecrystal",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":620,
+    "monster_name":"Gypceros",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Rubbery Finehide",
+    "quantity":1,
+    "percent":43
+  },
+  {
+    "dropID":621,
+    "monster_name":"Gypceros",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Deadly Poison Sac",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":622,
+    "monster_name":"Gypceros",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Dash Extract",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":623,
+    "monster_name":"Gypceros",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Purecrystal",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":624,
+    "monster_name":"Gypceros",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Gypceros Hardhead",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":625,
+    "monster_name":"Gypceros",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Novacrystal",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":626,
+    "monster_name":"Gypceros",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Deadly Poison Sac",
+    "quantity":2,
+    "percent":42
+  },
+  {
+    "dropID":627,
+    "monster_name":"Gypceros",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Dash Extract",
+    "quantity":2,
+    "percent":30
+  },
+  {
+    "dropID":628,
+    "monster_name":"Gypceros",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Rubbery Finehide",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":629,
+    "monster_name":"Gypceros",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Rubbery Hide+",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":630,
+    "monster_name":"Gypceros",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":631,
+    "monster_name":"Gypceros",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":632,
+    "monster_name":"Gypceros",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Carbalite Ore",
+    "quantity":1,
+    "percent":43
+  },
+  {
+    "dropID":633,
+    "monster_name":"Gypceros",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Gypceros Hardhead",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":634,
+    "monster_name":"Gypceros",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Novacrystal",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":635,
+    "monster_name":"Gypceros",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Purecrystal",
+    "quantity":1,
+    "percent":7
+  },
+  {
+    "dropID":636,
+    "monster_name":"Gypceros",
+    "rank":"G",
+    "method":"Body Carve (Apparent Death)",
+    "item_name":"Rubbery Finehide",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":637,
+    "monster_name":"Gypceros",
+    "rank":"G",
+    "method":"Body Carve (Apparent Death)",
+    "item_name":"Dash Extract",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":638,
+    "monster_name":"Gypceros",
+    "rank":"G",
+    "method":"Body Carve (Apparent Death)",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":639,
+    "monster_name":"Gypceros",
+    "rank":"G",
+    "method":"Body Carve (Apparent Death)",
+    "item_name":"Toxin Sac",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":640,
+    "monster_name":"Gypceros",
+    "rank":"G",
+    "method":"Body Carve (Apparent Death)",
+    "item_name":"Deadly Poison Sac",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":641,
+    "monster_name":"Purple Gypceros",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":642,
+    "monster_name":"Purple Gypceros",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":643,
+    "monster_name":"Purple Gypceros",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Dash Extract",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":644,
+    "monster_name":"Purple Gypceros",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Novacrystal",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":645,
+    "monster_name":"Purple Gypceros",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Rubbery Purple Hide",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":646,
+    "monster_name":"Purple Gypceros",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Dash Extract",
+    "quantity":1,
+    "percent":23
+  },
+  {
+    "dropID":647,
+    "monster_name":"Purple Gypceros",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"P.Gypceros Wing",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":648,
+    "monster_name":"Purple Gypceros",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Toxin Sac",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":649,
+    "monster_name":"Purple Gypceros",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Lightcrystal",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":650,
+    "monster_name":"Purple Gypceros",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Novacrystal",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":651,
+    "monster_name":"Purple Gypceros",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Toxin Sac",
+    "quantity":2,
+    "percent":35
+  },
+  {
+    "dropID":652,
+    "monster_name":"Purple Gypceros",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Dash Extract",
+    "quantity":2,
+    "percent":30
+  },
+  {
+    "dropID":653,
+    "monster_name":"Purple Gypceros",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"P.Gypceros Wing",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":654,
+    "monster_name":"Purple Gypceros",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Rubbery Purple Hide",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":655,
+    "monster_name":"Purple Gypceros",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":656,
+    "monster_name":"Purple Gypceros",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":657,
+    "monster_name":"Purple Gypceros",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Dragonite Ore",
+    "quantity":1,
+    "percent":68
+  },
+  {
+    "dropID":658,
+    "monster_name":"Purple Gypceros",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Lightcrystal",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":659,
+    "monster_name":"Purple Gypceros",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Novacrystal",
+    "quantity":1,
+    "percent":7
+  },
+  {
+    "dropID":660,
+    "monster_name":"Purple Gypceros",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Gypceros Head",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":661,
+    "monster_name":"Purple Gypceros",
+    "rank":"High",
+    "method":"Body Carve (Apparent Death)",
+    "item_name":"Rubbery Purple Hide",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":662,
+    "monster_name":"Purple Gypceros",
+    "rank":"High",
+    "method":"Body Carve (Apparent Death)",
+    "item_name":"Poison Sac",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":663,
+    "monster_name":"Purple Gypceros",
+    "rank":"High",
+    "method":"Body Carve (Apparent Death)",
+    "item_name":"Dash Extract",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":664,
+    "monster_name":"Purple Gypceros",
+    "rank":"High",
+    "method":"Body Carve (Apparent Death)",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":665,
+    "monster_name":"Purple Gypceros",
+    "rank":"High",
+    "method":"Body Carve (Apparent Death)",
+    "item_name":"Toxin Sac",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":666,
+    "monster_name":"Purple Gypceros",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":667,
+    "monster_name":"Purple Gypceros",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Dash Extract",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":668,
+    "monster_name":"Purple Gypceros",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Deadly Poison Sac",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":669,
+    "monster_name":"Purple Gypceros",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Purecrystal",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":670,
+    "monster_name":"Purple Gypceros",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Rubbery Purple Hide+",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":671,
+    "monster_name":"Purple Gypceros",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"P.Gypceros Fellwing",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":672,
+    "monster_name":"Purple Gypceros",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Deadly Poison Sac",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":673,
+    "monster_name":"Purple Gypceros",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Dash Extract",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":674,
+    "monster_name":"Purple Gypceros",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Purecrystal",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":675,
+    "monster_name":"Purple Gypceros",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Novacrystal",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":676,
+    "monster_name":"Purple Gypceros",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Deadly Poison Sac",
+    "quantity":2,
+    "percent":35
+  },
+  {
+    "dropID":677,
+    "monster_name":"Purple Gypceros",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Dash Extract",
+    "quantity":2,
+    "percent":30
+  },
+  {
+    "dropID":678,
+    "monster_name":"Purple Gypceros",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"P.Gypceros Fellwing",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":679,
+    "monster_name":"Purple Gypceros",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Rubbery Purple Hide+",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":680,
+    "monster_name":"Purple Gypceros",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":681,
+    "monster_name":"Purple Gypceros",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":682,
+    "monster_name":"Purple Gypceros",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Gypceros Hardhead",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":683,
+    "monster_name":"Purple Gypceros",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Carbalite Ore",
+    "quantity":2,
+    "percent":28
+  },
+  {
+    "dropID":684,
+    "monster_name":"Purple Gypceros",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Novacrystal",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":685,
+    "monster_name":"Purple Gypceros",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Purecrystal",
+    "quantity":1,
+    "percent":7
+  },
+  {
+    "dropID":686,
+    "monster_name":"Purple Gypceros",
+    "rank":"G",
+    "method":"Body Carve (Apparent Death)",
+    "item_name":"Rubbery Purple Hide+",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":687,
+    "monster_name":"Purple Gypceros",
+    "rank":"G",
+    "method":"Body Carve (Apparent Death)",
+    "item_name":"Dash Extract",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":688,
+    "monster_name":"Purple Gypceros",
+    "rank":"G",
+    "method":"Body Carve (Apparent Death)",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":689,
+    "monster_name":"Purple Gypceros",
+    "rank":"G",
+    "method":"Body Carve (Apparent Death)",
+    "item_name":"Toxin Sac",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":690,
+    "monster_name":"Purple Gypceros",
+    "rank":"G",
+    "method":"Body Carve (Apparent Death)",
+    "item_name":"Deadly Poison Sac",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":691,
+    "monster_name":"Yian Garuga",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":74
+  },
+  {
+    "dropID":692,
+    "monster_name":"Yian Garuga",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Garuga Scale",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":693,
+    "monster_name":"Yian Garuga",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Garuga Wing",
+    "quantity":1,
+    "percent":1
+  },
+  {
+    "dropID":694,
+    "monster_name":"Yian Garuga",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Garuga Scale",
+    "quantity":1,
+    "percent":64
+  },
+  {
+    "dropID":695,
+    "monster_name":"Yian Garuga",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Garuga Shell",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":696,
+    "monster_name":"Yian Garuga",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Garuga Mane",
+    "quantity":1,
+    "percent":7
+  },
+  {
+    "dropID":697,
+    "monster_name":"Yian Garuga",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Garuga Wing",
+    "quantity":1,
+    "percent":1
+  },
+  {
+    "dropID":698,
+    "monster_name":"Yian Garuga",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Garuga Shell",
+    "quantity":2,
+    "percent":90
+  },
+  {
+    "dropID":699,
+    "monster_name":"Yian Garuga",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Garuga Ear",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":700,
+    "monster_name":"Yian Garuga",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Sharpened Beak",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":701,
+    "monster_name":"Yian Garuga",
+    "rank":"Low",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":702,
+    "monster_name":"Yian Garuga",
+    "rank":"Low",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":703,
+    "monster_name":"Yian Garuga",
+    "rank":"Low",
+    "method":"Break Ear",
+    "item_name":"Garuga Ear",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":704,
+    "monster_name":"Yian Garuga",
+    "rank":"Low",
+    "method":"Break Ear",
+    "item_name":"Garuga Scale",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":705,
+    "monster_name":"Yian Garuga",
+    "rank":"Low",
+    "method":"Tail Carve",
+    "item_name":"Garuga Tail",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":706,
+    "monster_name":"Yian Garuga",
+    "rank":"Low",
+    "method":"Tail Carve",
+    "item_name":"Garuga Scale",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":707,
+    "monster_name":"Yian Garuga",
+    "rank":"Low",
+    "method":"Break Beak",
+    "item_name":"Sharpened Beak",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":708,
+    "monster_name":"Yian Garuga",
+    "rank":"Low",
+    "method":"Break Beak",
+    "item_name":"Garuga Scale",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":709,
+    "monster_name":"Yian Garuga",
+    "rank":"Low",
+    "method":"Break Talon",
+    "item_name":"Garuga Wing",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":710,
+    "monster_name":"Yian Garuga",
+    "rank":"Low",
+    "method":"Break Talon",
+    "item_name":"Garuga Shell",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":711,
+    "monster_name":"Yian Garuga",
+    "rank":"Low",
+    "method":"Break Back",
+    "item_name":"Garuga Mane",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":712,
+    "monster_name":"Yian Garuga",
+    "rank":"Low",
+    "method":"Break Back",
+    "item_name":"Garuga Shell",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":713,
+    "monster_name":"Yian Garuga",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":37
+  },
+  {
+    "dropID":714,
+    "monster_name":"Yian Garuga",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":37
+  },
+  {
+    "dropID":715,
+    "monster_name":"Yian Garuga",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Garuga Scale+",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":716,
+    "monster_name":"Yian Garuga",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Garuga Wing",
+    "quantity":1,
+    "percent":1
+  },
+  {
+    "dropID":717,
+    "monster_name":"Yian Garuga",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Garuga Scale+",
+    "quantity":1,
+    "percent":64
+  },
+  {
+    "dropID":718,
+    "monster_name":"Yian Garuga",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Garuga Carapace",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":719,
+    "monster_name":"Yian Garuga",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Garuga Mane",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":720,
+    "monster_name":"Yian Garuga",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Garuga Wing",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":721,
+    "monster_name":"Yian Garuga",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Garuga Carapace",
+    "quantity":2,
+    "percent":90
+  },
+  {
+    "dropID":722,
+    "monster_name":"Yian Garuga",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Rejuvenated Beak",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":723,
+    "monster_name":"Yian Garuga",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Garuga Auricle",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":724,
+    "monster_name":"Yian Garuga",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":725,
+    "monster_name":"Yian Garuga",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":726,
+    "monster_name":"Yian Garuga",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":727,
+    "monster_name":"Yian Garuga",
+    "rank":"High",
+    "method":"Break Ear",
+    "item_name":"Garuga Auricle",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":728,
+    "monster_name":"Yian Garuga",
+    "rank":"High",
+    "method":"Break Ear",
+    "item_name":"Garuga Scale+",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":729,
+    "monster_name":"Yian Garuga",
+    "rank":"High",
+    "method":"Break Ear",
+    "item_name":"Garuga Ear",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":730,
+    "monster_name":"Yian Garuga",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Garuga Tail",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":731,
+    "monster_name":"Yian Garuga",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Garuga Scale+",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":732,
+    "monster_name":"Yian Garuga",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Garuga Scale",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":733,
+    "monster_name":"Yian Garuga",
+    "rank":"High",
+    "method":"Break Beak",
+    "item_name":"Rejuvenated Beak",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":734,
+    "monster_name":"Yian Garuga",
+    "rank":"High",
+    "method":"Break Beak",
+    "item_name":"Garuga Scale+",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":735,
+    "monster_name":"Yian Garuga",
+    "rank":"High",
+    "method":"Break Beak",
+    "item_name":"Sharpened Beak",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":736,
+    "monster_name":"Yian Garuga",
+    "rank":"High",
+    "method":"Break Talon",
+    "item_name":"Garuga Wing",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":737,
+    "monster_name":"Yian Garuga",
+    "rank":"High",
+    "method":"Break Talon",
+    "item_name":"Garuga Wing",
+    "quantity":2,
+    "percent":35
+  },
+  {
+    "dropID":738,
+    "monster_name":"Yian Garuga",
+    "rank":"High",
+    "method":"Break Talon",
+    "item_name":"Garuga Carapace",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":739,
+    "monster_name":"Yian Garuga",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"Garuga Mane",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":740,
+    "monster_name":"Yian Garuga",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"Garuga Carapace",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":741,
+    "monster_name":"Yian Garuga",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"Garuga Shell",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":742,
+    "monster_name":"Yian Garuga",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":743,
+    "monster_name":"Yian Garuga",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Garuga Shard",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":744,
+    "monster_name":"Yian Garuga",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Garuga Fellwing",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":745,
+    "monster_name":"Yian Garuga",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Lrg Wyvern Gem",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":746,
+    "monster_name":"Yian Garuga",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Garuga Shard",
+    "quantity":1,
+    "percent":64
+  },
+  {
+    "dropID":747,
+    "monster_name":"Yian Garuga",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Garuga Cortex",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":748,
+    "monster_name":"Yian Garuga",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Garuga Silverpelt",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":749,
+    "monster_name":"Yian Garuga",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Garuga Fellwing",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":750,
+    "monster_name":"Yian Garuga",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Garuga Cortex",
+    "quantity":2,
+    "percent":80
+  },
+  {
+    "dropID":751,
+    "monster_name":"Yian Garuga",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Rejuvenated Beak",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":752,
+    "monster_name":"Yian Garuga",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Garuga Auricle",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":753,
+    "monster_name":"Yian Garuga",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":754,
+    "monster_name":"Yian Garuga",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":755,
+    "monster_name":"Yian Garuga",
+    "rank":"G",
+    "method":"Break Ear",
+    "item_name":"Garuga Auricle",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":756,
+    "monster_name":"Yian Garuga",
+    "rank":"G",
+    "method":"Break Ear",
+    "item_name":"Garuga Shard",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":757,
+    "monster_name":"Yian Garuga",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Garuga Lash",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":758,
+    "monster_name":"Yian Garuga",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Garuga Shard",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":759,
+    "monster_name":"Yian Garuga",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Garuga Scale+",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":760,
+    "monster_name":"Yian Garuga",
+    "rank":"G",
+    "method":"Break Beak",
+    "item_name":"Rejuvenated Beak",
+    "quantity":1,
+    "percent":85
+  },
+  {
+    "dropID":761,
+    "monster_name":"Yian Garuga",
+    "rank":"G",
+    "method":"Break Beak",
+    "item_name":"Garuga Shard",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":762,
+    "monster_name":"Yian Garuga",
+    "rank":"G",
+    "method":"Break Talon",
+    "item_name":"Garuga Fellwing",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":763,
+    "monster_name":"Yian Garuga",
+    "rank":"G",
+    "method":"Break Talon",
+    "item_name":"Garuga Fellwing",
+    "quantity":2,
+    "percent":35
+  },
+  {
+    "dropID":764,
+    "monster_name":"Yian Garuga",
+    "rank":"G",
+    "method":"Break Talon",
+    "item_name":"Garuga Cortex",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":765,
+    "monster_name":"Yian Garuga",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Garuga Silverpelt",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":766,
+    "monster_name":"Yian Garuga",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Garuga Cortex",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":767,
+    "monster_name":"Yian Garuga",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Garuga Carapace",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":768,
+    "monster_name":"Daimyo Hermitaur",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Crab Pearl",
+    "quantity":1,
+    "percent":38
+  },
+  {
+    "dropID":769,
+    "monster_name":"Daimyo Hermitaur",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Crab Pearl+",
+    "quantity":1,
+    "percent":37
+  },
+  {
+    "dropID":770,
+    "monster_name":"Daimyo Hermitaur",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Black Pearl",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":771,
+    "monster_name":"Daimyo Hermitaur",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Hermitaur Carapace",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":772,
+    "monster_name":"Daimyo Hermitaur",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Monster Bone+",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":773,
+    "monster_name":"Daimyo Hermitaur",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Hermitaur Claw+",
+    "quantity":1,
+    "percent":14
+  },
+  {
+    "dropID":774,
+    "monster_name":"Daimyo Hermitaur",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Black Pearl",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":775,
+    "monster_name":"Daimyo Hermitaur",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Carapaceon Brains+",
+    "quantity":1,
+    "percent":1
+  },
+  {
+    "dropID":776,
+    "monster_name":"Daimyo Hermitaur",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Hermitaur Claw+",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":777,
+    "monster_name":"Daimyo Hermitaur",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Hermitaur Carapace",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":778,
+    "monster_name":"Daimyo Hermitaur",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Black Pearl",
+    "quantity":2,
+    "percent":20
+  },
+  {
+    "dropID":779,
+    "monster_name":"Daimyo Hermitaur",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":780,
+    "monster_name":"Daimyo Hermitaur",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":781,
+    "monster_name":"Daimyo Hermitaur",
+    "rank":"High",
+    "method":"Break Claw",
+    "item_name":"Hermitaur Claw+",
+    "quantity":1,
+    "percent":65
+  },
+  {
+    "dropID":782,
+    "monster_name":"Daimyo Hermitaur",
+    "rank":"High",
+    "method":"Break Claw",
+    "item_name":"Hermitaur Claw+",
+    "quantity":2,
+    "percent":25
+  },
+  {
+    "dropID":783,
+    "monster_name":"Daimyo Hermitaur",
+    "rank":"High",
+    "method":"Break Claw",
+    "item_name":"Hermitaur Carapace",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":784,
+    "monster_name":"Daimyo Hermitaur",
+    "rank":"High",
+    "method":"Break Shell",
+    "item_name":"Wyvern Scalp",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":785,
+    "monster_name":"Daimyo Hermitaur",
+    "rank":"High",
+    "method":"Break Shell",
+    "item_name":"Hermitaur Carapace",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":786,
+    "monster_name":"Daimyo Hermitaur",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Crab Pearl+",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":787,
+    "monster_name":"Daimyo Hermitaur",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Hermitaur Cortex",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":788,
+    "monster_name":"Daimyo Hermitaur",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Fine Black Pearl",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":789,
+    "monster_name":"Daimyo Hermitaur",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Black Pearl",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":790,
+    "monster_name":"Daimyo Hermitaur",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Hermitaur Cortex",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":791,
+    "monster_name":"Daimyo Hermitaur",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Monster Hardbone",
+    "quantity":1,
+    "percent":19
+  },
+  {
+    "dropID":792,
+    "monster_name":"Daimyo Hermitaur",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Hermitaur Hardclaw",
+    "quantity":1,
+    "percent":16
+  },
+  {
+    "dropID":793,
+    "monster_name":"Daimyo Hermitaur",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Fine Black Pearl",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":794,
+    "monster_name":"Daimyo Hermitaur",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Carapaceon Brains+",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":795,
+    "monster_name":"Daimyo Hermitaur",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Hermitaur Hardclaw",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":796,
+    "monster_name":"Daimyo Hermitaur",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Hermitaur Cortex",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":797,
+    "monster_name":"Daimyo Hermitaur",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Fine Black Pearl",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":798,
+    "monster_name":"Daimyo Hermitaur",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":799,
+    "monster_name":"Daimyo Hermitaur",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":800,
+    "monster_name":"Daimyo Hermitaur",
+    "rank":"G",
+    "method":"Break Claw",
+    "item_name":"Hermitaur Hardclaw",
+    "quantity":1,
+    "percent":65
+  },
+  {
+    "dropID":801,
+    "monster_name":"Daimyo Hermitaur",
+    "rank":"G",
+    "method":"Break Claw",
+    "item_name":"Hermitaur Hardclaw",
+    "quantity":2,
+    "percent":25
+  },
+  {
+    "dropID":802,
+    "monster_name":"Daimyo Hermitaur",
+    "rank":"G",
+    "method":"Break Claw",
+    "item_name":"Hermitaur Cortex",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":803,
+    "monster_name":"Daimyo Hermitaur",
+    "rank":"G",
+    "method":"Break Shell",
+    "item_name":"Hermitaur Cortex",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":804,
+    "monster_name":"Daimyo Hermitaur",
+    "rank":"G",
+    "method":"Break Shell",
+    "item_name":"Scarlet Finehorn",
+    "quantity":1,
+    "percent":33
+  },
+  {
+    "dropID":805,
+    "monster_name":"Daimyo Hermitaur",
+    "rank":"G",
+    "method":"Break Shell",
+    "item_name":"Wyvern Scalp",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":806,
+    "monster_name":"Daimyo Hermitaur",
+    "rank":"G",
+    "method":"Break Shell",
+    "item_name":"Monoblos Heart",
+    "quantity":1,
+    "percent":7
+  },
+  {
+    "dropID":807,
+    "monster_name":"Plum Daimyo Hermitaur",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Crab Pearl+",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":808,
+    "monster_name":"Plum Daimyo Hermitaur",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Hermitaur Purpshell",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":809,
+    "monster_name":"Plum Daimyo Hermitaur",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Fine Black Pearl",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":810,
+    "monster_name":"Plum Daimyo Hermitaur",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Black Pearl",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":811,
+    "monster_name":"Plum Daimyo Hermitaur",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Hermitaur Purpshell",
+    "quantity":1,
+    "percent":51
+  },
+  {
+    "dropID":812,
+    "monster_name":"Plum Daimyo Hermitaur",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Monster Hardbone",
+    "quantity":1,
+    "percent":22
+  },
+  {
+    "dropID":813,
+    "monster_name":"Plum Daimyo Hermitaur",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Fine Black Pearl",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":814,
+    "monster_name":"Plum Daimyo Hermitaur",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Hermitaur Purpclaw",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":815,
+    "monster_name":"Plum Daimyo Hermitaur",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Carapaceon Brains+",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":816,
+    "monster_name":"Plum Daimyo Hermitaur",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Hermitaur Purpclaw",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":817,
+    "monster_name":"Plum Daimyo Hermitaur",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Hermitaur Purpshell",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":818,
+    "monster_name":"Plum Daimyo Hermitaur",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Fine Black Pearl",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":819,
+    "monster_name":"Plum Daimyo Hermitaur",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":820,
+    "monster_name":"Plum Daimyo Hermitaur",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":821,
+    "monster_name":"Plum Daimyo Hermitaur",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":2,
+    "percent":25
+  },
+  {
+    "dropID":822,
+    "monster_name":"Plum Daimyo Hermitaur",
+    "rank":"G",
+    "method":"Break Claw",
+    "item_name":"Hermitaur Purpclaw",
+    "quantity":1,
+    "percent":58
+  },
+  {
+    "dropID":823,
+    "monster_name":"Plum Daimyo Hermitaur",
+    "rank":"G",
+    "method":"Break Claw",
+    "item_name":"Hermitaur Purpshell",
+    "quantity":1,
+    "percent":22
+  },
+  {
+    "dropID":824,
+    "monster_name":"Plum Daimyo Hermitaur",
+    "rank":"G",
+    "method":"Break Claw",
+    "item_name":"Hermitaur Purpclaw",
+    "quantity":2,
+    "percent":20
+  },
+  {
+    "dropID":825,
+    "monster_name":"Plum Daimyo Hermitaur",
+    "rank":"G",
+    "method":"Break Shell",
+    "item_name":"Hermitaur Purpshell",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":826,
+    "monster_name":"Plum Daimyo Hermitaur",
+    "rank":"G",
+    "method":"Break Shell",
+    "item_name":"Majestic Horn",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":827,
+    "monster_name":"Plum Daimyo Hermitaur",
+    "rank":"G",
+    "method":"Break Shell",
+    "item_name":"Monster Slogbone",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":828,
+    "monster_name":"Plum Daimyo Hermitaur",
+    "rank":"G",
+    "method":"Break Shell",
+    "item_name":"Wyvern Scalp",
+    "quantity":1,
+    "percent":15
+  }
+]

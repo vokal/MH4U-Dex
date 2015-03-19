@@ -1,0 +1,638 @@
+[
+  {
+    "class":"Boss",
+    "name":"Akantor",
+    "sort_name":"Akantor",
+    "description":"A wyvern shrouded in mystery and known by many names -- \"the black god\" to some, \"the tyrant of fire\" to others, but usually called \"Akantor\" by the Guild. Its giant spines and tusks make for a fearsome sight in the volcanic areas it frequents."
+  },
+  {
+    "class":"Minion",
+    "name":"Altaroth",
+    "sort_name":"Altaroth",
+    "description":"Insects that widely inhabit many areas. They absorb fruit, mushrooms, and honey, and then carry those things back to the nest. Materials can thus be collected from their swollen abdomens, whose color is related to what is being carried."
+  },
+  {
+    "class":"Minion",
+    "name":"Apceros",
+    "sort_name":"Apceros",
+    "description":"Desert-dwelling Herbivores covered in tough plating. Highly territorial and known to tirelessly chase any who enter their habitat, they are especially hostile toward hunters, who have made a practice of stealing eggs from their nests."
+  },
+  {
+    "class":"Minion",
+    "name":"Aptonoth",
+    "sort_name":"Aptonoth",
+    "description":"Relatively docile herbivores with characteristic crest plates. They form herds and raise young communally, and have been used as pack animals for generations. Their meat is tasty and nutritious, and they're very cautious around large monsters."
+  },
+  {
+    "class":"Boss",
+    "name":"Basarios",
+    "sort_name":"Basarios",
+    "description":"These juvenile Gravios are famous for their rock-hard carapaces. They often burrow underground, mimicking rocks and savaging oblivious miners. They are known to emit poison gases and are especially weak against bombs."
+  },
+  {
+    "class":"Boss",
+    "name":"Ruby Basarios",
+    "sort_name":"Basarios, Ruby",
+    "description":"A Basarios variant that scatters crystals from its back to fend off attackers, offering those nearby a chance to mine for rare minerals. Jump on one when its back carapace is broken to make it roll over and expose its weak underbelly."
+  },
+  {
+    "class":"Minion",
+    "name":"Bnahabra",
+    "sort_name":"Bnahabra",
+    "description":"Pervasive flying insects that attack invaders with paralyzing venom and lay eggs in carrion along with a fluid that hastens decomposition. It is best to kill them with poison so that their parts are left ripe for the carving."
+  },
+  {
+    "class":"Boss",
+    "name":"Brachydios",
+    "sort_name":"Brachydios",
+    "description":"Brute wyverns coated with an explosive green substance, a material that is thought to be a unique slime mold that is primed to explode by an element in the monster's saliva. They are also capable of powerful foreleg strikes."
+  },
+  {
+    "class":"Boss",
+    "name":"Raging Brachydios",
+    "sort_name":"Brachydios, Raging",
+    "description":"There is no in-game description for this monster variant."
+  },
+  {
+    "class":"Boss",
+    "name":"Cephadrome",
+    "sort_name":"Cephadrome",
+    "description":"The leaders of Cephalos herds, these individuals are set apart by their larger size and hard, black scales. Like their smaller counterparts, they have excellent hearing, making them sensitive to loud noises. Their fins also secrete a paralytic agent."
+  },
+  {
+    "class":"Minion",
+    "name":"Cephalos",
+    "sort_name":"Cephalos",
+    "description":"The coloration of these piscine wyverns is well-suited to the deserts they inhabit. Excellent burrowers, they swim through the sand in packs, rarely surfacing. Their ears are highly developed; any impact caused by striking the ground forces them out of hiding."
+  },
+  {
+    "class":"Boss",
+    "name":"Chameleos",
+    "sort_name":"Chameleos",
+    "description":"Precious few sightings of this elder dragon have been recorded, leading to claims it can vanish into its environment like a chameleon -- hence its name. Witnesses report attacks can come out of nowhere, but that Smoke Bombs keep the beast visible."
+  },
+  {
+    "class":"Minion",
+    "name":"Conga",
+    "sort_name":"Conga",
+    "description":"Ape-like fanged beasts with pink fur. Conga prefer to live in small groups as opposed to large packs and primarily inhabit warm, humid environments."
+  },
+  {
+    "class":"Boss",
+    "name":"Congalala",
+    "sort_name":"Congalala",
+    "description":"A large fanged beast with pink fur, often found in warm, damp regions. Fond of mushrooms, Congalalas possess either poisonous or flaming breath, depending on the food available in their local habitat."
+  },
+  {
+    "class":"Boss",
+    "name":"Emerald Congalala",
+    "sort_name":"Congalala, Emerald",
+    "description":"A Congalala variant with green fur and a more prominent crest. Even more ravenous than ordinary Congalalas, they can store a greater amount of gas in their body, which means that they can produce a wider-reaching flatulence when threatened or provoked."
+  },
+  {
+    "class":"Boss",
+    "name":"Dah'ren Mohran",
+    "sort_name":"Dah'ren Mohran",
+    "description":"Colossal elder dragons that swim through the Great Desert, smashing obstacles with their spiral horns. Their unique color comes from the thick layer of oxidized metals and other rare minerals that lodge in their hides over their long lives."
+  },
+  {
+    "class":"Boss",
+    "name":"Daimyo Hermitaur",
+    "sort_name":"Daimyo Hermitaur",
+    "description":"This large Carapaceon attacks prey primarily with its large pincers and bubble breath. If the massive monster skull it wears on its back is destroyed, it will flee in search of a new husk to call home."
+  },
+  {
+    "class":"Boss",
+    "name":"Plum Daimyo Hermitaur",
+    "sort_name":"Daimyo Hermitaur, Plum",
+    "description":"A large Carapaceon characterized by its distinct coloring and the massive monster skull it carries on its back. Unlike more common varieties, it leaps high into the air and onto foes, making it especially deadly."
+  },
+  {
+    "class":"Boss",
+    "name":"Dalamadur",
+    "sort_name":"Dalamadur",
+    "description":"A huge elder dragon, massive beyond human comprehension. The only mention of its existence is found in fairy tales, which claim it can warp the very surface of the world and level mountains with a single twitch."
+  },
+  {
+    "class":"Boss",
+    "name":"Shah Dalamadur",
+    "sort_name":"Dalamadur, Shah",
+    "description":"A Dalamadur subspecies easily identified by the red spines lining its back. Though they were once thought to exist only in legend, multiple sightings in the past few years have led many to fear Shah Dalamadur as an omen of grave things to come."
+  },
+  {
+    "class":"Minion",
+    "name":"Delex",
+    "sort_name":"Delex",
+    "description":"Carnivorous desert monsters that travel in schools of four or five. Delex often follow large predators in the hope of scavenging leftovers, and have even been known to hitch rides on hunting sandskiffs. They are extremely sensitive to sound."
+  },
+  {
+    "class":"Boss",
+    "name":"Deviljho",
+    "sort_name":"Deviljho",
+    "description":"The dreaded, nomadic Deviljho have no specific territory of their own. Their muscles swell if provoked, revealing old wounds. They need to feed constantly due to high body heat and can hunt nearby animals to extinction."
+  },
+  {
+    "class":"Boss",
+    "name":"Savage Deviljho",
+    "sort_name":"Deviljho, Savage",
+    "description":"There is no in-game description for this monster variant."
+  },
+  {
+    "class":"Boss",
+    "name":"Apex Deviljho",
+    "sort_name":"Deviljho, ZApex",
+    "description":"There is no in-game description for this monster variant."
+  },
+  {
+    "class":"Boss",
+    "name":"Diablos",
+    "sort_name":"Diablos",
+    "description":"A desert wyvern that takes its name from the giant horns that crown its head. Like the Monoblos, the Diablos charges its prey or strikes from underground, moving more quickly once it is angered. Their sensitive ears make them susceptible to Sonic Bombs."
+  },
+  {
+    "class":"Boss",
+    "name":"Black Diablos",
+    "sort_name":"Diablos, Black",
+    "description":"These black-shelled Diablos are treated as a subspecies, but are actually just female Diablos in heat. The color change is a signal to other creatures, as they tend to become extremely aggressive during mating season."
+  },
+  {
+    "class":"Boss",
+    "name":"Apex Diablos",
+    "sort_name":"Diablos, ZApex",
+    "description":"There is no in-game description for this monster variant."
+  },
+  {
+    "class":"Boss",
+    "name":"Fatalis",
+    "sort_name":"Fatalis",
+    "description":"Stories of this legendary dragon date back to antiquity. Many skilled hunters have sought to challenge it, but none have ever returned. A monster shrouded in mystery..."
+  },
+  {
+    "class":"Boss",
+    "name":"Crimson Fatalis",
+    "sort_name":"Fatalis, Crimson",
+    "description":"There is no in-game description for this monster variant."
+  },
+  {
+    "class":"Boss",
+    "name":"White Fatalis",
+    "sort_name":"Fatalis, White",
+    "description":"There is no in-game description for this monster variant."
+  },
+  {
+    "class":"Minion",
+    "name":"Felyne",
+    "sort_name":"Felyne",
+    "description":"Bipedal creatures resembling cats, known for their light hair. Though usually docile, they will attack viciously if provoked. Naturally curious, some try to enter human society. They are fond of Felvine and will follow its scent anywhere."
+  },
+  {
+    "class":"Minion",
+    "name":"Gargwa",
+    "sort_name":"Gargwa",
+    "description":"Flightless, plain-dwelling bird wyverns with vestigial wings. Quite timid, Gargwa have been known to lay eggs when other creatures surprise them from behind. They are raised as livestock in numerous villages."
+  },
+  {
+    "class":"Boss",
+    "name":"Gendrome",
+    "sort_name":"Gendrome",
+    "description":"Alpha monsters that lead Genprey packs. Larger than their brothers and with a more prominent crest, Gendrome use the venom in their highly evolved fangs and claws to paralyze their prey."
+  },
+  {
+    "class":"Minion",
+    "name":"Genprey",
+    "sort_name":"Genprey",
+    "description":"Bird wyverns with a distinctive green-and-orange striped hide, Genprey live in packs in the Sunken Hollow and Primal Forest. Their claws and large fangs contain a paralyzing neurotoxin that they use to stun prey."
+  },
+  {
+    "class":"Boss",
+    "name":"Gogmazios",
+    "sort_name":"Gogmazios",
+    "description":"Coated in a thick, sticky fluid, this massive elder dragon appears unhindered by the Dragonator lodged in its back. Eyewitness reports suggest that, despite its massive size, this mysterious behemoth is indeed capable of flight."
+  },
+  {
+    "class":"Boss",
+    "name":"Gore Magala",
+    "sort_name":"Gore Magala",
+    "description":"A curious monster that, when threatened, scatters pollen-like scales that heighten its own senses while causing detrimental effects to any other creatures that inhale them. As elusive as they are mysterious."
+  },
+  {
+    "class":"Boss",
+    "name":"Chaotic Gore Magala",
+    "sort_name":"Gore Magala, Chaotic",
+    "description":"There is no in-game description for this monster variant."
+  },
+  {
+    "class":"Boss",
+    "name":"Gravios",
+    "sort_name":"Gravios",
+    "description":"Large wyverns found in volcanic areas. They possess a fiery breath attack and the ability to emit sleeping gas. Their bony carapaces are extremely tough, but expose a surprisingly brittle interior once destroyed."
+  },
+  {
+    "class":"Boss",
+    "name":"Black Gravios",
+    "sort_name":"Gravios, Black",
+    "description":"A Gravios subspecies distinguished by a hard black carapace that allows them to contain their own extraordinarily high internal temperatures. They sometimes discharge this thermal energy as an extremely powerful heat ray."
+  },
+  {
+    "class":"Boss",
+    "name":"Apex Gravios",
+    "sort_name":"Gravios, ZApex",
+    "description":"There is no in-game description for this monster variant."
+  },
+  {
+    "class":"Boss",
+    "name":"Great Jaggi",
+    "sort_name":"Great Jaggi",
+    "description":"The alpha male that leads Jaggi packs. Most males leave the group upon reaching maturity, returning later to compete with others. The dominant male then becomes a Great Jaggi. Apparently, they can issue fairly complex orders via howling."
+  },
+  {
+    "class":"Boss",
+    "name":"Gypceros",
+    "sort_name":"Gypceros",
+    "description":"Wyverns that can generate disorienting flashes of light by striking their prominent crests. Their rubbery hide resists blunt impacts and makes Shock Traps less effective. Beware: The poisonous saliva they spit can flow down slopes."
+  },
+  {
+    "class":"Boss",
+    "name":"Purple Gypceros",
+    "sort_name":"Gypceros, Purple",
+    "description":"A Gypceros variant distinguished by its unique purple hide. They are extremely resistant to poison, and can spit copious amounts of highly venomous saliva."
+  },
+  {
+    "class":"Minion",
+    "name":"Hermitaur",
+    "sort_name":"Hermitaur",
+    "description":"These small, hard-shelled Carapaceon creatures are common in the desert, where they frequently lie in wait under the sands, lashing out when prey happen past them. Their brains are prized as a delicacy."
+  },
+  {
+    "class":"Boss",
+    "name":"Iodrome",
+    "sort_name":"Iodrome",
+    "description":"Alpha monsters that lead Ioprey packs. Larger than their brothers and with a more prominent crest, Iodrome spit a poison that slowly saps the life from their prey. They are found primarily in subtropical zones."
+  },
+  {
+    "class":"Minion",
+    "name":"Ioprey",
+    "sort_name":"Ioprey",
+    "description":"A vivid red species of small carnivores often found in subtropical zones. Sacs in their throats contain a powerful poison that slowly drains the Health of their prey."
+  },
+  {
+    "class":"Minion",
+    "name":"Jaggi",
+    "sort_name":"Jaggi",
+    "description":"Highly social, carnivorous bird wyverns that live in large packs. Young Jaggi males hunt in groups when attacking larger animals and have been known to steal wyvern eggs. Research suggests they operate under orders from a single alpha male."
+  },
+  {
+    "class":"Minion",
+    "name":"Jaggia",
+    "sort_name":"Jaggia",
+    "description":"Female Jaggi that stay in packs, Jaggia generally live near the nest and are responsible for defending it and raising young. Smaller than mature males, but larger and tougher than the pack's countless young males. They also operate under orders from the alpha."
+  },
+  {
+    "class":"Boss",
+    "name":"Kecha Wacha",
+    "sort_name":"Kecha Wacha",
+    "description":"Fanged beasts with limbs adapted for swinging through forests and membranes on their forelegs for gliding. When provoked, they shield their faces with giant ears, blocking out any loud noises or bright light."
+  },
+  {
+    "class":"Boss",
+    "name":"Ash Kecha Wacha",
+    "sort_name":"Kecha Wacha, Ash",
+    "description":"As with standard Kecha Wacha, these arboreal fanged beasts shield their face with their tough ears when provoked. What makes them different, however, is their ability to spit fireballs, and, of course, their trademark pale fur."
+  },
+  {
+    "class":"Minion",
+    "name":"Kelbi",
+    "sort_name":"Kelbi",
+    "description":"Small herbivores known for their gentle demeanor as well as the medicinal properties of their horns. Those wishing to harvest a horn should stun the Kelbi with blunt attacks and then sever it while the animal is still alive."
+  },
+  {
+    "class":"Boss",
+    "name":"Khezu",
+    "sort_name":"Khezu",
+    "description":"Loathsome wyverns that dwell in caves and other dark places. All but blind, Khezu hunt by smell, using electric shocks to paralyze their prey before pouncing from high walls and ceilings."
+  },
+  {
+    "class":"Boss",
+    "name":"Red Khezu",
+    "sort_name":"Khezu, Red",
+    "description":"A ghastly Khezu variant with a crimson hue and a much more aggressive temperament. Their electrical organs are further developed as well, giving them a wider variety of attacks to disable and ensnare prey."
+  },
+  {
+    "class":"Boss",
+    "name":"Kirin",
+    "sort_name":"Kirin",
+    "description":"Elder dragons so rarely sighted that little is known of their ecology, though everyone knows of the high prices Kirin parts fetch. It's been said they are one with lightning itself, and that their bodies becomes clothed in pure electricity when they are provoked."
+  },
+  {
+    "class":"Boss",
+    "name":"Oroshi Kirin",
+    "sort_name":"Kirin, Oroshi",
+    "description":"Reliable sightings of these elusive creatures are virtually nonexistent. The few reports available claim that temperatures plummet whenever they appear, as all moisture in the air spontaneously freezes."
+  },
+  {
+    "class":"Minion",
+    "name":"Konchu",
+    "sort_name":"Konchu",
+    "description":"Neopterons that travel widely for food and can survive in almost any environment. Konchu roll into balls both to protect themselves and to fend off threats. Their sturdy shells are fairly easy to procure and are highly prized by armorers."
+  },
+  {
+    "class":"Boss",
+    "name":"Kushala Daora",
+    "sort_name":"Kushala Daora",
+    "description":"It's difficult to even get close to one of these metallic dragons, but some claim better odds if the creature is weakened with poison, or has another hunter on its back, limiting the amount of wind pressure it can muster."
+  },
+  {
+    "class":"Boss",
+    "name":"Rusted Kushala Daora",
+    "sort_name":"Kushala Daora, Rusted",
+    "description":"There is no in-game description for this monster variant."
+  },
+  {
+    "class":"Boss",
+    "name":"Lagombi",
+    "sort_name":"Lagombi",
+    "description":"Fanged beasts whose warm pelts and thick layers of fat help them survive in cold climates. Though mainly herbivores, Lagombi occasionally make use of their exceptional hearing and ability to glide on ice to sneak up on prey."
+  },
+  {
+    "class":"Minion",
+    "name":"Melynx",
+    "sort_name":"Melynx",
+    "description":"Bipedal creatures resembling cats, known for their dark hair. More curious than Felynes and possessed by kleptomania, Melynxes take what they steal back to their dens. Felvine intoxicates them, causing them to sometimes drop items."
+  },
+  {
+    "class":"Boss",
+    "name":"Monoblos",
+    "sort_name":"Monoblos",
+    "description":"A monocerous desert-dwelling wyvern able to burrow swiftly through the sand. It puts its horn to lethal use with a charging thrust, and while it possesses no breath attack, its roar is loud enough to split human eardrums."
+  },
+  {
+    "class":"Boss",
+    "name":"White Monoblos",
+    "sort_name":"Monoblos, White",
+    "description":"A rare Monoblos subspecies covered in chalk-tinted plating. More ferocious than its standard cousin, the White Monoblos is unrelenting in the pursuit of any prey it happens upon."
+  },
+  {
+    "class":"Boss",
+    "name":"Najarala",
+    "sort_name":"Najarala",
+    "description":"A monster that stuns its prey with vibrations from its scales, then wraps around and constricts its victims. Should a Najarala start to coil around you, a quick escape or quick kill are your only chances of survival."
+  },
+  {
+    "class":"Boss",
+    "name":"Tidal Najarala",
+    "sort_name":"Najarala, Tidal",
+    "description":"A Najarala subspecies that makes deadly use of its long body. Tidal Najarala respond to threats by spitting a watery substance at targets and have even been known to use their own scales to deflect this liquid bile so that they can snipe at more elusive prey."
+  },
+  {
+    "class":"Boss",
+    "name":"Apex Tidal Najarala",
+    "sort_name":"Najarala, ZApex",
+    "description":"There is no in-game description for this monster variant."
+  },
+  {
+    "class":"Boss",
+    "name":"Nerscylla",
+    "sort_name":"Nerscylla",
+    "description":"A Temnoceran that spins webs to defend territory and hunt prey. They bind foes that have been weakened by ailments and devour them with giant mandibles. They are fond of wearing the hides left by the Gypceros prey they consume."
+  },
+  {
+    "class":"Boss",
+    "name":"Shrouded Nerscylla",
+    "sort_name":"Nerscylla, Shrouded",
+    "description":"Desert-dwelling Temnocerans who lure threats into sand traps, then tear into the ensnared prey using their scissor-like mandibles. Similar to their more common cousins, they wear the skins of their prey -- most often Khezu."
+  },
+  {
+    "class":"Minion",
+    "name":"Popo",
+    "sort_name":"Popo",
+    "description":"Herd-forming herbivores covered in thick fur to endure the cold. Popo are gentle, but are known to use their massive tusks bravely when defending their young. Popo meat is very nutritious; the tongue is said to be especially palatable."
+  },
+  {
+    "class":"Boss",
+    "name":"Rajang",
+    "sort_name":"Rajang",
+    "description":"An ultra-aggressive creature that is rarely sighted and seldom survived. Survivors report it exhibits a strange attack. The Rajang is said to be a loner, and this isolated life has made it difficult to pin down its territorial leanings."
+  },
+  {
+    "class":"Boss",
+    "name":"Furious Rajang",
+    "sort_name":"Rajang, Furious",
+    "description":"There is no in-game description for this monster variant."
+  },
+  {
+    "class":"Boss",
+    "name":"Apex Rajang",
+    "sort_name":"Rajang, ZApex",
+    "description":"There is no in-game description for this monster variant."
+  },
+  {
+    "class":"Boss",
+    "name":"Rathalos",
+    "sort_name":"Rathalos",
+    "description":"Terrible wyverns called \"Kings of the Skies.\" Along with Rathians, they stake wide territories centered around their nests. Rathalos descend on invaders from the sky, attacking with poison claws and breath of fire."
+  },
+  {
+    "class":"Boss",
+    "name":"Azure Rathalos",
+    "sort_name":"Rathalos, Azure",
+    "description":"An azure-colored subspecies of Rathalos. More mobile than their standard cousins, they locate prey from the air and quickly swoop in for the kill. Once these master hunters select a target, there is little hope of escape."
+  },
+  {
+    "class":"Boss",
+    "name":"Silver Rathalos",
+    "sort_name":"Rathalos, Silver",
+    "description":"A rare variant of Rathalos with a beautiful silver body reminiscent of the sun. Little is known about their behavior or physiology -- including the source of their rich silver sheen."
+  },
+  {
+    "class":"Boss",
+    "name":"Rathian",
+    "sort_name":"Rathian",
+    "description":"Fire-breathing female wyverns, also known as the \"Queens of the Land.\" With powerful legs and poison-secreting tails, they hunt mainly on the ground. Sometimes seen preying as a couple, Rathians and Rathalos cooperate well."
+  },
+  {
+    "class":"Boss",
+    "name":"Pink Rathian",
+    "sort_name":"Rathian, Pink",
+    "description":"A subspecies of Rathian with vibrant pink scales. Pink Rathians wield their toxic tails more skillfully than normal Rathians, and use a wide variety of attacks to weaken their prey before eventually moving in for the kill."
+  },
+  {
+    "class":"Boss",
+    "name":"Gold Rathian",
+    "sort_name":"Rathian, ZGold",
+    "description":"A rare variant of Rathian with a beautiful golden body reminiscent of the moon. Little is known about their behavior or physiology -- including the source of their rich golden sheen."
+  },
+  {
+    "class":"Minion",
+    "name":"Remobra",
+    "sort_name":"Remobra",
+    "description":"Small but agile flying wyverns that seek out weakened creatures to attack. Often seen near elder dragons, they're considered a portent of disaster. The discovery of Najarala led to their reclassification as Snake Wyverns."
+  },
+  {
+    "class":"Minion",
+    "name":"Rhenoplos",
+    "sort_name":"Rhenoplos",
+    "description":"Extremely territorial herbivores with poor vision but acute hearing, Rhenoplos will doggedly pursue any target they sense. They often run into boulders, perhaps because they cannot easily stop once they break into a run."
+  },
+  {
+    "class":"Boss",
+    "name":"Seltas",
+    "sort_name":"Seltas",
+    "description":"Neopterons that use swift aerial movements to attack invaders on the ground. The sharp appendages on their heads can make their lunging attacks quite dangerous, though they sometimes overshoot their targets and slam into the ground."
+  },
+  {
+    "class":"Boss",
+    "name":"Desert Seltas",
+    "sort_name":"SeltasDesert",
+    "description":"A mid-sized Neopteron whose forked horns and broad foreleg- attack range set it apart from its more common cousins. Desert Seltas have also been known to burrow freely through the ground."
+  },
+  {
+    "class":"Boss",
+    "name":"Seltas Queen",
+    "sort_name":"SeltasQueen",
+    "description":"Unable to fly by themselves, these wingless female Neopterons release pheromones to lure in male Seltas to serve as thralls. Seltas Queens possess an extremely heavy carapace, but their mucus-spewing maw is vulnerable when exposed."
+  },
+  {
+    "class":"Boss",
+    "name":"Desert Seltas Queen",
+    "sort_name":"SeltasQueen, Desert",
+    "description":"A large Neopteron known to use the pincers at the tip of its long tail to grasp male Seltas -- or anything it considers a threat. Once it has a male in its grasp, this Desert subspecies may even violently throw its mate at enemies."
+  },
+  {
+    "class":"Boss",
+    "name":"Seregios",
+    "sort_name":"Seregios",
+    "description":"An elusive breed of wyvern only rarely spotted throughout the lands in recent years. Known for its ability to launch razor- edged scales at prey, and for its ability to stand those scales on end to strike at any who threaten it."
+  },
+  {
+    "class":"Boss",
+    "name":"Apex Seregios",
+    "sort_name":"Seregios, ZApex",
+    "description":"There is no in-game description for this monster variant."
+  },
+  {
+    "class":"Boss",
+    "name":"Shagaru Magala",
+    "sort_name":"Shagaru Magala",
+    "description":"The distinctive radiant light of this mature Gore Magala has been seen in the Sanctuary of Heaven's Mount. Some believe Shagaru Magala was the \"foul wind that withered a mountain,\" a calamity spoken of in ancient texts."
+  },
+  {
+    "class":"Minion",
+    "name":"Slagtoth",
+    "sort_name":"Slagtoth",
+    "description":"Herbivores that live in coastal areas. Their heavy, sagging hides store nutrients and are prized for their heat and water resistance. The males are quite territorial, often refusing to flee even from invading wyverns."
+  },
+  {
+    "class":"Boss",
+    "name":"Teostra",
+    "sort_name":"Teostra",
+    "description":"Brutal elder dragons clothed in flame that spit blazing fire. Teostra are of such a fierce and deadly nature that the Guild keeps track of their movements whenever possible."
+  },
+  {
+    "class":"Boss",
+    "name":"Tetsucabra",
+    "sort_name":"Tetsucabra",
+    "description":"Amphibians with unique jaws and tusks that they use to sift through rocks for prey. They use their powerful hind legs to traverse steep terrain. The tail supports movement, but can become vulnerable with exertion."
+  },
+  {
+    "class":"Boss",
+    "name":"Berserk Tesucabra",
+    "sort_name":"Tetsucabra, Berserk",
+    "description":"An amphibious monster known for its distinctive markings resembling a painted face. These beasts dig up and hurl boulders in the same way as a standard Tetsucabra does, but the stones thrown by this Berserk variety explode upon impact."
+  },
+  {
+    "class":"Boss",
+    "name":"Tigrex",
+    "sort_name":"Tigrex",
+    "description":"Flying wyverns whose primitive origins are obvious. Prone to violence, they display incredible ferocity with their claws, jaws, and developed limbs. They inhabit a wide area, and have been spotted as far off as the Frozen Seaway."
+  },
+  {
+    "class":"Boss",
+    "name":"Brute Tigrex",
+    "sort_name":"Tigrex, Brute",
+    "description":"A subspecies of Tigrex, these beasts are as brutal as they are ravenous. They prefer volcanic regions, but can be found in a range of areas. Their howls are even more piercing than standard Tigrex roars and send shockwaves far and wide."
+  },
+  {
+    "class":"Boss",
+    "name":"Molten Tigrex",
+    "sort_name":"Tigrex, Molten",
+    "description":"A rare Tigrex variant theorized to exist after the discovery of claw marks and prints far larger than those of an ordinary Tigrex. With no confirmed first-hand sightings, its existence remains a matter of debate among hunters."
+  },
+  {
+    "class":"Boss",
+    "name":"Apex Tigrex",
+    "sort_name":"Tigrex, ZApex",
+    "description":"There is no in-game description for this monster variant."
+  },
+  {
+    "class":"Boss",
+    "name":"Ukanlos",
+    "sort_name":"Ukanlos",
+    "description":"An enigmatic dragon sighted only deep within the most remote extremes. Its jaws are capable of crushing ice and rock alike. The natives of one region claim its appearance mirrors that of the white god of their legends."
+  },
+  {
+    "class":"Boss",
+    "name":"Velocidrome",
+    "sort_name":"Velocidrome",
+    "description":"Alpha monsters that lead Velociprey packs. Larger than their brothers and with a more prominent crest, Velocidrome use their strong hind legs to leap at prey, pinning them with sharp claws before calling for others."
+  },
+  {
+    "class":"Minion",
+    "name":"Velociprey",
+    "sort_name":"Velociprey",
+    "description":"Aggressive, carnivorous monsters that often travel and hunt in packs -- even master hunters are careful to not let themselves get surrounded by these predators. In this region, they're known to inhabit the Everwood."
+  },
+  {
+    "class":"Boss",
+    "name":"Yian Garuga",
+    "sort_name":"Yian Garuga",
+    "description":"A close relative of the Yian Kut-Ku known for its hard black scales and tufts of white mane. These clever monsters are known to avoid traps and use their poisonous tails to deadly effect; they are not to be taken lightly."
+  },
+  {
+    "class":"Boss",
+    "name":"Yian Kut-Ku",
+    "sort_name":"Yian Kut-Ku",
+    "description":"A bird wyvern with a huge beak and large ears that splay open when it is angered. Due to its sensitive hearing it dislikes loud noises. It is smaller but faster than other wyverns."
+  },
+  {
+    "class":"Boss",
+    "name":"Blue Yian Kut-Ku",
+    "sort_name":"Yian Kut-Ku, Blue",
+    "description":"A Yian Kut-Ku variant protected by a blue carapace. They share the same weakness to loud noises that ordinary Yian Kut-Ku have, but when angered, they display significantly greater physical strength."
+  },
+  {
+    "class":"Minion",
+    "name":"Zamite",
+    "sort_name":"Zamite",
+    "description":"Juvenile Zamtrios that use their sharp teeth to pierce the hide of their prey and then burrow inside to consume them from within; those who are attacked must roll around vigorously to shake the monster off. Zamite grow rapidly after even a single feeding."
+  },
+  {
+    "class":"Boss",
+    "name":"Zamtrios",
+    "sort_name":"Zamtrios",
+    "description":"Amphibians that strike from frozen waters, using the cold to stun their prey. They secrete a special liquid that both coats their own body with icy armor and freezes any nearby foes. Frogs are their favorite food."
+  },
+  {
+    "class":"Boss",
+    "name":"Tigerstripe Zamtrios",
+    "sort_name":"Zamtrios, Tigerstripe",
+    "description":"Unlike its standard counterpart, this distinctively-striped Zamtrios subspecies dwells primarily in desert climes, and can employ its ability to expand and contract its body even while in motion, making it an even more formidable adversary."
+  },
+  {
+    "class":"Boss",
+    "name":"Zinogre",
+    "sort_name":"Zinogre",
+    "description":"Fanged wyverns whose bodies are streaked with electricity. Sharp claws and strong limbs allow them to thrive in mountainous terrain. During hunts, they gather numerous Thunderbugs to boost their power and enter a supercharged state."
+  },
+  {
+    "class":"Boss",
+    "name":"Stygian Zinogre",
+    "sort_name":"Zinogre, Stygian",
+    "description":"A subspecies of Zinogre with a jet-black body. It gathers bugs that eat Dragonfell Berries and uses their Dragon Element energy to boost its own power. Perhaps this is why it can survive in scorching heat or freezing cold."
+  },
+  {
+    "class":"Boss",
+    "name":"Apex Zinogre",
+    "sort_name":"Zinogre, ZApex",
+    "description":"There is no in-game description for this monster variant."
+  }
+]

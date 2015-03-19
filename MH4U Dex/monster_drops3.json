@@ -1,0 +1,3071 @@
+[
+  {
+    "dropID":829,
+    "monster_name":"Kecha Wacha",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Beast Tear",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":830,
+    "monster_name":"Kecha Wacha",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Kecha Pelt",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":831,
+    "monster_name":"Kecha Wacha",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Kecha Tail",
+    "quantity":1,
+    "percent":7
+  },
+  {
+    "dropID":832,
+    "monster_name":"Kecha Wacha",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Kecha Pelt",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":833,
+    "monster_name":"Kecha Wacha",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Kecha Longbone",
+    "quantity":1,
+    "percent":32
+  },
+  {
+    "dropID":834,
+    "monster_name":"Kecha Wacha",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Jumbo Bone",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":835,
+    "monster_name":"Kecha Wacha",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Kecha Tail",
+    "quantity":1,
+    "percent":9
+  },
+  {
+    "dropID":836,
+    "monster_name":"Kecha Wacha",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Kecha Ear",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":837,
+    "monster_name":"Kecha Wacha",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Kecha Longbone",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":838,
+    "monster_name":"Kecha Wacha",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Aqua Sac",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":839,
+    "monster_name":"Kecha Wacha",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Kecha Talon",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":840,
+    "monster_name":"Kecha Wacha",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Kecha Tail",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":841,
+    "monster_name":"Kecha Wacha",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Jumbo Bone",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":842,
+    "monster_name":"Kecha Wacha",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Kecha Ear",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":843,
+    "monster_name":"Kecha Wacha",
+    "rank":"Low",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":100
+  },
+  {
+    "dropID":844,
+    "monster_name":"Kecha Wacha",
+    "rank":"Low",
+    "method":"Break Claw",
+    "item_name":"Kecha Talon",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":845,
+    "monster_name":"Kecha Wacha",
+    "rank":"Low",
+    "method":"Break Claw",
+    "item_name":"Kecha Longbone",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":846,
+    "monster_name":"Kecha Wacha",
+    "rank":"Low",
+    "method":"Break Tail",
+    "item_name":"Kecha Tail",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":847,
+    "monster_name":"Kecha Wacha",
+    "rank":"Low",
+    "method":"Break Tail",
+    "item_name":"Kecha Pelt",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":848,
+    "monster_name":"Kecha Wacha",
+    "rank":"Low",
+    "method":"Break Tail",
+    "item_name":"Kecha Longbone",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":849,
+    "monster_name":"Kecha Wacha",
+    "rank":"Low",
+    "method":"Break Ear",
+    "item_name":"Kecha Ear",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":850,
+    "monster_name":"Kecha Wacha",
+    "rank":"Low",
+    "method":"Break Ear",
+    "item_name":"Aqua Sac",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":851,
+    "monster_name":"Kecha Wacha",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Beast Tear",
+    "quantity":1,
+    "percent":38
+  },
+  {
+    "dropID":852,
+    "monster_name":"Kecha Wacha",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Large Beast Tear",
+    "quantity":1,
+    "percent":37
+  },
+  {
+    "dropID":853,
+    "monster_name":"Kecha Wacha",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Kecha Pelt+",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":854,
+    "monster_name":"Kecha Wacha",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Kecha Tail",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":855,
+    "monster_name":"Kecha Wacha",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Kecha Pelt+",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":856,
+    "monster_name":"Kecha Wacha",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Kecha Grandbone",
+    "quantity":1,
+    "percent":32
+  },
+  {
+    "dropID":857,
+    "monster_name":"Kecha Wacha",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Kecha Tail",
+    "quantity":1,
+    "percent":16
+  },
+  {
+    "dropID":858,
+    "monster_name":"Kecha Wacha",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Stoutbone",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":859,
+    "monster_name":"Kecha Wacha",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Kecha Ear+",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":860,
+    "monster_name":"Kecha Wacha",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Kecha Grandbone",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":861,
+    "monster_name":"Kecha Wacha",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Torrent Sac",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":862,
+    "monster_name":"Kecha Wacha",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Kecha Talon",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":863,
+    "monster_name":"Kecha Wacha",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Kecha Tail",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":864,
+    "monster_name":"Kecha Wacha",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Kecha Ear+",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":865,
+    "monster_name":"Kecha Wacha",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Kecha Pelt+",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":866,
+    "monster_name":"Kecha Wacha",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":867,
+    "monster_name":"Kecha Wacha",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":868,
+    "monster_name":"Kecha Wacha",
+    "rank":"High",
+    "method":"Break Claw",
+    "item_name":"Kecha Grandbone",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":869,
+    "monster_name":"Kecha Wacha",
+    "rank":"High",
+    "method":"Break Claw",
+    "item_name":"Kecha Talon",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":870,
+    "monster_name":"Kecha Wacha",
+    "rank":"High",
+    "method":"Break Tail",
+    "item_name":"Kecha Tail",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":871,
+    "monster_name":"Kecha Wacha",
+    "rank":"High",
+    "method":"Break Tail",
+    "item_name":"Kecha Pelt+",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":872,
+    "monster_name":"Kecha Wacha",
+    "rank":"High",
+    "method":"Break Tail",
+    "item_name":"Kecha Grandbone",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":873,
+    "monster_name":"Kecha Wacha",
+    "rank":"High",
+    "method":"Break Ear",
+    "item_name":"Kecha Ear+",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":874,
+    "monster_name":"Kecha Wacha",
+    "rank":"High",
+    "method":"Break Ear",
+    "item_name":"Torrent Sac",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":875,
+    "monster_name":"Kecha Wacha",
+    "rank":"High",
+    "method":"Break Ear",
+    "item_name":"Kecha Ear",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":876,
+    "monster_name":"Kecha Wacha",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Beast Tear",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":877,
+    "monster_name":"Kecha Wacha",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Kecha Fur",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":878,
+    "monster_name":"Kecha Wacha",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Kecha Lash",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":879,
+    "monster_name":"Kecha Wacha",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Kecha Fur",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":880,
+    "monster_name":"Kecha Wacha",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Kecha Leadbone",
+    "quantity":1,
+    "percent":32
+  },
+  {
+    "dropID":881,
+    "monster_name":"Kecha Wacha",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Kecha Lash",
+    "quantity":1,
+    "percent":16
+  },
+  {
+    "dropID":882,
+    "monster_name":"Kecha Wacha",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Massive Bone",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":883,
+    "monster_name":"Kecha Wacha",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Kecha Auricle",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":884,
+    "monster_name":"Kecha Wacha",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Kecha Leadbone",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":885,
+    "monster_name":"Kecha Wacha",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Kecha Ripper",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":886,
+    "monster_name":"Kecha Wacha",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Flood Sac",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":887,
+    "monster_name":"Kecha Wacha",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Kecha Lash",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":888,
+    "monster_name":"Kecha Wacha",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Kecha Auricle",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":889,
+    "monster_name":"Kecha Wacha",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Kecha Fur",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":890,
+    "monster_name":"Kecha Wacha",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":891,
+    "monster_name":"Kecha Wacha",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":892,
+    "monster_name":"Kecha Wacha",
+    "rank":"G",
+    "method":"Break Claw",
+    "item_name":"Kecha Leadbone",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":893,
+    "monster_name":"Kecha Wacha",
+    "rank":"G",
+    "method":"Break Claw",
+    "item_name":"Kecha Ripper",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":894,
+    "monster_name":"Kecha Wacha",
+    "rank":"G",
+    "method":"Break Tail",
+    "item_name":"Kecha Lash",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":895,
+    "monster_name":"Kecha Wacha",
+    "rank":"G",
+    "method":"Break Tail",
+    "item_name":"Kecha Fur",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":896,
+    "monster_name":"Kecha Wacha",
+    "rank":"G",
+    "method":"Break Tail",
+    "item_name":"Kecha Leadbone",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":897,
+    "monster_name":"Kecha Wacha",
+    "rank":"G",
+    "method":"Break Ear",
+    "item_name":"Kecha Auricle",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":898,
+    "monster_name":"Kecha Wacha",
+    "rank":"G",
+    "method":"Break Ear",
+    "item_name":"Flood Sac",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":899,
+    "monster_name":"Kecha Wacha",
+    "rank":"G",
+    "method":"Break Ear",
+    "item_name":"Kecha Ear+",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":900,
+    "monster_name":"Ash Kecha Wacha",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Beast Tear",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":901,
+    "monster_name":"Ash Kecha Wacha",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"A.Kecha Fur",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":902,
+    "monster_name":"Ash Kecha Wacha",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"A.Kecha Lash",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":903,
+    "monster_name":"Ash Kecha Wacha",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"A.Kecha Fur",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":904,
+    "monster_name":"Ash Kecha Wacha",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"A.Kecha Leadbone",
+    "quantity":1,
+    "percent":32
+  },
+  {
+    "dropID":905,
+    "monster_name":"Ash Kecha Wacha",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Massive Bone",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":906,
+    "monster_name":"Ash Kecha Wacha",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"A.Kecha Lash",
+    "quantity":1,
+    "percent":9
+  },
+  {
+    "dropID":907,
+    "monster_name":"Ash Kecha Wacha",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"A.Kecha Auricle",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":908,
+    "monster_name":"Ash Kecha Wacha",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"A.Kecha Leadbone",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":909,
+    "monster_name":"Ash Kecha Wacha",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Conflagrant Sac",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":910,
+    "monster_name":"Ash Kecha Wacha",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"A.Kecha Ripper",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":911,
+    "monster_name":"Ash Kecha Wacha",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"A.Kecha Lash",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":912,
+    "monster_name":"Ash Kecha Wacha",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Massive Bone",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":913,
+    "monster_name":"Ash Kecha Wacha",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"A.Kecha Auricle",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":914,
+    "monster_name":"Ash Kecha Wacha",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":915,
+    "monster_name":"Ash Kecha Wacha",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":916,
+    "monster_name":"Ash Kecha Wacha",
+    "rank":"G",
+    "method":"Break Claw",
+    "item_name":"A.Kecha Ripper",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":917,
+    "monster_name":"Ash Kecha Wacha",
+    "rank":"G",
+    "method":"Break Claw",
+    "item_name":"A.Kecha Leadbone",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":918,
+    "monster_name":"Ash Kecha Wacha",
+    "rank":"G",
+    "method":"Break Tail",
+    "item_name":"A.Kecha Lash",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":919,
+    "monster_name":"Ash Kecha Wacha",
+    "rank":"G",
+    "method":"Break Tail",
+    "item_name":"A.Kecha Fur",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":920,
+    "monster_name":"Ash Kecha Wacha",
+    "rank":"G",
+    "method":"Break Tail",
+    "item_name":"A.Kecha Leadbone",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":921,
+    "monster_name":"Ash Kecha Wacha",
+    "rank":"G",
+    "method":"Break Ear",
+    "item_name":"A.Kecha Auricle",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":922,
+    "monster_name":"Ash Kecha Wacha",
+    "rank":"G",
+    "method":"Break Ear",
+    "item_name":"Conflagrant Sac",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":923,
+    "monster_name":"Lagombi",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Beast Tear",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":924,
+    "monster_name":"Lagombi",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Lagombi Pelt",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":925,
+    "monster_name":"Lagombi",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Lagombi Plastron",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":926,
+    "monster_name":"Lagombi",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Lagombi Pelt",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":927,
+    "monster_name":"Lagombi",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Lagombi Plastron",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":928,
+    "monster_name":"Lagombi",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Lagombi Iceclaw",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":929,
+    "monster_name":"Lagombi",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Jumbo Bone",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":930,
+    "monster_name":"Lagombi",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Lagombi Plastron",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":931,
+    "monster_name":"Lagombi",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Lagombi Iceclaw",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":932,
+    "monster_name":"Lagombi",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Jumbo Bone",
+    "quantity":2,
+    "percent":20
+  },
+  {
+    "dropID":933,
+    "monster_name":"Lagombi",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Lagombi Pelt",
+    "quantity":2,
+    "percent":15
+  },
+  {
+    "dropID":934,
+    "monster_name":"Lagombi",
+    "rank":"Low",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":935,
+    "monster_name":"Lagombi",
+    "rank":"Low",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":936,
+    "monster_name":"Lagombi",
+    "rank":"Low",
+    "method":"Break Head",
+    "item_name":"Lagombi Ear",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":937,
+    "monster_name":"Lagombi",
+    "rank":"Low",
+    "method":"Break Head",
+    "item_name":"Lagombi Pelt",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":938,
+    "monster_name":"Lagombi",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Beast Tear",
+    "quantity":1,
+    "percent":38
+  },
+  {
+    "dropID":939,
+    "monster_name":"Lagombi",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Large Beast Tear",
+    "quantity":1,
+    "percent":37
+  },
+  {
+    "dropID":940,
+    "monster_name":"Lagombi",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Lagombi Pelt+",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":941,
+    "monster_name":"Lagombi",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Lagombi Plastron+",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":942,
+    "monster_name":"Lagombi",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Lagombi Pelt+",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":943,
+    "monster_name":"Lagombi",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Lagombi Plastron+",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":944,
+    "monster_name":"Lagombi",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Lagombi Frozenclaw",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":945,
+    "monster_name":"Lagombi",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Lagombi Pelt",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":946,
+    "monster_name":"Lagombi",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Stoutbone",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":947,
+    "monster_name":"Lagombi",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Lagombi Plastron+",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":948,
+    "monster_name":"Lagombi",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Lagombi Frozenclaw",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":949,
+    "monster_name":"Lagombi",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Stoutbone",
+    "quantity":2,
+    "percent":17
+  },
+  {
+    "dropID":950,
+    "monster_name":"Lagombi",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Lagombi Pelt+",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":951,
+    "monster_name":"Lagombi",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Lagombi Plastron",
+    "quantity":2,
+    "percent":8
+  },
+  {
+    "dropID":952,
+    "monster_name":"Lagombi",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Lagombi Iceclaw",
+    "quantity":2,
+    "percent":5
+  },
+  {
+    "dropID":953,
+    "monster_name":"Lagombi",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":954,
+    "monster_name":"Lagombi",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":955,
+    "monster_name":"Lagombi",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Lagombi Ear+",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":956,
+    "monster_name":"Lagombi",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Lagombi Pelt+",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":957,
+    "monster_name":"Lagombi",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Lagombi Ear",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":958,
+    "monster_name":"Lagombi",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Beast Tear",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":959,
+    "monster_name":"Lagombi",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Lagombi Fur",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":960,
+    "monster_name":"Lagombi",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Lagombi Plastron+",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":961,
+    "monster_name":"Lagombi",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Lagombi Fur",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":962,
+    "monster_name":"Lagombi",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Massive Bone",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":963,
+    "monster_name":"Lagombi",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Lagombi Plastron+",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":964,
+    "monster_name":"Lagombi",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Lagombi Frozenclaw",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":965,
+    "monster_name":"Lagombi",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Lagombi Pelt+",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":966,
+    "monster_name":"Lagombi",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Lagombi Plastron+",
+    "quantity":1,
+    "percent":36
+  },
+  {
+    "dropID":967,
+    "monster_name":"Lagombi",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Lagombi Frozenclaw",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":968,
+    "monster_name":"Lagombi",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Massive Bone",
+    "quantity":2,
+    "percent":20
+  },
+  {
+    "dropID":969,
+    "monster_name":"Lagombi",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Lagombi Fur",
+    "quantity":2,
+    "percent":16
+  },
+  {
+    "dropID":970,
+    "monster_name":"Lagombi",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":971,
+    "monster_name":"Lagombi",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":972,
+    "monster_name":"Lagombi",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Lagombi Auricle",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":973,
+    "monster_name":"Lagombi",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Lagombi Fur",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":974,
+    "monster_name":"Lagombi",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Lagombi Ear+",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":975,
+    "monster_name":"Congalala",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Congalala Pelt",
+    "quantity":1,
+    "percent":63
+  },
+  {
+    "dropID":976,
+    "monster_name":"Congalala",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Congalala Fang",
+    "quantity":1,
+    "percent":29
+  },
+  {
+    "dropID":977,
+    "monster_name":"Congalala",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Jumbo Bone",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":978,
+    "monster_name":"Congalala",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Congalala Pelt",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":979,
+    "monster_name":"Congalala",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Congalala Fang",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":980,
+    "monster_name":"Congalala",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Brute Bone",
+    "quantity":4,
+    "percent":20
+  },
+  {
+    "dropID":981,
+    "monster_name":"Congalala",
+    "rank":"Low",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":982,
+    "monster_name":"Congalala",
+    "rank":"Low",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":983,
+    "monster_name":"Congalala",
+    "rank":"Low",
+    "method":"Break Head",
+    "item_name":"Congalala Pelt",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":984,
+    "monster_name":"Congalala",
+    "rank":"Low",
+    "method":"Break Head",
+    "item_name":"Vibrant Pelt",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":985,
+    "monster_name":"Congalala",
+    "rank":"Low",
+    "method":"Break Claw",
+    "item_name":"Congalala Claw",
+    "quantity":1,
+    "percent":100
+  },
+  {
+    "dropID":986,
+    "monster_name":"Congalala",
+    "rank":"Low",
+    "method":"Shiny Drops (Bone)",
+    "item_name":"Territorial Dung",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":987,
+    "monster_name":"Congalala",
+    "rank":"Low",
+    "method":"Shiny Drops (Bone)",
+    "item_name":"Monster Bone S",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":988,
+    "monster_name":"Congalala",
+    "rank":"Low",
+    "method":"Shiny Drops (Bone)",
+    "item_name":"Brute Bone",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":989,
+    "monster_name":"Congalala",
+    "rank":"Low",
+    "method":"Shiny Drops (Mushroom)",
+    "item_name":"Territorial Dung",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":990,
+    "monster_name":"Congalala",
+    "rank":"Low",
+    "method":"Shiny Drops (Mushroom)",
+    "item_name":"Blue Mushroom",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":991,
+    "monster_name":"Congalala",
+    "rank":"Low",
+    "method":"Shiny Drops (Mushroom)",
+    "item_name":"Exciteshroom",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":992,
+    "monster_name":"Congalala",
+    "rank":"Low",
+    "method":"Shiny Drops (Ore)",
+    "item_name":"Territorial Dung",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":993,
+    "monster_name":"Congalala",
+    "rank":"Low",
+    "method":"Shiny Drops (Ore)",
+    "item_name":"Machalite Ore",
+    "quantity":1,
+    "percent":39
+  },
+  {
+    "dropID":994,
+    "monster_name":"Congalala",
+    "rank":"Low",
+    "method":"Shiny Drops (Ore)",
+    "item_name":"Lightcrystal",
+    "quantity":1,
+    "percent":1
+  },
+  {
+    "dropID":995,
+    "monster_name":"Congalala",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Congalala Pelt+",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":996,
+    "monster_name":"Congalala",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Congalala Fang",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":997,
+    "monster_name":"Congalala",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Stoutbone",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":998,
+    "monster_name":"Congalala",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Congalala Pelt",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":999,
+    "monster_name":"Congalala",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Congalala Pelt+",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":1000,
+    "monster_name":"Congalala",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Congalala Fang",
+    "quantity":2,
+    "percent":35
+  },
+  {
+    "dropID":1001,
+    "monster_name":"Congalala",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Stoutbone",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1002,
+    "monster_name":"Congalala",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":1003,
+    "monster_name":"Congalala",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":1004,
+    "monster_name":"Congalala",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Vibrant Pelt",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":1005,
+    "monster_name":"Congalala",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Congalala Pelt+",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":1006,
+    "monster_name":"Congalala",
+    "rank":"High",
+    "method":"Break Claw",
+    "item_name":"Congalala Claw+",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":1007,
+    "monster_name":"Congalala",
+    "rank":"High",
+    "method":"Break Claw",
+    "item_name":"Congalala Claw",
+    "quantity":2,
+    "percent":20
+  },
+  {
+    "dropID":1008,
+    "monster_name":"Congalala",
+    "rank":"High",
+    "method":"Shiny Drops (Bone)",
+    "item_name":"Territorial Dung",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":1009,
+    "monster_name":"Congalala",
+    "rank":"High",
+    "method":"Shiny Drops (Bone)",
+    "item_name":"Territorial Dung+",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":1010,
+    "monster_name":"Congalala",
+    "rank":"High",
+    "method":"Shiny Drops (Bone)",
+    "item_name":"Monster Bone+",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1011,
+    "monster_name":"Congalala",
+    "rank":"High",
+    "method":"Shiny Drops (Bone)",
+    "item_name":"Monster Keenbone",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1012,
+    "monster_name":"Congalala",
+    "rank":"High",
+    "method":"Shiny Drops (Mushroom)",
+    "item_name":"Territorial Dung",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":1013,
+    "monster_name":"Congalala",
+    "rank":"High",
+    "method":"Shiny Drops (Mushroom)",
+    "item_name":"Territorial Dung+",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":1014,
+    "monster_name":"Congalala",
+    "rank":"High",
+    "method":"Shiny Drops (Mushroom)",
+    "item_name":"Blue Mushroom",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1015,
+    "monster_name":"Congalala",
+    "rank":"High",
+    "method":"Shiny Drops (Mushroom)",
+    "item_name":"Nitroshroom",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1016,
+    "monster_name":"Congalala",
+    "rank":"High",
+    "method":"Shiny Drops (Ore)",
+    "item_name":"Territorial Dung",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":1017,
+    "monster_name":"Congalala",
+    "rank":"High",
+    "method":"Shiny Drops (Ore)",
+    "item_name":"Territorial Dung+",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":1018,
+    "monster_name":"Congalala",
+    "rank":"High",
+    "method":"Shiny Drops (Ore)",
+    "item_name":"Dragonite Ore",
+    "quantity":1,
+    "percent":29
+  },
+  {
+    "dropID":1019,
+    "monster_name":"Congalala",
+    "rank":"High",
+    "method":"Shiny Drops (Ore)",
+    "item_name":"Novacrystal",
+    "quantity":1,
+    "percent":1
+  },
+  {
+    "dropID":1020,
+    "monster_name":"Congalala",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Congalala Fur",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":1021,
+    "monster_name":"Congalala",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Beastly Fang",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1022,
+    "monster_name":"Congalala",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Massive Bone",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":1023,
+    "monster_name":"Congalala",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Congalala Pelt+",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":1024,
+    "monster_name":"Congalala",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Congalala Fur",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":1025,
+    "monster_name":"Congalala",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Beastly Fang",
+    "quantity":2,
+    "percent":35
+  },
+  {
+    "dropID":1026,
+    "monster_name":"Congalala",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Massive Bone",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1027,
+    "monster_name":"Congalala",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":1028,
+    "monster_name":"Congalala",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1029,
+    "monster_name":"Congalala",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Congalala Fur",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":1030,
+    "monster_name":"Congalala",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Vibrant Pelt",
+    "quantity":2,
+    "percent":25
+  },
+  {
+    "dropID":1031,
+    "monster_name":"Congalala",
+    "rank":"G",
+    "method":"Break Claw",
+    "item_name":"Congalala Hardclaw",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":1032,
+    "monster_name":"Congalala",
+    "rank":"G",
+    "method":"Break Claw",
+    "item_name":"Congalala Claw+",
+    "quantity":2,
+    "percent":20
+  },
+  {
+    "dropID":1033,
+    "monster_name":"Congalala",
+    "rank":"G",
+    "method":"Shiny Drops (Bone)",
+    "item_name":"Territorial Dung+",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":1034,
+    "monster_name":"Congalala",
+    "rank":"G",
+    "method":"Shiny Drops (Bone)",
+    "item_name":"Monster Keenbone",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1035,
+    "monster_name":"Congalala",
+    "rank":"G",
+    "method":"Shiny Drops (Bone)",
+    "item_name":"Monster Hardbone",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":1036,
+    "monster_name":"Congalala",
+    "rank":"G",
+    "method":"Shiny Drops (Mushroom)",
+    "item_name":"Territorial Dung+",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":1037,
+    "monster_name":"Congalala",
+    "rank":"G",
+    "method":"Shiny Drops (Mushroom)",
+    "item_name":"Blue Mushroom",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1038,
+    "monster_name":"Congalala",
+    "rank":"G",
+    "method":"Shiny Drops (Mushroom)",
+    "item_name":"Nitroshroom",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":1039,
+    "monster_name":"Congalala",
+    "rank":"G",
+    "method":"Shiny Drops (Ore)",
+    "item_name":"Territorial Dung+",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":1040,
+    "monster_name":"Congalala",
+    "rank":"G",
+    "method":"Shiny Drops (Ore)",
+    "item_name":"Carbalite Ore",
+    "quantity":1,
+    "percent":39
+  },
+  {
+    "dropID":1041,
+    "monster_name":"Congalala",
+    "rank":"G",
+    "method":"Shiny Drops (Ore)",
+    "item_name":"Purecrystal",
+    "quantity":1,
+    "percent":1
+  },
+  {
+    "dropID":1042,
+    "monster_name":"Emerald Congalala",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"E.Congalala Pelt+",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":1043,
+    "monster_name":"Emerald Congalala",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"E.Congalala Fang+",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":1044,
+    "monster_name":"Emerald Congalala",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Stoutbone",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":1045,
+    "monster_name":"Emerald Congalala",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Jumbo Bone",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":1046,
+    "monster_name":"Emerald Congalala",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"E.Congalala Pelt+",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":1047,
+    "monster_name":"Emerald Congalala",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"E.Congalala Fang+",
+    "quantity":2,
+    "percent":35
+  },
+  {
+    "dropID":1048,
+    "monster_name":"Emerald Congalala",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Stoutbone",
+    "quantity":4,
+    "percent":25
+  },
+  {
+    "dropID":1049,
+    "monster_name":"Emerald Congalala",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":1050,
+    "monster_name":"Emerald Congalala",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":1051,
+    "monster_name":"Emerald Congalala",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"E.Congalala Pelt+",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":1052,
+    "monster_name":"Emerald Congalala",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Vibrant Pelt",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":1053,
+    "monster_name":"Emerald Congalala",
+    "rank":"High",
+    "method":"Break Claw",
+    "item_name":"E.Congalala Claw+",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":1054,
+    "monster_name":"Emerald Congalala",
+    "rank":"High",
+    "method":"Break Claw",
+    "item_name":"E.Congalala Pelt+",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1055,
+    "monster_name":"Emerald Congalala",
+    "rank":"High",
+    "method":"Shiny Drops (Bone)",
+    "item_name":"Territorial Dung+",
+    "quantity":1,
+    "percent":48
+  },
+  {
+    "dropID":1056,
+    "monster_name":"Emerald Congalala",
+    "rank":"High",
+    "method":"Shiny Drops (Bone)",
+    "item_name":"Territorial Dung",
+    "quantity":1,
+    "percent":22
+  },
+  {
+    "dropID":1057,
+    "monster_name":"Emerald Congalala",
+    "rank":"High",
+    "method":"Shiny Drops (Bone)",
+    "item_name":"Monster Bone+",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1058,
+    "monster_name":"Emerald Congalala",
+    "rank":"High",
+    "method":"Shiny Drops (Bone)",
+    "item_name":"Monster Keenbone",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1059,
+    "monster_name":"Emerald Congalala",
+    "rank":"High",
+    "method":"Shiny Drops (Mushroom)",
+    "item_name":"Territorial Dung+",
+    "quantity":1,
+    "percent":48
+  },
+  {
+    "dropID":1060,
+    "monster_name":"Emerald Congalala",
+    "rank":"High",
+    "method":"Shiny Drops (Mushroom)",
+    "item_name":"Territorial Dung",
+    "quantity":1,
+    "percent":22
+  },
+  {
+    "dropID":1061,
+    "monster_name":"Emerald Congalala",
+    "rank":"High",
+    "method":"Shiny Drops (Mushroom)",
+    "item_name":"Nitroshroom",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1062,
+    "monster_name":"Emerald Congalala",
+    "rank":"High",
+    "method":"Shiny Drops (Mushroom)",
+    "item_name":"Dragon Toadstool",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1063,
+    "monster_name":"Emerald Congalala",
+    "rank":"High",
+    "method":"Shiny Drops (Ore)",
+    "item_name":"Territorial Dung+",
+    "quantity":1,
+    "percent":48
+  },
+  {
+    "dropID":1064,
+    "monster_name":"Emerald Congalala",
+    "rank":"High",
+    "method":"Shiny Drops (Ore)",
+    "item_name":"Dragonite Ore",
+    "quantity":1,
+    "percent":29
+  },
+  {
+    "dropID":1065,
+    "monster_name":"Emerald Congalala",
+    "rank":"High",
+    "method":"Shiny Drops (Ore)",
+    "item_name":"Territorial Dung",
+    "quantity":1,
+    "percent":22
+  },
+  {
+    "dropID":1066,
+    "monster_name":"Emerald Congalala",
+    "rank":"High",
+    "method":"Shiny Drops (Ore)",
+    "item_name":"Novacrystal",
+    "quantity":1,
+    "percent":1
+  },
+  {
+    "dropID":1067,
+    "monster_name":"Emerald Congalala",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"E.Congalala Fur",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":1068,
+    "monster_name":"Emerald Congalala",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Beastly Fang",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":1069,
+    "monster_name":"Emerald Congalala",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Massive Bone",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":1070,
+    "monster_name":"Emerald Congalala",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Stoutbone",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":1071,
+    "monster_name":"Emerald Congalala",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"E.Congalala Fur",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":1072,
+    "monster_name":"Emerald Congalala",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Beastly Fang",
+    "quantity":2,
+    "percent":35
+  },
+  {
+    "dropID":1073,
+    "monster_name":"Emerald Congalala",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Massive Bone",
+    "quantity":4,
+    "percent":25
+  },
+  {
+    "dropID":1074,
+    "monster_name":"Emerald Congalala",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":1075,
+    "monster_name":"Emerald Congalala",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1076,
+    "monster_name":"Emerald Congalala",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":2,
+    "percent":25
+  },
+  {
+    "dropID":1077,
+    "monster_name":"Emerald Congalala",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"E.Congalala Fur",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":1078,
+    "monster_name":"Emerald Congalala",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Vibrant Comb",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":1079,
+    "monster_name":"Emerald Congalala",
+    "rank":"G",
+    "method":"Break Claw",
+    "item_name":"E.Congalala Hardclaw",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":1080,
+    "monster_name":"Emerald Congalala",
+    "rank":"G",
+    "method":"Break Claw",
+    "item_name":"E.Congalala Fur",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1081,
+    "monster_name":"Emerald Congalala",
+    "rank":"G",
+    "method":"Shiny Drops (Bone)",
+    "item_name":"Territorial Dung+",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":1082,
+    "monster_name":"Emerald Congalala",
+    "rank":"G",
+    "method":"Shiny Drops (Bone)",
+    "item_name":"Monster Keenbone",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":1083,
+    "monster_name":"Emerald Congalala",
+    "rank":"G",
+    "method":"Shiny Drops (Bone)",
+    "item_name":"Monster Hardbone",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1084,
+    "monster_name":"Emerald Congalala",
+    "rank":"G",
+    "method":"Shiny Drops (Mushroom)",
+    "item_name":"Territorial Dung+",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":1085,
+    "monster_name":"Emerald Congalala",
+    "rank":"G",
+    "method":"Shiny Drops (Mushroom)",
+    "item_name":"Blue Mushroom",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1086,
+    "monster_name":"Emerald Congalala",
+    "rank":"G",
+    "method":"Shiny Drops (Mushroom)",
+    "item_name":"Nitroshroom",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":1087,
+    "monster_name":"Emerald Congalala",
+    "rank":"G",
+    "method":"Shiny Drops (Ore)",
+    "item_name":"Territorial Dung+",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":1088,
+    "monster_name":"Emerald Congalala",
+    "rank":"G",
+    "method":"Shiny Drops (Ore)",
+    "item_name":"Carbalite Ore",
+    "quantity":1,
+    "percent":39
+  },
+  {
+    "dropID":1089,
+    "monster_name":"Emerald Congalala",
+    "rank":"G",
+    "method":"Shiny Drops (Ore)",
+    "item_name":"Purecrystal",
+    "quantity":1,
+    "percent":1
+  },
+  {
+    "dropID":1090,
+    "monster_name":"Rajang",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Large Beast Tear",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":1091,
+    "monster_name":"Rajang",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Rajang Blackfur",
+    "quantity":1,
+    "percent":21
+  },
+  {
+    "dropID":1092,
+    "monster_name":"Rajang",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Gold Rajang Pelt",
+    "quantity":1,
+    "percent":9
+  },
+  {
+    "dropID":1093,
+    "monster_name":"Rajang",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Rajang Fang+",
+    "quantity":1,
+    "percent":46
+  },
+  {
+    "dropID":1094,
+    "monster_name":"Rajang",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Rajang Blackfur",
+    "quantity":1,
+    "percent":27
+  },
+  {
+    "dropID":1095,
+    "monster_name":"Rajang",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Rajang Claw+",
+    "quantity":1,
+    "percent":21
+  },
+  {
+    "dropID":1096,
+    "monster_name":"Rajang",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Gold Rajang Pelt",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":1097,
+    "monster_name":"Rajang",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Rajang Blackfur",
+    "quantity":1,
+    "percent":44
+  },
+  {
+    "dropID":1098,
+    "monster_name":"Rajang",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Rajang Fang+",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":1099,
+    "monster_name":"Rajang",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Rajang Claw+",
+    "quantity":1,
+    "percent":16
+  },
+  {
+    "dropID":1100,
+    "monster_name":"Rajang",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Gold Rajang Pelt",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":1101,
+    "monster_name":"Rajang",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":1102,
+    "monster_name":"Rajang",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1103,
+    "monster_name":"Rajang",
+    "rank":"High",
+    "method":"Break Horn",
+    "item_name":"Rajang Horn+",
+    "quantity":1,
+    "percent":100
+  },
+  {
+    "dropID":1104,
+    "monster_name":"Rajang",
+    "rank":"High",
+    "method":"Break Tail",
+    "item_name":"Rajang Tail",
+    "quantity":1,
+    "percent":91
+  },
+  {
+    "dropID":1105,
+    "monster_name":"Rajang",
+    "rank":"High",
+    "method":"Break Tail",
+    "item_name":"Gold Rajang Pelt",
+    "quantity":1,
+    "percent":9
+  },
+  {
+    "dropID":1106,
+    "monster_name":"Rajang",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Beast Tear",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":1107,
+    "monster_name":"Rajang",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Rajang Wildpelt",
+    "quantity":1,
+    "percent":21
+  },
+  {
+    "dropID":1108,
+    "monster_name":"Rajang",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Gold Rajang Pelt+",
+    "quantity":1,
+    "percent":9
+  },
+  {
+    "dropID":1109,
+    "monster_name":"Rajang",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Rajang Hardfang",
+    "quantity":1,
+    "percent":46
+  },
+  {
+    "dropID":1110,
+    "monster_name":"Rajang",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Rajang Wildpelt",
+    "quantity":1,
+    "percent":27
+  },
+  {
+    "dropID":1111,
+    "monster_name":"Rajang",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Rajang Hardclaw",
+    "quantity":1,
+    "percent":21
+  },
+  {
+    "dropID":1112,
+    "monster_name":"Rajang",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Gold Rajang Pelt+",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":1113,
+    "monster_name":"Rajang",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Rajang Wildpelt",
+    "quantity":1,
+    "percent":44
+  },
+  {
+    "dropID":1114,
+    "monster_name":"Rajang",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Rajang Hardfang",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":1115,
+    "monster_name":"Rajang",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Rajang Hardclaw",
+    "quantity":1,
+    "percent":16
+  },
+  {
+    "dropID":1116,
+    "monster_name":"Rajang",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Gold Rajang Pelt+",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":1117,
+    "monster_name":"Rajang",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":1118,
+    "monster_name":"Rajang",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":2,
+    "percent":20
+  },
+  {
+    "dropID":1119,
+    "monster_name":"Rajang",
+    "rank":"G",
+    "method":"Break Horn",
+    "item_name":"Rajang Hardhorn",
+    "quantity":1,
+    "percent":100
+  },
+  {
+    "dropID":1120,
+    "monster_name":"Rajang",
+    "rank":"G",
+    "method":"Break Tail",
+    "item_name":"Rajang Tail",
+    "quantity":1,
+    "percent":91
+  },
+  {
+    "dropID":1121,
+    "monster_name":"Rajang",
+    "rank":"G",
+    "method":"Break Tail",
+    "item_name":"Gold Rajang Pelt+",
+    "quantity":1,
+    "percent":9
+  },
+  {
+    "dropID":1122,
+    "monster_name":"Furious Rajang",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Large Beast Tear",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":1123,
+    "monster_name":"Furious Rajang",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Gold Rajang Pelt",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":1124,
+    "monster_name":"Furious Rajang",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Rajang Ragehair",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":1125,
+    "monster_name":"Furious Rajang",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Rajang Fang+",
+    "quantity":1,
+    "percent":26
+  },
+  {
+    "dropID":1126,
+    "monster_name":"Furious Rajang",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Rajang Blackfur",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1127,
+    "monster_name":"Furious Rajang",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Rajang Ragehair",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":1128,
+    "monster_name":"Furious Rajang",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Rajang Claw+",
+    "quantity":1,
+    "percent":16
+  },
+  {
+    "dropID":1129,
+    "monster_name":"Furious Rajang",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Gold Rajang Pelt",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":1130,
+    "monster_name":"Furious Rajang",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Rajang Nerve",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":1131,
+    "monster_name":"Furious Rajang",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Rajang Blackfur",
+    "quantity":1,
+    "percent":33
+  },
+  {
+    "dropID":1132,
+    "monster_name":"Furious Rajang",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Rajang Ragehair",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1133,
+    "monster_name":"Furious Rajang",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Gold Rajang Pelt",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":1134,
+    "monster_name":"Furious Rajang",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Rajang Fang+",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":1135,
+    "monster_name":"Furious Rajang",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Rajang Claw+",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":1136,
+    "monster_name":"Furious Rajang",
+    "rank":"High",
+    "method":"Break Horn",
+    "item_name":"Rajang Horn+",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":1137,
+    "monster_name":"Furious Rajang",
+    "rank":"High",
+    "method":"Break Horn",
+    "item_name":"Ghoulish Gold Horn",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":1138,
+    "monster_name":"Furious Rajang",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Beast Tear",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":1139,
+    "monster_name":"Furious Rajang",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Gold Rajang Pelt+",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":1140,
+    "monster_name":"Furious Rajang",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Rajang Apoplexy",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":1141,
+    "monster_name":"Furious Rajang",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Rajang Hardfang",
+    "quantity":1,
+    "percent":26
+  },
+  {
+    "dropID":1142,
+    "monster_name":"Furious Rajang",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Rajang Wildpelt",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1143,
+    "monster_name":"Furious Rajang",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Rajang Apoplexy",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":1144,
+    "monster_name":"Furious Rajang",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Rajang Hardclaw",
+    "quantity":1,
+    "percent":16
+  },
+  {
+    "dropID":1145,
+    "monster_name":"Furious Rajang",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Gold Rajang Pelt+",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":1146,
+    "monster_name":"Furious Rajang",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Rajang Heart",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":1147,
+    "monster_name":"Furious Rajang",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Rajang Wildpelt",
+    "quantity":1,
+    "percent":33
+  },
+  {
+    "dropID":1148,
+    "monster_name":"Furious Rajang",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Rajang Apoplexy",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1149,
+    "monster_name":"Furious Rajang",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Gold Rajang Pelt+",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":1150,
+    "monster_name":"Furious Rajang",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Rajang Hardfang",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":1151,
+    "monster_name":"Furious Rajang",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Rajang Hardclaw",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":1152,
+    "monster_name":"Furious Rajang",
+    "rank":"G",
+    "method":"Break Horn",
+    "item_name":"Ghoulish Gold Gorer",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":1153,
+    "monster_name":"Furious Rajang",
+    "rank":"G",
+    "method":"Break Horn",
+    "item_name":"Rajang Hardhorn",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1154,
+    "monster_name":"Apex Rajang",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Beast Tear",
+    "quantity":1,
+    "percent":67
+  },
+  {
+    "dropID":1155,
+    "monster_name":"Apex Rajang",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Rajang Wildpelt",
+    "quantity":1,
+    "percent":21
+  },
+  {
+    "dropID":1156,
+    "monster_name":"Apex Rajang",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Gold Rajang Pelt+",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":1157,
+    "monster_name":"Apex Rajang",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Rajang Hardfang",
+    "quantity":1,
+    "percent":44
+  },
+  {
+    "dropID":1158,
+    "monster_name":"Apex Rajang",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Rajang Wildpelt",
+    "quantity":1,
+    "percent":26
+  },
+  {
+    "dropID":1159,
+    "monster_name":"Apex Rajang",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Rajang Hardclaw",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1160,
+    "monster_name":"Apex Rajang",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Gold Rajang Pelt+",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1161,
+    "monster_name":"Apex Rajang",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Rajang Wildpelt",
+    "quantity":1,
+    "percent":42
+  },
+  {
+    "dropID":1162,
+    "monster_name":"Apex Rajang",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Rajang Hardfang",
+    "quantity":1,
+    "percent":27
+  },
+  {
+    "dropID":1163,
+    "monster_name":"Apex Rajang",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Rajang Hardclaw",
+    "quantity":1,
+    "percent":16
+  },
+  {
+    "dropID":1164,
+    "monster_name":"Apex Rajang",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Gold Rajang Pelt+",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":1165,
+    "monster_name":"Apex Rajang",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Zenith Wyvern Gem L",
+    "quantity":1,
+    "percent":90
+  },
+  {
+    "dropID":1166,
+    "monster_name":"Apex Rajang",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Zenith Wyvern Gem",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1167,
+    "monster_name":"Apex Rajang",
+    "rank":"G",
+    "method":"Break Horn",
+    "item_name":"Rajang Hardhorn",
+    "quantity":1,
+    "percent":100
+  },
+  {
+    "dropID":1168,
+    "monster_name":"Apex Rajang",
+    "rank":"G",
+    "method":"Break Tail",
+    "item_name":"Rajang Tail",
+    "quantity":1,
+    "percent":88
+  },
+  {
+    "dropID":1169,
+    "monster_name":"Apex Rajang",
+    "rank":"G",
+    "method":"Break Tail",
+    "item_name":"Gold Rajang Pelt+",
+    "quantity":1,
+    "percent":12
+  }
+]
