@@ -8,7 +8,7 @@
 
 #import "HomeViewController.h"
 
-#import "Constants.h";
+#import "Constants.h"
 
 #import "ItemEncyclopediaTableViewController.h"
 #import "MonsterEncyclopediaViewController.h"

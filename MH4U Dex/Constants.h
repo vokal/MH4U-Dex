@@ -54,7 +54,7 @@ FOUNDATION_EXPORT NSString *const QuestFeeKey;
 FOUNDATION_EXPORT NSString *const QuestHRPKey;
 FOUNDATION_EXPORT NSString *const QuestMapKeyNameKey;
 FOUNDATION_EXPORT NSString *const QuestKeyIndicatorKey;
-FOUNDATION_EXPORT NSString *const QuestObjectiveKey
+FOUNDATION_EXPORT NSString *const QuestObjectiveKey;
 FOUNDATION_EXPORT NSString *const QuestRewardKey;
 FOUNDATION_EXPORT NSString *const QuestStarsKey;
 FOUNDATION_EXPORT NSString *const QuestSubQuestObjectiveKey;
