@@ -1,0 +1,5033 @@
+[
+  {
+    "dropID":2668,
+    "monster_name":"Tigrex",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":2669,
+    "monster_name":"Tigrex",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Tigrex Scale",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":2670,
+    "monster_name":"Tigrex",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Tigrex Claw",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":2671,
+    "monster_name":"Tigrex",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Tigrex Scale",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":2672,
+    "monster_name":"Tigrex",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Tigrex Claw",
+    "quantity":1,
+    "percent":37
+  },
+  {
+    "dropID":2673,
+    "monster_name":"Tigrex",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Tigrex Shell",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":2674,
+    "monster_name":"Tigrex",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Tigrex Scalp",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":2675,
+    "monster_name":"Tigrex",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Tigrex Shell",
+    "quantity":1,
+    "percent":36
+  },
+  {
+    "dropID":2676,
+    "monster_name":"Tigrex",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Tigrex Fang",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":2677,
+    "monster_name":"Tigrex",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Tigrex Scale",
+    "quantity":1,
+    "percent":22
+  },
+  {
+    "dropID":2678,
+    "monster_name":"Tigrex",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Tigrex Tail",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":2679,
+    "monster_name":"Tigrex",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Tigrex Scalp",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":2680,
+    "monster_name":"Tigrex",
+    "rank":"Low",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":2681,
+    "monster_name":"Tigrex",
+    "rank":"Low",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":2682,
+    "monster_name":"Tigrex",
+    "rank":"Low",
+    "method":"Break Head",
+    "item_name":"Tigrex Fang",
+    "quantity":2,
+    "percent":50
+  },
+  {
+    "dropID":2683,
+    "monster_name":"Tigrex",
+    "rank":"Low",
+    "method":"Break Head",
+    "item_name":"Tigrex Shell",
+    "quantity":1,
+    "percent":38
+  },
+  {
+    "dropID":2684,
+    "monster_name":"Tigrex",
+    "rank":"Low",
+    "method":"Break Head",
+    "item_name":"Tigrex Scalp",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":2685,
+    "monster_name":"Tigrex",
+    "rank":"Low",
+    "method":"Break Claw",
+    "item_name":"Tigrex Claw",
+    "quantity":2,
+    "percent":80
+  },
+  {
+    "dropID":2686,
+    "monster_name":"Tigrex",
+    "rank":"Low",
+    "method":"Break Claw",
+    "item_name":"Tigrex Claw",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":2687,
+    "monster_name":"Tigrex",
+    "rank":"Low",
+    "method":"Tail Carve",
+    "item_name":"Tigrex Tail",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":2688,
+    "monster_name":"Tigrex",
+    "rank":"Low",
+    "method":"Tail Carve",
+    "item_name":"Tigrex Scale",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":2689,
+    "monster_name":"Tigrex",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":38
+  },
+  {
+    "dropID":2690,
+    "monster_name":"Tigrex",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":37
+  },
+  {
+    "dropID":2691,
+    "monster_name":"Tigrex",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Tigrex Scale+",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":2692,
+    "monster_name":"Tigrex",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Tigrex Claw+",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":2693,
+    "monster_name":"Tigrex",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Tigrex Scale+",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":2694,
+    "monster_name":"Tigrex",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Tigrex Claw+",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2695,
+    "monster_name":"Tigrex",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Tigrex Carapace",
+    "quantity":1,
+    "percent":17
+  },
+  {
+    "dropID":2696,
+    "monster_name":"Tigrex",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Tigrex Scale",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":2697,
+    "monster_name":"Tigrex",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Tigrex Scalp",
+    "quantity":1,
+    "percent":7
+  },
+  {
+    "dropID":2698,
+    "monster_name":"Tigrex",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Tigrex Maw",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":2699,
+    "monster_name":"Tigrex",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Tigrex Carapace",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2700,
+    "monster_name":"Tigrex",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Tigrex Fang+",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":2701,
+    "monster_name":"Tigrex",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Tigrex Scale+",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":2702,
+    "monster_name":"Tigrex",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Tigrex Shell",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":2703,
+    "monster_name":"Tigrex",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Tigrex Tail",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":2704,
+    "monster_name":"Tigrex",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Tigrex Maw",
+    "quantity":1,
+    "percent":7
+  },
+  {
+    "dropID":2705,
+    "monster_name":"Tigrex",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":2706,
+    "monster_name":"Tigrex",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2707,
+    "monster_name":"Tigrex",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Tigrex Fang+",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":2708,
+    "monster_name":"Tigrex",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Tigrex Carapace",
+    "quantity":1,
+    "percent":17
+  },
+  {
+    "dropID":2709,
+    "monster_name":"Tigrex",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Tigrex Scalp",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":2710,
+    "monster_name":"Tigrex",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Tigrex Maw",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":2711,
+    "monster_name":"Tigrex",
+    "rank":"High",
+    "method":"Break Claw",
+    "item_name":"Tigrex Claw+",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":2712,
+    "monster_name":"Tigrex",
+    "rank":"High",
+    "method":"Break Claw",
+    "item_name":"Tigrex Claw",
+    "quantity":3,
+    "percent":20
+  },
+  {
+    "dropID":2713,
+    "monster_name":"Tigrex",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Tigrex Tail",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":2714,
+    "monster_name":"Tigrex",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Tigrex Scale+",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":2715,
+    "monster_name":"Tigrex",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":2716,
+    "monster_name":"Tigrex",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Tigrex Shard",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":2717,
+    "monster_name":"Tigrex",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Tigrex Claw+",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":2718,
+    "monster_name":"Tigrex",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Tigrex Hardclaw",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":2719,
+    "monster_name":"Tigrex",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Tigrex Shard",
+    "quantity":1,
+    "percent":36
+  },
+  {
+    "dropID":2720,
+    "monster_name":"Tigrex",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Tigrex Hardclaw",
+    "quantity":1,
+    "percent":32
+  },
+  {
+    "dropID":2721,
+    "monster_name":"Tigrex",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Tigrex Cortex",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":2722,
+    "monster_name":"Tigrex",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Tigrex Maw",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":2723,
+    "monster_name":"Tigrex",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Tigrex Mantle",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":2724,
+    "monster_name":"Tigrex",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Tigrex Cortex",
+    "quantity":1,
+    "percent":32
+  },
+  {
+    "dropID":2725,
+    "monster_name":"Tigrex",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Tigrex Hardfang",
+    "quantity":1,
+    "percent":27
+  },
+  {
+    "dropID":2726,
+    "monster_name":"Tigrex",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Tigrex Shard",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":2727,
+    "monster_name":"Tigrex",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Tigrex Carapace",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":2728,
+    "monster_name":"Tigrex",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Tigrex Lash",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":2729,
+    "monster_name":"Tigrex",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Tigrex Mantle",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":2730,
+    "monster_name":"Tigrex",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":2731,
+    "monster_name":"Tigrex",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":2732,
+    "monster_name":"Tigrex",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Tigrex Hardfang",
+    "quantity":1,
+    "percent":66
+  },
+  {
+    "dropID":2733,
+    "monster_name":"Tigrex",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Tigrex Cortex",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":2734,
+    "monster_name":"Tigrex",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Tigrex Maw",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":2735,
+    "monster_name":"Tigrex",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Tigrex Mantle",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":2736,
+    "monster_name":"Tigrex",
+    "rank":"G",
+    "method":"Break Claw",
+    "item_name":"Tigrex Hardclaw",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":2737,
+    "monster_name":"Tigrex",
+    "rank":"G",
+    "method":"Break Claw",
+    "item_name":"Tigrex Claw+",
+    "quantity":3,
+    "percent":20
+  },
+  {
+    "dropID":2738,
+    "monster_name":"Tigrex",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Tigrex Lash",
+    "quantity":1,
+    "percent":58
+  },
+  {
+    "dropID":2739,
+    "monster_name":"Tigrex",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Tigrex Shard",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":2740,
+    "monster_name":"Tigrex",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Tigrex Mantle",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":2741,
+    "monster_name":"Brute Tigrex",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":38
+  },
+  {
+    "dropID":2742,
+    "monster_name":"Brute Tigrex",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":37
+  },
+  {
+    "dropID":2743,
+    "monster_name":"Brute Tigrex",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"B.Tigrex Scale+",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":2744,
+    "monster_name":"Brute Tigrex",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"B.Tigrex Claw+",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":2745,
+    "monster_name":"Brute Tigrex",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"B.Tigrex Scale+",
+    "quantity":1,
+    "percent":38
+  },
+  {
+    "dropID":2746,
+    "monster_name":"Brute Tigrex",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"B.Tigrex Claw+",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2747,
+    "monster_name":"Brute Tigrex",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"B.Tigrex Carapace",
+    "quantity":1,
+    "percent":27
+  },
+  {
+    "dropID":2748,
+    "monster_name":"Brute Tigrex",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Tigrex Maw",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":2749,
+    "monster_name":"Brute Tigrex",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"B.Tigrex Carapace",
+    "quantity":1,
+    "percent":38
+  },
+  {
+    "dropID":2750,
+    "monster_name":"Brute Tigrex",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"B.Tigrex Fang+",
+    "quantity":1,
+    "percent":27
+  },
+  {
+    "dropID":2751,
+    "monster_name":"Brute Tigrex",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"B.Tigrex Scale+",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":2752,
+    "monster_name":"Brute Tigrex",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Tigrex Tail",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2753,
+    "monster_name":"Brute Tigrex",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Tigrex Maw",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":2754,
+    "monster_name":"Brute Tigrex",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":2755,
+    "monster_name":"Brute Tigrex",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":2756,
+    "monster_name":"Brute Tigrex",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":2757,
+    "monster_name":"Brute Tigrex",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"B.Tigrex Fang+",
+    "quantity":1,
+    "percent":52
+  },
+  {
+    "dropID":2758,
+    "monster_name":"Brute Tigrex",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"B.Tigrex Carapace",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":2759,
+    "monster_name":"Brute Tigrex",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Tigrex Scalp",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":2760,
+    "monster_name":"Brute Tigrex",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Tigrex Maw",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":2761,
+    "monster_name":"Brute Tigrex",
+    "rank":"High",
+    "method":"Break Claw",
+    "item_name":"B.Tigrex Claw+",
+    "quantity":1,
+    "percent":100
+  },
+  {
+    "dropID":2762,
+    "monster_name":"Brute Tigrex",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Tigrex Tail",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":2763,
+    "monster_name":"Brute Tigrex",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"B.Tigrex Scale+",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":2764,
+    "monster_name":"Brute Tigrex",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":2765,
+    "monster_name":"Brute Tigrex",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"B.Tigrex Shard",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":2766,
+    "monster_name":"Brute Tigrex",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"B.Tigrex Claw+",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":2767,
+    "monster_name":"Brute Tigrex",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"B.Tigrex Hardclaw",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":2768,
+    "monster_name":"Brute Tigrex",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"B.Tigrex Shard",
+    "quantity":1,
+    "percent":38
+  },
+  {
+    "dropID":2769,
+    "monster_name":"Brute Tigrex",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"B.Tigrex Hardclaw",
+    "quantity":1,
+    "percent":32
+  },
+  {
+    "dropID":2770,
+    "monster_name":"Brute Tigrex",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"B.Tigrex Cortex",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":2771,
+    "monster_name":"Brute Tigrex",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Tigrex Mantle",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":2772,
+    "monster_name":"Brute Tigrex",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"B.Tigrex Cortex",
+    "quantity":1,
+    "percent":38
+  },
+  {
+    "dropID":2773,
+    "monster_name":"Brute Tigrex",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"B.Tigrex Hardfang",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":2774,
+    "monster_name":"Brute Tigrex",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"B.Tigrex Shard",
+    "quantity":1,
+    "percent":21
+  },
+  {
+    "dropID":2775,
+    "monster_name":"Brute Tigrex",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Tigrex Lash",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2776,
+    "monster_name":"Brute Tigrex",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Tigrex Mantle",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":2777,
+    "monster_name":"Brute Tigrex",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":2778,
+    "monster_name":"Brute Tigrex",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":2,
+    "percent":25
+  },
+  {
+    "dropID":2779,
+    "monster_name":"Brute Tigrex",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":2,
+    "percent":20
+  },
+  {
+    "dropID":2780,
+    "monster_name":"Brute Tigrex",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"B.Tigrex Hardfang",
+    "quantity":1,
+    "percent":66
+  },
+  {
+    "dropID":2781,
+    "monster_name":"Brute Tigrex",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"B.Tigrex Cortex",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":2782,
+    "monster_name":"Brute Tigrex",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Tigrex Maw",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":2783,
+    "monster_name":"Brute Tigrex",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Tigrex Mantle",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":2784,
+    "monster_name":"Brute Tigrex",
+    "rank":"G",
+    "method":"Break Claw",
+    "item_name":"B.Tigrex Hardclaw",
+    "quantity":1,
+    "percent":100
+  },
+  {
+    "dropID":2785,
+    "monster_name":"Brute Tigrex",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Tigrex Lash",
+    "quantity":1,
+    "percent":58
+  },
+  {
+    "dropID":2786,
+    "monster_name":"Brute Tigrex",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"B.Tigrex Shard",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":2787,
+    "monster_name":"Brute Tigrex",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Tigrex Mantle",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":2788,
+    "monster_name":"Molten Tigrex",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":38
+  },
+  {
+    "dropID":2789,
+    "monster_name":"Molten Tigrex",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":37
+  },
+  {
+    "dropID":2790,
+    "monster_name":"Molten Tigrex",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"M.Tigrex Scale+",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":2791,
+    "monster_name":"Molten Tigrex",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"M.Tigrex Carapace",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":2792,
+    "monster_name":"Molten Tigrex",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Pulsating Blastheart",
+    "quantity":1,
+    "percent":1
+  },
+  {
+    "dropID":2793,
+    "monster_name":"Molten Tigrex",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"M.Tigrex Scale+",
+    "quantity":1,
+    "percent":38
+  },
+  {
+    "dropID":2794,
+    "monster_name":"Molten Tigrex",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"M.Tigrex Blastclaw",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":2795,
+    "monster_name":"Molten Tigrex",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"M.Tigrex Carapace",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":2796,
+    "monster_name":"Molten Tigrex",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Tigrex Maw",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":2797,
+    "monster_name":"Molten Tigrex",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Pulsating Blastheart",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":2798,
+    "monster_name":"Molten Tigrex",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"M.Tigrex Carapace",
+    "quantity":1,
+    "percent":39
+  },
+  {
+    "dropID":2799,
+    "monster_name":"Molten Tigrex",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"M.Tigrex Fang+",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":2800,
+    "monster_name":"Molten Tigrex",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"M.Tigrex Scale+",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":2801,
+    "monster_name":"Molten Tigrex",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"M.Tigrex Tail",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2802,
+    "monster_name":"Molten Tigrex",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Pulsating Blastheart",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":2803,
+    "monster_name":"Molten Tigrex",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"M.Tigrex Fang+",
+    "quantity":1,
+    "percent":57
+  },
+  {
+    "dropID":2804,
+    "monster_name":"Molten Tigrex",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"M.Tigrex Carapace",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":2805,
+    "monster_name":"Molten Tigrex",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Tigrex Maw",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":2806,
+    "monster_name":"Molten Tigrex",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Pulsating Blastheart",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":2807,
+    "monster_name":"Molten Tigrex",
+    "rank":"High",
+    "method":"Break Claw",
+    "item_name":"M.Tigrex Blastclaw",
+    "quantity":1,
+    "percent":100
+  },
+  {
+    "dropID":2808,
+    "monster_name":"Molten Tigrex",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"M.Tigrex Tail",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":2809,
+    "monster_name":"Molten Tigrex",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"M.Tigrex Scale+",
+    "quantity":1,
+    "percent":37
+  },
+  {
+    "dropID":2810,
+    "monster_name":"Molten Tigrex",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Pulsating Blastheart",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":2811,
+    "monster_name":"Molten Tigrex",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":2812,
+    "monster_name":"Molten Tigrex",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"M.Tigrex Shard",
+    "quantity":1,
+    "percent":23
+  },
+  {
+    "dropID":2813,
+    "monster_name":"Molten Tigrex",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"M.Tigrex Blastclaw",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":2814,
+    "monster_name":"Molten Tigrex",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"M.Tigrex Cortex",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":2815,
+    "monster_name":"Molten Tigrex",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Dire Blastheart",
+    "quantity":1,
+    "percent":1
+  },
+  {
+    "dropID":2816,
+    "monster_name":"Molten Tigrex",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"M.Tigrex Shard",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":2817,
+    "monster_name":"Molten Tigrex",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"M.Tigrex Trigger",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2818,
+    "monster_name":"Molten Tigrex",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"M.Tigrex Cortex",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":2819,
+    "monster_name":"Molten Tigrex",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Tigrex Mantle",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":2820,
+    "monster_name":"Molten Tigrex",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Dire Blastheart",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":2821,
+    "monster_name":"Molten Tigrex",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"M.Tigrex Cortex",
+    "quantity":1,
+    "percent":39
+  },
+  {
+    "dropID":2822,
+    "monster_name":"Molten Tigrex",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"M.Tigrex Hardfang",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":2823,
+    "monster_name":"Molten Tigrex",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"M.Tigrex Shard",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":2824,
+    "monster_name":"Molten Tigrex",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"M.Tigrex Lash",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2825,
+    "monster_name":"Molten Tigrex",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Dire Blastheart",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":2826,
+    "monster_name":"Molten Tigrex",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"M.Tigrex Hardfang",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":2827,
+    "monster_name":"Molten Tigrex",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"M.Tigrex Cortex",
+    "quantity":1,
+    "percent":33
+  },
+  {
+    "dropID":2828,
+    "monster_name":"Molten Tigrex",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Tigrex Mantle",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":2829,
+    "monster_name":"Molten Tigrex",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Dire Blastheart",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":2830,
+    "monster_name":"Molten Tigrex",
+    "rank":"G",
+    "method":"Break Claw",
+    "item_name":"M.Tigrex Trigger",
+    "quantity":1,
+    "percent":100
+  },
+  {
+    "dropID":2831,
+    "monster_name":"Molten Tigrex",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"M.Tigrex Lash",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":2832,
+    "monster_name":"Molten Tigrex",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"M.Tigrex Shard",
+    "quantity":1,
+    "percent":37
+  },
+  {
+    "dropID":2833,
+    "monster_name":"Molten Tigrex",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Dire Blastheart",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":2834,
+    "monster_name":"Apex Tigrex",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":2835,
+    "monster_name":"Apex Tigrex",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Tigrex Shard",
+    "quantity":1,
+    "percent":23
+  },
+  {
+    "dropID":2836,
+    "monster_name":"Apex Tigrex",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Tigrex Claw+",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":2837,
+    "monster_name":"Apex Tigrex",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Tigrex Hardclaw",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":2838,
+    "monster_name":"Apex Tigrex",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Tigrex Mantle",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":2839,
+    "monster_name":"Apex Tigrex",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Tigrex Shard",
+    "quantity":1,
+    "percent":32
+  },
+  {
+    "dropID":2840,
+    "monster_name":"Apex Tigrex",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Tigrex Hardclaw",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2841,
+    "monster_name":"Apex Tigrex",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Tigrex Cortex",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":2842,
+    "monster_name":"Apex Tigrex",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Tigrex Maw",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2843,
+    "monster_name":"Apex Tigrex",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Tigrex Mantle",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":2844,
+    "monster_name":"Apex Tigrex",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Tigrex Cortex",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2845,
+    "monster_name":"Apex Tigrex",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Tigrex Hardfang",
+    "quantity":1,
+    "percent":27
+  },
+  {
+    "dropID":2846,
+    "monster_name":"Apex Tigrex",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Tigrex Shard",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":2847,
+    "monster_name":"Apex Tigrex",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Tigrex Carapace",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":2848,
+    "monster_name":"Apex Tigrex",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Tigrex Lash",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":2849,
+    "monster_name":"Apex Tigrex",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Tigrex Mantle",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":2850,
+    "monster_name":"Apex Tigrex",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Zenith Wyvern Gem",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":2851,
+    "monster_name":"Apex Tigrex",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Zenith Wyvern Gem L",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":2852,
+    "monster_name":"Apex Tigrex",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Tigrex Hardfang",
+    "quantity":1,
+    "percent":66
+  },
+  {
+    "dropID":2853,
+    "monster_name":"Apex Tigrex",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Tigrex Cortex",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":2854,
+    "monster_name":"Apex Tigrex",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Tigrex Maw",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":2855,
+    "monster_name":"Apex Tigrex",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Tigrex Mantle",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":2856,
+    "monster_name":"Apex Tigrex",
+    "rank":"G",
+    "method":"Break Claw",
+    "item_name":"Tigrex Hardclaw",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":2857,
+    "monster_name":"Apex Tigrex",
+    "rank":"G",
+    "method":"Break Claw",
+    "item_name":"Tigrex Claw+",
+    "quantity":3,
+    "percent":20
+  },
+  {
+    "dropID":2858,
+    "monster_name":"Apex Tigrex",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Tigrex Lash",
+    "quantity":1,
+    "percent":56
+  },
+  {
+    "dropID":2859,
+    "monster_name":"Apex Tigrex",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Tigrex Shard",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":2860,
+    "monster_name":"Apex Tigrex",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Tigrex Mantle",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":2861,
+    "monster_name":"Diablos",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":2862,
+    "monster_name":"Diablos",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Diablos Chine",
+    "quantity":1,
+    "percent":38
+  },
+  {
+    "dropID":2863,
+    "monster_name":"Diablos",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Lrg Wyvern Gem",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":2864,
+    "monster_name":"Diablos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Diablos Cortex",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":2865,
+    "monster_name":"Diablos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Diablos Chine",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":2866,
+    "monster_name":"Diablos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Blos Medulla",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2867,
+    "monster_name":"Diablos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Lrg Wyvern Gem",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":2868,
+    "monster_name":"Diablos",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Diablos Chine",
+    "quantity":1,
+    "percent":33
+  },
+  {
+    "dropID":2869,
+    "monster_name":"Diablos",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Diablos Cortex",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":2870,
+    "monster_name":"Diablos",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Diablos Tailcase+",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":2871,
+    "monster_name":"Diablos",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Blos Medulla",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":2872,
+    "monster_name":"Diablos",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Lrg Wyvern Gem",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":2873,
+    "monster_name":"Diablos",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":2874,
+    "monster_name":"Diablos",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":2,
+    "percent":25
+  },
+  {
+    "dropID":2875,
+    "monster_name":"Diablos",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":2,
+    "percent":20
+  },
+  {
+    "dropID":2876,
+    "monster_name":"Diablos",
+    "rank":"G",
+    "method":"Break Horn",
+    "item_name":"Twisted Stouthorn",
+    "quantity":1,
+    "percent":88
+  },
+  {
+    "dropID":2877,
+    "monster_name":"Diablos",
+    "rank":"G",
+    "method":"Break Horn",
+    "item_name":"Diablos Hardhorn",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":2878,
+    "monster_name":"Diablos",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Diablos Tailcase+",
+    "quantity":1,
+    "percent":54
+  },
+  {
+    "dropID":2879,
+    "monster_name":"Diablos",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Diablos Cortex",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2880,
+    "monster_name":"Diablos",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Blos Medulla",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":2881,
+    "monster_name":"Diablos",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Lrg Wyvern Gem",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":2882,
+    "monster_name":"Diablos",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Diablos Chine",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":2883,
+    "monster_name":"Diablos",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Diablos Cortex",
+    "quantity":2,
+    "percent":30
+  },
+  {
+    "dropID":2884,
+    "monster_name":"Black Diablos",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":2885,
+    "monster_name":"Black Diablos",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"B.Diablos Chine",
+    "quantity":1,
+    "percent":38
+  },
+  {
+    "dropID":2886,
+    "monster_name":"Black Diablos",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Lrg Wyvern Gem",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":2887,
+    "monster_name":"Black Diablos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"B.Diablos Cortex",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":2888,
+    "monster_name":"Black Diablos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"B.Diablos Chine",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":2889,
+    "monster_name":"Black Diablos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Blos Medulla",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2890,
+    "monster_name":"Black Diablos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Lrg Wyvern Gem",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":2891,
+    "monster_name":"Black Diablos",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"B.Diablos Chine",
+    "quantity":1,
+    "percent":33
+  },
+  {
+    "dropID":2892,
+    "monster_name":"Black Diablos",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"B.Diablos Cortex",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":2893,
+    "monster_name":"Black Diablos",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Diablos Tailcase+",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":2894,
+    "monster_name":"Black Diablos",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Blos Medulla",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":2895,
+    "monster_name":"Black Diablos",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Lrg Wyvern Gem",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":2896,
+    "monster_name":"Black Diablos",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":2897,
+    "monster_name":"Black Diablos",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":2,
+    "percent":25
+  },
+  {
+    "dropID":2898,
+    "monster_name":"Black Diablos",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":2,
+    "percent":20
+  },
+  {
+    "dropID":2899,
+    "monster_name":"Black Diablos",
+    "rank":"G",
+    "method":"Break Horn",
+    "item_name":"Blackcurl Stouthorn",
+    "quantity":1,
+    "percent":88
+  },
+  {
+    "dropID":2900,
+    "monster_name":"Black Diablos",
+    "rank":"G",
+    "method":"Break Horn",
+    "item_name":"Diablos Hardhorn",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":2901,
+    "monster_name":"Black Diablos",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Diablos Tailcase+",
+    "quantity":1,
+    "percent":58
+  },
+  {
+    "dropID":2902,
+    "monster_name":"Black Diablos",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"B.Diablos Cortex",
+    "quantity":1,
+    "percent":29
+  },
+  {
+    "dropID":2903,
+    "monster_name":"Black Diablos",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Blos Medulla",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":2904,
+    "monster_name":"Black Diablos",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Lrg Wyvern Gem",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":2905,
+    "monster_name":"Black Diablos",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"B.Diablos Chine",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":2906,
+    "monster_name":"Black Diablos",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"B.Diablos Cortex",
+    "quantity":2,
+    "percent":30
+  },
+  {
+    "dropID":2907,
+    "monster_name":"Apex Diablos",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":2908,
+    "monster_name":"Apex Diablos",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Diablos Chine",
+    "quantity":1,
+    "percent":36
+  },
+  {
+    "dropID":2909,
+    "monster_name":"Apex Diablos",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Lrg Wyvern Gem",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":2910,
+    "monster_name":"Apex Diablos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Diablos Cortex",
+    "quantity":1,
+    "percent":58
+  },
+  {
+    "dropID":2911,
+    "monster_name":"Apex Diablos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Diablos Chine",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":2912,
+    "monster_name":"Apex Diablos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Blos Medulla",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2913,
+    "monster_name":"Apex Diablos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Lrg Wyvern Gem",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":2914,
+    "monster_name":"Apex Diablos",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Diablos Chine",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2915,
+    "monster_name":"Apex Diablos",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Diablos Cortex",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":2916,
+    "monster_name":"Apex Diablos",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Diablos Tailcase+",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":2917,
+    "monster_name":"Apex Diablos",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Blos Medulla",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":2918,
+    "monster_name":"Apex Diablos",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Lrg Wyvern Gem",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":2919,
+    "monster_name":"Apex Diablos",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Zenith Wyvern Gem",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":2920,
+    "monster_name":"Apex Diablos",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Zenith Wyvern Gem L",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":2921,
+    "monster_name":"Apex Diablos",
+    "rank":"G",
+    "method":"Break Horn",
+    "item_name":"Twisted Stouthorn",
+    "quantity":1,
+    "percent":82
+  },
+  {
+    "dropID":2922,
+    "monster_name":"Apex Diablos",
+    "rank":"G",
+    "method":"Break Horn",
+    "item_name":"Diablos Hardhorn",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":2923,
+    "monster_name":"Apex Diablos",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Diablos Tailcase+",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":2924,
+    "monster_name":"Apex Diablos",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Diablos Cortex",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2925,
+    "monster_name":"Apex Diablos",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Blos Medulla",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":2926,
+    "monster_name":"Apex Diablos",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Lrg Wyvern Gem",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":2927,
+    "monster_name":"Apex Diablos",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Diablos Chine",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":2928,
+    "monster_name":"Apex Diablos",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Diablos Cortex",
+    "quantity":2,
+    "percent":30
+  },
+  {
+    "dropID":2929,
+    "monster_name":"Monoblos",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":48
+  },
+  {
+    "dropID":2930,
+    "monster_name":"Monoblos",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":48
+  },
+  {
+    "dropID":2931,
+    "monster_name":"Monoblos",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Monoblos Heart",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":2932,
+    "monster_name":"Monoblos",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Monoblos Carapace",
+    "quantity":1,
+    "percent":61
+  },
+  {
+    "dropID":2933,
+    "monster_name":"Monoblos",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Monoblos Thoracic",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2934,
+    "monster_name":"Monoblos",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Wyvern Gem",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":2935,
+    "monster_name":"Monoblos",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Monoblos Heart",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":2936,
+    "monster_name":"Monoblos",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Monoblos Carapace",
+    "quantity":1,
+    "percent":56
+  },
+  {
+    "dropID":2937,
+    "monster_name":"Monoblos",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Monoblos Thoracic",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":2938,
+    "monster_name":"Monoblos",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Blos Medulla",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2939,
+    "monster_name":"Monoblos",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Monoblos Heart",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":2940,
+    "monster_name":"Monoblos",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":2941,
+    "monster_name":"Monoblos",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2942,
+    "monster_name":"Monoblos",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":2943,
+    "monster_name":"Monoblos",
+    "rank":"High",
+    "method":"Break Horn",
+    "item_name":"Scarlet Finehorn",
+    "quantity":1,
+    "percent":100
+  },
+  {
+    "dropID":2944,
+    "monster_name":"Monoblos",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Monoblos Carapace",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":2945,
+    "monster_name":"Monoblos",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Monster Hardbone",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":2946,
+    "monster_name":"Monoblos",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Blos Medulla",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2947,
+    "monster_name":"Monoblos",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"Monoblos Thoracic",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":2948,
+    "monster_name":"Monoblos",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"Monoblos Carapace",
+    "quantity":2,
+    "percent":30
+  },
+  {
+    "dropID":2949,
+    "monster_name":"Monoblos",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":64
+  },
+  {
+    "dropID":2950,
+    "monster_name":"Monoblos",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Monoblos Chine",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2951,
+    "monster_name":"Monoblos",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Monoblos Heart",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":2952,
+    "monster_name":"Monoblos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Monoblos Cortex",
+    "quantity":1,
+    "percent":59
+  },
+  {
+    "dropID":2953,
+    "monster_name":"Monoblos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Monoblos Chine",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2954,
+    "monster_name":"Monoblos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Monoblos Heart",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":2955,
+    "monster_name":"Monoblos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Lrg Wyvern Gem",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":2956,
+    "monster_name":"Monoblos",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Monoblos Cortex",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":2957,
+    "monster_name":"Monoblos",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Monoblos Chine",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":2958,
+    "monster_name":"Monoblos",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Blos Medulla",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":2959,
+    "monster_name":"Monoblos",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Monoblos Heart",
+    "quantity":1,
+    "percent":7
+  },
+  {
+    "dropID":2960,
+    "monster_name":"Monoblos",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":2961,
+    "monster_name":"Monoblos",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":2962,
+    "monster_name":"Monoblos",
+    "rank":"G",
+    "method":"Break Horn",
+    "item_name":"Scarlet Stouthorn",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":2963,
+    "monster_name":"Monoblos",
+    "rank":"G",
+    "method":"Break Horn",
+    "item_name":"Scarlet Finehorn",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":2964,
+    "monster_name":"Monoblos",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Diablos Tailcase+",
+    "quantity":1,
+    "percent":65
+  },
+  {
+    "dropID":2965,
+    "monster_name":"Monoblos",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Monster Slogbone",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":2966,
+    "monster_name":"Monoblos",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Blos Medulla",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":2967,
+    "monster_name":"Monoblos",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Monoblos Chine",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":2968,
+    "monster_name":"Monoblos",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Monoblos Cortex",
+    "quantity":2,
+    "percent":30
+  },
+  {
+    "dropID":2969,
+    "monster_name":"White Monoblos",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":64
+  },
+  {
+    "dropID":2970,
+    "monster_name":"White Monoblos",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"W.Monoblos Chine",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2971,
+    "monster_name":"White Monoblos",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Monoblos Heart",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":2972,
+    "monster_name":"White Monoblos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"W.Monoblos Cortex",
+    "quantity":1,
+    "percent":59
+  },
+  {
+    "dropID":2973,
+    "monster_name":"White Monoblos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"W.Monoblos Chine",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2974,
+    "monster_name":"White Monoblos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Monoblos Heart",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":2975,
+    "monster_name":"White Monoblos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Lrg Wyvern Gem",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":2976,
+    "monster_name":"White Monoblos",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"W.Monoblos Cortex",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":2977,
+    "monster_name":"White Monoblos",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"W.Monoblos Chine",
+    "quantity":1,
+    "percent":27
+  },
+  {
+    "dropID":2978,
+    "monster_name":"White Monoblos",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Blos Medulla",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":2979,
+    "monster_name":"White Monoblos",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Monoblos Heart",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":2980,
+    "monster_name":"White Monoblos",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":2981,
+    "monster_name":"White Monoblos",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":2982,
+    "monster_name":"White Monoblos",
+    "rank":"G",
+    "method":"Break Horn",
+    "item_name":"Argent Stouthorn",
+    "quantity":1,
+    "percent":100
+  },
+  {
+    "dropID":2983,
+    "monster_name":"White Monoblos",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Diablos Tailcase+",
+    "quantity":1,
+    "percent":65
+  },
+  {
+    "dropID":2984,
+    "monster_name":"White Monoblos",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Monster Slogbone",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":2985,
+    "monster_name":"White Monoblos",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Blos Medulla",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":2986,
+    "monster_name":"White Monoblos",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"W.Monoblos Chine",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":2987,
+    "monster_name":"White Monoblos",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"W.Monoblos Cortex",
+    "quantity":2,
+    "percent":30
+  },
+  {
+    "dropID":2988,
+    "monster_name":"Seregios",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Seregios Airblade",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":2989,
+    "monster_name":"Seregios",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":34
+  },
+  {
+    "dropID":2990,
+    "monster_name":"Seregios",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":2991,
+    "monster_name":"Seregios",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Seregios Dissenter",
+    "quantity":1,
+    "percent":1
+  },
+  {
+    "dropID":2992,
+    "monster_name":"Seregios",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Seregios Slavescale",
+    "quantity":1,
+    "percent":44
+  },
+  {
+    "dropID":2993,
+    "monster_name":"Seregios",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Seregios Airblade",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":2994,
+    "monster_name":"Seregios",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Seregios Carver",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":2995,
+    "monster_name":"Seregios",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Seregios Scraper",
+    "quantity":1,
+    "percent":14
+  },
+  {
+    "dropID":2996,
+    "monster_name":"Seregios",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Seregios Dissenter",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":2997,
+    "monster_name":"Seregios",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Seregios Airblade",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":2998,
+    "monster_name":"Seregios",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Seregios Scraper",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":2999,
+    "monster_name":"Seregios",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Seregios Carver",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3000,
+    "monster_name":"Seregios",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Monster Hardbone",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":3001,
+    "monster_name":"Seregios",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Seregios Slavescale",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":3002,
+    "monster_name":"Seregios",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Seregios Dissenter",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3003,
+    "monster_name":"Seregios",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":3004,
+    "monster_name":"Seregios",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":3005,
+    "monster_name":"Seregios",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Seregios Breacher",
+    "quantity":1,
+    "percent":76
+  },
+  {
+    "dropID":3006,
+    "monster_name":"Seregios",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Seregios Slavescale",
+    "quantity":1,
+    "percent":21
+  },
+  {
+    "dropID":3007,
+    "monster_name":"Seregios",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Seregios Dissenter",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":3008,
+    "monster_name":"Seregios",
+    "rank":"High",
+    "method":"Break Claw",
+    "item_name":"Seregios Carver",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":3009,
+    "monster_name":"Seregios",
+    "rank":"High",
+    "method":"Break Claw",
+    "item_name":"Seregios Carver",
+    "quantity":2,
+    "percent":20
+  },
+  {
+    "dropID":3010,
+    "monster_name":"Seregios",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Seregios Impaler",
+    "quantity":1,
+    "percent":69
+  },
+  {
+    "dropID":3011,
+    "monster_name":"Seregios",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Seregios Slavescale",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3012,
+    "monster_name":"Seregios",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Seregios Airblade",
+    "quantity":1,
+    "percent":9
+  },
+  {
+    "dropID":3013,
+    "monster_name":"Seregios",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Seregios Dissenter",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3014,
+    "monster_name":"Seregios",
+    "rank":"High",
+    "method":"Break Talon",
+    "item_name":"Seregios Scraper",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":3015,
+    "monster_name":"Seregios",
+    "rank":"High",
+    "method":"Break Talon",
+    "item_name":"Seregios Airblade",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":3016,
+    "monster_name":"Seregios",
+    "rank":"High",
+    "method":"Break Talon",
+    "item_name":"Seregios Slavescale",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":3017,
+    "monster_name":"Seregios",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Seregios Airblade+",
+    "quantity":1,
+    "percent":57
+  },
+  {
+    "dropID":3018,
+    "monster_name":"Seregios",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":3019,
+    "monster_name":"Seregios",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Seregios Dissenter",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3020,
+    "monster_name":"Seregios",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Seregios Lens",
+    "quantity":1,
+    "percent":1
+  },
+  {
+    "dropID":3021,
+    "monster_name":"Seregios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Seregios Slavescale+",
+    "quantity":1,
+    "percent":44
+  },
+  {
+    "dropID":3022,
+    "monster_name":"Seregios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Seregios Airblade+",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":3023,
+    "monster_name":"Seregios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Seregios Carver+",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":3024,
+    "monster_name":"Seregios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Seregios Scraper+",
+    "quantity":1,
+    "percent":14
+  },
+  {
+    "dropID":3025,
+    "monster_name":"Seregios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Seregios Lens",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":3026,
+    "monster_name":"Seregios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Seregios Airblade+",
+    "quantity":1,
+    "percent":27
+  },
+  {
+    "dropID":3027,
+    "monster_name":"Seregios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Seregios Scraper+",
+    "quantity":1,
+    "percent":27
+  },
+  {
+    "dropID":3028,
+    "monster_name":"Seregios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Seregios Carver+",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3029,
+    "monster_name":"Seregios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Seregios Slavescale+",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":3030,
+    "monster_name":"Seregios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Monster Slogbone",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":3031,
+    "monster_name":"Seregios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Seregios Dissenter",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":3032,
+    "monster_name":"Seregios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Seregios Lens",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3033,
+    "monster_name":"Seregios",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":3034,
+    "monster_name":"Seregios",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":3035,
+    "monster_name":"Seregios",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Seregios Breacher+",
+    "quantity":1,
+    "percent":76
+  },
+  {
+    "dropID":3036,
+    "monster_name":"Seregios",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Seregios Breacher",
+    "quantity":1,
+    "percent":21
+  },
+  {
+    "dropID":3037,
+    "monster_name":"Seregios",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Seregios Lens",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":3038,
+    "monster_name":"Seregios",
+    "rank":"G",
+    "method":"Break Claw",
+    "item_name":"Seregios Carver+",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":3039,
+    "monster_name":"Seregios",
+    "rank":"G",
+    "method":"Break Claw",
+    "item_name":"Seregios Carver+",
+    "quantity":2,
+    "percent":20
+  },
+  {
+    "dropID":3040,
+    "monster_name":"Seregios",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Seregios Impaler+",
+    "quantity":1,
+    "percent":69
+  },
+  {
+    "dropID":3041,
+    "monster_name":"Seregios",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Seregios Slavescale+",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3042,
+    "monster_name":"Seregios",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Seregios Airblade+",
+    "quantity":1,
+    "percent":9
+  },
+  {
+    "dropID":3043,
+    "monster_name":"Seregios",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Seregios Lens",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3044,
+    "monster_name":"Seregios",
+    "rank":"G",
+    "method":"Break Talon",
+    "item_name":"Seregios Scraper+",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":3045,
+    "monster_name":"Seregios",
+    "rank":"G",
+    "method":"Break Talon",
+    "item_name":"Seregios Airblade+",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":3046,
+    "monster_name":"Seregios",
+    "rank":"G",
+    "method":"Break Talon",
+    "item_name":"Seregios Slavescale+",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":3047,
+    "monster_name":"Apex Seregios",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Seregios Airblade",
+    "quantity":1,
+    "percent":44
+  },
+  {
+    "dropID":3048,
+    "monster_name":"Apex Seregios",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":34
+  },
+  {
+    "dropID":3049,
+    "monster_name":"Apex Seregios",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3050,
+    "monster_name":"Apex Seregios",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Seregios Dissenter",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3051,
+    "monster_name":"Apex Seregios",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Seregios Slavescale",
+    "quantity":1,
+    "percent":43
+  },
+  {
+    "dropID":3052,
+    "monster_name":"Apex Seregios",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Seregios Airblade",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":3053,
+    "monster_name":"Apex Seregios",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Seregios Carver",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":3054,
+    "monster_name":"Apex Seregios",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Seregios Scraper",
+    "quantity":1,
+    "percent":13
+  },
+  {
+    "dropID":3055,
+    "monster_name":"Apex Seregios",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Seregios Dissenter",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":3056,
+    "monster_name":"Apex Seregios",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Seregios Airblade",
+    "quantity":1,
+    "percent":27
+  },
+  {
+    "dropID":3057,
+    "monster_name":"Apex Seregios",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Seregios Scraper",
+    "quantity":1,
+    "percent":27
+  },
+  {
+    "dropID":3058,
+    "monster_name":"Apex Seregios",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Seregios Carver",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3059,
+    "monster_name":"Apex Seregios",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Monster Hardbone",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":3060,
+    "monster_name":"Apex Seregios",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Seregios Slavescale",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":3061,
+    "monster_name":"Apex Seregios",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Seregios Dissenter",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":3062,
+    "monster_name":"Apex Seregios",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Zenith Wyvern Gem",
+    "quantity":1,
+    "percent":100
+  },
+  {
+    "dropID":3063,
+    "monster_name":"Apex Seregios",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Seregios Breacher",
+    "quantity":1,
+    "percent":74
+  },
+  {
+    "dropID":3064,
+    "monster_name":"Apex Seregios",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Seregios Slavescale",
+    "quantity":1,
+    "percent":21
+  },
+  {
+    "dropID":3065,
+    "monster_name":"Apex Seregios",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Seregios Dissenter",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":3066,
+    "monster_name":"Apex Seregios",
+    "rank":"High",
+    "method":"Break Claw",
+    "item_name":"Seregios Carver",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":3067,
+    "monster_name":"Apex Seregios",
+    "rank":"High",
+    "method":"Break Claw",
+    "item_name":"Seregios Carver",
+    "quantity":2,
+    "percent":20
+  },
+  {
+    "dropID":3068,
+    "monster_name":"Apex Seregios",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Seregios Impaler",
+    "quantity":1,
+    "percent":69
+  },
+  {
+    "dropID":3069,
+    "monster_name":"Apex Seregios",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Seregios Slavescale",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3070,
+    "monster_name":"Apex Seregios",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Seregios Airblade",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":3071,
+    "monster_name":"Apex Seregios",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Seregios Dissenter",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":3072,
+    "monster_name":"Apex Seregios",
+    "rank":"High",
+    "method":"Break Talon",
+    "item_name":"Seregios Scraper",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":3073,
+    "monster_name":"Apex Seregios",
+    "rank":"High",
+    "method":"Break Talon",
+    "item_name":"Seregios Airblade",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":3074,
+    "monster_name":"Apex Seregios",
+    "rank":"High",
+    "method":"Break Talon",
+    "item_name":"Seregios Slavescale",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":3075,
+    "monster_name":"Apex Seregios",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Seregios Slavescale+",
+    "quantity":1,
+    "percent":54
+  },
+  {
+    "dropID":3076,
+    "monster_name":"Apex Seregios",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":3077,
+    "monster_name":"Apex Seregios",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Seregios Dissenter",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":3078,
+    "monster_name":"Apex Seregios",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Seregios Lens",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3079,
+    "monster_name":"Apex Seregios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Seregios Slavescale+",
+    "quantity":1,
+    "percent":43
+  },
+  {
+    "dropID":3080,
+    "monster_name":"Apex Seregios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Seregios Airblade+",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":3081,
+    "monster_name":"Apex Seregios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Seregios Carver+",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":3082,
+    "monster_name":"Apex Seregios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Seregios Scraper+",
+    "quantity":1,
+    "percent":13
+  },
+  {
+    "dropID":3083,
+    "monster_name":"Apex Seregios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Seregios Lens",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":3084,
+    "monster_name":"Apex Seregios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Seregios Airblade+",
+    "quantity":1,
+    "percent":26
+  },
+  {
+    "dropID":3085,
+    "monster_name":"Apex Seregios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Seregios Scraper+",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":3086,
+    "monster_name":"Apex Seregios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Seregios Carver+",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3087,
+    "monster_name":"Apex Seregios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Seregios Slavescale+",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":3088,
+    "monster_name":"Apex Seregios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Seregios Dissenter",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":3089,
+    "monster_name":"Apex Seregios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Monster Slogbone",
+    "quantity":1,
+    "percent":7
+  },
+  {
+    "dropID":3090,
+    "monster_name":"Apex Seregios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Seregios Lens",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":3091,
+    "monster_name":"Apex Seregios",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Zenith Wyvern Gem",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":3092,
+    "monster_name":"Apex Seregios",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Zenith Wyvern Gem L",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":3093,
+    "monster_name":"Apex Seregios",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Seregios Breacher+",
+    "quantity":1,
+    "percent":74
+  },
+  {
+    "dropID":3094,
+    "monster_name":"Apex Seregios",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Seregios Breacher",
+    "quantity":1,
+    "percent":21
+  },
+  {
+    "dropID":3095,
+    "monster_name":"Apex Seregios",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Seregios Lens",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":3096,
+    "monster_name":"Apex Seregios",
+    "rank":"G",
+    "method":"Break Claw",
+    "item_name":"Seregios Carver+",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":3097,
+    "monster_name":"Apex Seregios",
+    "rank":"G",
+    "method":"Break Claw",
+    "item_name":"Seregios Carver+",
+    "quantity":2,
+    "percent":20
+  },
+  {
+    "dropID":3098,
+    "monster_name":"Apex Seregios",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Seregios Impaler+",
+    "quantity":1,
+    "percent":69
+  },
+  {
+    "dropID":3099,
+    "monster_name":"Apex Seregios",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Seregios Slavescale+",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3100,
+    "monster_name":"Apex Seregios",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Seregios Airblade+",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":3101,
+    "monster_name":"Apex Seregios",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Seregios Lens",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":3102,
+    "monster_name":"Apex Seregios",
+    "rank":"G",
+    "method":"Break Talon",
+    "item_name":"Seregios Scraper+",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":3103,
+    "monster_name":"Apex Seregios",
+    "rank":"G",
+    "method":"Break Talon",
+    "item_name":"Seregios Airblade+",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":3104,
+    "monster_name":"Apex Seregios",
+    "rank":"G",
+    "method":"Break Talon",
+    "item_name":"Seregios Slavescale+",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":3105,
+    "monster_name":"Gore Magala",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":3106,
+    "monster_name":"Gore Magala",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Gore Magala Scale",
+    "quantity":1,
+    "percent":23
+  },
+  {
+    "dropID":3107,
+    "monster_name":"Gore Magala",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Gore Magala Plate",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3108,
+    "monster_name":"Gore Magala",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Gore Magala Scale",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":3109,
+    "monster_name":"Gore Magala",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Gore Magala Shell",
+    "quantity":1,
+    "percent":27
+  },
+  {
+    "dropID":3110,
+    "monster_name":"Gore Magala",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Gore Magala Ripclaw",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":3111,
+    "monster_name":"Gore Magala",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Gore Magala Wing",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":3112,
+    "monster_name":"Gore Magala",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Gore Magala Plate",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":3113,
+    "monster_name":"Gore Magala",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Gore Magala Shell",
+    "quantity":1,
+    "percent":37
+  },
+  {
+    "dropID":3114,
+    "monster_name":"Gore Magala",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Gore Magala Wing",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":3115,
+    "monster_name":"Gore Magala",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Defiled Scale",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3116,
+    "monster_name":"Gore Magala",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Gore Magala Feeler",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":3117,
+    "monster_name":"Gore Magala",
+    "rank":"Low",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":3118,
+    "monster_name":"Gore Magala",
+    "rank":"Low",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":3119,
+    "monster_name":"Gore Magala",
+    "rank":"Low",
+    "method":"Break Head",
+    "item_name":"Defiled Scale",
+    "quantity":1,
+    "percent":64
+  },
+  {
+    "dropID":3120,
+    "monster_name":"Gore Magala",
+    "rank":"Low",
+    "method":"Break Head",
+    "item_name":"Gore Magala Scale",
+    "quantity":1,
+    "percent":33
+  },
+  {
+    "dropID":3121,
+    "monster_name":"Gore Magala",
+    "rank":"Low",
+    "method":"Break Head",
+    "item_name":"Gore Magala Plate",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":3122,
+    "monster_name":"Gore Magala",
+    "rank":"Low",
+    "method":"Tail Carve",
+    "item_name":"Gore Magala Tail",
+    "quantity":1,
+    "percent":63
+  },
+  {
+    "dropID":3123,
+    "monster_name":"Gore Magala",
+    "rank":"Low",
+    "method":"Tail Carve",
+    "item_name":"Gore Magala Scale",
+    "quantity":1,
+    "percent":33
+  },
+  {
+    "dropID":3124,
+    "monster_name":"Gore Magala",
+    "rank":"Low",
+    "method":"Tail Carve",
+    "item_name":"Gore Magala Plate",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":3125,
+    "monster_name":"Gore Magala",
+    "rank":"Low",
+    "method":"Break Wing",
+    "item_name":"Gore Magala Wing",
+    "quantity":1,
+    "percent":65
+  },
+  {
+    "dropID":3126,
+    "monster_name":"Gore Magala",
+    "rank":"Low",
+    "method":"Break Wing",
+    "item_name":"Gore Magala Scale",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":3127,
+    "monster_name":"Gore Magala",
+    "rank":"Low",
+    "method":"Break Antenna",
+    "item_name":"Gore Magala Feeler",
+    "quantity":1,
+    "percent":100
+  },
+  {
+    "dropID":3128,
+    "monster_name":"Gore Magala",
+    "rank":"Low",
+    "method":"Break Wing Leg",
+    "item_name":"Gore Magala Ripclaw",
+    "quantity":1,
+    "percent":43
+  },
+  {
+    "dropID":3129,
+    "monster_name":"Gore Magala",
+    "rank":"Low",
+    "method":"Break Wing Leg",
+    "item_name":"Gore Magala Scale",
+    "quantity":1,
+    "percent":32
+  },
+  {
+    "dropID":3130,
+    "monster_name":"Gore Magala",
+    "rank":"Low",
+    "method":"Break Wing Leg",
+    "item_name":"Defiled Scale",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":3131,
+    "monster_name":"Gore Magala",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":38
+  },
+  {
+    "dropID":3132,
+    "monster_name":"Gore Magala",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":37
+  },
+  {
+    "dropID":3133,
+    "monster_name":"Gore Magala",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Gore Magala Scale+",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":3134,
+    "monster_name":"Gore Magala",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Gore Magala Nyctgem",
+    "quantity":1,
+    "percent":1
+  },
+  {
+    "dropID":3135,
+    "monster_name":"Gore Magala",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Gore Magala Scale+",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":3136,
+    "monster_name":"Gore Magala",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Gore Magala Carapace",
+    "quantity":1,
+    "percent":29
+  },
+  {
+    "dropID":3137,
+    "monster_name":"Gore Magala",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Gore Magala Ripclaw+",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":3138,
+    "monster_name":"Gore Magala",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Gore Magala Wing+",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":3139,
+    "monster_name":"Gore Magala",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Gore Magala Nyctgem",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":3140,
+    "monster_name":"Gore Magala",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Gore Magala Carapace",
+    "quantity":1,
+    "percent":37
+  },
+  {
+    "dropID":3141,
+    "monster_name":"Gore Magala",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Gore Magala Wing+",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":3142,
+    "monster_name":"Gore Magala",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Gore Magala Feeler+",
+    "quantity":1,
+    "percent":16
+  },
+  {
+    "dropID":3143,
+    "monster_name":"Gore Magala",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Defiled Scale",
+    "quantity":2,
+    "percent":12
+  },
+  {
+    "dropID":3144,
+    "monster_name":"Gore Magala",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Gore Magala Feeler",
+    "quantity":2,
+    "percent":7
+  },
+  {
+    "dropID":3145,
+    "monster_name":"Gore Magala",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":3146,
+    "monster_name":"Gore Magala",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":3147,
+    "monster_name":"Gore Magala",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3148,
+    "monster_name":"Gore Magala",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Defiled Scale",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":3149,
+    "monster_name":"Gore Magala",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Gore Magala Scale+",
+    "quantity":1,
+    "percent":33
+  },
+  {
+    "dropID":3150,
+    "monster_name":"Gore Magala",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Gore Magala Shell",
+    "quantity":2,
+    "percent":20
+  },
+  {
+    "dropID":3151,
+    "monster_name":"Gore Magala",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Gore Magala Plate",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":3152,
+    "monster_name":"Gore Magala",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Gore Magala Nyctgem",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3153,
+    "monster_name":"Gore Magala",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Gore Magala Tail",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":3154,
+    "monster_name":"Gore Magala",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Gore Magala Scale+",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":3155,
+    "monster_name":"Gore Magala",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Gore Magala Plate",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":3156,
+    "monster_name":"Gore Magala",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Gore Magala Nyctgem",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3157,
+    "monster_name":"Gore Magala",
+    "rank":"High",
+    "method":"Break Wing",
+    "item_name":"Gore Magala Wing+",
+    "quantity":1,
+    "percent":48
+  },
+  {
+    "dropID":3158,
+    "monster_name":"Gore Magala",
+    "rank":"High",
+    "method":"Break Wing",
+    "item_name":"Gore Magala Wing",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":3159,
+    "monster_name":"Gore Magala",
+    "rank":"High",
+    "method":"Break Wing",
+    "item_name":"Gore Magala Scale+",
+    "quantity":1,
+    "percent":22
+  },
+  {
+    "dropID":3160,
+    "monster_name":"Gore Magala",
+    "rank":"High",
+    "method":"Break Antenna",
+    "item_name":"Gore Magala Feeler+",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":3161,
+    "monster_name":"Gore Magala",
+    "rank":"High",
+    "method":"Break Antenna",
+    "item_name":"Gore Magala Feeler",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":3162,
+    "monster_name":"Gore Magala",
+    "rank":"High",
+    "method":"Break Wing Leg",
+    "item_name":"Gore Magala Ripclaw+",
+    "quantity":1,
+    "percent":37
+  },
+  {
+    "dropID":3163,
+    "monster_name":"Gore Magala",
+    "rank":"High",
+    "method":"Break Wing Leg",
+    "item_name":"Gore Magala Scale+",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":3164,
+    "monster_name":"Gore Magala",
+    "rank":"High",
+    "method":"Break Wing Leg",
+    "item_name":"Gore Magala Ripclaw",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3165,
+    "monster_name":"Gore Magala",
+    "rank":"High",
+    "method":"Break Wing Leg",
+    "item_name":"Defiled Scale",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":3166,
+    "monster_name":"Gore Magala",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":3167,
+    "monster_name":"Gore Magala",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Gore Magala Shard",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":3168,
+    "monster_name":"Gore Magala",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Gore Magala Nyctgem",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":3169,
+    "monster_name":"Gore Magala",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Gore Magala Mantle",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3170,
+    "monster_name":"Gore Magala",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Gore Magala Shard",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":3171,
+    "monster_name":"Gore Magala",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Gore Magala Cortex",
+    "quantity":1,
+    "percent":29
+  },
+  {
+    "dropID":3172,
+    "monster_name":"Gore Magala",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Gore Magala Shredder",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":3173,
+    "monster_name":"Gore Magala",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Gore Magala Eclipse",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":3174,
+    "monster_name":"Gore Magala",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Gore Magala Mantle",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":3175,
+    "monster_name":"Gore Magala",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Gore Magala Cortex",
+    "quantity":1,
+    "percent":37
+  },
+  {
+    "dropID":3176,
+    "monster_name":"Gore Magala",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Gore Magala Eclipse",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":3177,
+    "monster_name":"Gore Magala",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Gore Magala Sensor",
+    "quantity":1,
+    "percent":16
+  },
+  {
+    "dropID":3178,
+    "monster_name":"Gore Magala",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Defiled Scale",
+    "quantity":2,
+    "percent":12
+  },
+  {
+    "dropID":3179,
+    "monster_name":"Gore Magala",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Gore Magala Feeler+",
+    "quantity":2,
+    "percent":7
+  },
+  {
+    "dropID":3180,
+    "monster_name":"Gore Magala",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":3181,
+    "monster_name":"Gore Magala",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":2,
+    "percent":25
+  },
+  {
+    "dropID":3182,
+    "monster_name":"Gore Magala",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":2,
+    "percent":20
+  },
+  {
+    "dropID":3183,
+    "monster_name":"Gore Magala",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Gore Magala Shard",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":3184,
+    "monster_name":"Gore Magala",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Gore Magala Carapace",
+    "quantity":2,
+    "percent":23
+  },
+  {
+    "dropID":3185,
+    "monster_name":"Gore Magala",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Gore Magala Nyctgem",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":3186,
+    "monster_name":"Gore Magala",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Gore Magala Mantle",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3187,
+    "monster_name":"Gore Magala",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Gore Magala Lash",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":3188,
+    "monster_name":"Gore Magala",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Gore Magala Shard",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":3189,
+    "monster_name":"Gore Magala",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Gore Magala Nyctgem",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":3190,
+    "monster_name":"Gore Magala",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Gore Magala Mantle",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3191,
+    "monster_name":"Gore Magala",
+    "rank":"G",
+    "method":"Break Wing",
+    "item_name":"Gore Magala Eclipse",
+    "quantity":1,
+    "percent":48
+  },
+  {
+    "dropID":3192,
+    "monster_name":"Gore Magala",
+    "rank":"G",
+    "method":"Break Wing",
+    "item_name":"Gore Magala Wing+",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":3193,
+    "monster_name":"Gore Magala",
+    "rank":"G",
+    "method":"Break Wing",
+    "item_name":"Gore Magala Shard",
+    "quantity":1,
+    "percent":22
+  },
+  {
+    "dropID":3194,
+    "monster_name":"Gore Magala",
+    "rank":"G",
+    "method":"Break Antenna",
+    "item_name":"Gore Magala Sensor",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":3195,
+    "monster_name":"Gore Magala",
+    "rank":"G",
+    "method":"Break Antenna",
+    "item_name":"Gore Magala Feeler+",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":3196,
+    "monster_name":"Gore Magala",
+    "rank":"G",
+    "method":"Break Wing Leg",
+    "item_name":"Gore Magala Shredder",
+    "quantity":1,
+    "percent":37
+  },
+  {
+    "dropID":3197,
+    "monster_name":"Gore Magala",
+    "rank":"G",
+    "method":"Break Wing Leg",
+    "item_name":"Gore Magala Shard",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":3198,
+    "monster_name":"Gore Magala",
+    "rank":"G",
+    "method":"Break Wing Leg",
+    "item_name":"Gore Magala Ripclaw+",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3199,
+    "monster_name":"Gore Magala",
+    "rank":"G",
+    "method":"Break Wing Leg",
+    "item_name":"Defiled Scale",
+    "quantity":2,
+    "percent":15
+  },
+  {
+    "dropID":3200,
+    "monster_name":"Chaotic Gore Magala",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":3201,
+    "monster_name":"Chaotic Gore Magala",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Gore Magala Shard",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":3202,
+    "monster_name":"Chaotic Gore Magala",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Chaos Scale",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":3203,
+    "monster_name":"Chaotic Gore Magala",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Contrary Scale",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3204,
+    "monster_name":"Chaotic Gore Magala",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Gore Magala Shard",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":3205,
+    "monster_name":"Chaotic Gore Magala",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Chaos Scale",
+    "quantity":1,
+    "percent":29
+  },
+  {
+    "dropID":3206,
+    "monster_name":"Chaotic Gore Magala",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Gore Magala Shredder",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":3207,
+    "monster_name":"Chaotic Gore Magala",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Antinomic Wing",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":3208,
+    "monster_name":"Chaotic Gore Magala",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Contrary Scale",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":3209,
+    "monster_name":"Chaotic Gore Magala",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Gore Magala Shard",
+    "quantity":1,
+    "percent":37
+  },
+  {
+    "dropID":3210,
+    "monster_name":"Chaotic Gore Magala",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Antinomic Wing",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":3211,
+    "monster_name":"Chaotic Gore Magala",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Chaos Scale",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3212,
+    "monster_name":"Chaotic Gore Magala",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Diametrical Horn",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":3213,
+    "monster_name":"Chaotic Gore Magala",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":2,
+    "percent":80
+  },
+  {
+    "dropID":3214,
+    "monster_name":"Chaotic Gore Magala",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":3,
+    "percent":15
+  },
+  {
+    "dropID":3215,
+    "monster_name":"Chaotic Gore Magala",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":4,
+    "percent":5
+  },
+  {
+    "dropID":3216,
+    "monster_name":"Chaotic Gore Magala",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Antinomic Wing",
+    "quantity":1,
+    "percent":65
+  },
+  {
+    "dropID":3217,
+    "monster_name":"Chaotic Gore Magala",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Chaos Scale",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":3218,
+    "monster_name":"Chaotic Gore Magala",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Gore Magala Lash",
+    "quantity":1,
+    "percent":65
+  },
+  {
+    "dropID":3219,
+    "monster_name":"Chaotic Gore Magala",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Chaos Scale",
+    "quantity":1,
+    "percent":33
+  },
+  {
+    "dropID":3220,
+    "monster_name":"Chaotic Gore Magala",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Contrary Scale",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3221,
+    "monster_name":"Chaotic Gore Magala",
+    "rank":"G",
+    "method":"Break Wing",
+    "item_name":"Gore Magala Shredder",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":3222,
+    "monster_name":"Chaotic Gore Magala",
+    "rank":"G",
+    "method":"Break Wing",
+    "item_name":"Gore Magala Shard",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":3223,
+    "monster_name":"Chaotic Gore Magala",
+    "rank":"G",
+    "method":"Break Wing",
+    "item_name":"Chaos Scale",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":3224,
+    "monster_name":"Chaotic Gore Magala",
+    "rank":"G",
+    "method":"Break Antenna",
+    "item_name":"Diametrical Horn",
+    "quantity":1,
+    "percent":100
+  },
+  {
+    "dropID":3225,
+    "monster_name":"Chaotic Gore Magala",
+    "rank":"G",
+    "method":"Break Wing Leg",
+    "item_name":"S.Magala Purifier",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":3226,
+    "monster_name":"Chaotic Gore Magala",
+    "rank":"G",
+    "method":"Break Wing Leg",
+    "item_name":"Chaos Scale",
+    "quantity":1,
+    "percent":25
+  }
+]

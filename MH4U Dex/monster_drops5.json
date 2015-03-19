@@ -1,0 +1,4358 @@
+[
+  {
+    "dropID":1532,
+    "monster_name":"Brachydios",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":1533,
+    "monster_name":"Brachydios",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Mystery Slime",
+    "quantity":1,
+    "percent":22
+  },
+  {
+    "dropID":1534,
+    "monster_name":"Brachydios",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Brach Marrow",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":1535,
+    "monster_name":"Brachydios",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Brach Shell",
+    "quantity":1,
+    "percent":42
+  },
+  {
+    "dropID":1536,
+    "monster_name":"Brachydios",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Brach Ebonshell",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":1537,
+    "monster_name":"Brachydios",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Mystery Slime",
+    "quantity":1,
+    "percent":19
+  },
+  {
+    "dropID":1538,
+    "monster_name":"Brachydios",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Brach Scalp",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":1539,
+    "monster_name":"Brachydios",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Brach Marrow",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":1540,
+    "monster_name":"Brachydios",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Brach Ebonshell",
+    "quantity":1,
+    "percent":33
+  },
+  {
+    "dropID":1541,
+    "monster_name":"Brachydios",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Brach Shell",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":1542,
+    "monster_name":"Brachydios",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Brach Hammer",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1543,
+    "monster_name":"Brachydios",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Brach Tail",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1544,
+    "monster_name":"Brachydios",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Mystery Slime",
+    "quantity":2,
+    "percent":8
+  },
+  {
+    "dropID":1545,
+    "monster_name":"Brachydios",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Brach Marrow",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":1546,
+    "monster_name":"Brachydios",
+    "rank":"Low",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":1547,
+    "monster_name":"Brachydios",
+    "rank":"Low",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1548,
+    "monster_name":"Brachydios",
+    "rank":"Low",
+    "method":"Break Head",
+    "item_name":"Brach Scalp",
+    "quantity":1,
+    "percent":76
+  },
+  {
+    "dropID":1549,
+    "monster_name":"Brachydios",
+    "rank":"Low",
+    "method":"Break Head",
+    "item_name":"Brach Shell",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":1550,
+    "monster_name":"Brachydios",
+    "rank":"Low",
+    "method":"Tail Carve",
+    "item_name":"Brach Tail",
+    "quantity":1,
+    "percent":68
+  },
+  {
+    "dropID":1551,
+    "monster_name":"Brachydios",
+    "rank":"Low",
+    "method":"Tail Carve",
+    "item_name":"Brach Ebonshell",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1552,
+    "monster_name":"Brachydios",
+    "rank":"Low",
+    "method":"Tail Carve",
+    "item_name":"Brach Marrow",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":1553,
+    "monster_name":"Brachydios",
+    "rank":"Low",
+    "method":"Break Front Leg",
+    "item_name":"Brach Hammer",
+    "quantity":1,
+    "percent":59
+  },
+  {
+    "dropID":1554,
+    "monster_name":"Brachydios",
+    "rank":"Low",
+    "method":"Break Front Leg",
+    "item_name":"Mystery Slime",
+    "quantity":1,
+    "percent":27
+  },
+  {
+    "dropID":1555,
+    "monster_name":"Brachydios",
+    "rank":"Low",
+    "method":"Break Front Leg",
+    "item_name":"Brach Ebonshell",
+    "quantity":1,
+    "percent":14
+  },
+  {
+    "dropID":1556,
+    "monster_name":"Brachydios",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":38
+  },
+  {
+    "dropID":1557,
+    "monster_name":"Brachydios",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":37
+  },
+  {
+    "dropID":1558,
+    "monster_name":"Brachydios",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Mystery Slime",
+    "quantity":1,
+    "percent":21
+  },
+  {
+    "dropID":1559,
+    "monster_name":"Brachydios",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Brach Marrow",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":1560,
+    "monster_name":"Brachydios",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Brach Gem",
+    "quantity":1,
+    "percent":1
+  },
+  {
+    "dropID":1561,
+    "monster_name":"Brachydios",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Brach Carapace",
+    "quantity":1,
+    "percent":42
+  },
+  {
+    "dropID":1562,
+    "monster_name":"Brachydios",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Brach Ebonshell+",
+    "quantity":1,
+    "percent":31
+  },
+  {
+    "dropID":1563,
+    "monster_name":"Brachydios",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Mystery Slime",
+    "quantity":1,
+    "percent":19
+  },
+  {
+    "dropID":1564,
+    "monster_name":"Brachydios",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Brach Scalp+",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":1565,
+    "monster_name":"Brachydios",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Brach Gem",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":1566,
+    "monster_name":"Brachydios",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Brach Ebonshell+",
+    "quantity":1,
+    "percent":33
+  },
+  {
+    "dropID":1567,
+    "monster_name":"Brachydios",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Brach Carapace",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":1568,
+    "monster_name":"Brachydios",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Brach Pounder",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1569,
+    "monster_name":"Brachydios",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Brach Tail",
+    "quantity":1,
+    "percent":9
+  },
+  {
+    "dropID":1570,
+    "monster_name":"Brachydios",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Mystery Slime",
+    "quantity":3,
+    "percent":7
+  },
+  {
+    "dropID":1571,
+    "monster_name":"Brachydios",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Brach Marrow",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":1572,
+    "monster_name":"Brachydios",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Brach Gem",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":1573,
+    "monster_name":"Brachydios",
+    "rank":"High",
+    "method":"Frenzy Shard",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":1574,
+    "monster_name":"Brachydios",
+    "rank":"High",
+    "method":"Frenzy Shard",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":1575,
+    "monster_name":"Brachydios",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Brach Scalp+",
+    "quantity":1,
+    "percent":76
+  },
+  {
+    "dropID":1576,
+    "monster_name":"Brachydios",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Brach Carapace",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":1577,
+    "monster_name":"Brachydios",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Brach Tail",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":1578,
+    "monster_name":"Brachydios",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Brach Ebonshell+",
+    "quantity":1,
+    "percent":23
+  },
+  {
+    "dropID":1579,
+    "monster_name":"Brachydios",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Brach Marrow",
+    "quantity":1,
+    "percent":14
+  },
+  {
+    "dropID":1580,
+    "monster_name":"Brachydios",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Brach Gem",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":1581,
+    "monster_name":"Brachydios",
+    "rank":"High",
+    "method":"Break Front Leg",
+    "item_name":"Brach Pounder",
+    "quantity":1,
+    "percent":59
+  },
+  {
+    "dropID":1582,
+    "monster_name":"Brachydios",
+    "rank":"High",
+    "method":"Break Front Leg",
+    "item_name":"Mystery Slime",
+    "quantity":2,
+    "percent":27
+  },
+  {
+    "dropID":1583,
+    "monster_name":"Brachydios",
+    "rank":"High",
+    "method":"Break Front Leg",
+    "item_name":"Brach Ebonshell+",
+    "quantity":1,
+    "percent":14
+  },
+  {
+    "dropID":1584,
+    "monster_name":"Brachydios",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":1585,
+    "monster_name":"Brachydios",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Glowing Slime",
+    "quantity":1,
+    "percent":26
+  },
+  {
+    "dropID":1586,
+    "monster_name":"Brachydios",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Brach Cortex",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":1587,
+    "monster_name":"Brachydios",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Brach Gem",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":1588,
+    "monster_name":"Brachydios",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Brach Pallium",
+    "quantity":1,
+    "percent":1
+  },
+  {
+    "dropID":1589,
+    "monster_name":"Brachydios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Brach Cortex",
+    "quantity":1,
+    "percent":42
+  },
+  {
+    "dropID":1590,
+    "monster_name":"Brachydios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Fine Brach Ebonshell",
+    "quantity":1,
+    "percent":31
+  },
+  {
+    "dropID":1591,
+    "monster_name":"Brachydios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Glowing Slime",
+    "quantity":1,
+    "percent":19
+  },
+  {
+    "dropID":1592,
+    "monster_name":"Brachydios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Brach Crown",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":1593,
+    "monster_name":"Brachydios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Brach Pallium",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":1594,
+    "monster_name":"Brachydios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Fine Brach Ebonshell",
+    "quantity":1,
+    "percent":33
+  },
+  {
+    "dropID":1595,
+    "monster_name":"Brachydios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Brach Cortex",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":1596,
+    "monster_name":"Brachydios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Brach Pounder+",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1597,
+    "monster_name":"Brachydios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Brach Lash",
+    "quantity":1,
+    "percent":9
+  },
+  {
+    "dropID":1598,
+    "monster_name":"Brachydios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Glowing Slime",
+    "quantity":3,
+    "percent":7
+  },
+  {
+    "dropID":1599,
+    "monster_name":"Brachydios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Brach Gem",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":1600,
+    "monster_name":"Brachydios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Brach Pallium",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":1601,
+    "monster_name":"Brachydios",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":1602,
+    "monster_name":"Brachydios",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":2,
+    "percent":25
+  },
+  {
+    "dropID":1603,
+    "monster_name":"Brachydios",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":2,
+    "percent":20
+  },
+  {
+    "dropID":1604,
+    "monster_name":"Brachydios",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Brach Crown",
+    "quantity":1,
+    "percent":76
+  },
+  {
+    "dropID":1605,
+    "monster_name":"Brachydios",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Brach Cortex",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":1606,
+    "monster_name":"Brachydios",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Brach Lash",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":1607,
+    "monster_name":"Brachydios",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Fine Brach Ebonshell",
+    "quantity":1,
+    "percent":32
+  },
+  {
+    "dropID":1608,
+    "monster_name":"Brachydios",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Brach Gem",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":1609,
+    "monster_name":"Brachydios",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Brach Pallium",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":1610,
+    "monster_name":"Brachydios",
+    "rank":"G",
+    "method":"Break Front Leg",
+    "item_name":"Brach Pounder+",
+    "quantity":1,
+    "percent":59
+  },
+  {
+    "dropID":1611,
+    "monster_name":"Brachydios",
+    "rank":"G",
+    "method":"Break Front Leg",
+    "item_name":"Glowing Slime",
+    "quantity":2,
+    "percent":27
+  },
+  {
+    "dropID":1612,
+    "monster_name":"Brachydios",
+    "rank":"G",
+    "method":"Break Front Leg",
+    "item_name":"Fine Brach Ebonshell",
+    "quantity":1,
+    "percent":14
+  },
+  {
+    "dropID":1613,
+    "monster_name":"Raging Brachydios",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":65
+  },
+  {
+    "dropID":1614,
+    "monster_name":"Raging Brachydios",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Flashpoint Slime",
+    "quantity":1,
+    "percent":32
+  },
+  {
+    "dropID":1615,
+    "monster_name":"Raging Brachydios",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Brach Pallium",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":1616,
+    "monster_name":"Raging Brachydios",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Immortal Reactor",
+    "quantity":1,
+    "percent":1
+  },
+  {
+    "dropID":1617,
+    "monster_name":"Raging Brachydios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Brach Cortex",
+    "quantity":1,
+    "percent":42
+  },
+  {
+    "dropID":1618,
+    "monster_name":"Raging Brachydios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Fine Brach Ebonshell",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":1619,
+    "monster_name":"Raging Brachydios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Flashpoint Slime",
+    "quantity":1,
+    "percent":17
+  },
+  {
+    "dropID":1620,
+    "monster_name":"Raging Brachydios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Brach Warhead",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":1621,
+    "monster_name":"Raging Brachydios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Brach Pallium",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":1622,
+    "monster_name":"Raging Brachydios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Immortal Reactor",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":1623,
+    "monster_name":"Raging Brachydios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Fine Brach Ebonshell",
+    "quantity":1,
+    "percent":33
+  },
+  {
+    "dropID":1624,
+    "monster_name":"Raging Brachydios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Brach Cortex",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":1625,
+    "monster_name":"Raging Brachydios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Brach Obliterator",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1626,
+    "monster_name":"Raging Brachydios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Brach Lash",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1627,
+    "monster_name":"Raging Brachydios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Glowing Slime",
+    "quantity":3,
+    "percent":8
+  },
+  {
+    "dropID":1628,
+    "monster_name":"Raging Brachydios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Brach Pallium",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":1629,
+    "monster_name":"Raging Brachydios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Immortal Reactor",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":1630,
+    "monster_name":"Raging Brachydios",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Brach Warhead",
+    "quantity":1,
+    "percent":76
+  },
+  {
+    "dropID":1631,
+    "monster_name":"Raging Brachydios",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Brach Cortex",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":1632,
+    "monster_name":"Raging Brachydios",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Brach Lash",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":1633,
+    "monster_name":"Raging Brachydios",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Fine Brach Ebonshell",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":1634,
+    "monster_name":"Raging Brachydios",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Immortal Reactor",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":1635,
+    "monster_name":"Raging Brachydios",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Brach Pallium",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":1636,
+    "monster_name":"Raging Brachydios",
+    "rank":"G",
+    "method":"Break Front Leg",
+    "item_name":"Brach Obliterator",
+    "quantity":1,
+    "percent":59
+  },
+  {
+    "dropID":1637,
+    "monster_name":"Raging Brachydios",
+    "rank":"G",
+    "method":"Break Front Leg",
+    "item_name":"Glowing Slime",
+    "quantity":2,
+    "percent":17
+  },
+  {
+    "dropID":1638,
+    "monster_name":"Raging Brachydios",
+    "rank":"G",
+    "method":"Break Front Leg",
+    "item_name":"Fine Brach Ebonshell",
+    "quantity":1,
+    "percent":14
+  },
+  {
+    "dropID":1639,
+    "monster_name":"Raging Brachydios",
+    "rank":"G",
+    "method":"Break Front Leg",
+    "item_name":"Flashpoint Slime",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1640,
+    "monster_name":"Deviljho",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":1641,
+    "monster_name":"Deviljho",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Deviljho Talon",
+    "quantity":1,
+    "percent":34
+  },
+  {
+    "dropID":1642,
+    "monster_name":"Deviljho",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":1643,
+    "monster_name":"Deviljho",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Deviljho Gem",
+    "quantity":1,
+    "percent":1
+  },
+  {
+    "dropID":1644,
+    "monster_name":"Deviljho",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Deviljho Scale",
+    "quantity":1,
+    "percent":39
+  },
+  {
+    "dropID":1645,
+    "monster_name":"Deviljho",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Deviljho Hide",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":1646,
+    "monster_name":"Deviljho",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Deviljho Talon",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1647,
+    "monster_name":"Deviljho",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Deviljho Tallfang",
+    "quantity":1,
+    "percent":11
+  },
+  {
+    "dropID":1648,
+    "monster_name":"Deviljho",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Deviljho Gem",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":1649,
+    "monster_name":"Deviljho",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Deviljho Scalp",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":1650,
+    "monster_name":"Deviljho",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Deviljho Hide",
+    "quantity":1,
+    "percent":36
+  },
+  {
+    "dropID":1651,
+    "monster_name":"Deviljho",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Deviljho Talon",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1652,
+    "monster_name":"Deviljho",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Deviljho Gem",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":1653,
+    "monster_name":"Deviljho",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":1654,
+    "monster_name":"Deviljho",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1655,
+    "monster_name":"Deviljho",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Deviljho Tallfang",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":1656,
+    "monster_name":"Deviljho",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Deviljho Scalp",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":1657,
+    "monster_name":"Deviljho",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Deviljho Tallfang",
+    "quantity":2,
+    "percent":15
+  },
+  {
+    "dropID":1658,
+    "monster_name":"Deviljho",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Deviljho Tail",
+    "quantity":1,
+    "percent":65
+  },
+  {
+    "dropID":1659,
+    "monster_name":"Deviljho",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Deviljho Scale",
+    "quantity":1,
+    "percent":32
+  },
+  {
+    "dropID":1660,
+    "monster_name":"Deviljho",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Deviljho Gem",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":1661,
+    "monster_name":"Deviljho",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":1662,
+    "monster_name":"Deviljho",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Deviljho Ripper",
+    "quantity":1,
+    "percent":36
+  },
+  {
+    "dropID":1663,
+    "monster_name":"Deviljho",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Deviljho Gem",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":1664,
+    "monster_name":"Deviljho",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Deviljho Crook",
+    "quantity":1,
+    "percent":1
+  },
+  {
+    "dropID":1665,
+    "monster_name":"Deviljho",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Deviljho Shard",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":1666,
+    "monster_name":"Deviljho",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Deviljho Blackpiel",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":1667,
+    "monster_name":"Deviljho",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Deviljho Ripper",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1668,
+    "monster_name":"Deviljho",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Deviljho Hardfang",
+    "quantity":1,
+    "percent":11
+  },
+  {
+    "dropID":1669,
+    "monster_name":"Deviljho",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Deviljho Gem",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":1670,
+    "monster_name":"Deviljho",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Deviljho Crook",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":1671,
+    "monster_name":"Deviljho",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Deviljho Blackpiel",
+    "quantity":1,
+    "percent":36
+  },
+  {
+    "dropID":1672,
+    "monster_name":"Deviljho",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Deviljho Scalp",
+    "quantity":1,
+    "percent":34
+  },
+  {
+    "dropID":1673,
+    "monster_name":"Deviljho",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Deviljho Ripper",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1674,
+    "monster_name":"Deviljho",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Deviljho Gem",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":1675,
+    "monster_name":"Deviljho",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Deviljho Crook",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":1676,
+    "monster_name":"Deviljho",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":1677,
+    "monster_name":"Deviljho",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":2,
+    "percent":20
+  },
+  {
+    "dropID":1678,
+    "monster_name":"Deviljho",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Deviljho Hardfang",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":1679,
+    "monster_name":"Deviljho",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Deviljho Scalp",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":1680,
+    "monster_name":"Deviljho",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Deviljho Hardfang",
+    "quantity":2,
+    "percent":15
+  },
+  {
+    "dropID":1681,
+    "monster_name":"Deviljho",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Deviljho Flail",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":1682,
+    "monster_name":"Deviljho",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Deviljho Shard",
+    "quantity":1,
+    "percent":32
+  },
+  {
+    "dropID":1683,
+    "monster_name":"Deviljho",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Deviljho Gem",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":1684,
+    "monster_name":"Deviljho",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Deviljho Crook",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":1685,
+    "monster_name":"Savage Deviljho",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":56
+  },
+  {
+    "dropID":1686,
+    "monster_name":"Savage Deviljho",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Deviljho Talon",
+    "quantity":1,
+    "percent":42
+  },
+  {
+    "dropID":1687,
+    "monster_name":"Savage Deviljho",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Deviljho Gem",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":1688,
+    "monster_name":"Savage Deviljho",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Spattered Hide",
+    "quantity":1,
+    "percent":32
+  },
+  {
+    "dropID":1689,
+    "monster_name":"Savage Deviljho",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Deviljho Scale",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1690,
+    "monster_name":"Savage Deviljho",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Deviljho Hide",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":1691,
+    "monster_name":"Savage Deviljho",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Deviljho Talon",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":1692,
+    "monster_name":"Savage Deviljho",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Deviljho Tallfang",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1693,
+    "monster_name":"Savage Deviljho",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Deviljho Gem",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":1694,
+    "monster_name":"Savage Deviljho",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Deviljho Scalp",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":1695,
+    "monster_name":"Savage Deviljho",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Black Blood",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1696,
+    "monster_name":"Savage Deviljho",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Deviljho Hide",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1697,
+    "monster_name":"Savage Deviljho",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Deviljho Talon",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":1698,
+    "monster_name":"Savage Deviljho",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Deviljho Gem",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":1699,
+    "monster_name":"Savage Deviljho",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Deviljho Scalp",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":1700,
+    "monster_name":"Savage Deviljho",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Deviljho Tallfang",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":1701,
+    "monster_name":"Savage Deviljho",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Deviljho Tallfang",
+    "quantity":2,
+    "percent":20
+  },
+  {
+    "dropID":1702,
+    "monster_name":"Savage Deviljho",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Deviljho Tail",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":1703,
+    "monster_name":"Savage Deviljho",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Deviljho Scale",
+    "quantity":1,
+    "percent":26
+  },
+  {
+    "dropID":1704,
+    "monster_name":"Savage Deviljho",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Spattered Hide",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":1705,
+    "monster_name":"Savage Deviljho",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Deviljho Gem",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":1706,
+    "monster_name":"Savage Deviljho",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":56
+  },
+  {
+    "dropID":1707,
+    "monster_name":"Savage Deviljho",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Deviljho Ripper",
+    "quantity":1,
+    "percent":42
+  },
+  {
+    "dropID":1708,
+    "monster_name":"Savage Deviljho",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Deviljho Crook",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":1709,
+    "monster_name":"Savage Deviljho",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Bloodied Ebonhide",
+    "quantity":1,
+    "percent":32
+  },
+  {
+    "dropID":1710,
+    "monster_name":"Savage Deviljho",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Deviljho Shard",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1711,
+    "monster_name":"Savage Deviljho",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Deviljho Blackpiel",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":1712,
+    "monster_name":"Savage Deviljho",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Deviljho Ripper",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":1713,
+    "monster_name":"Savage Deviljho",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Vile Fang",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1714,
+    "monster_name":"Savage Deviljho",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Deviljho Crook",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":1715,
+    "monster_name":"Savage Deviljho",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Deviljho Scalp",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":1716,
+    "monster_name":"Savage Deviljho",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Black Blood",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1717,
+    "monster_name":"Savage Deviljho",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Deviljho Blackpiel",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1718,
+    "monster_name":"Savage Deviljho",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Deviljho Ripper",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":1719,
+    "monster_name":"Savage Deviljho",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Deviljho Crook",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":1720,
+    "monster_name":"Savage Deviljho",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Deviljho Scalp",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":1721,
+    "monster_name":"Savage Deviljho",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Vile Fang",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":1722,
+    "monster_name":"Savage Deviljho",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Vile Fang",
+    "quantity":2,
+    "percent":20
+  },
+  {
+    "dropID":1723,
+    "monster_name":"Savage Deviljho",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Deviljho Flail",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":1724,
+    "monster_name":"Savage Deviljho",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Deviljho Shard",
+    "quantity":1,
+    "percent":26
+  },
+  {
+    "dropID":1725,
+    "monster_name":"Savage Deviljho",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Bloodied Ebonhide",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":1726,
+    "monster_name":"Savage Deviljho",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Deviljho Crook",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":1727,
+    "monster_name":"Apex Deviljho",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":1728,
+    "monster_name":"Apex Deviljho",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Deviljho Ripper",
+    "quantity":1,
+    "percent":32
+  },
+  {
+    "dropID":1729,
+    "monster_name":"Apex Deviljho",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Deviljho Gem",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":1730,
+    "monster_name":"Apex Deviljho",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Deviljho Crook",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":1731,
+    "monster_name":"Apex Deviljho",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Deviljho Shard",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":1732,
+    "monster_name":"Apex Deviljho",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Deviljho Blackpiel",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":1733,
+    "monster_name":"Apex Deviljho",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Deviljho Ripper",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1734,
+    "monster_name":"Apex Deviljho",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Deviljho Hardfang",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":1735,
+    "monster_name":"Apex Deviljho",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Deviljho Gem",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":1736,
+    "monster_name":"Apex Deviljho",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Deviljho Crook",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":1737,
+    "monster_name":"Apex Deviljho",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Deviljho Blackpiel",
+    "quantity":1,
+    "percent":36
+  },
+  {
+    "dropID":1738,
+    "monster_name":"Apex Deviljho",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Deviljho Scalp",
+    "quantity":1,
+    "percent":34
+  },
+  {
+    "dropID":1739,
+    "monster_name":"Apex Deviljho",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Deviljho Ripper",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1740,
+    "monster_name":"Apex Deviljho",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Deviljho Crook",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":1741,
+    "monster_name":"Apex Deviljho",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Deviljho Gem",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":1742,
+    "monster_name":"Apex Deviljho",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Zenith Wyvern Gem L",
+    "quantity":1,
+    "percent":90
+  },
+  {
+    "dropID":1743,
+    "monster_name":"Apex Deviljho",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Zenith Wyvern Gem",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1744,
+    "monster_name":"Apex Deviljho",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Deviljho Hardfang",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":1745,
+    "monster_name":"Apex Deviljho",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Deviljho Scalp",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":1746,
+    "monster_name":"Apex Deviljho",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Deviljho Hardfang",
+    "quantity":2,
+    "percent":15
+  },
+  {
+    "dropID":1747,
+    "monster_name":"Apex Deviljho",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Deviljho Flail",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":1748,
+    "monster_name":"Apex Deviljho",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Deviljho Shard",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":1749,
+    "monster_name":"Apex Deviljho",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Deviljho Gem",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":1750,
+    "monster_name":"Apex Deviljho",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Deviljho Crook",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":1751,
+    "monster_name":"Khezu",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":1752,
+    "monster_name":"Khezu",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Pale Extract",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1753,
+    "monster_name":"Khezu",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Pale Bone",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":1754,
+    "monster_name":"Khezu",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Flabby Hide",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":1755,
+    "monster_name":"Khezu",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Pale Extract",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":1756,
+    "monster_name":"Khezu",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Electro Sac",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":1757,
+    "monster_name":"Khezu",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Pale Extract",
+    "quantity":2,
+    "percent":40
+  },
+  {
+    "dropID":1758,
+    "monster_name":"Khezu",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Flabby Hide",
+    "quantity":1,
+    "percent":32
+  },
+  {
+    "dropID":1759,
+    "monster_name":"Khezu",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Electro Sac",
+    "quantity":2,
+    "percent":20
+  },
+  {
+    "dropID":1760,
+    "monster_name":"Khezu",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Pale Bone",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":1761,
+    "monster_name":"Khezu",
+    "rank":"Low",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":1762,
+    "monster_name":"Khezu",
+    "rank":"Low",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1763,
+    "monster_name":"Khezu",
+    "rank":"Low",
+    "method":"Break Head",
+    "item_name":"Flabby Hide",
+    "quantity":1,
+    "percent":67
+  },
+  {
+    "dropID":1764,
+    "monster_name":"Khezu",
+    "rank":"Low",
+    "method":"Break Head",
+    "item_name":"Pale Extract",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1765,
+    "monster_name":"Khezu",
+    "rank":"Low",
+    "method":"Break Head",
+    "item_name":"Pale Bone",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":1766,
+    "monster_name":"Khezu",
+    "rank":"Low",
+    "method":"Break Body",
+    "item_name":"Flabby Hide",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":1767,
+    "monster_name":"Khezu",
+    "rank":"Low",
+    "method":"Break Body",
+    "item_name":"Electro Sac",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":1768,
+    "monster_name":"Khezu",
+    "rank":"Low",
+    "method":"Break Body",
+    "item_name":"Pale Extract",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1769,
+    "monster_name":"Khezu",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":38
+  },
+  {
+    "dropID":1770,
+    "monster_name":"Khezu",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":37
+  },
+  {
+    "dropID":1771,
+    "monster_name":"Khezu",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Pale Extract",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1772,
+    "monster_name":"Khezu",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Pale Steak",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":1773,
+    "monster_name":"Khezu",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Pearl Hide",
+    "quantity":1,
+    "percent":54
+  },
+  {
+    "dropID":1774,
+    "monster_name":"Khezu",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Pale Extract",
+    "quantity":1,
+    "percent":27
+  },
+  {
+    "dropID":1775,
+    "monster_name":"Khezu",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Thunder Sac",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":1776,
+    "monster_name":"Khezu",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Wyvern Gem",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":1777,
+    "monster_name":"Khezu",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Pale Extract",
+    "quantity":2,
+    "percent":40
+  },
+  {
+    "dropID":1778,
+    "monster_name":"Khezu",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Pearl Hide",
+    "quantity":1,
+    "percent":32
+  },
+  {
+    "dropID":1779,
+    "monster_name":"Khezu",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Thunder Sac",
+    "quantity":2,
+    "percent":20
+  },
+  {
+    "dropID":1780,
+    "monster_name":"Khezu",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Pale Steak",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":1781,
+    "monster_name":"Khezu",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":1782,
+    "monster_name":"Khezu",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":1783,
+    "monster_name":"Khezu",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Pearl Hide",
+    "quantity":1,
+    "percent":54
+  },
+  {
+    "dropID":1784,
+    "monster_name":"Khezu",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Pale Extract",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1785,
+    "monster_name":"Khezu",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Pale Bone",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":1786,
+    "monster_name":"Khezu",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Pale Steak",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":1787,
+    "monster_name":"Khezu",
+    "rank":"High",
+    "method":"Break Body",
+    "item_name":"Pearl Hide",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":1788,
+    "monster_name":"Khezu",
+    "rank":"High",
+    "method":"Break Body",
+    "item_name":"Thunder Sac",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":1789,
+    "monster_name":"Khezu",
+    "rank":"High",
+    "method":"Break Body",
+    "item_name":"Pale Extract",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1790,
+    "monster_name":"Khezu",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":1791,
+    "monster_name":"Khezu",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Pale Extract",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":1792,
+    "monster_name":"Khezu",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Pale Steak",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1793,
+    "monster_name":"Khezu",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Khezu Special Cut",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":1794,
+    "monster_name":"Khezu",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Pearl Glosshide",
+    "quantity":1,
+    "percent":54
+  },
+  {
+    "dropID":1795,
+    "monster_name":"Khezu",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Pale Extract",
+    "quantity":1,
+    "percent":27
+  },
+  {
+    "dropID":1796,
+    "monster_name":"Khezu",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Lightning Sac",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":1797,
+    "monster_name":"Khezu",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Lrg Wyvern Gem",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":1798,
+    "monster_name":"Khezu",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Pale Extract",
+    "quantity":2,
+    "percent":40
+  },
+  {
+    "dropID":1799,
+    "monster_name":"Khezu",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Pearl Glosshide",
+    "quantity":1,
+    "percent":32
+  },
+  {
+    "dropID":1800,
+    "monster_name":"Khezu",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Lightning Sac",
+    "quantity":2,
+    "percent":20
+  },
+  {
+    "dropID":1801,
+    "monster_name":"Khezu",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Khezu Special Cut",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":1802,
+    "monster_name":"Khezu",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":1803,
+    "monster_name":"Khezu",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1804,
+    "monster_name":"Khezu",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":2,
+    "percent":25
+  },
+  {
+    "dropID":1805,
+    "monster_name":"Khezu",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Pearl Glosshide",
+    "quantity":1,
+    "percent":54
+  },
+  {
+    "dropID":1806,
+    "monster_name":"Khezu",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Pale Extract",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1807,
+    "monster_name":"Khezu",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Pale Steak",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":1808,
+    "monster_name":"Khezu",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Khezu Special Cut",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":1809,
+    "monster_name":"Khezu",
+    "rank":"G",
+    "method":"Break Body",
+    "item_name":"Pearl Glosshide",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":1810,
+    "monster_name":"Khezu",
+    "rank":"G",
+    "method":"Break Body",
+    "item_name":"Lightning Sac",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":1811,
+    "monster_name":"Khezu",
+    "rank":"G",
+    "method":"Break Body",
+    "item_name":"Pale Extract",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1812,
+    "monster_name":"Red Khezu",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":38
+  },
+  {
+    "dropID":1813,
+    "monster_name":"Red Khezu",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":37
+  },
+  {
+    "dropID":1814,
+    "monster_name":"Red Khezu",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Pale Extract",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1815,
+    "monster_name":"Red Khezu",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Pale Steak",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":1816,
+    "monster_name":"Red Khezu",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Alluring Hide",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":1817,
+    "monster_name":"Red Khezu",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Pale Extract",
+    "quantity":1,
+    "percent":27
+  },
+  {
+    "dropID":1818,
+    "monster_name":"Red Khezu",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Alluring Webbing",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":1819,
+    "monster_name":"Red Khezu",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Thunder Sac",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":1820,
+    "monster_name":"Red Khezu",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Wyvern Gem",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":1821,
+    "monster_name":"Red Khezu",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Pale Extract",
+    "quantity":2,
+    "percent":40
+  },
+  {
+    "dropID":1822,
+    "monster_name":"Red Khezu",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Alluring Webbing",
+    "quantity":1,
+    "percent":32
+  },
+  {
+    "dropID":1823,
+    "monster_name":"Red Khezu",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Thunder Sac",
+    "quantity":2,
+    "percent":20
+  },
+  {
+    "dropID":1824,
+    "monster_name":"Red Khezu",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Pale Steak",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":1825,
+    "monster_name":"Red Khezu",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":1826,
+    "monster_name":"Red Khezu",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":1827,
+    "monster_name":"Red Khezu",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Alluring Hide",
+    "quantity":1,
+    "percent":52
+  },
+  {
+    "dropID":1828,
+    "monster_name":"Red Khezu",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Pale Extract",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1829,
+    "monster_name":"Red Khezu",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Pale Bone",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":1830,
+    "monster_name":"Red Khezu",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Pale Steak",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":1831,
+    "monster_name":"Red Khezu",
+    "rank":"High",
+    "method":"Break Body",
+    "item_name":"Alluring Hide",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":1832,
+    "monster_name":"Red Khezu",
+    "rank":"High",
+    "method":"Break Body",
+    "item_name":"Thunder Sac",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":1833,
+    "monster_name":"Red Khezu",
+    "rank":"High",
+    "method":"Break Body",
+    "item_name":"Pale Extract",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1834,
+    "monster_name":"Red Khezu",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":1835,
+    "monster_name":"Red Khezu",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Pale Extract",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":1836,
+    "monster_name":"Red Khezu",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Pale Steak",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1837,
+    "monster_name":"Red Khezu",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Khezu Special Cut",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":1838,
+    "monster_name":"Red Khezu",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Alluring Glosshide",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":1839,
+    "monster_name":"Red Khezu",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Pale Extract",
+    "quantity":1,
+    "percent":27
+  },
+  {
+    "dropID":1840,
+    "monster_name":"Red Khezu",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Alluring Fellwing",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":1841,
+    "monster_name":"Red Khezu",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Lightning Sac",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":1842,
+    "monster_name":"Red Khezu",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Lrg Wyvern Gem",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":1843,
+    "monster_name":"Red Khezu",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Pale Extract",
+    "quantity":2,
+    "percent":40
+  },
+  {
+    "dropID":1844,
+    "monster_name":"Red Khezu",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Alluring Fellwing",
+    "quantity":1,
+    "percent":32
+  },
+  {
+    "dropID":1845,
+    "monster_name":"Red Khezu",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Lightning Sac",
+    "quantity":2,
+    "percent":20
+  },
+  {
+    "dropID":1846,
+    "monster_name":"Red Khezu",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Khezu Special Cut",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":1847,
+    "monster_name":"Red Khezu",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":1848,
+    "monster_name":"Red Khezu",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1849,
+    "monster_name":"Red Khezu",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":2,
+    "percent":25
+  },
+  {
+    "dropID":1850,
+    "monster_name":"Red Khezu",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Alluring Glosshide",
+    "quantity":1,
+    "percent":52
+  },
+  {
+    "dropID":1851,
+    "monster_name":"Red Khezu",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Pale Extract",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1852,
+    "monster_name":"Red Khezu",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Pale Steak",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":1853,
+    "monster_name":"Red Khezu",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Khezu Special Cut",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":1854,
+    "monster_name":"Red Khezu",
+    "rank":"G",
+    "method":"Break Body",
+    "item_name":"Alluring Glosshide",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":1855,
+    "monster_name":"Red Khezu",
+    "rank":"G",
+    "method":"Break Body",
+    "item_name":"Lightning Sac",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":1856,
+    "monster_name":"Red Khezu",
+    "rank":"G",
+    "method":"Break Body",
+    "item_name":"Pale Extract",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1857,
+    "monster_name":"Basarios",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":1858,
+    "monster_name":"Basarios",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Machalite Ore",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1859,
+    "monster_name":"Basarios",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Basarios Shell",
+    "quantity":1,
+    "percent":46
+  },
+  {
+    "dropID":1860,
+    "monster_name":"Basarios",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Machalite Ore",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1861,
+    "monster_name":"Basarios",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Poison Sac",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":1862,
+    "monster_name":"Basarios",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Monster Bone M",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":1863,
+    "monster_name":"Basarios",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Basarios Wing",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":1864,
+    "monster_name":"Basarios",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Machalite Ore",
+    "quantity":2,
+    "percent":59
+  },
+  {
+    "dropID":1865,
+    "monster_name":"Basarios",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Basarios Shell",
+    "quantity":1,
+    "percent":36
+  },
+  {
+    "dropID":1866,
+    "monster_name":"Basarios",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Basarios Wing",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":1867,
+    "monster_name":"Basarios",
+    "rank":"Low",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":1868,
+    "monster_name":"Basarios",
+    "rank":"Low",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1869,
+    "monster_name":"Basarios",
+    "rank":"Low",
+    "method":"Tail Carve",
+    "item_name":"Machalite Ore",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":1870,
+    "monster_name":"Basarios",
+    "rank":"Low",
+    "method":"Tail Carve",
+    "item_name":"Basarios Shell",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":1871,
+    "monster_name":"Basarios",
+    "rank":"Low",
+    "method":"Break Back",
+    "item_name":"Machalite Ore",
+    "quantity":3,
+    "percent":50
+  },
+  {
+    "dropID":1872,
+    "monster_name":"Basarios",
+    "rank":"Low",
+    "method":"Break Back",
+    "item_name":"Basarios Wing",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":1873,
+    "monster_name":"Basarios",
+    "rank":"Low",
+    "method":"Break Back",
+    "item_name":"Monster Bone M",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1874,
+    "monster_name":"Basarios",
+    "rank":"Low",
+    "method":"Mining Back",
+    "item_name":"Earth Crystal",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":1875,
+    "monster_name":"Basarios",
+    "rank":"Low",
+    "method":"Mining Back",
+    "item_name":"Machalite Ore",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":1876,
+    "monster_name":"Basarios",
+    "rank":"Low",
+    "method":"Mining Back",
+    "item_name":"Basarios Shell",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":1877,
+    "monster_name":"Basarios",
+    "rank":"Low",
+    "method":"Break Belly",
+    "item_name":"Machalite Ore",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":1878,
+    "monster_name":"Basarios",
+    "rank":"Low",
+    "method":"Break Belly",
+    "item_name":"Poison Sac",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":1879,
+    "monster_name":"Basarios",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":38
+  },
+  {
+    "dropID":1880,
+    "monster_name":"Basarios",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":37
+  },
+  {
+    "dropID":1881,
+    "monster_name":"Basarios",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Carbalite Ore",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1882,
+    "monster_name":"Basarios",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Basarios Tears",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":1883,
+    "monster_name":"Basarios",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Basarios Carapace",
+    "quantity":1,
+    "percent":33
+  },
+  {
+    "dropID":1884,
+    "monster_name":"Basarios",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Carbalite Ore",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1885,
+    "monster_name":"Basarios",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Poison Sac",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":1886,
+    "monster_name":"Basarios",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Monster Keenbone",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":1887,
+    "monster_name":"Basarios",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Basarios Wing",
+    "quantity":1,
+    "percent":7
+  },
+  {
+    "dropID":1888,
+    "monster_name":"Basarios",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Basarios Tears",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":1889,
+    "monster_name":"Basarios",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Wyvern Gem",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":1890,
+    "monster_name":"Basarios",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Carbalite Ore",
+    "quantity":1,
+    "percent":36
+  },
+  {
+    "dropID":1891,
+    "monster_name":"Basarios",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Basarios Carapace",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":1892,
+    "monster_name":"Basarios",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Dragonite Ore",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":1893,
+    "monster_name":"Basarios",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Basarios Wing",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1894,
+    "monster_name":"Basarios",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Basarios Tears",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":1895,
+    "monster_name":"Basarios",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":1896,
+    "monster_name":"Basarios",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":1897,
+    "monster_name":"Basarios",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1898,
+    "monster_name":"Basarios",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Carbalite Ore",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":1899,
+    "monster_name":"Basarios",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Basarios Carapace",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":1900,
+    "monster_name":"Basarios",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Dragonite Ore",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1901,
+    "monster_name":"Basarios",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"Carbalite Ore",
+    "quantity":2,
+    "percent":40
+  },
+  {
+    "dropID":1902,
+    "monster_name":"Basarios",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"Basarios Wing",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":1903,
+    "monster_name":"Basarios",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"Monster Keenbone",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":1904,
+    "monster_name":"Basarios",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"Basarios Tears",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":1905,
+    "monster_name":"Basarios",
+    "rank":"High",
+    "method":"Mining Back",
+    "item_name":"Heavenly Crystal",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":1906,
+    "monster_name":"Basarios",
+    "rank":"High",
+    "method":"Mining Back",
+    "item_name":"Dragonite Ore",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1907,
+    "monster_name":"Basarios",
+    "rank":"High",
+    "method":"Mining Back",
+    "item_name":"Carbalite Ore",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1908,
+    "monster_name":"Basarios",
+    "rank":"High",
+    "method":"Mining Back",
+    "item_name":"Basarios Carapace",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":1909,
+    "monster_name":"Basarios",
+    "rank":"High",
+    "method":"Break Belly",
+    "item_name":"Poison Sac",
+    "quantity":2,
+    "percent":45
+  },
+  {
+    "dropID":1910,
+    "monster_name":"Basarios",
+    "rank":"High",
+    "method":"Break Belly",
+    "item_name":"Dragonite Ore",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":1911,
+    "monster_name":"Basarios",
+    "rank":"High",
+    "method":"Break Belly",
+    "item_name":"Carbalite Ore",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1912,
+    "monster_name":"Basarios",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":1913,
+    "monster_name":"Basarios",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Eltalite Ore",
+    "quantity":1,
+    "percent":37
+  },
+  {
+    "dropID":1914,
+    "monster_name":"Basarios",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Basarios Tears",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":1915,
+    "monster_name":"Basarios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Basarios Cortex",
+    "quantity":1,
+    "percent":33
+  },
+  {
+    "dropID":1916,
+    "monster_name":"Basarios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Eltalite Ore",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1917,
+    "monster_name":"Basarios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Deadly Poison Sac",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":1918,
+    "monster_name":"Basarios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Monster Slogbone",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":1919,
+    "monster_name":"Basarios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Basarios Tears",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":1920,
+    "monster_name":"Basarios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Basarios Fellwing",
+    "quantity":1,
+    "percent":7
+  },
+  {
+    "dropID":1921,
+    "monster_name":"Basarios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Lrg Wyvern Gem",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":1922,
+    "monster_name":"Basarios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Eltalite Ore",
+    "quantity":1,
+    "percent":36
+  },
+  {
+    "dropID":1923,
+    "monster_name":"Basarios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Basarios Cortex",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":1924,
+    "monster_name":"Basarios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Carbalite Ore",
+    "quantity":2,
+    "percent":14
+  },
+  {
+    "dropID":1925,
+    "monster_name":"Basarios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Basarios Tears",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":1926,
+    "monster_name":"Basarios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Basarios Fellwing",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1927,
+    "monster_name":"Basarios",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":1928,
+    "monster_name":"Basarios",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1929,
+    "monster_name":"Basarios",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Eltalite Ore",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":1930,
+    "monster_name":"Basarios",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Basarios Cortex",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":1931,
+    "monster_name":"Basarios",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Carbalite Ore",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1932,
+    "monster_name":"Basarios",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Eltalite Ore",
+    "quantity":2,
+    "percent":38
+  },
+  {
+    "dropID":1933,
+    "monster_name":"Basarios",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Basarios Fellwing",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":1934,
+    "monster_name":"Basarios",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Monster Slogbone",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":1935,
+    "monster_name":"Basarios",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Basarios Tears",
+    "quantity":1,
+    "percent":14
+  },
+  {
+    "dropID":1936,
+    "monster_name":"Basarios",
+    "rank":"G",
+    "method":"Mining Back",
+    "item_name":"Meteor Crystal",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":1937,
+    "monster_name":"Basarios",
+    "rank":"G",
+    "method":"Mining Back",
+    "item_name":"Carbalite Ore",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1938,
+    "monster_name":"Basarios",
+    "rank":"G",
+    "method":"Mining Back",
+    "item_name":"Eltalite Ore",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1939,
+    "monster_name":"Basarios",
+    "rank":"G",
+    "method":"Mining Back",
+    "item_name":"Basarios Cortex",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":1940,
+    "monster_name":"Basarios",
+    "rank":"G",
+    "method":"Break Belly",
+    "item_name":"Deadly Poison Sac",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":1941,
+    "monster_name":"Basarios",
+    "rank":"G",
+    "method":"Break Belly",
+    "item_name":"Carbalite Ore",
+    "quantity":2,
+    "percent":30
+  },
+  {
+    "dropID":1942,
+    "monster_name":"Basarios",
+    "rank":"G",
+    "method":"Break Belly",
+    "item_name":"Eltalite Ore",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1943,
+    "monster_name":"Ruby Basarios",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":38
+  },
+  {
+    "dropID":1944,
+    "monster_name":"Ruby Basarios",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":37
+  },
+  {
+    "dropID":1945,
+    "monster_name":"Ruby Basarios",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Carbalite Ore",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1946,
+    "monster_name":"Ruby Basarios",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Basarios Tears",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":1947,
+    "monster_name":"Ruby Basarios",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"R.Basarios Carapace",
+    "quantity":1,
+    "percent":33
+  },
+  {
+    "dropID":1948,
+    "monster_name":"Ruby Basarios",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Carbalite Ore",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1949,
+    "monster_name":"Ruby Basarios",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Toxin Sac",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":1950,
+    "monster_name":"Ruby Basarios",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Monster Keenbone",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":1951,
+    "monster_name":"Ruby Basarios",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"R.Basarios Wing",
+    "quantity":1,
+    "percent":7
+  },
+  {
+    "dropID":1952,
+    "monster_name":"Ruby Basarios",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Basarios Tears",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":1953,
+    "monster_name":"Ruby Basarios",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Wyvern Gem",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":1954,
+    "monster_name":"Ruby Basarios",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Carbalite Ore",
+    "quantity":1,
+    "percent":36
+  },
+  {
+    "dropID":1955,
+    "monster_name":"Ruby Basarios",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"R.Basarios Carapace",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":1956,
+    "monster_name":"Ruby Basarios",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Dragonite Ore",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":1957,
+    "monster_name":"Ruby Basarios",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"R.Basarios Wing",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1958,
+    "monster_name":"Ruby Basarios",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Basarios Tears",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":1959,
+    "monster_name":"Ruby Basarios",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":1960,
+    "monster_name":"Ruby Basarios",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":1961,
+    "monster_name":"Ruby Basarios",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1962,
+    "monster_name":"Ruby Basarios",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Carbalite Ore",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":1963,
+    "monster_name":"Ruby Basarios",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"R.Basarios Carapace",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":1964,
+    "monster_name":"Ruby Basarios",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Dragonite Ore",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1965,
+    "monster_name":"Ruby Basarios",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"Carbalite Ore",
+    "quantity":2,
+    "percent":40
+  },
+  {
+    "dropID":1966,
+    "monster_name":"Ruby Basarios",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"R.Basarios Wing",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":1967,
+    "monster_name":"Ruby Basarios",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"Monster Keenbone",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":1968,
+    "monster_name":"Ruby Basarios",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"Basarios Tears",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":1969,
+    "monster_name":"Ruby Basarios",
+    "rank":"High",
+    "method":"Mining Back",
+    "item_name":"Heavenly Crystal",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":1970,
+    "monster_name":"Ruby Basarios",
+    "rank":"High",
+    "method":"Mining Back",
+    "item_name":"Carbalite Ore",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1971,
+    "monster_name":"Ruby Basarios",
+    "rank":"High",
+    "method":"Mining Back",
+    "item_name":"Dragonite Ore",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1972,
+    "monster_name":"Ruby Basarios",
+    "rank":"High",
+    "method":"Mining Back",
+    "item_name":"R.Basarios Carapace",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":1973,
+    "monster_name":"Ruby Basarios",
+    "rank":"High",
+    "method":"Break Belly",
+    "item_name":"Toxin Sac",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":1974,
+    "monster_name":"Ruby Basarios",
+    "rank":"High",
+    "method":"Break Belly",
+    "item_name":"Dragonite Ore",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":1975,
+    "monster_name":"Ruby Basarios",
+    "rank":"High",
+    "method":"Break Belly",
+    "item_name":"Carbalite Ore",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1976,
+    "monster_name":"Ruby Basarios",
+    "rank":"High",
+    "method":"Mining Ore",
+    "item_name":"Carbalite Ore",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":1977,
+    "monster_name":"Ruby Basarios",
+    "rank":"High",
+    "method":"Mining Ore",
+    "item_name":"Heavenly Crystal",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1978,
+    "monster_name":"Ruby Basarios",
+    "rank":"High",
+    "method":"Mining Ore",
+    "item_name":"Dragonite Ore",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1979,
+    "monster_name":"Ruby Basarios",
+    "rank":"High",
+    "method":"Mining Ore",
+    "item_name":"Basarios Tears",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":1980,
+    "monster_name":"Ruby Basarios",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":1981,
+    "monster_name":"Ruby Basarios",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Eltalite Ore",
+    "quantity":1,
+    "percent":37
+  },
+  {
+    "dropID":1982,
+    "monster_name":"Ruby Basarios",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Basarios Tears",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":1983,
+    "monster_name":"Ruby Basarios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"R.Basarios Cortex",
+    "quantity":1,
+    "percent":33
+  },
+  {
+    "dropID":1984,
+    "monster_name":"Ruby Basarios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Eltalite Ore",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1985,
+    "monster_name":"Ruby Basarios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Deadly Poison Sac",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":1986,
+    "monster_name":"Ruby Basarios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Monster Slogbone",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":1987,
+    "monster_name":"Ruby Basarios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Basarios Tears",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":1988,
+    "monster_name":"Ruby Basarios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"R.Basarios Fellwing",
+    "quantity":1,
+    "percent":7
+  },
+  {
+    "dropID":1989,
+    "monster_name":"Ruby Basarios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Lrg Wyvern Gem",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":1990,
+    "monster_name":"Ruby Basarios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Eltalite Ore",
+    "quantity":1,
+    "percent":36
+  },
+  {
+    "dropID":1991,
+    "monster_name":"Ruby Basarios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"R.Basarios Cortex",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":1992,
+    "monster_name":"Ruby Basarios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Carbalite Ore",
+    "quantity":1,
+    "percent":14
+  },
+  {
+    "dropID":1993,
+    "monster_name":"Ruby Basarios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Basarios Tears",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":1994,
+    "monster_name":"Ruby Basarios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"R.Basarios Fellwing",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1995,
+    "monster_name":"Ruby Basarios",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":1996,
+    "monster_name":"Ruby Basarios",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1997,
+    "monster_name":"Ruby Basarios",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":2,
+    "percent":25
+  },
+  {
+    "dropID":1998,
+    "monster_name":"Ruby Basarios",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Eltalite Ore",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":1999,
+    "monster_name":"Ruby Basarios",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"R.Basarios Cortex",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":2000,
+    "monster_name":"Ruby Basarios",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Carbalite Ore",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":2001,
+    "monster_name":"Ruby Basarios",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Eltalite Ore",
+    "quantity":2,
+    "percent":38
+  },
+  {
+    "dropID":2002,
+    "monster_name":"Ruby Basarios",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"R.Basarios Fellwing",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2003,
+    "monster_name":"Ruby Basarios",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Monster Slogbone",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":2004,
+    "monster_name":"Ruby Basarios",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Basarios Tears",
+    "quantity":1,
+    "percent":14
+  },
+  {
+    "dropID":2005,
+    "monster_name":"Ruby Basarios",
+    "rank":"G",
+    "method":"Mining Back",
+    "item_name":"Meteor Crystal",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":2006,
+    "monster_name":"Ruby Basarios",
+    "rank":"G",
+    "method":"Mining Back",
+    "item_name":"Eltalite Ore",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":2007,
+    "monster_name":"Ruby Basarios",
+    "rank":"G",
+    "method":"Mining Back",
+    "item_name":"Carbalite Ore",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2008,
+    "monster_name":"Ruby Basarios",
+    "rank":"G",
+    "method":"Mining Back",
+    "item_name":"R.Basarios Cortex",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":2009,
+    "monster_name":"Ruby Basarios",
+    "rank":"G",
+    "method":"Break Belly",
+    "item_name":"Deadly Poison Sac",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":2010,
+    "monster_name":"Ruby Basarios",
+    "rank":"G",
+    "method":"Break Belly",
+    "item_name":"Carbalite Ore",
+    "quantity":2,
+    "percent":30
+  },
+  {
+    "dropID":2011,
+    "monster_name":"Ruby Basarios",
+    "rank":"G",
+    "method":"Break Belly",
+    "item_name":"Eltalite Ore",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":2012,
+    "monster_name":"Ruby Basarios",
+    "rank":"G",
+    "method":"Mining Ore",
+    "item_name":"Eltalite Ore",
+    "quantity":1,
+    "percent":47
+  },
+  {
+    "dropID":2013,
+    "monster_name":"Ruby Basarios",
+    "rank":"G",
+    "method":"Mining Ore",
+    "item_name":"Meteor Crystal",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":2014,
+    "monster_name":"Ruby Basarios",
+    "rank":"G",
+    "method":"Mining Ore",
+    "item_name":"Carbalite Ore",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":2015,
+    "monster_name":"Ruby Basarios",
+    "rank":"G",
+    "method":"Mining Ore",
+    "item_name":"Basarios Tears",
+    "quantity":1,
+    "percent":8
+  }
+]

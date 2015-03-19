@@ -1,0 +1,5870 @@
+[
+  {
+    "dropID":2016,
+    "monster_name":"Gravios",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":94
+  },
+  {
+    "dropID":2017,
+    "monster_name":"Gravios",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Firestone",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":2018,
+    "monster_name":"Gravios",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Gravios Shell",
+    "quantity":1,
+    "percent":63
+  },
+  {
+    "dropID":2019,
+    "monster_name":"Gravios",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Sleep Sac",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":2020,
+    "monster_name":"Gravios",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Flame Sac",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":2021,
+    "monster_name":"Gravios",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Gravios Scalp",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":2022,
+    "monster_name":"Gravios",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Flame Sac",
+    "quantity":2,
+    "percent":41
+  },
+  {
+    "dropID":2023,
+    "monster_name":"Gravios",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Sleep Sac",
+    "quantity":1,
+    "percent":21
+  },
+  {
+    "dropID":2024,
+    "monster_name":"Gravios",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Gravios Shell",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":2025,
+    "monster_name":"Gravios",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Gravios Wing",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":2026,
+    "monster_name":"Gravios",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Firestone",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":2027,
+    "monster_name":"Gravios",
+    "rank":"Low",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":2028,
+    "monster_name":"Gravios",
+    "rank":"Low",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":2029,
+    "monster_name":"Gravios",
+    "rank":"Low",
+    "method":"Break Head",
+    "item_name":"Gravios Shell",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":2030,
+    "monster_name":"Gravios",
+    "rank":"Low",
+    "method":"Break Head",
+    "item_name":"Gravios Scalp",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2031,
+    "monster_name":"Gravios",
+    "rank":"Low",
+    "method":"Break Head",
+    "item_name":"Firestone",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2032,
+    "monster_name":"Gravios",
+    "rank":"Low",
+    "method":"Tail Carve",
+    "item_name":"Gravios Shell",
+    "quantity":1,
+    "percent":73
+  },
+  {
+    "dropID":2033,
+    "monster_name":"Gravios",
+    "rank":"Low",
+    "method":"Tail Carve",
+    "item_name":"Monster Bone L",
+    "quantity":1,
+    "percent":23
+  },
+  {
+    "dropID":2034,
+    "monster_name":"Gravios",
+    "rank":"Low",
+    "method":"Tail Carve",
+    "item_name":"Firestone",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":2035,
+    "monster_name":"Gravios",
+    "rank":"Low",
+    "method":"Break Back",
+    "item_name":"Monster Bone+",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":2036,
+    "monster_name":"Gravios",
+    "rank":"Low",
+    "method":"Break Back",
+    "item_name":"Gravios Shell",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2037,
+    "monster_name":"Gravios",
+    "rank":"Low",
+    "method":"Break Back",
+    "item_name":"Gravios Wing",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2038,
+    "monster_name":"Gravios",
+    "rank":"Low",
+    "method":"Break Belly",
+    "item_name":"Gravios Shell",
+    "quantity":1,
+    "percent":90
+  },
+  {
+    "dropID":2039,
+    "monster_name":"Gravios",
+    "rank":"Low",
+    "method":"Break Belly",
+    "item_name":"Sleep Sac",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":2040,
+    "monster_name":"Gravios",
+    "rank":"Low",
+    "method":"Break Wing",
+    "item_name":"Gravios Wing",
+    "quantity":1,
+    "percent":90
+  },
+  {
+    "dropID":2041,
+    "monster_name":"Gravios",
+    "rank":"Low",
+    "method":"Break Wing",
+    "item_name":"Monster Bone+",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2042,
+    "monster_name":"Gravios",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":47
+  },
+  {
+    "dropID":2043,
+    "monster_name":"Gravios",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":47
+  },
+  {
+    "dropID":2044,
+    "monster_name":"Gravios",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Firecell Stone",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":2045,
+    "monster_name":"Gravios",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Gravios Carapace",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":2046,
+    "monster_name":"Gravios",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Gravios Shell",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":2047,
+    "monster_name":"Gravios",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Inferno Sac",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2048,
+    "monster_name":"Gravios",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Sleep Sac",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2049,
+    "monster_name":"Gravios",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Wyvern Gem",
+    "quantity":1,
+    "percent":7
+  },
+  {
+    "dropID":2050,
+    "monster_name":"Gravios",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Gravios Scalp",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":2051,
+    "monster_name":"Gravios",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Inferno Sac",
+    "quantity":1,
+    "percent":34
+  },
+  {
+    "dropID":2052,
+    "monster_name":"Gravios",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Gravios Carapace",
+    "quantity":1,
+    "percent":32
+  },
+  {
+    "dropID":2053,
+    "monster_name":"Gravios",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Sleep Sac",
+    "quantity":1,
+    "percent":16
+  },
+  {
+    "dropID":2054,
+    "monster_name":"Gravios",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Gravios Wing",
+    "quantity":2,
+    "percent":12
+  },
+  {
+    "dropID":2055,
+    "monster_name":"Gravios",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Firecell Stone",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":2056,
+    "monster_name":"Gravios",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":2057,
+    "monster_name":"Gravios",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2058,
+    "monster_name":"Gravios",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Gravios Carapace",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":2059,
+    "monster_name":"Gravios",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Gravios Scalp",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2060,
+    "monster_name":"Gravios",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Firecell Stone",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2061,
+    "monster_name":"Gravios",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Gravios Carapace",
+    "quantity":1,
+    "percent":66
+  },
+  {
+    "dropID":2062,
+    "monster_name":"Gravios",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Monster Hardbone",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":2063,
+    "monster_name":"Gravios",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Gravios Medulla",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":2064,
+    "monster_name":"Gravios",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Firecell Stone",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":2065,
+    "monster_name":"Gravios",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"Gravios Carapace",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":2066,
+    "monster_name":"Gravios",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"Monster Hardbone",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2067,
+    "monster_name":"Gravios",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"Gravios Wing",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2068,
+    "monster_name":"Gravios",
+    "rank":"High",
+    "method":"Break Belly",
+    "item_name":"Gravios Carapace",
+    "quantity":1,
+    "percent":57
+  },
+  {
+    "dropID":2069,
+    "monster_name":"Gravios",
+    "rank":"High",
+    "method":"Break Belly",
+    "item_name":"Gravios Shell",
+    "quantity":1,
+    "percent":33
+  },
+  {
+    "dropID":2070,
+    "monster_name":"Gravios",
+    "rank":"High",
+    "method":"Break Belly",
+    "item_name":"Sleep Sac",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":2071,
+    "monster_name":"Gravios",
+    "rank":"High",
+    "method":"Break Wing",
+    "item_name":"Gravios Wing",
+    "quantity":1,
+    "percent":52
+  },
+  {
+    "dropID":2072,
+    "monster_name":"Gravios",
+    "rank":"High",
+    "method":"Break Wing",
+    "item_name":"Monster Hardbone",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2073,
+    "monster_name":"Gravios",
+    "rank":"High",
+    "method":"Break Wing",
+    "item_name":"Gravios Wing",
+    "quantity":2,
+    "percent":18
+  },
+  {
+    "dropID":2074,
+    "monster_name":"Gravios",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":58
+  },
+  {
+    "dropID":2075,
+    "monster_name":"Gravios",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Firecell Stone",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2076,
+    "monster_name":"Gravios",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Allfire Stone",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":2077,
+    "monster_name":"Gravios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Gravios Cortex",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":2078,
+    "monster_name":"Gravios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Coma Sac",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2079,
+    "monster_name":"Gravios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Conflagrant Sac",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2080,
+    "monster_name":"Gravios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Lrg Wyvern Gem",
+    "quantity":1,
+    "percent":7
+  },
+  {
+    "dropID":2081,
+    "monster_name":"Gravios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Gravios Medulla",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":2082,
+    "monster_name":"Gravios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Gravios Crown",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":2083,
+    "monster_name":"Gravios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Gravios Pallium",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":2084,
+    "monster_name":"Gravios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Conflagrant Sac",
+    "quantity":1,
+    "percent":32
+  },
+  {
+    "dropID":2085,
+    "monster_name":"Gravios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Gravios Cortex",
+    "quantity":1,
+    "percent":31
+  },
+  {
+    "dropID":2086,
+    "monster_name":"Gravios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Coma Sac",
+    "quantity":1,
+    "percent":16
+  },
+  {
+    "dropID":2087,
+    "monster_name":"Gravios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Gravios Fellwing",
+    "quantity":2,
+    "percent":12
+  },
+  {
+    "dropID":2088,
+    "monster_name":"Gravios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Allfire Stone",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":2089,
+    "monster_name":"Gravios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Gravios Pallium",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":2090,
+    "monster_name":"Gravios",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":2091,
+    "monster_name":"Gravios",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":2092,
+    "monster_name":"Gravios",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Gravios Crown",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":2093,
+    "monster_name":"Gravios",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Gravios Cortex",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":2094,
+    "monster_name":"Gravios",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Allfire Stone",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2095,
+    "monster_name":"Gravios",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Gravios Pallium",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":2096,
+    "monster_name":"Gravios",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Gravios Cortex",
+    "quantity":1,
+    "percent":64
+  },
+  {
+    "dropID":2097,
+    "monster_name":"Gravios",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Monster Slogbone",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":2098,
+    "monster_name":"Gravios",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Gravios Medulla",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":2099,
+    "monster_name":"Gravios",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Gravios Pallium",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":2100,
+    "monster_name":"Gravios",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Allfire Stone",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":2101,
+    "monster_name":"Gravios",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Gravios Cortex",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":2102,
+    "monster_name":"Gravios",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Gravios Fellwing",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2103,
+    "monster_name":"Gravios",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Monster Slogbone",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2104,
+    "monster_name":"Gravios",
+    "rank":"G",
+    "method":"Break Belly",
+    "item_name":"Gravios Cortex",
+    "quantity":1,
+    "percent":57
+  },
+  {
+    "dropID":2105,
+    "monster_name":"Gravios",
+    "rank":"G",
+    "method":"Break Belly",
+    "item_name":"Gravios Carapace",
+    "quantity":2,
+    "percent":33
+  },
+  {
+    "dropID":2106,
+    "monster_name":"Gravios",
+    "rank":"G",
+    "method":"Break Belly",
+    "item_name":"Coma Sac",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":2107,
+    "monster_name":"Gravios",
+    "rank":"G",
+    "method":"Break Wing",
+    "item_name":"Gravios Fellwing",
+    "quantity":1,
+    "percent":52
+  },
+  {
+    "dropID":2108,
+    "monster_name":"Gravios",
+    "rank":"G",
+    "method":"Break Wing",
+    "item_name":"Monster Slogbone",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2109,
+    "monster_name":"Gravios",
+    "rank":"G",
+    "method":"Break Wing",
+    "item_name":"Gravios Fellwing",
+    "quantity":2,
+    "percent":18
+  },
+  {
+    "dropID":2110,
+    "monster_name":"Black Gravios",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":47
+  },
+  {
+    "dropID":2111,
+    "monster_name":"Black Gravios",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":47
+  },
+  {
+    "dropID":2112,
+    "monster_name":"Black Gravios",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Firecell Stone",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":2113,
+    "monster_name":"Black Gravios",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"B.Gravios Carapace",
+    "quantity":1,
+    "percent":63
+  },
+  {
+    "dropID":2114,
+    "monster_name":"Black Gravios",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Inferno Sac",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2115,
+    "monster_name":"Black Gravios",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"B.Gravios Scalp",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2116,
+    "monster_name":"Black Gravios",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Sleep Sac",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2117,
+    "monster_name":"Black Gravios",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Wyvern Gem",
+    "quantity":1,
+    "percent":7
+  },
+  {
+    "dropID":2118,
+    "monster_name":"Black Gravios",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Inferno Sac",
+    "quantity":1,
+    "percent":34
+  },
+  {
+    "dropID":2119,
+    "monster_name":"Black Gravios",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"B.Gravios Carapace",
+    "quantity":1,
+    "percent":32
+  },
+  {
+    "dropID":2120,
+    "monster_name":"Black Gravios",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Sleep Sac",
+    "quantity":1,
+    "percent":16
+  },
+  {
+    "dropID":2121,
+    "monster_name":"Black Gravios",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Gravios Wing",
+    "quantity":2,
+    "percent":12
+  },
+  {
+    "dropID":2122,
+    "monster_name":"Black Gravios",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Firecell Stone",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":2123,
+    "monster_name":"Black Gravios",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":2124,
+    "monster_name":"Black Gravios",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":2125,
+    "monster_name":"Black Gravios",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":2126,
+    "monster_name":"Black Gravios",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"B.Gravios Carapace",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":2127,
+    "monster_name":"Black Gravios",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"B.Gravios Scalp",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2128,
+    "monster_name":"Black Gravios",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Firecell Stone",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2129,
+    "monster_name":"Black Gravios",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"B.Gravios Carapace",
+    "quantity":1,
+    "percent":58
+  },
+  {
+    "dropID":2130,
+    "monster_name":"Black Gravios",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Monster Hardbone",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":2131,
+    "monster_name":"Black Gravios",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Gravios Medulla",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":2132,
+    "monster_name":"Black Gravios",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Firecell Stone",
+    "quantity":1,
+    "percent":9
+  },
+  {
+    "dropID":2133,
+    "monster_name":"Black Gravios",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"B.Gravios Carapace",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":2134,
+    "monster_name":"Black Gravios",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"Monster Hardbone",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2135,
+    "monster_name":"Black Gravios",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"Gravios Wing",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2136,
+    "monster_name":"Black Gravios",
+    "rank":"High",
+    "method":"Break Belly",
+    "item_name":"B.Gravios Carapace",
+    "quantity":1,
+    "percent":92
+  },
+  {
+    "dropID":2137,
+    "monster_name":"Black Gravios",
+    "rank":"High",
+    "method":"Break Belly",
+    "item_name":"Firecell Stone",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":2138,
+    "monster_name":"Black Gravios",
+    "rank":"High",
+    "method":"Break Wing",
+    "item_name":"Gravios Wing",
+    "quantity":1,
+    "percent":52
+  },
+  {
+    "dropID":2139,
+    "monster_name":"Black Gravios",
+    "rank":"High",
+    "method":"Break Wing",
+    "item_name":"B.Gravios Carapace",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2140,
+    "monster_name":"Black Gravios",
+    "rank":"High",
+    "method":"Break Wing",
+    "item_name":"Gravios Wing",
+    "quantity":2,
+    "percent":18
+  },
+  {
+    "dropID":2141,
+    "monster_name":"Black Gravios",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":58
+  },
+  {
+    "dropID":2142,
+    "monster_name":"Black Gravios",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Firecell Stone",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2143,
+    "monster_name":"Black Gravios",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Allfire Stone",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":2144,
+    "monster_name":"Black Gravios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"B.Gravios Cortex",
+    "quantity":1,
+    "percent":61
+  },
+  {
+    "dropID":2145,
+    "monster_name":"Black Gravios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"B.Gravios Crown",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2146,
+    "monster_name":"Black Gravios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Coma Sac",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2147,
+    "monster_name":"Black Gravios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Conflagrant Sac",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2148,
+    "monster_name":"Black Gravios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Lrg Wyvern Gem",
+    "quantity":1,
+    "percent":7
+  },
+  {
+    "dropID":2149,
+    "monster_name":"Black Gravios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"B.Gravios Pallium",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":2150,
+    "monster_name":"Black Gravios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Conflagrant Sac",
+    "quantity":1,
+    "percent":32
+  },
+  {
+    "dropID":2151,
+    "monster_name":"Black Gravios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"B.Gravios Cortex",
+    "quantity":1,
+    "percent":31
+  },
+  {
+    "dropID":2152,
+    "monster_name":"Black Gravios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Coma Sac",
+    "quantity":1,
+    "percent":16
+  },
+  {
+    "dropID":2153,
+    "monster_name":"Black Gravios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Gravios Fellwing",
+    "quantity":2,
+    "percent":12
+  },
+  {
+    "dropID":2154,
+    "monster_name":"Black Gravios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Allfire Stone",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":2155,
+    "monster_name":"Black Gravios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"B.Gravios Pallium",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":2156,
+    "monster_name":"Black Gravios",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":2157,
+    "monster_name":"Black Gravios",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":2,
+    "percent":25
+  },
+  {
+    "dropID":2158,
+    "monster_name":"Black Gravios",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":2,
+    "percent":20
+  },
+  {
+    "dropID":2159,
+    "monster_name":"Black Gravios",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"B.Gravios Crown",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":2160,
+    "monster_name":"Black Gravios",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"B.Gravios Cortex",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":2161,
+    "monster_name":"Black Gravios",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Allfire Stone",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2162,
+    "monster_name":"Black Gravios",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"B.Gravios Pallium",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":2163,
+    "monster_name":"Black Gravios",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"B.Gravios Cortex",
+    "quantity":1,
+    "percent":56
+  },
+  {
+    "dropID":2164,
+    "monster_name":"Black Gravios",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Monster Slogbone",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":2165,
+    "monster_name":"Black Gravios",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Gravios Medulla",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":2166,
+    "monster_name":"Black Gravios",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Allfire Stone",
+    "quantity":1,
+    "percent":9
+  },
+  {
+    "dropID":2167,
+    "monster_name":"Black Gravios",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"B.Gravios Pallium",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":2168,
+    "monster_name":"Black Gravios",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"B.Gravios Cortex",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":2169,
+    "monster_name":"Black Gravios",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Gravios Fellwing",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2170,
+    "monster_name":"Black Gravios",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Monster Slogbone",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2171,
+    "monster_name":"Black Gravios",
+    "rank":"G",
+    "method":"Break Belly",
+    "item_name":"B.Gravios Cortex",
+    "quantity":1,
+    "percent":92
+  },
+  {
+    "dropID":2172,
+    "monster_name":"Black Gravios",
+    "rank":"G",
+    "method":"Break Belly",
+    "item_name":"Allfire Stone",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":2173,
+    "monster_name":"Black Gravios",
+    "rank":"G",
+    "method":"Break Wing",
+    "item_name":"Gravios Fellwing",
+    "quantity":1,
+    "percent":52
+  },
+  {
+    "dropID":2174,
+    "monster_name":"Black Gravios",
+    "rank":"G",
+    "method":"Break Wing",
+    "item_name":"B.Gravios Cortex",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2175,
+    "monster_name":"Black Gravios",
+    "rank":"G",
+    "method":"Break Wing",
+    "item_name":"Gravios Fellwing",
+    "quantity":2,
+    "percent":18
+  },
+  {
+    "dropID":2176,
+    "monster_name":"Apex Gravios",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":58
+  },
+  {
+    "dropID":2177,
+    "monster_name":"Apex Gravios",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Firecell Stone",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2178,
+    "monster_name":"Apex Gravios",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Allfire Stone",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":2179,
+    "monster_name":"Apex Gravios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Gravios Cortex",
+    "quantity":1,
+    "percent":46
+  },
+  {
+    "dropID":2180,
+    "monster_name":"Apex Gravios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Coma Sac",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":2181,
+    "monster_name":"Apex Gravios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Conflagrant Sac",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":2182,
+    "monster_name":"Apex Gravios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Gravios Medulla",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2183,
+    "monster_name":"Apex Gravios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Gravios Crown",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2184,
+    "monster_name":"Apex Gravios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Lrg Wyvern Gem",
+    "quantity":1,
+    "percent":7
+  },
+  {
+    "dropID":2185,
+    "monster_name":"Apex Gravios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Gravios Pallium",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":2186,
+    "monster_name":"Apex Gravios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Gravios Cortex",
+    "quantity":1,
+    "percent":31
+  },
+  {
+    "dropID":2187,
+    "monster_name":"Apex Gravios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Conflagrant Sac",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2188,
+    "monster_name":"Apex Gravios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Coma Sac",
+    "quantity":1,
+    "percent":16
+  },
+  {
+    "dropID":2189,
+    "monster_name":"Apex Gravios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Gravios Fellwing",
+    "quantity":2,
+    "percent":12
+  },
+  {
+    "dropID":2190,
+    "monster_name":"Apex Gravios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Allfire Stone",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":2191,
+    "monster_name":"Apex Gravios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Gravios Pallium",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":2192,
+    "monster_name":"Apex Gravios",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Zenith Wyvern Gem",
+    "quantity":1,
+    "percent":85
+  },
+  {
+    "dropID":2193,
+    "monster_name":"Apex Gravios",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Zenith Wyvern Gem L",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":2194,
+    "monster_name":"Apex Gravios",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Gravios Crown",
+    "quantity":1,
+    "percent":58
+  },
+  {
+    "dropID":2195,
+    "monster_name":"Apex Gravios",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Gravios Cortex",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":2196,
+    "monster_name":"Apex Gravios",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Allfire Stone",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2197,
+    "monster_name":"Apex Gravios",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Gravios Pallium",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":2198,
+    "monster_name":"Apex Gravios",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Gravios Cortex",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":2199,
+    "monster_name":"Apex Gravios",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Monster Slogbone",
+    "quantity":1,
+    "percent":17
+  },
+  {
+    "dropID":2200,
+    "monster_name":"Apex Gravios",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Gravios Medulla",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":2201,
+    "monster_name":"Apex Gravios",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Allfire Stone",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":2202,
+    "monster_name":"Apex Gravios",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Gravios Pallium",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":2203,
+    "monster_name":"Apex Gravios",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Gravios Cortex",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":2204,
+    "monster_name":"Apex Gravios",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Gravios Fellwing",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2205,
+    "monster_name":"Apex Gravios",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Monster Slogbone",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2206,
+    "monster_name":"Apex Gravios",
+    "rank":"G",
+    "method":"Break Belly",
+    "item_name":"Gravios Cortex",
+    "quantity":1,
+    "percent":57
+  },
+  {
+    "dropID":2207,
+    "monster_name":"Apex Gravios",
+    "rank":"G",
+    "method":"Break Belly",
+    "item_name":"Gravios Carapace",
+    "quantity":2,
+    "percent":33
+  },
+  {
+    "dropID":2208,
+    "monster_name":"Apex Gravios",
+    "rank":"G",
+    "method":"Break Belly",
+    "item_name":"Coma Sac",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":2209,
+    "monster_name":"Apex Gravios",
+    "rank":"G",
+    "method":"Break Wing",
+    "item_name":"Gravios Fellwing",
+    "quantity":1,
+    "percent":52
+  },
+  {
+    "dropID":2210,
+    "monster_name":"Apex Gravios",
+    "rank":"G",
+    "method":"Break Wing",
+    "item_name":"Monster Slogbone",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2211,
+    "monster_name":"Apex Gravios",
+    "rank":"G",
+    "method":"Break Wing",
+    "item_name":"Gravios Fellwing",
+    "quantity":2,
+    "percent":18
+  },
+  {
+    "dropID":2212,
+    "monster_name":"Rathian",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":74
+  },
+  {
+    "dropID":2213,
+    "monster_name":"Rathian",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Rathian Scale",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":2214,
+    "monster_name":"Rathian",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Rathian Spike",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2215,
+    "monster_name":"Rathian",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Rathian Plate",
+    "quantity":1,
+    "percent":1
+  },
+  {
+    "dropID":2216,
+    "monster_name":"Rathian",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Rathian Scale",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":2217,
+    "monster_name":"Rathian",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Rathian Shell",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2218,
+    "monster_name":"Rathian",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Rathian Webbing",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":2219,
+    "monster_name":"Rathian",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Flame Sac",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2220,
+    "monster_name":"Rathian",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Rathian Spike",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":2221,
+    "monster_name":"Rathian",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Rathian Shell",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2222,
+    "monster_name":"Rathian",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Rathian Scale",
+    "quantity":2,
+    "percent":25
+  },
+  {
+    "dropID":2223,
+    "monster_name":"Rathian",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Rath Marrow",
+    "quantity":1,
+    "percent":23
+  },
+  {
+    "dropID":2224,
+    "monster_name":"Rathian",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Flame Sac",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":2225,
+    "monster_name":"Rathian",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Rathian Plate",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":2226,
+    "monster_name":"Rathian",
+    "rank":"Low",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":2227,
+    "monster_name":"Rathian",
+    "rank":"Low",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":2228,
+    "monster_name":"Rathian",
+    "rank":"Low",
+    "method":"Break Head",
+    "item_name":"Rathian Shell",
+    "quantity":1,
+    "percent":71
+  },
+  {
+    "dropID":2229,
+    "monster_name":"Rathian",
+    "rank":"Low",
+    "method":"Break Head",
+    "item_name":"Rathian Scale",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":2230,
+    "monster_name":"Rathian",
+    "rank":"Low",
+    "method":"Break Head",
+    "item_name":"Rathian Plate",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":2231,
+    "monster_name":"Rathian",
+    "rank":"Low",
+    "method":"Tail Carve",
+    "item_name":"Rathian Scale",
+    "quantity":1,
+    "percent":62
+  },
+  {
+    "dropID":2232,
+    "monster_name":"Rathian",
+    "rank":"Low",
+    "method":"Tail Carve",
+    "item_name":"Rathian Spike",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":2233,
+    "monster_name":"Rathian",
+    "rank":"Low",
+    "method":"Tail Carve",
+    "item_name":"Rath Marrow",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":2234,
+    "monster_name":"Rathian",
+    "rank":"Low",
+    "method":"Tail Carve",
+    "item_name":"Rathian Plate",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":2235,
+    "monster_name":"Rathian",
+    "rank":"Low",
+    "method":"Break Back",
+    "item_name":"Rathian Shell",
+    "quantity":1,
+    "percent":69
+  },
+  {
+    "dropID":2236,
+    "monster_name":"Rathian",
+    "rank":"Low",
+    "method":"Break Back",
+    "item_name":"Rathian Spike",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2237,
+    "monster_name":"Rathian",
+    "rank":"Low",
+    "method":"Break Back",
+    "item_name":"Rathian Plate",
+    "quantity":1,
+    "percent":1
+  },
+  {
+    "dropID":2238,
+    "monster_name":"Rathian",
+    "rank":"Low",
+    "method":"Break Wing",
+    "item_name":"Rath Wingtalon",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":2239,
+    "monster_name":"Rathian",
+    "rank":"Low",
+    "method":"Break Wing",
+    "item_name":"Rathian Webbing",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":2240,
+    "monster_name":"Rathian",
+    "rank":"Low",
+    "method":"Break Wing",
+    "item_name":"Wyvern Claw",
+    "quantity":4,
+    "percent":15
+  },
+  {
+    "dropID":2241,
+    "monster_name":"Rathian",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":38
+  },
+  {
+    "dropID":2242,
+    "monster_name":"Rathian",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":37
+  },
+  {
+    "dropID":2243,
+    "monster_name":"Rathian",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Rathian Scale+",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":2244,
+    "monster_name":"Rathian",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Rathian Spike+",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":2245,
+    "monster_name":"Rathian",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Rathian Ruby",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":2246,
+    "monster_name":"Rathian",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Rathian Scale+",
+    "quantity":1,
+    "percent":38
+  },
+  {
+    "dropID":2247,
+    "monster_name":"Rathian",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Rathian Carapace",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":2248,
+    "monster_name":"Rathian",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Inferno Sac",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":2249,
+    "monster_name":"Rathian",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Rathian Webbing",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":2250,
+    "monster_name":"Rathian",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Rathian Spike",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":2251,
+    "monster_name":"Rathian",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Rathian Spike+",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":2252,
+    "monster_name":"Rathian",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Rathian Carapace",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2253,
+    "monster_name":"Rathian",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Rathian Scale+",
+    "quantity":2,
+    "percent":22
+  },
+  {
+    "dropID":2254,
+    "monster_name":"Rathian",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Inferno Sac",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":2255,
+    "monster_name":"Rathian",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Rath Marrow",
+    "quantity":1,
+    "percent":13
+  },
+  {
+    "dropID":2256,
+    "monster_name":"Rathian",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Rath Medulla",
+    "quantity":1,
+    "percent":13
+  },
+  {
+    "dropID":2257,
+    "monster_name":"Rathian",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Rathian Plate",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":2258,
+    "monster_name":"Rathian",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Rathian Ruby",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":2259,
+    "monster_name":"Rathian",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":2260,
+    "monster_name":"Rathian",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2261,
+    "monster_name":"Rathian",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":2262,
+    "monster_name":"Rathian",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Rathian Carapace",
+    "quantity":1,
+    "percent":68
+  },
+  {
+    "dropID":2263,
+    "monster_name":"Rathian",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Rathian Scale+",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":2264,
+    "monster_name":"Rathian",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Rathian Shell",
+    "quantity":2,
+    "percent":8
+  },
+  {
+    "dropID":2265,
+    "monster_name":"Rathian",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Rathian Ruby",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":2266,
+    "monster_name":"Rathian",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Rathian Scale+",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":2267,
+    "monster_name":"Rathian",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Rathian Spike+",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":2268,
+    "monster_name":"Rathian",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Rathian Plate",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2269,
+    "monster_name":"Rathian",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Rath Medulla",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2270,
+    "monster_name":"Rathian",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Rathian Scale",
+    "quantity":1,
+    "percent":7
+  },
+  {
+    "dropID":2271,
+    "monster_name":"Rathian",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Rathian Ruby",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":2272,
+    "monster_name":"Rathian",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"Rathian Carapace",
+    "quantity":1,
+    "percent":69
+  },
+  {
+    "dropID":2273,
+    "monster_name":"Rathian",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"Rathian Spike+",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2274,
+    "monster_name":"Rathian",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"Rathian Ruby",
+    "quantity":1,
+    "percent":1
+  },
+  {
+    "dropID":2275,
+    "monster_name":"Rathian",
+    "rank":"High",
+    "method":"Break Wing",
+    "item_name":"Rath Wingtalon",
+    "quantity":2,
+    "percent":60
+  },
+  {
+    "dropID":2276,
+    "monster_name":"Rathian",
+    "rank":"High",
+    "method":"Break Wing",
+    "item_name":"Rathian Scale+",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":2277,
+    "monster_name":"Rathian",
+    "rank":"High",
+    "method":"Break Wing",
+    "item_name":"Wyvern Claw",
+    "quantity":5,
+    "percent":15
+  },
+  {
+    "dropID":2278,
+    "monster_name":"Rathian",
+    "rank":"High",
+    "method":"Break Wing",
+    "item_name":"Rathian Webbing",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":2279,
+    "monster_name":"Rathian",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":2280,
+    "monster_name":"Rathian",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Rathian Shard",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":2281,
+    "monster_name":"Rathian",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Rathian Spike+",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2282,
+    "monster_name":"Rathian",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Rathian Surspike",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":2283,
+    "monster_name":"Rathian",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Rathian Mantle",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":2284,
+    "monster_name":"Rathian",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Rathian Shard",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":2285,
+    "monster_name":"Rathian",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Rathian Cortex",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":2286,
+    "monster_name":"Rathian",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Conflagrant Sac",
+    "quantity":1,
+    "percent":14
+  },
+  {
+    "dropID":2287,
+    "monster_name":"Rathian",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Rathian Spike+",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2288,
+    "monster_name":"Rathian",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Rathian Surspike",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":2289,
+    "monster_name":"Rathian",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Rathian Cortex",
+    "quantity":1,
+    "percent":32
+  },
+  {
+    "dropID":2290,
+    "monster_name":"Rathian",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Rathian Shard",
+    "quantity":2,
+    "percent":25
+  },
+  {
+    "dropID":2291,
+    "monster_name":"Rathian",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Rath Medulla",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":2292,
+    "monster_name":"Rathian",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Conflagrant Sac",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":2293,
+    "monster_name":"Rathian",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Rathian Ruby",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":2294,
+    "monster_name":"Rathian",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Rathian Mantle",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":2295,
+    "monster_name":"Rathian",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":2296,
+    "monster_name":"Rathian",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":2297,
+    "monster_name":"Rathian",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":2,
+    "percent":25
+  },
+  {
+    "dropID":2298,
+    "monster_name":"Rathian",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Rathian Cortex",
+    "quantity":1,
+    "percent":68
+  },
+  {
+    "dropID":2299,
+    "monster_name":"Rathian",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Rathian Shard",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":2300,
+    "monster_name":"Rathian",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Rathian Carapace",
+    "quantity":2,
+    "percent":8
+  },
+  {
+    "dropID":2301,
+    "monster_name":"Rathian",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Rathian Mantle",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":2302,
+    "monster_name":"Rathian",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Rathian Shard",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":2303,
+    "monster_name":"Rathian",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Rathian Surspike",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":2304,
+    "monster_name":"Rathian",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Rathian Ruby",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2305,
+    "monster_name":"Rathian",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Rath Medulla",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2306,
+    "monster_name":"Rathian",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Rathian Scale+",
+    "quantity":1,
+    "percent":7
+  },
+  {
+    "dropID":2307,
+    "monster_name":"Rathian",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Rathian Mantle",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":2308,
+    "monster_name":"Rathian",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Rathian Cortex",
+    "quantity":1,
+    "percent":69
+  },
+  {
+    "dropID":2309,
+    "monster_name":"Rathian",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Rathian Surspike",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2310,
+    "monster_name":"Rathian",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Rathian Mantle",
+    "quantity":1,
+    "percent":1
+  },
+  {
+    "dropID":2311,
+    "monster_name":"Rathian",
+    "rank":"G",
+    "method":"Break Wing",
+    "item_name":"Rath Wingtalon+",
+    "quantity":2,
+    "percent":60
+  },
+  {
+    "dropID":2312,
+    "monster_name":"Rathian",
+    "rank":"G",
+    "method":"Break Wing",
+    "item_name":"Rathian Shard",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":2313,
+    "monster_name":"Pink Rathian",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":38
+  },
+  {
+    "dropID":2314,
+    "monster_name":"Pink Rathian",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":37
+  },
+  {
+    "dropID":2315,
+    "monster_name":"Pink Rathian",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"P.Rathian Scale+",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":2316,
+    "monster_name":"Pink Rathian",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Rathian Spike+",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":2317,
+    "monster_name":"Pink Rathian",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Rathian Ruby",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":2318,
+    "monster_name":"Pink Rathian",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"P.Rathian Scale+",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":2319,
+    "monster_name":"Pink Rathian",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"P.Rathian Carapace",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2320,
+    "monster_name":"Pink Rathian",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Inferno Sac",
+    "quantity":1,
+    "percent":13
+  },
+  {
+    "dropID":2321,
+    "monster_name":"Pink Rathian",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Rathian Webbing",
+    "quantity":1,
+    "percent":11
+  },
+  {
+    "dropID":2322,
+    "monster_name":"Pink Rathian",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Rathian Spike+",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":2323,
+    "monster_name":"Pink Rathian",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"P.Rathian Carapace",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2324,
+    "monster_name":"Pink Rathian",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"P.Rathian Scale+",
+    "quantity":2,
+    "percent":20
+  },
+  {
+    "dropID":2325,
+    "monster_name":"Pink Rathian",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Inferno Sac",
+    "quantity":1,
+    "percent":16
+  },
+  {
+    "dropID":2326,
+    "monster_name":"Pink Rathian",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Rath Medulla",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":2327,
+    "monster_name":"Pink Rathian",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Rath Marrow",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2328,
+    "monster_name":"Pink Rathian",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Rathian Plate",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":2329,
+    "monster_name":"Pink Rathian",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Rathian Ruby",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":2330,
+    "monster_name":"Pink Rathian",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":2331,
+    "monster_name":"Pink Rathian",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2332,
+    "monster_name":"Pink Rathian",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":2333,
+    "monster_name":"Pink Rathian",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"P.Rathian Carapace",
+    "quantity":1,
+    "percent":76
+  },
+  {
+    "dropID":2334,
+    "monster_name":"Pink Rathian",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"P.Rathian Scale+",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":2335,
+    "monster_name":"Pink Rathian",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Rathian Ruby",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":2336,
+    "monster_name":"Pink Rathian",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"P.Rathian Scale+",
+    "quantity":1,
+    "percent":58
+  },
+  {
+    "dropID":2337,
+    "monster_name":"Pink Rathian",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Rathian Spike+",
+    "quantity":1,
+    "percent":16
+  },
+  {
+    "dropID":2338,
+    "monster_name":"Pink Rathian",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Rath Medulla",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":2339,
+    "monster_name":"Pink Rathian",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Rathian Plate",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2340,
+    "monster_name":"Pink Rathian",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Rathian Ruby",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":2341,
+    "monster_name":"Pink Rathian",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"P.Rathian Carapace",
+    "quantity":1,
+    "percent":69
+  },
+  {
+    "dropID":2342,
+    "monster_name":"Pink Rathian",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"Rathian Spike+",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2343,
+    "monster_name":"Pink Rathian",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"Rathian Ruby",
+    "quantity":1,
+    "percent":1
+  },
+  {
+    "dropID":2344,
+    "monster_name":"Pink Rathian",
+    "rank":"High",
+    "method":"Break Wing",
+    "item_name":"Rath Wingtalon",
+    "quantity":2,
+    "percent":60
+  },
+  {
+    "dropID":2345,
+    "monster_name":"Pink Rathian",
+    "rank":"High",
+    "method":"Break Wing",
+    "item_name":"Wyvern Claw",
+    "quantity":5,
+    "percent":15
+  },
+  {
+    "dropID":2346,
+    "monster_name":"Pink Rathian",
+    "rank":"High",
+    "method":"Break Wing",
+    "item_name":"P.Rathian Scale+",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":2347,
+    "monster_name":"Pink Rathian",
+    "rank":"High",
+    "method":"Break Wing",
+    "item_name":"Rathian Webbing",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":2348,
+    "monster_name":"Pink Rathian",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":2349,
+    "monster_name":"Pink Rathian",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"P.Rathian Shard",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":2350,
+    "monster_name":"Pink Rathian",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Rathian Spike+",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2351,
+    "monster_name":"Pink Rathian",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Rathian Surspike",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":2352,
+    "monster_name":"Pink Rathian",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Rathian Mantle",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":2353,
+    "monster_name":"Pink Rathian",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"P.Rathian Shard",
+    "quantity":1,
+    "percent":44
+  },
+  {
+    "dropID":2354,
+    "monster_name":"Pink Rathian",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"P.Rathian Cortex",
+    "quantity":1,
+    "percent":32
+  },
+  {
+    "dropID":2355,
+    "monster_name":"Pink Rathian",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Conflagrant Sac",
+    "quantity":1,
+    "percent":16
+  },
+  {
+    "dropID":2356,
+    "monster_name":"Pink Rathian",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Rathian Surspike",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":2357,
+    "monster_name":"Pink Rathian",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"P.Rathian Shard",
+    "quantity":2,
+    "percent":32
+  },
+  {
+    "dropID":2358,
+    "monster_name":"Pink Rathian",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"P.Rathian Cortex",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":2359,
+    "monster_name":"Pink Rathian",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Conflagrant Sac",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":2360,
+    "monster_name":"Pink Rathian",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Rath Medulla",
+    "quantity":1,
+    "percent":16
+  },
+  {
+    "dropID":2361,
+    "monster_name":"Pink Rathian",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Rathian Ruby",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":2362,
+    "monster_name":"Pink Rathian",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Rathian Mantle",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":2363,
+    "monster_name":"Pink Rathian",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":2364,
+    "monster_name":"Pink Rathian",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":2365,
+    "monster_name":"Pink Rathian",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":2,
+    "percent":25
+  },
+  {
+    "dropID":2366,
+    "monster_name":"Pink Rathian",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"P.Rathian Cortex",
+    "quantity":1,
+    "percent":76
+  },
+  {
+    "dropID":2367,
+    "monster_name":"Pink Rathian",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"P.Rathian Shard",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":2368,
+    "monster_name":"Pink Rathian",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Rathian Mantle",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":2369,
+    "monster_name":"Pink Rathian",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"P.Rathian Shard",
+    "quantity":1,
+    "percent":58
+  },
+  {
+    "dropID":2370,
+    "monster_name":"Pink Rathian",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Rathian Surspike",
+    "quantity":1,
+    "percent":16
+  },
+  {
+    "dropID":2371,
+    "monster_name":"Pink Rathian",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Rath Medulla",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":2372,
+    "monster_name":"Pink Rathian",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Rathian Ruby",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2373,
+    "monster_name":"Pink Rathian",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Rathian Mantle",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":2374,
+    "monster_name":"Pink Rathian",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"P.Rathian Cortex",
+    "quantity":1,
+    "percent":69
+  },
+  {
+    "dropID":2375,
+    "monster_name":"Pink Rathian",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Rathian Surspike",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2376,
+    "monster_name":"Pink Rathian",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Rathian Mantle",
+    "quantity":1,
+    "percent":1
+  },
+  {
+    "dropID":2377,
+    "monster_name":"Pink Rathian",
+    "rank":"G",
+    "method":"Break Wing",
+    "item_name":"Rath Wingtalon+",
+    "quantity":2,
+    "percent":60
+  },
+  {
+    "dropID":2378,
+    "monster_name":"Pink Rathian",
+    "rank":"G",
+    "method":"Break Wing",
+    "item_name":"P.Rathian Shard",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":2379,
+    "monster_name":"Gold Rathian",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":38
+  },
+  {
+    "dropID":2380,
+    "monster_name":"Gold Rathian",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":37
+  },
+  {
+    "dropID":2381,
+    "monster_name":"Gold Rathian",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"G.Rathian Scale+",
+    "quantity":1,
+    "percent":11
+  },
+  {
+    "dropID":2382,
+    "monster_name":"Gold Rathian",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Rath Gleam",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2383,
+    "monster_name":"Gold Rathian",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Rathian Ruby",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":2384,
+    "monster_name":"Gold Rathian",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"G.Rathian Scale+",
+    "quantity":1,
+    "percent":43
+  },
+  {
+    "dropID":2385,
+    "monster_name":"Gold Rathian",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"G.Rathian Carapace",
+    "quantity":1,
+    "percent":29
+  },
+  {
+    "dropID":2386,
+    "monster_name":"Gold Rathian",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Rath Gleam",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2387,
+    "monster_name":"Gold Rathian",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"G.Rathian Spike+",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2388,
+    "monster_name":"Gold Rathian",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Inferno Sac",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":2389,
+    "monster_name":"Gold Rathian",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"G.Rathian Carapace",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2390,
+    "monster_name":"Gold Rathian",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"G.Rathian Scale+",
+    "quantity":2,
+    "percent":22
+  },
+  {
+    "dropID":2391,
+    "monster_name":"Gold Rathian",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Rath Gleam",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":2392,
+    "monster_name":"Gold Rathian",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Inferno Sac",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2393,
+    "monster_name":"Gold Rathian",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Rathian Ruby",
+    "quantity":1,
+    "percent":7
+  },
+  {
+    "dropID":2394,
+    "monster_name":"Gold Rathian",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Rath Medulla",
+    "quantity":1,
+    "percent":7
+  },
+  {
+    "dropID":2395,
+    "monster_name":"Gold Rathian",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Rathian Plate",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":2396,
+    "monster_name":"Gold Rathian",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"G.Rathian Carapace",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":2397,
+    "monster_name":"Gold Rathian",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"G.Rathian Scale+",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":2398,
+    "monster_name":"Gold Rathian",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Rath Gleam",
+    "quantity":2,
+    "percent":15
+  },
+  {
+    "dropID":2399,
+    "monster_name":"Gold Rathian",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Rathian Plate",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":2400,
+    "monster_name":"Gold Rathian",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Rathian Ruby",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":2401,
+    "monster_name":"Gold Rathian",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"G.Rathian Scale+",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":2402,
+    "monster_name":"Gold Rathian",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"G.Rathian Carapace",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2403,
+    "monster_name":"Gold Rathian",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Rathian Plate",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2404,
+    "monster_name":"Gold Rathian",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"G.Rathian Spike+",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2405,
+    "monster_name":"Gold Rathian",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Rathian Ruby",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":2406,
+    "monster_name":"Gold Rathian",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"G.Rathian Carapace",
+    "quantity":1,
+    "percent":69
+  },
+  {
+    "dropID":2407,
+    "monster_name":"Gold Rathian",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"G.Rathian Spike+",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2408,
+    "monster_name":"Gold Rathian",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"Rathian Ruby",
+    "quantity":1,
+    "percent":1
+  },
+  {
+    "dropID":2409,
+    "monster_name":"Gold Rathian",
+    "rank":"High",
+    "method":"Break Wing",
+    "item_name":"Rath Wingtalon",
+    "quantity":2,
+    "percent":60
+  },
+  {
+    "dropID":2410,
+    "monster_name":"Gold Rathian",
+    "rank":"High",
+    "method":"Break Wing",
+    "item_name":"G.Rathian Scale+",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":2411,
+    "monster_name":"Gold Rathian",
+    "rank":"High",
+    "method":"Break Wing",
+    "item_name":"Wyvern Claw",
+    "quantity":5,
+    "percent":15
+  },
+  {
+    "dropID":2412,
+    "monster_name":"Gold Rathian",
+    "rank":"High",
+    "method":"Break Wing",
+    "item_name":"Rathian Webbing",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":2413,
+    "monster_name":"Gold Rathian",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":2414,
+    "monster_name":"Gold Rathian",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"G.Rathian Shard",
+    "quantity":1,
+    "percent":31
+  },
+  {
+    "dropID":2415,
+    "monster_name":"Gold Rathian",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Firegleam Dollop",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2416,
+    "monster_name":"Gold Rathian",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Rathian Mantle",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":2417,
+    "monster_name":"Gold Rathian",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"G.Rathian Shard",
+    "quantity":1,
+    "percent":43
+  },
+  {
+    "dropID":2418,
+    "monster_name":"Gold Rathian",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"G.Rathian Cortex",
+    "quantity":1,
+    "percent":29
+  },
+  {
+    "dropID":2419,
+    "monster_name":"Gold Rathian",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Firegleam Dollop",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2420,
+    "monster_name":"Gold Rathian",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"G.Rath Surspike",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2421,
+    "monster_name":"Gold Rathian",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Conflagrant Sac",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":2422,
+    "monster_name":"Gold Rathian",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"G.Rathian Cortex",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2423,
+    "monster_name":"Gold Rathian",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"G.Rathian Shard",
+    "quantity":2,
+    "percent":22
+  },
+  {
+    "dropID":2424,
+    "monster_name":"Gold Rathian",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Firegleam Dollop",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":2425,
+    "monster_name":"Gold Rathian",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Conflagrant Sac",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2426,
+    "monster_name":"Gold Rathian",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Rathian Mantle",
+    "quantity":1,
+    "percent":7
+  },
+  {
+    "dropID":2427,
+    "monster_name":"Gold Rathian",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Rath Medulla",
+    "quantity":1,
+    "percent":7
+  },
+  {
+    "dropID":2428,
+    "monster_name":"Gold Rathian",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Rathian Ruby",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":2429,
+    "monster_name":"Gold Rathian",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"G.Rathian Cortex",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":2430,
+    "monster_name":"Gold Rathian",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"G.Rathian Shard",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":2431,
+    "monster_name":"Gold Rathian",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Firegleam Dollop",
+    "quantity":2,
+    "percent":15
+  },
+  {
+    "dropID":2432,
+    "monster_name":"Gold Rathian",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Rathian Ruby",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":2433,
+    "monster_name":"Gold Rathian",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Rathian Mantle",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":2434,
+    "monster_name":"Gold Rathian",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"G.Rathian Shard",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":2435,
+    "monster_name":"Gold Rathian",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"G.Rathian Cortex",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2436,
+    "monster_name":"Gold Rathian",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Rathian Ruby",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2437,
+    "monster_name":"Gold Rathian",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"G.Rath Surspike",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2438,
+    "monster_name":"Gold Rathian",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Rathian Mantle",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":2439,
+    "monster_name":"Gold Rathian",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"G.Rathian Cortex",
+    "quantity":1,
+    "percent":69
+  },
+  {
+    "dropID":2440,
+    "monster_name":"Gold Rathian",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"G.Rath Surspike",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2441,
+    "monster_name":"Gold Rathian",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Rathian Mantle",
+    "quantity":1,
+    "percent":1
+  },
+  {
+    "dropID":2442,
+    "monster_name":"Gold Rathian",
+    "rank":"G",
+    "method":"Break Wing",
+    "item_name":"Rath Wingtalon+",
+    "quantity":2,
+    "percent":60
+  },
+  {
+    "dropID":2443,
+    "monster_name":"Gold Rathian",
+    "rank":"G",
+    "method":"Break Wing",
+    "item_name":"G.Rathian Shard",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":2444,
+    "monster_name":"Rathalos",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":74
+  },
+  {
+    "dropID":2445,
+    "monster_name":"Rathalos",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Rathalos Scale",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":2446,
+    "monster_name":"Rathalos",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Rathalos Plate",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":2447,
+    "monster_name":"Rathalos",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Rathalos Scale",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":2448,
+    "monster_name":"Rathalos",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Rathalos Shell",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":2449,
+    "monster_name":"Rathalos",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Rathalos Webbing",
+    "quantity":1,
+    "percent":19
+  },
+  {
+    "dropID":2450,
+    "monster_name":"Rathalos",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Flame Sac",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":2451,
+    "monster_name":"Rathalos",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Rath Marrow",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":2452,
+    "monster_name":"Rathalos",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Rathalos Shell",
+    "quantity":1,
+    "percent":42
+  },
+  {
+    "dropID":2453,
+    "monster_name":"Rathalos",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Rathalos Webbing",
+    "quantity":1,
+    "percent":29
+  },
+  {
+    "dropID":2454,
+    "monster_name":"Rathalos",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Rath Marrow",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":2455,
+    "monster_name":"Rathalos",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Rathalos Tail",
+    "quantity":1,
+    "percent":9
+  },
+  {
+    "dropID":2456,
+    "monster_name":"Rathalos",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Rathalos Plate",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":2457,
+    "monster_name":"Rathalos",
+    "rank":"Low",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":100
+  },
+  {
+    "dropID":2458,
+    "monster_name":"Rathalos",
+    "rank":"Low",
+    "method":"Break Head",
+    "item_name":"Rathalos Scale",
+    "quantity":1,
+    "percent":66
+  },
+  {
+    "dropID":2459,
+    "monster_name":"Rathalos",
+    "rank":"Low",
+    "method":"Break Head",
+    "item_name":"Rathalos Shell",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2460,
+    "monster_name":"Rathalos",
+    "rank":"Low",
+    "method":"Break Head",
+    "item_name":"Rathalos Plate",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":2461,
+    "monster_name":"Rathalos",
+    "rank":"Low",
+    "method":"Tail Carve",
+    "item_name":"Rathalos Tail",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":2462,
+    "monster_name":"Rathalos",
+    "rank":"Low",
+    "method":"Tail Carve",
+    "item_name":"Rathalos Scale",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":2463,
+    "monster_name":"Rathalos",
+    "rank":"Low",
+    "method":"Tail Carve",
+    "item_name":"Rath Marrow",
+    "quantity":1,
+    "percent":17
+  },
+  {
+    "dropID":2464,
+    "monster_name":"Rathalos",
+    "rank":"Low",
+    "method":"Tail Carve",
+    "item_name":"Rathalos Plate",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":2465,
+    "monster_name":"Rathalos",
+    "rank":"Low",
+    "method":"Break Back",
+    "item_name":"Rathalos Shell",
+    "quantity":1,
+    "percent":69
+  },
+  {
+    "dropID":2466,
+    "monster_name":"Rathalos",
+    "rank":"Low",
+    "method":"Break Back",
+    "item_name":"Rath Marrow",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2467,
+    "monster_name":"Rathalos",
+    "rank":"Low",
+    "method":"Break Back",
+    "item_name":"Rathalos Plate",
+    "quantity":1,
+    "percent":1
+  },
+  {
+    "dropID":2468,
+    "monster_name":"Rathalos",
+    "rank":"Low",
+    "method":"Break Wing",
+    "item_name":"Rath Wingtalon",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":2469,
+    "monster_name":"Rathalos",
+    "rank":"Low",
+    "method":"Break Wing",
+    "item_name":"Rathalos Webbing",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":2470,
+    "monster_name":"Rathalos",
+    "rank":"Low",
+    "method":"Break Wing",
+    "item_name":"Wyvern Claw",
+    "quantity":4,
+    "percent":15
+  },
+  {
+    "dropID":2471,
+    "monster_name":"Rathalos",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":38
+  },
+  {
+    "dropID":2472,
+    "monster_name":"Rathalos",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":37
+  },
+  {
+    "dropID":2473,
+    "monster_name":"Rathalos",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Rathalos Scale+",
+    "quantity":1,
+    "percent":23
+  },
+  {
+    "dropID":2474,
+    "monster_name":"Rathalos",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Rathalos Ruby",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":2475,
+    "monster_name":"Rathalos",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Rathalos Scale+",
+    "quantity":1,
+    "percent":38
+  },
+  {
+    "dropID":2476,
+    "monster_name":"Rathalos",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Rathalos Carapace",
+    "quantity":1,
+    "percent":29
+  },
+  {
+    "dropID":2477,
+    "monster_name":"Rathalos",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Inferno Sac",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":2478,
+    "monster_name":"Rathalos",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Rathalos Wing",
+    "quantity":1,
+    "percent":13
+  },
+  {
+    "dropID":2479,
+    "monster_name":"Rathalos",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Rath Medulla",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":2480,
+    "monster_name":"Rathalos",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Rathalos Carapace",
+    "quantity":1,
+    "percent":38
+  },
+  {
+    "dropID":2481,
+    "monster_name":"Rathalos",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Rathalos Webbing",
+    "quantity":2,
+    "percent":18
+  },
+  {
+    "dropID":2482,
+    "monster_name":"Rathalos",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Rath Marrow",
+    "quantity":1,
+    "percent":16
+  },
+  {
+    "dropID":2483,
+    "monster_name":"Rathalos",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Rathalos Tail",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":2484,
+    "monster_name":"Rathalos",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Rath Medulla",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":2485,
+    "monster_name":"Rathalos",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Rathalos Plate",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":2486,
+    "monster_name":"Rathalos",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Rathalos Ruby",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":2487,
+    "monster_name":"Rathalos",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":2488,
+    "monster_name":"Rathalos",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2489,
+    "monster_name":"Rathalos",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":2490,
+    "monster_name":"Rathalos",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Rathalos Scale+",
+    "quantity":1,
+    "percent":57
+  },
+  {
+    "dropID":2491,
+    "monster_name":"Rathalos",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Rathalos Carapace",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":2492,
+    "monster_name":"Rathalos",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Rathalos Shell",
+    "quantity":2,
+    "percent":8
+  },
+  {
+    "dropID":2493,
+    "monster_name":"Rathalos",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Rathalos Plate",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":2494,
+    "monster_name":"Rathalos",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Rathalos Ruby",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":2495,
+    "monster_name":"Rathalos",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Rathalos Tail",
+    "quantity":1,
+    "percent":48
+  },
+  {
+    "dropID":2496,
+    "monster_name":"Rathalos",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Rathalos Scale+",
+    "quantity":1,
+    "percent":22
+  },
+  {
+    "dropID":2497,
+    "monster_name":"Rathalos",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Rathalos Plate",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2498,
+    "monster_name":"Rathalos",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Rath Medulla",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2499,
+    "monster_name":"Rathalos",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Rathalos Scale",
+    "quantity":1,
+    "percent":7
+  },
+  {
+    "dropID":2500,
+    "monster_name":"Rathalos",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Rathalos Ruby",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":2501,
+    "monster_name":"Rathalos",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"Rathalos Carapace",
+    "quantity":1,
+    "percent":69
+  },
+  {
+    "dropID":2502,
+    "monster_name":"Rathalos",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"Rath Medulla",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2503,
+    "monster_name":"Rathalos",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"Rathalos Ruby",
+    "quantity":1,
+    "percent":1
+  },
+  {
+    "dropID":2504,
+    "monster_name":"Rathalos",
+    "rank":"High",
+    "method":"Break Wing",
+    "item_name":"Rath Wingtalon",
+    "quantity":2,
+    "percent":60
+  },
+  {
+    "dropID":2505,
+    "monster_name":"Rathalos",
+    "rank":"High",
+    "method":"Break Wing",
+    "item_name":"Rathalos Wing",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":2506,
+    "monster_name":"Rathalos",
+    "rank":"High",
+    "method":"Break Wing",
+    "item_name":"Wyvern Claw",
+    "quantity":5,
+    "percent":15
+  },
+  {
+    "dropID":2507,
+    "monster_name":"Rathalos",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":2508,
+    "monster_name":"Rathalos",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Rathalos Shard",
+    "quantity":1,
+    "percent":33
+  },
+  {
+    "dropID":2509,
+    "monster_name":"Rathalos",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Rath Medulla",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2510,
+    "monster_name":"Rathalos",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Rathalos Mantle",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":2511,
+    "monster_name":"Rathalos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Rathalos Shard",
+    "quantity":1,
+    "percent":38
+  },
+  {
+    "dropID":2512,
+    "monster_name":"Rathalos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Rathalos Cortex",
+    "quantity":1,
+    "percent":29
+  },
+  {
+    "dropID":2513,
+    "monster_name":"Rathalos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Conflagrant Sac",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":2514,
+    "monster_name":"Rathalos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Rathalos Fellwing",
+    "quantity":1,
+    "percent":13
+  },
+  {
+    "dropID":2515,
+    "monster_name":"Rathalos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Rath Medulla",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":2516,
+    "monster_name":"Rathalos",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Rathalos Cortex",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":2517,
+    "monster_name":"Rathalos",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Rathalos Wing",
+    "quantity":2,
+    "percent":20
+  },
+  {
+    "dropID":2518,
+    "monster_name":"Rathalos",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Rath Medulla",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":2519,
+    "monster_name":"Rathalos",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Rathalos Lash",
+    "quantity":1,
+    "percent":14
+  },
+  {
+    "dropID":2520,
+    "monster_name":"Rathalos",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Rathalos Ruby",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":2521,
+    "monster_name":"Rathalos",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Rathalos Mantle",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":2522,
+    "monster_name":"Rathalos",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":2523,
+    "monster_name":"Rathalos",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":2524,
+    "monster_name":"Rathalos",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Rathalos Shard",
+    "quantity":1,
+    "percent":57
+  },
+  {
+    "dropID":2525,
+    "monster_name":"Rathalos",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Rathalos Cortex",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":2526,
+    "monster_name":"Rathalos",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Rathalos Carapace",
+    "quantity":2,
+    "percent":8
+  },
+  {
+    "dropID":2527,
+    "monster_name":"Rathalos",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Rathalos Ruby",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":2528,
+    "monster_name":"Rathalos",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Rathalos Mantle",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":2529,
+    "monster_name":"Rathalos",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Rathalos Lash",
+    "quantity":1,
+    "percent":48
+  },
+  {
+    "dropID":2530,
+    "monster_name":"Rathalos",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Rathalos Shard",
+    "quantity":1,
+    "percent":22
+  },
+  {
+    "dropID":2531,
+    "monster_name":"Rathalos",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Rathalos Ruby",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2532,
+    "monster_name":"Rathalos",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Rath Medulla",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2533,
+    "monster_name":"Rathalos",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Rathalos Scale+",
+    "quantity":1,
+    "percent":7
+  },
+  {
+    "dropID":2534,
+    "monster_name":"Rathalos",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Rathalos Mantle",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":2535,
+    "monster_name":"Rathalos",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Rathalos Cortex",
+    "quantity":1,
+    "percent":69
+  },
+  {
+    "dropID":2536,
+    "monster_name":"Rathalos",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Rath Medulla",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2537,
+    "monster_name":"Rathalos",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Rathalos Mantle",
+    "quantity":1,
+    "percent":1
+  },
+  {
+    "dropID":2538,
+    "monster_name":"Rathalos",
+    "rank":"G",
+    "method":"Break Wing",
+    "item_name":"Rath Wingtalon+",
+    "quantity":2,
+    "percent":75
+  },
+  {
+    "dropID":2539,
+    "monster_name":"Rathalos",
+    "rank":"G",
+    "method":"Break Wing",
+    "item_name":"Rathalos Fellwing",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":2540,
+    "monster_name":"Azure Rathalos",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":38
+  },
+  {
+    "dropID":2541,
+    "monster_name":"Azure Rathalos",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":37
+  },
+  {
+    "dropID":2542,
+    "monster_name":"Azure Rathalos",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"A.Rathalos Scale+",
+    "quantity":1,
+    "percent":23
+  },
+  {
+    "dropID":2543,
+    "monster_name":"Azure Rathalos",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Rathalos Ruby",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":2544,
+    "monster_name":"Azure Rathalos",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"A.Rathalos Scale+",
+    "quantity":1,
+    "percent":38
+  },
+  {
+    "dropID":2545,
+    "monster_name":"Azure Rathalos",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"A.Rathalos Carapace",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":2546,
+    "monster_name":"Azure Rathalos",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Inferno Sac",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":2547,
+    "monster_name":"Azure Rathalos",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"A.Rathalos Wing",
+    "quantity":1,
+    "percent":13
+  },
+  {
+    "dropID":2548,
+    "monster_name":"Azure Rathalos",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Rath Medulla",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":2549,
+    "monster_name":"Azure Rathalos",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"A.Rathalos Carapace",
+    "quantity":1,
+    "percent":38
+  },
+  {
+    "dropID":2550,
+    "monster_name":"Azure Rathalos",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"A.Rathalos Wing",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":2551,
+    "monster_name":"Azure Rathalos",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Rath Medulla",
+    "quantity":1,
+    "percent":13
+  },
+  {
+    "dropID":2552,
+    "monster_name":"Azure Rathalos",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"A.Rathalos Tail",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":2553,
+    "monster_name":"Azure Rathalos",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Rath Marrow",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2554,
+    "monster_name":"Azure Rathalos",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Rathalos Plate",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":2555,
+    "monster_name":"Azure Rathalos",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Rathalos Ruby",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":2556,
+    "monster_name":"Azure Rathalos",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":2557,
+    "monster_name":"Azure Rathalos",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2558,
+    "monster_name":"Azure Rathalos",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":2559,
+    "monster_name":"Azure Rathalos",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"A.Rathalos Scale+",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":2560,
+    "monster_name":"Azure Rathalos",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"A.Rathalos Carapace",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2561,
+    "monster_name":"Azure Rathalos",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Rathalos Plate",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":2562,
+    "monster_name":"Azure Rathalos",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Rathalos Ruby",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":2563,
+    "monster_name":"Azure Rathalos",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"A.Rathalos Tail",
+    "quantity":1,
+    "percent":53
+  },
+  {
+    "dropID":2564,
+    "monster_name":"Azure Rathalos",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"A.Rathalos Scale+",
+    "quantity":1,
+    "percent":22
+  },
+  {
+    "dropID":2565,
+    "monster_name":"Azure Rathalos",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Rath Medulla",
+    "quantity":1,
+    "percent":11
+  },
+  {
+    "dropID":2566,
+    "monster_name":"Azure Rathalos",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Rathalos Plate",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2567,
+    "monster_name":"Azure Rathalos",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Rathalos Ruby",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":2568,
+    "monster_name":"Azure Rathalos",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"A.Rathalos Carapace",
+    "quantity":1,
+    "percent":69
+  },
+  {
+    "dropID":2569,
+    "monster_name":"Azure Rathalos",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"Rath Medulla",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2570,
+    "monster_name":"Azure Rathalos",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"Rathalos Ruby",
+    "quantity":1,
+    "percent":1
+  },
+  {
+    "dropID":2571,
+    "monster_name":"Azure Rathalos",
+    "rank":"High",
+    "method":"Break Wing",
+    "item_name":"Rath Wingtalon",
+    "quantity":2,
+    "percent":60
+  },
+  {
+    "dropID":2572,
+    "monster_name":"Azure Rathalos",
+    "rank":"High",
+    "method":"Break Wing",
+    "item_name":"A.Rathalos Wing",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":2573,
+    "monster_name":"Azure Rathalos",
+    "rank":"High",
+    "method":"Break Wing",
+    "item_name":"Wyvern Claw",
+    "quantity":5,
+    "percent":15
+  },
+  {
+    "dropID":2574,
+    "monster_name":"Azure Rathalos",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":2575,
+    "monster_name":"Azure Rathalos",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"A.Rathalos Shard",
+    "quantity":1,
+    "percent":33
+  },
+  {
+    "dropID":2576,
+    "monster_name":"Azure Rathalos",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Rath Medulla",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2577,
+    "monster_name":"Azure Rathalos",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Rathalos Mantle",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":2578,
+    "monster_name":"Azure Rathalos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"A.Rathalos Shard",
+    "quantity":1,
+    "percent":38
+  },
+  {
+    "dropID":2579,
+    "monster_name":"Azure Rathalos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"A.Rathalos Cortex",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":2580,
+    "monster_name":"Azure Rathalos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Conflagrant Sac",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":2581,
+    "monster_name":"Azure Rathalos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"A.Rathalos Wing",
+    "quantity":1,
+    "percent":13
+  },
+  {
+    "dropID":2582,
+    "monster_name":"Azure Rathalos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Rath Medulla",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":2583,
+    "monster_name":"Azure Rathalos",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"A.Rathalos Cortex",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":2584,
+    "monster_name":"Azure Rathalos",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"A.Rathalos Wing",
+    "quantity":1,
+    "percent":19
+  },
+  {
+    "dropID":2585,
+    "monster_name":"Azure Rathalos",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Rath Medulla",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":2586,
+    "monster_name":"Azure Rathalos",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"A.Rathalos Lash",
+    "quantity":1,
+    "percent":14
+  },
+  {
+    "dropID":2587,
+    "monster_name":"Azure Rathalos",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Rathalos Ruby",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":2588,
+    "monster_name":"Azure Rathalos",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Rathalos Mantle",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":2589,
+    "monster_name":"Azure Rathalos",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":2590,
+    "monster_name":"Azure Rathalos",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":2,
+    "percent":25
+  },
+  {
+    "dropID":2591,
+    "monster_name":"Azure Rathalos",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":2,
+    "percent":20
+  },
+  {
+    "dropID":2592,
+    "monster_name":"Azure Rathalos",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"A.Rathalos Shard",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":2593,
+    "monster_name":"Azure Rathalos",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"A.Rathalos Cortex",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2594,
+    "monster_name":"Azure Rathalos",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Rathalos Ruby",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":2595,
+    "monster_name":"Azure Rathalos",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Rathalos Mantle",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":2596,
+    "monster_name":"Azure Rathalos",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"A.Rathalos Lash",
+    "quantity":1,
+    "percent":53
+  },
+  {
+    "dropID":2597,
+    "monster_name":"Azure Rathalos",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"A.Rathalos Shard",
+    "quantity":1,
+    "percent":22
+  },
+  {
+    "dropID":2598,
+    "monster_name":"Azure Rathalos",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Rath Medulla",
+    "quantity":1,
+    "percent":11
+  },
+  {
+    "dropID":2599,
+    "monster_name":"Azure Rathalos",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Rathalos Ruby",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2600,
+    "monster_name":"Azure Rathalos",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Rathalos Mantle",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":2601,
+    "monster_name":"Azure Rathalos",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"A.Rathalos Cortex",
+    "quantity":1,
+    "percent":69
+  },
+  {
+    "dropID":2602,
+    "monster_name":"Azure Rathalos",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Rath Medulla",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2603,
+    "monster_name":"Azure Rathalos",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Rathalos Mantle",
+    "quantity":1,
+    "percent":1
+  },
+  {
+    "dropID":2604,
+    "monster_name":"Azure Rathalos",
+    "rank":"G",
+    "method":"Break Wing",
+    "item_name":"Rath Wingtalon+",
+    "quantity":2,
+    "percent":60
+  },
+  {
+    "dropID":2605,
+    "monster_name":"Azure Rathalos",
+    "rank":"G",
+    "method":"Break Wing",
+    "item_name":"A.Rathalos Wing",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":2606,
+    "monster_name":"Silver Rathalos",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":38
+  },
+  {
+    "dropID":2607,
+    "monster_name":"Silver Rathalos",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":37
+  },
+  {
+    "dropID":2608,
+    "monster_name":"Silver Rathalos",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"S.Rathalos Scale+",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":2609,
+    "monster_name":"Silver Rathalos",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Rath Gleam",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2610,
+    "monster_name":"Silver Rathalos",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Rathalos Ruby",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":2611,
+    "monster_name":"Silver Rathalos",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"S.Rathalos Scale+",
+    "quantity":1,
+    "percent":43
+  },
+  {
+    "dropID":2612,
+    "monster_name":"Silver Rathalos",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"S.Rathalos Carapace",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2613,
+    "monster_name":"Silver Rathalos",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Inferno Sac",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":2614,
+    "monster_name":"Silver Rathalos",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Rath Gleam",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":2615,
+    "monster_name":"Silver Rathalos",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Rath Medulla",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":2616,
+    "monster_name":"Silver Rathalos",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"S.Rathalos Carapace",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":2617,
+    "monster_name":"Silver Rathalos",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"S.Rathalos Scale+",
+    "quantity":2,
+    "percent":25
+  },
+  {
+    "dropID":2618,
+    "monster_name":"Silver Rathalos",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Rath Gleam",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":2619,
+    "monster_name":"Silver Rathalos",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"S.Rathalos Tail",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2620,
+    "monster_name":"Silver Rathalos",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Rathalos Ruby",
+    "quantity":1,
+    "percent":7
+  },
+  {
+    "dropID":2621,
+    "monster_name":"Silver Rathalos",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"S.Rathalos Scale+",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":2622,
+    "monster_name":"Silver Rathalos",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"S.Rathalos Carapace",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":2623,
+    "monster_name":"Silver Rathalos",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Rath Gleam",
+    "quantity":2,
+    "percent":15
+  },
+  {
+    "dropID":2624,
+    "monster_name":"Silver Rathalos",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Rathalos Plate",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":2625,
+    "monster_name":"Silver Rathalos",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Rathalos Ruby",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":2626,
+    "monster_name":"Silver Rathalos",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"S.Rathalos Tail",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":2627,
+    "monster_name":"Silver Rathalos",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"S.Rathalos Scale+",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":2628,
+    "monster_name":"Silver Rathalos",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Rathalos Plate",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":2629,
+    "monster_name":"Silver Rathalos",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"S.Rathalos Carapace",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":2630,
+    "monster_name":"Silver Rathalos",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Rathalos Ruby",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":2631,
+    "monster_name":"Silver Rathalos",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"S.Rathalos Carapace",
+    "quantity":1,
+    "percent":69
+  },
+  {
+    "dropID":2632,
+    "monster_name":"Silver Rathalos",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"Rath Gleam",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2633,
+    "monster_name":"Silver Rathalos",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"Rathalos Ruby",
+    "quantity":1,
+    "percent":1
+  },
+  {
+    "dropID":2634,
+    "monster_name":"Silver Rathalos",
+    "rank":"High",
+    "method":"Break Wing",
+    "item_name":"ath Wingtalon",
+    "quantity":2,
+    "percent":60
+  },
+  {
+    "dropID":2635,
+    "monster_name":"Silver Rathalos",
+    "rank":"High",
+    "method":"Break Wing",
+    "item_name":"Wyvern Claw",
+    "quantity":5,
+    "percent":15
+  },
+  {
+    "dropID":2636,
+    "monster_name":"Silver Rathalos",
+    "rank":"High",
+    "method":"Break Wing",
+    "item_name":"S.Rathalos Scale+",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":2637,
+    "monster_name":"Silver Rathalos",
+    "rank":"High",
+    "method":"Break Wing",
+    "item_name":"Rathalos Wing",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":2638,
+    "monster_name":"Silver Rathalos",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":2639,
+    "monster_name":"Silver Rathalos",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"S.Rathalos Shard",
+    "quantity":1,
+    "percent":32
+  },
+  {
+    "dropID":2640,
+    "monster_name":"Silver Rathalos",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Firegleam Dollop",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2641,
+    "monster_name":"Silver Rathalos",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Rathalos Mantle",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":2642,
+    "monster_name":"Silver Rathalos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"S.Rathalos Shard",
+    "quantity":1,
+    "percent":43
+  },
+  {
+    "dropID":2643,
+    "monster_name":"Silver Rathalos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"S.Rath Cortex",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2644,
+    "monster_name":"Silver Rathalos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Firegleam Dollop",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":2645,
+    "monster_name":"Silver Rathalos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Conflagrant Sac",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":2646,
+    "monster_name":"Silver Rathalos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Rath Medulla",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":2647,
+    "monster_name":"Silver Rathalos",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"S.Rath Cortex",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":2648,
+    "monster_name":"Silver Rathalos",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"S.Rathalos Shard",
+    "quantity":2,
+    "percent":25
+  },
+  {
+    "dropID":2649,
+    "monster_name":"Silver Rathalos",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Firegleam Dollop",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":2650,
+    "monster_name":"Silver Rathalos",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"S.Rath Lash",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":2651,
+    "monster_name":"Silver Rathalos",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Rathalos Mantle",
+    "quantity":1,
+    "percent":7
+  },
+  {
+    "dropID":2652,
+    "monster_name":"Silver Rathalos",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"S.Rathalos Shard",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":2653,
+    "monster_name":"Silver Rathalos",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"S.Rath Cortex",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":2654,
+    "monster_name":"Silver Rathalos",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Firegleam Dollop",
+    "quantity":2,
+    "percent":15
+  },
+  {
+    "dropID":2655,
+    "monster_name":"Silver Rathalos",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Rathalos Ruby",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":2656,
+    "monster_name":"Silver Rathalos",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Rathalos Mantle",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":2657,
+    "monster_name":"Silver Rathalos",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"S.Rath Lash",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":2658,
+    "monster_name":"Silver Rathalos",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"S.Rathalos Shard",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":2659,
+    "monster_name":"Silver Rathalos",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Rathalos Ruby",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":2660,
+    "monster_name":"Silver Rathalos",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"S.Rath Cortex",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":2661,
+    "monster_name":"Silver Rathalos",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Rathalos Mantle",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":2662,
+    "monster_name":"Silver Rathalos",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"S.Rath Cortex",
+    "quantity":1,
+    "percent":69
+  },
+  {
+    "dropID":2663,
+    "monster_name":"Silver Rathalos",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Firegleam Dollop",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":2664,
+    "monster_name":"Silver Rathalos",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Rathalos Mantle",
+    "quantity":1,
+    "percent":1
+  },
+  {
+    "dropID":2665,
+    "monster_name":"Silver Rathalos",
+    "rank":"G",
+    "method":"Break Wing",
+    "item_name":"Rath Wingtalon+",
+    "quantity":2,
+    "percent":60
+  },
+  {
+    "dropID":2666,
+    "monster_name":"Silver Rathalos",
+    "rank":"G",
+    "method":"Break Wing",
+    "item_name":"Rathalos Fellwing",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":2667,
+    "monster_name":"Silver Rathalos",
+    "rank":"G",
+    "method":"Break Wing",
+    "item_name":"S.Rathalos Shard",
+    "quantity":1,
+    "percent":15
+  }
+]

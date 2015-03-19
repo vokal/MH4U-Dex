@@ -1,0 +1,3260 @@
+[
+  {
+    "dropID":1170,
+    "monster_name":"Tetsucabra",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Toad Tear",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":1171,
+    "monster_name":"Tetsucabra",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Paddock Oil",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1172,
+    "monster_name":"Tetsucabra",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Tetsucabra Scale",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":1173,
+    "monster_name":"Tetsucabra",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Tetsucabra Shell",
+    "quantity":1,
+    "percent":22
+  },
+  {
+    "dropID":1174,
+    "monster_name":"Tetsucabra",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Tetsucabra Claw",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":1175,
+    "monster_name":"Tetsucabra",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Dignified Skull",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":1176,
+    "monster_name":"Tetsucabra",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Jumbo Bone",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1177,
+    "monster_name":"Tetsucabra",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Paddock Oil",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1178,
+    "monster_name":"Tetsucabra",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Jumbo Bone",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1179,
+    "monster_name":"Tetsucabra",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Tetsucabra Claw",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1180,
+    "monster_name":"Tetsucabra",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Tetsucabra Tusks",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":1181,
+    "monster_name":"Tetsucabra",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Tetsucabra Shell",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":1182,
+    "monster_name":"Tetsucabra",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Tetsucabra Scale",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1183,
+    "monster_name":"Tetsucabra",
+    "rank":"Low",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":1184,
+    "monster_name":"Tetsucabra",
+    "rank":"Low",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1185,
+    "monster_name":"Tetsucabra",
+    "rank":"Low",
+    "method":"Break Back",
+    "item_name":"Tetsucabra Scale",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":1186,
+    "monster_name":"Tetsucabra",
+    "rank":"Low",
+    "method":"Break Back",
+    "item_name":"Tetsucabra Shell",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":1187,
+    "monster_name":"Tetsucabra",
+    "rank":"Low",
+    "method":"Break Jaw",
+    "item_name":"Tetsucabra Tusks",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":1188,
+    "monster_name":"Tetsucabra",
+    "rank":"Low",
+    "method":"Break Jaw",
+    "item_name":"Dignified Skull",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1189,
+    "monster_name":"Tetsucabra",
+    "rank":"Low",
+    "method":"Break Back Leg",
+    "item_name":"Tetsucabra Claw",
+    "quantity":1,
+    "percent":65
+  },
+  {
+    "dropID":1190,
+    "monster_name":"Tetsucabra",
+    "rank":"Low",
+    "method":"Break Back Leg",
+    "item_name":"Tetsucabra Scale",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1191,
+    "monster_name":"Tetsucabra",
+    "rank":"Low",
+    "method":"Break Back Leg",
+    "item_name":"Tetsucabra Shell",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1192,
+    "monster_name":"Tetsucabra",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Toad Tear",
+    "quantity":1,
+    "percent":38
+  },
+  {
+    "dropID":1193,
+    "monster_name":"Tetsucabra",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Large Toad Tear",
+    "quantity":1,
+    "percent":37
+  },
+  {
+    "dropID":1194,
+    "monster_name":"Tetsucabra",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Paddock Oil+",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1195,
+    "monster_name":"Tetsucabra",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Tetsucabra Scale+",
+    "quantity":1,
+    "percent":34
+  },
+  {
+    "dropID":1196,
+    "monster_name":"Tetsucabra",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Tetsucabra Carapace",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1197,
+    "monster_name":"Tetsucabra",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Tetsucabra Claw+",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":1198,
+    "monster_name":"Tetsucabra",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Dignified Skull",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":1199,
+    "monster_name":"Tetsucabra",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Stoutbone",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1200,
+    "monster_name":"Tetsucabra",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Paddock Oil+",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1201,
+    "monster_name":"Tetsucabra",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Stoutbone",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":1202,
+    "monster_name":"Tetsucabra",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Tetsucabra Claw+",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":1203,
+    "monster_name":"Tetsucabra",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Tetsucabra Carapace",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":1204,
+    "monster_name":"Tetsucabra",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Tetsucabra Tusks+",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":1205,
+    "monster_name":"Tetsucabra",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Tetsucabra Scale+",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1206,
+    "monster_name":"Tetsucabra",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Tetsucabra Claw",
+    "quantity":2,
+    "percent":7
+  },
+  {
+    "dropID":1207,
+    "monster_name":"Tetsucabra",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":1208,
+    "monster_name":"Tetsucabra",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":1209,
+    "monster_name":"Tetsucabra",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"Tetsucabra Scale+",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":1210,
+    "monster_name":"Tetsucabra",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"Tetsucabra Carapace",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":1211,
+    "monster_name":"Tetsucabra",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"Tetsucabra Shell",
+    "quantity":2,
+    "percent":15
+  },
+  {
+    "dropID":1212,
+    "monster_name":"Tetsucabra",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"Tetsucabra Scale",
+    "quantity":2,
+    "percent":15
+  },
+  {
+    "dropID":1213,
+    "monster_name":"Tetsucabra",
+    "rank":"High",
+    "method":"Break Jaw",
+    "item_name":"Tetsucabra Tusks+",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":1214,
+    "monster_name":"Tetsucabra",
+    "rank":"High",
+    "method":"Break Jaw",
+    "item_name":"Dignified Skull",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1215,
+    "monster_name":"Tetsucabra",
+    "rank":"High",
+    "method":"Break Jaw",
+    "item_name":"Tetsucabra Tusks",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1216,
+    "monster_name":"Tetsucabra",
+    "rank":"High",
+    "method":"Break Back Leg",
+    "item_name":"Tetsucabra Claw+",
+    "quantity":1,
+    "percent":65
+  },
+  {
+    "dropID":1217,
+    "monster_name":"Tetsucabra",
+    "rank":"High",
+    "method":"Break Back Leg",
+    "item_name":"Tetsucabra Scale+",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1218,
+    "monster_name":"Tetsucabra",
+    "rank":"High",
+    "method":"Break Back Leg",
+    "item_name":"Tetsucabra Carapace",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1219,
+    "monster_name":"Tetsucabra",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Toad Tear",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":1220,
+    "monster_name":"Tetsucabra",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Paddock Cream",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":1221,
+    "monster_name":"Tetsucabra",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Tetsucabra Shard",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1222,
+    "monster_name":"Tetsucabra",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Tetsucabra Shard",
+    "quantity":1,
+    "percent":34
+  },
+  {
+    "dropID":1223,
+    "monster_name":"Tetsucabra",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Tetsucabra Cortex",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1224,
+    "monster_name":"Tetsucabra",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Tetsucabra Hardclaw",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":1225,
+    "monster_name":"Tetsucabra",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Vicious Visage",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":1226,
+    "monster_name":"Tetsucabra",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Massive Bone",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1227,
+    "monster_name":"Tetsucabra",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Paddock Cream",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1228,
+    "monster_name":"Tetsucabra",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Massive Bone",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":1229,
+    "monster_name":"Tetsucabra",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Tetsucabra Hardclaw",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":1230,
+    "monster_name":"Tetsucabra",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Tetsucabra Gnawrl",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":1231,
+    "monster_name":"Tetsucabra",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Tetsucabra Cortex",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":1232,
+    "monster_name":"Tetsucabra",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Tetsucabra Shard",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1233,
+    "monster_name":"Tetsucabra",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Tetsucabra Claw+",
+    "quantity":2,
+    "percent":7
+  },
+  {
+    "dropID":1234,
+    "monster_name":"Tetsucabra",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":1235,
+    "monster_name":"Tetsucabra",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1236,
+    "monster_name":"Tetsucabra",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Tetsucabra Shard",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":1237,
+    "monster_name":"Tetsucabra",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Tetsucabra Cortex",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":1238,
+    "monster_name":"Tetsucabra",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Tetsucabra Carapace",
+    "quantity":2,
+    "percent":15
+  },
+  {
+    "dropID":1239,
+    "monster_name":"Tetsucabra",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Tetsucabra Scale+",
+    "quantity":2,
+    "percent":15
+  },
+  {
+    "dropID":1240,
+    "monster_name":"Tetsucabra",
+    "rank":"G",
+    "method":"Break Jaw",
+    "item_name":"Tetsucabra Gnawrl",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":1241,
+    "monster_name":"Tetsucabra",
+    "rank":"G",
+    "method":"Break Jaw",
+    "item_name":"Vicious Visage",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1242,
+    "monster_name":"Tetsucabra",
+    "rank":"G",
+    "method":"Break Jaw",
+    "item_name":"Tetsucabra Tusks+",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1243,
+    "monster_name":"Tetsucabra",
+    "rank":"G",
+    "method":"Break Back Leg",
+    "item_name":"Tetsucabra Hardclaw",
+    "quantity":1,
+    "percent":65
+  },
+  {
+    "dropID":1244,
+    "monster_name":"Tetsucabra",
+    "rank":"G",
+    "method":"Break Back Leg",
+    "item_name":"Tetsucabra Shard",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1245,
+    "monster_name":"Tetsucabra",
+    "rank":"G",
+    "method":"Break Back Leg",
+    "item_name":"Tetsucabra Cortex",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1246,
+    "monster_name":"Berserk Tetsucabra",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Toad Tear",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":1247,
+    "monster_name":"Berserk Tetsucabra",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Paddock Cream",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":1248,
+    "monster_name":"Berserk Tetsucabra",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"B.Tetsucabra Shard",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1249,
+    "monster_name":"Berserk Tetsucabra",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"B.Tetsucabra Shard",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":1250,
+    "monster_name":"Berserk Tetsucabra",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"B.Tetsucabra Cortex",
+    "quantity":1,
+    "percent":22
+  },
+  {
+    "dropID":1251,
+    "monster_name":"Berserk Tetsucabra",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"B.TetsucabraHardclaw",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":1252,
+    "monster_name":"Berserk Tetsucabra",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Vicious Visage",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":1253,
+    "monster_name":"Berserk Tetsucabra",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Massive Bone",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1254,
+    "monster_name":"Berserk Tetsucabra",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Paddock Cream",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1255,
+    "monster_name":"Berserk Tetsucabra",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"B.TetsucabraHardclaw",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1256,
+    "monster_name":"Berserk Tetsucabra",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Massive Bone",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1257,
+    "monster_name":"Berserk Tetsucabra",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"B.Tetsucabra Gnawrl",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":1258,
+    "monster_name":"Berserk Tetsucabra",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"B.Tetsucabra Cortex",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":1259,
+    "monster_name":"Berserk Tetsucabra",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"B.Tetsucabra Shard",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1260,
+    "monster_name":"Berserk Tetsucabra",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":1261,
+    "monster_name":"Berserk Tetsucabra",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1262,
+    "monster_name":"Berserk Tetsucabra",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":2,
+    "percent":25
+  },
+  {
+    "dropID":1263,
+    "monster_name":"Berserk Tetsucabra",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"B.Tetsucabra Shard",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":1264,
+    "monster_name":"Berserk Tetsucabra",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"B.Tetsucabra Cortex",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":1265,
+    "monster_name":"Berserk Tetsucabra",
+    "rank":"G",
+    "method":"Break Jaw",
+    "item_name":"B.Tetsucabra Gnawrl",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":1266,
+    "monster_name":"Berserk Tetsucabra",
+    "rank":"G",
+    "method":"Break Jaw",
+    "item_name":"Vicious Visage",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1267,
+    "monster_name":"Berserk Tetsucabra",
+    "rank":"G",
+    "method":"Break Back Leg",
+    "item_name":"B.TetsucabraHardclaw",
+    "quantity":1,
+    "percent":65
+  },
+  {
+    "dropID":1268,
+    "monster_name":"Berserk Tetsucabra",
+    "rank":"G",
+    "method":"Break Back Leg",
+    "item_name":"B.Tetsucabra Shard",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1269,
+    "monster_name":"Berserk Tetsucabra",
+    "rank":"G",
+    "method":"Break Back Leg",
+    "item_name":"B.Tetsucabra Cortex",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1270,
+    "monster_name":"Zamtrios",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Toad Tear",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":1271,
+    "monster_name":"Zamtrios",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Frost Sac",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":1272,
+    "monster_name":"Zamtrios",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Paddock Oil",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1273,
+    "monster_name":"Zamtrios",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Zamtrios Scale",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1274,
+    "monster_name":"Zamtrios",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Zamtrios Hide",
+    "quantity":1,
+    "percent":33
+  },
+  {
+    "dropID":1275,
+    "monster_name":"Zamtrios",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Zamtrios Scale",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1276,
+    "monster_name":"Zamtrios",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Frost Sac",
+    "quantity":1,
+    "percent":16
+  },
+  {
+    "dropID":1277,
+    "monster_name":"Zamtrios",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Zamtrios Fin",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1278,
+    "monster_name":"Zamtrios",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Zamtrios Sawtooth",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":1279,
+    "monster_name":"Zamtrios",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Zamtrios Tailblade",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":1280,
+    "monster_name":"Zamtrios",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Zamtrios Hide",
+    "quantity":1,
+    "percent":36
+  },
+  {
+    "dropID":1281,
+    "monster_name":"Zamtrios",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Frost Sac",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1282,
+    "monster_name":"Zamtrios",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Zamtrios Scale",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1283,
+    "monster_name":"Zamtrios",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Zamtrios Sawtooth",
+    "quantity":1,
+    "percent":14
+  },
+  {
+    "dropID":1284,
+    "monster_name":"Zamtrios",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Paddock Oil",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1285,
+    "monster_name":"Zamtrios",
+    "rank":"Low",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":1286,
+    "monster_name":"Zamtrios",
+    "rank":"Low",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1287,
+    "monster_name":"Zamtrios",
+    "rank":"Low",
+    "method":"Break Head",
+    "item_name":"Zamtrios Sawtooth",
+    "quantity":1,
+    "percent":100
+  },
+  {
+    "dropID":1288,
+    "monster_name":"Zamtrios",
+    "rank":"Low",
+    "method":"Break Tail",
+    "item_name":"Zamtrios Tailblade",
+    "quantity":1,
+    "percent":65
+  },
+  {
+    "dropID":1289,
+    "monster_name":"Zamtrios",
+    "rank":"Low",
+    "method":"Break Tail",
+    "item_name":"Zamtrios Scale",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":1290,
+    "monster_name":"Zamtrios",
+    "rank":"Low",
+    "method":"Break Tail",
+    "item_name":"Zamtrios Hide",
+    "quantity":1,
+    "percent":11
+  },
+  {
+    "dropID":1291,
+    "monster_name":"Zamtrios",
+    "rank":"Low",
+    "method":"Break Fin",
+    "item_name":"Zamtrios Fin",
+    "quantity":1,
+    "percent":65
+  },
+  {
+    "dropID":1292,
+    "monster_name":"Zamtrios",
+    "rank":"Low",
+    "method":"Break Fin",
+    "item_name":"Zamtrios Scale",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":1293,
+    "monster_name":"Zamtrios",
+    "rank":"Low",
+    "method":"Break Fin",
+    "item_name":"Zamtrios Hide",
+    "quantity":1,
+    "percent":11
+  },
+  {
+    "dropID":1294,
+    "monster_name":"Zamtrios",
+    "rank":"Low",
+    "method":"Shiny Drops (Breaking Ice)",
+    "item_name":"Ice Crystal",
+    "quantity":1,
+    "percent":85
+  },
+  {
+    "dropID":1295,
+    "monster_name":"Zamtrios",
+    "rank":"Low",
+    "method":"Shiny Drops (Breaking Ice)",
+    "item_name":"Paddock Oil",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1296,
+    "monster_name":"Zamtrios",
+    "rank":"Low",
+    "method":"Shiny Drops (Breaking Ice)",
+    "item_name":"Frost Sac",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":1297,
+    "monster_name":"Zamtrios",
+    "rank":"Low",
+    "method":"Break Front Leg",
+    "item_name":"Zamtrios Scale",
+    "quantity":1,
+    "percent":44
+  },
+  {
+    "dropID":1298,
+    "monster_name":"Zamtrios",
+    "rank":"Low",
+    "method":"Break Front Leg",
+    "item_name":"Zamtrios Fin",
+    "quantity":1,
+    "percent":32
+  },
+  {
+    "dropID":1299,
+    "monster_name":"Zamtrios",
+    "rank":"Low",
+    "method":"Break Front Leg",
+    "item_name":"Zamtrios Hide",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":1300,
+    "monster_name":"Zamtrios",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Toad Tear",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":1301,
+    "monster_name":"Zamtrios",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Paddock Oil",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1302,
+    "monster_name":"Zamtrios",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Paddock Oil+",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1303,
+    "monster_name":"Zamtrios",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Large Toad Tear",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":1304,
+    "monster_name":"Zamtrios",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Zamtrios Scale+",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":1305,
+    "monster_name":"Zamtrios",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Zamtrios Hide+",
+    "quantity":1,
+    "percent":33
+  },
+  {
+    "dropID":1306,
+    "monster_name":"Zamtrios",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Zamtrios Scale+",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1307,
+    "monster_name":"Zamtrios",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Freezer Sac",
+    "quantity":1,
+    "percent":16
+  },
+  {
+    "dropID":1308,
+    "monster_name":"Zamtrios",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Zamtrios Fin+",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1309,
+    "monster_name":"Zamtrios",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Zamtrios Sawtooth",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":1310,
+    "monster_name":"Zamtrios",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Zamtrios Tailblade",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":1311,
+    "monster_name":"Zamtrios",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Zamtrios Hide+",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":1312,
+    "monster_name":"Zamtrios",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Zamtrios Scale+",
+    "quantity":1,
+    "percent":22
+  },
+  {
+    "dropID":1313,
+    "monster_name":"Zamtrios",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Freezer Sac",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1314,
+    "monster_name":"Zamtrios",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Zamtrios Sawtooth",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":1315,
+    "monster_name":"Zamtrios",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Paddock Oil+",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1316,
+    "monster_name":"Zamtrios",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Zamtrios Fin+",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":1317,
+    "monster_name":"Zamtrios",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":1318,
+    "monster_name":"Zamtrios",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":1319,
+    "monster_name":"Zamtrios",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Zamtrios Sawtooth",
+    "quantity":1,
+    "percent":100
+  },
+  {
+    "dropID":1320,
+    "monster_name":"Zamtrios",
+    "rank":"High",
+    "method":"Break Tail",
+    "item_name":"Zamtrios Tailblade",
+    "quantity":1,
+    "percent":65
+  },
+  {
+    "dropID":1321,
+    "monster_name":"Zamtrios",
+    "rank":"High",
+    "method":"Break Tail",
+    "item_name":"Zamtrios Scale+",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":1322,
+    "monster_name":"Zamtrios",
+    "rank":"High",
+    "method":"Break Tail",
+    "item_name":"Zamtrios Hide+",
+    "quantity":1,
+    "percent":11
+  },
+  {
+    "dropID":1323,
+    "monster_name":"Zamtrios",
+    "rank":"High",
+    "method":"Break Fin",
+    "item_name":"Zamtrios Fin+",
+    "quantity":1,
+    "percent":65
+  },
+  {
+    "dropID":1324,
+    "monster_name":"Zamtrios",
+    "rank":"High",
+    "method":"Break Fin",
+    "item_name":"Zamtrios Scale+",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":1325,
+    "monster_name":"Zamtrios",
+    "rank":"High",
+    "method":"Break Fin",
+    "item_name":"Zamtrios Hide+",
+    "quantity":1,
+    "percent":11
+  },
+  {
+    "dropID":1326,
+    "monster_name":"Zamtrios",
+    "rank":"High",
+    "method":"Shiny Drops (Breaking Ice)",
+    "item_name":"Ice Crystal",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":1327,
+    "monster_name":"Zamtrios",
+    "rank":"High",
+    "method":"Shiny Drops (Breaking Ice)",
+    "item_name":"Paddock Oil",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1328,
+    "monster_name":"Zamtrios",
+    "rank":"High",
+    "method":"Shiny Drops (Breaking Ice)",
+    "item_name":"Frost Sac",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1329,
+    "monster_name":"Zamtrios",
+    "rank":"High",
+    "method":"Shiny Drops (Breaking Ice)",
+    "item_name":"Freezer Sac",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":1330,
+    "monster_name":"Zamtrios",
+    "rank":"High",
+    "method":"Break Front Leg",
+    "item_name":"Zamtrios Fin+",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":1331,
+    "monster_name":"Zamtrios",
+    "rank":"High",
+    "method":"Break Front Leg",
+    "item_name":"Zamtrios Scale+",
+    "quantity":1,
+    "percent":36
+  },
+  {
+    "dropID":1332,
+    "monster_name":"Zamtrios",
+    "rank":"High",
+    "method":"Break Front Leg",
+    "item_name":"Zamtrios Hide+",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":1333,
+    "monster_name":"Zamtrios",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Toad Tear",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":1334,
+    "monster_name":"Zamtrios",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Zamtrios Shard",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":1335,
+    "monster_name":"Zamtrios",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Paddock Cream",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1336,
+    "monster_name":"Zamtrios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Zamtrios Piel",
+    "quantity":1,
+    "percent":33
+  },
+  {
+    "dropID":1337,
+    "monster_name":"Zamtrios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Zamtrios Shard",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1338,
+    "monster_name":"Zamtrios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Cryo Sac",
+    "quantity":1,
+    "percent":16
+  },
+  {
+    "dropID":1339,
+    "monster_name":"Zamtrios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Zamtrios Grandfin",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1340,
+    "monster_name":"Zamtrios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Zamtrios Tailbrand",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":1341,
+    "monster_name":"Zamtrios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Zamtrios Sawtooth+",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":1342,
+    "monster_name":"Zamtrios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Zamtrios Piel",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":1343,
+    "monster_name":"Zamtrios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Zamtrios Shard",
+    "quantity":1,
+    "percent":22
+  },
+  {
+    "dropID":1344,
+    "monster_name":"Zamtrios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Cryo Sac",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1345,
+    "monster_name":"Zamtrios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Zamtrios Sawtooth+",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":1346,
+    "monster_name":"Zamtrios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Paddock Cream",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1347,
+    "monster_name":"Zamtrios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Zamtrios Grandfin",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":1348,
+    "monster_name":"Zamtrios",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":1349,
+    "monster_name":"Zamtrios",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1350,
+    "monster_name":"Zamtrios",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":2,
+    "percent":25
+  },
+  {
+    "dropID":1351,
+    "monster_name":"Zamtrios",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Zamtrios Sawtooth+",
+    "quantity":1,
+    "percent":100
+  },
+  {
+    "dropID":1352,
+    "monster_name":"Zamtrios",
+    "rank":"G",
+    "method":"Break Tail",
+    "item_name":"Zamtrios Tailbrand",
+    "quantity":1,
+    "percent":65
+  },
+  {
+    "dropID":1353,
+    "monster_name":"Zamtrios",
+    "rank":"G",
+    "method":"Break Tail",
+    "item_name":"Zamtrios Shard",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":1354,
+    "monster_name":"Zamtrios",
+    "rank":"G",
+    "method":"Break Tail",
+    "item_name":"Zamtrios Piel",
+    "quantity":1,
+    "percent":11
+  },
+  {
+    "dropID":1355,
+    "monster_name":"Zamtrios",
+    "rank":"G",
+    "method":"Break Fin",
+    "item_name":"Zamtrios Grandfin",
+    "quantity":1,
+    "percent":65
+  },
+  {
+    "dropID":1356,
+    "monster_name":"Zamtrios",
+    "rank":"G",
+    "method":"Break Fin",
+    "item_name":"Zamtrios Shard",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":1357,
+    "monster_name":"Zamtrios",
+    "rank":"G",
+    "method":"Break Fin",
+    "item_name":"Zamtrios Piel",
+    "quantity":1,
+    "percent":11
+  },
+  {
+    "dropID":1358,
+    "monster_name":"Zamtrios",
+    "rank":"G",
+    "method":"Shiny Drops (Breaking Ice)",
+    "item_name":"Ice Crystal",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":1359,
+    "monster_name":"Zamtrios",
+    "rank":"G",
+    "method":"Shiny Drops (Breaking Ice)",
+    "item_name":"Paddock Oil+",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1360,
+    "monster_name":"Zamtrios",
+    "rank":"G",
+    "method":"Shiny Drops (Breaking Ice)",
+    "item_name":"Freezer Sac",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1361,
+    "monster_name":"Zamtrios",
+    "rank":"G",
+    "method":"Shiny Drops (Breaking Ice)",
+    "item_name":"Cryo Sac",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":1362,
+    "monster_name":"Zamtrios",
+    "rank":"G",
+    "method":"Break Front Leg",
+    "item_name":"Zamtrios Grandfin",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":1363,
+    "monster_name":"Zamtrios",
+    "rank":"G",
+    "method":"Break Front Leg",
+    "item_name":"Zamtrios Shard",
+    "quantity":1,
+    "percent":36
+  },
+  {
+    "dropID":1364,
+    "monster_name":"Zamtrios",
+    "rank":"G",
+    "method":"Break Front Leg",
+    "item_name":"Zamtrios Piel",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":1365,
+    "monster_name":"Tigerstripe Zamtrios",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Toad Tear",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":1366,
+    "monster_name":"Tigerstripe Zamtrios",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"T.Zamtrios Shard",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":1367,
+    "monster_name":"Tigerstripe Zamtrios",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Paddock Cream",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1368,
+    "monster_name":"Tigerstripe Zamtrios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"T.Zamtrios Piel",
+    "quantity":1,
+    "percent":33
+  },
+  {
+    "dropID":1369,
+    "monster_name":"Tigerstripe Zamtrios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"T.Zamtrios Shard",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1370,
+    "monster_name":"Tigerstripe Zamtrios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Omniplegia Sac",
+    "quantity":1,
+    "percent":16
+  },
+  {
+    "dropID":1371,
+    "monster_name":"Tigerstripe Zamtrios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"T.Zamtrios Grandfin",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1372,
+    "monster_name":"Tigerstripe Zamtrios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"T.Zamtrios Tailbrand",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":1373,
+    "monster_name":"Tigerstripe Zamtrios",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"T.Zamtrios Sawtooth+",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":1374,
+    "monster_name":"Tigerstripe Zamtrios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"T.Zamtrios Piel",
+    "quantity":1,
+    "percent":36
+  },
+  {
+    "dropID":1375,
+    "monster_name":"Tigerstripe Zamtrios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"T.Zamtrios Shard",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1376,
+    "monster_name":"Tigerstripe Zamtrios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Omniplegia Sac",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1377,
+    "monster_name":"Tigerstripe Zamtrios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"T.Zamtrios Sawtooth+",
+    "quantity":1,
+    "percent":14
+  },
+  {
+    "dropID":1378,
+    "monster_name":"Tigerstripe Zamtrios",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Paddock Cream",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1379,
+    "monster_name":"Tigerstripe Zamtrios",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":1380,
+    "monster_name":"Tigerstripe Zamtrios",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1381,
+    "monster_name":"Tigerstripe Zamtrios",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":2,
+    "percent":25
+  },
+  {
+    "dropID":1382,
+    "monster_name":"Tigerstripe Zamtrios",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"T.Zamtrios Sawtooth+",
+    "quantity":1,
+    "percent":100
+  },
+  {
+    "dropID":1383,
+    "monster_name":"Tigerstripe Zamtrios",
+    "rank":"G",
+    "method":"Break Tail",
+    "item_name":"T.Zamtrios Tailbrand",
+    "quantity":1,
+    "percent":65
+  },
+  {
+    "dropID":1384,
+    "monster_name":"Tigerstripe Zamtrios",
+    "rank":"G",
+    "method":"Break Tail",
+    "item_name":"T.Zamtrios Shard",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":1385,
+    "monster_name":"Tigerstripe Zamtrios",
+    "rank":"G",
+    "method":"Break Tail",
+    "item_name":"T.Zamtrios Piel",
+    "quantity":1,
+    "percent":11
+  },
+  {
+    "dropID":1386,
+    "monster_name":"Tigerstripe Zamtrios",
+    "rank":"G",
+    "method":"Break Fin",
+    "item_name":"T.Zamtrios Grandfin",
+    "quantity":1,
+    "percent":65
+  },
+  {
+    "dropID":1387,
+    "monster_name":"Tigerstripe Zamtrios",
+    "rank":"G",
+    "method":"Break Fin",
+    "item_name":"T.Zamtrios Shard",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":1388,
+    "monster_name":"Tigerstripe Zamtrios",
+    "rank":"G",
+    "method":"Break Fin",
+    "item_name":"T.Zamtrios Piel",
+    "quantity":1,
+    "percent":11
+  },
+  {
+    "dropID":1389,
+    "monster_name":"Tigerstripe Zamtrios",
+    "rank":"G",
+    "method":"Break Front Leg",
+    "item_name":"T.Zamtrios Shard",
+    "quantity":1,
+    "percent":44
+  },
+  {
+    "dropID":1390,
+    "monster_name":"Tigerstripe Zamtrios",
+    "rank":"G",
+    "method":"Break Front Leg",
+    "item_name":"T.Zamtrios Grandfin",
+    "quantity":1,
+    "percent":32
+  },
+  {
+    "dropID":1391,
+    "monster_name":"Tigerstripe Zamtrios",
+    "rank":"G",
+    "method":"Break Front Leg",
+    "item_name":"T.Zamtrios Piel",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":1392,
+    "monster_name":"Najarala",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":65
+  },
+  {
+    "dropID":1393,
+    "monster_name":"Najarala",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Najarala Sounder",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1394,
+    "monster_name":"Najarala",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Chilling Beak",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":1395,
+    "monster_name":"Najarala",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Najarala Marrow",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":1396,
+    "monster_name":"Najarala",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Najarala Shell",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":1397,
+    "monster_name":"Najarala",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Najarala Fang",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":1398,
+    "monster_name":"Najarala",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Najarala Hide",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1399,
+    "monster_name":"Najarala",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Chilling Beak",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":1400,
+    "monster_name":"Najarala",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Najarala Fang",
+    "quantity":2,
+    "percent":28
+  },
+  {
+    "dropID":1401,
+    "monster_name":"Najarala",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Najarala Shell",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":1402,
+    "monster_name":"Najarala",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Najarala Sounder",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":1403,
+    "monster_name":"Najarala",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Najarala Hide",
+    "quantity":1,
+    "percent":13
+  },
+  {
+    "dropID":1404,
+    "monster_name":"Najarala",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Najarala Marrow",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1405,
+    "monster_name":"Najarala",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Paralysis Sac",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":1406,
+    "monster_name":"Najarala",
+    "rank":"Low",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":1407,
+    "monster_name":"Najarala",
+    "rank":"Low",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1408,
+    "monster_name":"Najarala",
+    "rank":"Low",
+    "method":"Break Head",
+    "item_name":"Najarala Fang",
+    "quantity":1,
+    "percent":92
+  },
+  {
+    "dropID":1409,
+    "monster_name":"Najarala",
+    "rank":"Low",
+    "method":"Break Head",
+    "item_name":"Chilling Beak",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":1410,
+    "monster_name":"Najarala",
+    "rank":"Low",
+    "method":"Break Tail",
+    "item_name":"Najarala Sounder",
+    "quantity":1,
+    "percent":58
+  },
+  {
+    "dropID":1411,
+    "monster_name":"Najarala",
+    "rank":"Low",
+    "method":"Break Tail",
+    "item_name":"Najarala Hide",
+    "quantity":1,
+    "percent":37
+  },
+  {
+    "dropID":1412,
+    "monster_name":"Najarala",
+    "rank":"Low",
+    "method":"Break Tail",
+    "item_name":"Najarala Marrow",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":1413,
+    "monster_name":"Najarala",
+    "rank":"Low",
+    "method":"Break Back",
+    "item_name":"Najarala Sounder",
+    "quantity":1,
+    "percent":58
+  },
+  {
+    "dropID":1414,
+    "monster_name":"Najarala",
+    "rank":"Low",
+    "method":"Break Back",
+    "item_name":"Najarala Shell",
+    "quantity":1,
+    "percent":39
+  },
+  {
+    "dropID":1415,
+    "monster_name":"Najarala",
+    "rank":"Low",
+    "method":"Break Back",
+    "item_name":"Chilling Beak",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":1416,
+    "monster_name":"Najarala",
+    "rank":"Low",
+    "method":"Break Back Leg",
+    "item_name":"Najarala Shell",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":1417,
+    "monster_name":"Najarala",
+    "rank":"Low",
+    "method":"Break Back Leg",
+    "item_name":"Najarala Hide",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":1418,
+    "monster_name":"Najarala",
+    "rank":"Low",
+    "method":"Break Back Leg",
+    "item_name":"Monster Bone L",
+    "quantity":2,
+    "percent":20
+  },
+  {
+    "dropID":1419,
+    "monster_name":"Najarala",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":48
+  },
+  {
+    "dropID":1420,
+    "monster_name":"Najarala",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":32
+  },
+  {
+    "dropID":1421,
+    "monster_name":"Najarala",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Chilling Beak",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":1422,
+    "monster_name":"Najarala",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Najarala Medulla",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":1423,
+    "monster_name":"Najarala",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Najarala Carapace",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":1424,
+    "monster_name":"Najarala",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Najarala Hide+",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1425,
+    "monster_name":"Najarala",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Najarala Fang",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1426,
+    "monster_name":"Najarala",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Chilling Beak",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1427,
+    "monster_name":"Najarala",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Najarala Carapace",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":1428,
+    "monster_name":"Najarala",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Najarala Sounder+",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":1429,
+    "monster_name":"Najarala",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Najarala Fang",
+    "quantity":2,
+    "percent":15
+  },
+  {
+    "dropID":1430,
+    "monster_name":"Najarala",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Najarala Hide+",
+    "quantity":1,
+    "percent":14
+  },
+  {
+    "dropID":1431,
+    "monster_name":"Najarala",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Najarala Marrow",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1432,
+    "monster_name":"Najarala",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Paralysis Sac",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":1433,
+    "monster_name":"Najarala",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Najarala Medulla",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":1434,
+    "monster_name":"Najarala",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Wyvern Gem",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":1435,
+    "monster_name":"Najarala",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":1436,
+    "monster_name":"Najarala",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":1437,
+    "monster_name":"Najarala",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Najarala Fang",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":1438,
+    "monster_name":"Najarala",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Najarala Fang",
+    "quantity":2,
+    "percent":28
+  },
+  {
+    "dropID":1439,
+    "monster_name":"Najarala",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Chilling Beak",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":1440,
+    "monster_name":"Najarala",
+    "rank":"High",
+    "method":"Break Tail",
+    "item_name":"Najarala Sounder+",
+    "quantity":1,
+    "percent":58
+  },
+  {
+    "dropID":1441,
+    "monster_name":"Najarala",
+    "rank":"High",
+    "method":"Break Tail",
+    "item_name":"Najarala Hide+",
+    "quantity":1,
+    "percent":37
+  },
+  {
+    "dropID":1442,
+    "monster_name":"Najarala",
+    "rank":"High",
+    "method":"Break Tail",
+    "item_name":"Najarala Medulla",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":1443,
+    "monster_name":"Najarala",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"Najarala Sounder+",
+    "quantity":1,
+    "percent":56
+  },
+  {
+    "dropID":1444,
+    "monster_name":"Najarala",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"Najarala Carapace",
+    "quantity":1,
+    "percent":36
+  },
+  {
+    "dropID":1445,
+    "monster_name":"Najarala",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"Chilling Beak",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":1446,
+    "monster_name":"Najarala",
+    "rank":"High",
+    "method":"Break Back Leg",
+    "item_name":"Najarala Carapace",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":1447,
+    "monster_name":"Najarala",
+    "rank":"High",
+    "method":"Break Back Leg",
+    "item_name":"Najarala Hide+",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":1448,
+    "monster_name":"Najarala",
+    "rank":"High",
+    "method":"Break Back Leg",
+    "item_name":"Monster Keenbone",
+    "quantity":2,
+    "percent":20
+  },
+  {
+    "dropID":1449,
+    "monster_name":"Najarala",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":1450,
+    "monster_name":"Najarala",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Najarala Ampsounder",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":1451,
+    "monster_name":"Najarala",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Heart-stopping Beak",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1452,
+    "monster_name":"Najarala",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Lrg Wyvern Gem",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":1453,
+    "monster_name":"Najarala",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Najarala Cortex",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":1454,
+    "monster_name":"Najarala",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Najarala Piel",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1455,
+    "monster_name":"Najarala",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Omniplegia Sac",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1456,
+    "monster_name":"Najarala",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Heart-stopping Beak",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1457,
+    "monster_name":"Najarala",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Najarala Cortex",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":1458,
+    "monster_name":"Najarala",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Najarala Piel",
+    "quantity":1,
+    "percent":16
+  },
+  {
+    "dropID":1459,
+    "monster_name":"Najarala",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Najarala Ampsounder",
+    "quantity":1,
+    "percent":16
+  },
+  {
+    "dropID":1460,
+    "monster_name":"Najarala",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Omniplegia Sac",
+    "quantity":2,
+    "percent":15
+  },
+  {
+    "dropID":1461,
+    "monster_name":"Najarala",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Chilling Beak",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":1462,
+    "monster_name":"Najarala",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Najarala Medulla",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1463,
+    "monster_name":"Najarala",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Lrg Wyvern Gem",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":1464,
+    "monster_name":"Najarala",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":1465,
+    "monster_name":"Najarala",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1466,
+    "monster_name":"Najarala",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":2,
+    "percent":25
+  },
+  {
+    "dropID":1467,
+    "monster_name":"Najarala",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Omniplegia Sac",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":1468,
+    "monster_name":"Najarala",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Chilling Beak",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":1469,
+    "monster_name":"Najarala",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Heart-stopping Beak",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":1470,
+    "monster_name":"Najarala",
+    "rank":"G",
+    "method":"Break Tail",
+    "item_name":"Najarala Ampsounder",
+    "quantity":1,
+    "percent":58
+  },
+  {
+    "dropID":1471,
+    "monster_name":"Najarala",
+    "rank":"G",
+    "method":"Break Tail",
+    "item_name":"Najarala Piel",
+    "quantity":1,
+    "percent":37
+  },
+  {
+    "dropID":1472,
+    "monster_name":"Najarala",
+    "rank":"G",
+    "method":"Break Tail",
+    "item_name":"Lrg Wyvern Gem",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":1473,
+    "monster_name":"Najarala",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Najarala Ampsounder",
+    "quantity":1,
+    "percent":56
+  },
+  {
+    "dropID":1474,
+    "monster_name":"Najarala",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Najarala Cortex",
+    "quantity":1,
+    "percent":36
+  },
+  {
+    "dropID":1475,
+    "monster_name":"Najarala",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Heart-stopping Beak",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":1476,
+    "monster_name":"Najarala",
+    "rank":"G",
+    "method":"Break Back Leg",
+    "item_name":"Najarala Cortex",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":1477,
+    "monster_name":"Najarala",
+    "rank":"G",
+    "method":"Break Back Leg",
+    "item_name":"Najarala Piel",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":1478,
+    "monster_name":"Najarala",
+    "rank":"G",
+    "method":"Break Back Leg",
+    "item_name":"Monster Slogbone",
+    "quantity":2,
+    "percent":20
+  },
+  {
+    "dropID":1479,
+    "monster_name":"Tidal Najarala",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":1480,
+    "monster_name":"Tidal Najarala",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"T.Najarala Splasher",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":1481,
+    "monster_name":"Tidal Najarala",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Heart-stopping Beak",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1482,
+    "monster_name":"Tidal Najarala",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Lrg Wyvern Gem",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":1483,
+    "monster_name":"Tidal Najarala",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"T.Najarala Cortex",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":1484,
+    "monster_name":"Tidal Najarala",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Flood Sac",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1485,
+    "monster_name":"Tidal Najarala",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"T.Najarala Piel",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":1486,
+    "monster_name":"Tidal Najarala",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Heart-stopping Beak",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1487,
+    "monster_name":"Tidal Najarala",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Flood Sac",
+    "quantity":2,
+    "percent":40
+  },
+  {
+    "dropID":1488,
+    "monster_name":"Tidal Najarala",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"T.Najarala Cortex",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1489,
+    "monster_name":"Tidal Najarala",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"T.Najarala Splasher",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":1490,
+    "monster_name":"Tidal Najarala",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"T.Najarala Piel",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":1491,
+    "monster_name":"Tidal Najarala",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Lrg Wyvern Gem",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":1492,
+    "monster_name":"Tidal Najarala",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":1493,
+    "monster_name":"Tidal Najarala",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1494,
+    "monster_name":"Tidal Najarala",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":2,
+    "percent":25
+  },
+  {
+    "dropID":1495,
+    "monster_name":"Tidal Najarala",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Flood Sac",
+    "quantity":1,
+    "percent":88
+  },
+  {
+    "dropID":1496,
+    "monster_name":"Tidal Najarala",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Heart-stopping Beak",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":1497,
+    "monster_name":"Tidal Najarala",
+    "rank":"G",
+    "method":"Break Tail",
+    "item_name":"T.Najarala Splasher",
+    "quantity":1,
+    "percent":58
+  },
+  {
+    "dropID":1498,
+    "monster_name":"Tidal Najarala",
+    "rank":"G",
+    "method":"Break Tail",
+    "item_name":"T.Najarala Piel",
+    "quantity":1,
+    "percent":37
+  },
+  {
+    "dropID":1499,
+    "monster_name":"Tidal Najarala",
+    "rank":"G",
+    "method":"Break Tail",
+    "item_name":"Lrg Wyvern Gem",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":1500,
+    "monster_name":"Tidal Najarala",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"T.Najarala Splasher",
+    "quantity":1,
+    "percent":56
+  },
+  {
+    "dropID":1501,
+    "monster_name":"Tidal Najarala",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"T.Najarala Cortex",
+    "quantity":1,
+    "percent":36
+  },
+  {
+    "dropID":1502,
+    "monster_name":"Tidal Najarala",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Heart-stopping Beak",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":1503,
+    "monster_name":"Tidal Najarala",
+    "rank":"G",
+    "method":"Break Back Leg",
+    "item_name":"T.Najarala Cortex",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":1504,
+    "monster_name":"Tidal Najarala",
+    "rank":"G",
+    "method":"Break Back Leg",
+    "item_name":"T.Najarala Piel",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":1505,
+    "monster_name":"Tidal Najarala",
+    "rank":"G",
+    "method":"Break Back Leg",
+    "item_name":"Monster Slogbone",
+    "quantity":2,
+    "percent":20
+  },
+  {
+    "dropID":1506,
+    "monster_name":"Apex Tidal Najarala",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":1507,
+    "monster_name":"Apex Tidal Najarala",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"T.Najarala Splasher",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1508,
+    "monster_name":"Apex Tidal Najarala",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Heart-stopping Beak",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":1509,
+    "monster_name":"Apex Tidal Najarala",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Lrg Wyvern Gem",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":1510,
+    "monster_name":"Apex Tidal Najarala",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"T.Najarala Cortex",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":1511,
+    "monster_name":"Apex Tidal Najarala",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"T.Najarala Piel",
+    "quantity":1,
+    "percent":26
+  },
+  {
+    "dropID":1512,
+    "monster_name":"Apex Tidal Najarala",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Flood Sac",
+    "quantity":1,
+    "percent":17
+  },
+  {
+    "dropID":1513,
+    "monster_name":"Apex Tidal Najarala",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Heart-stopping Beak",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":1514,
+    "monster_name":"Apex Tidal Najarala",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Flood Sac",
+    "quantity":2,
+    "percent":37
+  },
+  {
+    "dropID":1515,
+    "monster_name":"Apex Tidal Najarala",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"T.Najarala Cortex",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":1516,
+    "monster_name":"Apex Tidal Najarala",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"T.Najarala Splasher",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":1517,
+    "monster_name":"Apex Tidal Najarala",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"T.Najarala Piel",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":1518,
+    "monster_name":"Apex Tidal Najarala",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Lrg Wyvern Gem",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":1519,
+    "monster_name":"Apex Tidal Najarala",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Zenith Wyvern Gem",
+    "quantity":1,
+    "percent":85
+  },
+  {
+    "dropID":1520,
+    "monster_name":"Apex Tidal Najarala",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Zenith Wyvern Gem L",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":1521,
+    "monster_name":"Apex Tidal Najarala",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Flood Sac",
+    "quantity":1,
+    "percent":85
+  },
+  {
+    "dropID":1522,
+    "monster_name":"Apex Tidal Najarala",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Heart-stopping Beak",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":1523,
+    "monster_name":"Apex Tidal Najarala",
+    "rank":"G",
+    "method":"Break Tail",
+    "item_name":"T.Najarala Splasher",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":1524,
+    "monster_name":"Apex Tidal Najarala",
+    "rank":"G",
+    "method":"Break Tail",
+    "item_name":"T.Najarala Piel",
+    "quantity":1,
+    "percent":37
+  },
+  {
+    "dropID":1525,
+    "monster_name":"Apex Tidal Najarala",
+    "rank":"G",
+    "method":"Break Tail",
+    "item_name":"Lrg Wyvern Gem",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":1526,
+    "monster_name":"Apex Tidal Najarala",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"T.Najarala Splasher",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":1527,
+    "monster_name":"Apex Tidal Najarala",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"T.Najarala Cortex",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":1528,
+    "monster_name":"Apex Tidal Najarala",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Heart-stopping Beak",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":1529,
+    "monster_name":"Apex Tidal Najarala",
+    "rank":"G",
+    "method":"Break Back Leg",
+    "item_name":"T.Najarala Cortex",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":1530,
+    "monster_name":"Apex Tidal Najarala",
+    "rank":"G",
+    "method":"Break Back Leg",
+    "item_name":"T.Najarala Piel",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":1531,
+    "monster_name":"Apex Tidal Najarala",
+    "rank":"G",
+    "method":"Break Back Leg",
+    "item_name":"Monster Slogbone",
+    "quantity":2,
+    "percent":20
+  }
+]
