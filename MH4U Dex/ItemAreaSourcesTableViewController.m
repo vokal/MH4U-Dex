@@ -8,16 +8,16 @@
 
 #import "ItemAreaSourcesTableViewController.h"
 
-#import "RegionEncyclopediaCollectionViewController.h"
-
-#import "Item.h"
-#import "Area.h"
-#import "AreaDrop.h"
-
-#import "ItemAreaSourceTableViewCell.h"
-
 #import <CoreData/CoreData.h>
 
+#import "RegionContainerViewController.h"
+
+#import "Area.h"
+#import "AreaDrop.h"
+#import "Item.h"
+#import "Region.h"
+
+#import "ItemAreaSourceTableViewCell.h"
 
 @interface ItemAreaSourcesTableViewController ()
 
@@ -33,16 +33,12 @@
     
     NSError *fetchError = nil;
     NSFetchRequest *itemFetchRequest = [[NSFetchRequest alloc] initWithEntityName:[Item entityName]];
-    NSPredicate *itemPredicate = [NSPredicate predicateWithFormat:@"%K == %@", @"name", self.itemName];
-    [itemFetchRequest setPredicate:itemPredicate];
+    itemFetchRequest.predicate = [NSPredicate predicateWithFormat:@"%K == %@", ItemAttributes.name, self.itemName];
     Item *item = (Item *)[self.managedObjectContext executeFetchRequest:itemFetchRequest error:&fetchError].firstObject;
     
     NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:[AreaDrop entityName]];
-    NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:@"idDecimalString" ascending:YES];
-    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"%K == %@", AreaDropRelationships.item, item];
-    [fetchRequest setPredicate:predicate];
-    [fetchRequest setSortDescriptors:@[sortDescriptor]];
-    
+    fetchRequest.predicate = [NSPredicate predicateWithFormat:@"%K == %@", AreaDropRelationships.item, item];
+    fetchRequest.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:AreaDropAttributes.idDecimalString ascending:YES]];
     self.sources = [self.managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];
     // If the fetch failed (most likely because the item cannot be found from any areas) ...
     if (!self.sources) {
@@ -70,20 +66,23 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     ItemAreaSourceTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([ItemAreaSourceTableViewCell class]) forIndexPath:indexPath];
-    AreaDrop *drop = self.sources[indexPath.row];
-    cell.method = drop.method;
-    cell.sourceName = drop.area.combinedName;
-    [cell displayContents];
+    [cell displayContentsWithAreaDrop:self.sources[indexPath.row]];
     return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    // ToDo: chage to specific area/region once area/region views are in.
     UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    RegionEncyclopediaCollectionViewController *regionVC = [storyBoard instantiateViewControllerWithIdentifier:@"RegionEncyclopediaCollectionViewController"];
-    regionVC.managedObjectContext = self.managedObjectContext;
+    RegionContainerViewController *regionVC = [storyBoard instantiateViewControllerWithIdentifier:@"RegionContainerViewController"];
+    regionVC.region = [self dropAtIndexPath:indexPath].area.region;
     [self.navigationController pushViewController:regionVC animated:YES];
+}
+
+#pragma mark - Helper Methods
+
+- (AreaDrop *)dropAtIndexPath:(NSIndexPath *)indexPath
+{
+    return self.sources[indexPath.row];
 }
 
 @end

@@ -1,45 +1,49 @@
 //
-//  MonsterLowRankTableViewController.m
+//  MonsterItemTableViewController.m
 //  MH4U Dex
 //
 //  Created by Joseph Goldberg on 2/9/15.
 //  Copyright (c) 2015 Joseph Goldberg. All rights reserved.
 //
 
-#import "MonsterLowRankTableViewController.h"
+#import "MonsterItemTableViewController.h"
+
+#import <CoreData/CoreData.h>
+
+#import "ItemContainerViewController.h"
 #import "MonsterEncyclopediaViewController.h"
+
+#import "Item.h"
 #import "Monster.h"
 #import "MonsterDrop.h"
-#import <CoreData/CoreData.h>
-#import "Item.h"
-#import "DropTableViewCell.h"
-#import "ItemContainerViewController.h"
 
-@interface MonsterLowRankTableViewController ()
+#import "DropTableViewCell.h"
+
+@interface MonsterItemTableViewController ()
 
 @property (nonatomic, strong) NSArray *drops;
 
 @end
 
-@implementation MonsterLowRankTableViewController
+@implementation MonsterItemTableViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     NSError *fetchError = nil;
     NSFetchRequest *monsterFetchRequest = [[NSFetchRequest alloc] initWithEntityName:[Monster entityName]];
-    NSPredicate *monsterPredicate = [NSPredicate predicateWithFormat:@"%K == %@", @"name", self.monster];
-    [monsterFetchRequest setPredicate:monsterPredicate];
+    monsterFetchRequest.predicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterAttributes.name, self.monsterName];
     Monster *monster = (Monster *)[self.managedObjectContext executeFetchRequest:monsterFetchRequest error:&fetchError].firstObject;
     
     NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:[MonsterDrop entityName]];
-    NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:@"method" ascending:YES];
-    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterDropRelationships.monsterSource, monster];
-    [fetchRequest setPredicate:predicate];
-    [fetchRequest setSortDescriptors:@[sortDescriptor]];
+    NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:MonsterDropAttributes.method ascending:YES];
+    NSPredicate *dropPredicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterDropRelationships.monsterSource, monster];
+    NSPredicate *rankPredicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterDropAttributes.rank, self.rank ?: @"Low"];
+    NSCompoundPredicate *compoundPredicate = [NSCompoundPredicate andPredicateWithSubpredicates:@[dropPredicate, rankPredicate]];
+    fetchRequest.predicate = compoundPredicate;
+    fetchRequest.sortDescriptors = @[sortDescriptor];
     
     self.drops = [self.managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];
-    NSLog(@"Loaded drops!");
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
@@ -53,14 +57,8 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    MonsterDrop *drop = self.drops[indexPath.row];
     DropTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"DropTableViewCell"];
-    Item *item = [drop valueForKey:MonsterDropRelationships.item];
-    cell.percent = drop.percentValue;
-    cell.quantity = drop.quantityValue;
-    cell.itemName = item.name;
-    cell.method = drop.method;
-    [cell displayContents];
+    [cell displayContentsOfMonsterDrop:self.drops[indexPath.row]];
     return cell;
 }
 

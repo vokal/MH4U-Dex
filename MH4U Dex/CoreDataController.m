@@ -7,14 +7,18 @@
 //
 
 #import "CoreDataController.h"
+
 #import <NSManagedObjectContext+Hydrate.h>
-#import "MonsterDrop.h"
+
+#import "Area.h"
 #import "AreaDrop.h"
+#import "DamageZone.h"
 #import "Item.h"
 #import "Monster.h"
-#import "DamageZone.h"
+#import "MonsterDrop.h"
+#import "Quest.h"
+#import "QuestDrop.h"
 #import "Region.h"
-#import "Area.h"
 
 @interface CoreDataController ()
 
@@ -26,53 +30,86 @@
 
 @implementation CoreDataController
 
-NSString *const JSON = @"json";
+static NSString *const JSON = @"json";
+static NSString *const TrueString = @"TRUE";
 
 #pragma mark - Item Constants
 
-NSString *const ItemNameKey = @"name";
+static NSString *const ItemNameKey = @"name";
 
 #pragma mark - Monster Constants
 
-NSString *const MonsterIDKey = @"id";
-NSString *const MonstersFileName = @"monsters";
-NSString *const MonsterDamageZonesFileName = @"damageZones";
+static NSString *const MonsterIDKey = @"id";
+static NSString *const MonstersFileName = @"monsters";
+static NSString *const MonsterDamageZonesFileName = @"damageZones";
 
 #pragma mark - Area Constants
 
-NSString *const AreaCombinedNameKey = @"combinedName";
+static NSString *const AreaCombinedNameKey = @"combinedName";
 
 #pragma mark - Region Constants
 
-NSString *const RegionsFileName = @"regions";
-NSString *const RegionIDJSONKey = @"_id";
-NSString *const RegionIDKey = @"id";
-NSString *const RegionNameKey = @"region_name";
-NSString *const RegionKeyNameKey = @"keyName";
-NSString *const RegionDropsFileNameSuffix = @"_drops";
+static NSString *const RegionsFileName = @"regions";
+static NSString *const RegionIDJSONKey = @"_id";
+static NSString *const RegionNameKey = @"region_name";
+static NSString *const RegionKeyNameKey = @"keyName";
+static NSString *const RegionDropsFileNameSuffix = @"_drops";
+
+#pragma mark - Quest Constants
+
+static NSString *const QuestsFileName = @"quests";
+static NSString *const QuestIDKey = @"unique_id";
+static NSString *const QuestNameKey = @"name";
+static NSString *const QuestCaravanHallKey = @"caravan/hall";
+static NSString *const QuestDangerKey = @"danger";
+static NSString *const QuestFeeKey = @"fee";
+static NSString *const QuestHRPKey = @"hrp";
+static NSString *const QuestMapKeyNameKey = @"map";
+static NSString *const QuestKeyIndicatorKey = @"key";
+static NSString *const QuestObjectiveKey = @"objective";
+static NSString *const QuestRewardKey = @"reward";
+static NSString *const QuestStarsKey = @"stars";
+static NSString *const QuestSubQuestObjectiveKey = @"subquest";
+static NSString *const QuestFirstMonsterKey = @"target";
+static NSString *const QuestSecondMonsterKey = @"second_target";
+static NSString *const QuestThirdMonsterKey = @"third_target";
+static NSString *const QuestFourthMonsterKey = @"fourth_target";
+static NSString *const QuestTypeKey = @"type";
+static NSString *const QuestUrgentKey = @"urgent";
+static NSString *const QuestCaravanKey = @"caravan";
+static NSString *const QuestNoneString = @"None";
+
+#pragma mark - Quest Drop Constants
+
+static NSString *const QuestDropsFileName = @"quest_drops";
+static NSString *const QuestDropIDKey = @"dropID";
+static NSString *const QuestDropQuestIDKey = @"questID";
+static NSString *const QuestDropRowKey = @"row";
+static NSString *const QuestDropItemNameKey = @"item";
+static NSString *const QuestDropQuantityKey = @"quantity";
+static NSString *const QuestDropPercentKey = @"percent";
 
 #pragma mark - Monster Drop Constants
 
-NSString *const MonsterDropsFileName = @"monsterDrops";
-NSString *const MonsterDropIDKey = @"id";
-NSString *const MonsterDropMethodKey = @"method";
-NSString *const MonsterDropQuantityKey = @"quantity";
-NSString *const MonsterDropRankKey = @"rank";
-NSString *const MonsterDropPercentKey = @"percent";
-NSString *const MonsterDropMonsterNameKey = @"monster_name";
-NSString *const MonsterDropMonsterIDKey = @"monster_id";
-NSString *const MonsterDropItemNameKey = @"item_name";
+static NSString *const MonsterDropsFileName = @"monsterDrops";
+static NSString *const MonsterDropIDKey = @"id";
+static NSString *const MonsterDropMethodKey = @"method";
+static NSString *const MonsterDropQuantityKey = @"quantity";
+static NSString *const MonsterDropRankKey = @"rank";
+static NSString *const MonsterDropPercentKey = @"percent";
+static NSString *const MonsterDropMonsterNameKey = @"monster_name";
+static NSString *const MonsterDropMonsterIDKey = @"monster_id";
+static NSString *const MonsterDropItemNameKey = @"item_name";
 
 #pragma mark - Area Drop Constants
 
-NSString *const AreaDropAreaNameKey = @"area";
-NSString *const AreaDropRankKey = @"rank";
-NSString *const AreaDropIDKey = @"_id";
-NSString *const AreaDropMethodKey = @"method";
-NSString *const AreaDropPercentKey = @"chance";
-NSString *const AreaDropQuantityKey = @"number";
-NSString *const AreaDropItemNameKey = @"item";
-NSString *const AreaDropIDDecimalStringKey = @"idDecimalString";
+static NSString *const AreaDropAreaNameKey = @"area";
+static NSString *const AreaDropRankKey = @"rank";
+static NSString *const AreaDropIDKey = @"_id";
+static NSString *const AreaDropMethodKey = @"method";
+static NSString *const AreaDropPercentKey = @"chance";
+static NSString *const AreaDropQuantityKey = @"number";
+static NSString *const AreaDropItemNameKey = @"item";
 
 #pragma mark - Singleton Method
 
@@ -93,33 +130,33 @@ NSString *const AreaDropIDDecimalStringKey = @"idDecimalString";
     // Because monsters are added first, there are no relationships to set up, so we can hydrate them.
     NSString *path = [[NSBundle mainBundle] pathForResource:MonstersFileName ofType:JSON];
     NSDictionary *attributes = @{
-                                 @"id":@"_id",
-                                 @"monster_class":@"class",
-                                 @"name":@"name",
-                                 @"jpn_name":@"jpn_name",
-                                 @"sort_name":@"sort_name",
-                                 @"trait":@"trait",
-                                 @"icon":@"icon_name",
-                                 @"url":@"url"
+                                 MonsterAttributes.id: @"_id",
+                                 MonsterAttributes.monster_class: @"class",
+                                 MonsterAttributes.name: @"name",
+                                 MonsterAttributes.jpn_name: @"jpn_name",
+                                 MonsterAttributes.sort_name: @"sort_name",
+                                 MonsterAttributes.trait: @"trait",
+                                 MonsterAttributes.icon: @"icon_name",
+                                 MonsterAttributes.url: @"url",
                                  };
     [self.managedObjectContext hydrateStoreWithJSONAtPath:path attributeMappings:attributes forEntityName:[Monster entityName]];
     path = [[NSBundle mainBundle] pathForResource:MonsterDamageZonesFileName ofType:JSON];
     attributes = @{
-                   @"id":@"_id",
-                   @"monster_id":@"monster_id",
-                   @"monsterName":@"monster_name",
-                   @"jpnMonsterName":@"jpn_monster_name",
-                   @"bodyPart":@"body_part",
-                   @"cut":@"cut",
-                   @"impact":@"impact",
-                   @"shot":@"shot",
-                   @"fire":@"fire",
-                   @"water":@"water",
-                   @"thunder":@"thunder",
-                   @"ice":@"ice",
-                   @"dragon":@"dragon",
-                   @"ko":@"ko",
-                   @"extract":@"extract"
+                   DamageZoneAttributes.id: @"_id",
+                   DamageZoneAttributes.monsterID: @"monster_id",
+                   DamageZoneAttributes.monsterName: @"monster_name",
+                   DamageZoneAttributes.jpnMonsterName: @"jpn_monster_name",
+                   DamageZoneAttributes.bodyPart: @"body_part",
+                   DamageZoneAttributes.cut: @"cut",
+                   DamageZoneAttributes.impact: @"impact",
+                   DamageZoneAttributes.shot: @"shot",
+                   DamageZoneAttributes.fire: @"fire",
+                   DamageZoneAttributes.water: @"water",
+                   DamageZoneAttributes.thunder: @"thunder",
+                   DamageZoneAttributes.ice: @"ice",
+                   DamageZoneAttributes.dragon: @"dragon",
+                   DamageZoneAttributes.ko: @"ko",
+                   DamageZoneAttributes.extract: @"extract",
                    };
     [self.managedObjectContext hydrateStoreWithJSONAtPath:path attributeMappings:attributes forEntityName:[DamageZone entityName]];
 }
@@ -130,7 +167,7 @@ NSString *const AreaDropIDDecimalStringKey = @"idDecimalString";
     for (NSDictionary *drop in dropList) {
         // Only add the drop if it is not already there
         NSNumber *monsterDropID = drop[MonsterDropIDKey];
-        NSPredicate *monsterDropPredicate = [NSPredicate predicateWithFormat:@"%K == %d", MonsterDropIDKey, monsterDropID.intValue];
+        NSPredicate *monsterDropPredicate = [NSPredicate predicateWithFormat:@"%K == %d", MonsterAttributes.id, monsterDropID.intValue];
         if (![self countForEntityWithEntityName:[MonsterDrop entityName] withPredicate:monsterDropPredicate]) {
             MonsterDrop *newDrop = [MonsterDrop insertInManagedObjectContext:self.managedObjectContext];
             newDrop.id = drop[MonsterDropIDKey];
@@ -138,18 +175,13 @@ NSString *const AreaDropIDDecimalStringKey = @"idDecimalString";
             newDrop.quantity = drop[MonsterDropQuantityKey];
             
             // If the Item for this drop already exists in the persistent store ...
-            NSPredicate *itemPredicate = [NSPredicate predicateWithFormat:@"%K == %@", ItemNameKey, drop[MonsterDropItemNameKey]];
-            Item *item = (Item *)[self getUniqueEntityWithEntityName:[Item entityName] withPredicate:itemPredicate];
-            if (item) {
-                // We need to hook up relationships appropriately.
-                newDrop.item = item;
-            } else {
-                // Otherwise, we should create the item.
-                Item *newItem = [Item insertInManagedObjectContext:self.managedObjectContext];
-                newItem.name = drop[MonsterDropItemNameKey];
-                newDrop.item = newItem;
+            NSPredicate *itemPredicate = [NSPredicate predicateWithFormat:@"%K == %@", ItemAttributes.name, drop[MonsterDropItemNameKey]];
+            Item *item = (Item *)[self uniqueEntityWithEntityName:[Item entityName] withPredicate:itemPredicate];
+            if (!item) {
+                item = [Item insertInManagedObjectContext:self.managedObjectContext];
+                item.name = drop[MonsterDropItemNameKey];
             }
-            
+            newDrop.item = item;
             // If this is a monster drop ...
             NSString *monsterName = drop[MonsterDropMonsterNameKey];
             if (monsterName.length) {
@@ -157,8 +189,8 @@ NSString *const AreaDropIDDecimalStringKey = @"idDecimalString";
                 
                 // First we should ensure that the monster already exists in the persistent store
                 NSNumber *monsterID = drop[MonsterDropMonsterIDKey];
-                NSPredicate *monsterPredicate = [NSPredicate predicateWithFormat:@"%K == %d", MonsterIDKey, monsterID.intValue];
-                Monster *monster = (Monster *)[self getUniqueEntityWithEntityName:[Monster entityName] withPredicate:monsterPredicate];
+                NSPredicate *monsterPredicate = [NSPredicate predicateWithFormat:@"%K == %d", MonsterAttributes.id, monsterID.intValue];
+                Monster *monster = (Monster *)[self uniqueEntityWithEntityName:[Monster entityName] withPredicate:monsterPredicate];
                 if (!monster) {
                     // TODO: Handle better, later.
                     NSLog(@"The Monster, %@, was not found!", monsterName);
@@ -177,6 +209,50 @@ NSString *const AreaDropIDDecimalStringKey = @"idDecimalString";
     }
 }
 
+- (void)loadQuestData
+{
+    NSArray *questList = [self loadArrayFromJsonFileNamed:QuestsFileName];
+    
+    for (NSDictionary *questDict in questList) {
+        Quest *quest;
+        NSNumber *questID = questDict[QuestIDKey];
+        NSPredicate *questPredicate = [NSPredicate predicateWithFormat:@"%K == %@", QuestAttributes.id, questID];
+        quest = (Quest *)[self uniqueEntityWithEntityName:[Quest entityName] withPredicate:questPredicate];
+        //Only add the quest if it is not already there
+        if (!quest) {
+            // Quests have a lot of information to populate, so I'm moving this to a helper method to cut down on the size of this method.
+            quest = [self questFromDictionary:questDict];
+        }
+    }
+    if (![self attemptSaveContext]) {
+        NSLog(@"WARNING: Failed to save the item context!");
+    }
+}
+
+- (void)loadQuestDropData
+{
+    NSArray *questDropList = [self loadArrayFromJsonFileNamed:QuestDropsFileName];
+    
+    for (NSDictionary *dropDict in questDropList) {
+        NSNumber *dropID = dropDict[QuestDropIDKey];
+        NSPredicate *dropPredicate = [NSPredicate predicateWithFormat:@"%K == %@", QuestDropAttributes.id, dropID];
+        QuestDrop *drop = (QuestDrop *)[self uniqueEntityWithEntityName:[QuestDrop entityName] withPredicate:dropPredicate];
+        if (!drop) {
+            //Returns nil if the quest corresponding to this drop does not exist.
+            drop = [self questDropFromDictionary:dropDict];
+            if (!drop) {
+                //If we reach this point, then the quest that this drop belongs to did not exist, and we should return without saving the context;
+                //TODO: Better way to handle this?  Though this never SHOULD happen.
+                return;
+            }
+        }
+    }
+    
+    if (![self attemptSaveContext]) {
+        NSLog(@"WARNING: Failed to save the item context!");
+    }
+}
+
 - (void)loadRegionData
 {
     NSArray *regionList = [self loadArrayFromJsonFileNamed:RegionsFileName];
@@ -184,8 +260,8 @@ NSString *const AreaDropIDDecimalStringKey = @"idDecimalString";
     for (NSDictionary *regionDict in regionList) {
         Region *region;
         NSNumber *regionID = regionDict[RegionIDJSONKey];
-        NSPredicate *regionPredicate = [NSPredicate predicateWithFormat:@"%K == %d", RegionIDKey, regionID.intValue];
-        region = (Region *)[self getUniqueEntityWithEntityName:[Region entityName] withPredicate:regionPredicate];
+        NSPredicate *regionPredicate = [NSPredicate predicateWithFormat:@"%K == %d", RegionAttributes.id, regionID.intValue];
+        region = (Region *)[self uniqueEntityWithEntityName:[Region entityName] withPredicate:regionPredicate];
         // Only add the region if it is not already there
         if (!region) {
             region = [Region insertInManagedObjectContext:self.managedObjectContext];
@@ -195,7 +271,7 @@ NSString *const AreaDropIDDecimalStringKey = @"idDecimalString";
         }
         // regardless if the region is new or not, we should populate it with area data
         // But first, we need to check that the region file exists
-        NSArray *areaDrops = [self loadArrayFromJsonFileNamed:[NSString stringWithFormat:@"%@%@", region.keyName, RegionDropsFileNameSuffix]];
+        NSArray *areaDrops = [self loadArrayFromJsonFileNamed:[region.keyName stringByAppendingString:RegionDropsFileNameSuffix]];
         // If the file actually exists...
         if (areaDrops) {
             // ... go through the file, and construct areas/drops as appropriate
@@ -219,8 +295,8 @@ NSString *const AreaDropIDDecimalStringKey = @"idDecimalString";
                                   region.name,
                                   areaDropDict[AreaDropAreaNameKey],
                                   areaDropDict[AreaDropRankKey]];
-    NSPredicate *areaPredicate = [NSPredicate predicateWithFormat:@"%K == %@", AreaCombinedNameKey, areaCombinedName];
-    Area *area = (Area *)[self getUniqueEntityWithEntityName:[Area entityName] withPredicate:areaPredicate];
+    NSPredicate *areaPredicate = [NSPredicate predicateWithFormat:@"%K == %@", AreaAttributes.combinedName, areaCombinedName];
+    Area *area = (Area *)[self uniqueEntityWithEntityName:[Area entityName] withPredicate:areaPredicate];
     // If the area doesn't already exist...
     if (!area) {
         // ... We need to create it, and add it to this region
@@ -236,8 +312,8 @@ NSString *const AreaDropIDDecimalStringKey = @"idDecimalString";
     // We should now consider adding this drop to the area.
     // First, check if the area drop already exists, by way of checking the idDecimalString
     NSString *idDecimalString = areaDropDict[AreaDropIDKey];
-    NSPredicate *areaDropPredicate = [NSPredicate predicateWithFormat:@"%K == %@", AreaDropIDDecimalStringKey, idDecimalString];
-    AreaDrop *drop = (AreaDrop *)[self getUniqueEntityWithEntityName:[AreaDrop entityName] withPredicate:areaDropPredicate];
+    NSPredicate *areaDropPredicate = [NSPredicate predicateWithFormat:@"%K == %@", AreaDropAttributes.idDecimalString, idDecimalString];
+    AreaDrop *drop = (AreaDrop *)[self uniqueEntityWithEntityName:[AreaDrop entityName] withPredicate:areaDropPredicate];
     //If the drop already exists...
     if (drop) {
         // TODO: do we need to do more here?
@@ -259,14 +335,13 @@ NSString *const AreaDropIDDecimalStringKey = @"idDecimalString";
         
         // Time to hook up the item relationship.  The item may or may not already exist.
         NSString *itemName = areaDropDict[AreaDropItemNameKey];
-        NSPredicate *itemPredicate = [NSPredicate predicateWithFormat:@"%K == %@", ItemNameKey, itemName];
-        Item *item = (Item *)[self getUniqueEntityWithEntityName:[Item entityName] withPredicate:itemPredicate];
+        NSPredicate *itemPredicate = [NSPredicate predicateWithFormat:@"%K == %@", ItemAttributes.name, itemName];
+        Item *item = (Item *)[self uniqueEntityWithEntityName:[Item entityName] withPredicate:itemPredicate];
         if (!item) {
             item = [Item insertInManagedObjectContext:self.managedObjectContext];
             item.name = itemName;
         }
         drop.item = item;
-        
         // The Drop should now exist, and be properly hooked up to the area, which exists and is hooked up to the region.
     }
 }
@@ -324,11 +399,11 @@ NSString *const AreaDropIDDecimalStringKey = @"idDecimalString";
     return YES;
 }
 
-- (NSManagedObject *)getUniqueEntityWithEntityName:(NSString *)entityName withPredicate:(NSPredicate *)predicate
+- (NSManagedObject *)uniqueEntityWithEntityName:(NSString *)entityName withPredicate:(NSPredicate *)predicate
 {
     NSError *error = nil;
     NSFetchRequest *request = [[NSFetchRequest alloc] initWithEntityName:entityName];
-    [request setPredicate:predicate];
+    request.predicate = predicate;
     
     NSArray *results = [self.managedObjectContext executeFetchRequest:request error:&error];
     if (results) {
@@ -353,7 +428,7 @@ NSString *const AreaDropIDDecimalStringKey = @"idDecimalString";
 {
     NSError *error = nil;
     NSFetchRequest *request = [[NSFetchRequest alloc] initWithEntityName:entityName];
-    [request setPredicate:predicate];
+    request.predicate = predicate;
     
     NSUInteger count = [self.managedObjectContext countForFetchRequest:request error:&error];
     if (count != NSNotFound) {
@@ -361,6 +436,88 @@ NSString *const AreaDropIDDecimalStringKey = @"idDecimalString";
     } else {
         return 0;
     }
+}
+
+- (QuestDrop *)questDropFromDictionary:(NSDictionary *)dropDict
+{
+    NSPredicate *questPredicate = [NSPredicate predicateWithFormat:@"%K == %@", QuestAttributes.id, dropDict[QuestDropQuestIDKey]];
+    Quest *quest = (Quest *)[self uniqueEntityWithEntityName:[Quest entityName] withPredicate:questPredicate];
+    if (!quest) {
+        //If the quest was not found, then it makes no sense to store this reward.  Just return nil.
+        NSLog(@"The quest for a quest reward was not found!");
+        return nil;
+    }
+    QuestDrop *drop = [QuestDrop insertInManagedObjectContext:self.managedObjectContext];
+    drop.id = dropDict[QuestDropIDKey];
+    drop.row = dropDict[QuestDropRowKey];
+    drop.quantity = dropDict[QuestDropQuantityKey];
+    drop.percent = dropDict[QuestDropPercentKey];
+    drop.quest = quest;
+    NSPredicate *itemPredicate = [NSPredicate predicateWithFormat:@"%K == %@", ItemAttributes.name, dropDict[QuestDropItemNameKey]];
+    Item *item = (Item *)[self uniqueEntityWithEntityName:[Item entityName] withPredicate:itemPredicate];
+    if (!item) {
+        item = [Item insertInManagedObjectContext:self.managedObjectContext];
+        item.name = dropDict[QuestDropItemNameKey];
+    }
+    drop.item = item;
+    return drop;
+}
+
+- (Quest *)questFromDictionary:(NSDictionary *)questDict
+{
+    Quest *quest = [Quest insertInManagedObjectContext:self.managedObjectContext];
+    quest.id = questDict[QuestIDKey];
+    quest.name = questDict[QuestNameKey];
+    if ([questDict[QuestCaravanHallKey] isEqualToString:QuestCaravanKey]) {
+        quest.caravanValue = YES;
+    } else {
+        quest.caravanValue = NO;
+    }
+    if ([questDict[QuestDangerKey] isEqualToString:TrueString]) {
+        quest.dangerValue = YES;
+    } else {
+        quest.dangerValue = NO;
+    }
+    quest.fee = questDict[QuestFeeKey];
+    quest.hrp = questDict[QuestHRPKey];
+    if ([questDict[QuestKeyIndicatorKey] isEqualToString:TrueString]) {
+        quest.keyValue = YES;
+    } else {
+        quest.keyValue = NO;
+    }
+    quest.objective = questDict[QuestObjectiveKey];
+    quest.subObjective = questDict[QuestSubQuestObjectiveKey];
+    quest.reward = questDict[QuestRewardKey];
+    quest.stars = questDict[QuestStarsKey];
+    quest.type = questDict[QuestTypeKey];
+    if ([questDict[QuestUrgentKey] isEqualToString:TrueString]) {
+        quest.urgentValue = YES;
+    } else {
+        quest.urgentValue = NO;
+    }
+    //TODO: add in outbreak bool handling once that data can be verified.
+    
+    NSPredicate *regionPredicate = [NSPredicate predicateWithFormat:@"%K == %@", RegionAttributes.keyName, questDict[QuestMapKeyNameKey]];
+    // If this method call returns nil, then quest.region will be nil.  That is okay!
+    quest.region = (Region *)[self uniqueEntityWithEntityName:[Region entityName] withPredicate:regionPredicate];
+    
+    NSPredicate *monsterPredicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterAttributes.name, questDict[QuestFirstMonsterKey]];
+    // The same is the case with the following monster-fetching calls
+    quest.firstMonster = (Monster *)[self uniqueEntityWithEntityName:[Monster entityName] withPredicate:monsterPredicate];
+    if (quest.firstMonster) {
+        //Continue on to the second, and so on.  By nesting this way, we can avoid unnecessary fetches
+        monsterPredicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterAttributes.name, questDict[QuestSecondMonsterKey]];
+        quest.secondMonster = (Monster *)[self uniqueEntityWithEntityName:[Monster entityName] withPredicate:monsterPredicate];
+        if (quest.secondMonster) {
+            monsterPredicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterAttributes.name, questDict[QuestThirdMonsterKey]];
+            quest.thirdMonster = (Monster *)[self uniqueEntityWithEntityName:[Monster entityName] withPredicate:monsterPredicate];
+            if (quest.thirdMonster) {
+                monsterPredicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterAttributes.name, questDict[QuestFourthMonsterKey]];
+                quest.fourthMonster = (Monster *)[self uniqueEntityWithEntityName:[Monster entityName] withPredicate:monsterPredicate];
+            }
+        }
+    }
+    return quest;
 }
 
 #pragma mark - Boilerplate Core Data Code

@@ -8,15 +8,15 @@
 
 #import "ItemMonsterSourcesTableViewController.h"
 
-#import "Item.h"
-#import "MonsterDrop.h"
-#import "Monster.h"
+#import <CoreData/CoreData.h>
 
 #import "MonsterDetailsViewController.h"
 
-#import "ItemMonsterSourceTableViewCell.h"
+#import "Item.h"
+#import "Monster.h"
+#import "MonsterDrop.h"
 
-#import <CoreData/CoreData.h>
+#import "ItemMonsterSourceTableViewCell.h"
 
 @interface ItemMonsterSourcesTableViewController ()
 
@@ -32,15 +32,12 @@
     
     NSError *fetchError = nil;
     NSFetchRequest *itemFetchRequest = [[NSFetchRequest alloc] initWithEntityName:[Item entityName]];
-    NSPredicate *itemPredicate = [NSPredicate predicateWithFormat:@"%K == %@", @"name", self.itemName];
-    [itemFetchRequest setPredicate:itemPredicate];
+    itemFetchRequest.predicate = [NSPredicate predicateWithFormat:@"%K == %@", ItemAttributes.name, self.itemName];
     Item *item = (Item *)[self.managedObjectContext executeFetchRequest:itemFetchRequest error:&fetchError].firstObject;
     
     NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:[MonsterDrop entityName]];
-    NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:@"id" ascending:YES];
-    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterDropRelationships.item, item];
-    [fetchRequest setPredicate:predicate];
-    [fetchRequest setSortDescriptors:@[sortDescriptor]];
+    fetchRequest.predicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterDropRelationships.item, item];
+    fetchRequest.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:MonsterDropAttributes.id ascending:YES]];
     
     self.sources = [self.managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];
     // If the fetch failed (most likely because the item cannot be found from any monsters) ...
@@ -69,11 +66,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     ItemMonsterSourceTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([ItemMonsterSourceTableViewCell class])];
-    MonsterDrop *drop = self.sources[indexPath.row];
-    cell.method = drop.method;
-    Monster *monster = [drop valueForKey:MonsterDropRelationships.monsterSource];
-    cell.sourceName = monster.name;
-    [cell displayContents];
+    [cell displayContentsWithMonsterDrop:self.sources[indexPath.row]];
     return cell;
     
 }
@@ -83,10 +76,15 @@
     UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     MonsterDetailsViewController *monsterVC = [storyBoard instantiateViewControllerWithIdentifier:@"MonsterDetailsViewController"];
     monsterVC.managedObjectContext = self.managedObjectContext;
-    MonsterDrop *drop = self.sources[indexPath.row];
-    Monster *monster = [drop valueForKey:MonsterDropRelationships.monsterSource];
-    monsterVC.monster = monster.name;
+    monsterVC.monsterName = [self dropAtIndexPath:indexPath].monsterSource.name;
     [self.navigationController pushViewController:monsterVC animated:YES];
+}
+
+#pragma mark - Helper Methods
+
+- (MonsterDrop *)dropAtIndexPath:(NSIndexPath *)indexPath
+{
+    return self.sources[indexPath.row];
 }
 
 @end

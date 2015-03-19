@@ -8,11 +8,15 @@
 
 #import "RegionEncyclopediaCollectionViewController.h"
 
-#import "RegionEncylcopediaCollectionViewCell.h"
-
 #import <CoreData/CoreData.h>
 
+#import "CoreDataController.h"
+
+#import "RegionContainerViewController.h"
+
 #import "Region.h"
+
+#import "RegionEncyclopediaCollectionViewCell.h"
 
 @interface RegionEncyclopediaCollectionViewController ()
 
@@ -30,8 +34,7 @@
     
     NSError *fetchError = nil;
     NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:[Region entityName]];
-    NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:@"id" ascending:YES];
-    [fetchRequest setSortDescriptors:@[sortDescriptor]];
+    fetchRequest.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:RegionAttributes.id ascending:YES]];
     self.regions = [self.managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];
     if (fetchError) {
         NSLog(@"Error fetching region data.");
@@ -53,13 +56,32 @@
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    RegionEncylcopediaCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:NSStringFromClass([RegionEncylcopediaCollectionViewCell class]) forIndexPath:indexPath];
-    
-    // Configure the cell
-    cell.backgroundColor = [UIColor blueColor];
+    RegionEncyclopediaCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:NSStringFromClass([RegionEncyclopediaCollectionViewCell class]) forIndexPath:indexPath];
+    [cell displayContentsWithRegion:[self regionAtIndexPath:indexPath]];
     return cell;
 }
 
-#pragma mark <UICollectionViewDelegate>
+#pragma mark - Helper Methods
+
+- (Region *)regionAtIndexPath:(NSIndexPath *)indexPath
+{
+    return self.regions[indexPath.row];
+}
+
+#pragma mark - Navigation
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([segue.identifier isEqualToString:@"showRegionDetails"]) {
+        RegionContainerViewController *regionVC = (RegionContainerViewController *)segue.destinationViewController;
+        regionVC.managedObjectContext = self.managedObjectContext;
+        
+        if ([sender isMemberOfClass:[RegionEncyclopediaCollectionViewCell class]]) {
+            RegionEncyclopediaCollectionViewCell *cell = (RegionEncyclopediaCollectionViewCell *)sender;
+            Region *region = [self regionAtIndexPath:[self.collectionView indexPathForCell:cell]];
+            regionVC.region = region;
+        }
+    }
+}
 
 @end

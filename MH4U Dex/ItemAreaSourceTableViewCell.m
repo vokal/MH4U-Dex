@@ -8,6 +8,9 @@
 
 #import "ItemAreaSourceTableViewCell.h"
 
+#import "Area.h"
+#import "AreaDrop.h"
+
 @interface ItemAreaSourceTableViewCell ()
 
 @property (weak, nonatomic) IBOutlet UILabel *methodLabel;
@@ -16,5 +19,11 @@
 @end
 
 @implementation ItemAreaSourceTableViewCell
+
+- (void)displayContentsWithAreaDrop:(AreaDrop *)drop
+{
+    self.methodLabel.text = drop.method;
+    self.sourceLabel.text = drop.area.name;
+}
 
 @end

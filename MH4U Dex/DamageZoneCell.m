@@ -8,6 +8,8 @@
 
 #import "DamageZoneCell.h"
 
+#import "DamageZone.h"
+
 @interface DamageZoneCell ()
 
 @property (weak, nonatomic) IBOutlet UILabel *bodyPartLabel;

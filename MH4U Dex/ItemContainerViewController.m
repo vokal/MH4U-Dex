@@ -8,8 +8,8 @@
 
 #import "ItemContainerViewController.h"
 
-#import "ItemMonsterSourcesTableViewController.h"
 #import "ItemAreaSourcesTableViewController.h"
+#import "ItemMonsterSourcesTableViewController.h"
 
 typedef NS_ENUM(NSInteger, ItemSegmentedControlPage) {
     MonsterSources = 0,
@@ -31,7 +31,7 @@ typedef NS_ENUM(NSInteger, ItemSegmentedControlPage) {
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [self.areaSourceSubView setHidden:YES];
+    self.areaSourceSubView.hidden = YES;
     self.navigationItem.title = [NSString stringWithFormat:@"%@ Drop Sources", self.itemName];
     self.itemNameLabel.text = self.itemName;
 }

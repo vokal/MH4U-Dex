@@ -1,7 +1,7 @@
 #!/bin/sh
 
 if [ -z "$PROJECT_DIR" ]; then
-    PROJECT_DIR="/Users/EdwinGoldberg/Documents/XCode Projects/MH4U Dex"
+    PROJECT_DIR="/Users/EdwinGoldberg/MH4U-Dex"
 fi
 if [ -z "$PROJECT_NAME" ]; then
     PROJECT_NAME="MH4U Dex"

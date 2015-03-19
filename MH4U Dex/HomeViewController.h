@@ -6,9 +6,8 @@
 //  Copyright (c) 2015 Joseph Goldberg. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
 #import <CoreData/CoreData.h>
+#import <UIKit/UIKit.h>
 
 @interface HomeViewController : UIViewController
 

@@ -6,8 +6,15 @@
 //  Copyright (c) 2015 Joseph Goldberg. All rights reserved.
 //
 
-#import "ItemMonsterSourceTableViewCell.h"
+#import <UIKit/UIKit.h>
 
-@interface ItemAreaSourceTableViewCell : ItemMonsterSourceTableViewCell
+@class AreaDrop;
+
+@interface ItemAreaSourceTableViewCell : UITableViewCell
+
+/**
+ Update the cell's labels.
+ */
+- (void)displayContentsWithAreaDrop:(AreaDrop *)drop;
 
 @end

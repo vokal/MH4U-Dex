@@ -8,6 +8,9 @@
 
 #import "DropTableViewCell.h"
 
+#import "Item.h"
+#import "MonsterDrop.h"
+
 @interface DropTableViewCell ()
 
 @property (weak, nonatomic) IBOutlet UILabel *itemNameLabel;
@@ -19,12 +22,12 @@
 
 @implementation DropTableViewCell
 
-- (void)displayContents
+- (void)displayContentsOfMonsterDrop:(MonsterDrop *)drop
 {
-    self.itemNameLabel.text = self.itemName;
-    self.sourceLabel.text = self.method;
-    self.quantityLabel.text = [NSString stringWithFormat:@"#: %@", @(self.quantity)];
-    self.percentLabel.text = [NSString stringWithFormat:@"%@%%", @(self.percent)];
+    self.itemNameLabel.text = drop.item.name;
+    self.sourceLabel.text = drop.method;
+    self.quantityLabel.text = [NSString stringWithFormat:@"#: %@", drop.quantity];
+    self.percentLabel.text = [NSString stringWithFormat:@"%@%%", drop.percent];
 }
 
 @end

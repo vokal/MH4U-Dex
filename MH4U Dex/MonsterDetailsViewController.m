@@ -7,12 +7,15 @@
 //
 
 #import "MonsterDetailsViewController.h"
+
+#import "MonsterItemTableViewController.h"
 #import "MonsterOverviewViewController.h"
-#import "MonsterLowRankTableViewController.h"
 
 typedef NS_ENUM(NSInteger, MonsterSegmentedControlPage) {
     Overview = 0,
     LowRank = 1,
+    HighRank = 2,
+    GRank = 3,
     
     MonsterSegmentedControlCount
 };
@@ -21,6 +24,9 @@ typedef NS_ENUM(NSInteger, MonsterSegmentedControlPage) {
 
 @property (nonatomic, weak) IBOutlet UIView *overviewSubView;
 @property (nonatomic, weak) IBOutlet UIView *lowRankSubView;
+@property (nonatomic, weak) IBOutlet UIView *highRankSubView;
+@property (nonatomic, weak) IBOutlet UIView *GRankSubView;
+@property (nonatomic, weak) IBOutlet UISegmentedControl *segmentedControl;
 
 @end
 
@@ -29,43 +35,57 @@ typedef NS_ENUM(NSInteger, MonsterSegmentedControlPage) {
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [self.lowRankSubView setHidden:YES];
+    
+    [self segmentedControlChanged:self.segmentedControl];
 }
 
 - (IBAction)segmentedControlChanged:(UISegmentedControl *)segmentedControl
 {
+    self.overviewSubView.hidden = YES;
+    self.lowRankSubView.hidden = YES;
+    self.highRankSubView.hidden = YES;
+    self.GRankSubView.hidden = YES;
+    
     switch (segmentedControl.selectedSegmentIndex) {
         case Overview:
-            [self.overviewSubView setHidden:NO];
-            [self.lowRankSubView setHidden:YES];
-            self.navigationItem.title = [NSString stringWithFormat:@"%@ Overview", self.monster];
+            self.overviewSubView.hidden = NO;
+            self.title = [NSString stringWithFormat:@"%@ Overview", self.monsterName];
             break;
         case LowRank:
-            [self.overviewSubView setHidden:YES];
-            [self.lowRankSubView setHidden:NO];
-            self.navigationItem.title = [NSString stringWithFormat:@"%@ LR Drops", self.monster];
+            self.lowRankSubView.hidden = NO;
+            self.title = [NSString stringWithFormat:@"%@ LR Drops", self.monsterName];
+            break;
+        case HighRank:
+            self.highRankSubView.hidden = NO;
+            self.title = [NSString stringWithFormat:@"%@ HR Drops", self.monsterName];
+            break;
+        case GRank:
+            self.GRankSubView.hidden = NO;
+            self.title = [NSString stringWithFormat:@"%@ GR Drops", self.monsterName];
             break;
         default:
             break;
     }
 }
 
-- (void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-    NSLog(@"Test");
-}
-
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    if ([segue.identifier isEqualToString:@"embedLowRank"]) {
-        MonsterLowRankTableViewController *lowRankVC = (MonsterLowRankTableViewController *)segue.destinationViewController;
-        lowRankVC.managedObjectContext = self.managedObjectContext;
-        lowRankVC.monster = self.monster;
-    } else if ([segue.identifier isEqualToString:@"embedOverview"]) {
+    
+    if ([segue.identifier isEqualToString:@"embedOverview"]) {
         MonsterOverviewViewController *overViewVC = (MonsterOverviewViewController *)segue.destinationViewController;
         overViewVC.managedObjectContext = self.managedObjectContext;
-        overViewVC.monster = self.monster;
+        overViewVC.monsterName = self.monsterName;
+    } else {
+        MonsterItemTableViewController *itemVC = (MonsterItemTableViewController *)segue.destinationViewController;
+        itemVC.managedObjectContext = self.managedObjectContext;
+        itemVC.monsterName = self.monsterName;
+        if ([segue.identifier isEqualToString:@"embedLowRank"]) {
+            itemVC.rank = @"Low";
+        } else if ([segue.identifier isEqualToString:@"embedHighRank"]) {
+            itemVC.rank = @"High";
+        } else if ([segue.identifier isEqualToString:@"embedGRank"]) {
+            itemVC.rank = @"G";
+        }
     }
 }
 

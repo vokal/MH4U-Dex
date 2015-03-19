@@ -8,6 +8,9 @@
 
 #import "ItemMonsterSourceTableViewCell.h"
 
+#import "Monster.h"
+#import "MonsterDrop.h"
+
 @interface ItemMonsterSourceTableViewCell ()
 
 @property (weak, nonatomic) IBOutlet UILabel *methodLabel;
@@ -17,10 +20,10 @@
 
 @implementation ItemMonsterSourceTableViewCell
 
-- (void)displayContents
+- (void)displayContentsWithMonsterDrop:(MonsterDrop *)drop
 {
-    self.methodLabel.text = self.method;
-    self.sourceLabel.text = self.sourceName;
+    self.methodLabel.text = drop.method;
+    self.sourceLabel.text = drop.monsterSource.name;
 }
 
 @end
