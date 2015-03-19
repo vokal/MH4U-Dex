@@ -75,8 +75,6 @@
     UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     RegionContainerViewController *regionVC = [storyBoard instantiateViewControllerWithIdentifier:@"RegionContainerViewController"];
     regionVC.region = [self dropAtIndexPath:indexPath].area.region;
-    regionVC.regionName = regionVC.region.name;
-    regionVC.regionKeyName = regionVC.region.keyName;
     [self.navigationController pushViewController:regionVC animated:YES];
 }
 

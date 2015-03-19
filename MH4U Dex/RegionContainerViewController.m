@@ -44,8 +44,8 @@ typedef NS_ENUM(NSInteger, RegionSegmentedControlPage) {
     self.regionLowRankSubview.hidden = NO;
     self.regionHighRankSubview.hidden = YES;
     self.regionGRankSubview.hidden = YES;
-    self.navigationItem.title = [NSString stringWithFormat:@"%@ Low-Rank Items", self.regionName];
-    self.regionNameLabel.text = self.regionName;
+    self.navigationItem.title = [NSString stringWithFormat:@"%@ Low-Rank Items", self.region.name];
+    self.regionNameLabel.text = self.region.name;
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender

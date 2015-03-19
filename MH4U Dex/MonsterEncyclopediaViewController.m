@@ -66,7 +66,7 @@ static NSString *const Minion = @"Minion";
         detailVC.managedObjectContext = self.managedObjectContext;
         if ([sender isMemberOfClass:[MonsterEncyclopediaCell class]]) {
             MonsterEncyclopediaCell *cell = (MonsterEncyclopediaCell *)sender;
-            detailVC.monster = [self monsterForIndexPath:[self.collectionView indexPathForCell:cell]].name;
+            detailVC.monsterName = [self monsterForIndexPath:[self.collectionView indexPathForCell:cell]].name;
         }
     }
 }
@@ -78,12 +78,11 @@ static NSString *const Minion = @"Minion";
     switch (indexPath.section) {
         case SmallMonsterSection:
             return self.smallMonsters[indexPath.row];
-            break;
         case LargeMonsterSection:
             return self.largeMonsters[indexPath.row];
-            break;
+        default:
+            return nil;
     }
-    return nil;
 }
 
 #pragma mark <UICollectionViewDataSource>

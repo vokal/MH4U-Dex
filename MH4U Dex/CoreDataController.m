@@ -176,7 +176,7 @@ static NSString *const AreaDropItemNameKey = @"item";
             
             // If the Item for this drop already exists in the persistent store ...
             NSPredicate *itemPredicate = [NSPredicate predicateWithFormat:@"%K == %@", ItemAttributes.name, drop[MonsterDropItemNameKey]];
-            Item *item = (Item *)[self getUniqueEntityWithEntityName:[Item entityName] withPredicate:itemPredicate];
+            Item *item = (Item *)[self uniqueEntityWithEntityName:[Item entityName] withPredicate:itemPredicate];
             if (!item) {
                 item = [Item insertInManagedObjectContext:self.managedObjectContext];
                 item.name = drop[MonsterDropItemNameKey];
@@ -190,7 +190,7 @@ static NSString *const AreaDropItemNameKey = @"item";
                 // First we should ensure that the monster already exists in the persistent store
                 NSNumber *monsterID = drop[MonsterDropMonsterIDKey];
                 NSPredicate *monsterPredicate = [NSPredicate predicateWithFormat:@"%K == %d", MonsterAttributes.id, monsterID.intValue];
-                Monster *monster = (Monster *)[self getUniqueEntityWithEntityName:[Monster entityName] withPredicate:monsterPredicate];
+                Monster *monster = (Monster *)[self uniqueEntityWithEntityName:[Monster entityName] withPredicate:monsterPredicate];
                 if (!monster) {
                     // TODO: Handle better, later.
                     NSLog(@"The Monster, %@, was not found!", monsterName);
@@ -217,7 +217,7 @@ static NSString *const AreaDropItemNameKey = @"item";
         Quest *quest;
         NSNumber *questID = questDict[QuestIDKey];
         NSPredicate *questPredicate = [NSPredicate predicateWithFormat:@"%K == %@", QuestAttributes.id, questID];
-        quest = (Quest *)[self getUniqueEntityWithEntityName:[Quest entityName] withPredicate:questPredicate];
+        quest = (Quest *)[self uniqueEntityWithEntityName:[Quest entityName] withPredicate:questPredicate];
         //Only add the quest if it is not already there
         if (!quest) {
             // Quests have a lot of information to populate, so I'm moving this to a helper method to cut down on the size of this method.
@@ -236,7 +236,7 @@ static NSString *const AreaDropItemNameKey = @"item";
     for (NSDictionary *dropDict in questDropList) {
         NSNumber *dropID = dropDict[QuestDropIDKey];
         NSPredicate *dropPredicate = [NSPredicate predicateWithFormat:@"%K == %@", QuestDropAttributes.id, dropID];
-        QuestDrop *drop = (QuestDrop *)[self getUniqueEntityWithEntityName:[QuestDrop entityName] withPredicate:dropPredicate];
+        QuestDrop *drop = (QuestDrop *)[self uniqueEntityWithEntityName:[QuestDrop entityName] withPredicate:dropPredicate];
         if (!drop) {
             //Returns nil if the quest corresponding to this drop does not exist.
             drop = [self questDropFromDictionary:dropDict];
@@ -261,7 +261,7 @@ static NSString *const AreaDropItemNameKey = @"item";
         Region *region;
         NSNumber *regionID = regionDict[RegionIDJSONKey];
         NSPredicate *regionPredicate = [NSPredicate predicateWithFormat:@"%K == %d", RegionAttributes.id, regionID.intValue];
-        region = (Region *)[self getUniqueEntityWithEntityName:[Region entityName] withPredicate:regionPredicate];
+        region = (Region *)[self uniqueEntityWithEntityName:[Region entityName] withPredicate:regionPredicate];
         // Only add the region if it is not already there
         if (!region) {
             region = [Region insertInManagedObjectContext:self.managedObjectContext];
@@ -296,7 +296,7 @@ static NSString *const AreaDropItemNameKey = @"item";
                                   areaDropDict[AreaDropAreaNameKey],
                                   areaDropDict[AreaDropRankKey]];
     NSPredicate *areaPredicate = [NSPredicate predicateWithFormat:@"%K == %@", AreaAttributes.combinedName, areaCombinedName];
-    Area *area = (Area *)[self getUniqueEntityWithEntityName:[Area entityName] withPredicate:areaPredicate];
+    Area *area = (Area *)[self uniqueEntityWithEntityName:[Area entityName] withPredicate:areaPredicate];
     // If the area doesn't already exist...
     if (!area) {
         // ... We need to create it, and add it to this region
@@ -313,7 +313,7 @@ static NSString *const AreaDropItemNameKey = @"item";
     // First, check if the area drop already exists, by way of checking the idDecimalString
     NSString *idDecimalString = areaDropDict[AreaDropIDKey];
     NSPredicate *areaDropPredicate = [NSPredicate predicateWithFormat:@"%K == %@", AreaDropAttributes.idDecimalString, idDecimalString];
-    AreaDrop *drop = (AreaDrop *)[self getUniqueEntityWithEntityName:[AreaDrop entityName] withPredicate:areaDropPredicate];
+    AreaDrop *drop = (AreaDrop *)[self uniqueEntityWithEntityName:[AreaDrop entityName] withPredicate:areaDropPredicate];
     //If the drop already exists...
     if (drop) {
         // TODO: do we need to do more here?
@@ -336,7 +336,7 @@ static NSString *const AreaDropItemNameKey = @"item";
         // Time to hook up the item relationship.  The item may or may not already exist.
         NSString *itemName = areaDropDict[AreaDropItemNameKey];
         NSPredicate *itemPredicate = [NSPredicate predicateWithFormat:@"%K == %@", ItemAttributes.name, itemName];
-        Item *item = (Item *)[self getUniqueEntityWithEntityName:[Item entityName] withPredicate:itemPredicate];
+        Item *item = (Item *)[self uniqueEntityWithEntityName:[Item entityName] withPredicate:itemPredicate];
         if (!item) {
             item = [Item insertInManagedObjectContext:self.managedObjectContext];
             item.name = itemName;
@@ -399,7 +399,7 @@ static NSString *const AreaDropItemNameKey = @"item";
     return YES;
 }
 
-- (NSManagedObject *)getUniqueEntityWithEntityName:(NSString *)entityName withPredicate:(NSPredicate *)predicate
+- (NSManagedObject *)uniqueEntityWithEntityName:(NSString *)entityName withPredicate:(NSPredicate *)predicate
 {
     NSError *error = nil;
     NSFetchRequest *request = [[NSFetchRequest alloc] initWithEntityName:entityName];
@@ -441,7 +441,8 @@ static NSString *const AreaDropItemNameKey = @"item";
 - (QuestDrop *)questDropFromDictionary:(NSDictionary *)dropDict
 {
     NSPredicate *questPredicate = [NSPredicate predicateWithFormat:@"%K == %@", QuestAttributes.id, dropDict[QuestDropQuestIDKey]];
-    if (![self getUniqueEntityWithEntityName:[Quest entityName] withPredicate:questPredicate]) {
+    Quest *quest = (Quest *)[self uniqueEntityWithEntityName:[Quest entityName] withPredicate:questPredicate];
+    if (!quest) {
         //If the quest was not found, then it makes no sense to store this reward.  Just return nil.
         NSLog(@"The quest for a quest reward was not found!");
         return nil;
@@ -451,9 +452,9 @@ static NSString *const AreaDropItemNameKey = @"item";
     drop.row = dropDict[QuestDropRowKey];
     drop.quantity = dropDict[QuestDropQuantityKey];
     drop.percent = dropDict[QuestDropPercentKey];
-    drop.quest = (Quest *)[self getUniqueEntityWithEntityName:[Quest entityName] withPredicate:questPredicate];
+    drop.quest = quest;
     NSPredicate *itemPredicate = [NSPredicate predicateWithFormat:@"%K == %@", ItemAttributes.name, dropDict[QuestDropItemNameKey]];
-    Item *item = (Item *)[self getUniqueEntityWithEntityName:[Item entityName] withPredicate:itemPredicate];
+    Item *item = (Item *)[self uniqueEntityWithEntityName:[Item entityName] withPredicate:itemPredicate];
     if (!item) {
         item = [Item insertInManagedObjectContext:self.managedObjectContext];
         item.name = dropDict[QuestDropItemNameKey];
@@ -498,21 +499,21 @@ static NSString *const AreaDropItemNameKey = @"item";
     
     NSPredicate *regionPredicate = [NSPredicate predicateWithFormat:@"%K == %@", RegionAttributes.keyName, questDict[QuestMapKeyNameKey]];
     // If this method call returns nil, then quest.region will be nil.  That is okay!
-    quest.region = (Region *)[self getUniqueEntityWithEntityName:[Region entityName] withPredicate:regionPredicate];
+    quest.region = (Region *)[self uniqueEntityWithEntityName:[Region entityName] withPredicate:regionPredicate];
     
     NSPredicate *monsterPredicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterAttributes.name, questDict[QuestFirstMonsterKey]];
     // The same is the case with the following monster-fetching calls
-    quest.firstMonster = (Monster *)[self getUniqueEntityWithEntityName:[Monster entityName] withPredicate:monsterPredicate];
+    quest.firstMonster = (Monster *)[self uniqueEntityWithEntityName:[Monster entityName] withPredicate:monsterPredicate];
     if (quest.firstMonster) {
         //Continue on to the second, and so on.  By nesting this way, we can avoid unnecessary fetches
         monsterPredicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterAttributes.name, questDict[QuestSecondMonsterKey]];
-        quest.secondMonster = (Monster *)[self getUniqueEntityWithEntityName:[Monster entityName] withPredicate:monsterPredicate];
+        quest.secondMonster = (Monster *)[self uniqueEntityWithEntityName:[Monster entityName] withPredicate:monsterPredicate];
         if (quest.secondMonster) {
             monsterPredicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterAttributes.name, questDict[QuestThirdMonsterKey]];
-            quest.thirdMonster = (Monster *)[self getUniqueEntityWithEntityName:[Monster entityName] withPredicate:monsterPredicate];
+            quest.thirdMonster = (Monster *)[self uniqueEntityWithEntityName:[Monster entityName] withPredicate:monsterPredicate];
             if (quest.thirdMonster) {
                 monsterPredicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterAttributes.name, questDict[QuestFourthMonsterKey]];
-                quest.fourthMonster = (Monster *)[self getUniqueEntityWithEntityName:[Monster entityName] withPredicate:monsterPredicate];
+                quest.fourthMonster = (Monster *)[self uniqueEntityWithEntityName:[Monster entityName] withPredicate:monsterPredicate];
             }
         }
     }

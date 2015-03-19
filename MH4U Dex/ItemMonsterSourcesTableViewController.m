@@ -76,7 +76,7 @@
     UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     MonsterDetailsViewController *monsterVC = [storyBoard instantiateViewControllerWithIdentifier:@"MonsterDetailsViewController"];
     monsterVC.managedObjectContext = self.managedObjectContext;
-    monsterVC.monster = [self dropAtIndexPath:indexPath].monsterSource.name;
+    monsterVC.monsterName = [self dropAtIndexPath:indexPath].monsterSource.name;
     [self.navigationController pushViewController:monsterVC animated:YES];
 }
 

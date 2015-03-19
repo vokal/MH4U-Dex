@@ -79,8 +79,6 @@
         if ([sender isMemberOfClass:[RegionEncyclopediaCollectionViewCell class]]) {
             RegionEncyclopediaCollectionViewCell *cell = (RegionEncyclopediaCollectionViewCell *)sender;
             Region *region = [self regionAtIndexPath:[self.collectionView indexPathForCell:cell]];
-            regionVC.regionName = region.name;
-            regionVC.regionKeyName = region.keyName;
             regionVC.region = region;
         }
     }
