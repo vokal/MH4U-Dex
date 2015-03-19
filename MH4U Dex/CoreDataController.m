@@ -10,6 +10,8 @@
 
 #import <NSManagedObjectContext+Hydrate.h>
 
+#import "Constants.h"
+
 #import "Area.h"
 #import "AreaDrop.h"
 #import "DamageZone.h"
@@ -29,87 +31,6 @@
 @end
 
 @implementation CoreDataController
-
-static NSString *const JSON = @"json";
-static NSString *const TrueString = @"TRUE";
-
-#pragma mark - Item Constants
-
-static NSString *const ItemNameKey = @"name";
-
-#pragma mark - Monster Constants
-
-static NSString *const MonsterIDKey = @"id";
-static NSString *const MonstersFileName = @"monsters";
-static NSString *const MonsterDamageZonesFileName = @"damageZones";
-
-#pragma mark - Area Constants
-
-static NSString *const AreaCombinedNameKey = @"combinedName";
-
-#pragma mark - Region Constants
-
-static NSString *const RegionsFileName = @"regions";
-static NSString *const RegionIDJSONKey = @"_id";
-static NSString *const RegionNameKey = @"region_name";
-static NSString *const RegionKeyNameKey = @"keyName";
-static NSString *const RegionDropsFileNameSuffix = @"_drops";
-
-#pragma mark - Quest Constants
-
-static NSString *const QuestsFileName = @"quests";
-static NSString *const QuestIDKey = @"unique_id";
-static NSString *const QuestNameKey = @"name";
-static NSString *const QuestCaravanHallKey = @"caravan/hall";
-static NSString *const QuestDangerKey = @"danger";
-static NSString *const QuestFeeKey = @"fee";
-static NSString *const QuestHRPKey = @"hrp";
-static NSString *const QuestMapKeyNameKey = @"map";
-static NSString *const QuestKeyIndicatorKey = @"key";
-static NSString *const QuestObjectiveKey = @"objective";
-static NSString *const QuestRewardKey = @"reward";
-static NSString *const QuestStarsKey = @"stars";
-static NSString *const QuestSubQuestObjectiveKey = @"subquest";
-static NSString *const QuestFirstMonsterKey = @"target";
-static NSString *const QuestSecondMonsterKey = @"second_target";
-static NSString *const QuestThirdMonsterKey = @"third_target";
-static NSString *const QuestFourthMonsterKey = @"fourth_target";
-static NSString *const QuestTypeKey = @"type";
-static NSString *const QuestUrgentKey = @"urgent";
-static NSString *const QuestCaravanKey = @"caravan";
-static NSString *const QuestNoneString = @"None";
-
-#pragma mark - Quest Drop Constants
-
-static NSString *const QuestDropsFileName = @"quest_drops";
-static NSString *const QuestDropIDKey = @"dropID";
-static NSString *const QuestDropQuestIDKey = @"questID";
-static NSString *const QuestDropRowKey = @"row";
-static NSString *const QuestDropItemNameKey = @"item";
-static NSString *const QuestDropQuantityKey = @"quantity";
-static NSString *const QuestDropPercentKey = @"percent";
-
-#pragma mark - Monster Drop Constants
-
-static NSString *const MonsterDropsFileName = @"monsterDrops";
-static NSString *const MonsterDropIDKey = @"id";
-static NSString *const MonsterDropMethodKey = @"method";
-static NSString *const MonsterDropQuantityKey = @"quantity";
-static NSString *const MonsterDropRankKey = @"rank";
-static NSString *const MonsterDropPercentKey = @"percent";
-static NSString *const MonsterDropMonsterNameKey = @"monster_name";
-static NSString *const MonsterDropMonsterIDKey = @"monster_id";
-static NSString *const MonsterDropItemNameKey = @"item_name";
-
-#pragma mark - Area Drop Constants
-
-static NSString *const AreaDropAreaNameKey = @"area";
-static NSString *const AreaDropRankKey = @"rank";
-static NSString *const AreaDropIDKey = @"_id";
-static NSString *const AreaDropMethodKey = @"method";
-static NSString *const AreaDropPercentKey = @"chance";
-static NSString *const AreaDropQuantityKey = @"number";
-static NSString *const AreaDropItemNameKey = @"item";
 
 #pragma mark - Singleton Method
 

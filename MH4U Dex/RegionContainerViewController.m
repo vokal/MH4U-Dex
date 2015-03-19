@@ -10,6 +10,7 @@
 
 #import <CoreData/CoreData.h>
 
+#import "Constants.h"
 #import "CoreDataController.h"
 
 #import "RegionItemTableViewController.h"
@@ -54,11 +55,11 @@ typedef NS_ENUM(NSInteger, RegionSegmentedControlPage) {
     dropVC.region = self.region;  // This is a much cleaner way to handle these transitions.
     
     if ([segue.identifier isEqualToString:@"embedLowRankRegionItems"]) {
-        dropVC.rank = @"Low";
+        dropVC.rank = LowConstString;
     } else if ([segue.identifier isEqualToString:@"embedHighRankRegionItems"]) {
-        dropVC.rank = @"High";
+        dropVC.rank = HighConstString;
     } else if ([segue.identifier isEqualToString:@"embedGRankRegionItems"]) {
-        dropVC.rank = @"G";
+        dropVC.rank = GConstString;
     }
 }
 
@@ -69,7 +70,6 @@ typedef NS_ENUM(NSInteger, RegionSegmentedControlPage) {
             self.regionLowRankSubview.hidden = NO;
             self.regionHighRankSubview.hidden = YES;
             self.regionGRankSubview.hidden = YES;
-            //self.navigationItem.title = [NSString stringWithFormat:@"%@ Overview", self.monster];
             break;
         case HighRank:
             self.regionLowRankSubview.hidden = YES;
