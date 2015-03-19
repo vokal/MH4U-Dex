@@ -13,8 +13,6 @@
 @interface RegionContainerViewController : UIViewController
 
 @property (nonatomic, strong) NSManagedObjectContext *managedObjectContext;
-@property (nonatomic, strong) NSString *regionKeyName;
-@property (nonatomic, strong) NSString *regionName;
 @property (nonatomic, strong) Region *region;
 
 @end

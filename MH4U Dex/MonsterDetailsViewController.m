@@ -51,19 +51,19 @@ typedef NS_ENUM(NSInteger, MonsterSegmentedControlPage) {
     switch (segmentedControl.selectedSegmentIndex) {
         case Overview:
             self.overviewSubView.hidden = NO;
-            self.title = [NSString stringWithFormat:@"%@ Overview", self.monster];
+            self.title = [NSString stringWithFormat:@"%@ Overview", self.monsterName];
             break;
         case LowRank:
             self.lowRankSubView.hidden = NO;
-            self.title = [NSString stringWithFormat:@"%@ LR Drops", self.monster];
+            self.title = [NSString stringWithFormat:@"%@ LR Drops", self.monsterName];
             break;
         case HighRank:
             self.highRankSubView.hidden = NO;
-            self.title = [NSString stringWithFormat:@"%@ HR Drops", self.monster];
+            self.title = [NSString stringWithFormat:@"%@ HR Drops", self.monsterName];
             break;
         case GRank:
             self.GRankSubView.hidden = NO;
-            self.title = [NSString stringWithFormat:@"%@ GR Drops", self.monster];
+            self.title = [NSString stringWithFormat:@"%@ GR Drops", self.monsterName];
             break;
         default:
             break;
@@ -76,11 +76,11 @@ typedef NS_ENUM(NSInteger, MonsterSegmentedControlPage) {
     if ([segue.identifier isEqualToString:@"embedOverview"]) {
         MonsterOverviewViewController *overViewVC = (MonsterOverviewViewController *)segue.destinationViewController;
         overViewVC.managedObjectContext = self.managedObjectContext;
-        overViewVC.monsterName = self.monster;
+        overViewVC.monsterName = self.monsterName;
     } else {
         MonsterItemTableViewController *itemVC = (MonsterItemTableViewController *)segue.destinationViewController;
         itemVC.managedObjectContext = self.managedObjectContext;
-        itemVC.monsterName = self.monster;
+        itemVC.monsterName = self.monsterName;
         if ([segue.identifier isEqualToString:@"embedLowRank"]) {
             itemVC.rank = LowConstString;
         } else if ([segue.identifier isEqualToString:@"embedHighRank"]) {

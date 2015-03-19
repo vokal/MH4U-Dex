@@ -49,10 +49,8 @@ typedef NS_ENUM(NSInteger, StarSections) {
     NSFetchRequest *questFetchRequest = [NSFetchRequest fetchRequestWithEntityName:[Quest entityName]];
     self.questMasterArray = [NSMutableArray array];
     NSPredicate *starPredicate;
-    NSCompoundPredicate *compoundPredicate;
     for (NSUInteger starNumber = 1; starNumber <= 10; starNumber++) {
         starPredicate = [NSPredicate predicateWithFormat:@"%K == %@", QuestAttributes.stars, @(starNumber)];
-        compoundPredicate = [NSCompoundPredicate andPredicateWithSubpredicates:@[caravanPredicate, starPredicate]];
         questFetchRequest.predicate = [NSCompoundPredicate andPredicateWithSubpredicates:@[caravanPredicate, starPredicate]];
         NSArray *questList = [managedObjectContext executeFetchRequest:questFetchRequest error:&fetchError];
         if (questList) {

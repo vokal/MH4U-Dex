@@ -65,7 +65,7 @@ typedef NS_ENUM(NSInteger, MonsterEncyclopediaSections) {
         detailVC.managedObjectContext = self.managedObjectContext;
         if ([sender isMemberOfClass:[MonsterEncyclopediaCell class]]) {
             MonsterEncyclopediaCell *cell = (MonsterEncyclopediaCell *)sender;
-            detailVC.monster = [self monsterForIndexPath:[self.collectionView indexPathForCell:cell]].name;
+            detailVC.monsterName = [self monsterForIndexPath:[self.collectionView indexPathForCell:cell]].name;
         }
     }
 }
@@ -77,12 +77,11 @@ typedef NS_ENUM(NSInteger, MonsterEncyclopediaSections) {
     switch (indexPath.section) {
         case SmallMonsterSection:
             return self.smallMonsters[indexPath.row];
-            break;
         case LargeMonsterSection:
             return self.largeMonsters[indexPath.row];
-            break;
+        default:
+            return nil;
     }
-    return nil;
 }
 
 #pragma mark <UICollectionViewDataSource>
