@@ -65,7 +65,7 @@ typedef NS_ENUM(NSInteger, MonsterEncyclopediaSections) {
         MonsterContainerViewController *detailVC = (MonsterContainerViewController *)segue.destinationViewController;
         if ([sender isMemberOfClass:[MonsterEncyclopediaCell class]]) {
             MonsterEncyclopediaCell *cell = (MonsterEncyclopediaCell *)sender;
-            detailVC.monsterName = [self monsterForIndexPath:[self.collectionView indexPathForCell:cell]].name;
+            detailVC.monster = [self monsterForIndexPath:[self.collectionView indexPathForCell:cell]];
         }
     }
 }

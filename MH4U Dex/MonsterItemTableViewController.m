@@ -35,13 +35,10 @@
     [super viewDidLoad];
     NSManagedObjectContext *managedObjectContext = [CoreDataController sharedCDController].managedObjectContext;
     NSError *fetchError = nil;
-    NSFetchRequest *monsterFetchRequest = [[NSFetchRequest alloc] initWithEntityName:[Monster entityName]];
-    monsterFetchRequest.predicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterAttributes.name, self.monsterName];
-    Monster *monster = (Monster *)[managedObjectContext executeFetchRequest:monsterFetchRequest error:&fetchError].firstObject;
     
     NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:[MonsterDrop entityName]];
-    NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:MonsterDropAttributes.method ascending:YES];
-    NSPredicate *dropPredicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterDropRelationships.monsterSource, monster];
+    NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:MonsterDropAttributes.id ascending:YES];
+    NSPredicate *dropPredicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterDropRelationships.monsterSource, self.monster];
     NSPredicate *rankPredicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterDropAttributes.rank, self.rank ?: @"Low"];
     NSCompoundPredicate *compoundPredicate = [NSCompoundPredicate andPredicateWithSubpredicates:@[dropPredicate, rankPredicate]];
     fetchRequest.predicate = compoundPredicate;

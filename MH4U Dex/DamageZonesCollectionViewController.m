@@ -13,6 +13,7 @@
 #import "CoreDataController.h"
 
 #import "DamageZone.h"
+#import "Monster.h"
 
 #import "DamageZoneCell.h"
 
@@ -38,7 +39,7 @@ typedef NS_ENUM(NSInteger, DamageZoneSections) {
     self.flowLayout.itemSize = CGSizeMake(CGRectGetWidth(self.collectionView.bounds), 40.0f);
     NSError *fetchError = nil;
     NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:[DamageZone entityName]];
-    fetchRequest.predicate = [NSPredicate predicateWithFormat:@"%K == %@", DamageZoneAttributes.monsterName, self.monsterName];
+    fetchRequest.predicate = [NSPredicate predicateWithFormat:@"%K == %@", DamageZoneAttributes.monsterName, self.monster.name];
     fetchRequest.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:DamageZoneAttributes.id ascending:YES]];
     self.damageZones = [[CoreDataController sharedCDController].managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];
 }
@@ -63,7 +64,11 @@ typedef NS_ENUM(NSInteger, DamageZoneSections) {
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     DamageZoneCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:NSStringFromClass([DamageZoneCell class]) forIndexPath:indexPath];
-    DamageZone *damageZone = (DamageZone *)self.damageZones[indexPath.row];
+    DamageZone *damageZone;
+    if (self.damageZones.firstObject) {
+        //TODO: Remove once guaranteed that every monster has at least one damage zone.
+        damageZone = (DamageZone *)self.damageZones[indexPath.row];
+    }
     switch (indexPath.section) {
         case DamageZoneLegendSection:
             // Don't do anything for the first cell.

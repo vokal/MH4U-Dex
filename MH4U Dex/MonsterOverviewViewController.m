@@ -10,6 +10,8 @@
 
 #import "DamageZonesCollectionViewController.h"
 
+#import "Monster.h"
+
 @interface MonsterOverviewViewController ()
 
 @property (weak, nonatomic) IBOutlet UIView *damageZonesCollectionView;
@@ -23,8 +25,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.monsterNameLabel.text = self.monsterName;
-    NSString *imageName = [NSString stringWithFormat:@"%@-icon", [self.monsterName lowercaseString]];
+    self.monsterNameLabel.text = self.monster.name;
+    NSString *imageName = [NSString stringWithFormat:@"%@-icon", [self.monster.name lowercaseString]];
     UIImage *image = [UIImage imageNamed:imageName];
     if (image) {
         self.monsterIconImage.image = image;
@@ -35,7 +37,7 @@
 {
     if ([segue.identifier isEqualToString:@"embedDamageZones"]) {
         DamageZonesCollectionViewController *damageVC = (DamageZonesCollectionViewController *)segue.destinationViewController;
-        damageVC.monsterName = self.monsterName;
+        damageVC.monster = self.monster;
     }
 }
 

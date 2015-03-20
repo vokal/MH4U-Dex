@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class Monster;
+
 @interface MonsterContainerViewController : UIViewController
 
-@property (nonatomic, strong) NSString *monsterName;
+@property (nonatomic, strong) Monster *monster;
 
 @end

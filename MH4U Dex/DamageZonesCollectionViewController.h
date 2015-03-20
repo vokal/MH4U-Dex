@@ -6,10 +6,12 @@
 //  Copyright (c) 2015 Joseph Goldberg. All rights reserved.
 //
 
+@class Monster;
+
 #import <UIKit/UIKit.h>
 
 @interface DamageZonesCollectionViewController : UICollectionViewController
 
-@property (nonatomic, strong) NSString *monsterName;
+@property (nonatomic, strong) Monster *monster;
 
 @end

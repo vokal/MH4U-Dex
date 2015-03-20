@@ -6,11 +6,13 @@
 //  Copyright (c) 2015 Joseph Goldberg. All rights reserved.
 //
 
+@class Monster;
+
 #import <UIKit/UIKit.h>
 
 @interface MonsterItemTableViewController : UITableViewController
 
-@property (nonatomic, strong) NSString *monsterName;
+@property (nonatomic, strong) Monster *monster;
 @property (nonatomic, strong) NSString *rank;
 
 @end
