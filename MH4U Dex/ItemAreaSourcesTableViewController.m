@@ -10,6 +10,8 @@
 
 #import <CoreData/CoreData.h>
 
+#import "CoreDataController.h"
+
 #import "RegionContainerViewController.h"
 
 #import "Area.h"
@@ -31,15 +33,16 @@
 {
     [super viewDidLoad];
     
+    NSManagedObjectContext *managedObjectContext = [CoreDataController sharedCDController].managedObjectContext;
     NSError *fetchError = nil;
     NSFetchRequest *itemFetchRequest = [[NSFetchRequest alloc] initWithEntityName:[Item entityName]];
     itemFetchRequest.predicate = [NSPredicate predicateWithFormat:@"%K == %@", ItemAttributes.name, self.itemName];
-    Item *item = (Item *)[self.managedObjectContext executeFetchRequest:itemFetchRequest error:&fetchError].firstObject;
+    Item *item = (Item *)[managedObjectContext executeFetchRequest:itemFetchRequest error:&fetchError].firstObject;
     
     NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:[AreaDrop entityName]];
     fetchRequest.predicate = [NSPredicate predicateWithFormat:@"%K == %@", AreaDropRelationships.item, item];
     fetchRequest.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:AreaDropAttributes.idDecimalString ascending:YES]];
-    self.sources = [self.managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];
+    self.sources = [managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];
     // If the fetch failed (most likely because the item cannot be found from any areas) ...
     if (!self.sources) {
         // Set sources to empty.

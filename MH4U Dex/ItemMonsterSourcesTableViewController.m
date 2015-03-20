@@ -10,7 +10,9 @@
 
 #import <CoreData/CoreData.h>
 
-#import "MonsterDetailsViewController.h"
+#import "CoreDataController.h"
+
+#import "MonsterContainerViewController.h"
 
 #import "Item.h"
 #import "Monster.h"
@@ -30,16 +32,17 @@
 {
     [super viewDidLoad];
     
+    NSManagedObjectContext *managedObjectContext = [CoreDataController sharedCDController].managedObjectContext;
     NSError *fetchError = nil;
     NSFetchRequest *itemFetchRequest = [[NSFetchRequest alloc] initWithEntityName:[Item entityName]];
     itemFetchRequest.predicate = [NSPredicate predicateWithFormat:@"%K == %@", ItemAttributes.name, self.itemName];
-    Item *item = (Item *)[self.managedObjectContext executeFetchRequest:itemFetchRequest error:&fetchError].firstObject;
+    Item *item = (Item *)[managedObjectContext executeFetchRequest:itemFetchRequest error:&fetchError].firstObject;
     
     NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:[MonsterDrop entityName]];
     fetchRequest.predicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterDropRelationships.item, item];
     fetchRequest.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:MonsterDropAttributes.id ascending:YES]];
     
-    self.sources = [self.managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];
+    self.sources = [managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];
     // If the fetch failed (most likely because the item cannot be found from any monsters) ...
     if (!self.sources) {
         // Set sources to empty.
@@ -74,8 +77,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    MonsterDetailsViewController *monsterVC = [storyBoard instantiateViewControllerWithIdentifier:@"MonsterDetailsViewController"];
-    monsterVC.managedObjectContext = self.managedObjectContext;
+    MonsterContainerViewController *monsterVC = [storyBoard instantiateViewControllerWithIdentifier:@"MonsterDetailsViewController"];
     monsterVC.monsterName = [self dropAtIndexPath:indexPath].monsterSource.name;
     [self.navigationController pushViewController:monsterVC animated:YES];
 }

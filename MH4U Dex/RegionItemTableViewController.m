@@ -93,8 +93,6 @@
 {
     UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     ItemContainerViewController *itemVC = [storyBoard instantiateViewControllerWithIdentifier:@"ItemContainerViewController"];
-    CoreDataController *coreDataController = [CoreDataController sharedCDController];
-    itemVC.managedObjectContext = coreDataController.managedObjectContext;
     itemVC.itemName = [self areaDropForIndexPath:indexPath].item.name;
     [self.navigationController pushViewController:itemVC animated:YES];
 }

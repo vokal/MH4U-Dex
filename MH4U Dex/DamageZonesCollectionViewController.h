@@ -10,7 +10,6 @@
 
 @interface DamageZonesCollectionViewController : UICollectionViewController
 
-@property (nonatomic, strong) NSManagedObjectContext *managedObjectContext;
 @property (nonatomic, strong) NSString *monsterName;
 
 @end

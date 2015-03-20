@@ -12,7 +12,6 @@
 
 @interface RegionContainerViewController : UIViewController
 
-@property (nonatomic, strong) NSManagedObjectContext *managedObjectContext;
 @property (nonatomic, strong) Region *region;
 
 @end

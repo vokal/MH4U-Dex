@@ -1,5 +1,5 @@
 //
-//  MonsterDetailsViewController.h
+//  MonsterContainerViewController.h
 //  MH4U Dex
 //
 //  Created by Joseph Goldberg on 2/9/15.
@@ -8,9 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MonsterDetailsViewController : UIViewController
+@interface MonsterContainerViewController : UIViewController
 
-@property (nonatomic, strong) NSManagedObjectContext *managedObjectContext;
 @property (nonatomic, strong) NSString *monsterName;
 
 @end

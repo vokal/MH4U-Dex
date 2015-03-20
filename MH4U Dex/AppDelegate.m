@@ -22,9 +22,6 @@
 {
     CoreDataController *coreDataController = [CoreDataController sharedCDController];
     [coreDataController tryLoadSequence];
-    UINavigationController *rootViewController = (UINavigationController *)self.window.rootViewController;
-    HomeViewController *homeViewController = (HomeViewController *)[rootViewController viewControllers][0];
-    homeViewController.managedObjectContext = coreDataController.managedObjectContext;
     return YES;
 }
 

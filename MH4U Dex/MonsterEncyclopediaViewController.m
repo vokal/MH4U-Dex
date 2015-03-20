@@ -11,8 +11,9 @@
 #import <CoreData/CoreData.h>
 
 #import "Constants.h"
+#import "CoreDataController.h"
 
-#import "MonsterDetailsViewController.h"
+#import "MonsterContainerViewController.h"
 #import "MonsterOverviewViewController.h"
 
 #import "Monster.h"
@@ -38,18 +39,18 @@ typedef NS_ENUM(NSInteger, MonsterEncyclopediaSections) {
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
+    NSManagedObjectContext *managedObjectContext = [CoreDataController sharedCDController].managedObjectContext;
     NSError *fetchError = nil;
     NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:[Monster entityName]];
     fetchRequest.predicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterAttributes.monster_class, MHDMinion];
     fetchRequest.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:MonsterAttributes.sort_name ascending:YES]];
-    self.smallMonsters = [self.managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];
+    self.smallMonsters = [managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];
     if (fetchError) {
         NSLog(@"Error fetching small monster data.");
         NSLog(@"%@, %@", fetchError, fetchError.localizedDescription);
     }
     fetchRequest.predicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterAttributes.monster_class, MHDBoss];
-    self.largeMonsters = [self.managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];
+    self.largeMonsters = [managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];
     if (fetchError) {
         NSLog(@"Error fetching large monster data.");
         NSLog(@"%@, %@", fetchError, fetchError.localizedDescription);
@@ -61,8 +62,7 @@ typedef NS_ENUM(NSInteger, MonsterEncyclopediaSections) {
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if ([segue.identifier isEqualToString:@"showMonsterDetails"]) {
-        MonsterDetailsViewController *detailVC = (MonsterDetailsViewController *)segue.destinationViewController;
-        detailVC.managedObjectContext = self.managedObjectContext;
+        MonsterContainerViewController *detailVC = (MonsterContainerViewController *)segue.destinationViewController;
         if ([sender isMemberOfClass:[MonsterEncyclopediaCell class]]) {
             MonsterEncyclopediaCell *cell = (MonsterEncyclopediaCell *)sender;
             detailVC.monsterName = [self monsterForIndexPath:[self.collectionView indexPathForCell:cell]].name;

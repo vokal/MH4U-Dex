@@ -10,7 +10,6 @@
 
 @interface MonsterItemTableViewController : UITableViewController
 
-@property (nonatomic, strong) NSManagedObjectContext *managedObjectContext;
 @property (nonatomic, strong) NSString *monsterName;
 @property (nonatomic, strong) NSString *rank;
 

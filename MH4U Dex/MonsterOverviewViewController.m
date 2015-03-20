@@ -36,7 +36,6 @@
     if ([segue.identifier isEqualToString:@"embedDamageZones"]) {
         DamageZonesCollectionViewController *damageVC = (DamageZonesCollectionViewController *)segue.destinationViewController;
         damageVC.monsterName = self.monsterName;
-        damageVC.managedObjectContext = self.managedObjectContext;
     }
 }
 

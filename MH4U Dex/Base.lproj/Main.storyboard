@@ -529,7 +529,7 @@
         <!--Monster Details-->
         <scene sceneID="J3X-KY-ARg">
             <objects>
-                <viewController storyboardIdentifier="MonsterDetailsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="2UP-qa-Qp3" userLabel="Monster Details" customClass="MonsterDetailsViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MonsterDetailsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="2UP-qa-Qp3" userLabel="Monster Details" customClass="MonsterContainerViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2DX-GU-ruT"/>
                         <viewControllerLayoutGuide type="bottom" id="fmB-Sh-Qwq"/>

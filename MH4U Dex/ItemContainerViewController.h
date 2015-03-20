@@ -10,7 +10,6 @@
 
 @interface ItemContainerViewController : UIViewController
 
-@property (nonatomic, strong) NSManagedObjectContext *managedObjectContext;
 @property (nonatomic, strong) NSString *itemName;
 
 @end

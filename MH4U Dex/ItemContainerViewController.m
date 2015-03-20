@@ -56,11 +56,9 @@ typedef NS_ENUM(NSInteger, ItemSegmentedControlPage) {
 {
     if ([segue.identifier isEqualToString:@"embedMonsterSources"]) {
         ItemMonsterSourcesTableViewController *dropVC = (ItemMonsterSourcesTableViewController *)segue.destinationViewController;
-        dropVC.managedObjectContext = self.managedObjectContext;
         dropVC.itemName = self.itemName;
     } else if ([segue.identifier isEqualToString:@"embedAreaSources"]) {
         ItemAreaSourcesTableViewController *dropVC = (ItemAreaSourcesTableViewController *)segue.destinationViewController;
-        dropVC.managedObjectContext = self.managedObjectContext;
         dropVC.itemName = self.itemName;
     }
 }

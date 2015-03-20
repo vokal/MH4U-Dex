@@ -10,6 +10,8 @@
 
 #import <CoreData/CoreData.h>
 
+#import "CoreDataController.h"
+
 #import "DamageZone.h"
 
 #import "DamageZoneCell.h"
@@ -38,7 +40,7 @@ typedef NS_ENUM(NSInteger, DamageZoneSections) {
     NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:[DamageZone entityName]];
     fetchRequest.predicate = [NSPredicate predicateWithFormat:@"%K == %@", DamageZoneAttributes.monsterName, self.monsterName];
     fetchRequest.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:DamageZoneAttributes.id ascending:YES]];
-    self.damageZones = [self.managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];
+    self.damageZones = [[CoreDataController sharedCDController].managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];
 }
 
 #pragma mark <UICollectionViewDataSource>
