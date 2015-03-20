@@ -19,14 +19,14 @@ NSString *const GConstString = @"G";
 #pragma mark - Item Constants
 
 NSString *const ItemNameKey = @"name";
-NSString *const ItemEncyclopedia = @"Item Encyclopedia";
+NSString *const ItemEncyclopedia = NSLocalizedString(@"Item Encyclopedia", @"Item Encyclopedia");
 
 #pragma mark - Monster Constants
 
 NSString *const MonsterIDKey = @"id";
 NSString *const MonstersFileName = @"monsters";
 NSString *const MonsterDamageZonesFileName = @"damageZones";
-NSString *const MonsterEncyclopedia = @"Monster Encyclopedia";
+NSString *const MonsterEncyclopedia = NSLocalizedString(@"Monster Encyclopedia", @"Monster Encyclopedia");
 NSString *const Boss = @"Boss";
 NSString *const Minion = @"Minion";
 
@@ -41,7 +41,7 @@ NSString *const RegionIDJSONKey = @"_id";
 NSString *const RegionNameKey = @"region_name";
 NSString *const RegionKeyNameKey = @"keyName";
 NSString *const RegionDropsFileNameSuffix = @"_drops";
-NSString *const RegionEncyclopedia = @"Region Encyclopedia";
+NSString *const RegionEncyclopedia = NSLocalizedString(@"Region Encyclopedia", @"Region Encyclopedia");
 
 #pragma mark - Quest Constants
 
@@ -101,15 +101,15 @@ NSString *const AreaDropItemNameKey = @"item";
 
 #pragma mark - Damage Zone Cell Constants
 
-NSString *const BodyPartLabelText = @"Body Part";
-NSString *const CutLabelText = @"Cut";
-NSString *const ImpactLabelText = @"Impact";
-NSString *const ShotLabelText = @"Shot";
-NSString *const KOLabelText = @"KO";
-NSString *const FireLabelText = @"Fire";
-NSString *const IceLabelText = @"Ice";
-NSString *const DragonLabelText = @"Dragon";
-NSString *const WaterLabelText = @"Water";
-NSString *const ThunderLabelText = @"Thunder";
+NSString *const BodyPartLabelText = NSLocalizedString(@"Body Part", @"Body Part");
+NSString *const CutLabelText = NSLocalizedString(@"Cut", @"Cut");
+NSString *const ImpactLabelText = NSLocalizedString(@"Impact", @"Impact");
+NSString *const ShotLabelText = NSLocalizedString(@"Shot", @"Shot");
+NSString *const KOLabelText = NSLocalizedString(@"KO", @"KO");
+NSString *const FireLabelText = NSLocalizedString(@"Fire", @"Fire");
+NSString *const IceLabelText = NSLocalizedString(@"Ice", @"Ice");
+NSString *const DragonLabelText = NSLocalizedString(@"Dragon", @"Dragon");
+NSString *const WaterLabelText = NSLocalizedString(@"Water", @"Water");
+NSString *const ThunderLabelText = NSLocalizedString(@"Thunder", @"Thunder");
 
 @end
