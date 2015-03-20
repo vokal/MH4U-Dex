@@ -10,106 +10,91 @@
 
 @implementation Constants
 
-NSString *const JSON = @"json";
-NSString *const TrueString = @"TRUE";
-NSString *const LowConstString = @"Low";
-NSString *const HighConstString = @"High";
-NSString *const GConstString = @"G";
+NSString *const MHDJSON = @"json";
+NSString *const MHDTrueString = @"TRUE";
+NSString *const MHDLowConstString = @"Low";
+NSString *const MHDHighConstString = @"High";
+NSString *const MHDGConstString = @"G";
 
 #pragma mark - Item Constants
 
-NSString *const ItemNameKey = @"name";
-NSString *const ItemEncyclopedia = NSLocalizedString(@"Item Encyclopedia", @"Item Encyclopedia");
+NSString *const MHDItemNameKey = @"name";
+
 
 #pragma mark - Monster Constants
 
-NSString *const MonsterIDKey = @"id";
-NSString *const MonstersFileName = @"monsters";
-NSString *const MonsterDamageZonesFileName = @"damageZones";
-NSString *const MonsterEncyclopedia = NSLocalizedString(@"Monster Encyclopedia", @"Monster Encyclopedia");
-NSString *const Boss = @"Boss";
-NSString *const Minion = @"Minion";
+NSString *const MHDMonsterIDKey = @"id";
+NSString *const MHDMonstersFileName = @"monsters";
+NSString *const MHDMonsterDamageZonesFileName = @"damageZones";
+NSString *const MHDBoss = @"Boss";
+NSString *const MHDMinion = @"Minion";
 
 #pragma mark - Area Constants
 
-NSString *const AreaCombinedNameKey = @"combinedName";
+NSString *const MHDAreaCombinedNameKey = @"combinedName";
 
 #pragma mark - Region Constants
 
-NSString *const RegionsFileName = @"regions";
-NSString *const RegionIDJSONKey = @"_id";
-NSString *const RegionNameKey = @"region_name";
-NSString *const RegionKeyNameKey = @"keyName";
-NSString *const RegionDropsFileNameSuffix = @"_drops";
-NSString *const RegionEncyclopedia = NSLocalizedString(@"Region Encyclopedia", @"Region Encyclopedia");
+NSString *const MHDRegionsFileName = @"regions";
+NSString *const MHDRegionIDJSONKey = @"_id";
+NSString *const MHDRegionNameKey = @"region_name";
+NSString *const MHDRegionKeyNameKey = @"keyName";
+NSString *const MHDRegionDropsFileNameSuffix = @"_drops";
 
 #pragma mark - Quest Constants
 
-NSString *const QuestsFileName = @"quests";
-NSString *const QuestIDKey = @"unique_id";
-NSString *const QuestNameKey = @"name";
-NSString *const QuestCaravanHallKey = @"caravan/hall";
-NSString *const QuestDangerKey = @"danger";
-NSString *const QuestFeeKey = @"fee";
-NSString *const QuestHRPKey = @"hrp";
-NSString *const QuestMapKeyNameKey = @"map";
-NSString *const QuestKeyIndicatorKey = @"key";
-NSString *const QuestObjectiveKey = @"objective";
-NSString *const QuestRewardKey = @"reward";
-NSString *const QuestStarsKey = @"stars";
-NSString *const QuestSubQuestObjectiveKey = @"subquest";
-NSString *const QuestFirstMonsterKey = @"target";
-NSString *const QuestSecondMonsterKey = @"second_target";
-NSString *const QuestThirdMonsterKey = @"third_target";
-NSString *const QuestFourthMonsterKey = @"fourth_target";
-NSString *const QuestTypeKey = @"type";
-NSString *const QuestUrgentKey = @"urgent";
-NSString *const QuestCaravanKey = @"caravan";
-NSString *const QuestNoneString = @"None";
+NSString *const MHDQuestsFileName = @"quests";
+NSString *const MHDQuestIDKey = @"unique_id";
+NSString *const MHDQuestNameKey = @"name";
+NSString *const MHDQuestCaravanHallKey = @"caravan/hall";
+NSString *const MHDQuestDangerKey = @"danger";
+NSString *const MHDQuestFeeKey = @"fee";
+NSString *const MHDQuestHRPKey = @"hrp";
+NSString *const MHDQuestMapKeyNameKey = @"map";
+NSString *const MHDQuestKeyIndicatorKey = @"key";
+NSString *const MHDQuestObjectiveKey = @"objective";
+NSString *const MHDQuestRewardKey = @"reward";
+NSString *const MHDQuestStarsKey = @"stars";
+NSString *const MHDQuestSubQuestObjectiveKey = @"subquest";
+NSString *const MHDQuestFirstMonsterKey = @"target";
+NSString *const MHDQuestSecondMonsterKey = @"second_target";
+NSString *const MHDQuestThirdMonsterKey = @"third_target";
+NSString *const MHDQuestFourthMonsterKey = @"fourth_target";
+NSString *const MHDQuestTypeKey = @"type";
+NSString *const MHDQuestUrgentKey = @"urgent";
+NSString *const MHDQuestCaravanKey = @"caravan";
+NSString *const MHDQuestNoneString = @"None";
 
 #pragma mark - Quest Drop Constants
 
-NSString *const QuestDropsFileName = @"quest_drops";
-NSString *const QuestDropIDKey = @"dropID";
-NSString *const QuestDropQuestIDKey = @"questID";
-NSString *const QuestDropRowKey = @"row";
-NSString *const QuestDropItemNameKey = @"item";
-NSString *const QuestDropQuantityKey = @"quantity";
-NSString *const QuestDropPercentKey = @"percent";
+NSString *const MHDQuestDropsFileName = @"quest_drops";
+NSString *const MHDQuestDropIDKey = @"dropID";
+NSString *const MHDQuestDropQuestIDKey = @"questID";
+NSString *const MHDQuestDropRowKey = @"row";
+NSString *const MHDQuestDropItemNameKey = @"item";
+NSString *const MHDQuestDropQuantityKey = @"quantity";
+NSString *const MHDQuestDropPercentKey = @"percent";
 
 #pragma mark - Monster Drop Constants
 
-NSString *const MonsterDropsFileName = @"monsterDrops";
-NSString *const MonsterDropIDKey = @"id";
-NSString *const MonsterDropMethodKey = @"method";
-NSString *const MonsterDropQuantityKey = @"quantity";
-NSString *const MonsterDropRankKey = @"rank";
-NSString *const MonsterDropPercentKey = @"percent";
-NSString *const MonsterDropMonsterNameKey = @"monster_name";
-NSString *const MonsterDropMonsterIDKey = @"monster_id";
-NSString *const MonsterDropItemNameKey = @"item_name";
+NSString *const MHDMonsterDropsFileName = @"monsterDrops";
+NSString *const MHDMonsterDropIDKey = @"id";
+NSString *const MHDMonsterDropMethodKey = @"method";
+NSString *const MHDMonsterDropQuantityKey = @"quantity";
+NSString *const MHDMonsterDropRankKey = @"rank";
+NSString *const MHDMonsterDropPercentKey = @"percent";
+NSString *const MHDMonsterDropMonsterNameKey = @"monster_name";
+NSString *const MHDMonsterDropMonsterIDKey = @"monster_id";
+NSString *const MHDMonsterDropItemNameKey = @"item_name";
 
 #pragma mark - Area Drop Constants
 
-NSString *const AreaDropAreaNameKey = @"area";
-NSString *const AreaDropRankKey = @"rank";
-NSString *const AreaDropIDKey = @"_id";
-NSString *const AreaDropMethodKey = @"method";
-NSString *const AreaDropPercentKey = @"chance";
-NSString *const AreaDropQuantityKey = @"number";
-NSString *const AreaDropItemNameKey = @"item";
-
-#pragma mark - Damage Zone Cell Constants
-
-NSString *const BodyPartLabelText = NSLocalizedString(@"Body Part", @"Body Part");
-NSString *const CutLabelText = NSLocalizedString(@"Cut", @"Cut");
-NSString *const ImpactLabelText = NSLocalizedString(@"Impact", @"Impact");
-NSString *const ShotLabelText = NSLocalizedString(@"Shot", @"Shot");
-NSString *const KOLabelText = NSLocalizedString(@"KO", @"KO");
-NSString *const FireLabelText = NSLocalizedString(@"Fire", @"Fire");
-NSString *const IceLabelText = NSLocalizedString(@"Ice", @"Ice");
-NSString *const DragonLabelText = NSLocalizedString(@"Dragon", @"Dragon");
-NSString *const WaterLabelText = NSLocalizedString(@"Water", @"Water");
-NSString *const ThunderLabelText = NSLocalizedString(@"Thunder", @"Thunder");
+NSString *const MHDAreaDropAreaNameKey = @"area";
+NSString *const MHDAreaDropRankKey = @"rank";
+NSString *const MHDAreaDropIDKey = @"_id";
+NSString *const MHDAreaDropMethodKey = @"method";
+NSString *const MHDAreaDropPercentKey = @"chance";
+NSString *const MHDAreaDropQuantityKey = @"number";
+NSString *const MHDAreaDropItemNameKey = @"item";
 
 @end

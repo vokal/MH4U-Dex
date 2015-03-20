@@ -19,14 +19,12 @@ FOUNDATION_EXPORT NSString *const MHDGConstString;
 #pragma mark - Item Constants
 
 FOUNDATION_EXPORT NSString *const MHDItemNameKey;
-FOUNDATION_EXPORT NSString *const MHDItemEncyclopedia;
 
 #pragma mark - Monster Constants
 
 FOUNDATION_EXPORT NSString *const MHDMonsterIDKey;
 FOUNDATION_EXPORT NSString *const MHDMonstersFileName;
 FOUNDATION_EXPORT NSString *const MHDMonsterDamageZonesFileName;
-FOUNDATION_EXPORT NSString *const MHDMonsterEncyclopedia;
 FOUNDATION_EXPORT NSString *const MHDBoss;
 FOUNDATION_EXPORT NSString *const MHDMinion;
 
@@ -41,7 +39,6 @@ FOUNDATION_EXPORT NSString *const MHDRegionIDJSONKey;
 FOUNDATION_EXPORT NSString *const MHDRegionNameKey;
 FOUNDATION_EXPORT NSString *const MHDRegionKeyNameKey;
 FOUNDATION_EXPORT NSString *const MHDRegionDropsFileNameSuffix;
-FOUNDATION_EXPORT NSString *const MHDRegionEncyclopedia;
 
 #pragma mark - Quest Constants
 
@@ -98,18 +95,5 @@ FOUNDATION_EXPORT NSString *const MHDAreaDropMethodKey;
 FOUNDATION_EXPORT NSString *const MHDAreaDropPercentKey;
 FOUNDATION_EXPORT NSString *const MHDAreaDropQuantityKey;
 FOUNDATION_EXPORT NSString *const MHDAreaDropItemNameKey;
-
-#pragma mark - Damage Zone Cell Constants
-
-FOUNDATION_EXPORT NSString *const MHDBodyPartLabelText;
-FOUNDATION_EXPORT NSString *const MHDCutLabelText;
-FOUNDATION_EXPORT NSString *const MHDImpactLabelText;
-FOUNDATION_EXPORT NSString *const MHDShotLabelText;
-FOUNDATION_EXPORT NSString *const MHDKOLabelText;
-FOUNDATION_EXPORT NSString *const MHDFireLabelText;
-FOUNDATION_EXPORT NSString *const MHDIceLabelText;
-FOUNDATION_EXPORT NSString *const MHDDragonLabelText;
-FOUNDATION_EXPORT NSString *const MHDWaterLabelText;
-FOUNDATION_EXPORT NSString *const MHDThunderLabelText;
 
 @end

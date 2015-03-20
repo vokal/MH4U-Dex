@@ -41,14 +41,14 @@ typedef NS_ENUM(NSInteger, MonsterEncyclopediaSections) {
 
     NSError *fetchError = nil;
     NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:[Monster entityName]];
-    fetchRequest.predicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterAttributes.monster_class, Minion];
+    fetchRequest.predicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterAttributes.monster_class, MHDMinion];
     fetchRequest.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:MonsterAttributes.sort_name ascending:YES]];
     self.smallMonsters = [self.managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];
     if (fetchError) {
         NSLog(@"Error fetching small monster data.");
         NSLog(@"%@, %@", fetchError, fetchError.localizedDescription);
     }
-    fetchRequest.predicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterAttributes.monster_class, Boss];
+    fetchRequest.predicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterAttributes.monster_class, MHDBoss];
     self.largeMonsters = [self.managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];
     if (fetchError) {
         NSLog(@"Error fetching large monster data.");

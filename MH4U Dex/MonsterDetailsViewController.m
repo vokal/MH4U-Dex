@@ -82,11 +82,11 @@ typedef NS_ENUM(NSInteger, MonsterSegmentedControlPage) {
         itemVC.managedObjectContext = self.managedObjectContext;
         itemVC.monsterName = self.monsterName;
         if ([segue.identifier isEqualToString:@"embedLowRank"]) {
-            itemVC.rank = LowConstString;
+            itemVC.rank = MHDLowConstString;
         } else if ([segue.identifier isEqualToString:@"embedHighRank"]) {
-            itemVC.rank = HighConstString;
+            itemVC.rank = MHDHighConstString;
         } else if ([segue.identifier isEqualToString:@"embedGRank"]) {
-            itemVC.rank = GConstString;
+            itemVC.rank = MHDGConstString;
         }
     }
 }

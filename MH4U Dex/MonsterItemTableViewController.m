@@ -10,7 +10,7 @@
 
 #import <CoreData/CoreData.h>
 
-#import "Constants.h"
+#import "Strings.h"
 
 #import "ItemContainerViewController.h"
 #import "MonsterEncyclopediaViewController.h"
@@ -53,7 +53,7 @@
     if ([segue.identifier isEqualToString:@"showMonsterEncyclopedia"]) {
         MonsterEncyclopediaViewController *monsterVC = (MonsterEncyclopediaViewController *)segue.destinationViewController;
         monsterVC.managedObjectContext = self.managedObjectContext;
-        monsterVC.navigationItem.title = MonsterEncyclopedia;
+        monsterVC.navigationItem.title = [Strings MHDMonsterEncyclopedia];
     }
 }
 

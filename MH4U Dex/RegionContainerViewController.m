@@ -55,11 +55,11 @@ typedef NS_ENUM(NSInteger, RegionSegmentedControlPage) {
     dropVC.region = self.region;  // This is a much cleaner way to handle these transitions.
     
     if ([segue.identifier isEqualToString:@"embedLowRankRegionItems"]) {
-        dropVC.rank = LowConstString;
+        dropVC.rank = MHDLowConstString;
     } else if ([segue.identifier isEqualToString:@"embedHighRankRegionItems"]) {
-        dropVC.rank = HighConstString;
+        dropVC.rank = MHDHighConstString;
     } else if ([segue.identifier isEqualToString:@"embedGRankRegionItems"]) {
-        dropVC.rank = GConstString;
+        dropVC.rank = MHDGConstString;
     }
 }
 
