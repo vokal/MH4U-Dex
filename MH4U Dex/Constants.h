@@ -10,106 +10,106 @@
 
 @interface Constants : NSObject
 
-FOUNDATION_EXPORT NSString *const JSON;
-FOUNDATION_EXPORT NSString *const TrueString;
-FOUNDATION_EXPORT NSString *const LowConstString;
-FOUNDATION_EXPORT NSString *const HighConstString;
-FOUNDATION_EXPORT NSString *const GConstString;
+FOUNDATION_EXPORT NSString *const MHDJSON;
+FOUNDATION_EXPORT NSString *const MHDTrueString;
+FOUNDATION_EXPORT NSString *const MHDLowConstString;
+FOUNDATION_EXPORT NSString *const MHDHighConstString;
+FOUNDATION_EXPORT NSString *const MHDGConstString;
 
 #pragma mark - Item Constants
 
-FOUNDATION_EXPORT NSString *const ItemNameKey;
-FOUNDATION_EXPORT NSString *const ItemEncyclopedia;
+FOUNDATION_EXPORT NSString *const MHDItemNameKey;
+FOUNDATION_EXPORT NSString *const MHDItemEncyclopedia;
 
 #pragma mark - Monster Constants
 
-FOUNDATION_EXPORT NSString *const MonsterIDKey;
-FOUNDATION_EXPORT NSString *const MonstersFileName;
-FOUNDATION_EXPORT NSString *const MonsterDamageZonesFileName;
-FOUNDATION_EXPORT NSString *const MonsterEncyclopedia;
-FOUNDATION_EXPORT NSString *const Boss;
-FOUNDATION_EXPORT NSString *const Minion;
+FOUNDATION_EXPORT NSString *const MHDMonsterIDKey;
+FOUNDATION_EXPORT NSString *const MHDMonstersFileName;
+FOUNDATION_EXPORT NSString *const MHDMonsterDamageZonesFileName;
+FOUNDATION_EXPORT NSString *const MHDMonsterEncyclopedia;
+FOUNDATION_EXPORT NSString *const MHDBoss;
+FOUNDATION_EXPORT NSString *const MHDMinion;
 
 #pragma mark - Area Constants
 
-FOUNDATION_EXPORT NSString *const AreaCombinedNameKey;
+FOUNDATION_EXPORT NSString *const MHDAreaCombinedNameKey;
 
 #pragma mark - Region Constants
 
-FOUNDATION_EXPORT NSString *const RegionsFileName;
-FOUNDATION_EXPORT NSString *const RegionIDJSONKey;
-FOUNDATION_EXPORT NSString *const RegionNameKey;
-FOUNDATION_EXPORT NSString *const RegionKeyNameKey;
-FOUNDATION_EXPORT NSString *const RegionDropsFileNameSuffix;
-FOUNDATION_EXPORT NSString *const RegionEncyclopedia;
+FOUNDATION_EXPORT NSString *const MHDRegionsFileName;
+FOUNDATION_EXPORT NSString *const MHDRegionIDJSONKey;
+FOUNDATION_EXPORT NSString *const MHDRegionNameKey;
+FOUNDATION_EXPORT NSString *const MHDRegionKeyNameKey;
+FOUNDATION_EXPORT NSString *const MHDRegionDropsFileNameSuffix;
+FOUNDATION_EXPORT NSString *const MHDRegionEncyclopedia;
 
 #pragma mark - Quest Constants
 
-FOUNDATION_EXPORT NSString *const QuestsFileName;
-FOUNDATION_EXPORT NSString *const QuestIDKey;
-FOUNDATION_EXPORT NSString *const QuestNameKey;
-FOUNDATION_EXPORT NSString *const QuestCaravanHallKey;
-FOUNDATION_EXPORT NSString *const QuestDangerKey;
-FOUNDATION_EXPORT NSString *const QuestFeeKey;
-FOUNDATION_EXPORT NSString *const QuestHRPKey;
-FOUNDATION_EXPORT NSString *const QuestMapKeyNameKey;
-FOUNDATION_EXPORT NSString *const QuestKeyIndicatorKey;
-FOUNDATION_EXPORT NSString *const QuestObjectiveKey;
-FOUNDATION_EXPORT NSString *const QuestRewardKey;
-FOUNDATION_EXPORT NSString *const QuestStarsKey;
-FOUNDATION_EXPORT NSString *const QuestSubQuestObjectiveKey;
-FOUNDATION_EXPORT NSString *const QuestFirstMonsterKey;
-FOUNDATION_EXPORT NSString *const QuestSecondMonsterKey;
-FOUNDATION_EXPORT NSString *const QuestThirdMonsterKey;
-FOUNDATION_EXPORT NSString *const QuestFourthMonsterKey;
-FOUNDATION_EXPORT NSString *const QuestTypeKey;
-FOUNDATION_EXPORT NSString *const QuestUrgentKey;
-FOUNDATION_EXPORT NSString *const QuestCaravanKey;
-FOUNDATION_EXPORT NSString *const QuestNoneString;
+FOUNDATION_EXPORT NSString *const MHDQuestsFileName;
+FOUNDATION_EXPORT NSString *const MHDQuestIDKey;
+FOUNDATION_EXPORT NSString *const MHDQuestNameKey;
+FOUNDATION_EXPORT NSString *const MHDQuestCaravanHallKey;
+FOUNDATION_EXPORT NSString *const MHDQuestDangerKey;
+FOUNDATION_EXPORT NSString *const MHDQuestFeeKey;
+FOUNDATION_EXPORT NSString *const MHDQuestHRPKey;
+FOUNDATION_EXPORT NSString *const MHDQuestMapKeyNameKey;
+FOUNDATION_EXPORT NSString *const MHDQuestKeyIndicatorKey;
+FOUNDATION_EXPORT NSString *const MHDQuestObjectiveKey;
+FOUNDATION_EXPORT NSString *const MHDQuestRewardKey;
+FOUNDATION_EXPORT NSString *const MHDQuestStarsKey;
+FOUNDATION_EXPORT NSString *const MHDQuestSubQuestObjectiveKey;
+FOUNDATION_EXPORT NSString *const MHDQuestFirstMonsterKey;
+FOUNDATION_EXPORT NSString *const MHDQuestSecondMonsterKey;
+FOUNDATION_EXPORT NSString *const MHDQuestThirdMonsterKey;
+FOUNDATION_EXPORT NSString *const MHDQuestFourthMonsterKey;
+FOUNDATION_EXPORT NSString *const MHDQuestTypeKey;
+FOUNDATION_EXPORT NSString *const MHDQuestUrgentKey;
+FOUNDATION_EXPORT NSString *const MHDQuestCaravanKey;
+FOUNDATION_EXPORT NSString *const MHDQuestNoneString;
 
 #pragma mark - Quest Drop Constants
 
-FOUNDATION_EXPORT NSString *const QuestDropsFileName;
-FOUNDATION_EXPORT NSString *const QuestDropIDKey;
-FOUNDATION_EXPORT NSString *const QuestDropQuestIDKey;
-FOUNDATION_EXPORT NSString *const QuestDropRowKey;
-FOUNDATION_EXPORT NSString *const QuestDropItemNameKey;
-FOUNDATION_EXPORT NSString *const QuestDropQuantityKey;
-FOUNDATION_EXPORT NSString *const QuestDropPercentKey;
+FOUNDATION_EXPORT NSString *const MHDQuestDropsFileName;
+FOUNDATION_EXPORT NSString *const MHDQuestDropIDKey;
+FOUNDATION_EXPORT NSString *const MHDQuestDropQuestIDKey;
+FOUNDATION_EXPORT NSString *const MHDQuestDropRowKey;
+FOUNDATION_EXPORT NSString *const MHDQuestDropItemNameKey;
+FOUNDATION_EXPORT NSString *const MHDQuestDropQuantityKey;
+FOUNDATION_EXPORT NSString *const MHDQuestDropPercentKey;
 
 #pragma mark - Monster Drop Constants
 
-FOUNDATION_EXPORT NSString *const MonsterDropsFileName;
-FOUNDATION_EXPORT NSString *const MonsterDropIDKey;
-FOUNDATION_EXPORT NSString *const MonsterDropMethodKey;
-FOUNDATION_EXPORT NSString *const MonsterDropQuantityKey;
-FOUNDATION_EXPORT NSString *const MonsterDropRankKey;
-FOUNDATION_EXPORT NSString *const MonsterDropPercentKey;
-FOUNDATION_EXPORT NSString *const MonsterDropMonsterNameKey;
-FOUNDATION_EXPORT NSString *const MonsterDropMonsterIDKey;
-FOUNDATION_EXPORT NSString *const MonsterDropItemNameKey;
+FOUNDATION_EXPORT NSString *const MHDMonsterDropsFileName;
+FOUNDATION_EXPORT NSString *const MHDMonsterDropIDKey;
+FOUNDATION_EXPORT NSString *const MHDMonsterDropMethodKey;
+FOUNDATION_EXPORT NSString *const MHDMonsterDropQuantityKey;
+FOUNDATION_EXPORT NSString *const MHDMonsterDropRankKey;
+FOUNDATION_EXPORT NSString *const MHDMonsterDropPercentKey;
+FOUNDATION_EXPORT NSString *const MHDMonsterDropMonsterNameKey;
+FOUNDATION_EXPORT NSString *const MHDMonsterDropMonsterIDKey;
+FOUNDATION_EXPORT NSString *const MHDMonsterDropItemNameKey;
 
 #pragma mark - Area Drop Constants
 
-FOUNDATION_EXPORT NSString *const AreaDropAreaNameKey;
-FOUNDATION_EXPORT NSString *const AreaDropRankKey;
-FOUNDATION_EXPORT NSString *const AreaDropIDKey;
-FOUNDATION_EXPORT NSString *const AreaDropMethodKey;
-FOUNDATION_EXPORT NSString *const AreaDropPercentKey;
-FOUNDATION_EXPORT NSString *const AreaDropQuantityKey;
-FOUNDATION_EXPORT NSString *const AreaDropItemNameKey;
+FOUNDATION_EXPORT NSString *const MHDAreaDropAreaNameKey;
+FOUNDATION_EXPORT NSString *const MHDAreaDropRankKey;
+FOUNDATION_EXPORT NSString *const MHDAreaDropIDKey;
+FOUNDATION_EXPORT NSString *const MHDAreaDropMethodKey;
+FOUNDATION_EXPORT NSString *const MHDAreaDropPercentKey;
+FOUNDATION_EXPORT NSString *const MHDAreaDropQuantityKey;
+FOUNDATION_EXPORT NSString *const MHDAreaDropItemNameKey;
 
 #pragma mark - Damage Zone Cell Constants
 
-FOUNDATION_EXPORT NSString *const BodyPartLabelText;
-FOUNDATION_EXPORT NSString *const CutLabelText;
-FOUNDATION_EXPORT NSString *const ImpactLabelText;
-FOUNDATION_EXPORT NSString *const ShotLabelText;
-FOUNDATION_EXPORT NSString *const KOLabelText;
-FOUNDATION_EXPORT NSString *const FireLabelText;
-FOUNDATION_EXPORT NSString *const IceLabelText;
-FOUNDATION_EXPORT NSString *const DragonLabelText;
-FOUNDATION_EXPORT NSString *const WaterLabelText;
-FOUNDATION_EXPORT NSString *const ThunderLabelText;
+FOUNDATION_EXPORT NSString *const MHDBodyPartLabelText;
+FOUNDATION_EXPORT NSString *const MHDCutLabelText;
+FOUNDATION_EXPORT NSString *const MHDImpactLabelText;
+FOUNDATION_EXPORT NSString *const MHDShotLabelText;
+FOUNDATION_EXPORT NSString *const MHDKOLabelText;
+FOUNDATION_EXPORT NSString *const MHDFireLabelText;
+FOUNDATION_EXPORT NSString *const MHDIceLabelText;
+FOUNDATION_EXPORT NSString *const MHDDragonLabelText;
+FOUNDATION_EXPORT NSString *const MHDWaterLabelText;
+FOUNDATION_EXPORT NSString *const MHDThunderLabelText;
 
 @end
