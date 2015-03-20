@@ -23,9 +23,12 @@ NSString *const MHDItemNameKey = @"name";
 
 #pragma mark - Monster Constants
 
-NSString *const MHDMonsterIDKey = @"id";
-NSString *const MHDMonstersFileName = @"monsters";
+NSString *const MHDMonsterDescriptionKey = @"description";
+NSString *const MHDMonsterNameKey = @"name";
+NSString *const MHDMonsterSortNameKey = @"sort_name";
+NSString *const MHDMonstersFileName = @"monster_list";
 NSString *const MHDMonsterDamageZonesFileName = @"damageZones";
+NSString *const MHDMonsterClassKey = @"class";
 NSString *const MHDBoss = @"Boss";
 NSString *const MHDMinion = @"Minion";
 
@@ -77,14 +80,13 @@ NSString *const MHDQuestDropPercentKey = @"percent";
 
 #pragma mark - Monster Drop Constants
 
-NSString *const MHDMonsterDropsFileName = @"monsterDrops";
-NSString *const MHDMonsterDropIDKey = @"id";
+NSString *const MHDMonsterDropsFileName = @"monster_drops";
+NSString *const MHDMonsterDropIDKey = @"dropID";
 NSString *const MHDMonsterDropMethodKey = @"method";
 NSString *const MHDMonsterDropQuantityKey = @"quantity";
 NSString *const MHDMonsterDropRankKey = @"rank";
 NSString *const MHDMonsterDropPercentKey = @"percent";
 NSString *const MHDMonsterDropMonsterNameKey = @"monster_name";
-NSString *const MHDMonsterDropMonsterIDKey = @"monster_id";
 NSString *const MHDMonsterDropItemNameKey = @"item_name";
 
 #pragma mark - Area Drop Constants

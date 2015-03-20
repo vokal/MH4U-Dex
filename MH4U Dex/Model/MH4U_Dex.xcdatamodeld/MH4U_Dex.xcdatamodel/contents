@@ -72,16 +72,12 @@
         <relationship name="weaponUse" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Weapon" inverseName="material" inverseEntity="Weapon" syncable="YES"/>
     </entity>
     <entity name="Monster" representedClassName="Monster" syncable="YES">
-        <attribute name="icon" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
-        <attribute name="jpn_name" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="monster_class" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="monster_description" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="sort_name" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="trait" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="damageZone" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DamageZone" inverseName="monster" inverseEntity="DamageZone" syncable="YES"/>
-        <relationship name="drop" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="MonsterDrop" inverseName="monsterSource" inverseEntity="MonsterDrop" syncable="YES"/>
+        <relationship name="monsterDrop" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="MonsterDrop" inverseName="monsterSource" inverseEntity="MonsterDrop" syncable="YES"/>
         <relationship name="questFirstTarget" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Quest" inverseName="firstMonster" inverseEntity="Quest" syncable="YES"/>
         <relationship name="questFourthTarget" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Quest" inverseName="fourthMonster" inverseEntity="Quest" syncable="YES"/>
         <relationship name="questSecondTarget" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Quest" inverseName="secondMonster" inverseEntity="Quest" syncable="YES"/>
@@ -94,7 +90,7 @@
         <attribute name="quantity" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="rank" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="item" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Item" inverseName="monsterSource" inverseEntity="Item" syncable="YES"/>
-        <relationship name="monsterSource" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Monster" inverseName="drop" inverseEntity="Monster" syncable="YES"/>
+        <relationship name="monsterSource" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Monster" inverseName="monsterDrop" inverseEntity="Monster" syncable="YES"/>
     </entity>
     <entity name="Quest" representedClassName="Quest" syncable="YES">
         <attribute name="caravan" optional="YES" attributeType="Boolean" syncable="YES"/>
@@ -148,21 +144,21 @@
     </entity>
     <fetchRequest name="FetchRequest" entity="MonsterDrop" predicateString="rank CONTAINS &quot;&quot;"/>
     <elements>
-        <element name="Area" positionX="0" positionY="0" width="0" height="0"/>
-        <element name="AreaDrop" positionX="0" positionY="0" width="0" height="0"/>
-        <element name="Armor" positionX="0" positionY="0" width="0" height="0"/>
-        <element name="ArmorSet" positionX="0" positionY="0" width="0" height="0"/>
-        <element name="Combination" positionX="0" positionY="0" width="0" height="0"/>
-        <element name="DamageZone" positionX="0" positionY="0" width="0" height="0"/>
-        <element name="Decoration" positionX="0" positionY="0" width="0" height="0"/>
-        <element name="Item" positionX="0" positionY="0" width="0" height="0"/>
-        <element name="Monster" positionX="0" positionY="0" width="0" height="0"/>
-        <element name="MonsterDrop" positionX="0" positionY="0" width="0" height="0"/>
-        <element name="Quest" positionX="0" positionY="0" width="0" height="0"/>
-        <element name="QuestDrop" positionX="0" positionY="0" width="0" height="0"/>
-        <element name="Region" positionX="0" positionY="0" width="0" height="0"/>
-        <element name="Skilltree" positionX="0" positionY="0" width="0" height="0"/>
-        <element name="Trade" positionX="0" positionY="0" width="0" height="0"/>
-        <element name="Weapon" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Area" positionX="0" positionY="0" width="128" height="120"/>
+        <element name="AreaDrop" positionX="0" positionY="0" width="128" height="150"/>
+        <element name="Armor" positionX="0" positionY="0" width="128" height="135"/>
+        <element name="ArmorSet" positionX="0" positionY="0" width="128" height="75"/>
+        <element name="Combination" positionX="0" positionY="0" width="128" height="105"/>
+        <element name="DamageZone" positionX="0" positionY="0" width="128" height="285"/>
+        <element name="Decoration" positionX="0" positionY="0" width="128" height="90"/>
+        <element name="Item" positionX="0" positionY="0" width="128" height="225"/>
+        <element name="Monster" positionX="0" positionY="0" width="128" height="193"/>
+        <element name="MonsterDrop" positionX="0" positionY="0" width="128" height="150"/>
+        <element name="Quest" positionX="0" positionY="0" width="128" height="330"/>
+        <element name="QuestDrop" positionX="0" positionY="0" width="128" height="135"/>
+        <element name="Region" positionX="0" positionY="0" width="128" height="120"/>
+        <element name="Skilltree" positionX="0" positionY="0" width="128" height="90"/>
+        <element name="Trade" positionX="0" positionY="0" width="128" height="90"/>
+        <element name="Weapon" positionX="0" positionY="0" width="128" height="75"/>
     </elements>
 </model>

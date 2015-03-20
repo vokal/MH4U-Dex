@@ -22,9 +22,12 @@ FOUNDATION_EXPORT NSString *const MHDItemNameKey;
 
 #pragma mark - Monster Constants
 
-FOUNDATION_EXPORT NSString *const MHDMonsterIDKey;
+FOUNDATION_EXPORT NSString *const MHDMonsterDescriptionKey;
+FOUNDATION_EXPORT NSString *const MHDMonsterNameKey;
+FOUNDATION_EXPORT NSString *const MHDMonsterSortNameKey;
 FOUNDATION_EXPORT NSString *const MHDMonstersFileName;
 FOUNDATION_EXPORT NSString *const MHDMonsterDamageZonesFileName;
+FOUNDATION_EXPORT NSString *const MHDMonsterClassKey;
 FOUNDATION_EXPORT NSString *const MHDBoss;
 FOUNDATION_EXPORT NSString *const MHDMinion;
 
@@ -83,7 +86,6 @@ FOUNDATION_EXPORT NSString *const MHDMonsterDropQuantityKey;
 FOUNDATION_EXPORT NSString *const MHDMonsterDropRankKey;
 FOUNDATION_EXPORT NSString *const MHDMonsterDropPercentKey;
 FOUNDATION_EXPORT NSString *const MHDMonsterDropMonsterNameKey;
-FOUNDATION_EXPORT NSString *const MHDMonsterDropMonsterIDKey;
 FOUNDATION_EXPORT NSString *const MHDMonsterDropItemNameKey;
 
 #pragma mark - Area Drop Constants
