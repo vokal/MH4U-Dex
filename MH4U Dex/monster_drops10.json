@@ -1,0 +1,2684 @@
+[
+  {
+    "dropID":4040,
+    "monster_name":"Felyne",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"First-aid Med",
+    "quantity":1,
+    "percent":54
+  },
+  {
+    "dropID":4041,
+    "monster_name":"Felyne",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Round Acorn",
+    "quantity":1,
+    "percent":26
+  },
+  {
+    "dropID":4042,
+    "monster_name":"Felyne",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Pawprint Stamp",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":4043,
+    "monster_name":"Felyne",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"EZ Flash Bomb",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":4044,
+    "monster_name":"Felyne",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"First-aid Med",
+    "quantity":1,
+    "percent":54
+  },
+  {
+    "dropID":4045,
+    "monster_name":"Felyne",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Round Acorn",
+    "quantity":1,
+    "percent":26
+  },
+  {
+    "dropID":4046,
+    "monster_name":"Felyne",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Pawprint Stamp",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":4047,
+    "monster_name":"Felyne",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"EZ Flash Bomb",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":4048,
+    "monster_name":"Felyne",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"First-aid Med",
+    "quantity":1,
+    "percent":54
+  },
+  {
+    "dropID":4049,
+    "monster_name":"Felyne",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Round Acorn",
+    "quantity":1,
+    "percent":26
+  },
+  {
+    "dropID":4050,
+    "monster_name":"Felyne",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Pawprint Stamp",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":4051,
+    "monster_name":"Felyne",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"EZ Flash Bomb",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":4052,
+    "monster_name":"Melynx",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Secret Stash",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":4053,
+    "monster_name":"Melynx",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Ration",
+    "quantity":1,
+    "percent":27
+  },
+  {
+    "dropID":4054,
+    "monster_name":"Melynx",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Pawprint Stamp",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":4055,
+    "monster_name":"Melynx",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"EZ Shock Trap",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":4056,
+    "monster_name":"Melynx",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Secret Stash",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":4057,
+    "monster_name":"Melynx",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Ration",
+    "quantity":1,
+    "percent":27
+  },
+  {
+    "dropID":4058,
+    "monster_name":"Melynx",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Pawprint Stamp",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":4059,
+    "monster_name":"Melynx",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"EZ Shock Trap",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":4060,
+    "monster_name":"Melynx",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Secret Stash",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":4061,
+    "monster_name":"Melynx",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Ration",
+    "quantity":1,
+    "percent":27
+  },
+  {
+    "dropID":4062,
+    "monster_name":"Melynx",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Pawprint Stamp",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":4063,
+    "monster_name":"Melynx",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"EZ Shock Trap",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":4064,
+    "monster_name":"Altaroth",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Altaroth Stomach",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":4065,
+    "monster_name":"Altaroth",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Monster Fluid",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":4066,
+    "monster_name":"Altaroth",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Altaroth Jaw",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":4067,
+    "monster_name":"Altaroth",
+    "rank":"Low",
+    "method":"Shiny Drops (Blue)",
+    "item_name":"Ripened Mushroom",
+    "quantity":1,
+    "percent":90
+  },
+  {
+    "dropID":4068,
+    "monster_name":"Altaroth",
+    "rank":"Low",
+    "method":"Shiny Drops (Blue)",
+    "item_name":"Monster Fluid",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":4069,
+    "monster_name":"Altaroth",
+    "rank":"Low",
+    "method":"Shiny Drops (Orange)",
+    "item_name":"Honey",
+    "quantity":1,
+    "percent":90
+  },
+  {
+    "dropID":4070,
+    "monster_name":"Altaroth",
+    "rank":"Low",
+    "method":"Shiny Drops (Orange)",
+    "item_name":"Monster Fluid",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":4071,
+    "monster_name":"Altaroth",
+    "rank":"Low",
+    "method":"Shiny Drops (Green)",
+    "item_name":"Nulberry",
+    "quantity":1,
+    "percent":90
+  },
+  {
+    "dropID":4072,
+    "monster_name":"Altaroth",
+    "rank":"Low",
+    "method":"Shiny Drops (Green)",
+    "item_name":"Monster Fluid",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":4073,
+    "monster_name":"Altaroth",
+    "rank":"Low",
+    "method":"Shiny Drops (Gold)",
+    "item_name":"Fine Stomach",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":4074,
+    "monster_name":"Altaroth",
+    "rank":"Low",
+    "method":"Shiny Drops (Gold)",
+    "item_name":"Luminous Stomach",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":4075,
+    "monster_name":"Altaroth",
+    "rank":"Low",
+    "method":"Shiny Drops (Gray)",
+    "item_name":"Insect Husk",
+    "quantity":1,
+    "percent":48
+  },
+  {
+    "dropID":4076,
+    "monster_name":"Altaroth",
+    "rank":"Low",
+    "method":"Shiny Drops (Gray)",
+    "item_name":"Altaroth Stomach",
+    "quantity":1,
+    "percent":32
+  },
+  {
+    "dropID":4077,
+    "monster_name":"Altaroth",
+    "rank":"Low",
+    "method":"Shiny Drops (Gray)",
+    "item_name":"Monster Fluid",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":4078,
+    "monster_name":"Altaroth",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Quality Stomach",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":4079,
+    "monster_name":"Altaroth",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Monster Broth",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":4080,
+    "monster_name":"Altaroth",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Altaroth Jaw",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":4081,
+    "monster_name":"Altaroth",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Altaroth Stomach",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":4082,
+    "monster_name":"Altaroth",
+    "rank":"High",
+    "method":"Shiny Drops (Blue)",
+    "item_name":"Ripened Mushroom",
+    "quantity":1,
+    "percent":90
+  },
+  {
+    "dropID":4083,
+    "monster_name":"Altaroth",
+    "rank":"High",
+    "method":"Shiny Drops (Blue)",
+    "item_name":"Monster Broth",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":4084,
+    "monster_name":"Altaroth",
+    "rank":"High",
+    "method":"Shiny Drops (Orange)",
+    "item_name":"Honey",
+    "quantity":1,
+    "percent":90
+  },
+  {
+    "dropID":4085,
+    "monster_name":"Altaroth",
+    "rank":"High",
+    "method":"Shiny Drops (Orange)",
+    "item_name":"Monster Broth",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":4086,
+    "monster_name":"Altaroth",
+    "rank":"High",
+    "method":"Shiny Drops (Green)",
+    "item_name":"Nulberry",
+    "quantity":1,
+    "percent":90
+  },
+  {
+    "dropID":4087,
+    "monster_name":"Altaroth",
+    "rank":"High",
+    "method":"Shiny Drops (Green)",
+    "item_name":"Monster Broth",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":4088,
+    "monster_name":"Altaroth",
+    "rank":"High",
+    "method":"Shiny Drops (Gold)",
+    "item_name":"Fine Stomach",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":4089,
+    "monster_name":"Altaroth",
+    "rank":"High",
+    "method":"Shiny Drops (Gold)",
+    "item_name":"Luminous Stomach",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":4090,
+    "monster_name":"Altaroth",
+    "rank":"High",
+    "method":"Shiny Drops (Gray)",
+    "item_name":"Insect Husk",
+    "quantity":1,
+    "percent":48
+  },
+  {
+    "dropID":4091,
+    "monster_name":"Altaroth",
+    "rank":"High",
+    "method":"Shiny Drops (Gray)",
+    "item_name":"Altaroth Stomach",
+    "quantity":1,
+    "percent":32
+  },
+  {
+    "dropID":4092,
+    "monster_name":"Altaroth",
+    "rank":"High",
+    "method":"Shiny Drops (Gray)",
+    "item_name":"Monster Broth",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":4093,
+    "monster_name":"Altaroth",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Quality Stomach",
+    "quantity":1,
+    "percent":65
+  },
+  {
+    "dropID":4094,
+    "monster_name":"Altaroth",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Monster Essence",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":4095,
+    "monster_name":"Altaroth",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Altaroth Jaw",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":4096,
+    "monster_name":"Altaroth",
+    "rank":"G",
+    "method":"Shiny Drops (Blue)",
+    "item_name":"Ripened Mushroom",
+    "quantity":1,
+    "percent":90
+  },
+  {
+    "dropID":4097,
+    "monster_name":"Altaroth",
+    "rank":"G",
+    "method":"Shiny Drops (Blue)",
+    "item_name":"Monster Essence",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":4098,
+    "monster_name":"Altaroth",
+    "rank":"G",
+    "method":"Shiny Drops (Orange)",
+    "item_name":"Honey",
+    "quantity":1,
+    "percent":90
+  },
+  {
+    "dropID":4099,
+    "monster_name":"Altaroth",
+    "rank":"G",
+    "method":"Shiny Drops (Orange)",
+    "item_name":"Monster Essence",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":4100,
+    "monster_name":"Altaroth",
+    "rank":"G",
+    "method":"Shiny Drops (Green)",
+    "item_name":"Nulberry",
+    "quantity":1,
+    "percent":90
+  },
+  {
+    "dropID":4101,
+    "monster_name":"Altaroth",
+    "rank":"G",
+    "method":"Shiny Drops (Green)",
+    "item_name":"Monster Essence",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":4102,
+    "monster_name":"Altaroth",
+    "rank":"G",
+    "method":"Shiny Drops (Gold)",
+    "item_name":"Fine Stomach",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":4103,
+    "monster_name":"Altaroth",
+    "rank":"G",
+    "method":"Shiny Drops (Gold)",
+    "item_name":"Luminous Stomach",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":4104,
+    "monster_name":"Altaroth",
+    "rank":"G",
+    "method":"Shiny Drops (Gray)",
+    "item_name":"Insect Husk",
+    "quantity":1,
+    "percent":48
+  },
+  {
+    "dropID":4105,
+    "monster_name":"Altaroth",
+    "rank":"G",
+    "method":"Shiny Drops (Gray)",
+    "item_name":"Quality Stomach",
+    "quantity":1,
+    "percent":32
+  },
+  {
+    "dropID":4106,
+    "monster_name":"Altaroth",
+    "rank":"G",
+    "method":"Shiny Drops (Gray)",
+    "item_name":"Monster Essence",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":4107,
+    "monster_name":"Konchu",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Konchu Shell",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":4108,
+    "monster_name":"Konchu",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Sharp Fang",
+    "quantity":1,
+    "percent":23
+  },
+  {
+    "dropID":4109,
+    "monster_name":"Konchu",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Monster Fluid",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":4110,
+    "monster_name":"Konchu",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Armor Sphere",
+    "quantity":1,
+    "percent":7
+  },
+  {
+    "dropID":4111,
+    "monster_name":"Konchu",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Konchu Carapace",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":4112,
+    "monster_name":"Konchu",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Sharp Fang",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":4113,
+    "monster_name":"Konchu",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Monster Broth",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":4114,
+    "monster_name":"Konchu",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Konchu Shell",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":4115,
+    "monster_name":"Konchu",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Armor Sphere+",
+    "quantity":1,
+    "percent":7
+  },
+  {
+    "dropID":4116,
+    "monster_name":"Konchu",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Konchu Cortex",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":4117,
+    "monster_name":"Konchu",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Crushing Fang",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":4118,
+    "monster_name":"Konchu",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Monster Essence",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":4119,
+    "monster_name":"Konchu",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Adv Armor Sphere",
+    "quantity":1,
+    "percent":7
+  },
+  {
+    "dropID":4120,
+    "monster_name":"Bnahabra",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Bnahabra Shell",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":4121,
+    "monster_name":"Bnahabra",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Bnahabra Wing",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":4122,
+    "monster_name":"Bnahabra",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Monster Fluid",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":4123,
+    "monster_name":"Bnahabra",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Bnahabra Carapace",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":4124,
+    "monster_name":"Bnahabra",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Bnahabra Wing",
+    "quantity":1,
+    "percent":27
+  },
+  {
+    "dropID":4125,
+    "monster_name":"Bnahabra",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Monster Broth",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":4126,
+    "monster_name":"Bnahabra",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Monster Fluid",
+    "quantity":1,
+    "percent":7
+  },
+  {
+    "dropID":4127,
+    "monster_name":"Bnahabra",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Bnahabra Shell",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":4128,
+    "monster_name":"Bnahabra",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Bnahabra Razorwing",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":4129,
+    "monster_name":"Bnahabra",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Bnahabra Carapace",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":4130,
+    "monster_name":"Bnahabra",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Monster Essence",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":4131,
+    "monster_name":"Bnahabra",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Monster Broth",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":4132,
+    "monster_name":"Delex",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Sharp Fang",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":4133,
+    "monster_name":"Delex",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Monster Guts",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":4134,
+    "monster_name":"Delex",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Sharp Fang",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":4135,
+    "monster_name":"Delex",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Monster Guts",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":4136,
+    "monster_name":"Delex",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Crushing Fang",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":4137,
+    "monster_name":"Delex",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Monster Guts",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":4138,
+    "monster_name":"Cephalos",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Piscine Liver",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":4139,
+    "monster_name":"Cephalos",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Cephalos Scale+",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":4140,
+    "monster_name":"Cephalos",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Monster Bone L",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":4141,
+    "monster_name":"Cephalos",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Cephalos Fin+",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":4142,
+    "monster_name":"Cephalos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Piscine Liver",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":4143,
+    "monster_name":"Cephalos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Cephalos Shard",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":4144,
+    "monster_name":"Cephalos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Crushing Fang",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":4145,
+    "monster_name":"Cephalos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Cephalos Grandfin",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":4146,
+    "monster_name":"Aptonoth",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Raw Meat",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":4147,
+    "monster_name":"Aptonoth",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Monster Bone S",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":4148,
+    "monster_name":"Aptonoth",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Raw Meat",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":4149,
+    "monster_name":"Aptonoth",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Monster Bone S",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":4150,
+    "monster_name":"Aptonoth",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Raw Meat",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":4151,
+    "monster_name":"Aptonoth",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Monster Bone S",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":4152,
+    "monster_name":"Rhenoplos",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Rhenoplos Shell",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":4153,
+    "monster_name":"Rhenoplos",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Raw Meat",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":4154,
+    "monster_name":"Rhenoplos",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Monster Bone M",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":4155,
+    "monster_name":"Rhenoplos",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Rhenoplos Scalp",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":4156,
+    "monster_name":"Rhenoplos",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Rhenoplos Carapace",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":4157,
+    "monster_name":"Rhenoplos",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Raw Meat",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":4158,
+    "monster_name":"Rhenoplos",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Rhenoplos Shell",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":4159,
+    "monster_name":"Rhenoplos",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Rhenoplos Scalp",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":4160,
+    "monster_name":"Rhenoplos",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Monster Bone M",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":4161,
+    "monster_name":"Rhenoplos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Rhenoplos Bone",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":4162,
+    "monster_name":"Rhenoplos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Rhenoplos Carapace",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":4163,
+    "monster_name":"Rhenoplos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Raw Meat",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":4164,
+    "monster_name":"Slagtoth",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Slagtoth Oil",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":4165,
+    "monster_name":"Slagtoth",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Slagtoth Hide",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":4166,
+    "monster_name":"Slagtoth",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Raw Meat",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":4167,
+    "monster_name":"Slagtoth",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Monster Bone M",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":4168,
+    "monster_name":"Slagtoth",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Slagtoth Hide+",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":4169,
+    "monster_name":"Slagtoth",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Slagtoth Oil",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":4170,
+    "monster_name":"Slagtoth",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Raw Meat",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":4171,
+    "monster_name":"Slagtoth",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Monster Bone+",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":4172,
+    "monster_name":"Slagtoth",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Slagtoth Hide+",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":4173,
+    "monster_name":"Slagtoth",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Slagtoth Oil",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":4174,
+    "monster_name":"Slagtoth",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Rhenoplos Bone",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":4175,
+    "monster_name":"Slagtoth",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Raw Meat",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":4176,
+    "monster_name":"Popo",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Popo Tongue",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":4177,
+    "monster_name":"Popo",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Raw Meat",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":4178,
+    "monster_name":"Popo",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Brute Bone",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":4179,
+    "monster_name":"Popo",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Jumbo Bone",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":4180,
+    "monster_name":"Popo",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Popo Tongue",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":4181,
+    "monster_name":"Popo",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Raw Meat",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":4182,
+    "monster_name":"Popo",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Jumbo Bone",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":4183,
+    "monster_name":"Popo",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Brute Bone",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":4184,
+    "monster_name":"Popo",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Stoutbone",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":4185,
+    "monster_name":"Popo",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Prized Pelt",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":4186,
+    "monster_name":"Popo",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Popo Tongue",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":4187,
+    "monster_name":"Popo",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Raw Meat",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":4188,
+    "monster_name":"Apceros",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Raw Meat",
+    "quantity":1,
+    "percent":43
+  },
+  {
+    "dropID":4189,
+    "monster_name":"Apceros",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Monster Bone S",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":4190,
+    "monster_name":"Apceros",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Monster Bone M",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":4191,
+    "monster_name":"Apceros",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Monster Bone+",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":4192,
+    "monster_name":"Apceros",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Rhenoplos Bone",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":4193,
+    "monster_name":"Apceros",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Raw Meat",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":4194,
+    "monster_name":"Apceros",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Monster Bone+",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":4195,
+    "monster_name":"Jaggi",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Bird Wyvern Fang",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":4196,
+    "monster_name":"Jaggi",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Jaggi Hide",
+    "quantity":1,
+    "percent":29
+  },
+  {
+    "dropID":4197,
+    "monster_name":"Jaggi",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Jaggi Scale",
+    "quantity":1,
+    "percent":23
+  },
+  {
+    "dropID":4198,
+    "monster_name":"Jaggi",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Monster Bone S",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":4199,
+    "monster_name":"Jaggi",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Avian Finebone",
+    "quantity":1,
+    "percent":37
+  },
+  {
+    "dropID":4200,
+    "monster_name":"Jaggi",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Bird Wyvern Fang",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":4201,
+    "monster_name":"Jaggi",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Jaggi Scale+",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":4202,
+    "monster_name":"Jaggi",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Jaggi Hide",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":4203,
+    "monster_name":"Jaggi",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Avian Stoutbone",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":4204,
+    "monster_name":"Jaggi",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Jaggi Scale+",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":4205,
+    "monster_name":"Jaggi",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Bird Wyvern Fang",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":4206,
+    "monster_name":"Jaggi",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Tough Bird Wyv Hide",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":4207,
+    "monster_name":"Jaggia",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Jaggi Hide",
+    "quantity":1,
+    "percent":43
+  },
+  {
+    "dropID":4208,
+    "monster_name":"Jaggia",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Jaggi Scale",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":4209,
+    "monster_name":"Jaggia",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Bird Wyvern Fang",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":4210,
+    "monster_name":"Jaggia",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Monster Bone S",
+    "quantity":1,
+    "percent":9
+  },
+  {
+    "dropID":4211,
+    "monster_name":"Jaggia",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Jaggi Scale+",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":4212,
+    "monster_name":"Jaggia",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Avian Finebone",
+    "quantity":1,
+    "percent":22
+  },
+  {
+    "dropID":4213,
+    "monster_name":"Jaggia",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Bird Wyvern Fang",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":4214,
+    "monster_name":"Jaggia",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Jaggi Hide",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":4215,
+    "monster_name":"Jaggia",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Avian Stoutbone",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":4216,
+    "monster_name":"Jaggia",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Jaggi Scale+",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":4217,
+    "monster_name":"Jaggia",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Tough Bird Wyv Hide",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":4218,
+    "monster_name":"Jaggia",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Bird Wyvern Fang",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":4219,
+    "monster_name":"Velociprey",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Bird Wyvern Fang",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":4220,
+    "monster_name":"Velociprey",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Velociprey Scale",
+    "quantity":1,
+    "percent":29
+  },
+  {
+    "dropID":4221,
+    "monster_name":"Velociprey",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Velociprey Hide",
+    "quantity":1,
+    "percent":23
+  },
+  {
+    "dropID":4222,
+    "monster_name":"Velociprey",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Monster Bone S",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":4223,
+    "monster_name":"Velociprey",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Velociprey Scale+",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":4224,
+    "monster_name":"Velociprey",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Velociprey Hide+",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":4225,
+    "monster_name":"Velociprey",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Bird Wyvern Fang",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":4226,
+    "monster_name":"Velociprey",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Avian Finebone",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":4227,
+    "monster_name":"Velociprey",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Avian Stoutbone",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":4228,
+    "monster_name":"Velociprey",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Velociprey Scale+",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":4229,
+    "monster_name":"Velociprey",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Velociprey Hide+",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":4230,
+    "monster_name":"Velociprey",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Bird Wyvern Fang",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":4231,
+    "monster_name":"Genprey",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Genprey Fang",
+    "quantity":1,
+    "percent":42
+  },
+  {
+    "dropID":4232,
+    "monster_name":"Genprey",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Genprey Scale",
+    "quantity":1,
+    "percent":33
+  },
+  {
+    "dropID":4233,
+    "monster_name":"Genprey",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Genprey Hide",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":4234,
+    "monster_name":"Genprey",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Genprey Scale+",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":4235,
+    "monster_name":"Genprey",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Genprey Hide+",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":4236,
+    "monster_name":"Genprey",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Genprey Fang",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":4237,
+    "monster_name":"Genprey",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Avian Stoutbone",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":4238,
+    "monster_name":"Genprey",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Genprey Scale+",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":4239,
+    "monster_name":"Genprey",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Genprey Fang",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":4240,
+    "monster_name":"Genprey",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Genprey Hide+",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":4241,
+    "monster_name":"Ioprey",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Ioprey Fang",
+    "quantity":1,
+    "percent":47
+  },
+  {
+    "dropID":4242,
+    "monster_name":"Ioprey",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Ioprey Scale",
+    "quantity":1,
+    "percent":38
+  },
+  {
+    "dropID":4243,
+    "monster_name":"Ioprey",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Ioprey Hide",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":4244,
+    "monster_name":"Ioprey",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Ioprey Scale+",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":4245,
+    "monster_name":"Ioprey",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Ioprey Hide+",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":4246,
+    "monster_name":"Ioprey",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Ioprey Fang",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":4247,
+    "monster_name":"Ioprey",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Avian Stoutbone",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":4248,
+    "monster_name":"Ioprey",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Ioprey Scale+",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":4249,
+    "monster_name":"Ioprey",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Ioprey Fang",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":4250,
+    "monster_name":"Ioprey",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Ioprey Hide+",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":4251,
+    "monster_name":"Hermitaur",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Carapaceon Brains",
+    "quantity":1,
+    "percent":42
+  },
+  {
+    "dropID":4252,
+    "monster_name":"Hermitaur",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Sml Hermitaur Shell",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":4253,
+    "monster_name":"Hermitaur",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Sharp Claw",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":4254,
+    "monster_name":"Hermitaur",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Black Pearl",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":4255,
+    "monster_name":"Hermitaur",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Carapaceon Brains+",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":4256,
+    "monster_name":"Hermitaur",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Piercing Claw",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":4257,
+    "monster_name":"Hermitaur",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Carapaceon Brains",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":4258,
+    "monster_name":"Hermitaur",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Carapaceon Brains+",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":4259,
+    "monster_name":"Hermitaur",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Sml Hermitaur Shell",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":4260,
+    "monster_name":"Hermitaur",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Black Pearl",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":4261,
+    "monster_name":"Hermitaur",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Fine Black Pearl",
+    "quantity":1,
+    "percent":1
+  },
+  {
+    "dropID":4262,
+    "monster_name":"Conga",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Conga Pelt",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":4263,
+    "monster_name":"Conga",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Sharp Claw",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":4264,
+    "monster_name":"Conga",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Brute Bone",
+    "quantity":1,
+    "percent":22
+  },
+  {
+    "dropID":4265,
+    "monster_name":"Conga",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Conga Pelt+",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":4266,
+    "monster_name":"Conga",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Sharp Claw",
+    "quantity":1,
+    "percent":23
+  },
+  {
+    "dropID":4267,
+    "monster_name":"Conga",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Brute Bone",
+    "quantity":1,
+    "percent":22
+  },
+  {
+    "dropID":4268,
+    "monster_name":"Conga",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Conga Pelt",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":4269,
+    "monster_name":"Conga",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Piercing Claw",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":4270,
+    "monster_name":"Conga",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Conga Pelt+",
+    "quantity":1,
+    "percent":33
+  },
+  {
+    "dropID":4271,
+    "monster_name":"Conga",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Brute Bone",
+    "quantity":1,
+    "percent":22
+  },
+  {
+    "dropID":4272,
+    "monster_name":"Zamite",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Sharp Fang",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":4273,
+    "monster_name":"Zamite",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Meaty Hide",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":4274,
+    "monster_name":"Zamite",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Monster Guts",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":4275,
+    "monster_name":"Zamite",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Sharqskin Scale",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":4276,
+    "monster_name":"Zamite",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Meaty Hide+",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":4277,
+    "monster_name":"Zamite",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Sharp Fang",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":4278,
+    "monster_name":"Zamite",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Monster Guts",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":4279,
+    "monster_name":"Zamite",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Sharqskin Scale",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":4280,
+    "monster_name":"Zamite",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Meaty Piel",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":4281,
+    "monster_name":"Zamite",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Crushing Fang",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":4282,
+    "monster_name":"Zamite",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Monster Guts",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":4283,
+    "monster_name":"Zamite",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Sharqskin Scale",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":4284,
+    "monster_name":"Remobra",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Remobra Hide",
+    "quantity":1,
+    "percent":56
+  },
+  {
+    "dropID":4285,
+    "monster_name":"Remobra",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Striped Skin",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":4286,
+    "monster_name":"Remobra",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Remobra Head",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":4287,
+    "monster_name":"Remobra",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Remobra Hide+",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":4288,
+    "monster_name":"Remobra",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Striped Skin",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":4289,
+    "monster_name":"Remobra",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Remobra Head",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":4290,
+    "monster_name":"Remobra",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Remobra Hide",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":4291,
+    "monster_name":"Remobra",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Remobra Finehide",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":4292,
+    "monster_name":"Remobra",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Striped Skin",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":4293,
+    "monster_name":"Remobra",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Remobra Head",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":4294,
+    "monster_name":"Remobra",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Remobra Hide+",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":4295,
+    "monster_name":"Gargwa",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Gargwa Guano",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":4296,
+    "monster_name":"Gargwa",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Herb",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":4297,
+    "monster_name":"Gargwa",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Insect Husk",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":4298,
+    "monster_name":"Gargwa",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Raw Meat",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":4299,
+    "monster_name":"Gargwa",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Monster Bone S",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":4300,
+    "monster_name":"Gargwa",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Gargwa Feather",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":4301,
+    "monster_name":"Gargwa",
+    "rank":"Low",
+    "method":"Shiny Drops (Egg)",
+    "item_name":"Gargwa Egg",
+    "quantity":1,
+    "percent":100
+  },
+  {
+    "dropID":4302,
+    "monster_name":"Gargwa",
+    "rank":"Low",
+    "method":"Shiny Drops (Gold Egg)",
+    "item_name":"Gold Gargwa Egg",
+    "quantity":1,
+    "percent":100
+  },
+  {
+    "dropID":4303,
+    "monster_name":"Gargwa",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Gargwa Guano",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":4304,
+    "monster_name":"Gargwa",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Herb",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":4305,
+    "monster_name":"Gargwa",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Insect Husk",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":4306,
+    "monster_name":"Gargwa",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Raw Meat",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":4307,
+    "monster_name":"Gargwa",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Gargwa Feather",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":4308,
+    "monster_name":"Gargwa",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Monster Bone S",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":4309,
+    "monster_name":"Gargwa",
+    "rank":"High",
+    "method":"Shiny Drops (Egg)",
+    "item_name":"Gargwa Egg",
+    "quantity":1,
+    "percent":100
+  },
+  {
+    "dropID":4310,
+    "monster_name":"Gargwa",
+    "rank":"High",
+    "method":"Shiny Drops (Gold Egg)",
+    "item_name":"Gold Gargwa Egg",
+    "quantity":1,
+    "percent":100
+  },
+  {
+    "dropID":4311,
+    "monster_name":"Gargwa",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Gargwa Guano",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":4312,
+    "monster_name":"Gargwa",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Herb",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":4313,
+    "monster_name":"Gargwa",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Insect Husk",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":4314,
+    "monster_name":"Gargwa",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Raw Meat",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":4315,
+    "monster_name":"Gargwa",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Gargwa Feather",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":4316,
+    "monster_name":"Gargwa",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Monster Bone S",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":4317,
+    "monster_name":"Gargwa",
+    "rank":"G",
+    "method":"Shiny Drops (Egg)",
+    "item_name":"Gargwa Egg",
+    "quantity":1,
+    "percent":100
+  },
+  {
+    "dropID":4318,
+    "monster_name":"Gargwa",
+    "rank":"G",
+    "method":"Shiny Drops (Gold Egg)",
+    "item_name":"Gold Gargwa Egg",
+    "quantity":1,
+    "percent":100
+  },
+  {
+    "dropID":4319,
+    "monster_name":"Kelbi",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Kelbi Horn",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":4320,
+    "monster_name":"Kelbi",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Warm Pelt",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":4321,
+    "monster_name":"Kelbi",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"White Liver",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":4322,
+    "monster_name":"Kelbi",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Raw Meat",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":4323,
+    "monster_name":"Kelbi",
+    "rank":"Low",
+    "method":"Body Carve (KO'd)",
+    "item_name":"Kelbi Horn",
+    "quantity":1,
+    "percent":100
+  },
+  {
+    "dropID":4324,
+    "monster_name":"Kelbi",
+    "rank":"Low",
+    "method":"Body Carve (KO'd + Large)",
+    "item_name":"Blue Kelbi Horn",
+    "quantity":1,
+    "percent":100
+  },
+  {
+    "dropID":4325,
+    "monster_name":"Kelbi",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Kelbi Horn",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":4326,
+    "monster_name":"Kelbi",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"High-quality Pelt",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":4327,
+    "monster_name":"Kelbi",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"White Liver",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":4328,
+    "monster_name":"Kelbi",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Raw Meat",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":4329,
+    "monster_name":"Kelbi",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Warm Pelt",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":4330,
+    "monster_name":"Kelbi",
+    "rank":"High",
+    "method":"Body Carve (KO'd)",
+    "item_name":"Kelbi Horn",
+    "quantity":1,
+    "percent":100
+  },
+  {
+    "dropID":4331,
+    "monster_name":"Kelbi",
+    "rank":"High",
+    "method":"Body Carve (KO'd + Large)",
+    "item_name":"Blue Kelbi Horn",
+    "quantity":1,
+    "percent":100
+  },
+  {
+    "dropID":4332,
+    "monster_name":"Kelbi",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Prized Pelt",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":4333,
+    "monster_name":"Kelbi",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Kelbi Horn",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":4334,
+    "monster_name":"Kelbi",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"White Liver",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":4335,
+    "monster_name":"Kelbi",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Raw Meat",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":4336,
+    "monster_name":"Kelbi",
+    "rank":"G",
+    "method":"Body Carve (KO'd)",
+    "item_name":"Kelbi Horn",
+    "quantity":1,
+    "percent":100
+  },
+  {
+    "dropID":4337,
+    "monster_name":"Kelbi",
+    "rank":"G",
+    "method":"Body Carve (KO'd + Large)",
+    "item_name":"Blue Kelbi Horn",
+    "quantity":1,
+    "percent":100
+  }
+]

@@ -1,0 +1,4556 @@
+[
+  {
+    "dropID":3227,
+    "monster_name":"Akantor",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":3228,
+    "monster_name":"Akantor",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Akantor Carapace",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":3229,
+    "monster_name":"Akantor",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Firecell Stone",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":3230,
+    "monster_name":"Akantor",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Akantor Spike",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":3231,
+    "monster_name":"Akantor",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Akantor Scale+",
+    "quantity":1,
+    "percent":38
+  },
+  {
+    "dropID":3232,
+    "monster_name":"Akantor",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Akantor Carapace",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":3233,
+    "monster_name":"Akantor",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Akantor Hardclaw",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":3234,
+    "monster_name":"Akantor",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Firecell Stone",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":3235,
+    "monster_name":"Akantor",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Akantor Tallfang",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":3236,
+    "monster_name":"Akantor",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Akantor Gem",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3237,
+    "monster_name":"Akantor",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Akantor Tallfang",
+    "quantity":1,
+    "percent":78
+  },
+  {
+    "dropID":3238,
+    "monster_name":"Akantor",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Akantor Scale+",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":3239,
+    "monster_name":"Akantor",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Akantor Gem",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":3240,
+    "monster_name":"Akantor",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Akantor Tail",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":3241,
+    "monster_name":"Akantor",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Akantor Scale+",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3242,
+    "monster_name":"Akantor",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"Akantor Spike",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":3243,
+    "monster_name":"Akantor",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"Akantor Carapace",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3244,
+    "monster_name":"Akantor",
+    "rank":"High",
+    "method":"Break Front Leg",
+    "item_name":"Akantor Hardclaw",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":3245,
+    "monster_name":"Akantor",
+    "rank":"High",
+    "method":"Break Front Leg",
+    "item_name":"Akantor Hardclaw",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":3246,
+    "monster_name":"Akantor",
+    "rank":"High",
+    "method":"Break Front Leg",
+    "item_name":"Akantor Carapace",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":3247,
+    "monster_name":"Akantor",
+    "rank":"High",
+    "method":"Break Belly",
+    "item_name":"Akantor Scale+",
+    "quantity":1,
+    "percent":56
+  },
+  {
+    "dropID":3248,
+    "monster_name":"Akantor",
+    "rank":"High",
+    "method":"Break Belly",
+    "item_name":"Akantor Carapace",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":3249,
+    "monster_name":"Akantor",
+    "rank":"High",
+    "method":"Break Belly",
+    "item_name":"Firecell Stone",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":3250,
+    "monster_name":"Akantor",
+    "rank":"High",
+    "method":"Break Belly",
+    "item_name":"Akantor Gem",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":3251,
+    "monster_name":"Akantor",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":3252,
+    "monster_name":"Akantor",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Akantor Cortex",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":3253,
+    "monster_name":"Akantor",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Allfire Stone",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":3254,
+    "monster_name":"Akantor",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Akantor Thickspike",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":3255,
+    "monster_name":"Akantor",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Akantor Shard",
+    "quantity":1,
+    "percent":36
+  },
+  {
+    "dropID":3256,
+    "monster_name":"Akantor",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Akantor Cortex",
+    "quantity":1,
+    "percent":33
+  },
+  {
+    "dropID":3257,
+    "monster_name":"Akantor",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Akantor Shredtalon",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":3258,
+    "monster_name":"Akantor",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Allfire Stone",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":3259,
+    "monster_name":"Akantor",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Akantor Greatfang",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":3260,
+    "monster_name":"Akantor",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Akantor Gem",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":3261,
+    "monster_name":"Akantor",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Conquest Sphere",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3262,
+    "monster_name":"Akantor",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Akantor Greatfang",
+    "quantity":1,
+    "percent":72
+  },
+  {
+    "dropID":3263,
+    "monster_name":"Akantor",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Akantor Shard",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":3264,
+    "monster_name":"Akantor",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Akantor Gem",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":3265,
+    "monster_name":"Akantor",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Conquest Sphere",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":3266,
+    "monster_name":"Akantor",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Akantor Flail",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":3267,
+    "monster_name":"Akantor",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Akantor Shard",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3268,
+    "monster_name":"Akantor",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Akantor Thickspike",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":3269,
+    "monster_name":"Akantor",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Akantor Cortex",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3270,
+    "monster_name":"Akantor",
+    "rank":"G",
+    "method":"Break Front Leg",
+    "item_name":"Akantor Shredtalon",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":3271,
+    "monster_name":"Akantor",
+    "rank":"G",
+    "method":"Break Front Leg",
+    "item_name":"Akantor Shredtalon",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":3272,
+    "monster_name":"Akantor",
+    "rank":"G",
+    "method":"Break Front Leg",
+    "item_name":"Akantor Cortex",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":3273,
+    "monster_name":"Akantor",
+    "rank":"G",
+    "method":"Break Belly",
+    "item_name":"Akantor Shard",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":3274,
+    "monster_name":"Akantor",
+    "rank":"G",
+    "method":"Break Belly",
+    "item_name":"Akantor Cortex",
+    "quantity":1,
+    "percent":26
+  },
+  {
+    "dropID":3275,
+    "monster_name":"Akantor",
+    "rank":"G",
+    "method":"Break Belly",
+    "item_name":"Allfire Stone",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":3276,
+    "monster_name":"Akantor",
+    "rank":"G",
+    "method":"Break Belly",
+    "item_name":"Akantor Gem",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":3277,
+    "monster_name":"Akantor",
+    "rank":"G",
+    "method":"Break Belly",
+    "item_name":"Conquest Sphere",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":3278,
+    "monster_name":"Ukanlos",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":3279,
+    "monster_name":"Ukanlos",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Ukanlos Carapace",
+    "quantity":1,
+    "percent":18
+  },
+  {
+    "dropID":3280,
+    "monster_name":"Ukanlos",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Ukanlos Fin+",
+    "quantity":1,
+    "percent":7
+  },
+  {
+    "dropID":3281,
+    "monster_name":"Ukanlos",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Ukanlos Carapace",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":3282,
+    "monster_name":"Ukanlos",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Ukanlos Underscale",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":3283,
+    "monster_name":"Ukanlos",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Ukanlos Fin+",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":3284,
+    "monster_name":"Ukanlos",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Ukanlos Tail",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":3285,
+    "monster_name":"Ukanlos",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Ukanlos Shoveljaw",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":3286,
+    "monster_name":"Ukanlos",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Ukanlos Gem",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3287,
+    "monster_name":"Ukanlos",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Ukanlos Shoveljaw",
+    "quantity":1,
+    "percent":85
+  },
+  {
+    "dropID":3288,
+    "monster_name":"Ukanlos",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Ukanlos Underscale",
+    "quantity":1,
+    "percent":11
+  },
+  {
+    "dropID":3289,
+    "monster_name":"Ukanlos",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Ukanlos Gem",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":3290,
+    "monster_name":"Ukanlos",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Ukanlos Tail",
+    "quantity":1,
+    "percent":90
+  },
+  {
+    "dropID":3291,
+    "monster_name":"Ukanlos",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Ukanlos Carapace",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":3292,
+    "monster_name":"Ukanlos",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"Ukanlos Fin+",
+    "quantity":2,
+    "percent":50
+  },
+  {
+    "dropID":3293,
+    "monster_name":"Ukanlos",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"Ukanlos Fin+",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":3294,
+    "monster_name":"Ukanlos",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"Ukanlos Carapace",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":3295,
+    "monster_name":"Ukanlos",
+    "rank":"High",
+    "method":"Break Front Leg",
+    "item_name":"Ukanlos Digger",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":3296,
+    "monster_name":"Ukanlos",
+    "rank":"High",
+    "method":"Break Front Leg",
+    "item_name":"Ukanlos Digger",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":3297,
+    "monster_name":"Ukanlos",
+    "rank":"High",
+    "method":"Break Front Leg",
+    "item_name":"Ukanlos Carapace",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":3298,
+    "monster_name":"Ukanlos",
+    "rank":"High",
+    "method":"Break Belly",
+    "item_name":"Ukanlos Underscale",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":3299,
+    "monster_name":"Ukanlos",
+    "rank":"High",
+    "method":"Break Belly",
+    "item_name":"Ukanlos Carapace",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":3300,
+    "monster_name":"Ukanlos",
+    "rank":"High",
+    "method":"Break Belly",
+    "item_name":"Ukanlos Gem",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":3301,
+    "monster_name":"Ukanlos",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":3302,
+    "monster_name":"Ukanlos",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Ukanlos Cortex",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":3303,
+    "monster_name":"Ukanlos",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Cosmicite Ore",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":3304,
+    "monster_name":"Ukanlos",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Ukanlos Strongfin",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":3305,
+    "monster_name":"Ukanlos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Ukanlos Cortex",
+    "quantity":1,
+    "percent":38
+  },
+  {
+    "dropID":3306,
+    "monster_name":"Ukanlos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Ukanlos Underscale+",
+    "quantity":1,
+    "percent":26
+  },
+  {
+    "dropID":3307,
+    "monster_name":"Ukanlos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Ukanlos Strongfin",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":3308,
+    "monster_name":"Ukanlos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Ukanlos Flail",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":3309,
+    "monster_name":"Ukanlos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Ukanlos Shoveljaw+",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":3310,
+    "monster_name":"Ukanlos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Ukanlos Gem",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":3311,
+    "monster_name":"Ukanlos",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Ukanlos Stone",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3312,
+    "monster_name":"Ukanlos",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Ukanlos Shoveljaw+",
+    "quantity":1,
+    "percent":78
+  },
+  {
+    "dropID":3313,
+    "monster_name":"Ukanlos",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Ukanlos Underscale+",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":3314,
+    "monster_name":"Ukanlos",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Ukanlos Gem",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":3315,
+    "monster_name":"Ukanlos",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Ukanlos Stone",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":3316,
+    "monster_name":"Ukanlos",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Ukanlos Flail",
+    "quantity":1,
+    "percent":90
+  },
+  {
+    "dropID":3317,
+    "monster_name":"Ukanlos",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Ukanlos Cortex",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":3318,
+    "monster_name":"Ukanlos",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Ukanlos Strongfin",
+    "quantity":2,
+    "percent":50
+  },
+  {
+    "dropID":3319,
+    "monster_name":"Ukanlos",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Ukanlos Strongfin",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":3320,
+    "monster_name":"Ukanlos",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Ukanlos Cortex",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":3321,
+    "monster_name":"Ukanlos",
+    "rank":"G",
+    "method":"Break Front Leg",
+    "item_name":"Ukanlos Digger+",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":3322,
+    "monster_name":"Ukanlos",
+    "rank":"G",
+    "method":"Break Front Leg",
+    "item_name":"Ukanlos Digger+",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":3323,
+    "monster_name":"Ukanlos",
+    "rank":"G",
+    "method":"Break Front Leg",
+    "item_name":"Ukanlos Cortex",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":3324,
+    "monster_name":"Ukanlos",
+    "rank":"G",
+    "method":"Break Belly",
+    "item_name":"Ukanlos Underscale+",
+    "quantity":1,
+    "percent":64
+  },
+  {
+    "dropID":3325,
+    "monster_name":"Ukanlos",
+    "rank":"G",
+    "method":"Break Belly",
+    "item_name":"Ukanlos Cortex",
+    "quantity":1,
+    "percent":22
+  },
+  {
+    "dropID":3326,
+    "monster_name":"Ukanlos",
+    "rank":"G",
+    "method":"Break Belly",
+    "item_name":"Ukanlos Gem",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":3327,
+    "monster_name":"Ukanlos",
+    "rank":"G",
+    "method":"Break Belly",
+    "item_name":"Ukanlos Stone",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":3328,
+    "monster_name":"Zinogre",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":3329,
+    "monster_name":"Zinogre",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Fulgurbug",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":3330,
+    "monster_name":"Zinogre",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Zinogre Shell",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":3331,
+    "monster_name":"Zinogre",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Zinogre Plate",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3332,
+    "monster_name":"Zinogre",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Zinogre Shell",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":3333,
+    "monster_name":"Zinogre",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Zinogre Shockfur",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3334,
+    "monster_name":"Zinogre",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Zinogre Shocker",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3335,
+    "monster_name":"Zinogre",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Zinogre Claw",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":3336,
+    "monster_name":"Zinogre",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Zinogre Plate",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":3337,
+    "monster_name":"Zinogre",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Zinogre Shockfur",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":3338,
+    "monster_name":"Zinogre",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Zinogre Shocker",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":3339,
+    "monster_name":"Zinogre",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Zinogre Claw",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3340,
+    "monster_name":"Zinogre",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Zinogre Shell",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":3341,
+    "monster_name":"Zinogre",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Fulgurbug",
+    "quantity":2,
+    "percent":8
+  },
+  {
+    "dropID":3342,
+    "monster_name":"Zinogre",
+    "rank":"Low",
+    "method":"Capture",
+    "item_name":"Zinogre Plate",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3343,
+    "monster_name":"Zinogre",
+    "rank":"Low",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":3344,
+    "monster_name":"Zinogre",
+    "rank":"Low",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":3345,
+    "monster_name":"Zinogre",
+    "rank":"Low",
+    "method":"Break Head",
+    "item_name":"Zinogre Horn",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":3346,
+    "monster_name":"Zinogre",
+    "rank":"Low",
+    "method":"Break Head",
+    "item_name":"Zinogre Shell",
+    "quantity":1,
+    "percent":17
+  },
+  {
+    "dropID":3347,
+    "monster_name":"Zinogre",
+    "rank":"Low",
+    "method":"Break Head",
+    "item_name":"Zinogre Plate",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":3348,
+    "monster_name":"Zinogre",
+    "rank":"Low",
+    "method":"Tail Carve",
+    "item_name":"Zinogre Tail",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":3349,
+    "monster_name":"Zinogre",
+    "rank":"Low",
+    "method":"Tail Carve",
+    "item_name":"Zinogre Shell",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3350,
+    "monster_name":"Zinogre",
+    "rank":"Low",
+    "method":"Tail Carve",
+    "item_name":"Zinogre Shockfur",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":3351,
+    "monster_name":"Zinogre",
+    "rank":"Low",
+    "method":"Tail Carve",
+    "item_name":"Zinogre Plate",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3352,
+    "monster_name":"Zinogre",
+    "rank":"Low",
+    "method":"Break Back",
+    "item_name":"Zinogre Shocker",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":3353,
+    "monster_name":"Zinogre",
+    "rank":"Low",
+    "method":"Break Back",
+    "item_name":"Zinogre Shockfur",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":3354,
+    "monster_name":"Zinogre",
+    "rank":"Low",
+    "method":"Break Back",
+    "item_name":"Zinogre Shell",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":3355,
+    "monster_name":"Zinogre",
+    "rank":"Low",
+    "method":"Break Front Leg",
+    "item_name":"Zinogre Claw",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":3356,
+    "monster_name":"Zinogre",
+    "rank":"Low",
+    "method":"Break Front Leg",
+    "item_name":"Zinogre Claw",
+    "quantity":2,
+    "percent":20
+  },
+  {
+    "dropID":3357,
+    "monster_name":"Zinogre",
+    "rank":"Low",
+    "method":"Break Front Leg",
+    "item_name":"Zinogre Shocker",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":3358,
+    "monster_name":"Zinogre",
+    "rank":"Low",
+    "method":"Bug-Catching Back",
+    "item_name":"Fulgurbug",
+    "quantity":1,
+    "percent":90
+  },
+  {
+    "dropID":3359,
+    "monster_name":"Zinogre",
+    "rank":"Low",
+    "method":"Bug-Catching Back",
+    "item_name":"Zinogre Shockfur",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":3360,
+    "monster_name":"Zinogre",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":38
+  },
+  {
+    "dropID":3361,
+    "monster_name":"Zinogre",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":37
+  },
+  {
+    "dropID":3362,
+    "monster_name":"Zinogre",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Zinogre Carapace",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":3363,
+    "monster_name":"Zinogre",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Fulgurbug",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":3364,
+    "monster_name":"Zinogre",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Zinogre Jasper",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3365,
+    "monster_name":"Zinogre",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Zinogre Carapace",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":3366,
+    "monster_name":"Zinogre",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Zinogre Electrofur",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":3367,
+    "monster_name":"Zinogre",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Zinogre Claw+",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":3368,
+    "monster_name":"Zinogre",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Zinogre Shocker+",
+    "quantity":1,
+    "percent":13
+  },
+  {
+    "dropID":3369,
+    "monster_name":"Zinogre",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Zinogre Jasper",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":3370,
+    "monster_name":"Zinogre",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Zinogre Shocker+",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":3371,
+    "monster_name":"Zinogre",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Zinogre Electrofur",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":3372,
+    "monster_name":"Zinogre",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Zinogre Claw+",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3373,
+    "monster_name":"Zinogre",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Fulgurbug",
+    "quantity":4,
+    "percent":12
+  },
+  {
+    "dropID":3374,
+    "monster_name":"Zinogre",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Zinogre Carapace",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":3375,
+    "monster_name":"Zinogre",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Zinogre Jasper",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3376,
+    "monster_name":"Zinogre",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":3377,
+    "monster_name":"Zinogre",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":3378,
+    "monster_name":"Zinogre",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Zinogre Horn+",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":3379,
+    "monster_name":"Zinogre",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Zinogre Horn+",
+    "quantity":2,
+    "percent":14
+  },
+  {
+    "dropID":3380,
+    "monster_name":"Zinogre",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Zinogre Carapace",
+    "quantity":1,
+    "percent":13
+  },
+  {
+    "dropID":3381,
+    "monster_name":"Zinogre",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"Zinogre Jasper",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":3382,
+    "monster_name":"Zinogre",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Zinogre Tail",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":3383,
+    "monster_name":"Zinogre",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Zinogre Carapace",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3384,
+    "monster_name":"Zinogre",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Zinogre Electrofur",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":3385,
+    "monster_name":"Zinogre",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"Zinogre Jasper",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3386,
+    "monster_name":"Zinogre",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"Zinogre Shocker+",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":3387,
+    "monster_name":"Zinogre",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"Zinogre Electrofur",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":3388,
+    "monster_name":"Zinogre",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"Zinogre Carapace",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":3389,
+    "monster_name":"Zinogre",
+    "rank":"High",
+    "method":"Break Front Leg",
+    "item_name":"Zinogre Claw+",
+    "quantity":1,
+    "percent":71
+  },
+  {
+    "dropID":3390,
+    "monster_name":"Zinogre",
+    "rank":"High",
+    "method":"Break Front Leg",
+    "item_name":"Zinogre Claw+",
+    "quantity":2,
+    "percent":17
+  },
+  {
+    "dropID":3391,
+    "monster_name":"Zinogre",
+    "rank":"High",
+    "method":"Break Front Leg",
+    "item_name":"Zinogre Shocker+",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":3392,
+    "monster_name":"Zinogre",
+    "rank":"High",
+    "method":"Bug-Catching Back",
+    "item_name":"Fulgurbug",
+    "quantity":1,
+    "percent":90
+  },
+  {
+    "dropID":3393,
+    "monster_name":"Zinogre",
+    "rank":"High",
+    "method":"Bug-Catching Back",
+    "item_name":"Zinogre Electrofur",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":3394,
+    "monster_name":"Zinogre",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":3395,
+    "monster_name":"Zinogre",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Zinogre Cortex",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":3396,
+    "monster_name":"Zinogre",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Zinogre Electrofur+",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":3397,
+    "monster_name":"Zinogre",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Zinogre Jasper",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":3398,
+    "monster_name":"Zinogre",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Zinogre Skymerald",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3399,
+    "monster_name":"Zinogre",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Zinogre Cortex",
+    "quantity":1,
+    "percent":45
+  },
+  {
+    "dropID":3400,
+    "monster_name":"Zinogre",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Zinogre Electrofur+",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":3401,
+    "monster_name":"Zinogre",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Zinogre Hardclaw",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":3402,
+    "monster_name":"Zinogre",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Zinogre D-Shocker",
+    "quantity":1,
+    "percent":13
+  },
+  {
+    "dropID":3403,
+    "monster_name":"Zinogre",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Zinogre Skymerald",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":3404,
+    "monster_name":"Zinogre",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Zinogre D-Shocker",
+    "quantity":1,
+    "percent":27
+  },
+  {
+    "dropID":3405,
+    "monster_name":"Zinogre",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Zinogre Electrofur+",
+    "quantity":1,
+    "percent":27
+  },
+  {
+    "dropID":3406,
+    "monster_name":"Zinogre",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Zinogre Hardclaw",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3407,
+    "monster_name":"Zinogre",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Zinogre Cortex",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":3408,
+    "monster_name":"Zinogre",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Fulgurbug",
+    "quantity":4,
+    "percent":8
+  },
+  {
+    "dropID":3409,
+    "monster_name":"Zinogre",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Zinogre Jasper",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":3410,
+    "monster_name":"Zinogre",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Zinogre Skymerald",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3411,
+    "monster_name":"Zinogre",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":3412,
+    "monster_name":"Zinogre",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":3413,
+    "monster_name":"Zinogre",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Zinogre Hardhorn",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":3414,
+    "monster_name":"Zinogre",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Zinogre Hardhorn",
+    "quantity":2,
+    "percent":14
+  },
+  {
+    "dropID":3415,
+    "monster_name":"Zinogre",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Zinogre Cortex",
+    "quantity":1,
+    "percent":13
+  },
+  {
+    "dropID":3416,
+    "monster_name":"Zinogre",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Zinogre Skymerald",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":3417,
+    "monster_name":"Zinogre",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Zinogre Lash",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":3418,
+    "monster_name":"Zinogre",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Zinogre Cortex",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3419,
+    "monster_name":"Zinogre",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Zinogre Electrofur+",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":3420,
+    "monster_name":"Zinogre",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Zinogre Skymerald",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3421,
+    "monster_name":"Zinogre",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Zinogre D-Shocker",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":3422,
+    "monster_name":"Zinogre",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Zinogre Electrofur+",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":3423,
+    "monster_name":"Zinogre",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Zinogre Cortex",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":3424,
+    "monster_name":"Zinogre",
+    "rank":"G",
+    "method":"Break Front Leg",
+    "item_name":"Zinogre Hardclaw",
+    "quantity":1,
+    "percent":71
+  },
+  {
+    "dropID":3425,
+    "monster_name":"Zinogre",
+    "rank":"G",
+    "method":"Break Front Leg",
+    "item_name":"Zinogre Hardclaw",
+    "quantity":2,
+    "percent":17
+  },
+  {
+    "dropID":3426,
+    "monster_name":"Zinogre",
+    "rank":"G",
+    "method":"Break Front Leg",
+    "item_name":"Zinogre D-Shocker",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":3427,
+    "monster_name":"Zinogre",
+    "rank":"G",
+    "method":"Bug-Catching Back",
+    "item_name":"Fulgurbug",
+    "quantity":1,
+    "percent":90
+  },
+  {
+    "dropID":3428,
+    "monster_name":"Zinogre",
+    "rank":"G",
+    "method":"Bug-Catching Back",
+    "item_name":"Zinogre Electrofur+",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":3429,
+    "monster_name":"Stygian Zinogre",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":3430,
+    "monster_name":"Stygian Zinogre",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Wyvern Tear",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":3431,
+    "monster_name":"Stygian Zinogre",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"S.Zinogre Carapace",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":3432,
+    "monster_name":"Stygian Zinogre",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Dracophage Bug",
+    "quantity":1,
+    "percent":9
+  },
+  {
+    "dropID":3433,
+    "monster_name":"Stygian Zinogre",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"S.Zinogre Umbrage",
+    "quantity":1,
+    "percent":1
+  },
+  {
+    "dropID":3434,
+    "monster_name":"Stygian Zinogre",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"S.Zinogre Carapace",
+    "quantity":1,
+    "percent":44
+  },
+  {
+    "dropID":3435,
+    "monster_name":"Stygian Zinogre",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"S.Zinogre Dragonhair",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":3436,
+    "monster_name":"Stygian Zinogre",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"S.Zinogre Claw+",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":3437,
+    "monster_name":"Stygian Zinogre",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"S.Zin Drakeshell",
+    "quantity":1,
+    "percent":14
+  },
+  {
+    "dropID":3438,
+    "monster_name":"Stygian Zinogre",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"S.Zinogre Umbrage",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":3439,
+    "monster_name":"Stygian Zinogre",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"S.Zin Drakeshell",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":3440,
+    "monster_name":"Stygian Zinogre",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"S.Zinogre Dragonhair",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":3441,
+    "monster_name":"Stygian Zinogre",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"S.Zinogre Claw+",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3442,
+    "monster_name":"Stygian Zinogre",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"Dracophage Bug",
+    "quantity":4,
+    "percent":12
+  },
+  {
+    "dropID":3443,
+    "monster_name":"Stygian Zinogre",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"S.Zinogre Carapace",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":3444,
+    "monster_name":"Stygian Zinogre",
+    "rank":"High",
+    "method":"Capture",
+    "item_name":"S.Zinogre Umbrage",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3445,
+    "monster_name":"Stygian Zinogre",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":3446,
+    "monster_name":"Stygian Zinogre",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3447,
+    "monster_name":"Stygian Zinogre",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3448,
+    "monster_name":"Stygian Zinogre",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"S.Zinogre Horn+",
+    "quantity":1,
+    "percent":76
+  },
+  {
+    "dropID":3449,
+    "monster_name":"Stygian Zinogre",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"S.Zinogre Carapace",
+    "quantity":1,
+    "percent":11
+  },
+  {
+    "dropID":3450,
+    "monster_name":"Stygian Zinogre",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"S.Zinogre Horn+",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":3451,
+    "monster_name":"Stygian Zinogre",
+    "rank":"High",
+    "method":"Break Head",
+    "item_name":"S.Zinogre Umbrage",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":3452,
+    "monster_name":"Stygian Zinogre",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"S.Zinogre Tail",
+    "quantity":1,
+    "percent":69
+  },
+  {
+    "dropID":3453,
+    "monster_name":"Stygian Zinogre",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"S.Zinogre Carapace",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3454,
+    "monster_name":"Stygian Zinogre",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"S.Zinogre Dragonhair",
+    "quantity":1,
+    "percent":9
+  },
+  {
+    "dropID":3455,
+    "monster_name":"Stygian Zinogre",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"S.Zinogre Umbrage",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3456,
+    "monster_name":"Stygian Zinogre",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"S.Zin Drakeshell",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":3457,
+    "monster_name":"Stygian Zinogre",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"S.Zinogre Dragonhair",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":3458,
+    "monster_name":"Stygian Zinogre",
+    "rank":"High",
+    "method":"Break Back",
+    "item_name":"S.Zinogre Carapace",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":3459,
+    "monster_name":"Stygian Zinogre",
+    "rank":"High",
+    "method":"Break Front Leg",
+    "item_name":"S.Zinogre Claw+",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":3460,
+    "monster_name":"Stygian Zinogre",
+    "rank":"High",
+    "method":"Break Front Leg",
+    "item_name":"S.Zinogre Claw+",
+    "quantity":2,
+    "percent":15
+  },
+  {
+    "dropID":3461,
+    "monster_name":"Stygian Zinogre",
+    "rank":"High",
+    "method":"Break Front Leg",
+    "item_name":"S.Zin Drakeshell",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":3462,
+    "monster_name":"Stygian Zinogre",
+    "rank":"High",
+    "method":"Bug-Catching Back",
+    "item_name":"Dracophage Bug",
+    "quantity":1,
+    "percent":90
+  },
+  {
+    "dropID":3463,
+    "monster_name":"Stygian Zinogre",
+    "rank":"High",
+    "method":"Bug-Catching Back",
+    "item_name":"S.Zinogre Dragonhair",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":3464,
+    "monster_name":"Stygian Zinogre",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":3465,
+    "monster_name":"Stygian Zinogre",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"S.Zinogre Cortex",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":3466,
+    "monster_name":"Stygian Zinogre",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"S.Zin Dragonlocks",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":3467,
+    "monster_name":"Stygian Zinogre",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"S.Zinogre Umbrage",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":3468,
+    "monster_name":"Stygian Zinogre",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"S.Zinogre Skymerald",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3469,
+    "monster_name":"Stygian Zinogre",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"S.Zinogre Cortex",
+    "quantity":1,
+    "percent":44
+  },
+  {
+    "dropID":3470,
+    "monster_name":"Stygian Zinogre",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"S.Zin Dragonlocks",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":3471,
+    "monster_name":"Stygian Zinogre",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"S.Zinogre Hardclaw",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":3472,
+    "monster_name":"Stygian Zinogre",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"S.Zinogre Drakehold",
+    "quantity":1,
+    "percent":14
+  },
+  {
+    "dropID":3473,
+    "monster_name":"Stygian Zinogre",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"S.Zinogre Skymerald",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":3474,
+    "monster_name":"Stygian Zinogre",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"S.Zinogre Drakehold",
+    "quantity":1,
+    "percent":27
+  },
+  {
+    "dropID":3475,
+    "monster_name":"Stygian Zinogre",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"S.Zin Dragonlocks",
+    "quantity":1,
+    "percent":27
+  },
+  {
+    "dropID":3476,
+    "monster_name":"Stygian Zinogre",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"S.Zinogre Hardclaw",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3477,
+    "monster_name":"Stygian Zinogre",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"S.Zinogre Cortex",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":3478,
+    "monster_name":"Stygian Zinogre",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Dracophage Bug",
+    "quantity":4,
+    "percent":8
+  },
+  {
+    "dropID":3479,
+    "monster_name":"Stygian Zinogre",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"S.Zinogre Umbrage",
+    "quantity":1,
+    "percent":6
+  },
+  {
+    "dropID":3480,
+    "monster_name":"Stygian Zinogre",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"S.Zinogre Skymerald",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3481,
+    "monster_name":"Stygian Zinogre",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":3482,
+    "monster_name":"Stygian Zinogre",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":2,
+    "percent":25
+  },
+  {
+    "dropID":3483,
+    "monster_name":"Stygian Zinogre",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":2,
+    "percent":20
+  },
+  {
+    "dropID":3484,
+    "monster_name":"Stygian Zinogre",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"S.Zinogre Hardhorn",
+    "quantity":1,
+    "percent":76
+  },
+  {
+    "dropID":3485,
+    "monster_name":"Stygian Zinogre",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"S.Zinogre Cortex",
+    "quantity":1,
+    "percent":11
+  },
+  {
+    "dropID":3486,
+    "monster_name":"Stygian Zinogre",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"S.Zinogre Hardhorn",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":3487,
+    "monster_name":"Stygian Zinogre",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"S.Zinogre Skymerald",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":3488,
+    "monster_name":"Stygian Zinogre",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"S.Zinogre Lash",
+    "quantity":1,
+    "percent":69
+  },
+  {
+    "dropID":3489,
+    "monster_name":"Stygian Zinogre",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"S.Zinogre Cortex",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3490,
+    "monster_name":"Stygian Zinogre",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"S.Zin Dragonlocks",
+    "quantity":1,
+    "percent":9
+  },
+  {
+    "dropID":3491,
+    "monster_name":"Stygian Zinogre",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"S.Zinogre Skymerald",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3492,
+    "monster_name":"Stygian Zinogre",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"S.Zinogre Drakehold",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":3493,
+    "monster_name":"Stygian Zinogre",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"S.Zin Dragonlocks",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":3494,
+    "monster_name":"Stygian Zinogre",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"S.Zinogre Cortex",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":3495,
+    "monster_name":"Stygian Zinogre",
+    "rank":"G",
+    "method":"Break Front Leg",
+    "item_name":"S.Zinogre Hardclaw",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":3496,
+    "monster_name":"Stygian Zinogre",
+    "rank":"G",
+    "method":"Break Front Leg",
+    "item_name":"S.Zinogre Hardclaw",
+    "quantity":2,
+    "percent":15
+  },
+  {
+    "dropID":3497,
+    "monster_name":"Stygian Zinogre",
+    "rank":"G",
+    "method":"Break Front Leg",
+    "item_name":"S.Zinogre Drakehold",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":3498,
+    "monster_name":"Stygian Zinogre",
+    "rank":"G",
+    "method":"Bug-Catching Back",
+    "item_name":"Dracophage Bug",
+    "quantity":1,
+    "percent":90
+  },
+  {
+    "dropID":3499,
+    "monster_name":"Stygian Zinogre",
+    "rank":"G",
+    "method":"Bug-Catching Back",
+    "item_name":"S.Zin Dragonlocks",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":3500,
+    "monster_name":"Apex Zinogre",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Large Wyvern Tear",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":3501,
+    "monster_name":"Apex Zinogre",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Zinogre Cortex",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":3502,
+    "monster_name":"Apex Zinogre",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Zinogre Electrofur+",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":3503,
+    "monster_name":"Apex Zinogre",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Zinogre Jasper",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":3504,
+    "monster_name":"Apex Zinogre",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Zinogre Skymerald",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3505,
+    "monster_name":"Apex Zinogre",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Zinogre Cortex",
+    "quantity":1,
+    "percent":43
+  },
+  {
+    "dropID":3506,
+    "monster_name":"Apex Zinogre",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Zinogre Electrofur+",
+    "quantity":1,
+    "percent":24
+  },
+  {
+    "dropID":3507,
+    "monster_name":"Apex Zinogre",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Zinogre Hardclaw",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":3508,
+    "monster_name":"Apex Zinogre",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Zinogre D-Shocker",
+    "quantity":1,
+    "percent":13
+  },
+  {
+    "dropID":3509,
+    "monster_name":"Apex Zinogre",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Zinogre Skymerald",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":3510,
+    "monster_name":"Apex Zinogre",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Zinogre D-Shocker",
+    "quantity":1,
+    "percent":27
+  },
+  {
+    "dropID":3511,
+    "monster_name":"Apex Zinogre",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Zinogre Electrofur+",
+    "quantity":1,
+    "percent":27
+  },
+  {
+    "dropID":3512,
+    "monster_name":"Apex Zinogre",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Zinogre Hardclaw",
+    "quantity":1,
+    "percent":22
+  },
+  {
+    "dropID":3513,
+    "monster_name":"Apex Zinogre",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Zinogre Cortex",
+    "quantity":2,
+    "percent":12
+  },
+  {
+    "dropID":3514,
+    "monster_name":"Apex Zinogre",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Zinogre Jasper",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":3515,
+    "monster_name":"Apex Zinogre",
+    "rank":"G",
+    "method":"Capture",
+    "item_name":"Zinogre Skymerald",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":3516,
+    "monster_name":"Apex Zinogre",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Zenith Wyvern Gem",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":3517,
+    "monster_name":"Apex Zinogre",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Zenith Wyvern Gem L",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":3518,
+    "monster_name":"Apex Zinogre",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Zinogre Hardhorn",
+    "quantity":1,
+    "percent":68
+  },
+  {
+    "dropID":3519,
+    "monster_name":"Apex Zinogre",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Zinogre Hardhorn",
+    "quantity":2,
+    "percent":14
+  },
+  {
+    "dropID":3520,
+    "monster_name":"Apex Zinogre",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Zinogre Cortex",
+    "quantity":1,
+    "percent":13
+  },
+  {
+    "dropID":3521,
+    "monster_name":"Apex Zinogre",
+    "rank":"G",
+    "method":"Break Head",
+    "item_name":"Zinogre Skymerald",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":3522,
+    "monster_name":"Apex Zinogre",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Zinogre Lash",
+    "quantity":1,
+    "percent":69
+  },
+  {
+    "dropID":3523,
+    "monster_name":"Apex Zinogre",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Zinogre Cortex",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3524,
+    "monster_name":"Apex Zinogre",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Zinogre Electrofur+",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":3525,
+    "monster_name":"Apex Zinogre",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"Zinogre Skymerald",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":3526,
+    "monster_name":"Apex Zinogre",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Zinogre D-Shocker",
+    "quantity":1,
+    "percent":60
+  },
+  {
+    "dropID":3527,
+    "monster_name":"Apex Zinogre",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Zinogre Electrofur+",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":3528,
+    "monster_name":"Apex Zinogre",
+    "rank":"G",
+    "method":"Break Back",
+    "item_name":"Zinogre Cortex",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":3529,
+    "monster_name":"Apex Zinogre",
+    "rank":"G",
+    "method":"Break Front Leg",
+    "item_name":"Zinogre Hardclaw",
+    "quantity":1,
+    "percent":71
+  },
+  {
+    "dropID":3530,
+    "monster_name":"Apex Zinogre",
+    "rank":"G",
+    "method":"Break Front Leg",
+    "item_name":"Zinogre Hardclaw",
+    "quantity":2,
+    "percent":17
+  },
+  {
+    "dropID":3531,
+    "monster_name":"Apex Zinogre",
+    "rank":"G",
+    "method":"Break Front Leg",
+    "item_name":"Zinogre D-Shocker",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":3532,
+    "monster_name":"Apex Zinogre",
+    "rank":"G",
+    "method":"Bug-Catching Back",
+    "item_name":"Fulgurbug",
+    "quantity":1,
+    "percent":90
+  },
+  {
+    "dropID":3533,
+    "monster_name":"Apex Zinogre",
+    "rank":"G",
+    "method":"Bug-Catching Back",
+    "item_name":"Zinogre Electrofur+",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":3534,
+    "monster_name":"Kirin",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Lightcrystal",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":3535,
+    "monster_name":"Kirin",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Dragon Treasure",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":3536,
+    "monster_name":"Kirin",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Kirin Hide",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3537,
+    "monster_name":"Kirin",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Kirin Hide",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":3538,
+    "monster_name":"Kirin",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Kirin Mane",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":3539,
+    "monster_name":"Kirin",
+    "rank":"Low",
+    "method":"Break Horn",
+    "item_name":"Kirin Thunderhorn",
+    "quantity":1,
+    "percent":100
+  },
+  {
+    "dropID":3540,
+    "monster_name":"Kirin",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Novacrystal",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":3541,
+    "monster_name":"Kirin",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Old Dragon Treasure",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":3542,
+    "monster_name":"Kirin",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Kirin Hide+",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3543,
+    "monster_name":"Kirin",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Kirin Hide+",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":3544,
+    "monster_name":"Kirin",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Kirin Thundertail",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":3545,
+    "monster_name":"Kirin",
+    "rank":"High",
+    "method":"Break Horn",
+    "item_name":"Kirin Azure Horn",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":3546,
+    "monster_name":"Kirin",
+    "rank":"High",
+    "method":"Break Horn",
+    "item_name":"Kirin Thunderhorn",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3547,
+    "monster_name":"Kirin",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Purecrystal",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":3548,
+    "monster_name":"Kirin",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Old Dragon Treasure",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":3549,
+    "monster_name":"Kirin",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Kirin Finehide",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3550,
+    "monster_name":"Kirin",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Kirin Finehide",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":3551,
+    "monster_name":"Kirin",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Kirin Thunderlash",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":3552,
+    "monster_name":"Kirin",
+    "rank":"G",
+    "method":"Break Horn",
+    "item_name":"Kirin Azure Peak",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":3553,
+    "monster_name":"Kirin",
+    "rank":"G",
+    "method":"Break Horn",
+    "item_name":"Kirin Azure Horn",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3554,
+    "monster_name":"Oroshi Kirin",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Novacrystal",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":3555,
+    "monster_name":"Oroshi Kirin",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Old Dragon Treasure",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":3556,
+    "monster_name":"Oroshi Kirin",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Kirin Hide+",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3557,
+    "monster_name":"Oroshi Kirin",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Kirin Hide+",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":3558,
+    "monster_name":"Oroshi Kirin",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Kirin Frost Tail",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":3559,
+    "monster_name":"Oroshi Kirin",
+    "rank":"High",
+    "method":"Break Horn",
+    "item_name":"Kirin Icehorn",
+    "quantity":1,
+    "percent":100
+  },
+  {
+    "dropID":3560,
+    "monster_name":"Oroshi Kirin",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Purecrystal",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":3561,
+    "monster_name":"Oroshi Kirin",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Old Dragon Treasure",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":3562,
+    "monster_name":"Oroshi Kirin",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Kirin Finehide",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3563,
+    "monster_name":"Oroshi Kirin",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Kirin Finehide",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":3564,
+    "monster_name":"Oroshi Kirin",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Kirin Frostlash",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":3565,
+    "monster_name":"Oroshi Kirin",
+    "rank":"G",
+    "method":"Break Horn",
+    "item_name":"Kirin Ice Peak",
+    "quantity":1,
+    "percent":100
+  },
+  {
+    "dropID":3566,
+    "monster_name":"Shagaru Magala",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Dragon Treasure",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":3567,
+    "monster_name":"Shagaru Magala",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"Pure Scale",
+    "quantity":1,
+    "percent":23
+  },
+  {
+    "dropID":3568,
+    "monster_name":"Shagaru Magala",
+    "rank":"Low",
+    "method":"Shiny Drops",
+    "item_name":"S.Magala Plate",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3569,
+    "monster_name":"Shagaru Magala",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"S.Magala Scale",
+    "quantity":1,
+    "percent":38
+  },
+  {
+    "dropID":3570,
+    "monster_name":"Shagaru Magala",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"S.Magala Shell",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":3571,
+    "monster_name":"Shagaru Magala",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"S.Magala Caress",
+    "quantity":1,
+    "percent":13
+  },
+  {
+    "dropID":3572,
+    "monster_name":"Shagaru Magala",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"S.Magala Prismwing",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":3573,
+    "monster_name":"Shagaru Magala",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"S.Magala Tail",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":3574,
+    "monster_name":"Shagaru Magala",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"S.Magala Plate",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":3575,
+    "monster_name":"Shagaru Magala",
+    "rank":"Low",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":3576,
+    "monster_name":"Shagaru Magala",
+    "rank":"Low",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":25
+  },
+  {
+    "dropID":3577,
+    "monster_name":"Shagaru Magala",
+    "rank":"Low",
+    "method":"Break Horn",
+    "item_name":"S.Magala Horn",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":3578,
+    "monster_name":"Shagaru Magala",
+    "rank":"Low",
+    "method":"Break Horn",
+    "item_name":"Pure Scale",
+    "quantity":1,
+    "percent":22
+  },
+  {
+    "dropID":3579,
+    "monster_name":"Shagaru Magala",
+    "rank":"Low",
+    "method":"Break Horn",
+    "item_name":"S.Magala Plate",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":3580,
+    "monster_name":"Shagaru Magala",
+    "rank":"Low",
+    "method":"Tail Carve",
+    "item_name":"S.Magala Tail",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":3581,
+    "monster_name":"Shagaru Magala",
+    "rank":"Low",
+    "method":"Tail Carve",
+    "item_name":"S.Magala Scale",
+    "quantity":1,
+    "percent":21
+  },
+  {
+    "dropID":3582,
+    "monster_name":"Shagaru Magala",
+    "rank":"Low",
+    "method":"Tail Carve",
+    "item_name":"S.Magala Plate",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":3583,
+    "monster_name":"Shagaru Magala",
+    "rank":"Low",
+    "method":"Break Wing",
+    "item_name":"S.Magala Tail",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":3584,
+    "monster_name":"Shagaru Magala",
+    "rank":"Low",
+    "method":"Break Wing",
+    "item_name":"S.Magala Scale",
+    "quantity":1,
+    "percent":21
+  },
+  {
+    "dropID":3585,
+    "monster_name":"Shagaru Magala",
+    "rank":"Low",
+    "method":"Break Wing",
+    "item_name":"S.Magala Plate",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":3586,
+    "monster_name":"Shagaru Magala",
+    "rank":"Low",
+    "method":"Break Wing Leg",
+    "item_name":"S.Magala Caress",
+    "quantity":1,
+    "percent":80
+  },
+  {
+    "dropID":3587,
+    "monster_name":"Shagaru Magala",
+    "rank":"Low",
+    "method":"Break Wing Leg",
+    "item_name":"Pure Scale",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3588,
+    "monster_name":"Shagaru Magala",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Dragon Treasure",
+    "quantity":1,
+    "percent":38
+  },
+  {
+    "dropID":3589,
+    "monster_name":"Shagaru Magala",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Old Dragon Treasure",
+    "quantity":1,
+    "percent":37
+  },
+  {
+    "dropID":3590,
+    "monster_name":"Shagaru Magala",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"Pure Scale",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3591,
+    "monster_name":"Shagaru Magala",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"S.Magala Plate",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":3592,
+    "monster_name":"Shagaru Magala",
+    "rank":"High",
+    "method":"Shiny Drops",
+    "item_name":"S.Magala Phosgem",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3593,
+    "monster_name":"Shagaru Magala",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"S.Magala Scale+",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":3594,
+    "monster_name":"Shagaru Magala",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"S.Magala Carapace",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":3595,
+    "monster_name":"Shagaru Magala",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"S.Magala Caress+",
+    "quantity":1,
+    "percent":14
+  },
+  {
+    "dropID":3596,
+    "monster_name":"Shagaru Magala",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"S.Magala Prismwing+",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":3597,
+    "monster_name":"Shagaru Magala",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"S.Magala Plate",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":3598,
+    "monster_name":"Shagaru Magala",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"S.Magala Phosgem",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3599,
+    "monster_name":"Shagaru Magala",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Shard",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":3600,
+    "monster_name":"Shagaru Magala",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Frenzy Crystal",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":3601,
+    "monster_name":"Shagaru Magala",
+    "rank":"High",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3602,
+    "monster_name":"Shagaru Magala",
+    "rank":"High",
+    "method":"Break Horn",
+    "item_name":"S.Magala Horn+",
+    "quantity":1,
+    "percent":72
+  },
+  {
+    "dropID":3603,
+    "monster_name":"Shagaru Magala",
+    "rank":"High",
+    "method":"Break Horn",
+    "item_name":"S.Magala Horn",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3604,
+    "monster_name":"Shagaru Magala",
+    "rank":"High",
+    "method":"Break Horn",
+    "item_name":"S.Magala Plate",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":3605,
+    "monster_name":"Shagaru Magala",
+    "rank":"High",
+    "method":"Break Horn",
+    "item_name":"S.Magala Phosgem",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":3606,
+    "monster_name":"Shagaru Magala",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"S.Magala Tail",
+    "quantity":1,
+    "percent":64
+  },
+  {
+    "dropID":3607,
+    "monster_name":"Shagaru Magala",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"S.Magala Scale+",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":3608,
+    "monster_name":"Shagaru Magala",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"S.Magala Plate",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":3609,
+    "monster_name":"Shagaru Magala",
+    "rank":"High",
+    "method":"Tail Carve",
+    "item_name":"S.Magala Phosgem",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":3610,
+    "monster_name":"Shagaru Magala",
+    "rank":"High",
+    "method":"Break Wing",
+    "item_name":"S.Magala Prismwing+",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":3611,
+    "monster_name":"Shagaru Magala",
+    "rank":"High",
+    "method":"Break Wing",
+    "item_name":"S.Magala Scale+",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":3612,
+    "monster_name":"Shagaru Magala",
+    "rank":"High",
+    "method":"Break Wing",
+    "item_name":"S.Magala Prismwing",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":3613,
+    "monster_name":"Shagaru Magala",
+    "rank":"High",
+    "method":"Break Wing Leg",
+    "item_name":"S.Magala Caress+",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":3614,
+    "monster_name":"Shagaru Magala",
+    "rank":"High",
+    "method":"Break Wing Leg",
+    "item_name":"S.Magala Shell",
+    "quantity":2,
+    "percent":15
+  },
+  {
+    "dropID":3615,
+    "monster_name":"Shagaru Magala",
+    "rank":"High",
+    "method":"Break Wing Leg",
+    "item_name":"S.Magala Caress",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":3616,
+    "monster_name":"Shagaru Magala",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Old Dragon Treasure",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":3617,
+    "monster_name":"Shagaru Magala",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"Pure Scale",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":3618,
+    "monster_name":"Shagaru Magala",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"S.Magala Phosgem",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":3619,
+    "monster_name":"Shagaru Magala",
+    "rank":"G",
+    "method":"Shiny Drops",
+    "item_name":"S.Magala Mantle",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3620,
+    "monster_name":"Shagaru Magala",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"S.Magala Shard",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":3621,
+    "monster_name":"Shagaru Magala",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"S.Magala Cortex",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":3622,
+    "monster_name":"Shagaru Magala",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"S.Magala Purifier",
+    "quantity":1,
+    "percent":14
+  },
+  {
+    "dropID":3623,
+    "monster_name":"Shagaru Magala",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"S.Magala Lightwing",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":3624,
+    "monster_name":"Shagaru Magala",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"S.Magala Phosgem",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":3625,
+    "monster_name":"Shagaru Magala",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"S.Magala Mantle",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3626,
+    "monster_name":"Shagaru Magala",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":1,
+    "percent":55
+  },
+  {
+    "dropID":3627,
+    "monster_name":"Shagaru Magala",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Vile Frenzy Crystal",
+    "quantity":2,
+    "percent":25
+  },
+  {
+    "dropID":3628,
+    "monster_name":"Shagaru Magala",
+    "rank":"G",
+    "method":"Virus Reward",
+    "item_name":"Pure Frenzy Crystal",
+    "quantity":2,
+    "percent":20
+  },
+  {
+    "dropID":3629,
+    "monster_name":"Shagaru Magala",
+    "rank":"G",
+    "method":"Break Horn",
+    "item_name":"S.Magala Hardhorn",
+    "quantity":1,
+    "percent":72
+  },
+  {
+    "dropID":3630,
+    "monster_name":"Shagaru Magala",
+    "rank":"G",
+    "method":"Break Horn",
+    "item_name":"S.Magala Horn+",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3631,
+    "monster_name":"Shagaru Magala",
+    "rank":"G",
+    "method":"Break Horn",
+    "item_name":"S.Magala Phosgem",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":3632,
+    "monster_name":"Shagaru Magala",
+    "rank":"G",
+    "method":"Break Horn",
+    "item_name":"S.Magala Mantle",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":3633,
+    "monster_name":"Shagaru Magala",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"S.Magala Lash",
+    "quantity":1,
+    "percent":64
+  },
+  {
+    "dropID":3634,
+    "monster_name":"Shagaru Magala",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"S.Magala Shard",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":3635,
+    "monster_name":"Shagaru Magala",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"S.Magala Phosgem",
+    "quantity":1,
+    "percent":5
+  },
+  {
+    "dropID":3636,
+    "monster_name":"Shagaru Magala",
+    "rank":"G",
+    "method":"Tail Carve",
+    "item_name":"S.Magala Mantle",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":3637,
+    "monster_name":"Shagaru Magala",
+    "rank":"G",
+    "method":"Break Wing",
+    "item_name":"S.Magala Lightwing",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":3638,
+    "monster_name":"Shagaru Magala",
+    "rank":"G",
+    "method":"Break Wing",
+    "item_name":"S.Magala Shard",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":3639,
+    "monster_name":"Shagaru Magala",
+    "rank":"G",
+    "method":"Break Wing",
+    "item_name":"S.Magala Prismwing+",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":3640,
+    "monster_name":"Shagaru Magala",
+    "rank":"G",
+    "method":"Break Wing Leg",
+    "item_name":"S.Magala Purifier",
+    "quantity":1,
+    "percent":75
+  },
+  {
+    "dropID":3641,
+    "monster_name":"Shagaru Magala",
+    "rank":"G",
+    "method":"Break Wing Leg",
+    "item_name":"S.Magala Carapace",
+    "quantity":2,
+    "percent":15
+  },
+  {
+    "dropID":3642,
+    "monster_name":"Shagaru Magala",
+    "rank":"G",
+    "method":"Break Wing Leg",
+    "item_name":"S.Magala Caress+",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":3643,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"D.Mohran Shell",
+    "quantity":1,
+    "percent":52
+  },
+  {
+    "dropID":3644,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"D.Mohran Bloodscale",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":3645,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Brutal Horn",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":3646,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"Low",
+    "method":"Body Carve",
+    "item_name":"Earth Dragongem",
+    "quantity":1,
+    "percent":3
+  },
+  {
+    "dropID":3647,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"Low",
+    "method":"Break Horn",
+    "item_name":"Brutal Horn",
+    "quantity":1,
+    "percent":83
+  },
+  {
+    "dropID":3648,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"Low",
+    "method":"Break Horn",
+    "item_name":"Brutal Horn",
+    "quantity":2,
+    "percent":15
+  },
+  {
+    "dropID":3649,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"Low",
+    "method":"Break Horn",
+    "item_name":"Earth Dragongem",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3650,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"Low",
+    "method":"Break Fin",
+    "item_name":"D.Mohran Shell",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":3651,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"Low",
+    "method":"Break Fin",
+    "item_name":"D.Mohran Bloodscale",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":3652,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"Low",
+    "method":"Break Fin",
+    "item_name":"Dragonite Ore",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3653,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"Low",
+    "method":"Break Front Leg",
+    "item_name":"D.Mohran Brace",
+    "quantity":1,
+    "percent":65
+  },
+  {
+    "dropID":3654,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"Low",
+    "method":"Break Front Leg",
+    "item_name":"D.Mohran Bloodscale",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3655,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"Low",
+    "method":"Break Front Leg",
+    "item_name":"D.Mohran Brace",
+    "quantity":2,
+    "percent":15
+  },
+  {
+    "dropID":3656,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"Low",
+    "method":"Mining Back",
+    "item_name":"Dragonite Ore",
+    "quantity":1,
+    "percent":54
+  },
+  {
+    "dropID":3657,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"Low",
+    "method":"Mining Back",
+    "item_name":"Dah'renstone",
+    "quantity":1,
+    "percent":21
+  },
+  {
+    "dropID":3658,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"Low",
+    "method":"Mining Back",
+    "item_name":"D.Mohran Bloodscale",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":3659,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"Low",
+    "method":"Mining Back",
+    "item_name":"D.Mohran Shell",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":3660,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"Low",
+    "method":"Mouth Carve",
+    "item_name":"D.Mohran Bloodscale",
+    "quantity":1,
+    "percent":49
+  },
+  {
+    "dropID":3661,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"Low",
+    "method":"Mouth Carve",
+    "item_name":"Monster Guts",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":3662,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"Low",
+    "method":"Mouth Carve",
+    "item_name":"Sharp Fang",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":3663,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"Low",
+    "method":"Mouth Carve",
+    "item_name":"Earth Dragongem",
+    "quantity":1,
+    "percent":1
+  },
+  {
+    "dropID":3664,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"Low",
+    "method":"Break Blowhole",
+    "item_name":"D.Mohran Shell",
+    "quantity":1,
+    "percent":50
+  },
+  {
+    "dropID":3665,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"Low",
+    "method":"Break Blowhole",
+    "item_name":"D.Mohran Bloodscale",
+    "quantity":1,
+    "percent":30
+  },
+  {
+    "dropID":3666,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"Low",
+    "method":"Break Blowhole",
+    "item_name":"Dragonite Ore",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3667,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"D.Mohran Carapace",
+    "quantity":1,
+    "percent":46
+  },
+  {
+    "dropID":3668,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"D.Mohran Bloodscale+",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":3669,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Brutal Horn+",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":3670,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"D.Mohran Bloodscale",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":3671,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"High",
+    "method":"Body Carve",
+    "item_name":"Earth Dragongem",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":3672,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"High",
+    "method":"Break Horn",
+    "item_name":"Brutal Horn+",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":3673,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"High",
+    "method":"Break Horn",
+    "item_name":"Brutal Horn",
+    "quantity":2,
+    "percent":14
+  },
+  {
+    "dropID":3674,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"High",
+    "method":"Break Horn",
+    "item_name":"Brutal Horn+",
+    "quantity":2,
+    "percent":12
+  },
+  {
+    "dropID":3675,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"High",
+    "method":"Break Horn",
+    "item_name":"Earth Dragongem",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":3676,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"High",
+    "method":"Break Fin",
+    "item_name":"D.Mohran Carapace",
+    "quantity":1,
+    "percent":43
+  },
+  {
+    "dropID":3677,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"High",
+    "method":"Break Fin",
+    "item_name":"D.Mohran Bloodscale+",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3678,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"High",
+    "method":"Break Fin",
+    "item_name":"Elder Dragon Blood",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":3679,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"High",
+    "method":"Break Fin",
+    "item_name":"Fucium Ore",
+    "quantity":1,
+    "percent":14
+  },
+  {
+    "dropID":3680,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"High",
+    "method":"Break Fin",
+    "item_name":"D.Mohran Shell",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":3681,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"High",
+    "method":"Break Front Leg",
+    "item_name":"D.Mohran Brace+",
+    "quantity":1,
+    "percent":65
+  },
+  {
+    "dropID":3682,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"High",
+    "method":"Break Front Leg",
+    "item_name":"D.Mohran Bloodscale+",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":3683,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"High",
+    "method":"Break Front Leg",
+    "item_name":"Elder Dragon Blood",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":3684,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"High",
+    "method":"Break Front Leg",
+    "item_name":"D.Mohran Brace",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":3685,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"High",
+    "method":"Mining Back",
+    "item_name":"Dragonite Ore",
+    "quantity":1,
+    "percent":54
+  },
+  {
+    "dropID":3686,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"High",
+    "method":"Mining Back",
+    "item_name":"D.Mohran Bloodscale+",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":3687,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"High",
+    "method":"Mining Back",
+    "item_name":"Dah'renstone",
+    "quantity":1,
+    "percent":14
+  },
+  {
+    "dropID":3688,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"High",
+    "method":"Mining Back",
+    "item_name":"D.Mohran Carapace",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":3689,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"High",
+    "method":"Mining Back",
+    "item_name":"Fucium Ore",
+    "quantity":1,
+    "percent":7
+  },
+  {
+    "dropID":3690,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"High",
+    "method":"Mouth Carve",
+    "item_name":"D.Mohran Bloodscale+",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":3691,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"High",
+    "method":"Mouth Carve",
+    "item_name":"Monster Guts",
+    "quantity":1,
+    "percent":23
+  },
+  {
+    "dropID":3692,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"High",
+    "method":"Mouth Carve",
+    "item_name":"D.Mohran Bloodscale",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3693,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"High",
+    "method":"Mouth Carve",
+    "item_name":"Sharp Fang",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":3694,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"High",
+    "method":"Mouth Carve",
+    "item_name":"Earth Dragongem",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3695,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"High",
+    "method":"Break Blowhole",
+    "item_name":"D.Mohran Carapace",
+    "quantity":1,
+    "percent":43
+  },
+  {
+    "dropID":3696,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"High",
+    "method":"Break Blowhole",
+    "item_name":"D.Mohran Bloodscale+",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3697,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"High",
+    "method":"Break Blowhole",
+    "item_name":"Elder Dragon Blood",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":3698,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"High",
+    "method":"Break Blowhole",
+    "item_name":"Fucium Ore",
+    "quantity":1,
+    "percent":14
+  },
+  {
+    "dropID":3699,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"High",
+    "method":"Break Blowhole",
+    "item_name":"D.Mohran Shell",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":3700,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"D.Mohran Rockskin",
+    "quantity":1,
+    "percent":46
+  },
+  {
+    "dropID":3701,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"D.Mohran Heavyscale",
+    "quantity":1,
+    "percent":28
+  },
+  {
+    "dropID":3702,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Brutal Biter",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":3703,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"D.Mohran Bloodscale+",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":3704,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"G",
+    "method":"Body Carve",
+    "item_name":"Earth Dragonsphire",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":3705,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"G",
+    "method":"Break Horn",
+    "item_name":"Brutal Biter",
+    "quantity":1,
+    "percent":70
+  },
+  {
+    "dropID":3706,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"G",
+    "method":"Break Horn",
+    "item_name":"Brutal Horn+",
+    "quantity":2,
+    "percent":14
+  },
+  {
+    "dropID":3707,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"G",
+    "method":"Break Horn",
+    "item_name":"Brutal Biter",
+    "quantity":2,
+    "percent":12
+  },
+  {
+    "dropID":3708,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"G",
+    "method":"Break Horn",
+    "item_name":"Earth Dragonsphire",
+    "quantity":1,
+    "percent":4
+  },
+  {
+    "dropID":3709,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"G",
+    "method":"Break Fin",
+    "item_name":"D.Mohran Rockskin",
+    "quantity":1,
+    "percent":43
+  },
+  {
+    "dropID":3710,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"G",
+    "method":"Break Fin",
+    "item_name":"D.Mohran Heavyscale",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3711,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"G",
+    "method":"Break Fin",
+    "item_name":"Elder Dragon Blood",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":3712,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"G",
+    "method":"Break Fin",
+    "item_name":"Meldspar Ore",
+    "quantity":1,
+    "percent":14
+  },
+  {
+    "dropID":3713,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"G",
+    "method":"Break Fin",
+    "item_name":"D.Mohran Carapace",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":3714,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"G",
+    "method":"Break Front Leg",
+    "item_name":"D.Mohran Allbrace",
+    "quantity":1,
+    "percent":65
+  },
+  {
+    "dropID":3715,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"G",
+    "method":"Break Front Leg",
+    "item_name":"D.Mohran Heavyscale",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":3716,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"G",
+    "method":"Break Front Leg",
+    "item_name":"Elder Dragon Blood",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":3717,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"G",
+    "method":"Break Front Leg",
+    "item_name":"D.Mohran Brace+",
+    "quantity":2,
+    "percent":10
+  },
+  {
+    "dropID":3718,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"G",
+    "method":"Mining Back",
+    "item_name":"Fucium Ore",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":3719,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"G",
+    "method":"Mining Back",
+    "item_name":"Dah'renstone",
+    "quantity":1,
+    "percent":35
+  },
+  {
+    "dropID":3720,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"G",
+    "method":"Mining Back",
+    "item_name":"D.Mohran Heavyscale",
+    "quantity":1,
+    "percent":12
+  },
+  {
+    "dropID":3721,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"G",
+    "method":"Mining Back",
+    "item_name":"D.Mohran Rockskin",
+    "quantity":1,
+    "percent":10
+  },
+  {
+    "dropID":3722,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"G",
+    "method":"Mining Back",
+    "item_name":"Meldspar Ore",
+    "quantity":1,
+    "percent":8
+  },
+  {
+    "dropID":3723,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"G",
+    "method":"Mouth Carve",
+    "item_name":"D.Mohran Heavyscale",
+    "quantity":1,
+    "percent":40
+  },
+  {
+    "dropID":3724,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"G",
+    "method":"Mouth Carve",
+    "item_name":"Monster Guts",
+    "quantity":1,
+    "percent":23
+  },
+  {
+    "dropID":3725,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"G",
+    "method":"Mouth Carve",
+    "item_name":"D.Mohran Bloodscale+",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3726,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"G",
+    "method":"Mouth Carve",
+    "item_name":"Crushing Fang",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":3727,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"G",
+    "method":"Mouth Carve",
+    "item_name":"Earth Dragonsphire",
+    "quantity":1,
+    "percent":2
+  },
+  {
+    "dropID":3728,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"G",
+    "method":"Break Blowhole",
+    "item_name":"D.Mohran Rockskin",
+    "quantity":1,
+    "percent":43
+  },
+  {
+    "dropID":3729,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"G",
+    "method":"Break Blowhole",
+    "item_name":"D.Mohran Heavyscale",
+    "quantity":1,
+    "percent":20
+  },
+  {
+    "dropID":3730,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"G",
+    "method":"Break Blowhole",
+    "item_name":"Elder Dragon Blood",
+    "quantity":1,
+    "percent":15
+  },
+  {
+    "dropID":3731,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"G",
+    "method":"Break Blowhole",
+    "item_name":"Meldspar Ore",
+    "quantity":1,
+    "percent":14
+  },
+  {
+    "dropID":3732,
+    "monster_name":"Dah'ren Mohran",
+    "rank":"G",
+    "method":"Break Blowhole",
+    "item_name":"D.Mohran Carapace",
+    "quantity":1,
+    "percent":8
+  }
+]
