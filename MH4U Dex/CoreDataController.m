@@ -22,6 +22,8 @@
 #import "QuestDrop.h"
 #import "Region.h"
 
+static NSString *const NeedsReloadKey = @"NEED_RELOAD";
+
 @interface CoreDataController ()
 
 @property (readwrite, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
@@ -45,6 +47,38 @@
 }
 
 #pragma mark - Initial Data Loading
+
+- (void)tryLoadSequence
+{
+    if ([[NSUserDefaults standardUserDefaults] boolForKey:NeedsReloadKey]) {
+        NSLog(@"Resetting Core Data");
+        [self resetCoreData];
+        NSLog(@"Core Data Reset. Loading Data.");
+        [self loadMonsterData];
+        NSLog(@"Monster data loaded.");
+        [self loadMonsterDropData];
+        NSLog(@"Monster Drop data loaded.");
+        [self loadRegionData];
+        NSLog(@"Region data loaded.");
+        [self loadQuestData];
+        NSLog(@"Quest Data loaded.");
+        [self loadQuestDropData];
+        NSLog(@"Quest Drop Data loaded.");
+        [self saveContext];
+        NSLog(@"Core Data Context Saved.");
+        [CoreDataController setShouldTriggerReloadUponRestart:NO];
+    }
+}
+
++ (void)setShouldTriggerReloadUponRestart:(BOOL)shouldTriggerReloadUponRestart
+{
+    [[NSUserDefaults standardUserDefaults] setBool:shouldTriggerReloadUponRestart forKey:NeedsReloadKey];
+}
+
++ (BOOL)willReloadUponRestart
+{
+    return [[NSUserDefaults standardUserDefaults] boolForKey:NeedsReloadKey];
+}
 
 - (void)loadMonsterData
 {
@@ -415,6 +449,21 @@
         item.name = name;
     }
     return item;
+}
+
+#pragma makr - Core Data Helper Methods
+
+- (void)resetCoreData
+{
+    NSArray *stores = self.persistentStoreCoordinator.persistentStores;
+    for (NSPersistentStore *store in stores) {
+        [self.persistentStoreCoordinator removePersistentStore:store error:nil];
+        [[NSFileManager defaultManager] removeItemAtPath:store.URL.path error:nil];
+    }
+    
+    self.persistentStoreCoordinator = nil;
+    self.managedObjectContext = nil;
+    self.managedObjectModel = nil;
 }
 
 #pragma mark - Boilerplate Core Data Code

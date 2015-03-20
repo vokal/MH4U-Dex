@@ -8,6 +8,7 @@
 
 #import "HomeViewController.h"
 
+#import "CoreDataController.h"
 #import "Strings.h"
 
 #import "ItemEncyclopediaTableViewController.h"
@@ -19,6 +20,11 @@
 @end
 
 @implementation HomeViewController
+
+- (IBAction)resetButtonPressed:(id)sender
+{
+    [CoreDataController setShouldTriggerReloadUponRestart:YES];
+}
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {

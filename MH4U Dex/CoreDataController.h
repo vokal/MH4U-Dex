@@ -14,34 +14,19 @@
 + (CoreDataController *)sharedCDController;
 
 /**
- Load into Core Data the data on Monsters and their damage zones.
+ Tells the controller to rebuild the persistent store if the appropriate flags are set.
  */
-- (void)loadMonsterData;
+- (void)tryLoadSequence;
 
 /**
- Load into Core Data the data on what Items can be obtained from monsters.
+ Schedule or cancel a database reload upon the next app start
  */
-- (void)loadMonsterDropData;
++ (void)setShouldTriggerReloadUponRestart:(BOOL)shouldTriggerReloadUponRestart;
 
 /**
- Load into Core Data the data on Regions, Areas, and what Items can be obtained from Areas.
+ Determine whether or not a database reload has been schedued
  */
-- (void)loadRegionData;
-
-/**
- Load into Core Data the data on Quests.
- */
-- (void)loadQuestData;
-
-/**
- Load into Core Data the rewards that can be obtained from Quests
- */
-- (void)loadQuestDropData;
-
-/**
- Attempt to save the persistent store, and return true if succesful
- */
-- (BOOL)attemptSaveContext;
++ (BOOL)willReloadUponRestart;
 
 /**
  Returns the Unique entity that matches the entityName and predicate, or nil if the entity does not exist, or is not unique.
