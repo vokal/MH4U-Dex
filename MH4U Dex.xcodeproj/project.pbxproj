@@ -78,6 +78,7 @@
 		E4A72CE71AB0A75B006D338A /* AreaDropTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A72CE61AB0A75B006D338A /* AreaDropTableViewCell.m */; };
 		E4A7698D1A85207D00AC93DA /* MonsterEncyclopediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A7698C1A85207D00AC93DA /* MonsterEncyclopediaViewController.m */; };
 		E4A769921A8521B100AC93DA /* MonsterEncyclopediaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A769911A8521B100AC93DA /* MonsterEncyclopediaCell.m */; };
+		E4B4938E1ABC72F700B29B18 /* Strings.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B4938D1ABC72F700B29B18 /* Strings.m */; };
 		E4C76B341A85638D00AD753B /* MonsterOverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C76B331A85638D00AD753B /* MonsterOverviewViewController.m */; };
 		E4CE45C31A97A8D30059C056 /* _MonsterDrop.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CE45C21A97A8D30059C056 /* _MonsterDrop.m */; };
 		E4CE45C61A97A8DA0059C056 /* _AreaDrop.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CE45C51A97A8DA0059C056 /* _AreaDrop.m */; };
@@ -95,6 +96,7 @@
 		E4DAD22E1AB77F8B0048DACA /* QuestEncyclopediaContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAD22D1AB77F8B0048DACA /* QuestEncyclopediaContainerViewController.m */; };
 		E4DAD2311AB7813C0048DACA /* QuestListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAD2301AB7813C0048DACA /* QuestListTableViewController.m */; };
 		E4DAD2341AB89A210048DACA /* QuestListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAD2331AB89A210048DACA /* QuestListTableViewCell.m */; };
+		E4E0F5091ABA15AA008ADDEF /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E0F5081ABA15AA008ADDEF /* Constants.m */; };
 		E4E1CA701A8543A000043E9E /* CoreDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E1CA6F1A8543A000043E9E /* CoreDataController.m */; };
 		E4E2127C1AB1FDBE00320E39 /* volcanic_hollow_drops.json in Resources */ = {isa = PBXBuildFile; fileRef = E4E2127B1AB1FDBE00320E39 /* volcanic_hollow_drops.json */; };
 		E4E2127E1AB1FE1200320E39 /* heavens_mount_drops.json in Resources */ = {isa = PBXBuildFile; fileRef = E4E2127D1AB1FE1200320E39 /* heavens_mount_drops.json */; };
@@ -220,6 +222,8 @@
 		E4A7698C1A85207D00AC93DA /* MonsterEncyclopediaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonsterEncyclopediaViewController.m; sourceTree = "<group>"; };
 		E4A769901A8521B100AC93DA /* MonsterEncyclopediaCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonsterEncyclopediaCell.h; sourceTree = "<group>"; };
 		E4A769911A8521B100AC93DA /* MonsterEncyclopediaCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonsterEncyclopediaCell.m; sourceTree = "<group>"; };
+		E4B4938C1ABC72F700B29B18 /* Strings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Strings.h; sourceTree = "<group>"; };
+		E4B4938D1ABC72F700B29B18 /* Strings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Strings.m; sourceTree = "<group>"; };
 		E4C76B321A85638D00AD753B /* MonsterOverviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonsterOverviewViewController.h; sourceTree = "<group>"; };
 		E4C76B331A85638D00AD753B /* MonsterOverviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonsterOverviewViewController.m; sourceTree = "<group>"; };
 		E4CE45C11A97A8D30059C056 /* _MonsterDrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _MonsterDrop.h; sourceTree = "<group>"; };
@@ -249,6 +253,8 @@
 		E4DAD2301AB7813C0048DACA /* QuestListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestListTableViewController.m; sourceTree = "<group>"; };
 		E4DAD2321AB89A210048DACA /* QuestListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestListTableViewCell.h; sourceTree = "<group>"; };
 		E4DAD2331AB89A210048DACA /* QuestListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestListTableViewCell.m; sourceTree = "<group>"; };
+		E4E0F5071ABA15AA008ADDEF /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		E4E0F5081ABA15AA008ADDEF /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		E4E1CA6E1A8543A000043E9E /* CoreDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataController.h; sourceTree = "<group>"; };
 		E4E1CA6F1A8543A000043E9E /* CoreDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataController.m; sourceTree = "<group>"; };
 		E4E2127B1AB1FDBE00320E39 /* volcanic_hollow_drops.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = volcanic_hollow_drops.json; sourceTree = "<group>"; };
@@ -448,8 +454,12 @@
 		E49958021A83D28E00799BBE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E4E0F5071ABA15AA008ADDEF /* Constants.h */,
+				E4E0F5081ABA15AA008ADDEF /* Constants.m */,
 				E49958031A83D28E00799BBE /* Info.plist */,
 				E49958041A83D28E00799BBE /* main.m */,
+				E4B4938C1ABC72F700B29B18 /* Strings.h */,
+				E4B4938D1ABC72F700B29B18 /* Strings.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -798,12 +808,14 @@
 				E434F3751A83F5CA004C10BF /* _Region.m in Sources */,
 				E434F3721A83F5CA004C10BF /* _Item.m in Sources */,
 				E42DDC8B1A83FD140016596C /* MH4U_Dex.xcdatamodeld in Sources */,
+				E4E0F5091ABA15AA008ADDEF /* Constants.m in Sources */,
 				E4CE45D21A97BCC70059C056 /* ItemAreaSourceTableViewCell.m in Sources */,
 				E4CE45C31A97A8D30059C056 /* _MonsterDrop.m in Sources */,
 				E434F3781A83F5CA004C10BF /* _Weapon.m in Sources */,
 				E45E9A911A890ED300D75592 /* MonsterItemTableViewController.m in Sources */,
 				E434F3831A83F5CA004C10BF /* Weapon.m in Sources */,
 				E4456EB01A895DBF00FCC7DC /* DamageZoneCell.m in Sources */,
+				E4B4938E1ABC72F700B29B18 /* Strings.m in Sources */,
 				E471BE1D1A96620E0076CBD7 /* DropTableViewCell.m in Sources */,
 				E471BE211A9671690076CBD7 /* ItemEncyclopediaTableViewController.m in Sources */,
 				E434F3771A83F5CA004C10BF /* _Trade.m in Sources */,

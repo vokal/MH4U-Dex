@@ -8,6 +8,8 @@
 
 #import "MonsterDetailsViewController.h"
 
+#import "Constants.h"
+
 #import "MonsterItemTableViewController.h"
 #import "MonsterOverviewViewController.h"
 
@@ -80,11 +82,11 @@ typedef NS_ENUM(NSInteger, MonsterSegmentedControlPage) {
         itemVC.managedObjectContext = self.managedObjectContext;
         itemVC.monsterName = self.monsterName;
         if ([segue.identifier isEqualToString:@"embedLowRank"]) {
-            itemVC.rank = @"Low";
+            itemVC.rank = MHDLowConstString;
         } else if ([segue.identifier isEqualToString:@"embedHighRank"]) {
-            itemVC.rank = @"High";
+            itemVC.rank = MHDHighConstString;
         } else if ([segue.identifier isEqualToString:@"embedGRank"]) {
-            itemVC.rank = @"G";
+            itemVC.rank = MHDGConstString;
         }
     }
 }

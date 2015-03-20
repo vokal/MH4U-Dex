@@ -8,6 +8,8 @@
 
 #import "DamageZoneCell.h"
 
+#import "Strings.h"
+
 #import "DamageZone.h"
 
 @interface DamageZoneCell ()
@@ -32,17 +34,17 @@
 {
     self.bodyPartLabel.text = damageZone.bodyPart;
     self.extractLabel.text = damageZone.extract;
-    if ([damageZone.bodyPart isEqualToString:@"Body Part"]) {
+    if ([damageZone.bodyPart isEqualToString:[Strings MHDBodyPartLabelText]]) {
         // This is the template.
-        self.cutLabel.text = @"Cut";
-        self.impactLabel.text = @"Impact";
-        self.shotLabel.text = @"Shot";
-        self.koLabel.text = @"KO";
-        self.fireLabel.text = @"Fire";
-        self.iceLabel.text = @"Ice";
-        self.dragonLabel.text = @"Dragon";
-        self.waterLabel.text = @"Water";
-        self.thunderLabel.text = @"Thunder";
+        self.cutLabel.text = [Strings MHDCutLabelText];
+        self.impactLabel.text = [Strings MHDImpactLabelText];
+        self.shotLabel.text = [Strings MHDShotLabelText];
+        self.koLabel.text = [Strings MHDKOLabelText];
+        self.fireLabel.text = [Strings MHDFireLabelText];
+        self.iceLabel.text = [Strings MHDIceLabelText];
+        self.dragonLabel.text = [Strings MHDDragonLabelText];
+        self.waterLabel.text = [Strings MHDWaterLabelText];
+        self.thunderLabel.text = [Strings MHDThunderLabelText];
     } else {
         self.cutLabel.text = [NSString stringWithFormat:@"%@", damageZone.cut];
         self.impactLabel.text = [NSString stringWithFormat:@"%@", damageZone.impact];

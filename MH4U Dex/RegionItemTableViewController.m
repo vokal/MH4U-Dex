@@ -10,6 +10,7 @@
 
 #import <CoreData/CoreData.h>
 
+#import "Constants.h"
 #import "CoreDataController.h"
 
 #import "ItemContainerViewController.h"
@@ -37,7 +38,7 @@
     NSError *fetchError = nil;
     NSFetchRequest *areaFetchRequest = [[NSFetchRequest alloc] initWithEntityName:[Area entityName]];
     NSPredicate *areaPredicate = [NSPredicate predicateWithFormat:@"%K == %@", AreaRelationships.region, self.region];
-    NSPredicate *rankPredicate = [NSPredicate predicateWithFormat:@"%K == %@", AreaAttributes.rank, self.rank ?: @"Low"];
+    NSPredicate *rankPredicate = [NSPredicate predicateWithFormat:@"%K == %@", AreaAttributes.rank, self.rank ?: MHDLowConstString];
     areaFetchRequest.predicate = [NSCompoundPredicate andPredicateWithSubpredicates:@[rankPredicate, areaPredicate]];
     areaFetchRequest.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:AreaAttributes.name ascending:YES]];
     self.areaArray = [coreDataController.managedObjectContext executeFetchRequest:areaFetchRequest error:&fetchError];
