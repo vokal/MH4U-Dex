@@ -56,6 +56,7 @@ static NSString *const NeedsReloadKey = @"NEED_RELOAD";
         NSLog(@"Core Data Reset. Loading Data.");
         [self loadMonsterData];
         NSLog(@"Monster data loaded.");
+        //TODO: Load Damage Zone Data.
         [self loadMonsterDropData];
         NSLog(@"Monster Drop data loaded.");
         [self loadRegionData];
@@ -120,6 +121,21 @@ static NSString *const NeedsReloadKey = @"NEED_RELOAD";
             monsterDrop.id = monsterDropDict[MHDMonsterDropIDKey];
             monsterDrop.monsterSource = monster;
         }
+    }
+}
+
+- (void)loadMonsterDamageZoneData
+{
+    NSArray *damageZoneList = [self loadArrayFromJsonFileNamed:MHDMonsterDamageZonesFileName];
+    for (NSDictionary *damageZoneDict in damageZoneList) {
+        Monster *monster = [self monsterWithName:damageZoneDict[MHDMonsterDamageZoneMonsterNameKey]];
+        if (!monster) {
+            continue;
+        }
+        DamageZone *damageZone = [self getOrCreateDamageZoneWithID:damageZoneDict[MHDMonsterDamageZoneIDKey]];
+        damageZone.monster = monster;
+        
+        //TODO: Finish later after updating DamageZone model
     }
 }
 
@@ -449,6 +465,17 @@ static NSString *const NeedsReloadKey = @"NEED_RELOAD";
         item.name = name;
     }
     return item;
+}
+
+- (DamageZone *)getOrCreateDamageZoneWithID:(NSNumber *)damageZoneID
+{
+    NSPredicate *damageZonePredicate = [NSPredicate predicateWithFormat:@"%K == %@", DamageZoneAttributes.id, damageZoneID];
+    DamageZone *damageZone = (DamageZone *)[self uniqueEntityWithEntityName:[DamageZone entityName] withPredicate:damageZonePredicate];
+    if (!damageZone) {
+        damageZone = [DamageZone insertInManagedObjectContext:self.managedObjectContext];
+        damageZone.id = damageZoneID;
+    }
+    return damageZone;
 }
 
 #pragma makr - Core Data Helper Methods

@@ -27,6 +27,8 @@ FOUNDATION_EXPORT NSString *const MHDMonsterNameKey;
 FOUNDATION_EXPORT NSString *const MHDMonsterSortNameKey;
 FOUNDATION_EXPORT NSString *const MHDMonstersFileName;
 FOUNDATION_EXPORT NSString *const MHDMonsterDamageZonesFileName;
+FOUNDATION_EXPORT NSString *const MHDMonsterDamageZoneMonsterNameKey;
+FOUNDATION_EXPORT NSString *const MHDMonsterDamageZoneIDKey;
 FOUNDATION_EXPORT NSString *const MHDMonsterClassKey;
 FOUNDATION_EXPORT NSString *const MHDBoss;
 FOUNDATION_EXPORT NSString *const MHDMinion;

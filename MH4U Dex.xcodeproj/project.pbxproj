@@ -441,6 +441,7 @@
 		E48A67771ABB7A8000C5EE81 /* Monsters */ = {
 			isa = PBXGroup;
 			children = (
+				E41C4D191A8BBBCB00A2D0CB /* damageZones.json */,
 				E48A67781ABB7A8E00C5EE81 /* monster_drops10.json */,
 				E48A67791ABB7A8E00C5EE81 /* monster_drops9.json */,
 				E48A677A1ABB7A8E00C5EE81 /* monster_drops8.json */,
@@ -526,7 +527,6 @@
 			children = (
 				E48A67771ABB7A8000C5EE81 /* Monsters */,
 				E471BE301A979DB30076CBD7 /* Regions */,
-				E41C4D191A8BBBCB00A2D0CB /* damageZones.json */,
 				E4DAD2271AB739050048DACA /* quests.json */,
 				E4DAD2291AB772C50048DACA /* quest_drops.json */,
 				E41C4D1B1A8BBF5E00A2D0CB /* monsters.json */,

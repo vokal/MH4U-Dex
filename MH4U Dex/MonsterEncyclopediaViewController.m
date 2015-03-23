@@ -105,7 +105,6 @@ typedef NS_ENUM(NSInteger, MonsterEncyclopediaSections) {
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    
     MonsterEncyclopediaCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:NSStringFromClass([MonsterEncyclopediaCell class])
                                                                               forIndexPath:indexPath];
     [cell displayContentsWithMonster:[self monsterForIndexPath:indexPath]];
