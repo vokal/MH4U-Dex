@@ -11,7 +11,5 @@
 
 @interface HomeViewController : UIViewController
 
-@property (nonatomic, strong) NSManagedObjectContext *managedObjectContext;
-
 @end
 

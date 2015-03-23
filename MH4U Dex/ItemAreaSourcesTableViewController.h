@@ -10,7 +10,6 @@
 
 @interface ItemAreaSourcesTableViewController : UITableViewController
 
-@property (nonatomic, strong) NSManagedObjectContext *managedObjectContext;
 @property (nonatomic, strong) NSString *itemName;
 
 @end

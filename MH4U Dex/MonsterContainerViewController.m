@@ -1,17 +1,19 @@
 //
-//  MonsterDetailsViewController.m
+//  MonsterContainerViewController.m
 //  MH4U Dex
 //
 //  Created by Joseph Goldberg on 2/9/15.
 //  Copyright (c) 2015 Joseph Goldberg. All rights reserved.
 //
 
-#import "MonsterDetailsViewController.h"
+#import "MonsterContainerViewController.h"
 
 #import "Constants.h"
 
 #import "MonsterItemTableViewController.h"
 #import "MonsterOverviewViewController.h"
+
+#import "Monster.h"
 
 typedef NS_ENUM(NSInteger, MonsterSegmentedControlPage) {
     Overview = 0,
@@ -22,7 +24,7 @@ typedef NS_ENUM(NSInteger, MonsterSegmentedControlPage) {
     MonsterSegmentedControlCount
 };
 
-@interface MonsterDetailsViewController ()
+@interface MonsterContainerViewController ()
 
 @property (nonatomic, weak) IBOutlet UIView *overviewSubView;
 @property (nonatomic, weak) IBOutlet UIView *lowRankSubView;
@@ -32,7 +34,7 @@ typedef NS_ENUM(NSInteger, MonsterSegmentedControlPage) {
 
 @end
 
-@implementation MonsterDetailsViewController
+@implementation MonsterContainerViewController
 
 - (void)viewDidLoad
 {
@@ -51,19 +53,19 @@ typedef NS_ENUM(NSInteger, MonsterSegmentedControlPage) {
     switch (segmentedControl.selectedSegmentIndex) {
         case Overview:
             self.overviewSubView.hidden = NO;
-            self.title = [NSString stringWithFormat:@"%@ Overview", self.monsterName];
+            self.title = [NSString stringWithFormat:@"%@ Overview", self.monster.name];
             break;
         case LowRank:
             self.lowRankSubView.hidden = NO;
-            self.title = [NSString stringWithFormat:@"%@ LR Drops", self.monsterName];
+            self.title = [NSString stringWithFormat:@"%@ LR Drops", self.monster.name];
             break;
         case HighRank:
             self.highRankSubView.hidden = NO;
-            self.title = [NSString stringWithFormat:@"%@ HR Drops", self.monsterName];
+            self.title = [NSString stringWithFormat:@"%@ HR Drops", self.monster.name];
             break;
         case GRank:
             self.GRankSubView.hidden = NO;
-            self.title = [NSString stringWithFormat:@"%@ GR Drops", self.monsterName];
+            self.title = [NSString stringWithFormat:@"%@ GR Drops", self.monster.name];
             break;
         default:
             break;
@@ -75,12 +77,10 @@ typedef NS_ENUM(NSInteger, MonsterSegmentedControlPage) {
     
     if ([segue.identifier isEqualToString:@"embedOverview"]) {
         MonsterOverviewViewController *overViewVC = (MonsterOverviewViewController *)segue.destinationViewController;
-        overViewVC.managedObjectContext = self.managedObjectContext;
-        overViewVC.monsterName = self.monsterName;
+        overViewVC.monster = self.monster;
     } else {
         MonsterItemTableViewController *itemVC = (MonsterItemTableViewController *)segue.destinationViewController;
-        itemVC.managedObjectContext = self.managedObjectContext;
-        itemVC.monsterName = self.monsterName;
+        itemVC.monster = self.monster;
         if ([segue.identifier isEqualToString:@"embedLowRank"]) {
             itemVC.rank = MHDLowConstString;
         } else if ([segue.identifier isEqualToString:@"embedHighRank"]) {

@@ -10,6 +10,8 @@
 
 #import <CoreData/CoreData.h>
 
+#import "CoreDataController.h"
+
 #import "ItemContainerViewController.h"
 
 #import "Item.h"
@@ -31,7 +33,7 @@
     NSError *fetchError = nil;
     NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:[Item entityName]];
     fetchRequest.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:ItemAttributes.name ascending:YES]];
-    self.items = [self.managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];
+    self.items = [[CoreDataController sharedCDController].managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];
     if (fetchError) {
         NSLog(@"Error fetching item data.");
         NSLog(@"%@, %@", fetchError, fetchError.localizedDescription);
@@ -70,7 +72,6 @@
 {
     if ([segue.identifier isEqualToString:@"showItemDetails"]) {
         ItemContainerViewController *itemVC = (ItemContainerViewController *)segue.destinationViewController;
-        itemVC.managedObjectContext = self.managedObjectContext;
         if ([sender isMemberOfClass:[ItemTableViewCell class]]) {
             ItemTableViewCell *cell = (ItemTableViewCell *)sender;
             itemVC.itemName = [self itemAtIndexPath:[self.tableView indexPathForCell:cell]].name;

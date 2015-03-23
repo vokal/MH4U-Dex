@@ -51,7 +51,7 @@
 		E4456EB01A895DBF00FCC7DC /* DamageZoneCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E4456EAF1A895DBF00FCC7DC /* DamageZoneCell.m */; };
 		E4456EB31A89663900FCC7DC /* _DamageZone.m in Sources */ = {isa = PBXBuildFile; fileRef = E4456EB21A89663900FCC7DC /* _DamageZone.m */; };
 		E4456EB61A89664F00FCC7DC /* DamageZone.m in Sources */ = {isa = PBXBuildFile; fileRef = E4456EB51A89664F00FCC7DC /* DamageZone.m */; };
-		E45E9A8E1A890CC400D75592 /* MonsterDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E45E9A8D1A890CC400D75592 /* MonsterDetailsViewController.m */; };
+		E45E9A8E1A890CC400D75592 /* MonsterContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E45E9A8D1A890CC400D75592 /* MonsterContainerViewController.m */; };
 		E45E9A911A890ED300D75592 /* MonsterItemTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E45E9A901A890ED300D75592 /* MonsterItemTableViewController.m */; };
 		E46BBBA31AAA483100068F02 /* RegionContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E46BBBA21AAA483000068F02 /* RegionContainerViewController.m */; };
 		E46BBBA61AAA4CEE00068F02 /* RegionItemTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E46BBBA51AAA4CEE00068F02 /* RegionItemTableViewController.m */; };
@@ -183,8 +183,8 @@
 		E4456EB21A89663900FCC7DC /* _DamageZone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _DamageZone.m; sourceTree = "<group>"; };
 		E4456EB41A89664F00FCC7DC /* DamageZone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DamageZone.h; sourceTree = "<group>"; };
 		E4456EB51A89664F00FCC7DC /* DamageZone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DamageZone.m; sourceTree = "<group>"; };
-		E45E9A8C1A890CC400D75592 /* MonsterDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonsterDetailsViewController.h; sourceTree = "<group>"; };
-		E45E9A8D1A890CC400D75592 /* MonsterDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonsterDetailsViewController.m; sourceTree = "<group>"; };
+		E45E9A8C1A890CC400D75592 /* MonsterContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonsterContainerViewController.h; sourceTree = "<group>"; };
+		E45E9A8D1A890CC400D75592 /* MonsterContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonsterContainerViewController.m; sourceTree = "<group>"; };
 		E45E9A8F1A890ED300D75592 /* MonsterItemTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonsterItemTableViewController.h; sourceTree = "<group>"; };
 		E45E9A901A890ED300D75592 /* MonsterItemTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonsterItemTableViewController.m; sourceTree = "<group>"; };
 		E46BBBA11AAA483000068F02 /* RegionContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionContainerViewController.h; sourceTree = "<group>"; };
@@ -441,6 +441,7 @@
 		E48A67771ABB7A8000C5EE81 /* Monsters */ = {
 			isa = PBXGroup;
 			children = (
+				E41C4D191A8BBBCB00A2D0CB /* damageZones.json */,
 				E48A67781ABB7A8E00C5EE81 /* monster_drops10.json */,
 				E48A67791ABB7A8E00C5EE81 /* monster_drops9.json */,
 				E48A677A1ABB7A8E00C5EE81 /* monster_drops8.json */,
@@ -526,7 +527,6 @@
 			children = (
 				E48A67771ABB7A8000C5EE81 /* Monsters */,
 				E471BE301A979DB30076CBD7 /* Regions */,
-				E41C4D191A8BBBCB00A2D0CB /* damageZones.json */,
 				E4DAD2271AB739050048DACA /* quests.json */,
 				E4DAD2291AB772C50048DACA /* quest_drops.json */,
 				E41C4D1B1A8BBF5E00A2D0CB /* monsters.json */,
@@ -581,8 +581,8 @@
 			children = (
 				E4456EAB1A895D7600FCC7DC /* DamageZonesCollectionViewController.h */,
 				E4456EAC1A895D7600FCC7DC /* DamageZonesCollectionViewController.m */,
-				E45E9A8C1A890CC400D75592 /* MonsterDetailsViewController.h */,
-				E45E9A8D1A890CC400D75592 /* MonsterDetailsViewController.m */,
+				E45E9A8C1A890CC400D75592 /* MonsterContainerViewController.h */,
+				E45E9A8D1A890CC400D75592 /* MonsterContainerViewController.m */,
 				E4A7698B1A85207D00AC93DA /* MonsterEncyclopediaViewController.h */,
 				E4A7698C1A85207D00AC93DA /* MonsterEncyclopediaViewController.m */,
 				E45E9A8F1A890ED300D75592 /* MonsterItemTableViewController.h */,
@@ -825,7 +825,7 @@
 			files = (
 				E4A769921A8521B100AC93DA /* MonsterEncyclopediaCell.m in Sources */,
 				E4DAD2311AB7813C0048DACA /* QuestListTableViewController.m in Sources */,
-				E45E9A8E1A890CC400D75592 /* MonsterDetailsViewController.m in Sources */,
+				E45E9A8E1A890CC400D75592 /* MonsterContainerViewController.m in Sources */,
 				E434F37D1A83F5CA004C10BF /* Item.m in Sources */,
 				E4DAD2341AB89A210048DACA /* QuestListTableViewCell.m in Sources */,
 				E4CE45C61A97A8DA0059C056 /* _AreaDrop.m in Sources */,

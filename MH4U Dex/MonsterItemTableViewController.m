@@ -10,6 +10,7 @@
 
 #import <CoreData/CoreData.h>
 
+#import "CoreDataController.h"
 #import "Strings.h"
 
 #import "ItemContainerViewController.h"
@@ -32,27 +33,24 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    NSManagedObjectContext *managedObjectContext = [CoreDataController sharedCDController].managedObjectContext;
     NSError *fetchError = nil;
-    NSFetchRequest *monsterFetchRequest = [[NSFetchRequest alloc] initWithEntityName:[Monster entityName]];
-    monsterFetchRequest.predicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterAttributes.name, self.monsterName];
-    Monster *monster = (Monster *)[self.managedObjectContext executeFetchRequest:monsterFetchRequest error:&fetchError].firstObject;
     
     NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:[MonsterDrop entityName]];
-    NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:MonsterDropAttributes.method ascending:YES];
-    NSPredicate *dropPredicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterDropRelationships.monsterSource, monster];
+    NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:MonsterDropAttributes.id ascending:YES];
+    NSPredicate *dropPredicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterDropRelationships.monsterSource, self.monster];
     NSPredicate *rankPredicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterDropAttributes.rank, self.rank ?: @"Low"];
     NSCompoundPredicate *compoundPredicate = [NSCompoundPredicate andPredicateWithSubpredicates:@[dropPredicate, rankPredicate]];
     fetchRequest.predicate = compoundPredicate;
     fetchRequest.sortDescriptors = @[sortDescriptor];
     
-    self.drops = [self.managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];
+    self.drops = [managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if ([segue.identifier isEqualToString:@"showMonsterEncyclopedia"]) {
         MonsterEncyclopediaViewController *monsterVC = (MonsterEncyclopediaViewController *)segue.destinationViewController;
-        monsterVC.managedObjectContext = self.managedObjectContext;
         monsterVC.navigationItem.title = [Strings MHDMonsterEncyclopedia];
     }
 }
@@ -78,7 +76,6 @@
 {
     UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     ItemContainerViewController *itemVC = [storyBoard instantiateViewControllerWithIdentifier:@"ItemContainerViewController"];
-    itemVC.managedObjectContext = self.managedObjectContext;
     MonsterDrop *drop = self.drops[indexPath.row];
     Item *item = [drop valueForKey:MonsterDropRelationships.item];
     itemVC.itemName = item.name;

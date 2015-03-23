@@ -31,11 +31,10 @@
     [super viewDidLoad];
     self.navigationItem.title = @"Region Encyclopedia";
     
-    
     NSError *fetchError = nil;
     NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:[Region entityName]];
     fetchRequest.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:RegionAttributes.id ascending:YES]];
-    self.regions = [self.managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];
+    self.regions = [[CoreDataController sharedCDController].managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];
     if (fetchError) {
         NSLog(@"Error fetching region data.");
         NSLog(@"%@, %@", fetchError, fetchError.localizedDescription);
@@ -74,8 +73,6 @@
 {
     if ([segue.identifier isEqualToString:@"showRegionDetails"]) {
         RegionContainerViewController *regionVC = (RegionContainerViewController *)segue.destinationViewController;
-        regionVC.managedObjectContext = self.managedObjectContext;
-        
         if ([sender isMemberOfClass:[RegionEncyclopediaCollectionViewCell class]]) {
             RegionEncyclopediaCollectionViewCell *cell = (RegionEncyclopediaCollectionViewCell *)sender;
             Region *region = [self regionAtIndexPath:[self.collectionView indexPathForCell:cell]];

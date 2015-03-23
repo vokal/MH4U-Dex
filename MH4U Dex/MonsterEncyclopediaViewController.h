@@ -10,6 +10,4 @@
 
 @interface MonsterEncyclopediaViewController : UICollectionViewController
 
-@property (nonatomic, strong) NSManagedObjectContext *managedObjectContext;
-
 @end

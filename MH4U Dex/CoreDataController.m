@@ -22,6 +22,9 @@
 #import "QuestDrop.h"
 #import "Region.h"
 
+static NSString *const NeedsReloadKey = @"NEED_RELOAD";
+static NSString *const MonsterDropFilePrefix = @"monster_drops";
+
 @interface CoreDataController ()
 
 @property (readwrite, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
@@ -46,87 +49,102 @@
 
 #pragma mark - Initial Data Loading
 
+- (void)tryLoadSequence
+{
+    //TODO: Remove these NSLog Calls once everything is verified to work with the final model.
+    if ([[NSUserDefaults standardUserDefaults] boolForKey:NeedsReloadKey]) {
+        NSLog(@"Resetting Core Data");
+        [self resetCoreData];
+        NSLog(@"Core Data Reset. Loading Data.");
+        [self loadMonsterData];
+        NSLog(@"Monster data loaded.");
+        //TODO: Load Damage Zone Data.
+        [self loadMonsterDropData];
+        NSLog(@"Monster Drop data loaded.");
+        [self loadRegionData];
+        NSLog(@"Region data loaded.");
+        [self loadQuestData];
+        NSLog(@"Quest Data loaded.");
+        [self loadQuestDropData];
+        NSLog(@"Quest Drop Data loaded.");
+        [self saveContext];
+        NSLog(@"Core Data Context Saved.");
+        [CoreDataController setShouldTriggerReloadUponRestart:NO];
+    }
+}
+
++ (void)setShouldTriggerReloadUponRestart:(BOOL)shouldTriggerReloadUponRestart
+{
+    [[NSUserDefaults standardUserDefaults] setBool:shouldTriggerReloadUponRestart forKey:NeedsReloadKey];
+}
+
++ (BOOL)shouldTriggerReloadUponRestart
+{
+    return [[NSUserDefaults standardUserDefaults] boolForKey:NeedsReloadKey];
+}
+
 - (void)loadMonsterData
 {
-    // Because monsters are added first, there are no relationships to set up, so we can hydrate them.
-    NSString *path = [[NSBundle mainBundle] pathForResource:MHDMonstersFileName ofType:MHDJSON];
-    NSDictionary *attributes = @{
-                                 MonsterAttributes.id: @"_id",
-                                 MonsterAttributes.monster_class: @"class",
-                                 MonsterAttributes.name: @"name",
-                                 MonsterAttributes.jpn_name: @"jpn_name",
-                                 MonsterAttributes.sort_name: @"sort_name",
-                                 MonsterAttributes.trait: @"trait",
-                                 MonsterAttributes.icon: @"icon_name",
-                                 MonsterAttributes.url: @"url",
-                                 };
-    [self.managedObjectContext hydrateStoreWithJSONAtPath:path attributeMappings:attributes forEntityName:[Monster entityName]];
-    path = [[NSBundle mainBundle] pathForResource:MHDMonsterDamageZonesFileName ofType:MHDJSON];
-    attributes = @{
-                   DamageZoneAttributes.id: @"_id",
-                   DamageZoneAttributes.monsterID: @"monster_id",
-                   DamageZoneAttributes.monsterName: @"monster_name",
-                   DamageZoneAttributes.jpnMonsterName: @"jpn_monster_name",
-                   DamageZoneAttributes.bodyPart: @"body_part",
-                   DamageZoneAttributes.cut: @"cut",
-                   DamageZoneAttributes.impact: @"impact",
-                   DamageZoneAttributes.shot: @"shot",
-                   DamageZoneAttributes.fire: @"fire",
-                   DamageZoneAttributes.water: @"water",
-                   DamageZoneAttributes.thunder: @"thunder",
-                   DamageZoneAttributes.ice: @"ice",
-                   DamageZoneAttributes.dragon: @"dragon",
-                   DamageZoneAttributes.ko: @"ko",
-                   DamageZoneAttributes.extract: @"extract",
-                   };
-    [self.managedObjectContext hydrateStoreWithJSONAtPath:path attributeMappings:attributes forEntityName:[DamageZone entityName]];
+    NSArray *monsterList = [self loadArrayFromJsonFileNamed:MHDMonstersFileName];
+    for (NSDictionary *monsterDict in monsterList) {
+        Monster *monster = [self monsterWithName:monsterDict[MHDMonsterNameKey]];
+        if (!monster) {
+            monster = [Monster insertInManagedObjectContext:self.managedObjectContext];
+        }
+        monster.name = monsterDict[MHDMonsterNameKey];
+        monster.monster_description = monsterDict[MHDMonsterDescriptionKey];
+        monster.sort_name = monsterDict[MHDMonsterSortNameKey];
+        monster.monster_class = monsterDict[MHDMonsterClassKey];
+    }
 }
 
 - (void)loadMonsterDropData
 {
-    NSArray *dropList = [self loadArrayFromJsonFileNamed:MHDMonsterDropsFileName];
-    for (NSDictionary *drop in dropList) {
-        // Only add the drop if it is not already there
-        NSNumber *monsterDropID = drop[MHDMonsterDropIDKey];
-        NSPredicate *monsterDropPredicate = [NSPredicate predicateWithFormat:@"%K == %d", MonsterAttributes.id, monsterDropID.intValue];
-        if (![self countForEntityWithEntityName:[MonsterDrop entityName] withPredicate:monsterDropPredicate]) {
-            MonsterDrop *newDrop = [MonsterDrop insertInManagedObjectContext:self.managedObjectContext];
-            newDrop.id = drop[MHDMonsterDropIDKey];
-            newDrop.method = drop[MHDMonsterDropMethodKey];
-            newDrop.quantity = drop[MHDMonsterDropQuantityKey];
-            
-            // If the Item for this drop already exists in the persistent store ...
-            NSPredicate *itemPredicate = [NSPredicate predicateWithFormat:@"%K == %@", ItemAttributes.name, drop[MHDMonsterDropItemNameKey]];
-            Item *item = (Item *)[self uniqueEntityWithEntityName:[Item entityName] withPredicate:itemPredicate];
-            if (!item) {
-                item = [Item insertInManagedObjectContext:self.managedObjectContext];
-                item.name = drop[MHDMonsterDropItemNameKey];
-            }
-            newDrop.item = item;
-            // If this is a monster drop ...
-            NSString *monsterName = drop[MHDMonsterDropMonsterNameKey];
-            if (monsterName.length) {
-                // We need to add this drop to the monster's list, if it is not there already.
-                
-                // First we should ensure that the monster already exists in the persistent store
-                NSNumber *monsterID = drop[MHDMonsterDropMonsterIDKey];
-                NSPredicate *monsterPredicate = [NSPredicate predicateWithFormat:@"%K == %d", MonsterAttributes.id, monsterID.intValue];
-                Monster *monster = (Monster *)[self uniqueEntityWithEntityName:[Monster entityName] withPredicate:monsterPredicate];
+    //Repeat this process for each JSON file
+    NSArray *urlArray = [[NSBundle mainBundle] URLsForResourcesWithExtension:MHDJSON subdirectory:nil];
+    for (NSURL *url in urlArray)  {
+        NSString *fileName = [[url URLByDeletingPathExtension] lastPathComponent];
+        if ([fileName hasPrefix:MonsterDropFilePrefix]) {
+            NSLog(@"Loading in monster drop file: %@", fileName);
+            NSArray *dropList = [self loadArrayFromJsonFileNamed:fileName];
+            for (NSDictionary *monsterDropDict in dropList) {
+                //Check if the monster exists.  Do not bother even creating the drop if it does not
+                Monster *monster = [self monsterWithName:monsterDropDict[MHDMonsterDropMonsterNameKey]];
                 if (!monster) {
-                    // TODO: Handle better, later.
-                    NSLog(@"The Monster, %@, was not found!", monsterName);
-                } else {
-                    newDrop.monsterSource = monster;
-                    newDrop.rank = drop[MHDMonsterDropRankKey];
-                    newDrop.percent = drop[MHDMonsterDropPercentKey];
+                    continue;
                 }
+                NSPredicate *monsterDropPredicate;
+                NSNumber *monsterDropID = monsterDropDict[MHDMonsterDropIDKey];
+                monsterDropPredicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterDropAttributes.id, monsterDropID];
+                MonsterDrop *monsterDrop = (MonsterDrop *)[self uniqueEntityWithEntityName:[MonsterDrop entityName]
+                                                                             withPredicate:monsterDropPredicate];
+                if (!monsterDrop) {
+                    monsterDrop = [MonsterDrop insertInManagedObjectContext:self.managedObjectContext];
+                }
+                monsterDrop.item = [self getOrCreateItemWithName:monsterDropDict[MHDMonsterDropItemNameKey]];
+                monsterDrop.percent = monsterDropDict[MHDMonsterDropPercentKey];
+                monsterDrop.rank = monsterDropDict[MHDMonsterDropRankKey];
+                monsterDrop.method = monsterDropDict[MHDMonsterDropMethodKey];
+                monsterDrop.quantity = monsterDropDict[MHDMonsterDropQuantityKey];
+                monsterDrop.id = monsterDropDict[MHDMonsterDropIDKey];
+                monsterDrop.monsterSource = monster;
             }
         }
     }
-    
-    // We should now try to save the manged object context
-    if (![self attemptSaveContext]) {
-        NSLog(@"WARNING: Failed to save the item context!");
+}
+
+- (void)loadMonsterDamageZoneData
+{
+    NSArray *damageZoneList = [self loadArrayFromJsonFileNamed:MHDMonsterDamageZonesFileName];
+    for (NSDictionary *damageZoneDict in damageZoneList) {
+        Monster *monster = [self monsterWithName:damageZoneDict[MHDMonsterDamageZoneMonsterNameKey]];
+        if (!monster) {
+            continue;
+        }
+        DamageZone *damageZone = [self getOrCreateDamageZoneWithID:damageZoneDict[MHDMonsterDamageZoneIDKey]];
+        damageZone.monster = monster;
+        
+        //TODO: Finish later after updating DamageZone model
     }
 }
 
@@ -439,6 +457,49 @@
         }
     }
     return quest;
+}
+
+- (Monster *)monsterWithName:(NSString *)name
+{
+    NSPredicate *monsterPredicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterAttributes.name, name];
+    return (Monster *)[self uniqueEntityWithEntityName:[Monster entityName] withPredicate:monsterPredicate];
+}
+
+- (Item *)getOrCreateItemWithName:(NSString *)name
+{
+    NSPredicate *itemPredicate = [NSPredicate predicateWithFormat:@"%K == %@", ItemAttributes.name, name];
+    Item *item = (Item *)[self uniqueEntityWithEntityName:[Item entityName] withPredicate:itemPredicate];
+    if (!item) {
+        item = [Item insertInManagedObjectContext:self.managedObjectContext];
+        item.name = name;
+    }
+    return item;
+}
+
+- (DamageZone *)getOrCreateDamageZoneWithID:(NSNumber *)damageZoneID
+{
+    NSPredicate *damageZonePredicate = [NSPredicate predicateWithFormat:@"%K == %@", DamageZoneAttributes.id, damageZoneID];
+    DamageZone *damageZone = (DamageZone *)[self uniqueEntityWithEntityName:[DamageZone entityName] withPredicate:damageZonePredicate];
+    if (!damageZone) {
+        damageZone = [DamageZone insertInManagedObjectContext:self.managedObjectContext];
+        damageZone.id = damageZoneID;
+    }
+    return damageZone;
+}
+
+#pragma mark - Core Data Helper Methods
+
+- (void)resetCoreData
+{
+    NSArray *stores = self.persistentStoreCoordinator.persistentStores;
+    for (NSPersistentStore *store in stores) {
+        [self.persistentStoreCoordinator removePersistentStore:store error:nil];
+        [[NSFileManager defaultManager] removeItemAtPath:store.URL.path error:nil];
+    }
+    
+    self.persistentStoreCoordinator = nil;
+    self.managedObjectContext = nil;
+    self.managedObjectModel = nil;
 }
 
 #pragma mark - Boilerplate Core Data Code
