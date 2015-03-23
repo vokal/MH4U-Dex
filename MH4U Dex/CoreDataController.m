@@ -23,6 +23,7 @@
 #import "Region.h"
 
 static NSString *const NeedsReloadKey = @"NEED_RELOAD";
+static NSString *const MonsterDropFilePrefix = @"monster_drops";
 
 @interface CoreDataController ()
 
@@ -50,6 +51,7 @@ static NSString *const NeedsReloadKey = @"NEED_RELOAD";
 
 - (void)tryLoadSequence
 {
+    //TODO: Remove these NSLog Calls once everything is verified to work with the final model.
     if ([[NSUserDefaults standardUserDefaults] boolForKey:NeedsReloadKey]) {
         NSLog(@"Resetting Core Data");
         [self resetCoreData];
@@ -76,7 +78,7 @@ static NSString *const NeedsReloadKey = @"NEED_RELOAD";
     [[NSUserDefaults standardUserDefaults] setBool:shouldTriggerReloadUponRestart forKey:NeedsReloadKey];
 }
 
-+ (BOOL)willReloadUponRestart
++ (BOOL)shouldTriggerReloadUponRestart
 {
     return [[NSUserDefaults standardUserDefaults] boolForKey:NeedsReloadKey];
 }
@@ -98,28 +100,35 @@ static NSString *const NeedsReloadKey = @"NEED_RELOAD";
 
 - (void)loadMonsterDropData
 {
-    //Repeat this process for ten different JSON files
-    for (NSUInteger fileNumber = 1; fileNumber <= 10; fileNumber++) {
-        NSLog(@"Loading in monster drop file # %@", @(fileNumber));
-        NSArray *dropList = [self loadArrayFromJsonFileNamed:[MHDMonsterDropsFileName stringByAppendingFormat:@"%@", @(fileNumber)]];
-        for (NSDictionary *monsterDropDict in dropList) {
-            //Check if the monster exists.  Do not bother even creating the drop if it does not
-            Monster *monster = [self monsterWithName:monsterDropDict[MHDMonsterDropMonsterNameKey]];
-            if (!monster) {
-                continue;
+    //Repeat this process for each JSON file
+    NSArray *urlArray = [[NSBundle mainBundle] URLsForResourcesWithExtension:MHDJSON subdirectory:nil];
+    for (NSURL *url in urlArray)  {
+        NSString *fileName = [[url URLByDeletingPathExtension] lastPathComponent];
+        if ([fileName hasPrefix:MonsterDropFilePrefix]) {
+            NSLog(@"Loading in monster drop file: %@", fileName);
+            NSArray *dropList = [self loadArrayFromJsonFileNamed:fileName];
+            for (NSDictionary *monsterDropDict in dropList) {
+                //Check if the monster exists.  Do not bother even creating the drop if it does not
+                Monster *monster = [self monsterWithName:monsterDropDict[MHDMonsterDropMonsterNameKey]];
+                if (!monster) {
+                    continue;
+                }
+                NSPredicate *monsterDropPredicate;
+                NSNumber *monsterDropID = monsterDropDict[MHDMonsterDropIDKey];
+                monsterDropPredicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterDropAttributes.id, monsterDropID];
+                MonsterDrop *monsterDrop = (MonsterDrop *)[self uniqueEntityWithEntityName:[MonsterDrop entityName]
+                                                                             withPredicate:monsterDropPredicate];
+                if (!monsterDrop) {
+                    monsterDrop = [MonsterDrop insertInManagedObjectContext:self.managedObjectContext];
+                }
+                monsterDrop.item = [self getOrCreateItemWithName:monsterDropDict[MHDMonsterDropItemNameKey]];
+                monsterDrop.percent = monsterDropDict[MHDMonsterDropPercentKey];
+                monsterDrop.rank = monsterDropDict[MHDMonsterDropRankKey];
+                monsterDrop.method = monsterDropDict[MHDMonsterDropMethodKey];
+                monsterDrop.quantity = monsterDropDict[MHDMonsterDropQuantityKey];
+                monsterDrop.id = monsterDropDict[MHDMonsterDropIDKey];
+                monsterDrop.monsterSource = monster;
             }
-            NSPredicate *monsterDropPredicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterDropAttributes.id, monsterDropDict[MHDMonsterDropIDKey]];
-            MonsterDrop *monsterDrop = (MonsterDrop *)[self uniqueEntityWithEntityName:[MonsterDrop entityName] withPredicate:monsterDropPredicate];
-            if (!monsterDrop) {
-                monsterDrop = [MonsterDrop insertInManagedObjectContext:self.managedObjectContext];
-            }
-            monsterDrop.item = [self getOrCreateItemWithName:monsterDropDict[MHDMonsterDropItemNameKey]];
-            monsterDrop.percent = monsterDropDict[MHDMonsterDropPercentKey];
-            monsterDrop.rank = monsterDropDict[MHDMonsterDropRankKey];
-            monsterDrop.method = monsterDropDict[MHDMonsterDropMethodKey];
-            monsterDrop.quantity = monsterDropDict[MHDMonsterDropQuantityKey];
-            monsterDrop.id = monsterDropDict[MHDMonsterDropIDKey];
-            monsterDrop.monsterSource = monster;
         }
     }
 }
@@ -478,7 +487,7 @@ static NSString *const NeedsReloadKey = @"NEED_RELOAD";
     return damageZone;
 }
 
-#pragma makr - Core Data Helper Methods
+#pragma mark - Core Data Helper Methods
 
 - (void)resetCoreData
 {

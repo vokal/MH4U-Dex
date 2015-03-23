@@ -77,7 +77,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    MonsterContainerViewController *monsterVC = [storyBoard instantiateViewControllerWithIdentifier:@"MonsterDetailsViewController"];
+    MonsterContainerViewController *monsterVC = [storyBoard instantiateViewControllerWithIdentifier:NSStringFromClass([MonsterContainerViewController class])];
     monsterVC.monster = [self dropAtIndexPath:indexPath].monsterSource;
     [self.navigationController pushViewController:monsterVC animated:YES];
 }

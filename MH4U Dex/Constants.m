@@ -82,7 +82,6 @@ NSString *const MHDQuestDropPercentKey = @"percent";
 
 #pragma mark - Monster Drop Constants
 
-NSString *const MHDMonsterDropsFileName = @"monster_drops";
 NSString *const MHDMonsterDropIDKey = @"dropID";
 NSString *const MHDMonsterDropMethodKey = @"method";
 NSString *const MHDMonsterDropQuantityKey = @"quantity";

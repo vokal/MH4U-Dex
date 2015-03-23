@@ -81,7 +81,6 @@ FOUNDATION_EXPORT NSString *const MHDQuestDropPercentKey;
 
 #pragma mark - Monster Drop Constants
 
-FOUNDATION_EXPORT NSString *const MHDMonsterDropsFileName;
 FOUNDATION_EXPORT NSString *const MHDMonsterDropIDKey;
 FOUNDATION_EXPORT NSString *const MHDMonsterDropMethodKey;
 FOUNDATION_EXPORT NSString *const MHDMonsterDropQuantityKey;

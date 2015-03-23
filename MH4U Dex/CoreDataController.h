@@ -26,7 +26,7 @@
 /**
  Determine whether or not a database reload has been schedued
  */
-+ (BOOL)willReloadUponRestart;
++ (BOOL)shouldTriggerReloadUponRestart;
 
 /**
  Returns the Unique entity that matches the entityName and predicate, or nil if the entity does not exist, or is not unique.

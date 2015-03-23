@@ -15,6 +15,8 @@
 #import "MonsterEncyclopediaViewController.h"
 #import "RegionEncyclopediaCollectionViewController.h"
 
+//TODO: Make sure that all buttons are localized properly.
+
 @interface HomeViewController ()
 
 @end
