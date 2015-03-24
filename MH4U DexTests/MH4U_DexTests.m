@@ -6,8 +6,23 @@
 //  Copyright (c) 2015 Joseph Goldberg. All rights reserved.
 //
 
+#import <CoreData/CoreData.h>
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
+
+#import "Constants.h"
+#import "CoreDataController.h"
+
+#import "Area.h"
+#import "AreaDrop.h"
+#import "Item.h"
+#import "Monster.h"
+#import "MonsterDrop.h"
+
+static NSUInteger MonsterCount = 90;
+static NSUInteger Zero = 0;
+
+static const NSString *InvalidMonsterName = @"Volvidon";
 
 @interface MH4U_DexTests : XCTestCase
 
@@ -15,30 +30,78 @@
 
 @implementation MH4U_DexTests
 
-- (void)setUp
+- (void)testMonsterDrops
 {
-    [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:[Monster entityName]];
+    NSError *error = nil;
+    NSArray *monsterList = [[CoreDataController sharedCDController].managedObjectContext
+                            executeFetchRequest:fetchRequest error:&error];
+    XCTAssertGreaterThanOrEqual(monsterList.count, MonsterCount);
+    for (Monster *monster in monsterList) {
+        XCTAssertGreaterThan(monster.monsterDrop.count, Zero);
+        for (MonsterDrop *drop in monster.monsterDrop) {
+            XCTAssertNotNil(drop.item);
+            XCTAssertEqualObjects(drop.monsterSource, monster);
+            XCTAssertTrue([self item:drop.item hasMonsterDropSource:drop]);
+        }
+    }
 }
 
-- (void)tearDown
+- (void)testAreaDrops
 {
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
-    [super tearDown];
+    NSFetchRequest *areaRequest = [[NSFetchRequest alloc] initWithEntityName:[Area entityName]];
+    NSError *error = nil;
+    NSArray *areaList = [[CoreDataController sharedCDController].managedObjectContext
+                         executeFetchRequest:areaRequest error:&error];
+    //TODO: Change to the proper area count.
+    XCTAssertGreaterThan(areaList.count, Zero);
+    for (Area *area in areaList) {
+        XCTAssertNotNil(area.region);
+        XCTAssertTrue([self validRankForArea:area]);
+        for (AreaDrop *drop in area.drop) {
+            XCTAssertNotNil(drop.item);
+            XCTAssertEqualObjects(drop.area, area);
+            XCTAssertTrue([self item:drop.item hasAreaDropSource:drop]);
+        }
+    }
 }
 
-- (void)testExample
+- (void)testMonsterDoesNotExist
 {
-    // This is an example of a functional test case.
-    XCTAssert(YES, @"Pass");
+    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterAttributes.name, InvalidMonsterName];
+    Monster *monster = (Monster *)[[CoreDataController sharedCDController]
+                                   uniqueEntityWithEntityName:[Monster entityName] withPredicate:predicate];
+    XCTAssertNil(monster);
 }
 
-- (void)testPerformanceExample
+- (BOOL)item:(Item *)item hasMonsterDropSource:(MonsterDrop *)source
 {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
+    for (MonsterDrop *drop in item.monsterSourceSet) {
+        if ([drop isEqual:source]) {
+            return YES;
+        }
+    }
+    return NO;
+}
+
+- (BOOL)item:(Item *)item hasAreaDropSource:(AreaDrop *)source
+{
+    for (AreaDrop *drop in item.areaSource) {
+        if ([drop isEqual:source]) {
+            return YES;
+        }
+    }
+    return NO;
+}
+
+- (BOOL)validRankForArea:(Area *)area
+{
+    if ([area.rank isEqualToString:MHDLowConstString]
+        || [area.rank isEqualToString:MHDHighConstString]
+        || [area.rank isEqualToString:MHDGConstString]) {
+        return YES;
+    }
+    return NO;
 }
 
 @end
