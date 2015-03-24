@@ -45,12 +45,16 @@
 
 - (void)testNavigateToMonsterEncyclopedia
 {
-    
+    [tester tapViewWithAccessibilityLabel:@"Monsters"];
+    [tester waitForViewWithAccessibilityLabel:@"MonsterName"];
+    [tester waitForAbsenceOfViewWithAccessibilityLabel:@"Monsters"];
 }
 
 - (void)testNavigateToRegionEncyclopedia
 {
-    
+    [tester tapViewWithAccessibilityLabel:@"Regions"];
+    [tester waitForViewWithAccessibilityLabel:@"RegionName"];
+    [tester waitForAbsenceOfViewWithAccessibilityLabel:@"Regions"];
 }
 
 #pragma mark - helper methods
