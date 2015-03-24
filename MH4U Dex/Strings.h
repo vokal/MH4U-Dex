@@ -27,4 +27,9 @@
 + (NSString *)MHDWaterLabelText;
 + (NSString *)MHDThunderLabelText;
 
+#pragma mark - UITest Constants
+
++ (NSString *)MHDBack;
++ (NSString *)MHDHomeString;
+
 @end

@@ -1,10 +1,15 @@
 PODS:
+  - KIF (3.2.0):
+    - KIF/XCTest (= 3.2.0)
+  - KIF/XCTest (3.2.0)
   - NSManagedObjectContext-Hydrate (1.0.4)
 
 DEPENDENCIES:
+  - KIF (~> 3.2)
   - NSManagedObjectContext-Hydrate (~> 1.0.3)
 
 SPEC CHECKSUMS:
+  KIF: 6f94a23566fd05b809f5d3bc5231a965b51121b9
   NSManagedObjectContext-Hydrate: efb82fdc5958b1c2e0c8bedb4ce8cfa57d335a79
 
 COCOAPODS: 0.35.0
