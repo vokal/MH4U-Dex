@@ -20,7 +20,6 @@
 #import "MonsterDrop.h"
 
 static NSUInteger MonsterCount = 90;
-static NSUInteger Zero = 0;
 
 static const NSString *InvalidMonsterName = @"Volvidon";
 
@@ -38,7 +37,8 @@ static const NSString *InvalidMonsterName = @"Volvidon";
                             executeFetchRequest:fetchRequest error:&error];
     XCTAssertGreaterThanOrEqual(monsterList.count, MonsterCount);
     for (Monster *monster in monsterList) {
-        XCTAssertGreaterThan(monster.monsterDrop.count, Zero);
+        XCTAssertTrue([monster isMemberOfClass:[Monster class]]);
+        XCTAssertGreaterThan(monster.monsterDrop.count, 0);
         for (MonsterDrop *drop in monster.monsterDrop) {
             XCTAssertNotNil(drop.item);
             XCTAssertEqualObjects(drop.monsterSource, monster);
@@ -54,8 +54,9 @@ static const NSString *InvalidMonsterName = @"Volvidon";
     NSArray *areaList = [[CoreDataController sharedCDController].managedObjectContext
                          executeFetchRequest:areaRequest error:&error];
     //TODO: Change to the proper area count.
-    XCTAssertGreaterThan(areaList.count, Zero);
+    XCTAssertGreaterThan(areaList.count, 0);
     for (Area *area in areaList) {
+        XCTAssertTrue([area isMemberOfClass:[Area class]]);
         XCTAssertNotNil(area.region);
         XCTAssertTrue([self validRankForArea:area]);
         for (AreaDrop *drop in area.drop) {
