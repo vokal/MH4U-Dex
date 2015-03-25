@@ -10,6 +10,7 @@
 
 #import <CoreData/CoreData.h>
 
+#import "Constants.h"
 #import "CoreDataController.h"
 
 #import "RegionContainerViewController.h"
@@ -39,7 +40,7 @@
         NSLog(@"Error fetching region data.");
         NSLog(@"%@, %@", fetchError, fetchError.localizedDescription);
     }
-    self.collectionView.accessibilityIdentifier = @"RegionEncyclopediaCollection";
+    self.collectionView.accessibilityIdentifier = MHDRegionEncyclopediaCollectionIdentifier;
 }
 
 #pragma mark <UICollectionViewDataSource>

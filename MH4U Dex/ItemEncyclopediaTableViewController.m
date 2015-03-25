@@ -10,6 +10,7 @@
 
 #import <CoreData/CoreData.h>
 
+#import "Constants.h"
 #import "CoreDataController.h"
 
 #import "ItemContainerViewController.h"
@@ -38,7 +39,7 @@
         NSLog(@"Error fetching item data.");
         NSLog(@"%@, %@", fetchError, fetchError.localizedDescription);
     }
-    self.tableView.accessibilityIdentifier = @"ItemEncyclopediaTable";
+    self.tableView.accessibilityIdentifier = MHDItemEncyclopediaTableIdentifier;
 }
 
 #pragma mark - Table view data source

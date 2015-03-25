@@ -49,7 +49,7 @@
         NSArray *dropsArray = [area.drop sortedArrayUsingDescriptors:sortDescriptors];
         self.areaDropsDict[area.combinedName] = dropsArray;
     }
-    self.tableView.accessibilityIdentifier = @"AreaDropsTable";
+    self.tableView.accessibilityIdentifier = MHDAreaDropsTable;
 }
 
 #pragma mark - Helper Methods

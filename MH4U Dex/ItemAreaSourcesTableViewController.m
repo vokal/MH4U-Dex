@@ -10,6 +10,7 @@
 
 #import <CoreData/CoreData.h>
 
+#import "Constants.h"
 #import "CoreDataController.h"
 
 #import "RegionContainerViewController.h"
@@ -48,7 +49,7 @@
         // Set sources to empty.
         self.sources = [NSArray arrayWithObjects:nil];
     }
-    self.tableView.accessibilityIdentifier = @"ItemAreaSources";
+    self.tableView.accessibilityIdentifier = MHDItemAreaSources;
 }
 
 #pragma mark - Table view data source

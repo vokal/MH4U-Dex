@@ -100,4 +100,14 @@ NSString *const MHDAreaDropPercentKey = @"chance";
 NSString *const MHDAreaDropQuantityKey = @"number";
 NSString *const MHDAreaDropItemNameKey = @"item";
 
+#pragma mark - Accessibility Identifiers
+
+NSString *const MHDItemEncyclopediaTableIdentifier = @"ItemEncyclopediaTable";
+NSString *const MHDMonsterEncyclopediaCollectionIdentifier = @"MonsterEncyclopediaCollection";
+NSString *const MHDRegionEncyclopediaCollectionIdentifier = @"RegionEncyclopediaCollection";
+NSString *const MHDItemAreaSources = @"ItemAreaSources";
+NSString *const MHDItemMonsterSources = @"ItemMonsterSources";
+NSString *const MHDAreaDropsTable = @"AreaDropsTable";
+NSString *const MHDMonsterDropsTable = @"MonsterDropsTable";
+
 @end

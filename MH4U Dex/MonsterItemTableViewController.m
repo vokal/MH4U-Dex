@@ -10,6 +10,7 @@
 
 #import <CoreData/CoreData.h>
 
+#import "Constants.h"
 #import "CoreDataController.h"
 #import "Strings.h"
 
@@ -45,7 +46,7 @@
     fetchRequest.sortDescriptors = @[sortDescriptor];
     
     self.drops = [managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];
-    self.tableView.accessibilityIdentifier = @"MonsterDropsTable";
+    self.tableView.accessibilityIdentifier = MHDMonsterDropsTable;
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
