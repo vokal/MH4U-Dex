@@ -28,11 +28,61 @@
     [super afterEach];
 }
 
-- (void)testItemExists
+- (void)testItemAreaSource
 {
     [self navigateToItemEncyclopedia];
     [tester waitForViewWithAccessibilityLabel:@"Adamant Orb"];
-    
+    NSIndexPath *thirteenthRow = [NSIndexPath indexPathForRow:12 inSection:0];
+    [tester tapRowAtIndexPath:thirteenthRow inTableViewWithAccessibilityIdentifier:@"ItemEncyclopediaTable"];
+    [tester tapViewWithAccessibilityLabel:@"Gathering Sources"];
+    [tester waitForViewWithAccessibilityLabel:@"Secret Area"];
+    [tester tapRowAtIndexPath:thirteenthRow inTableViewWithAccessibilityIdentifier:@"ItemAreaSources"];
+    [tester waitForViewWithAccessibilityLabel:@"Sunken Hollow"];
+    [tester tapViewWithAccessibilityLabel:@"High-Rank Items"];
+    [tester waitForViewWithAccessibilityLabel:@"Honey"];
+}
+
+- (void)testItemMonsterSource
+{
+    [self navigateToItemEncyclopedia];
+    NSIndexPath *sixteenthRow = [NSIndexPath indexPathForRow:15 inSection:0];
+    [tester tapRowAtIndexPath:sixteenthRow inTableViewWithAccessibilityIdentifier:@"ItemEncyclopediaTable"];
+    [tester waitForViewWithAccessibilityLabel:@"Shiny Drops"];
+    NSIndexPath *firstRow = [NSIndexPath indexPathForRow:0 inSection:0];
+    [tester tapRowAtIndexPath:firstRow inTableViewWithAccessibilityIdentifier:@"ItemMonsterSources"];
+    [tester waitForViewWithAccessibilityLabel:@"Body Part"];
+    [tester tapViewWithAccessibilityLabel:@"High-Rank"];
+    [tester waitForViewWithAccessibilityLabel:@"Large Wyvern Tear"];
+    [tester tapViewWithAccessibilityLabel:@"Low-Rank"];
+    [tester waitForAbsenceOfViewWithAccessibilityLabel:@"Large Wyvern Tear"];
+}
+
+- (void)testSmallItemFromMonsterToArea
+{
+    [self navigateToMonsterEncyclopedia];
+    NSIndexPath *firstRow = [NSIndexPath indexPathForRow:0 inSection:0];
+    [tester tapItemAtIndexPath:firstRow inCollectionViewWithAccessibilityIdentifier:@"MonsterEncyclopediaCollection"];
+    [tester waitForViewWithAccessibilityLabel:@"Body Part"];
+    [tester tapViewWithAccessibilityLabel:@"Low-Rank"];
+    NSIndexPath *sixthRow = [NSIndexPath indexPathForRow:5 inSection:0];
+    [tester tapRowAtIndexPath:sixthRow inTableViewWithAccessibilityIdentifier:@"MonsterDropsTable"];
+    [tester tapViewWithAccessibilityLabel:@"Gathering Sources"];
+    [tester tapRowAtIndexPath:firstRow inTableViewWithAccessibilityIdentifier:@"ItemAreaSources"];
+    [tester waitForViewWithAccessibilityLabel:@"Ancestral Steppe Low-Rank Items"];
+}
+
+- (void)testSmallItemFromAreaToMonster
+{
+    [self navigateToRegionEncyclopedia];
+    NSIndexPath *firstRow = [NSIndexPath indexPathForRow:0 inSection:0];
+    [tester tapItemAtIndexPath:firstRow inCollectionViewWithAccessibilityIdentifier:@"RegionEncyclopediaCollection"];
+    [tester tapViewWithAccessibilityLabel:@"High-Rank Items"];
+    [tester tapRowAtIndexPath:firstRow inTableViewWithAccessibilityIdentifier:@"AreaDropsTable"];
+    [tester waitForViewWithAccessibilityLabel:@"Blue Mushroom Drop Sources"];
+    [tester tapRowAtIndexPath:firstRow inTableViewWithAccessibilityIdentifier:@"ItemMonsterSources"];
+    [tester waitForViewWithAccessibilityLabel:@"Congalala Overview"];
+    [tester tapViewWithAccessibilityLabel:@"G-Rank"];
+    [tester waitForViewWithAccessibilityLabel:@"Congalala Fur"];
 }
 
 - (void)testDistraction

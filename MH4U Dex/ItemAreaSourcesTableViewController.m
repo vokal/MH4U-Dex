@@ -48,6 +48,7 @@
         // Set sources to empty.
         self.sources = [NSArray arrayWithObjects:nil];
     }
+    self.tableView.accessibilityIdentifier = @"ItemAreaSources";
 }
 
 #pragma mark - Table view data source

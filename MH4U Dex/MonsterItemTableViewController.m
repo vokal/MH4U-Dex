@@ -45,6 +45,7 @@
     fetchRequest.sortDescriptors = @[sortDescriptor];
     
     self.drops = [managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];
+    self.tableView.accessibilityIdentifier = @"MonsterDropsTable";
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender

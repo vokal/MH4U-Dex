@@ -38,6 +38,7 @@
         NSLog(@"Error fetching item data.");
         NSLog(@"%@, %@", fetchError, fetchError.localizedDescription);
     }
+    self.tableView.accessibilityIdentifier = @"ItemEncyclopediaTable";
 }
 
 #pragma mark - Table view data source

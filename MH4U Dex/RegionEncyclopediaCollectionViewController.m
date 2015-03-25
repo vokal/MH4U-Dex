@@ -39,6 +39,7 @@
         NSLog(@"Error fetching region data.");
         NSLog(@"%@, %@", fetchError, fetchError.localizedDescription);
     }
+    self.collectionView.accessibilityIdentifier = @"RegionEncyclopediaCollection";
 }
 
 #pragma mark <UICollectionViewDataSource>

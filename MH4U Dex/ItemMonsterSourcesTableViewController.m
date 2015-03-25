@@ -48,6 +48,7 @@
         // Set sources to empty.
         self.sources = @[];
     }
+    self.tableView.accessibilityIdentifier = @"ItemMonsterSources";
 }
 
 #pragma mark - Table view data source
