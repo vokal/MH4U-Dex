@@ -28,6 +28,13 @@
     [super afterEach];
 }
 
+- (void)testItemExists
+{
+    [self navigateToItemEncyclopedia];
+    [tester waitForViewWithAccessibilityLabel:@"Adamant Orb"];
+    
+}
+
 - (void)testDistraction
 {
     // This test exists to ensure that the afterEach is working as intended.
@@ -36,21 +43,22 @@
     [tester waitForAbsenceOfViewWithAccessibilityLabel:[Strings MHDHomeString]];
 }
 
-- (void)testNavigateToItemEncyclopedia
+- (void)navigateToItemEncyclopedia
 {
     [tester tapViewWithAccessibilityLabel:@"Items"];
     [tester waitForViewWithAccessibilityLabel:@"ItemTableViewCell"];
     [tester waitForAbsenceOfViewWithAccessibilityLabel:@"Items"];
+    
 }
 
-- (void)testNavigateToMonsterEncyclopedia
+- (void)navigateToMonsterEncyclopedia
 {
     [tester tapViewWithAccessibilityLabel:@"Monsters"];
     [tester waitForViewWithAccessibilityLabel:@"MonsterName"];
     [tester waitForAbsenceOfViewWithAccessibilityLabel:@"Monsters"];
 }
 
-- (void)testNavigateToRegionEncyclopedia
+- (void)navigateToRegionEncyclopedia
 {
     [tester tapViewWithAccessibilityLabel:@"Regions"];
     [tester waitForViewWithAccessibilityLabel:@"RegionName"];
