@@ -22,6 +22,7 @@
 @interface ItemEncyclopediaTableViewController ()
 
 @property (nonatomic, strong) NSFetchedResultsController *fetchedResultsController;
+@property (nonatomic, weak) IBOutlet UISearchBar *searchBar;
 
 @end
 
@@ -31,20 +32,9 @@
 {
     [super viewDidLoad];
     
-    NSError *fetchError = nil;
-    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:[Item entityName]];
-    //Look at NSFetchedResultsController
-    //Look at which is newer: UISearchController and UISearchViewController
-    fetchRequest.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:ItemAttributes.name ascending:YES]];
-    fetchRequest.fetchBatchSize = 20;//TODO: Tinker with this.
-    self.fetchedResultsController = [[NSFetchedResultsController alloc] initWithFetchRequest:fetchRequest managedObjectContext:[CoreDataController sharedCDController].managedObjectContext sectionNameKeyPath:@"firstLetter" cacheName:@"Root"];
-    [self.fetchedResultsController performFetch:&fetchError];
-   // NSArray *array = [[CoreDataController sharedCDController].managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];
-    if (fetchError) {
-        NSLog(@"Error fetching item data.");
-        NSLog(@"%@, %@", fetchError, fetchError.localizedDescription);
-    }
+    self.fetchedResultsController = [self fetchedResultsControllerWithPredicate:nil];
     self.fetchedResultsController.delegate = self;
+    self.searchBar.delegate = self;
     self.tableView.accessibilityIdentifier = MHDItemEncyclopediaTableIdentifier;
 }
 
@@ -86,6 +76,22 @@
     return item;
 }
 
+- (NSFetchedResultsController *)fetchedResultsControllerWithPredicate:(NSPredicate *)predicate
+{
+    NSError *fetchError = nil;
+    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:[Item entityName]];
+    fetchRequest.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:ItemAttributes.name ascending:YES]];
+    fetchRequest.fetchBatchSize = 20;//TODO: Tinker with this.
+    fetchRequest.predicate = predicate;
+    NSFetchedResultsController *newResultsController = [[NSFetchedResultsController alloc] initWithFetchRequest:fetchRequest managedObjectContext:[CoreDataController sharedCDController].managedObjectContext sectionNameKeyPath:@"firstLetter" cacheName:@"Root"];
+    [newResultsController performFetch:&fetchError];
+    if (fetchError) {
+        NSLog(@"Error fetching item data.");
+        NSLog(@"%@, %@", fetchError, fetchError.localizedDescription);
+    }
+    return newResultsController;
+}
+
 #pragma mark - Navigation
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
@@ -99,6 +105,17 @@
     }
 }
 
-#pragma mark - Fetched Results Controller Delegate Methods
+#pragma mark - Search Bar Delegate Methods
+
+- (void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText
+{
+    if (!searchText.length) {
+        self.fetchedResultsController = [self fetchedResultsControllerWithPredicate:nil];
+    } else {
+        NSPredicate *predicate = [NSPredicate predicateWithFormat:@"%K contains[cd] %@", ItemAttributes.name, searchText];
+        self.fetchedResultsController = [self fetchedResultsControllerWithPredicate:predicate];
+    }
+    [self.tableView reloadData];
+}
 
 @end
