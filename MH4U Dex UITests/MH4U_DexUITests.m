@@ -109,14 +109,6 @@ static NSString *const SunkenHollow = @"Sunken Hollow";
     [tester waitForViewWithAccessibilityLabel:CongalalaFur];
 }
 
-- (void)testDistraction
-{
-    // This test exists to ensure that the afterEach is working as intended.
-    [tester tapViewWithAccessibilityLabel:Items];
-    [tester waitForViewWithAccessibilityLabel:ItemTableViewCell];
-    [tester waitForAbsenceOfViewWithAccessibilityLabel:[Strings MHDHomeString]];
-}
-
 - (void)navigateToItemEncyclopedia
 {
     [tester tapViewWithAccessibilityLabel:Items];
