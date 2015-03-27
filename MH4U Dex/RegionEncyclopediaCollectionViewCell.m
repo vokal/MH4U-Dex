@@ -29,6 +29,7 @@
         self.regionIconImageView.image = nil;
     }
     self.regionNameLabel.text = region.name;
+    self.regionNameLabel.textAlignment = NSTextAlignmentCenter;
     [self.regionNameLabel sizeToFit];
 }
 

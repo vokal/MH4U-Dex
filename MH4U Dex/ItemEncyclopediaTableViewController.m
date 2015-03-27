@@ -21,7 +21,7 @@
 
 @interface ItemEncyclopediaTableViewController ()
 
-@property (nonatomic, strong) NSArray *items;
+@property (nonatomic, strong) NSFetchedResultsController *fetchedResultsController;
 
 @end
 
@@ -33,12 +33,18 @@
     
     NSError *fetchError = nil;
     NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:[Item entityName]];
+    //Look at NSFetchedResultsController
+    //Look at which is newer: UISearchController and UISearchViewController
     fetchRequest.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:ItemAttributes.name ascending:YES]];
-    self.items = [[CoreDataController sharedCDController].managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];
+    fetchRequest.fetchBatchSize = 20;//TODO: Tinker with this.
+    self.fetchedResultsController = [[NSFetchedResultsController alloc] initWithFetchRequest:fetchRequest managedObjectContext:[CoreDataController sharedCDController].managedObjectContext sectionNameKeyPath:@"firstLetter" cacheName:@"Root"];
+    [self.fetchedResultsController performFetch:&fetchError];
+   // NSArray *array = [[CoreDataController sharedCDController].managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];
     if (fetchError) {
         NSLog(@"Error fetching item data.");
         NSLog(@"%@, %@", fetchError, fetchError.localizedDescription);
     }
+    self.fetchedResultsController.delegate = self;
     self.tableView.accessibilityIdentifier = MHDItemEncyclopediaTableIdentifier;
 }
 
@@ -46,12 +52,12 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    return 1;
+    return self.fetchedResultsController.sections.count;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return self.items.count;
+    return [[self.fetchedResultsController.sections objectAtIndex:section] numberOfObjects];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -61,11 +67,23 @@
     return cell;
 }
 
+- (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView
+{
+    //return [[UILocalizedIndexedCollation currentCollation] sectionIndexTitles];
+    return [self.fetchedResultsController sectionIndexTitles];
+}
+
+- (NSInteger)tableView:(UITableView *)tableView sectionForSectionIndexTitle:(NSString *)title atIndex:(NSInteger)index
+{
+    return [self.fetchedResultsController sectionForSectionIndexTitle:title atIndex:index];
+}
+
 #pragma mark - Helper Methods
 
 - (Item *)itemAtIndexPath:(NSIndexPath *)indexPath
 {
-    return self.items[indexPath.row];
+    Item *item = [self.fetchedResultsController objectAtIndexPath:indexPath];
+    return item;
 }
 
 #pragma mark - Navigation
@@ -80,5 +98,7 @@
         }
     }
 }
+
+#pragma mark - Fetched Results Controller Delegate Methods
 
 @end
