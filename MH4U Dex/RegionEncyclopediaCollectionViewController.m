@@ -59,6 +59,8 @@
 {
     RegionEncyclopediaCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:NSStringFromClass([RegionEncyclopediaCollectionViewCell class]) forIndexPath:indexPath];
     [cell displayContentsWithRegion:[self regionAtIndexPath:indexPath]];
+    //If cell.contentView.frame isn't explicitly set, then it is (0,0;0,0) for some reason, which it definitely shouldn't be!
+    cell.contentView.frame = cell.bounds;
     return cell;
 }
 
