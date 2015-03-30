@@ -104,4 +104,18 @@
                              @"Home Screen");
 }
 
+#pragma mark - Monster Encyclopedia Constants
+
++ (NSString *)MHDSmallMonsters
+{
+    return NSLocalizedString(@"Small Monsters",
+                             @"Small Monsters");
+}
+
++ (NSString *)MHDLargeMonsters
+{
+    return NSLocalizedString(@"Large Monsters",
+                             @"Large Monsters");
+}
+
 @end

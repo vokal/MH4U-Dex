@@ -47,7 +47,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return [[self.fetchedResultsController.sections objectAtIndex:section] numberOfObjects];
+    return [self.fetchedResultsController.sections[section] numberOfObjects];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -59,7 +59,6 @@
 
 - (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView
 {
-    //return [[UILocalizedIndexedCollation currentCollation] sectionIndexTitles];
     return [self.fetchedResultsController sectionIndexTitles];
 }
 
@@ -83,7 +82,11 @@
     fetchRequest.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:ItemAttributes.name ascending:YES]];
     fetchRequest.fetchBatchSize = 20;//TODO: Tinker with this.
     fetchRequest.predicate = predicate;
-    NSFetchedResultsController *newResultsController = [[NSFetchedResultsController alloc] initWithFetchRequest:fetchRequest managedObjectContext:[CoreDataController sharedCDController].managedObjectContext sectionNameKeyPath:@"firstLetter" cacheName:@"Root"];
+    NSFetchedResultsController *newResultsController = [[NSFetchedResultsController alloc]
+                                                        initWithFetchRequest:fetchRequest
+                                                        managedObjectContext:[CoreDataController sharedCDController].managedObjectContext
+                                                        sectionNameKeyPath:@"firstLetter"
+                                                        cacheName:@"Root"];
     [newResultsController performFetch:&fetchError];
     if (fetchError) {
         NSLog(@"Error fetching item data.");
