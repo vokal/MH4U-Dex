@@ -10,6 +10,7 @@
 
 #import <CoreData/CoreData.h>
 
+#import "Constants.h"
 #import "CoreDataController.h"
 
 #import "MonsterContainerViewController.h"
@@ -48,6 +49,7 @@
         // Set sources to empty.
         self.sources = @[];
     }
+    self.tableView.accessibilityIdentifier = MHDItemMonsterSources;
 }
 
 #pragma mark - Table view data source

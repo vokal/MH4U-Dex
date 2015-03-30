@@ -124,6 +124,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="MonsterButton" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6nV-ZO-7g8">
                                 <rect key="frame" x="48" y="91" width="110" height="24"/>
+                                <accessibility key="accessibilityConfiguration" label="Monsters"/>
                                 <state key="normal" title="Monsters"/>
                                 <connections>
                                     <segue destination="7R8-uo-bma" kind="show" identifier="showMonsterEncyclopedia" id="CrV-vF-6Tz"/>
@@ -131,6 +132,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zaX-YV-BZF">
                                 <rect key="frame" x="84" y="138" width="38" height="30"/>
+                                <accessibility key="accessibilityConfiguration" label="Items"/>
                                 <state key="normal" title="Items">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -140,6 +142,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cqU-e0-FKq">
                                 <rect key="frame" x="60" y="195" width="87" height="30"/>
+                                <accessibility key="accessibilityConfiguration" label="Regions"/>
                                 <state key="normal" title="Regions">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -165,6 +168,13 @@
                                     <action selector="resetButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Pq4-Sn-1uo"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Home Screen" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hoY-tt-n3W">
+                                <rect key="frame" x="248" y="72" width="105" height="21"/>
+                                <accessibility key="accessibilityConfiguration" label="Home Screen"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -340,6 +350,9 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <accessibility key="accessibilityConfiguration" label="ItemTableViewCell">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
                                 <connections>
                                     <outlet property="itemNameLabel" destination="t4G-jC-KyI" id="TSP-Zv-lNM"/>
                                     <segue destination="ilN-Gx-iPA" kind="show" identifier="showItemDetails" id="zth-ns-tNR"/>
@@ -721,6 +734,7 @@
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c7I-sS-fBV">
                                             <rect key="frame" x="18" y="179" width="168" height="21"/>
+                                            <accessibility key="accessibilityConfiguration" label="RegionName"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="21" id="exB-ud-zjq"/>
                                             </constraints>
@@ -789,7 +803,7 @@
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="monsterName" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P7u-XC-2xb">
                                             <rect key="frame" x="27" y="68" width="49" height="29"/>
-                                            <accessibility key="accessibilityConfiguration">
+                                            <accessibility key="accessibilityConfiguration" label="MonsterName">
                                                 <accessibilityTraits key="traits" none="YES" button="YES" staticText="YES"/>
                                             </accessibility>
                                             <constraints>

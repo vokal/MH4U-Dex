@@ -90,4 +90,18 @@
                              @"Thunder");
 }
 
+#pragma mark - UITest Constants
+
++ (NSString *)MHDBack
+{
+    return NSLocalizedString(@"Back",
+                             @"Back");
+}
+
++ (NSString *)MHDHomeString
+{
+    return NSLocalizedString(@"Home Screen",
+                             @"Home Screen");
+}
+
 @end

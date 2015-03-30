@@ -21,6 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		20514D7268633862E5A60D2F /* libPods-MH4U Dex UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7E15606111F496073DDB2D /* libPods-MH4U Dex UITests.a */; };
 		49F47D237297F3247242BECB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EB6B9A1DC54B606E11EEE77 /* libPods.a */; };
 		E41C4D1A1A8BBBCB00A2D0CB /* damageZones.json in Resources */ = {isa = PBXBuildFile; fileRef = E41C4D191A8BBBCB00A2D0CB /* damageZones.json */; };
 		E41C4D1C1A8BBF5E00A2D0CB /* monsters.json in Resources */ = {isa = PBXBuildFile; fileRef = E41C4D1B1A8BBF5E00A2D0CB /* monsters.json */; };
@@ -100,6 +101,7 @@
 		E4CE45D41A97E03A0059C056 /* sunken_hollow_drops.json in Resources */ = {isa = PBXBuildFile; fileRef = E4CE45D31A97E03A0059C056 /* sunken_hollow_drops.json */; };
 		E4CE45D61A97E34D0059C056 /* primal_forest_drops.json in Resources */ = {isa = PBXBuildFile; fileRef = E4CE45D51A97E34D0059C056 /* primal_forest_drops.json */; };
 		E4CE45D81A97E6F80059C056 /* frozen_seaway_drops.json in Resources */ = {isa = PBXBuildFile; fileRef = E4CE45D71A97E6F80059C056 /* frozen_seaway_drops.json */; };
+		E4D95EE11AC1DF22001E7100 /* MH4U_DexUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D95EE01AC1DF22001E7100 /* MH4U_DexUITests.m */; };
 		E4DAD2231AB734CE0048DACA /* QuestDrop.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAD2221AB734CE0048DACA /* QuestDrop.m */; };
 		E4DAD2261AB734DF0048DACA /* _QuestDrop.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAD2251AB734DF0048DACA /* _QuestDrop.m */; };
 		E4DAD2281AB739050048DACA /* quests.json in Resources */ = {isa = PBXBuildFile; fileRef = E4DAD2271AB739050048DACA /* quests.json */; };
@@ -123,11 +125,20 @@
 			remoteGlobalIDString = E49957FE1A83D28E00799BBE;
 			remoteInfo = "MH4U Dex";
 		};
+		E4D95EDB1AC1D83D001E7100 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E49957F71A83D28E00799BBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E49957FE1A83D28E00799BBE;
+			remoteInfo = "MH4U Dex";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11EE2D76A4E9C4748DA3C162 /* Pods-MH4U Dex UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MH4U Dex UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MH4U Dex UITests/Pods-MH4U Dex UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		1638F37B8AA7A9C5B77F805A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		7EB6B9A1DC54B606E11EEE77 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC7E15606111F496073DDB2D /* libPods-MH4U Dex UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MH4U Dex UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E41C4D191A8BBBCB00A2D0CB /* damageZones.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = damageZones.json; sourceTree = "<group>"; };
 		E41C4D1B1A8BBF5E00A2D0CB /* monsters.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = monsters.json; sourceTree = "<group>"; };
 		E42DDC8A1A83FD140016596C /* MH4U_Dex.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MH4U_Dex.xcdatamodel; sourceTree = "<group>"; };
@@ -263,6 +274,9 @@
 		E4CE45D31A97E03A0059C056 /* sunken_hollow_drops.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sunken_hollow_drops.json; sourceTree = "<group>"; };
 		E4CE45D51A97E34D0059C056 /* primal_forest_drops.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = primal_forest_drops.json; sourceTree = "<group>"; };
 		E4CE45D71A97E6F80059C056 /* frozen_seaway_drops.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = frozen_seaway_drops.json; sourceTree = "<group>"; };
+		E4D95ED51AC1D83D001E7100 /* MH4U Dex UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MH4U Dex UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4D95ED81AC1D83D001E7100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4D95EE01AC1DF22001E7100 /* MH4U_DexUITests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MH4U_DexUITests.m; sourceTree = "<group>"; };
 		E4DAD2211AB734CE0048DACA /* QuestDrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestDrop.h; sourceTree = "<group>"; };
 		E4DAD2221AB734CE0048DACA /* QuestDrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestDrop.m; sourceTree = "<group>"; };
 		E4DAD2241AB734DF0048DACA /* _QuestDrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _QuestDrop.h; sourceTree = "<group>"; };
@@ -284,6 +298,7 @@
 		E4E212831AB1FE7E00320E39 /* dunes_day_drops.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dunes_day_drops.json; sourceTree = "<group>"; };
 		E4E212841AB1FE7E00320E39 /* dunes_night_drops.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dunes_night_drops.json; sourceTree = "<group>"; };
 		EFF686F2CEDA0CD8DF2150B1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		F904FDDA2793D13F477F4B09 /* Pods-MH4U Dex UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MH4U Dex UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MH4U Dex UITests/Pods-MH4U Dex UITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -302,6 +317,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E4D95ED21AC1D83D001E7100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20514D7268633862E5A60D2F /* libPods-MH4U Dex UITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -310,6 +333,8 @@
 			children = (
 				EFF686F2CEDA0CD8DF2150B1 /* Pods.debug.xcconfig */,
 				1638F37B8AA7A9C5B77F805A /* Pods.release.xcconfig */,
+				11EE2D76A4E9C4748DA3C162 /* Pods-MH4U Dex UITests.debug.xcconfig */,
+				F904FDDA2793D13F477F4B09 /* Pods-MH4U Dex UITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -462,6 +487,7 @@
 			children = (
 				E49958011A83D28E00799BBE /* MH4U Dex */,
 				E499581E1A83D28E00799BBE /* MH4U DexTests */,
+				E4D95ED61AC1D83D001E7100 /* MH4U Dex UITests */,
 				E49958001A83D28E00799BBE /* Products */,
 				419595BE9F2918955BA133FE /* Pods */,
 				EF4AF38E16F5139EA4B2C356 /* Frameworks */,
@@ -473,6 +499,7 @@
 			children = (
 				E49957FF1A83D28E00799BBE /* MH4U Dex.app */,
 				E499581B1A83D28E00799BBE /* MH4U DexTests.xctest */,
+				E4D95ED51AC1D83D001E7100 /* MH4U Dex UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -593,6 +620,23 @@
 			name = Monster;
 			sourceTree = "<group>";
 		};
+		E4D95ED61AC1D83D001E7100 /* MH4U Dex UITests */ = {
+			isa = PBXGroup;
+			children = (
+				E4D95EE01AC1DF22001E7100 /* MH4U_DexUITests.m */,
+				E4D95ED71AC1D83D001E7100 /* Supporting Files */,
+			);
+			path = "MH4U Dex UITests";
+			sourceTree = "<group>";
+		};
+		E4D95ED71AC1D83D001E7100 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4D95ED81AC1D83D001E7100 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		E4DAD22B1AB77F600048DACA /* Quests */ = {
 			isa = PBXGroup;
 			children = (
@@ -627,6 +671,7 @@
 			isa = PBXGroup;
 			children = (
 				7EB6B9A1DC54B606E11EEE77 /* libPods.a */,
+				BC7E15606111F496073DDB2D /* libPods-MH4U Dex UITests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -672,6 +717,26 @@
 			productReference = E499581B1A83D28E00799BBE /* MH4U DexTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		E4D95ED41AC1D83D001E7100 /* MH4U Dex UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4D95EDF1AC1D83D001E7100 /* Build configuration list for PBXNativeTarget "MH4U Dex UITests" */;
+			buildPhases = (
+				285BBD6F00D7C34AE1074946 /* Check Pods Manifest.lock */,
+				E4D95ED11AC1D83D001E7100 /* Sources */,
+				E4D95ED21AC1D83D001E7100 /* Frameworks */,
+				E4D95ED31AC1D83D001E7100 /* Resources */,
+				5F4BDED1C27FDC3E97409A0C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4D95EDC1AC1D83D001E7100 /* PBXTargetDependency */,
+			);
+			name = "MH4U Dex UITests";
+			productName = "MH4U Dex UITests";
+			productReference = E4D95ED51AC1D83D001E7100 /* MH4U Dex UITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -688,6 +753,10 @@
 						CreatedOnToolsVersion = 6.1.1;
 					};
 					E499581A1A83D28E00799BBE = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = E49957FE1A83D28E00799BBE;
+					};
+					E4D95ED41AC1D83D001E7100 = {
 						CreatedOnToolsVersion = 6.1.1;
 						TestTargetID = E49957FE1A83D28E00799BBE;
 					};
@@ -709,6 +778,7 @@
 				E49957FE1A83D28E00799BBE /* MH4U Dex */,
 				E499581A1A83D28E00799BBE /* MH4U DexTests */,
 				E434F2F51A83F1E0004C10BF /* Mogenerator */,
+				E4D95ED41AC1D83D001E7100 /* MH4U Dex UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -756,9 +826,46 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E4D95ED31AC1D83D001E7100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		285BBD6F00D7C34AE1074946 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5F4BDED1C27FDC3E97409A0C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MH4U Dex UITests/Pods-MH4U Dex UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		6DC1D61F16B76E9A89196103 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -896,6 +1003,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E4D95ED11AC1D83D001E7100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4D95EE11AC1DF22001E7100 /* MH4U_DexUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -903,6 +1018,11 @@
 			isa = PBXTargetDependency;
 			target = E49957FE1A83D28E00799BBE /* MH4U Dex */;
 			targetProxy = E499581C1A83D28E00799BBE /* PBXContainerItemProxy */;
+		};
+		E4D95EDC1AC1D83D001E7100 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E49957FE1A83D28E00799BBE /* MH4U Dex */;
+			targetProxy = E4D95EDB1AC1D83D001E7100 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1074,6 +1194,42 @@
 			};
 			name = Release;
 		};
+		E4D95EDD1AC1D83D001E7100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11EE2D76A4E9C4748DA3C162 /* Pods-MH4U Dex UITests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MH4U Dex UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MH4U Dex.app/MH4U Dex";
+			};
+			name = Debug;
+		};
+		E4D95EDE1AC1D83D001E7100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F904FDDA2793D13F477F4B09 /* Pods-MH4U Dex UITests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MH4U Dex UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MH4U Dex.app/MH4U Dex";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1109,6 +1265,15 @@
 			buildConfigurations = (
 				E49958291A83D28E00799BBE /* Debug */,
 				E499582A1A83D28E00799BBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4D95EDF1AC1D83D001E7100 /* Build configuration list for PBXNativeTarget "MH4U Dex UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4D95EDD1AC1D83D001E7100 /* Debug */,
+				E4D95EDE1AC1D83D001E7100 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

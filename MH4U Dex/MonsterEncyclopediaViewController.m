@@ -55,6 +55,7 @@ typedef NS_ENUM(NSInteger, MonsterEncyclopediaSections) {
         NSLog(@"Error fetching large monster data.");
         NSLog(@"%@, %@", fetchError, fetchError.localizedDescription);
     }
+    self.collectionView.accessibilityIdentifier = MHDMonsterEncyclopediaCollectionIdentifier;
 }
 
 #pragma mark - Navigation
