@@ -8,6 +8,8 @@
 
 #import "MonsterEncyclopediaHeader.h"
 
+#import "Strings.h"
+
 @interface MonsterEncyclopediaHeader ()
 
 @property (nonatomic, weak) IBOutlet UILabel *headerLabel;
@@ -19,9 +21,9 @@
 - (void)configureHeaderLabelWithMonsterIsSmall:(BOOL)isSmall
 {
     if (isSmall) {
-        self.headerLabel.text = @"Small Monsters";
+        self.headerLabel.text = [Strings MHDSmallMonsters];
     } else {
-        self.headerLabel.text = @"Large Monsters";
+        self.headerLabel.text = [Strings MHDLargeMonsters];
     }
 }
 
