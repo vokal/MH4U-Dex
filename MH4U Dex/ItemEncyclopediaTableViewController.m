@@ -21,7 +21,8 @@
 
 @interface ItemEncyclopediaTableViewController ()
 
-@property (nonatomic, strong) NSArray *items;
+@property (nonatomic, strong) NSFetchedResultsController *fetchedResultsController;
+@property (nonatomic, weak) IBOutlet UISearchBar *searchBar;
 
 @end
 
@@ -31,14 +32,9 @@
 {
     [super viewDidLoad];
     
-    NSError *fetchError = nil;
-    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:[Item entityName]];
-    fetchRequest.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:ItemAttributes.name ascending:YES]];
-    self.items = [[CoreDataController sharedCDController].managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];
-    if (fetchError) {
-        NSLog(@"Error fetching item data.");
-        NSLog(@"%@, %@", fetchError, fetchError.localizedDescription);
-    }
+    self.fetchedResultsController = [self fetchedResultsControllerWithPredicate:nil];
+    self.fetchedResultsController.delegate = self;
+    self.searchBar.delegate = self;
     self.tableView.accessibilityIdentifier = MHDItemEncyclopediaTableIdentifier;
 }
 
@@ -46,12 +42,12 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    return 1;
+    return self.fetchedResultsController.sections.count;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return self.items.count;
+    return [[self.fetchedResultsController.sections objectAtIndex:section] numberOfObjects];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -61,11 +57,39 @@
     return cell;
 }
 
+- (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView
+{
+    //return [[UILocalizedIndexedCollation currentCollation] sectionIndexTitles];
+    return [self.fetchedResultsController sectionIndexTitles];
+}
+
+- (NSInteger)tableView:(UITableView *)tableView sectionForSectionIndexTitle:(NSString *)title atIndex:(NSInteger)index
+{
+    return [self.fetchedResultsController sectionForSectionIndexTitle:title atIndex:index];
+}
+
 #pragma mark - Helper Methods
 
 - (Item *)itemAtIndexPath:(NSIndexPath *)indexPath
 {
-    return self.items[indexPath.row];
+    Item *item = [self.fetchedResultsController objectAtIndexPath:indexPath];
+    return item;
+}
+
+- (NSFetchedResultsController *)fetchedResultsControllerWithPredicate:(NSPredicate *)predicate
+{
+    NSError *fetchError = nil;
+    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:[Item entityName]];
+    fetchRequest.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:ItemAttributes.name ascending:YES]];
+    fetchRequest.fetchBatchSize = 20;//TODO: Tinker with this.
+    fetchRequest.predicate = predicate;
+    NSFetchedResultsController *newResultsController = [[NSFetchedResultsController alloc] initWithFetchRequest:fetchRequest managedObjectContext:[CoreDataController sharedCDController].managedObjectContext sectionNameKeyPath:@"firstLetter" cacheName:@"Root"];
+    [newResultsController performFetch:&fetchError];
+    if (fetchError) {
+        NSLog(@"Error fetching item data.");
+        NSLog(@"%@, %@", fetchError, fetchError.localizedDescription);
+    }
+    return newResultsController;
 }
 
 #pragma mark - Navigation
@@ -79,6 +103,19 @@
             itemVC.itemName = [self itemAtIndexPath:[self.tableView indexPathForCell:cell]].name;
         }
     }
+}
+
+#pragma mark - Search Bar Delegate Methods
+
+- (void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText
+{
+    if (!searchText.length) {
+        self.fetchedResultsController = [self fetchedResultsControllerWithPredicate:nil];
+    } else {
+        NSPredicate *predicate = [NSPredicate predicateWithFormat:@"%K contains[cd] %@", ItemAttributes.name, searchText];
+        self.fetchedResultsController = [self fetchedResultsControllerWithPredicate:predicate];
+    }
+    [self.tableView reloadData];
 }
 
 @end

@@ -45,7 +45,7 @@ typedef NS_ENUM(NSInteger, RegionSegmentedControlPage) {
     self.regionLowRankSubview.hidden = NO;
     self.regionHighRankSubview.hidden = YES;
     self.regionGRankSubview.hidden = YES;
-    self.navigationItem.title = [NSString stringWithFormat:@"%@ Low-Rank Items", self.region.name];
+    self.title = [NSString stringWithFormat:@"%@ Low-Rank Items", self.region.name];
     self.regionNameLabel.text = self.region.name;
 }
 
@@ -70,16 +70,20 @@ typedef NS_ENUM(NSInteger, RegionSegmentedControlPage) {
             self.regionLowRankSubview.hidden = NO;
             self.regionHighRankSubview.hidden = YES;
             self.regionGRankSubview.hidden = YES;
+            self.title = [NSString stringWithFormat:@"%@ Low-Rank Items", self.region.name];
             break;
         case HighRank:
             self.regionLowRankSubview.hidden = YES;
             self.regionHighRankSubview.hidden = NO;
             self.regionGRankSubview.hidden = YES;
+            self.title = [NSString stringWithFormat:@"%@ High-Rank Items", self.region.name];
             break;
         case GRank:
             self.regionLowRankSubview.hidden = YES;
             self.regionHighRankSubview.hidden = YES;
             self.regionGRankSubview.hidden = NO;
+            self.title = [NSString stringWithFormat:@"%@ G-Rank Items", self.region.name];
+            break;
     }
 }
 

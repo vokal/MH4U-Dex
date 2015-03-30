@@ -102,6 +102,7 @@
 		E4CE45D61A97E34D0059C056 /* primal_forest_drops.json in Resources */ = {isa = PBXBuildFile; fileRef = E4CE45D51A97E34D0059C056 /* primal_forest_drops.json */; };
 		E4CE45D81A97E6F80059C056 /* frozen_seaway_drops.json in Resources */ = {isa = PBXBuildFile; fileRef = E4CE45D71A97E6F80059C056 /* frozen_seaway_drops.json */; };
 		E4D95EE11AC1DF22001E7100 /* MH4U_DexUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D95EE01AC1DF22001E7100 /* MH4U_DexUITests.m */; };
+		E4D95EE51AC3536D001E7100 /* MonsterEncyclopediaHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D95EE41AC3536D001E7100 /* MonsterEncyclopediaHeader.m */; };
 		E4DAD2231AB734CE0048DACA /* QuestDrop.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAD2221AB734CE0048DACA /* QuestDrop.m */; };
 		E4DAD2261AB734DF0048DACA /* _QuestDrop.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAD2251AB734DF0048DACA /* _QuestDrop.m */; };
 		E4DAD2281AB739050048DACA /* quests.json in Resources */ = {isa = PBXBuildFile; fileRef = E4DAD2271AB739050048DACA /* quests.json */; };
@@ -277,6 +278,8 @@
 		E4D95ED51AC1D83D001E7100 /* MH4U Dex UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MH4U Dex UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4D95ED81AC1D83D001E7100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4D95EE01AC1DF22001E7100 /* MH4U_DexUITests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MH4U_DexUITests.m; sourceTree = "<group>"; };
+		E4D95EE31AC3536D001E7100 /* MonsterEncyclopediaHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonsterEncyclopediaHeader.h; sourceTree = "<group>"; };
+		E4D95EE41AC3536D001E7100 /* MonsterEncyclopediaHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonsterEncyclopediaHeader.m; sourceTree = "<group>"; };
 		E4DAD2211AB734CE0048DACA /* QuestDrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestDrop.h; sourceTree = "<group>"; };
 		E4DAD2221AB734CE0048DACA /* QuestDrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestDrop.m; sourceTree = "<group>"; };
 		E4DAD2241AB734DF0048DACA /* _QuestDrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _QuestDrop.h; sourceTree = "<group>"; };
@@ -637,6 +640,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E4D95EE21AC3534B001E7100 /* Reusable Views */ = {
+			isa = PBXGroup;
+			children = (
+				E4D95EE31AC3536D001E7100 /* MonsterEncyclopediaHeader.h */,
+				E4D95EE41AC3536D001E7100 /* MonsterEncyclopediaHeader.m */,
+			);
+			name = "Reusable Views";
+			sourceTree = "<group>";
+		};
 		E4DAD22B1AB77F600048DACA /* Quests */ = {
 			isa = PBXGroup;
 			children = (
@@ -662,6 +674,7 @@
 		E4E1CA711A85465E00043E9E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E4D95EE21AC3534B001E7100 /* Reusable Views */,
 				E4A7698F1A85219B00AC93DA /* Cells */,
 			);
 			name = View;
@@ -955,6 +968,7 @@
 				E434F3761A83F5CA004C10BF /* _Skilltree.m in Sources */,
 				E4CE45CF1A97BB930059C056 /* ItemAreaSourcesTableViewController.m in Sources */,
 				E471BE391A979F4C0076CBD7 /* RegionEncyclopediaCollectionViewController.m in Sources */,
+				E4D95EE51AC3536D001E7100 /* MonsterEncyclopediaHeader.m in Sources */,
 				E471BE241A9672A80076CBD7 /* ItemTableViewCell.m in Sources */,
 				E4456EB61A89664F00FCC7DC /* DamageZone.m in Sources */,
 				E434F37F1A83F5CA004C10BF /* Quest.m in Sources */,
