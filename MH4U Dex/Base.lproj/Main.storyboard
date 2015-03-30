@@ -222,6 +222,7 @@
                             </containerView>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="H3p-SW-Bxj">
                                 <rect key="frame" x="0.0" y="571" width="600" height="29"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="28" id="n4F-BX-thK"/>
                                 </constraints>
@@ -374,7 +375,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0DU-GN-dvF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1553" y="-2559"/>
+            <point key="canvasLocation" x="-1559" y="-2534"/>
         </scene>
         <!--Item Container View Controller-->
         <scene sceneID="1Fa-QL-5CF">
@@ -390,6 +391,7 @@
                         <subviews>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="6Np-Cv-fRb">
                                 <rect key="frame" x="0.0" y="571" width="600" height="29"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <segments>
                                     <segment title="Monster Sources"/>
                                     <segment title="Gathering Sources"/>
@@ -424,7 +426,7 @@
                                 </connections>
                             </containerView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="wTo-N8-Ssa" firstAttribute="leading" secondItem="yoz-6J-J4K" secondAttribute="leadingMargin" id="5AM-2R-2pB"/>
                             <constraint firstAttribute="trailingMargin" secondItem="myc-Rj-JoV" secondAttribute="trailing" constant="-16" id="7fB-M3-vo8"/>
@@ -456,7 +458,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="80c-c8-yUa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1573" y="-1919"/>
+            <point key="canvasLocation" x="-1559" y="-1890"/>
         </scene>
         <!--Item Area Sources Table View Controller-->
         <scene sceneID="77W-63-pSa">
@@ -630,7 +632,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QgW-G2-hwm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2194" y="-1290"/>
+            <point key="canvasLocation" x="-2175" y="-1225"/>
         </scene>
         <!--Monster Item Table View Controller-->
         <scene sceneID="1bS-sD-c3R">
@@ -739,12 +741,9 @@
                                     <rect key="frame" x="0.0" y="0.0" width="205" height="205"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c7I-sS-fBV">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="2" translatesAutoresizingMaskIntoConstraints="NO" id="c7I-sS-fBV">
                                             <rect key="frame" x="79" y="179" width="46" height="21"/>
                                             <accessibility key="accessibilityConfiguration" label="RegionName"/>
-                                            <constraints>
-                                                <constraint firstAttribute="height" constant="21" id="exB-ud-zjq"/>
-                                            </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
@@ -762,12 +761,13 @@
                                 <constraints>
                                     <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="1TO-H9-jO8" secondAttribute="trailing" constant="5" id="4h1-0J-XJb"/>
                                     <constraint firstItem="1TO-H9-jO8" firstAttribute="top" secondItem="loO-8V-vTo" secondAttribute="top" constant="5" id="7A5-Uv-cOi"/>
-                                    <constraint firstAttribute="centerX" secondItem="c7I-sS-fBV" secondAttribute="centerX" constant="0.5" id="A1h-0j-Q1z"/>
+                                    <constraint firstAttribute="centerX" secondItem="c7I-sS-fBV" secondAttribute="centerX" id="A1h-0j-Q1z"/>
                                     <constraint firstItem="c7I-sS-fBV" firstAttribute="top" secondItem="1TO-H9-jO8" secondAttribute="bottom" constant="7" id="FJ9-qU-LkE"/>
                                     <constraint firstItem="c7I-sS-fBV" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="loO-8V-vTo" secondAttribute="leading" constant="18" id="d5w-OO-HyC"/>
-                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="c7I-sS-fBV" secondAttribute="trailing" constant="19" id="guQ-P2-FXz"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="c7I-sS-fBV" secondAttribute="trailing" constant="18" id="guQ-P2-FXz"/>
                                     <constraint firstAttribute="centerX" secondItem="1TO-H9-jO8" secondAttribute="centerX" id="vKJ-Aw-Lyu"/>
                                     <constraint firstItem="c7I-sS-fBV" firstAttribute="bottom" secondItem="loO-8V-vTo" secondAttribute="bottom" constant="-5" id="xRP-Kc-ysF"/>
+                                    <constraint firstItem="1TO-H9-jO8" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="loO-8V-vTo" secondAttribute="leading" constant="5" id="xqs-b1-Bno"/>
                                 </constraints>
                                 <connections>
                                     <outlet property="regionIconImageView" destination="1TO-H9-jO8" id="CIa-ec-66A"/>
@@ -1052,7 +1052,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z7h-Im-kc1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1458" y="-1272"/>
+            <point key="canvasLocation" x="-1559" y="-1272"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
