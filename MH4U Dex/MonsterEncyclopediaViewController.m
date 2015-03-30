@@ -19,6 +19,7 @@
 #import "Monster.h"
 
 #import "MonsterEncyclopediaCell.h"
+#import "MonsterEncyclopediaHeader.h"
 
 typedef NS_ENUM(NSInteger, MonsterEncyclopediaSections) {
     SmallMonsterSection = 0,
@@ -102,6 +103,25 @@ typedef NS_ENUM(NSInteger, MonsterEncyclopediaSections) {
         default:
             return 0;
     }
+}
+
+- (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView
+           viewForSupplementaryElementOfKind:(NSString *)kind
+                                 atIndexPath:(NSIndexPath *)indexPath
+{
+    MonsterEncyclopediaHeader *reusableView = [collectionView
+                                               dequeueReusableSupplementaryViewOfKind:kind
+                                               withReuseIdentifier:NSStringFromClass([MonsterEncyclopediaHeader class])
+                                               forIndexPath:indexPath];
+    switch (indexPath.section) {
+        case SmallMonsterSection:
+            [reusableView configureHeaderLabelWithMonsterIsSmall:YES];
+            break;
+        case LargeMonsterSection:
+            [reusableView configureHeaderLabelWithMonsterIsSmall:NO];
+            break;
+    }
+    return reusableView;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath

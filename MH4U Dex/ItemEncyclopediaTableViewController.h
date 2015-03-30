@@ -6,8 +6,9 @@
 //  Copyright (c) 2015 Joseph Goldberg. All rights reserved.
 //
 
+#import <CoreData/CoreData.h>
 #import <UIKit/UIKit.h>
 
-@interface ItemEncyclopediaTableViewController : UITableViewController
+@interface ItemEncyclopediaTableViewController : UITableViewController <NSFetchedResultsControllerDelegate, UISearchBarDelegate>
 
 @end

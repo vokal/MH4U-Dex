@@ -32,4 +32,9 @@
 + (NSString *)MHDBack;
 + (NSString *)MHDHomeString;
 
+#pragma mark - Monster Encyclopedia Constants
+
++ (NSString *)MHDSmallMonsters;
++ (NSString *)MHDLargeMonsters;
+
 @end
