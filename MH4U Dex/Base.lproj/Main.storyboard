@@ -359,7 +359,7 @@
         <scene sceneID="Fkd-J4-Mye">
             <objects>
                 <tableViewController id="9ls-kE-ufZ" customClass="ItemEncyclopediaTableViewController" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="yJ1-jr-Gg4">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="45" sectionHeaderHeight="22" sectionFooterHeight="22" id="yJ1-jr-Gg4">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -374,13 +374,27 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0YN-wN-1s5" id="74O-ho-O2h">
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t4G-jC-KyI">
-                                            <rect key="frame" x="39" y="12" width="191" height="21"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t4G-jC-KyI">
+                                            <rect key="frame" x="31" y="4" width="46" height="36"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="36" id="GZf-Sv-fPz"/>
+                                                <constraint firstAttribute="height" constant="21" id="TdU-CP-9t3"/>
+                                            </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="TdU-CP-9t3"/>
+                                                </mask>
+                                            </variation>
                                         </label>
                                     </subviews>
+                                    <constraints>
+                                        <constraint firstItem="t4G-jC-KyI" firstAttribute="top" relation="greaterThanOrEqual" secondItem="74O-ho-O2h" secondAttribute="top" constant="4" id="1Ht-xG-Usw"/>
+                                        <constraint firstItem="t4G-jC-KyI" firstAttribute="leading" secondItem="74O-ho-O2h" secondAttribute="leading" constant="31" id="KcC-Br-4P4"/>
+                                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="t4G-jC-KyI" secondAttribute="bottom" constant="4" id="hwg-iT-ZFN"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                                 <accessibility key="accessibilityConfiguration" label="ItemTableViewCell">
                                     <bool key="isElement" value="YES"/>
