@@ -15,8 +15,10 @@
 
 @interface ItemSourceTableViewCell ()
 
-@property (weak, nonatomic) IBOutlet UILabel *methodLabel;
-@property (weak, nonatomic) IBOutlet UILabel *sourceLabel;
+@property (nonatomic, weak) IBOutlet UILabel *methodLabel;
+@property (nonatomic, weak) IBOutlet UILabel *sourceLabel;
+@property (nonatomic, weak) IBOutlet UILabel *quantityLabel;
+@property (nonatomic, weak) IBOutlet UILabel *percentLabel;
 
 @end
 
@@ -28,11 +30,15 @@
         MonsterDrop *monsterDrop = (MonsterDrop *)drop;
         self.methodLabel.text = monsterDrop.method;
         self.sourceLabel.text = monsterDrop.monsterSource.name;
+        
     } else if ([drop isKindOfClass:[AreaDrop class]]) {
         AreaDrop *areaDrop = (AreaDrop *)drop;
         self.methodLabel.text = areaDrop.method;
         self.sourceLabel.text = areaDrop.area.name;
     }
+    //TODO: conditional for QuestDrops
+    self.quantityLabel.text = [NSString stringWithFormat:@"#: %@", drop.quantity];
+    self.percentLabel.text = [NSString stringWithFormat:@"%@%%", drop.percent];
 }
 
 @end

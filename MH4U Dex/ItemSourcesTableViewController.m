@@ -44,15 +44,16 @@
     Item *item = (Item *)[managedObjectContext executeFetchRequest:itemFetchRequest error:&fetchError].firstObject;
     NSFetchRequest *fetchRequest;
     if (self.isMonsterSource) {
+        fetchRequest = [[NSFetchRequest alloc] initWithEntityName:[MonsterDrop entityName]];
         fetchRequest.predicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterDropRelationships.item, item];
         fetchRequest.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:MonsterDropAttributes.id ascending:YES]];
         self.tableView.accessibilityIdentifier = MHDItemMonsterSources;
-        fetchRequest = [[NSFetchRequest alloc] initWithEntityName:[MonsterDrop entityName]];
     } else {
+        
+        fetchRequest = [[NSFetchRequest alloc] initWithEntityName:[AreaDrop entityName]];
         fetchRequest.predicate = [NSPredicate predicateWithFormat:@"%K == %@", AreaDropRelationships.item, item];
         fetchRequest.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:AreaDropAttributes.idDecimalString ascending:YES]];
         self.tableView.accessibilityHint = MHDItemAreaSources;
-        fetchRequest = [[NSFetchRequest alloc] initWithEntityName:[AreaDrop entityName]];
     }
     self.sources = [managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];
     // If the fetch failed (most likely because the item cannot be found from any monsters/areas) ...
