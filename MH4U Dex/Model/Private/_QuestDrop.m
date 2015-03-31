@@ -5,8 +5,6 @@
 
 const struct QuestDropAttributes QuestDropAttributes = {
 	.id = @"id",
-	.percent = @"percent",
-	.quantity = @"quantity",
 	.row = @"row",
 };
 
@@ -46,11 +44,6 @@ const struct QuestDropRelationships QuestDropRelationships = {
 		keyPaths = [keyPaths setByAddingObjectsFromSet:affectingKey];
 		return keyPaths;
 	}
-	if ([key isEqualToString:@"quantityValue"]) {
-		NSSet *affectingKey = [NSSet setWithObject:@"quantity"];
-		keyPaths = [keyPaths setByAddingObjectsFromSet:affectingKey];
-		return keyPaths;
-	}
 
 	return keyPaths;
 }
@@ -73,28 +66,6 @@ const struct QuestDropRelationships QuestDropRelationships = {
 
 - (void)setPrimitiveIdValue:(int16_t)value_ {
 	[self setPrimitiveId:[NSNumber numberWithShort:value_]];
-}
-
-@dynamic percent;
-
-@dynamic quantity;
-
-- (int16_t)quantityValue {
-	NSNumber *result = [self quantity];
-	return [result shortValue];
-}
-
-- (void)setQuantityValue:(int16_t)value_ {
-	[self setQuantity:[NSNumber numberWithShort:value_]];
-}
-
-- (int16_t)primitiveQuantityValue {
-	NSNumber *result = [self primitiveQuantity];
-	return [result shortValue];
-}
-
-- (void)setPrimitiveQuantityValue:(int16_t)value_ {
-	[self setPrimitiveQuantity:[NSNumber numberWithShort:value_]];
 }
 
 @dynamic row;

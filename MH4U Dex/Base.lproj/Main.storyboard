@@ -463,7 +463,7 @@
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="quK-cv-pc1" userLabel="Gather Source Container">
                                 <rect key="frame" x="0.0" y="160" width="600" height="410"/>
                                 <connections>
-                                    <segue destination="pkV-Qs-jxD" kind="embed" identifier="embedAreaSources" id="1w2-QW-p0o"/>
+                                    <segue destination="n0T-Mc-SlZ" kind="embed" identifier="embedAreaSources" id="cTp-2l-kMX"/>
                                 </connections>
                             </containerView>
                         </subviews>
@@ -501,66 +501,16 @@
             </objects>
             <point key="canvasLocation" x="-1559" y="-1890"/>
         </scene>
-        <!--Item Area Sources Table View Controller-->
-        <scene sceneID="77W-63-pSa">
-            <objects>
-                <tableViewController id="pkV-Qs-jxD" customClass="ItemAreaSourcesTableViewController" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="45" sectionHeaderHeight="22" sectionFooterHeight="22" id="Xch-Oi-lDv">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="410"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ItemAreaSourceTableViewCell" id="tlN-vl-wWU" customClass="ItemAreaSourceTableViewCell">
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tlN-vl-wWU" id="ARh-Kz-YQZ">
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6FW-9h-Yez">
-                                            <rect key="frame" x="31" y="10" width="42" height="21"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GN9-1I-73p">
-                                            <rect key="frame" x="527" y="10" width="42" height="21"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
-                                    <constraints>
-                                        <constraint firstItem="6FW-9h-Yez" firstAttribute="leading" secondItem="ARh-Kz-YQZ" secondAttribute="leading" constant="31" id="MdX-ts-mRn"/>
-                                        <constraint firstAttribute="trailing" secondItem="GN9-1I-73p" secondAttribute="trailing" constant="31" id="Xw2-FL-izq"/>
-                                        <constraint firstItem="GN9-1I-73p" firstAttribute="centerY" secondItem="6FW-9h-Yez" secondAttribute="centerY" id="boz-pD-t4r"/>
-                                        <constraint firstAttribute="centerY" secondItem="6FW-9h-Yez" secondAttribute="centerY" constant="1.5" id="pTq-GH-jkv"/>
-                                    </constraints>
-                                </tableViewCellContentView>
-                                <connections>
-                                    <outlet property="methodLabel" destination="6FW-9h-Yez" id="6TX-Cx-GOi"/>
-                                    <outlet property="sourceLabel" destination="GN9-1I-73p" id="okx-SB-Xfl"/>
-                                </connections>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="pkV-Qs-jxD" id="XNR-Oe-tkU"/>
-                            <outlet property="delegate" destination="pkV-Qs-jxD" id="tpQ-gu-JMq"/>
-                        </connections>
-                    </tableView>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="TQL-t9-14R" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-736" y="-2365"/>
-        </scene>
-        <!--Item Monster Sources Table View Controller-->
+        <!--Item Sources Table View Controller-->
         <scene sceneID="Ivq-XW-qcn">
             <objects>
-                <tableViewController id="n0T-Mc-SlZ" customClass="ItemMonsterSourcesTableViewController" sceneMemberID="viewController">
+                <tableViewController id="n0T-Mc-SlZ" customClass="ItemSourcesTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="45" sectionHeaderHeight="22" sectionFooterHeight="22" id="KHj-aV-Mq3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="410"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ItemMonsterSourceTableViewCell" id="krI-Gp-8Sk" customClass="ItemMonsterSourceTableViewCell">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ItemMonsterSourceTableViewCell" id="krI-Gp-8Sk" customClass="ItemSourceTableViewCell">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="krI-Gp-8Sk" id="m67-Ox-FUA">
                                     <autoresizingMask key="autoresizingMask"/>
@@ -1115,8 +1065,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="W2D-xv-a7l"/>
         <segue reference="OWj-AQ-QBO"/>
+        <segue reference="W2D-xv-a7l"/>
         <segue reference="MKc-sF-dxr"/>
+        <segue reference="0jB-6V-Ak8"/>
     </inferredMetricsTieBreakers>
 </document>

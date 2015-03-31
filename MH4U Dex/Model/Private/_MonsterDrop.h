@@ -2,12 +2,11 @@
 // Make changes to MonsterDrop.h instead.
 
 #import <CoreData/CoreData.h>
+#import "Drop.h"
 
 extern const struct MonsterDropAttributes {
 	__unsafe_unretained NSString *id;
 	__unsafe_unretained NSString *method;
-	__unsafe_unretained NSString *percent;
-	__unsafe_unretained NSString *quantity;
 	__unsafe_unretained NSString *rank;
 } MonsterDropAttributes;
 
@@ -19,10 +18,10 @@ extern const struct MonsterDropRelationships {
 @class Item;
 @class Monster;
 
-@interface MonsterDropID : NSManagedObjectID {}
+@interface MonsterDropID : DropID {}
 @end
 
-@interface _MonsterDrop : NSManagedObject {}
+@interface _MonsterDrop : Drop {}
 + (id)insertInManagedObjectContext:(NSManagedObjectContext*)moc_;
 + (NSString*)entityName;
 + (NSEntityDescription*)entityInManagedObjectContext:(NSManagedObjectContext*)moc_;
@@ -39,22 +38,6 @@ extern const struct MonsterDropRelationships {
 @property (nonatomic, strong) NSString* method;
 
 //- (BOOL)validateMethod:(id*)value_ error:(NSError**)error_;
-
-@property (nonatomic, strong) NSNumber* percent;
-
-@property (atomic) int16_t percentValue;
-- (int16_t)percentValue;
-- (void)setPercentValue:(int16_t)value_;
-
-//- (BOOL)validatePercent:(id*)value_ error:(NSError**)error_;
-
-@property (nonatomic, strong) NSNumber* quantity;
-
-@property (atomic) int16_t quantityValue;
-- (int16_t)quantityValue;
-- (void)setQuantityValue:(int16_t)value_;
-
-//- (BOOL)validateQuantity:(id*)value_ error:(NSError**)error_;
 
 @property (nonatomic, strong) NSString* rank;
 
@@ -83,18 +66,6 @@ extern const struct MonsterDropRelationships {
 
 - (NSString*)primitiveMethod;
 - (void)setPrimitiveMethod:(NSString*)value;
-
-- (NSNumber*)primitivePercent;
-- (void)setPrimitivePercent:(NSNumber*)value;
-
-- (int16_t)primitivePercentValue;
-- (void)setPrimitivePercentValue:(int16_t)value_;
-
-- (NSNumber*)primitiveQuantity;
-- (void)setPrimitiveQuantity:(NSNumber*)value;
-
-- (int16_t)primitiveQuantityValue;
-- (void)setPrimitiveQuantityValue:(int16_t)value_;
 
 - (NSString*)primitiveRank;
 - (void)setPrimitiveRank:(NSString*)value;

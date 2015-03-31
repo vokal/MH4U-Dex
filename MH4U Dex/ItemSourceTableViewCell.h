@@ -1,5 +1,5 @@
 //
-//  ItemMonsterSourceTableViewCell.h
+//  ItemSourceTableViewCell.h
 //  MH4U Dex
 //
 //  Created by Joseph Goldberg on 2/19/15.
@@ -8,13 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@class MonsterDrop;
+@class Drop;
 
-@interface ItemMonsterSourceTableViewCell : UITableViewCell
+@interface ItemSourceTableViewCell : UITableViewCell
 
 /**
  Update the cell's labels.
  */
-- (void)displayContentsWithMonsterDrop:(MonsterDrop *)drop;
+- (void)displayContentsWithDrop:(Drop *)drop;
 
 @end
