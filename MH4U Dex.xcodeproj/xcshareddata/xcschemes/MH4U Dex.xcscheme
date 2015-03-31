@@ -20,34 +20,6 @@
                ReferencedContainer = "container:MH4U Dex.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E499581A1A83D28E00799BBE"
-               BuildableName = "MH4U DexTests.xctest"
-               BlueprintName = "MH4U DexTests"
-               ReferencedContainer = "container:MH4U Dex.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E4D95ED41AC1D83D001E7100"
-               BuildableName = "MH4U Dex UITests.xctest"
-               BlueprintName = "MH4U Dex UITests"
-               ReferencedContainer = "container:MH4U Dex.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -56,26 +28,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E499581A1A83D28E00799BBE"
-               BuildableName = "MH4U DexTests.xctest"
-               BlueprintName = "MH4U DexTests"
-               ReferencedContainer = "container:MH4U Dex.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E4D95ED41AC1D83D001E7100"
-               BuildableName = "MH4U Dex UITests.xctest"
-               BlueprintName = "MH4U Dex UITests"
-               ReferencedContainer = "container:MH4U Dex.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
