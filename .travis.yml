@@ -1,0 +1,4 @@
+language: objective-c
+xcode_workspace: MH4U Dex.xcworkspace
+xcode_scheme: MH4U Dex
+xcode_sdk: iphonesimulator8.1
