@@ -50,6 +50,15 @@
         self.areaDropsDict[area.combinedName] = dropsArray;
     }
     self.tableView.accessibilityIdentifier = MHDAreaDropsTable;
+    if (self.areaArray.count) {
+        // The tableHeaderView is only used to display a message if there are no contents in the tableView.
+        self.tableView.tableHeaderView = nil;
+    } else {
+        // This is a bit of a hacky way to make it appear as if there is no tableView.
+        self.tableView.backgroundColor = self.tableView.tableHeaderView.backgroundColor;
+        self.tableView.scrollEnabled = NO;
+        self.tableView.separatorColor = [UIColor clearColor];
+    }
 }
 
 #pragma mark - Helper Methods

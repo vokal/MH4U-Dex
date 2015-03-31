@@ -47,6 +47,16 @@
     
     self.drops = [managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];
     self.tableView.accessibilityIdentifier = MHDMonsterDropsTable;
+    
+    if (self.drops.count) {
+        // The tableHeaderView is only used to display a message if there are no contents in the tableView.
+        self.tableView.tableHeaderView = nil;
+    } else {
+        // This is a bit of a hacky way to make it appear as if there is no tableView.
+        self.tableView.backgroundColor = self.tableView.tableHeaderView.backgroundColor;
+        self.tableView.scrollEnabled = NO;
+        self.tableView.separatorColor = [UIColor clearColor];
+    }
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender

@@ -49,7 +49,6 @@
         fetchRequest.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:MonsterDropAttributes.id ascending:YES]];
         self.tableView.accessibilityIdentifier = MHDItemMonsterSources;
     } else {
-        
         fetchRequest = [[NSFetchRequest alloc] initWithEntityName:[AreaDrop entityName]];
         fetchRequest.predicate = [NSPredicate predicateWithFormat:@"%K == %@", AreaDropRelationships.item, item];
         fetchRequest.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:AreaDropAttributes.idDecimalString ascending:YES]];
@@ -61,13 +60,26 @@
         // Set sources to empty.
         self.sources = @[];
     }
+    if (self.sources.count) {
+        // The tableHeaderView is only used to display a message if there are no contents in the tableView.
+        self.tableView.tableHeaderView = nil;
+    } else {
+        // This is a bit of a hacky way to make it appear as if there is no tableView.
+        self.tableView.backgroundColor = self.tableView.tableHeaderView.backgroundColor;
+        self.tableView.scrollEnabled = NO;
+        self.tableView.separatorColor = [UIColor clearColor];
+    }
 }
 
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    return 1;
+    if (self.sources.count) {
+        return 1;
+    } else {
+        return 0;
+    }
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
