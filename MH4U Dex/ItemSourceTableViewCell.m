@@ -12,6 +12,7 @@
 #import "AreaDrop.h"
 #import "Monster.h"
 #import "MonsterDrop.h"
+#import "Region.h"
 
 @interface ItemSourceTableViewCell ()
 
@@ -33,8 +34,8 @@
         
     } else if ([drop isKindOfClass:[AreaDrop class]]) {
         AreaDrop *areaDrop = (AreaDrop *)drop;
-        self.methodLabel.text = areaDrop.method;
-        self.sourceLabel.text = areaDrop.area.name;
+        self.methodLabel.text = [NSString stringWithFormat:@"%@ %@", areaDrop.area.name, areaDrop.method];
+        self.sourceLabel.text = areaDrop.area.region.name;
     }
     //TODO: conditional for QuestDrops
     self.quantityLabel.text = [NSString stringWithFormat:@"#: %@", drop.quantity];
