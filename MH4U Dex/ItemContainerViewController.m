@@ -8,8 +8,7 @@
 
 #import "ItemContainerViewController.h"
 
-#import "ItemAreaSourcesTableViewController.h"
-#import "ItemMonsterSourcesTableViewController.h"
+#import "ItemSourcesTableViewController.h"
 
 typedef NS_ENUM(NSInteger, ItemSegmentedControlPage) {
     MonsterSources = 0,
@@ -55,10 +54,12 @@ typedef NS_ENUM(NSInteger, ItemSegmentedControlPage) {
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if ([segue.identifier isEqualToString:@"embedMonsterSources"]) {
-        ItemMonsterSourcesTableViewController *dropVC = (ItemMonsterSourcesTableViewController *)segue.destinationViewController;
+        ItemSourcesTableViewController *dropVC = (ItemSourcesTableViewController *)segue.destinationViewController;
+        dropVC.isMonsterSource = YES;
         dropVC.itemName = self.itemName;
     } else if ([segue.identifier isEqualToString:@"embedAreaSources"]) {
-        ItemAreaSourcesTableViewController *dropVC = (ItemAreaSourcesTableViewController *)segue.destinationViewController;
+        ItemSourcesTableViewController *dropVC = (ItemSourcesTableViewController *)segue.destinationViewController;
+        dropVC.isMonsterSource = NO;
         dropVC.itemName = self.itemName;
     }
 }

@@ -5,7 +5,7 @@
     "row":"A",
     "item":"Well-done Steak",
     "quantity":1,
-    "percent":"100%"
+    "percent":100
   },
   {
     "dropID":2,
@@ -13,7 +13,7 @@
     "row":"A",
     "item":"Mega Potion",
     "quantity":1,
-    "percent":"100%"
+    "percent":100
   },
   {
     "dropID":3,
@@ -21,7 +21,7 @@
     "row":"A",
     "item":"Potion",
     "quantity":1,
-    "percent":"30%"
+    "percent":30
   },
   {
     "dropID":4,
@@ -29,7 +29,7 @@
     "row":"A",
     "item":"Paintball",
     "quantity":1,
-    "percent":"25%"
+    "percent":25
   },
   {
     "dropID":5,
@@ -37,7 +37,7 @@
     "row":"A",
     "item":"Whetstone",
     "quantity":1,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":6,
@@ -45,7 +45,7 @@
     "row":"A",
     "item":"Well-done Steak",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":7,
@@ -53,7 +53,7 @@
     "row":"A",
     "item":"Honey",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":8,
@@ -61,7 +61,7 @@
     "row":"A",
     "item":"Potion",
     "quantity":1,
-    "percent":"30%"
+    "percent":30
   },
   {
     "dropID":9,
@@ -69,7 +69,7 @@
     "row":"A",
     "item":"Paintball",
     "quantity":1,
-    "percent":"25%"
+    "percent":25
   },
   {
     "dropID":10,
@@ -77,7 +77,7 @@
     "row":"A",
     "item":"Whetstone",
     "quantity":1,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":11,
@@ -85,7 +85,7 @@
     "row":"A",
     "item":"Well-done Steak",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":12,
@@ -93,7 +93,7 @@
     "row":"A",
     "item":"Honey",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":13,
@@ -101,7 +101,7 @@
     "row":"A",
     "item":"Potion",
     "quantity":1,
-    "percent":"30%"
+    "percent":30
   },
   {
     "dropID":14,
@@ -109,7 +109,7 @@
     "row":"A",
     "item":"Paintball",
     "quantity":1,
-    "percent":"25%"
+    "percent":25
   },
   {
     "dropID":15,
@@ -117,7 +117,7 @@
     "row":"A",
     "item":"Whetstone",
     "quantity":1,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":16,
@@ -125,7 +125,7 @@
     "row":"A",
     "item":"Well-done Steak",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":17,
@@ -133,7 +133,7 @@
     "row":"A",
     "item":"Honey",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":18,
@@ -141,7 +141,7 @@
     "row":"A",
     "item":"Potion",
     "quantity":1,
-    "percent":"30%"
+    "percent":30
   },
   {
     "dropID":19,
@@ -149,7 +149,7 @@
     "row":"A",
     "item":"Paintball",
     "quantity":1,
-    "percent":"25%"
+    "percent":25
   },
   {
     "dropID":20,
@@ -157,7 +157,7 @@
     "row":"A",
     "item":"Whetstone",
     "quantity":1,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":21,
@@ -165,7 +165,7 @@
     "row":"A",
     "item":"Well-done Steak",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":22,
@@ -173,7 +173,7 @@
     "row":"A",
     "item":"Honey",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":23,
@@ -181,7 +181,7 @@
     "row":"A",
     "item":"Potion",
     "quantity":1,
-    "percent":"30%"
+    "percent":30
   },
   {
     "dropID":24,
@@ -189,7 +189,7 @@
     "row":"A",
     "item":"Paintball",
     "quantity":1,
-    "percent":"25%"
+    "percent":25
   },
   {
     "dropID":25,
@@ -197,7 +197,7 @@
     "row":"A",
     "item":"Whetstone",
     "quantity":1,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":26,
@@ -205,7 +205,7 @@
     "row":"A",
     "item":"Well-done Steak",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":27,
@@ -213,7 +213,7 @@
     "row":"A",
     "item":"Honey",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":28,
@@ -221,7 +221,7 @@
     "row":"A",
     "item":"Potion",
     "quantity":1,
-    "percent":"30%"
+    "percent":30
   },
   {
     "dropID":29,
@@ -229,7 +229,7 @@
     "row":"A",
     "item":"Paintball",
     "quantity":1,
-    "percent":"25%"
+    "percent":25
   },
   {
     "dropID":30,
@@ -237,7 +237,7 @@
     "row":"A",
     "item":"Whetstone",
     "quantity":1,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":31,
@@ -245,7 +245,7 @@
     "row":"A",
     "item":"Well-done Steak",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":32,
@@ -253,7 +253,7 @@
     "row":"A",
     "item":"Honey",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":33,
@@ -261,7 +261,7 @@
     "row":"A",
     "item":"Potion",
     "quantity":1,
-    "percent":"30%"
+    "percent":30
   },
   {
     "dropID":34,
@@ -269,7 +269,7 @@
     "row":"A",
     "item":"Paintball",
     "quantity":1,
-    "percent":"25%"
+    "percent":25
   },
   {
     "dropID":35,
@@ -277,7 +277,7 @@
     "row":"A",
     "item":"Whetstone",
     "quantity":1,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":36,
@@ -285,7 +285,7 @@
     "row":"A",
     "item":"Well-done Steak",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":37,
@@ -293,7 +293,7 @@
     "row":"A",
     "item":"Honey",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":38,
@@ -301,7 +301,7 @@
     "row":"A",
     "item":"Potion",
     "quantity":1,
-    "percent":"30%"
+    "percent":30
   },
   {
     "dropID":39,
@@ -309,7 +309,7 @@
     "row":"A",
     "item":"Paintball",
     "quantity":1,
-    "percent":"25%"
+    "percent":25
   },
   {
     "dropID":40,
@@ -317,7 +317,7 @@
     "row":"A",
     "item":"Whetstone",
     "quantity":1,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":41,
@@ -325,7 +325,7 @@
     "row":"A",
     "item":"Well-done Steak",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":42,
@@ -333,7 +333,7 @@
     "row":"A",
     "item":"Honey",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":43,
@@ -341,7 +341,7 @@
     "row":"A",
     "item":"Potion",
     "quantity":1,
-    "percent":"30%"
+    "percent":30
   },
   {
     "dropID":44,
@@ -349,7 +349,7 @@
     "row":"A",
     "item":"Paintball",
     "quantity":1,
-    "percent":"25%"
+    "percent":25
   },
   {
     "dropID":45,
@@ -357,7 +357,7 @@
     "row":"A",
     "item":"Whetstone",
     "quantity":1,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":46,
@@ -365,7 +365,7 @@
     "row":"A",
     "item":"Well-done Steak",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":47,
@@ -373,7 +373,7 @@
     "row":"A",
     "item":"Honey",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":48,
@@ -381,7 +381,7 @@
     "row":"A",
     "item":"Potion",
     "quantity":1,
-    "percent":"30%"
+    "percent":30
   },
   {
     "dropID":49,
@@ -389,7 +389,7 @@
     "row":"A",
     "item":"Paintball",
     "quantity":1,
-    "percent":"25%"
+    "percent":25
   },
   {
     "dropID":50,
@@ -397,7 +397,7 @@
     "row":"A",
     "item":"Whetstone",
     "quantity":1,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":51,
@@ -405,7 +405,7 @@
     "row":"A",
     "item":"Well-done Steak",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":52,
@@ -413,7 +413,7 @@
     "row":"A",
     "item":"Honey",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":53,
@@ -421,7 +421,7 @@
     "row":"A",
     "item":"Potion",
     "quantity":1,
-    "percent":"30%"
+    "percent":30
   },
   {
     "dropID":54,
@@ -429,7 +429,7 @@
     "row":"A",
     "item":"Paintball",
     "quantity":1,
-    "percent":"25%"
+    "percent":25
   },
   {
     "dropID":55,
@@ -437,7 +437,7 @@
     "row":"A",
     "item":"Whetstone",
     "quantity":1,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":56,
@@ -445,7 +445,7 @@
     "row":"A",
     "item":"Well-done Steak",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":57,
@@ -453,7 +453,7 @@
     "row":"A",
     "item":"Honey",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":58,
@@ -461,7 +461,7 @@
     "row":"A",
     "item":"Potion",
     "quantity":1,
-    "percent":"30%"
+    "percent":30
   },
   {
     "dropID":59,
@@ -469,7 +469,7 @@
     "row":"A",
     "item":"Paintball",
     "quantity":1,
-    "percent":"25%"
+    "percent":25
   },
   {
     "dropID":60,
@@ -477,7 +477,7 @@
     "row":"A",
     "item":"Whetstone",
     "quantity":1,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":61,
@@ -485,7 +485,7 @@
     "row":"A",
     "item":"Well-done Steak",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":62,
@@ -493,7 +493,7 @@
     "row":"A",
     "item":"Honey",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":63,
@@ -501,7 +501,7 @@
     "row":"A",
     "item":"Potion",
     "quantity":1,
-    "percent":"30%"
+    "percent":30
   },
   {
     "dropID":64,
@@ -509,7 +509,7 @@
     "row":"A",
     "item":"Paintball",
     "quantity":1,
-    "percent":"25%"
+    "percent":25
   },
   {
     "dropID":65,
@@ -517,7 +517,7 @@
     "row":"A",
     "item":"Whetstone",
     "quantity":1,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":66,
@@ -525,7 +525,7 @@
     "row":"A",
     "item":"Well-done Steak",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":67,
@@ -533,7 +533,7 @@
     "row":"A",
     "item":"Honey",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":68,
@@ -541,7 +541,7 @@
     "row":"A",
     "item":"Potion",
     "quantity":1,
-    "percent":"30%"
+    "percent":30
   },
   {
     "dropID":69,
@@ -549,7 +549,7 @@
     "row":"A",
     "item":"Paintball",
     "quantity":1,
-    "percent":"25%"
+    "percent":25
   },
   {
     "dropID":70,
@@ -557,7 +557,7 @@
     "row":"A",
     "item":"Whetstone",
     "quantity":1,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":71,
@@ -565,7 +565,7 @@
     "row":"A",
     "item":"Well-done Steak",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":72,
@@ -573,7 +573,7 @@
     "row":"A",
     "item":"Honey",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":73,
@@ -581,7 +581,7 @@
     "row":"A",
     "item":"Potion",
     "quantity":1,
-    "percent":"30%"
+    "percent":30
   },
   {
     "dropID":74,
@@ -589,7 +589,7 @@
     "row":"A",
     "item":"Paintball",
     "quantity":1,
-    "percent":"25%"
+    "percent":25
   },
   {
     "dropID":75,
@@ -597,7 +597,7 @@
     "row":"A",
     "item":"Whetstone",
     "quantity":1,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":76,
@@ -605,7 +605,7 @@
     "row":"A",
     "item":"Well-done Steak",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":77,
@@ -613,7 +613,7 @@
     "row":"A",
     "item":"Honey",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":78,
@@ -621,7 +621,7 @@
     "row":"A",
     "item":"Blue Mushroom",
     "quantity":3,
-    "percent":"33%"
+    "percent":33
   },
   {
     "dropID":79,
@@ -629,7 +629,7 @@
     "row":"A",
     "item":"Parashroom",
     "quantity":2,
-    "percent":"23%"
+    "percent":23
   },
   {
     "dropID":80,
@@ -637,7 +637,7 @@
     "row":"A",
     "item":"Exciteshroom",
     "quantity":2,
-    "percent":"21%"
+    "percent":21
   },
   {
     "dropID":81,
@@ -645,7 +645,7 @@
     "row":"A",
     "item":"Toadstool",
     "quantity":2,
-    "percent":"13%"
+    "percent":13
   },
   {
     "dropID":82,
@@ -653,7 +653,7 @@
     "row":"A",
     "item":"Parashroom",
     "quantity":3,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":83,
@@ -661,7 +661,7 @@
     "row":"B",
     "item":"Herb",
     "quantity":1,
-    "percent":"14%"
+    "percent":14
   },
   {
     "dropID":84,
@@ -669,7 +669,7 @@
     "row":"B",
     "item":"Blue Mushroom",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":85,
@@ -677,7 +677,7 @@
     "row":"B",
     "item":"Honey",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":86,
@@ -685,7 +685,7 @@
     "row":"B",
     "item":"Bitterbug",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":87,
@@ -693,7 +693,7 @@
     "row":"B",
     "item":"Armor Sphere",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":88,
@@ -701,7 +701,7 @@
     "row":"B",
     "item":"Power Nectar: Fire",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":89,
@@ -709,7 +709,7 @@
     "row":"B",
     "item":"Nulberry",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":90,
@@ -717,7 +717,7 @@
     "row":"B",
     "item":"Ivy",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":91,
@@ -725,7 +725,7 @@
     "row":"B",
     "item":"Paintberry",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":92,
@@ -733,7 +733,7 @@
     "row":"B",
     "item":"Stam Nectar: Water",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":93,
@@ -741,7 +741,7 @@
     "row":"B",
     "item":"Power+ Nectar",
     "quantity":1,
-    "percent":"4%"
+    "percent":4
   },
   {
     "dropID":94,
@@ -749,7 +749,7 @@
     "row":"Sub",
     "item":"Herb",
     "quantity":1,
-    "percent":"14%"
+    "percent":14
   },
   {
     "dropID":95,
@@ -757,7 +757,7 @@
     "row":"Sub",
     "item":"Blue Mushroom",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":96,
@@ -765,7 +765,7 @@
     "row":"Sub",
     "item":"Honey",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":97,
@@ -773,7 +773,7 @@
     "row":"Sub",
     "item":"Bitterbug",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":98,
@@ -781,7 +781,7 @@
     "row":"Sub",
     "item":"Armor Sphere",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":99,
@@ -789,7 +789,7 @@
     "row":"Sub",
     "item":"Power Nectar: Fire",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":100,
@@ -797,7 +797,7 @@
     "row":"Sub",
     "item":"Nulberry",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":101,
@@ -805,7 +805,7 @@
     "row":"Sub",
     "item":"Ivy",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":102,
@@ -813,7 +813,7 @@
     "row":"Sub",
     "item":"Paintberry",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":103,
@@ -821,7 +821,7 @@
     "row":"Sub",
     "item":"Stam Nectar: Water",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":104,
@@ -829,7 +829,7 @@
     "row":"Sub",
     "item":"Power+ Nectar",
     "quantity":1,
-    "percent":"4%"
+    "percent":4
   },
   {
     "dropID":105,
@@ -837,7 +837,7 @@
     "row":"A",
     "item":"Bird Wyvern Fang",
     "quantity":2,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":106,
@@ -845,7 +845,7 @@
     "row":"A",
     "item":"Monster Bone S",
     "quantity":1,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":107,
@@ -853,7 +853,7 @@
     "row":"A",
     "item":"Jaggi Scale",
     "quantity":1,
-    "percent":"16%"
+    "percent":16
   },
   {
     "dropID":108,
@@ -861,7 +861,7 @@
     "row":"A",
     "item":"Jaggi Hide",
     "quantity":2,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":109,
@@ -869,7 +869,7 @@
     "row":"A",
     "item":"Bird Wyvern Fang",
     "quantity":4,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":110,
@@ -877,7 +877,7 @@
     "row":"A",
     "item":"Jaggi Scale",
     "quantity":2,
-    "percent":"9%"
+    "percent":9
   },
   {
     "dropID":111,
@@ -885,7 +885,7 @@
     "row":"A",
     "item":"Jaggi Hide",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":112,
@@ -893,7 +893,7 @@
     "row":"B",
     "item":"Herb",
     "quantity":1,
-    "percent":"14%"
+    "percent":14
   },
   {
     "dropID":113,
@@ -901,7 +901,7 @@
     "row":"B",
     "item":"Blue Mushroom",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":114,
@@ -909,7 +909,7 @@
     "row":"B",
     "item":"Honey",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":115,
@@ -917,7 +917,7 @@
     "row":"B",
     "item":"Bitterbug",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":116,
@@ -925,7 +925,7 @@
     "row":"B",
     "item":"Armor Sphere",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":117,
@@ -933,7 +933,7 @@
     "row":"B",
     "item":"Power Nectar: Fire",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":118,
@@ -941,7 +941,7 @@
     "row":"B",
     "item":"Nulberry",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":119,
@@ -949,7 +949,7 @@
     "row":"B",
     "item":"Ivy",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":120,
@@ -957,7 +957,7 @@
     "row":"B",
     "item":"Paintberry",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":121,
@@ -965,7 +965,7 @@
     "row":"B",
     "item":"Stam Nectar: Water",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":122,
@@ -973,7 +973,7 @@
     "row":"B",
     "item":"Power+ Nectar",
     "quantity":1,
-    "percent":"4%"
+    "percent":4
   },
   {
     "dropID":123,
@@ -981,7 +981,7 @@
     "row":"Sub",
     "item":"Herb",
     "quantity":1,
-    "percent":"14%"
+    "percent":14
   },
   {
     "dropID":124,
@@ -989,7 +989,7 @@
     "row":"Sub",
     "item":"Blue Mushroom",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":125,
@@ -997,7 +997,7 @@
     "row":"Sub",
     "item":"Honey",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":126,
@@ -1005,7 +1005,7 @@
     "row":"Sub",
     "item":"Bitterbug",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":127,
@@ -1013,7 +1013,7 @@
     "row":"Sub",
     "item":"Armor Sphere",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":128,
@@ -1021,7 +1021,7 @@
     "row":"Sub",
     "item":"Power Nectar: Fire",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":129,
@@ -1029,7 +1029,7 @@
     "row":"Sub",
     "item":"Nulberry",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":130,
@@ -1037,7 +1037,7 @@
     "row":"Sub",
     "item":"Ivy",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":131,
@@ -1045,7 +1045,7 @@
     "row":"Sub",
     "item":"Paintberry",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":132,
@@ -1053,7 +1053,7 @@
     "row":"Sub",
     "item":"Stam Nectar: Water",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":133,
@@ -1061,6 +1061,6 @@
     "row":"Sub",
     "item":"Power+ Nectar",
     "quantity":1,
-    "percent":"4%"
+    "percent":4
   }
 ]

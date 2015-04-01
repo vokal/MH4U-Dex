@@ -23,6 +23,8 @@
 /* Begin PBXBuildFile section */
 		20514D7268633862E5A60D2F /* libPods-MH4U Dex UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7E15606111F496073DDB2D /* libPods-MH4U Dex UITests.a */; };
 		49F47D237297F3247242BECB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EB6B9A1DC54B606E11EEE77 /* libPods.a */; };
+		E40D07201ACAFA19001B8E04 /* _Drop.m in Sources */ = {isa = PBXBuildFile; fileRef = E40D071F1ACAFA19001B8E04 /* _Drop.m */; };
+		E40D07231ACAFA27001B8E04 /* Drop.m in Sources */ = {isa = PBXBuildFile; fileRef = E40D07221ACAFA27001B8E04 /* Drop.m */; };
 		E41C4D1A1A8BBBCB00A2D0CB /* damageZones.json in Resources */ = {isa = PBXBuildFile; fileRef = E41C4D191A8BBBCB00A2D0CB /* damageZones.json */; };
 		E41C4D1C1A8BBF5E00A2D0CB /* monsters.json in Resources */ = {isa = PBXBuildFile; fileRef = E41C4D1B1A8BBF5E00A2D0CB /* monsters.json */; };
 		E42DDC8B1A83FD140016596C /* MH4U_Dex.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E42DDC891A83FD140016596C /* MH4U_Dex.xcdatamodeld */; };
@@ -61,8 +63,8 @@
 		E471BE211A9671690076CBD7 /* ItemEncyclopediaTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E471BE201A9671690076CBD7 /* ItemEncyclopediaTableViewController.m */; };
 		E471BE241A9672A80076CBD7 /* ItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E471BE231A9672A80076CBD7 /* ItemTableViewCell.m */; };
 		E471BE271A9677E30076CBD7 /* ItemContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E471BE261A9677E30076CBD7 /* ItemContainerViewController.m */; };
-		E471BE2A1A9679270076CBD7 /* ItemMonsterSourcesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E471BE291A9679270076CBD7 /* ItemMonsterSourcesTableViewController.m */; };
-		E471BE2D1A96798F0076CBD7 /* ItemMonsterSourceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E471BE2C1A96798F0076CBD7 /* ItemMonsterSourceTableViewCell.m */; };
+		E471BE2A1A9679270076CBD7 /* ItemSourcesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E471BE291A9679270076CBD7 /* ItemSourcesTableViewController.m */; };
+		E471BE2D1A96798F0076CBD7 /* ItemSourceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E471BE2C1A96798F0076CBD7 /* ItemSourceTableViewCell.m */; };
 		E471BE2F1A979DAC0076CBD7 /* ancestral_steppe_drops.json in Resources */ = {isa = PBXBuildFile; fileRef = E471BE2E1A979DAC0076CBD7 /* ancestral_steppe_drops.json */; };
 		E471BE321A979DF40076CBD7 /* regions.json in Resources */ = {isa = PBXBuildFile; fileRef = E471BE311A979DF40076CBD7 /* regions.json */; };
 		E471BE351A979F060076CBD7 /* RegionEncyclopediaCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E471BE341A979F060076CBD7 /* RegionEncyclopediaCollectionViewCell.m */; };
@@ -96,8 +98,6 @@
 		E4CE45C61A97A8DA0059C056 /* _AreaDrop.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CE45C51A97A8DA0059C056 /* _AreaDrop.m */; };
 		E4CE45C91A97A8E70059C056 /* AreaDrop.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CE45C81A97A8E70059C056 /* AreaDrop.m */; };
 		E4CE45CC1A97A8F50059C056 /* MonsterDrop.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CE45CB1A97A8F50059C056 /* MonsterDrop.m */; };
-		E4CE45CF1A97BB930059C056 /* ItemAreaSourcesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CE45CE1A97BB930059C056 /* ItemAreaSourcesTableViewController.m */; };
-		E4CE45D21A97BCC70059C056 /* ItemAreaSourceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CE45D11A97BCC70059C056 /* ItemAreaSourceTableViewCell.m */; };
 		E4CE45D41A97E03A0059C056 /* sunken_hollow_drops.json in Resources */ = {isa = PBXBuildFile; fileRef = E4CE45D31A97E03A0059C056 /* sunken_hollow_drops.json */; };
 		E4CE45D61A97E34D0059C056 /* primal_forest_drops.json in Resources */ = {isa = PBXBuildFile; fileRef = E4CE45D51A97E34D0059C056 /* primal_forest_drops.json */; };
 		E4CE45D81A97E6F80059C056 /* frozen_seaway_drops.json in Resources */ = {isa = PBXBuildFile; fileRef = E4CE45D71A97E6F80059C056 /* frozen_seaway_drops.json */; };
@@ -140,6 +140,10 @@
 		1638F37B8AA7A9C5B77F805A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		7EB6B9A1DC54B606E11EEE77 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC7E15606111F496073DDB2D /* libPods-MH4U Dex UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MH4U Dex UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E40D071E1ACAFA19001B8E04 /* _Drop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Drop.h; sourceTree = "<group>"; };
+		E40D071F1ACAFA19001B8E04 /* _Drop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Drop.m; sourceTree = "<group>"; };
+		E40D07211ACAFA27001B8E04 /* Drop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drop.h; sourceTree = "<group>"; };
+		E40D07221ACAFA27001B8E04 /* Drop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Drop.m; sourceTree = "<group>"; };
 		E41C4D191A8BBBCB00A2D0CB /* damageZones.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = damageZones.json; sourceTree = "<group>"; };
 		E41C4D1B1A8BBF5E00A2D0CB /* monsters.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = monsters.json; sourceTree = "<group>"; };
 		E42DDC8A1A83FD140016596C /* MH4U_Dex.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MH4U_Dex.xcdatamodel; sourceTree = "<group>"; };
@@ -212,10 +216,10 @@
 		E471BE231A9672A80076CBD7 /* ItemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemTableViewCell.m; sourceTree = "<group>"; };
 		E471BE251A9677E30076CBD7 /* ItemContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemContainerViewController.h; sourceTree = "<group>"; };
 		E471BE261A9677E30076CBD7 /* ItemContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemContainerViewController.m; sourceTree = "<group>"; };
-		E471BE281A9679270076CBD7 /* ItemMonsterSourcesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemMonsterSourcesTableViewController.h; sourceTree = "<group>"; };
-		E471BE291A9679270076CBD7 /* ItemMonsterSourcesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemMonsterSourcesTableViewController.m; sourceTree = "<group>"; };
-		E471BE2B1A96798F0076CBD7 /* ItemMonsterSourceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemMonsterSourceTableViewCell.h; sourceTree = "<group>"; };
-		E471BE2C1A96798F0076CBD7 /* ItemMonsterSourceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemMonsterSourceTableViewCell.m; sourceTree = "<group>"; };
+		E471BE281A9679270076CBD7 /* ItemSourcesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemSourcesTableViewController.h; sourceTree = "<group>"; };
+		E471BE291A9679270076CBD7 /* ItemSourcesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemSourcesTableViewController.m; sourceTree = "<group>"; };
+		E471BE2B1A96798F0076CBD7 /* ItemSourceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemSourceTableViewCell.h; sourceTree = "<group>"; };
+		E471BE2C1A96798F0076CBD7 /* ItemSourceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemSourceTableViewCell.m; sourceTree = "<group>"; };
 		E471BE2E1A979DAC0076CBD7 /* ancestral_steppe_drops.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ancestral_steppe_drops.json; sourceTree = "<group>"; };
 		E471BE311A979DF40076CBD7 /* regions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = regions.json; sourceTree = "<group>"; };
 		E471BE331A979F060076CBD7 /* RegionEncyclopediaCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionEncyclopediaCollectionViewCell.h; sourceTree = "<group>"; };
@@ -268,10 +272,6 @@
 		E4CE45C81A97A8E70059C056 /* AreaDrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AreaDrop.m; sourceTree = "<group>"; };
 		E4CE45CA1A97A8F50059C056 /* MonsterDrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonsterDrop.h; sourceTree = "<group>"; };
 		E4CE45CB1A97A8F50059C056 /* MonsterDrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonsterDrop.m; sourceTree = "<group>"; };
-		E4CE45CD1A97BB930059C056 /* ItemAreaSourcesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemAreaSourcesTableViewController.h; sourceTree = "<group>"; };
-		E4CE45CE1A97BB930059C056 /* ItemAreaSourcesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemAreaSourcesTableViewController.m; sourceTree = "<group>"; };
-		E4CE45D01A97BCC70059C056 /* ItemAreaSourceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemAreaSourceTableViewCell.h; sourceTree = "<group>"; };
-		E4CE45D11A97BCC70059C056 /* ItemAreaSourceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemAreaSourceTableViewCell.m; sourceTree = "<group>"; };
 		E4CE45D31A97E03A0059C056 /* sunken_hollow_drops.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sunken_hollow_drops.json; sourceTree = "<group>"; };
 		E4CE45D51A97E34D0059C056 /* primal_forest_drops.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = primal_forest_drops.json; sourceTree = "<group>"; };
 		E4CE45D71A97E6F80059C056 /* frozen_seaway_drops.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = frozen_seaway_drops.json; sourceTree = "<group>"; };
@@ -359,6 +359,8 @@
 				E4456EB21A89663900FCC7DC /* _DamageZone.m */,
 				E434F3471A83F5CA004C10BF /* _Decoration.h */,
 				E434F3481A83F5CA004C10BF /* _Decoration.m */,
+				E40D071E1ACAFA19001B8E04 /* _Drop.h */,
+				E40D071F1ACAFA19001B8E04 /* _Drop.m */,
 				E434F3491A83F5CA004C10BF /* _Item.h */,
 				E434F34A1A83F5CA004C10BF /* _Item.m */,
 				E434F34B1A83F5CA004C10BF /* _Monster.h */,
@@ -399,6 +401,8 @@
 				E4456EB51A89664F00FCC7DC /* DamageZone.m */,
 				E434F35E1A83F5CA004C10BF /* Decoration.h */,
 				E434F35F1A83F5CA004C10BF /* Decoration.m */,
+				E40D07211ACAFA27001B8E04 /* Drop.h */,
+				E40D07221ACAFA27001B8E04 /* Drop.m */,
 				E434F3601A83F5CA004C10BF /* Item.h */,
 				E434F3611A83F5CA004C10BF /* Item.m */,
 				E434F3621A83F5CA004C10BF /* Monster.h */,
@@ -429,10 +433,8 @@
 				E471BE201A9671690076CBD7 /* ItemEncyclopediaTableViewController.m */,
 				E471BE251A9677E30076CBD7 /* ItemContainerViewController.h */,
 				E471BE261A9677E30076CBD7 /* ItemContainerViewController.m */,
-				E471BE281A9679270076CBD7 /* ItemMonsterSourcesTableViewController.h */,
-				E471BE291A9679270076CBD7 /* ItemMonsterSourcesTableViewController.m */,
-				E4CE45CD1A97BB930059C056 /* ItemAreaSourcesTableViewController.h */,
-				E4CE45CE1A97BB930059C056 /* ItemAreaSourcesTableViewController.m */,
+				E471BE281A9679270076CBD7 /* ItemSourcesTableViewController.h */,
+				E471BE291A9679270076CBD7 /* ItemSourcesTableViewController.m */,
 			);
 			name = Item;
 			sourceTree = "<group>";
@@ -588,10 +590,8 @@
 				E4456EAF1A895DBF00FCC7DC /* DamageZoneCell.m */,
 				E471BE1B1A96620E0076CBD7 /* DropTableViewCell.h */,
 				E471BE1C1A96620E0076CBD7 /* DropTableViewCell.m */,
-				E4CE45D01A97BCC70059C056 /* ItemAreaSourceTableViewCell.h */,
-				E4CE45D11A97BCC70059C056 /* ItemAreaSourceTableViewCell.m */,
-				E471BE2B1A96798F0076CBD7 /* ItemMonsterSourceTableViewCell.h */,
-				E471BE2C1A96798F0076CBD7 /* ItemMonsterSourceTableViewCell.m */,
+				E471BE2B1A96798F0076CBD7 /* ItemSourceTableViewCell.h */,
+				E471BE2C1A96798F0076CBD7 /* ItemSourceTableViewCell.m */,
 				E471BE221A9672A80076CBD7 /* ItemTableViewCell.h */,
 				E471BE231A9672A80076CBD7 /* ItemTableViewCell.m */,
 				E4A769901A8521B100AC93DA /* MonsterEncyclopediaCell.h */,
@@ -943,6 +943,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E40D07231ACAFA27001B8E04 /* Drop.m in Sources */,
 				E4A769921A8521B100AC93DA /* MonsterEncyclopediaCell.m in Sources */,
 				E4DAD2311AB7813C0048DACA /* QuestListTableViewController.m in Sources */,
 				E45E9A8E1A890CC400D75592 /* MonsterContainerViewController.m in Sources */,
@@ -965,14 +966,14 @@
 				E499580E1A83D28E00799BBE /* HomeViewController.m in Sources */,
 				E46BBBA31AAA483100068F02 /* RegionContainerViewController.m in Sources */,
 				E4CE45CC1A97A8F50059C056 /* MonsterDrop.m in Sources */,
+				E40D07201ACAFA19001B8E04 /* _Drop.m in Sources */,
 				E434F3761A83F5CA004C10BF /* _Skilltree.m in Sources */,
-				E4CE45CF1A97BB930059C056 /* ItemAreaSourcesTableViewController.m in Sources */,
 				E471BE391A979F4C0076CBD7 /* RegionEncyclopediaCollectionViewController.m in Sources */,
 				E4D95EE51AC3536D001E7100 /* MonsterEncyclopediaHeader.m in Sources */,
 				E471BE241A9672A80076CBD7 /* ItemTableViewCell.m in Sources */,
 				E4456EB61A89664F00FCC7DC /* DamageZone.m in Sources */,
 				E434F37F1A83F5CA004C10BF /* Quest.m in Sources */,
-				E471BE2D1A96798F0076CBD7 /* ItemMonsterSourceTableViewCell.m in Sources */,
+				E471BE2D1A96798F0076CBD7 /* ItemSourceTableViewCell.m in Sources */,
 				E4E1CA701A8543A000043E9E /* CoreDataController.m in Sources */,
 				E434F37B1A83F5CA004C10BF /* Combination.m in Sources */,
 				E46BBBA61AAA4CEE00068F02 /* RegionItemTableViewController.m in Sources */,
@@ -982,7 +983,6 @@
 				E434F3721A83F5CA004C10BF /* _Item.m in Sources */,
 				E42DDC8B1A83FD140016596C /* MH4U_Dex.xcdatamodeld in Sources */,
 				E4E0F5091ABA15AA008ADDEF /* Constants.m in Sources */,
-				E4CE45D21A97BCC70059C056 /* ItemAreaSourceTableViewCell.m in Sources */,
 				E4CE45C31A97A8D30059C056 /* _MonsterDrop.m in Sources */,
 				E434F3781A83F5CA004C10BF /* _Weapon.m in Sources */,
 				E45E9A911A890ED300D75592 /* MonsterItemTableViewController.m in Sources */,
@@ -993,7 +993,7 @@
 				E471BE211A9671690076CBD7 /* ItemEncyclopediaTableViewController.m in Sources */,
 				E434F3771A83F5CA004C10BF /* _Trade.m in Sources */,
 				E434F3741A83F5CA004C10BF /* _Quest.m in Sources */,
-				E471BE2A1A9679270076CBD7 /* ItemMonsterSourcesTableViewController.m in Sources */,
+				E471BE2A1A9679270076CBD7 /* ItemSourcesTableViewController.m in Sources */,
 				E4DAD2231AB734CE0048DACA /* QuestDrop.m in Sources */,
 				E4DAD2261AB734DF0048DACA /* _QuestDrop.m in Sources */,
 				E434F37E1A83F5CA004C10BF /* Monster.m in Sources */,

@@ -1,5 +1,5 @@
 //
-//  ItemMonsterSourcesTableViewController.h
+//  ItemSourcesTableViewController.h
 //  MH4U Dex
 //
 //  Created by Joseph Goldberg on 2/19/15.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ItemMonsterSourcesTableViewController : UITableViewController
+@interface ItemSourcesTableViewController : UITableViewController
 
 @property (nonatomic, strong) NSString *itemName;
+@property (nonatomic, assign) BOOL isMonsterSource;
 
 @end
