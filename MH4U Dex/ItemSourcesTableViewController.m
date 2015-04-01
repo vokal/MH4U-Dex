@@ -38,36 +38,21 @@
     [super viewDidLoad];
     
     NSManagedObjectContext *managedObjectContext = [CoreDataController sharedCDController].managedObjectContext;
-    NSError *fetchError = nil;
+    NSError *fetchError;
     NSFetchRequest *itemFetchRequest = [[NSFetchRequest alloc] initWithEntityName:[Item entityName]];
     itemFetchRequest.predicate = [NSPredicate predicateWithFormat:@"%K == %@", ItemAttributes.name, self.itemName];
     Item *item = (Item *)[managedObjectContext executeFetchRequest:itemFetchRequest error:&fetchError].firstObject;
-    NSFetchRequest *fetchRequest;
     if (self.isMonsterSource) {
-        fetchRequest = [[NSFetchRequest alloc] initWithEntityName:[MonsterDrop entityName]];
-        fetchRequest.predicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterDropRelationships.item, item];
-        fetchRequest.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:MonsterDropAttributes.id ascending:YES]];
+        self.sources = [item.monsterSource sortedArrayUsingDescriptors:@[[NSSortDescriptor sortDescriptorWithKey:MonsterDropAttributes.id ascending:YES]]];
         self.tableView.accessibilityIdentifier = MHDItemMonsterSources;
     } else {
-        fetchRequest = [[NSFetchRequest alloc] initWithEntityName:[AreaDrop entityName]];
-        fetchRequest.predicate = [NSPredicate predicateWithFormat:@"%K == %@", AreaDropRelationships.item, item];
-        fetchRequest.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:AreaDropAttributes.idDecimalString ascending:YES]];
-        self.tableView.accessibilityHint = MHDItemAreaSources;
+        self.sources = [item.areaSource sortedArrayUsingDescriptors:@[[NSSortDescriptor sortDescriptorWithKey:AreaDropAttributes.idDecimalString ascending:YES]]];
+        self.tableView.accessibilityIdentifier = MHDItemAreaSources;
     }
-    self.sources = [managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];
-    // If the fetch failed (most likely because the item cannot be found from any monsters/areas) ...
+    // If the item cannot be found from any monsters/areas ...
     if (!self.sources) {
         // Set sources to empty.
         self.sources = @[];
-    }
-    if (self.sources.count) {
-        // The tableHeaderView is only used to display a message if there are no contents in the tableView.
-        self.tableView.tableHeaderView = nil;
-    } else {
-        // This is a bit of a hacky way to make it appear as if there is no tableView.
-        self.tableView.backgroundColor = self.tableView.tableHeaderView.backgroundColor;
-        self.tableView.scrollEnabled = NO;
-        self.tableView.separatorColor = [UIColor clearColor];
     }
 }
 
@@ -75,26 +60,18 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    if (self.sources.count) {
-        return 1;
-    } else {
-        return 0;
-    }
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    if (self.sources.count) {
-        return self.sources.count;
-    } else {
-        return 0;
-    }
+    return self.sources.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     ItemSourceTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([ItemSourceTableViewCell class])];
-    [cell displayContentsWithDrop:self.sources[indexPath.row]];
+    [cell displayContentsWithDrop:[self dropAtIndexPath:indexPath]];
     return cell;
 }
 
