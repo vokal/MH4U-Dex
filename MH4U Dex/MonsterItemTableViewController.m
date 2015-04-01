@@ -10,6 +10,8 @@
 
 #import <CoreData/CoreData.h>
 
+#import "UITableViewController+HeaderFooterChanger.h"
+
 #import "Constants.h"
 #import "CoreDataController.h"
 #import "Strings.h"
@@ -48,12 +50,7 @@
     self.drops = [managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];
     self.tableView.accessibilityIdentifier = MHDMonsterDropsTable;
     
-    if (self.drops.count) {
-        // The tableHeaderView is only used to display a message if there are no contents in the tableView.
-        self.tableView.tableHeaderView = nil;
-    } else {
-       self.tableView.tableFooterView = [UIView new];
-    }
+    [self mhd_changeHeaderFooterForArray:self.drops];
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender

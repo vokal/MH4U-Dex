@@ -56,6 +56,7 @@
 		E4456EB61A89664F00FCC7DC /* DamageZone.m in Sources */ = {isa = PBXBuildFile; fileRef = E4456EB51A89664F00FCC7DC /* DamageZone.m */; };
 		E45E9A8E1A890CC400D75592 /* MonsterContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E45E9A8D1A890CC400D75592 /* MonsterContainerViewController.m */; };
 		E45E9A911A890ED300D75592 /* MonsterItemTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E45E9A901A890ED300D75592 /* MonsterItemTableViewController.m */; };
+		E45F51A61ACC648E00C65741 /* UITableViewController+HeaderFooterChanger.m in Sources */ = {isa = PBXBuildFile; fileRef = E45F51A51ACC648E00C65741 /* UITableViewController+HeaderFooterChanger.m */; };
 		E46BBBA31AAA483100068F02 /* RegionContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E46BBBA21AAA483000068F02 /* RegionContainerViewController.m */; };
 		E46BBBA61AAA4CEE00068F02 /* RegionItemTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E46BBBA51AAA4CEE00068F02 /* RegionItemTableViewController.m */; };
 		E471BE1A1A96456F0076CBD7 /* monsterDrops.json in Resources */ = {isa = PBXBuildFile; fileRef = E471BE191A96456F0076CBD7 /* monsterDrops.json */; };
@@ -203,6 +204,8 @@
 		E45E9A8D1A890CC400D75592 /* MonsterContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonsterContainerViewController.m; sourceTree = "<group>"; };
 		E45E9A8F1A890ED300D75592 /* MonsterItemTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonsterItemTableViewController.h; sourceTree = "<group>"; };
 		E45E9A901A890ED300D75592 /* MonsterItemTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonsterItemTableViewController.m; sourceTree = "<group>"; };
+		E45F51A41ACC648E00C65741 /* UITableViewController+HeaderFooterChanger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewController+HeaderFooterChanger.h"; sourceTree = "<group>"; };
+		E45F51A51ACC648E00C65741 /* UITableViewController+HeaderFooterChanger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewController+HeaderFooterChanger.m"; sourceTree = "<group>"; };
 		E46BBBA11AAA483000068F02 /* RegionContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionContainerViewController.h; sourceTree = "<group>"; };
 		E46BBBA21AAA483000068F02 /* RegionContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegionContainerViewController.m; sourceTree = "<group>"; };
 		E46BBBA41AAA4CEE00068F02 /* RegionItemTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionItemTableViewController.h; sourceTree = "<group>"; };
@@ -533,6 +536,8 @@
 				E49958041A83D28E00799BBE /* main.m */,
 				E4B4938C1ABC72F700B29B18 /* Strings.h */,
 				E4B4938D1ABC72F700B29B18 /* Strings.m */,
+				E45F51A41ACC648E00C65741 /* UITableViewController+HeaderFooterChanger.h */,
+				E45F51A51ACC648E00C65741 /* UITableViewController+HeaderFooterChanger.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -956,6 +961,7 @@
 				E4456EB31A89663900FCC7DC /* _DamageZone.m in Sources */,
 				E49958081A83D28E00799BBE /* AppDelegate.m in Sources */,
 				E434F3731A83F5CA004C10BF /* _Monster.m in Sources */,
+				E45F51A61ACC648E00C65741 /* UITableViewController+HeaderFooterChanger.m in Sources */,
 				E434F3791A83F5CA004C10BF /* Armor.m in Sources */,
 				E4DAD22E1AB77F8B0048DACA /* QuestEncyclopediaContainerViewController.m in Sources */,
 				E434F36F1A83F5CA004C10BF /* _ArmorSet.m in Sources */,
