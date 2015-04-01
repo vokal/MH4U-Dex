@@ -8,9 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class Item;
+
 @interface ItemSourcesTableViewController : UITableViewController
 
-@property (nonatomic, strong) NSString *itemName;
+@property (nonatomic, strong) Item *item;
 @property (nonatomic, assign) BOOL isMonsterSource;
 
 @end

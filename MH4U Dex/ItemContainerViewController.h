@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class Item;
+
 @interface ItemContainerViewController : UIViewController
 
-@property (nonatomic, strong) NSString *itemName;
+@property (nonatomic, strong) Item *item;
 
 @end

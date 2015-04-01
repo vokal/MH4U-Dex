@@ -54,10 +54,7 @@
         // The tableHeaderView is only used to display a message if there are no contents in the tableView.
         self.tableView.tableHeaderView = nil;
     } else {
-        // This is a bit of a hacky way to make it appear as if there is no tableView.
-        self.tableView.backgroundColor = self.tableView.tableHeaderView.backgroundColor;
-        self.tableView.scrollEnabled = NO;
-        self.tableView.separatorColor = [UIColor clearColor];
+        self.tableView.tableFooterView = [UIView new];
     }
 }
 
@@ -103,7 +100,7 @@
 {
     UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     ItemContainerViewController *itemVC = [storyBoard instantiateViewControllerWithIdentifier:@"ItemContainerViewController"];
-    itemVC.itemName = [self areaDropForIndexPath:indexPath].item.name;
+    itemVC.item = [self areaDropForIndexPath:indexPath].item;
     [self.navigationController pushViewController:itemVC animated:YES];
 }
 

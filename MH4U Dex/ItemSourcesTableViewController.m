@@ -36,17 +36,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-    NSManagedObjectContext *managedObjectContext = [CoreDataController sharedCDController].managedObjectContext;
-    NSError *fetchError;
-    NSFetchRequest *itemFetchRequest = [[NSFetchRequest alloc] initWithEntityName:[Item entityName]];
-    itemFetchRequest.predicate = [NSPredicate predicateWithFormat:@"%K == %@", ItemAttributes.name, self.itemName];
-    Item *item = (Item *)[managedObjectContext executeFetchRequest:itemFetchRequest error:&fetchError].firstObject;
+
     if (self.isMonsterSource) {
-        self.sources = [item.monsterSource sortedArrayUsingDescriptors:@[[NSSortDescriptor sortDescriptorWithKey:MonsterDropAttributes.id ascending:YES]]];
+        self.sources = [self.item.monsterSource sortedArrayUsingDescriptors:@[[NSSortDescriptor sortDescriptorWithKey:MonsterDropAttributes.id ascending:YES]]];
         self.tableView.accessibilityIdentifier = MHDItemMonsterSources;
     } else {
-        self.sources = [item.areaSource sortedArrayUsingDescriptors:@[[NSSortDescriptor sortDescriptorWithKey:AreaDropAttributes.idDecimalString ascending:YES]]];
+        self.sources = [self.item.areaSource sortedArrayUsingDescriptors:@[[NSSortDescriptor sortDescriptorWithKey:AreaDropAttributes.idDecimalString ascending:YES]]];
         self.tableView.accessibilityIdentifier = MHDItemAreaSources;
     }
     // If the item cannot be found from any monsters/areas ...
@@ -58,10 +53,7 @@
         // The tableHeaderView is only used to display a message if there are no contents in the tableView.
         self.tableView.tableHeaderView = nil;
     } else {
-        // This is a bit of a hacky way to make it appear as if there is no tableView.
-        self.tableView.backgroundColor = self.tableView.tableHeaderView.backgroundColor;
-        self.tableView.scrollEnabled = NO;
-        self.tableView.separatorColor = [UIColor clearColor];
+        self.tableView.tableFooterView = [UIView new];
     }
 }
 

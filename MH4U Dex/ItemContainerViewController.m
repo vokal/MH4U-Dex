@@ -10,6 +10,8 @@
 
 #import "ItemSourcesTableViewController.h"
 
+#import "Item.h"
+
 typedef NS_ENUM(NSInteger, ItemSegmentedControlPage) {
     MonsterSources = 0,
     AreaSources = 1,
@@ -31,8 +33,8 @@ typedef NS_ENUM(NSInteger, ItemSegmentedControlPage) {
 {
     [super viewDidLoad];
     self.areaSourceSubView.hidden = YES;
-    self.navigationItem.title = [NSString stringWithFormat:@"%@ Drop Sources", self.itemName];
-    self.itemNameLabel.text = self.itemName;
+    self.navigationItem.title = [NSString stringWithFormat:@"%@ Drop Sources", self.item.name];
+    self.itemNameLabel.text = self.item.name;
 }
 
 - (IBAction)segmentedControlChanged:(UISegmentedControl *)segmentedControl
@@ -56,11 +58,11 @@ typedef NS_ENUM(NSInteger, ItemSegmentedControlPage) {
     if ([segue.identifier isEqualToString:@"embedMonsterSources"]) {
         ItemSourcesTableViewController *dropVC = (ItemSourcesTableViewController *)segue.destinationViewController;
         dropVC.isMonsterSource = YES;
-        dropVC.itemName = self.itemName;
+        dropVC.item = self.item;
     } else if ([segue.identifier isEqualToString:@"embedAreaSources"]) {
         ItemSourcesTableViewController *dropVC = (ItemSourcesTableViewController *)segue.destinationViewController;
         dropVC.isMonsterSource = NO;
-        dropVC.itemName = self.itemName;
+        dropVC.item = self.item;
     }
 }
 
