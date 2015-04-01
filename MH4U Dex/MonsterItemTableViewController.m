@@ -10,6 +10,8 @@
 
 #import <CoreData/CoreData.h>
 
+#import "UITableViewController+HeaderFooterChanger.h"
+
 #import "Constants.h"
 #import "CoreDataController.h"
 #import "Strings.h"
@@ -47,6 +49,8 @@
     
     self.drops = [managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];
     self.tableView.accessibilityIdentifier = MHDMonsterDropsTable;
+    
+    [self mhd_changeHeaderFooterForArray:self.drops];
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
@@ -79,8 +83,7 @@
     UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     ItemContainerViewController *itemVC = [storyBoard instantiateViewControllerWithIdentifier:@"ItemContainerViewController"];
     MonsterDrop *drop = self.drops[indexPath.row];
-    Item *item = [drop valueForKey:MonsterDropRelationships.item];
-    itemVC.itemName = item.name;
+    itemVC.item = [drop valueForKey:MonsterDropRelationships.item];
     [self.navigationController pushViewController:itemVC animated:YES];
 }
 

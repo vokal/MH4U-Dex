@@ -10,6 +10,8 @@
 
 #import <CoreData/CoreData.h>
 
+#import "UITableViewController+HeaderFooterChanger.h"
+
 #import "Constants.h"
 #import "CoreDataController.h"
 
@@ -36,17 +38,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-    NSManagedObjectContext *managedObjectContext = [CoreDataController sharedCDController].managedObjectContext;
-    NSError *fetchError;
-    NSFetchRequest *itemFetchRequest = [[NSFetchRequest alloc] initWithEntityName:[Item entityName]];
-    itemFetchRequest.predicate = [NSPredicate predicateWithFormat:@"%K == %@", ItemAttributes.name, self.itemName];
-    Item *item = (Item *)[managedObjectContext executeFetchRequest:itemFetchRequest error:&fetchError].firstObject;
+
     if (self.isMonsterSource) {
-        self.sources = [item.monsterSource sortedArrayUsingDescriptors:@[[NSSortDescriptor sortDescriptorWithKey:MonsterDropAttributes.id ascending:YES]]];
+        self.sources = [self.item.monsterSource sortedArrayUsingDescriptors:@[[NSSortDescriptor sortDescriptorWithKey:MonsterDropAttributes.id ascending:YES]]];
         self.tableView.accessibilityIdentifier = MHDItemMonsterSources;
     } else {
-        self.sources = [item.areaSource sortedArrayUsingDescriptors:@[[NSSortDescriptor sortDescriptorWithKey:AreaDropAttributes.idDecimalString ascending:YES]]];
+        self.sources = [self.item.areaSource sortedArrayUsingDescriptors:@[[NSSortDescriptor sortDescriptorWithKey:AreaDropAttributes.idDecimalString ascending:YES]]];
         self.tableView.accessibilityIdentifier = MHDItemAreaSources;
     }
     // If the item cannot be found from any monsters/areas ...
@@ -54,6 +51,7 @@
         // Set sources to empty.
         self.sources = @[];
     }
+    [self mhd_changeHeaderFooterForArray:self.sources];
 }
 
 #pragma mark - Table view data source

@@ -10,6 +10,8 @@
 
 #import <CoreData/CoreData.h>
 
+#import "UITableViewController+HeaderFooterChanger.h"
+
 #import "Constants.h"
 #import "CoreDataController.h"
 
@@ -50,6 +52,7 @@
         self.areaDropsDict[area.combinedName] = dropsArray;
     }
     self.tableView.accessibilityIdentifier = MHDAreaDropsTable;
+    [self  mhd_changeHeaderFooterForArray:self.areaArray];
 }
 
 #pragma mark - Helper Methods
@@ -94,7 +97,7 @@
 {
     UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     ItemContainerViewController *itemVC = [storyBoard instantiateViewControllerWithIdentifier:@"ItemContainerViewController"];
-    itemVC.itemName = [self areaDropForIndexPath:indexPath].item.name;
+    itemVC.item = [self areaDropForIndexPath:indexPath].item;
     [self.navigationController pushViewController:itemVC animated:YES];
 }
 

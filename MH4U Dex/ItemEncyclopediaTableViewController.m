@@ -103,7 +103,7 @@
         ItemContainerViewController *itemVC = (ItemContainerViewController *)segue.destinationViewController;
         if ([sender isMemberOfClass:[ItemTableViewCell class]]) {
             ItemTableViewCell *cell = (ItemTableViewCell *)sender;
-            itemVC.itemName = [self itemAtIndexPath:[self.tableView indexPathForCell:cell]].name;
+            itemVC.item = [self itemAtIndexPath:[self.tableView indexPathForCell:cell]];
         }
     }
 }
