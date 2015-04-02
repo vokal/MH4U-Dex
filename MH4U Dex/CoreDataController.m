@@ -523,37 +523,33 @@ static NSString *const MonsterDropFilePrefix = @"monster_drops";
     }
     
     NSURL *storeURL = [self.applicationDocumentsDirectory URLByAppendingPathComponent:@"MH4U_DEX.sqlite"];
-    /*
-     Set up the store.
-     For the sake of illustration, provide a pre-populated default store.
-     */
     NSFileManager *fileManager = [NSFileManager defaultManager];
-    NSError *error;
+    
     // If the expected store doesn't exist, copy the default store.
     if (![fileManager fileExistsAtPath:storeURL.path]) {
-        // typically the main store name is 'appName.sqlite'
+        NSError *fileCopyError;
         NSURL *defaultStoreURL = [[NSBundle mainBundle] URLForResource:@"PREBUILT_STORE" withExtension:@"sqlite"];
         [fileManager copyItemAtURL:defaultStoreURL
                              toURL:storeURL
-                             error:&error];
-    }
-    if (error) {
-        //TODO: Consider debugging the error.
-        NSLog(@"Unresolved error %@", error);
+                             error:&fileCopyError];
+        if (fileCopyError) {
+            //TODO: Consider debugging the error.
+            NSLog(@"Unresolved error %@", fileCopyError);
+        }
     }
     NSDictionary *options = @{
                               NSMigratePersistentStoresAutomaticallyOption: @YES,
                               NSInferMappingModelAutomaticallyOption: @YES,
                               };
     _persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:self.managedObjectModel];
-    error = nil;
+    NSError *persistentStoreError = nil;
     if (![_persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType
                                                    configuration:nil
                                                              URL:storeURL
                                                          options:options
-                                                           error:&error]) {
+                                                           error:&persistentStoreError]) {
         //TODO: Handle error better.
-        NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
+        NSLog(@"Unresolved error %@, %@", persistentStoreError, [persistentStoreError userInfo]);
         abort();
     }
     
