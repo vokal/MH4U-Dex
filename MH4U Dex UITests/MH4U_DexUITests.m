@@ -14,7 +14,8 @@
 #import "Constants.h"
 #import "Strings.h"
 
-static NSString *const AdamantOrb = @"Adamant Orb";
+static NSString *const AKechaAuricle = @"A.Kecha Auricle";
+static NSString *const AncSteppe = @"Ancestral Steppe";
 static NSString *const AncSteppeLRItems = @"Ancestral Steppe Low-Rank Items";
 static NSString *const BlueMushroomDropSources = @"Blue Mushroom Drop Sources";
 static NSString *const BodyPart = @"Body Part";
@@ -33,7 +34,6 @@ static NSString *const MonsterName = @"MonsterName";
 static NSString *const Monsters = @"Monsters";
 static NSString *const RegionName = @"RegionName";
 static NSString *const Regions = @"Regions";
-static NSString *const SecretArea = @"Secret Area";
 static NSString *const ShinyDrops = @"Shiny Drops";
 static NSString *const SunkenHollow = @"Sunken Hollow";
 
@@ -55,11 +55,11 @@ static NSString *const SunkenHollow = @"Sunken Hollow";
 - (void)testItemAreaSource
 {
     [self navigateToItemEncyclopedia];
-    [tester waitForViewWithAccessibilityLabel:AdamantOrb];
+    [tester waitForViewWithAccessibilityLabel:AKechaAuricle];
     NSIndexPath *thirteenthRow = [NSIndexPath indexPathForRow:12 inSection:0];
     [tester tapRowAtIndexPath:thirteenthRow inTableViewWithAccessibilityIdentifier:MHDItemEncyclopediaTableIdentifier];
     [tester tapViewWithAccessibilityLabel:GatheringSources];
-    [tester waitForViewWithAccessibilityLabel:SecretArea];
+    [tester waitForViewWithAccessibilityLabel:AncSteppe];
     [tester tapRowAtIndexPath:thirteenthRow inTableViewWithAccessibilityIdentifier:MHDItemAreaSources];
     [tester waitForViewWithAccessibilityLabel:SunkenHollow];
     [tester tapViewWithAccessibilityLabel:HighRankItems];
