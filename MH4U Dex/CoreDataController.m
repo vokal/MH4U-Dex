@@ -55,20 +55,21 @@ static NSString *const MonsterDropFilePrefix = @"monster_drops";
     if ([[NSUserDefaults standardUserDefaults] boolForKey:NeedsReloadKey]) {
         NSLog(@"Resetting Core Data");
         [self resetCoreData];
-        NSLog(@"Core Data Reset. Loading Data.");
-        [self loadMonsterData];
-        NSLog(@"Monster data loaded.");
-        //TODO: Load Damage Zone Data.
-        [self loadMonsterDropData];
-        NSLog(@"Monster Drop data loaded.");
-        [self loadRegionData];
-        NSLog(@"Region data loaded.");
-        [self loadQuestData];
-        NSLog(@"Quest Data loaded.");
-        [self loadQuestDropData];
-        NSLog(@"Quest Drop Data loaded.");
-        [self saveContext];
-        NSLog(@"Core Data Context Saved.");
+        //TODO: Uncomment this when needed, when changing the model or adding new data.
+//        NSLog(@"Core Data Reset. Loading Data.");
+//        [self loadMonsterData];
+//        NSLog(@"Monster data loaded.");
+//        //TODO: Load Damage Zone Data.
+//        [self loadMonsterDropData];
+//        NSLog(@"Monster Drop data loaded.");
+//        [self loadRegionData];
+//        NSLog(@"Region data loaded.");
+//        [self loadQuestData];
+//        NSLog(@"Quest Data loaded.");
+//        [self loadQuestDropData];
+//        NSLog(@"Quest Drop Data loaded.");
+//        [self saveContext];
+//        NSLog(@"Core Data Context Saved.");
         [CoreDataController setShouldTriggerReloadUponRestart:NO];
     }
 }
@@ -517,29 +518,40 @@ static NSString *const MonsterDropFilePrefix = @"monster_drops";
 
 - (NSPersistentStoreCoordinator *)persistentStoreCoordinator
 {
-    // The persistent store coordinator for the application. This implementation creates and return a coordinator, having added the store for the application to it.
     if (_persistentStoreCoordinator != nil) {
         return _persistentStoreCoordinator;
     }
     
-    // Create the coordinator and store
+    NSURL *storeURL = [self.applicationDocumentsDirectory URLByAppendingPathComponent:@"MH4U_DEX.sqlite"];
+    NSFileManager *fileManager = [NSFileManager defaultManager];
     
-    _persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
-    NSURL *storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"MH4U_Dex.sqlite"];
-    NSError *error = nil;
-    NSString *failureReason = @"There was an error creating or loading the application's saved data.";
-    if (![_persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:storeURL options:nil error:&error]) {
-        // TODO: fix all of this later.
-        // Report any error we got.
-        NSDictionary *dict = @{
-                               NSLocalizedDescriptionKey: @"Failed to initialize the application's saved data",
-                               NSLocalizedFailureReasonErrorKey: failureReason,
-                               NSUnderlyingErrorKey: error,
-                               };
-        error = [NSError errorWithDomain:@"YOUR_ERROR_DOMAIN" code:9999 userInfo:dict];
-        // Replace this with code to handle the error appropriately.
-        // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
-        NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
+    // If the expected store doesn't exist, copy the default store.
+    if (![fileManager fileExistsAtPath:storeURL.path]) {
+        NSURL *defaultStoreURL = [[NSBundle mainBundle] URLForResource:@"PREBUILT_STORE" withExtension:@"sqlite"];
+        if (defaultStoreURL) {
+            NSError *fileCopyError;
+            if (![fileManager copyItemAtURL:defaultStoreURL
+                                      toURL:storeURL
+                                      error:&fileCopyError]) {
+                //TODO: Consider debugging the error.
+                NSLog(@"Unresolved error %@", fileCopyError);
+            }
+        }
+        
+    }
+    NSDictionary *options = @{
+                              NSMigratePersistentStoresAutomaticallyOption: @YES,
+                              NSInferMappingModelAutomaticallyOption: @YES,
+                              };
+    _persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:self.managedObjectModel];
+    NSError *persistentStoreError = nil;
+    if (![_persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType
+                                                   configuration:nil
+                                                             URL:storeURL
+                                                         options:options
+                                                           error:&persistentStoreError]) {
+        //TODO: Handle error better.
+        NSLog(@"Unresolved error %@, %@", persistentStoreError, [persistentStoreError userInfo]);
         abort();
     }
     
