@@ -530,10 +530,9 @@ static NSString *const MonsterDropFilePrefix = @"monster_drops";
         NSURL *defaultStoreURL = [[NSBundle mainBundle] URLForResource:@"PREBUILT_STORE" withExtension:@"sqlite"];
         if (defaultStoreURL) {
             NSError *fileCopyError;
-            [fileManager copyItemAtURL:defaultStoreURL
-                                 toURL:storeURL
-                                 error:&fileCopyError];
-            if (fileCopyError) {
+            if (![fileManager copyItemAtURL:defaultStoreURL
+                                      toURL:storeURL
+                                      error:&fileCopyError]) {
                 //TODO: Consider debugging the error.
                 NSLog(@"Unresolved error %@", fileCopyError);
             }
