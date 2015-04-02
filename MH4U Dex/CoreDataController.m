@@ -539,6 +539,7 @@ static NSString *const MonsterDropFilePrefix = @"monster_drops";
     }
     if (error) {
         //TODO: Consider debugging the error.
+        NSLog(@"Unresolved error %@", error);
     }
     NSDictionary *options = @{
                               NSMigratePersistentStoresAutomaticallyOption: @YES,
