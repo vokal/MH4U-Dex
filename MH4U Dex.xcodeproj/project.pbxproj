@@ -57,7 +57,7 @@
 		E45E9A8E1A890CC400D75592 /* MonsterContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E45E9A8D1A890CC400D75592 /* MonsterContainerViewController.m */; };
 		E45E9A911A890ED300D75592 /* MonsterItemTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E45E9A901A890ED300D75592 /* MonsterItemTableViewController.m */; };
 		E45F51A61ACC648E00C65741 /* UITableViewController+HeaderFooterChanger.m in Sources */ = {isa = PBXBuildFile; fileRef = E45F51A51ACC648E00C65741 /* UITableViewController+HeaderFooterChanger.m */; };
-		E45F51A81ACDA47200C65741 /* MH4U_DEX.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = E45F51A71ACDA00300C65741 /* MH4U_DEX.sqlite */; };
+		E45F51AE1ACDB14500C65741 /* PREBUILT_STORE.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = E45F51AD1ACDB14500C65741 /* PREBUILT_STORE.sqlite */; };
 		E46BBBA31AAA483100068F02 /* RegionContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E46BBBA21AAA483000068F02 /* RegionContainerViewController.m */; };
 		E46BBBA61AAA4CEE00068F02 /* RegionItemTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E46BBBA51AAA4CEE00068F02 /* RegionItemTableViewController.m */; };
 		E471BE1A1A96456F0076CBD7 /* monsterDrops.json in Resources */ = {isa = PBXBuildFile; fileRef = E471BE191A96456F0076CBD7 /* monsterDrops.json */; };
@@ -207,7 +207,7 @@
 		E45E9A901A890ED300D75592 /* MonsterItemTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonsterItemTableViewController.m; sourceTree = "<group>"; };
 		E45F51A41ACC648E00C65741 /* UITableViewController+HeaderFooterChanger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewController+HeaderFooterChanger.h"; sourceTree = "<group>"; };
 		E45F51A51ACC648E00C65741 /* UITableViewController+HeaderFooterChanger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewController+HeaderFooterChanger.m"; sourceTree = "<group>"; };
-		E45F51A71ACDA00300C65741 /* MH4U_DEX.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = MH4U_DEX.sqlite; sourceTree = "<group>"; };
+		E45F51AD1ACDB14500C65741 /* PREBUILT_STORE.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = PREBUILT_STORE.sqlite; sourceTree = "<group>"; };
 		E46BBBA11AAA483000068F02 /* RegionContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionContainerViewController.h; sourceTree = "<group>"; };
 		E46BBBA21AAA483000068F02 /* RegionContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegionContainerViewController.m; sourceTree = "<group>"; };
 		E46BBBA41AAA4CEE00068F02 /* RegionItemTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionItemTableViewController.h; sourceTree = "<group>"; };
@@ -532,7 +532,7 @@
 		E49958021A83D28E00799BBE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E45F51A71ACDA00300C65741 /* MH4U_DEX.sqlite */,
+				E45F51AD1ACDB14500C65741 /* PREBUILT_STORE.sqlite */,
 				E4E0F5071ABA15AA008ADDEF /* Constants.h */,
 				E4E0F5081ABA15AA008ADDEF /* Constants.m */,
 				E49958031A83D28E00799BBE /* Info.plist */,
@@ -810,7 +810,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E48A67831ABB7A8E00C5EE81 /* monster_drops10.json in Resources */,
-				E45F51A81ACDA47200C65741 /* MH4U_DEX.sqlite in Resources */,
 				E4CE45D61A97E34D0059C056 /* primal_forest_drops.json in Resources */,
 				E48A67851ABB7A8E00C5EE81 /* monster_drops8.json in Resources */,
 				E4CE45D41A97E03A0059C056 /* sunken_hollow_drops.json in Resources */,
@@ -826,6 +825,7 @@
 				E48A67841ABB7A8E00C5EE81 /* monster_drops9.json in Resources */,
 				E48A67861ABB7A8E00C5EE81 /* monster_drops7.json in Resources */,
 				E4DAD22A1AB772C50048DACA /* quest_drops.json in Resources */,
+				E45F51AE1ACDB14500C65741 /* PREBUILT_STORE.sqlite in Resources */,
 				E48A678D1ABB7A8E00C5EE81 /* monster_list.json in Resources */,
 				E471BE2F1A979DAC0076CBD7 /* ancestral_steppe_drops.json in Resources */,
 				E4DAD2281AB739050048DACA /* quests.json in Resources */,

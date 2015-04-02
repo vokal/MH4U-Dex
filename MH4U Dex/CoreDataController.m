@@ -522,7 +522,6 @@ static NSString *const MonsterDropFilePrefix = @"monster_drops";
     }
     
     NSURL *storeURL = [self.applicationDocumentsDirectory URLByAppendingPathComponent:@"MH4U_DEX.sqlite"];
-    NSLog(@"Core Data URL: %@", storeURL);
     /*
      Set up the store.
      For the sake of illustration, provide a pre-populated default store.
@@ -531,14 +530,11 @@ static NSString *const MonsterDropFilePrefix = @"monster_drops";
     // If the expected store doesn't exist, copy the default store.
     if (![fileManager fileExistsAtPath:storeURL.path]) {
         // typically the main store name is 'appName.sqlite'
-        NSURL *defaultStoreURL = [[NSBundle mainBundle] URLForResource:@"MH4U_DEX" withExtension:@"sqlite"];
+        NSURL *defaultStoreURL = [[NSBundle mainBundle] URLForResource:@"PREBUILT_STORE" withExtension:@"sqlite"];
         if (defaultStoreURL) {
-            
-            
             [fileManager copyItemAtURL:defaultStoreURL
                                  toURL:storeURL
                                  error:NULL];
-            NSUInteger foo;
         }
     }
     NSDictionary *options = @{
@@ -546,7 +542,6 @@ static NSString *const MonsterDropFilePrefix = @"monster_drops";
                               NSInferMappingModelAutomaticallyOption: @YES,
                               };
     _persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:self.managedObjectModel];
-    
     NSError *error;
     if (![_persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType
                                                    configuration:nil
