@@ -527,15 +527,18 @@ static NSString *const MonsterDropFilePrefix = @"monster_drops";
     
     // If the expected store doesn't exist, copy the default store.
     if (![fileManager fileExistsAtPath:storeURL.path]) {
-        NSError *fileCopyError;
         NSURL *defaultStoreURL = [[NSBundle mainBundle] URLForResource:@"PREBUILT_STORE" withExtension:@"sqlite"];
-        [fileManager copyItemAtURL:defaultStoreURL
-                             toURL:storeURL
-                             error:&fileCopyError];
-        if (fileCopyError) {
-            //TODO: Consider debugging the error.
-            NSLog(@"Unresolved error %@", fileCopyError);
+        if (defaultStoreURL) {
+            NSError *fileCopyError;
+            [fileManager copyItemAtURL:defaultStoreURL
+                                 toURL:storeURL
+                                 error:&fileCopyError];
+            if (fileCopyError) {
+                //TODO: Consider debugging the error.
+                NSLog(@"Unresolved error %@", fileCopyError);
+            }
         }
+        
     }
     NSDictionary *options = @{
                               NSMigratePersistentStoresAutomaticallyOption: @YES,
