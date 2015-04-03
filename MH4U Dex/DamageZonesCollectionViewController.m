@@ -17,12 +17,7 @@
 
 #import "DamageZoneCell.h"
 
-typedef NS_ENUM(NSInteger, DamageZoneSections) {
-    DamageZoneLegendSection = 0,
-    DamageZoneListSection = 1,
-    
-    DamageZoneSectionCount
-};
+static const NSUInteger NumberOfCategories = 10;
 
 @interface DamageZonesCollectionViewController ()
 
@@ -36,45 +31,50 @@ typedef NS_ENUM(NSInteger, DamageZoneSections) {
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.flowLayout.itemSize = CGSizeMake(CGRectGetWidth(self.collectionView.bounds), 40.0f);
+
     self.damageZones = [self.monster.damageZone sortedArrayUsingDescriptors:@[[NSSortDescriptor
                                                                                sortDescriptorWithKey:DamageZoneAttributes.id
                                                                                ascending:YES]]];
+}
+
+- (void)viewWillLayoutSubviews
+{
+    CGFloat cellSize = CGRectGetWidth(self.collectionView.bounds);
+    cellSize -= self.flowLayout.minimumInteritemSpacing*4;
+    cellSize -= (self.flowLayout.sectionInset.left + self.flowLayout.sectionInset.right);
+    cellSize /= 5;
+    self.flowLayout.itemSize = CGSizeMake(cellSize, cellSize);
 }
 
 #pragma mark <UICollectionViewDataSource>
 
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView
 {
-    return DamageZoneSectionCount;
+    return 1;
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-    switch (section) {
-        case DamageZoneLegendSection:
-            return 1;
-        default:
-            return self.damageZones.count;
-    }
+    return (self.damageZones.count + 1) * NumberOfCategories;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     DamageZoneCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:NSStringFromClass([DamageZoneCell class]) forIndexPath:indexPath];
     DamageZone *damageZone;
+    if (indexPath.row < NumberOfCategories) {
+        [cell displayHeaderContentsAtIndexPath:indexPath];
+        return cell;
+    }
+    //Since we return, no need for an else block
+    
     if (self.damageZones.firstObject) {
         //TODO: Remove once guaranteed that every monster has at least one damage zone.
-        damageZone = (DamageZone *)self.damageZones[indexPath.row];
+        damageZone = (DamageZone *)self.damageZones[indexPath.row/NumberOfCategories - 1];
     }
-    switch (indexPath.section) {
-        case DamageZoneLegendSection:
-            // Don't do anything for the first cell.
-            break;
-        default:
-            // Change the cell's label
-            [cell displayContentsWithDamageZone:damageZone];
-    }
+    NSUInteger category = indexPath.row % NumberOfCategories;
+    
+    [cell displayContentsWithDamageZone:damageZone atCategory:category];
     return cell;
 }
 
