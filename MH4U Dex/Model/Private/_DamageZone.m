@@ -7,15 +7,11 @@ const struct DamageZoneAttributes DamageZoneAttributes = {
 	.bodyPart = @"bodyPart",
 	.cut = @"cut",
 	.dragon = @"dragon",
-	.extract = @"extract",
 	.fire = @"fire",
 	.ice = @"ice",
 	.id = @"id",
 	.impact = @"impact",
-	.jpnMonsterName = @"jpnMonsterName",
 	.ko = @"ko",
-	.monsterID = @"monsterID",
-	.monsterName = @"monsterName",
 	.shot = @"shot",
 	.thunder = @"thunder",
 	.water = @"water",
@@ -86,11 +82,6 @@ const struct DamageZoneRelationships DamageZoneRelationships = {
 		keyPaths = [keyPaths setByAddingObjectsFromSet:affectingKey];
 		return keyPaths;
 	}
-	if ([key isEqualToString:@"monsterIDValue"]) {
-		NSSet *affectingKey = [NSSet setWithObject:@"monsterID"];
-		keyPaths = [keyPaths setByAddingObjectsFromSet:affectingKey];
-		return keyPaths;
-	}
 	if ([key isEqualToString:@"shotValue"]) {
 		NSSet *affectingKey = [NSSet setWithObject:@"shot"];
 		keyPaths = [keyPaths setByAddingObjectsFromSet:affectingKey];
@@ -151,8 +142,6 @@ const struct DamageZoneRelationships DamageZoneRelationships = {
 - (void)setPrimitiveDragonValue:(int16_t)value_ {
 	[self setPrimitiveDragon:[NSNumber numberWithShort:value_]];
 }
-
-@dynamic extract;
 
 @dynamic fire;
 
@@ -234,8 +223,6 @@ const struct DamageZoneRelationships DamageZoneRelationships = {
 	[self setPrimitiveImpact:[NSNumber numberWithShort:value_]];
 }
 
-@dynamic jpnMonsterName;
-
 @dynamic ko;
 
 - (int16_t)koValue {
@@ -255,28 +242,6 @@ const struct DamageZoneRelationships DamageZoneRelationships = {
 - (void)setPrimitiveKoValue:(int16_t)value_ {
 	[self setPrimitiveKo:[NSNumber numberWithShort:value_]];
 }
-
-@dynamic monsterID;
-
-- (int16_t)monsterIDValue {
-	NSNumber *result = [self monsterID];
-	return [result shortValue];
-}
-
-- (void)setMonsterIDValue:(int16_t)value_ {
-	[self setMonsterID:[NSNumber numberWithShort:value_]];
-}
-
-- (int16_t)primitiveMonsterIDValue {
-	NSNumber *result = [self primitiveMonsterID];
-	return [result shortValue];
-}
-
-- (void)setPrimitiveMonsterIDValue:(int16_t)value_ {
-	[self setPrimitiveMonsterID:[NSNumber numberWithShort:value_]];
-}
-
-@dynamic monsterName;
 
 @dynamic shot;
 

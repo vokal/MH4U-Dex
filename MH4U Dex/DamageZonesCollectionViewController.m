@@ -37,11 +37,9 @@ typedef NS_ENUM(NSInteger, DamageZoneSections) {
 {
     [super viewDidLoad];
     self.flowLayout.itemSize = CGSizeMake(CGRectGetWidth(self.collectionView.bounds), 40.0f);
-    NSError *fetchError = nil;
-    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:[DamageZone entityName]];
-    fetchRequest.predicate = [NSPredicate predicateWithFormat:@"%K == %@", DamageZoneAttributes.monsterName, self.monster.name];
-    fetchRequest.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:DamageZoneAttributes.id ascending:YES]];
-    self.damageZones = [[CoreDataController sharedCDController].managedObjectContext executeFetchRequest:fetchRequest error:&fetchError];
+    self.damageZones = [self.monster.damageZone sortedArrayUsingDescriptors:@[[NSSortDescriptor
+                                                                               sortDescriptorWithKey:DamageZoneAttributes.id
+                                                                               ascending:YES]]];
 }
 
 #pragma mark <UICollectionViewDataSource>

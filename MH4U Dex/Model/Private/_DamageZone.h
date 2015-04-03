@@ -7,15 +7,11 @@ extern const struct DamageZoneAttributes {
 	__unsafe_unretained NSString *bodyPart;
 	__unsafe_unretained NSString *cut;
 	__unsafe_unretained NSString *dragon;
-	__unsafe_unretained NSString *extract;
 	__unsafe_unretained NSString *fire;
 	__unsafe_unretained NSString *ice;
 	__unsafe_unretained NSString *id;
 	__unsafe_unretained NSString *impact;
-	__unsafe_unretained NSString *jpnMonsterName;
 	__unsafe_unretained NSString *ko;
-	__unsafe_unretained NSString *monsterID;
-	__unsafe_unretained NSString *monsterName;
 	__unsafe_unretained NSString *shot;
 	__unsafe_unretained NSString *thunder;
 	__unsafe_unretained NSString *water;
@@ -56,10 +52,6 @@ extern const struct DamageZoneRelationships {
 
 //- (BOOL)validateDragon:(id*)value_ error:(NSError**)error_;
 
-@property (nonatomic, strong) NSString* extract;
-
-//- (BOOL)validateExtract:(id*)value_ error:(NSError**)error_;
-
 @property (nonatomic, strong) NSNumber* fire;
 
 @property (atomic) int16_t fireValue;
@@ -92,10 +84,6 @@ extern const struct DamageZoneRelationships {
 
 //- (BOOL)validateImpact:(id*)value_ error:(NSError**)error_;
 
-@property (nonatomic, strong) NSString* jpnMonsterName;
-
-//- (BOOL)validateJpnMonsterName:(id*)value_ error:(NSError**)error_;
-
 @property (nonatomic, strong) NSNumber* ko;
 
 @property (atomic) int16_t koValue;
@@ -103,18 +91,6 @@ extern const struct DamageZoneRelationships {
 - (void)setKoValue:(int16_t)value_;
 
 //- (BOOL)validateKo:(id*)value_ error:(NSError**)error_;
-
-@property (nonatomic, strong) NSNumber* monsterID;
-
-@property (atomic) int16_t monsterIDValue;
-- (int16_t)monsterIDValue;
-- (void)setMonsterIDValue:(int16_t)value_;
-
-//- (BOOL)validateMonsterID:(id*)value_ error:(NSError**)error_;
-
-@property (nonatomic, strong) NSString* monsterName;
-
-//- (BOOL)validateMonsterName:(id*)value_ error:(NSError**)error_;
 
 @property (nonatomic, strong) NSNumber* shot;
 
@@ -163,9 +139,6 @@ extern const struct DamageZoneRelationships {
 - (int16_t)primitiveDragonValue;
 - (void)setPrimitiveDragonValue:(int16_t)value_;
 
-- (NSString*)primitiveExtract;
-- (void)setPrimitiveExtract:(NSString*)value;
-
 - (NSNumber*)primitiveFire;
 - (void)setPrimitiveFire:(NSNumber*)value;
 
@@ -190,23 +163,11 @@ extern const struct DamageZoneRelationships {
 - (int16_t)primitiveImpactValue;
 - (void)setPrimitiveImpactValue:(int16_t)value_;
 
-- (NSString*)primitiveJpnMonsterName;
-- (void)setPrimitiveJpnMonsterName:(NSString*)value;
-
 - (NSNumber*)primitiveKo;
 - (void)setPrimitiveKo:(NSNumber*)value;
 
 - (int16_t)primitiveKoValue;
 - (void)setPrimitiveKoValue:(int16_t)value_;
-
-- (NSNumber*)primitiveMonsterID;
-- (void)setPrimitiveMonsterID:(NSNumber*)value;
-
-- (int16_t)primitiveMonsterIDValue;
-- (void)setPrimitiveMonsterIDValue:(int16_t)value_;
-
-- (NSString*)primitiveMonsterName;
-- (void)setPrimitiveMonsterName:(NSString*)value;
 
 - (NSNumber*)primitiveShot;
 - (void)setPrimitiveShot:(NSNumber*)value;
