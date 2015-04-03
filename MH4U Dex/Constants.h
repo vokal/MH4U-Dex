@@ -26,9 +26,6 @@ FOUNDATION_EXPORT NSString *const MHDMonsterDescriptionKey;
 FOUNDATION_EXPORT NSString *const MHDMonsterNameKey;
 FOUNDATION_EXPORT NSString *const MHDMonsterSortNameKey;
 FOUNDATION_EXPORT NSString *const MHDMonstersFileName;
-FOUNDATION_EXPORT NSString *const MHDMonsterDamageZonesFileName;
-FOUNDATION_EXPORT NSString *const MHDMonsterDamageZoneMonsterNameKey;
-FOUNDATION_EXPORT NSString *const MHDMonsterDamageZoneIDKey;
 FOUNDATION_EXPORT NSString *const MHDMonsterClassKey;
 FOUNDATION_EXPORT NSString *const MHDBoss;
 FOUNDATION_EXPORT NSString *const MHDMinion;
@@ -98,6 +95,21 @@ FOUNDATION_EXPORT NSString *const MHDAreaDropMethodKey;
 FOUNDATION_EXPORT NSString *const MHDAreaDropPercentKey;
 FOUNDATION_EXPORT NSString *const MHDAreaDropQuantityKey;
 FOUNDATION_EXPORT NSString *const MHDAreaDropItemNameKey;
+
+#pragma mark - Damage Zone Constants
+
+FOUNDATION_EXPORT NSString *const MHDDamageZonesFileName;
+FOUNDATION_EXPORT NSString *const MHDDamageZoneIDKey;
+FOUNDATION_EXPORT NSString *const MHDDamageZonePartKey;
+FOUNDATION_EXPORT NSString *const MHDDamageZoneCutKey;
+FOUNDATION_EXPORT NSString *const MHDDamageZoneImpactKey;
+FOUNDATION_EXPORT NSString *const MHDDamageZoneShotKey;
+FOUNDATION_EXPORT NSString *const MHDDamageZoneFireKey;
+FOUNDATION_EXPORT NSString *const MHDDamageZoneWaterKey;
+FOUNDATION_EXPORT NSString *const MHDDamageZoneIceKey;
+FOUNDATION_EXPORT NSString *const MHDDamageZoneThunderKey;
+FOUNDATION_EXPORT NSString *const MHDDamageZoneDragonKey;
+FOUNDATION_EXPORT NSString *const MHDDamageZoneMonsterNameKey;
 
 #pragma mark - Accessibility Identifiers
 

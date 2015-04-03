@@ -59,7 +59,8 @@ static NSString *const MonsterDropFilePrefix = @"monster_drops";
 //        NSLog(@"Core Data Reset. Loading Data.");
 //        [self loadMonsterData];
 //        NSLog(@"Monster data loaded.");
-//        //TODO: Load Damage Zone Data.
+//        [self loadMonsterDamageZoneData];
+//        NSLog(@"Monster Damage Zone data loaded.");
 //        [self loadMonsterDropData];
 //        NSLog(@"Monster Drop data loaded.");
 //        [self loadRegionData];
@@ -136,16 +137,22 @@ static NSString *const MonsterDropFilePrefix = @"monster_drops";
 
 - (void)loadMonsterDamageZoneData
 {
-    NSArray *damageZoneList = [self loadArrayFromJsonFileNamed:MHDMonsterDamageZonesFileName];
+    NSArray *damageZoneList = [self loadArrayFromJsonFileNamed:MHDDamageZonesFileName];
     for (NSDictionary *damageZoneDict in damageZoneList) {
-        Monster *monster = [self monsterWithName:damageZoneDict[MHDMonsterDamageZoneMonsterNameKey]];
+        Monster *monster = [self monsterWithName:damageZoneDict[MHDDamageZoneMonsterNameKey]];
         if (!monster) {
             continue;
         }
-        DamageZone *damageZone = [self getOrCreateDamageZoneWithID:damageZoneDict[MHDMonsterDamageZoneIDKey]];
+        DamageZone *damageZone = [self getOrCreateDamageZoneWithID:damageZoneDict[MHDDamageZoneIDKey]];
         damageZone.monster = monster;
-        
-        //TODO: Finish later after updating DamageZone model
+        damageZone.cut = damageZoneDict[MHDDamageZoneCutKey];
+        damageZone.impact = damageZoneDict[MHDDamageZoneImpactKey];
+        damageZone.shot = damageZoneDict[MHDDamageZoneShotKey];
+        damageZone.fire = damageZoneDict[MHDDamageZoneFireKey];
+        damageZone.water = damageZoneDict[MHDDamageZoneWaterKey];
+        damageZone.ice = damageZoneDict[MHDDamageZoneIceKey];
+        damageZone.dragon = damageZoneDict[MHDDamageZoneDragonKey];
+        damageZone.bodyPart = damageZoneDict[MHDDamageZonePartKey];
     }
 }
 
@@ -554,7 +561,6 @@ static NSString *const MonsterDropFilePrefix = @"monster_drops";
         NSLog(@"Unresolved error %@, %@", persistentStoreError, [persistentStoreError userInfo]);
         abort();
     }
-    
     return _persistentStoreCoordinator;
 }
 

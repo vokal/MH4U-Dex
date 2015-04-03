@@ -25,7 +25,6 @@
 		49F47D237297F3247242BECB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EB6B9A1DC54B606E11EEE77 /* libPods.a */; };
 		E40D07201ACAFA19001B8E04 /* _Drop.m in Sources */ = {isa = PBXBuildFile; fileRef = E40D071F1ACAFA19001B8E04 /* _Drop.m */; };
 		E40D07231ACAFA27001B8E04 /* Drop.m in Sources */ = {isa = PBXBuildFile; fileRef = E40D07221ACAFA27001B8E04 /* Drop.m */; };
-		E41C4D1A1A8BBBCB00A2D0CB /* damageZones.json in Resources */ = {isa = PBXBuildFile; fileRef = E41C4D191A8BBBCB00A2D0CB /* damageZones.json */; };
 		E41C4D1C1A8BBF5E00A2D0CB /* monsters.json in Resources */ = {isa = PBXBuildFile; fileRef = E41C4D1B1A8BBF5E00A2D0CB /* monsters.json */; };
 		E42DDC8B1A83FD140016596C /* MH4U_Dex.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E42DDC891A83FD140016596C /* MH4U_Dex.xcdatamodeld */; };
 		E434F36E1A83F5CA004C10BF /* _Armor.m in Sources */ = {isa = PBXBuildFile; fileRef = E434F3421A83F5CA004C10BF /* _Armor.m */; };
@@ -73,6 +72,7 @@
 		E471BE391A979F4C0076CBD7 /* RegionEncyclopediaCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E471BE381A979F4C0076CBD7 /* RegionEncyclopediaCollectionViewController.m */; };
 		E471BE3C1A979FF70076CBD7 /* Area.m in Sources */ = {isa = PBXBuildFile; fileRef = E471BE3B1A979FF70076CBD7 /* Area.m */; };
 		E471BE3F1A979FFE0076CBD7 /* _Area.m in Sources */ = {isa = PBXBuildFile; fileRef = E471BE3E1A979FFE0076CBD7 /* _Area.m */; };
+		E47878CE1ACEE012007AD8DE /* monsterDamage.json in Resources */ = {isa = PBXBuildFile; fileRef = E47878CD1ACEE012007AD8DE /* monsterDamage.json */; };
 		E48A67831ABB7A8E00C5EE81 /* monster_drops10.json in Resources */ = {isa = PBXBuildFile; fileRef = E48A67781ABB7A8E00C5EE81 /* monster_drops10.json */; };
 		E48A67841ABB7A8E00C5EE81 /* monster_drops9.json in Resources */ = {isa = PBXBuildFile; fileRef = E48A67791ABB7A8E00C5EE81 /* monster_drops9.json */; };
 		E48A67851ABB7A8E00C5EE81 /* monster_drops8.json in Resources */ = {isa = PBXBuildFile; fileRef = E48A677A1ABB7A8E00C5EE81 /* monster_drops8.json */; };
@@ -146,7 +146,6 @@
 		E40D071F1ACAFA19001B8E04 /* _Drop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Drop.m; sourceTree = "<group>"; };
 		E40D07211ACAFA27001B8E04 /* Drop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drop.h; sourceTree = "<group>"; };
 		E40D07221ACAFA27001B8E04 /* Drop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Drop.m; sourceTree = "<group>"; };
-		E41C4D191A8BBBCB00A2D0CB /* damageZones.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = damageZones.json; sourceTree = "<group>"; };
 		E41C4D1B1A8BBF5E00A2D0CB /* monsters.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = monsters.json; sourceTree = "<group>"; };
 		E42DDC8A1A83FD140016596C /* MH4U_Dex.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MH4U_Dex.xcdatamodel; sourceTree = "<group>"; };
 		E434F3411A83F5CA004C10BF /* _Armor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Armor.h; sourceTree = "<group>"; };
@@ -235,6 +234,7 @@
 		E471BE3B1A979FF70076CBD7 /* Area.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Area.m; sourceTree = "<group>"; };
 		E471BE3D1A979FFE0076CBD7 /* _Area.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Area.h; sourceTree = "<group>"; };
 		E471BE3E1A979FFE0076CBD7 /* _Area.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Area.m; sourceTree = "<group>"; };
+		E47878CD1ACEE012007AD8DE /* monsterDamage.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = monsterDamage.json; sourceTree = "<group>"; };
 		E48A67781ABB7A8E00C5EE81 /* monster_drops10.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = monster_drops10.json; sourceTree = "<group>"; };
 		E48A67791ABB7A8E00C5EE81 /* monster_drops9.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = monster_drops9.json; sourceTree = "<group>"; };
 		E48A677A1ABB7A8E00C5EE81 /* monster_drops8.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = monster_drops8.json; sourceTree = "<group>"; };
@@ -476,7 +476,7 @@
 		E48A67771ABB7A8000C5EE81 /* Monsters */ = {
 			isa = PBXGroup;
 			children = (
-				E41C4D191A8BBBCB00A2D0CB /* damageZones.json */,
+				E47878CD1ACEE012007AD8DE /* monsterDamage.json */,
 				E48A67781ABB7A8E00C5EE81 /* monster_drops10.json */,
 				E48A67791ABB7A8E00C5EE81 /* monster_drops9.json */,
 				E48A677A1ABB7A8E00C5EE81 /* monster_drops8.json */,
@@ -624,8 +624,8 @@
 				E4A7698B1A85207D00AC93DA /* MonsterEncyclopediaViewController.h */,
 				E4A7698C1A85207D00AC93DA /* MonsterEncyclopediaViewController.m */,
 				E45E9A8F1A890ED300D75592 /* MonsterItemTableViewController.h */,
-				E45E9A901A890ED300D75592 /* MonsterItemTableViewController.m */,
 				E4C76B321A85638D00AD753B /* MonsterOverviewViewController.h */,
+				E45E9A901A890ED300D75592 /* MonsterItemTableViewController.m */,
 				E4C76B331A85638D00AD753B /* MonsterOverviewViewController.m */,
 			);
 			name = Monster;
@@ -810,6 +810,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E48A67831ABB7A8E00C5EE81 /* monster_drops10.json in Resources */,
+				E47878CE1ACEE012007AD8DE /* monsterDamage.json in Resources */,
 				E4CE45D61A97E34D0059C056 /* primal_forest_drops.json in Resources */,
 				E48A67851ABB7A8E00C5EE81 /* monster_drops8.json in Resources */,
 				E4CE45D41A97E03A0059C056 /* sunken_hollow_drops.json in Resources */,
@@ -818,7 +819,6 @@
 				E49958111A83D28E00799BBE /* Main.storyboard in Resources */,
 				E48A678A1ABB7A8E00C5EE81 /* monster_drops3.json in Resources */,
 				E4E2127C1AB1FDBE00320E39 /* volcanic_hollow_drops.json in Resources */,
-				E41C4D1A1A8BBBCB00A2D0CB /* damageZones.json in Resources */,
 				E48A678B1ABB7A8E00C5EE81 /* monster_drops2.json in Resources */,
 				E471BE321A979DF40076CBD7 /* regions.json in Resources */,
 				E48A67881ABB7A8E00C5EE81 /* monster_drops5.json in Resources */,

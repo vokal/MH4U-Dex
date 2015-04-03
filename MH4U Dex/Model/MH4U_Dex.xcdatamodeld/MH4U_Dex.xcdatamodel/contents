@@ -36,19 +36,15 @@
         <attribute name="bodyPart" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="cut" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="dragon" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
-        <attribute name="extract" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="fire" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="ice" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="impact" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
-        <attribute name="jpnMonsterName" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="ko" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
-        <attribute name="monsterID" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
-        <attribute name="monsterName" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="shot" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="thunder" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="water" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
-        <relationship name="monster" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Monster" inverseName="damageZone" inverseEntity="Monster" syncable="YES"/>
+        <relationship name="monster" maxCount="1" deletionRule="Nullify" destinationEntity="Monster" inverseName="damageZone" inverseEntity="Monster" syncable="YES"/>
     </entity>
     <entity name="Decoration" representedClassName="Decoration" syncable="YES">
         <attribute name="name" attributeType="String" syncable="YES"/>
@@ -147,8 +143,9 @@
         <element name="Armor" positionX="0" positionY="0" width="128" height="135"/>
         <element name="ArmorSet" positionX="0" positionY="0" width="128" height="75"/>
         <element name="Combination" positionX="0" positionY="0" width="128" height="105"/>
-        <element name="DamageZone" positionX="0" positionY="0" width="128" height="285"/>
+        <element name="DamageZone" positionX="0" positionY="0" width="128" height="223"/>
         <element name="Decoration" positionX="0" positionY="0" width="128" height="90"/>
+        <element name="Drop" positionX="9" positionY="153" width="128" height="73"/>
         <element name="Item" positionX="0" positionY="0" width="128" height="225"/>
         <element name="Monster" positionX="0" positionY="0" width="128" height="193"/>
         <element name="MonsterDrop" positionX="0" positionY="0" width="128" height="118"/>
@@ -158,6 +155,5 @@
         <element name="Skilltree" positionX="0" positionY="0" width="128" height="90"/>
         <element name="Trade" positionX="0" positionY="0" width="128" height="90"/>
         <element name="Weapon" positionX="0" positionY="0" width="128" height="75"/>
-        <element name="Drop" positionX="9" positionY="153" width="128" height="73"/>
     </elements>
 </model>

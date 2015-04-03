@@ -23,8 +23,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *thunderLabel;
 @property (weak, nonatomic) IBOutlet UILabel *iceLabel;
 @property (weak, nonatomic) IBOutlet UILabel *dragonLabel;
-@property (weak, nonatomic) IBOutlet UILabel *koLabel;
-@property (weak, nonatomic) IBOutlet UILabel *extractLabel;
 
 @end
 
@@ -33,13 +31,11 @@
 - (void)displayContentsWithDamageZone:(DamageZone *)damageZone
 {
     self.bodyPartLabel.text = damageZone.bodyPart;
-    self.extractLabel.text = damageZone.extract;
     if ([damageZone.bodyPart isEqualToString:[Strings MHDBodyPartLabelText]]) {
         // This is the template.
         self.cutLabel.text = [Strings MHDCutLabelText];
         self.impactLabel.text = [Strings MHDImpactLabelText];
         self.shotLabel.text = [Strings MHDShotLabelText];
-        self.koLabel.text = [Strings MHDKOLabelText];
         self.fireLabel.text = [Strings MHDFireLabelText];
         self.iceLabel.text = [Strings MHDIceLabelText];
         self.dragonLabel.text = [Strings MHDDragonLabelText];
@@ -54,7 +50,6 @@
         self.thunderLabel.text = [NSString stringWithFormat:@"%@", damageZone.thunder];
         self.iceLabel.text = [NSString stringWithFormat:@"%@", damageZone.ice];
         self.dragonLabel.text = [NSString stringWithFormat:@"%@", damageZone.dragon];
-        self.koLabel.text = [NSString stringWithFormat:@"%@", damageZone.ko];
     }
 }
 

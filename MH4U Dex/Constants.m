@@ -27,9 +27,6 @@ NSString *const MHDMonsterDescriptionKey = @"description";
 NSString *const MHDMonsterNameKey = @"name";
 NSString *const MHDMonsterSortNameKey = @"sort_name";
 NSString *const MHDMonstersFileName = @"monster_list";
-NSString *const MHDMonsterDamageZonesFileName = @"damageZones";
-NSString *const MHDMonsterDamageZoneMonsterNameKey = @"monster_name";
-NSString *const MHDMonsterDamageZoneIDKey = @"_id";
 NSString *const MHDMonsterClassKey = @"class";
 NSString *const MHDBoss = @"Boss";
 NSString *const MHDMinion = @"Minion";
@@ -99,6 +96,21 @@ NSString *const MHDAreaDropMethodKey = @"method";
 NSString *const MHDAreaDropPercentKey = @"chance";
 NSString *const MHDAreaDropQuantityKey = @"number";
 NSString *const MHDAreaDropItemNameKey = @"item";
+
+#pragma mark - Damage Zone Constants
+
+NSString *const MHDDamageZonesFileName = @"monsterDamage";
+NSString *const MHDDamageZoneIDKey = @"_id";
+NSString *const MHDDamageZonePartKey = @"part";
+NSString *const MHDDamageZoneCutKey = @"cut";
+NSString *const MHDDamageZoneImpactKey = @"impact";
+NSString *const MHDDamageZoneShotKey = @"shot";
+NSString *const MHDDamageZoneFireKey = @"fire";
+NSString *const MHDDamageZoneWaterKey = @"water";
+NSString *const MHDDamageZoneIceKey = @"ice";
+NSString *const MHDDamageZoneThunderKey = @"thunder";
+NSString *const MHDDamageZoneDragonKey = @"dragon";
+NSString *const MHDDamageZoneMonsterNameKey = @"monster_name";
 
 #pragma mark - Accessibility Identifiers
 
