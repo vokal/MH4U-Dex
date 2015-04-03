@@ -59,7 +59,8 @@ static NSString *const MonsterDropFilePrefix = @"monster_drops";
 //        NSLog(@"Core Data Reset. Loading Data.");
 //        [self loadMonsterData];
 //        NSLog(@"Monster data loaded.");
-//        //TODO: Load Damage Zone Data.
+//        [self loadMonsterDamageZoneData];
+//        NSLog(@"Monster Damage Zone data loaded.");
 //        [self loadMonsterDropData];
 //        NSLog(@"Monster Drop data loaded.");
 //        [self loadRegionData];
@@ -560,7 +561,6 @@ static NSString *const MonsterDropFilePrefix = @"monster_drops";
         NSLog(@"Unresolved error %@, %@", persistentStoreError, [persistentStoreError userInfo]);
         abort();
     }
-    
     return _persistentStoreCoordinator;
 }
 

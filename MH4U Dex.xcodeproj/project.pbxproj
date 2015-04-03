@@ -624,8 +624,8 @@
 				E4A7698B1A85207D00AC93DA /* MonsterEncyclopediaViewController.h */,
 				E4A7698C1A85207D00AC93DA /* MonsterEncyclopediaViewController.m */,
 				E45E9A8F1A890ED300D75592 /* MonsterItemTableViewController.h */,
-				E45E9A901A890ED300D75592 /* MonsterItemTableViewController.m */,
 				E4C76B321A85638D00AD753B /* MonsterOverviewViewController.h */,
+				E45E9A901A890ED300D75592 /* MonsterItemTableViewController.m */,
 				E4C76B331A85638D00AD753B /* MonsterOverviewViewController.m */,
 			);
 			name = Monster;

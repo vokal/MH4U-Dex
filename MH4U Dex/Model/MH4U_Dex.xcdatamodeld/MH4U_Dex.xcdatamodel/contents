@@ -44,7 +44,7 @@
         <attribute name="shot" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="thunder" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="water" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
-        <relationship name="monster" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Monster" inverseName="damageZone" inverseEntity="Monster" syncable="YES"/>
+        <relationship name="monster" maxCount="1" deletionRule="Nullify" destinationEntity="Monster" inverseName="damageZone" inverseEntity="Monster" syncable="YES"/>
     </entity>
     <entity name="Decoration" representedClassName="Decoration" syncable="YES">
         <attribute name="name" attributeType="String" syncable="YES"/>

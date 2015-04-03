@@ -1030,18 +1030,6 @@
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="KO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="qE0-Je-fi9">
-                                            <rect key="frame" x="241" y="8" width="25" height="21"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Extract" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="f2U-6z-dqL">
-                                            <rect key="frame" x="265" y="8" width="55" height="21"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dragon" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="afz-7C-Gd4">
                                             <rect key="frame" x="245" y="20" width="49" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
@@ -1063,11 +1051,9 @@
                                     <outlet property="bodyPartLabel" destination="0Oz-OB-9xi" id="5UD-ge-VzS"/>
                                     <outlet property="cutLabel" destination="E0U-0A-Oed" id="7kK-ua-iGY"/>
                                     <outlet property="dragonLabel" destination="afz-7C-Gd4" id="JBR-Bp-Tk5"/>
-                                    <outlet property="extractLabel" destination="f2U-6z-dqL" id="MwZ-ci-FHM"/>
                                     <outlet property="fireLabel" destination="haT-7F-Hln" id="1ft-8e-8iF"/>
                                     <outlet property="iceLabel" destination="uX8-si-q40" id="pYf-vh-LRb"/>
                                     <outlet property="impactLabel" destination="izW-1X-Iuc" id="PXK-0O-eSx"/>
-                                    <outlet property="koLabel" destination="qE0-Je-fi9" id="Daj-Eg-k55"/>
                                     <outlet property="shotLabel" destination="eae-pw-Lee" id="Y5T-Cb-Z1c"/>
                                     <outlet property="thunderLabel" destination="5Yq-OI-kPq" id="6sY-jp-no5"/>
                                     <outlet property="waterLabel" destination="5If-B5-uVJ" id="Wbk-Wg-mh5"/>

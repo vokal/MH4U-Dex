@@ -6420,7 +6420,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":429,
     "part":"Tail",
     "cut":50,
     "impact":24,
@@ -6435,7 +6435,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":430,
     "part":"Tail Tip",
     "cut":22,
     "impact":35,
@@ -6450,7 +6450,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":431,
     "part":"Head",
     "cut":23,
     "impact":17,
@@ -6465,7 +6465,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":432,
     "part":"Neck",
     "cut":45,
     "impact":70,
@@ -6480,7 +6480,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":433,
     "part":"Belly",
     "cut":45,
     "impact":40,
@@ -6495,7 +6495,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":434,
     "part":"Back / Wings",
     "cut":17,
     "impact":25,
@@ -6510,7 +6510,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":435,
     "part":"Wing Webbing",
     "cut":53,
     "impact":45,
@@ -6525,7 +6525,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":436,
     "part":"Legs",
     "cut":35,
     "impact":35,
@@ -6540,7 +6540,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":437,
     "part":"Tail",
     "cut":53,
     "impact":45,
@@ -6555,7 +6555,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":438,
     "part":"Tail Tip",
     "cut":60,
     "impact":40,
@@ -6570,7 +6570,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":439,
     "part":"Head",
     "cut":23,
     "impact":17,
@@ -6585,7 +6585,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":440,
     "part":"Neck",
     "cut":45,
     "impact":70,
@@ -6600,7 +6600,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":441,
     "part":"Back/Wing",
     "cut":17,
     "impact":25,
@@ -6615,7 +6615,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":442,
     "part":"Belly",
     "cut":45,
     "impact":40,
@@ -6630,7 +6630,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":443,
     "part":"Wing Webbing",
     "cut":53,
     "impact":45,
@@ -6645,7 +6645,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":444,
     "part":"Legs",
     "cut":35,
     "impact":35,
@@ -6660,7 +6660,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":445,
     "part":"Tail",
     "cut":53,
     "impact":45,
@@ -6675,7 +6675,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":446,
     "part":"Tail Tip",
     "cut":60,
     "impact":40,
@@ -6690,7 +6690,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":447,
     "part":"Head",
     "cut":32,
     "impact":35,
@@ -6705,7 +6705,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":448,
     "part":"Neck",
     "cut":40,
     "impact":40,
@@ -6720,7 +6720,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":449,
     "part":"Back",
     "cut":35,
     "impact":30,
@@ -6735,7 +6735,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":450,
     "part":"Abdominal",
     "cut":60,
     "impact":55,
@@ -6750,7 +6750,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":451,
     "part":"Tail",
     "cut":30,
     "impact":30,
@@ -6765,7 +6765,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":452,
     "part":"Wing Talon",
     "cut":19,
     "impact":19,
@@ -6780,7 +6780,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":453,
     "part":"Leg",
     "cut":50,
     "impact":45,
@@ -6795,7 +6795,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":454,
     "part":"Wing",
     "cut":26,
     "impact":26,
@@ -6810,7 +6810,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":455,
     "part":"Head",
     "cut":65,
     "impact":55,
@@ -6825,7 +6825,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":456,
     "part":"Neck",
     "cut":50,
     "impact":50,
@@ -6840,7 +6840,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":457,
     "part":"Body",
     "cut":25,
     "impact":25,
@@ -6855,7 +6855,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":458,
     "part":"Wing Limbs",
     "cut":30,
     "impact":30,
@@ -6870,7 +6870,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":459,
     "part":"Front Legs",
     "cut":45,
     "impact":45,
@@ -6885,7 +6885,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":460,
     "part":"Back Leg",
     "cut":42,
     "impact":42,
@@ -6900,7 +6900,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":461,
     "part":"Wing",
     "cut":26,
     "impact":26,
@@ -6915,7 +6915,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":462,
     "part":"Tail",
     "cut":45,
     "impact":45,
@@ -6930,7 +6930,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":463,
     "part":"Head",
     "cut":65,
     "impact":55,
@@ -6945,7 +6945,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":464,
     "part":"Body",
     "cut":25,
     "impact":25,
@@ -6960,7 +6960,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":465,
     "part":"Left Wing Limb",
     "cut":30,
     "impact":30,
@@ -6975,7 +6975,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":466,
     "part":"Right Wing Limb",
     "cut":20,
     "impact":20,
@@ -6990,7 +6990,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":467,
     "part":"Front Legs",
     "cut":40,
     "impact":40,
@@ -7005,7 +7005,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":468,
     "part":"Back Leg",
     "cut":36,
     "impact":36,
@@ -7020,7 +7020,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":469,
     "part":"Wing",
     "cut":26,
     "impact":26,
@@ -7035,7 +7035,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":470,
     "part":"Tail",
     "cut":45,
     "impact":45,
@@ -7050,7 +7050,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":471,
     "part":"Head",
     "cut":75,
     "impact":70,
@@ -7065,7 +7065,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":472,
     "part":"Wing Limbs",
     "cut":30,
     "impact":30,
@@ -7080,7 +7080,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":473,
     "part":"Head",
     "cut":55,
     "impact":42,
@@ -7095,7 +7095,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":474,
     "part":"Right Wing Limb",
     "cut":16,
     "impact":16,
@@ -7110,7 +7110,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":475,
     "part":"Head",
     "cut":50,
     "impact":50,
@@ -7125,7 +7125,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":476,
     "part":"Neck",
     "cut":35,
     "impact":30,
@@ -7140,7 +7140,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":477,
     "part":"Belly",
     "cut":35,
     "impact":40,
@@ -7155,7 +7155,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":478,
     "part":"Back",
     "cut":20,
     "impact":25,
@@ -7170,7 +7170,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":479,
     "part":"Tail",
     "cut":30,
     "impact":25,
@@ -7185,7 +7185,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":480,
     "part":"Front Legs",
     "cut":25,
     "impact":35,
@@ -7200,7 +7200,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":481,
     "part":"Back Leg",
     "cut":30,
     "impact":30,
@@ -7215,7 +7215,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":482,
     "part":"Head",
     "cut":50,
     "impact":55,
@@ -7230,7 +7230,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":483,
     "part":"Neck",
     "cut":35,
     "impact":40,
@@ -7245,7 +7245,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":484,
     "part":"Belly",
     "cut":45,
     "impact":50,
@@ -7260,7 +7260,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":485,
     "part":"Back",
     "cut":40,
     "impact":35,
@@ -7275,7 +7275,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":486,
     "part":"Tail",
     "cut":30,
     "impact":25,
@@ -7290,7 +7290,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":487,
     "part":"Front Legs",
     "cut":25,
     "impact":35,
@@ -7305,7 +7305,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":488,
     "part":"Back Leg",
     "cut":30,
     "impact":30,
@@ -7320,7 +7320,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":489,
     "part":"Head",
     "cut":45,
     "impact":45,
@@ -7335,7 +7335,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":490,
     "part":"Back",
     "cut":20,
     "impact":30,
@@ -7350,7 +7350,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":491,
     "part":"Belly",
     "cut":20,
     "impact":25,
@@ -7365,7 +7365,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":492,
     "part":"Front Legs",
     "cut":25,
     "impact":20,
@@ -7380,7 +7380,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":493,
     "part":"Back Leg",
     "cut":30,
     "impact":25,
@@ -7395,7 +7395,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":494,
     "part":"Tail",
     "cut":30,
     "impact":35,
@@ -7410,7 +7410,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":495,
     "part":"Chest",
     "cut":35,
     "impact":40,
@@ -7425,7 +7425,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":496,
     "part":"Head",
     "cut":50,
     "impact":45,
@@ -7440,7 +7440,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":497,
     "part":"Back",
     "cut":30,
     "impact":40,
@@ -7455,7 +7455,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":498,
     "part":"Belly",
     "cut":25,
     "impact":30,
@@ -7470,7 +7470,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":499,
     "part":"Front Legs",
     "cut":30,
     "impact":25,
@@ -7485,7 +7485,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":500,
     "part":"Back Leg",
     "cut":30,
     "impact":30,
@@ -7500,7 +7500,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":501,
     "part":"Tail",
     "cut":30,
     "impact":35,
@@ -7515,7 +7515,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":502,
     "part":"Chest",
     "cut":40,
     "impact":50,
@@ -7530,7 +7530,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":503,
     "part":"Head",
     "cut":65,
     "impact":65,
@@ -7545,7 +7545,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":504,
     "part":"Torso",
     "cut":25,
     "impact":25,
@@ -7560,7 +7560,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":505,
     "part":"Back",
     "cut":45,
     "impact":40,
@@ -7575,7 +7575,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":506,
     "part":"Front Legs",
     "cut":25,
     "impact":30,
@@ -7590,7 +7590,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":507,
     "part":"Back Leg",
     "cut":45,
     "impact":45,
@@ -7605,7 +7605,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":508,
     "part":"Legs root",
     "cut":44,
     "impact":44,
@@ -7620,7 +7620,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":509,
     "part":"Tail root",
     "cut":30,
     "impact":25,
@@ -7635,7 +7635,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":510,
     "part":"Tail Tip",
     "cut":21,
     "impact":19,
@@ -7650,7 +7650,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":511,
     "part":"Head",
     "cut":65,
     "impact":65,
@@ -7665,7 +7665,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":512,
     "part":"Torso",
     "cut":30,
     "impact":30,
@@ -7680,7 +7680,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":513,
     "part":"Back",
     "cut":70,
     "impact":65,
@@ -7695,7 +7695,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":514,
     "part":"Front Legs",
     "cut":43,
     "impact":46,
@@ -7710,7 +7710,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":515,
     "part":"Back Leg",
     "cut":50,
     "impact":50,
@@ -7725,7 +7725,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":516,
     "part":"Legs root",
     "cut":45,
     "impact":45,
@@ -7740,7 +7740,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":517,
     "part":"Tail",
     "cut":30,
     "impact":25,
@@ -7755,7 +7755,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":518,
     "part":"Tail Tip",
     "cut":21,
     "impact":19,
@@ -7770,7 +7770,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":519,
     "part":"Head",
     "cut":63,
     "impact":63,
@@ -7785,7 +7785,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":520,
     "part":"Torso",
     "cut":25,
     "impact":25,
@@ -7800,7 +7800,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":521,
     "part":"Back",
     "cut":45,
     "impact":40,
@@ -7815,7 +7815,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":522,
     "part":"Front Legs",
     "cut":25,
     "impact":30,
@@ -7830,7 +7830,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":523,
     "part":"Back Leg",
     "cut":40,
     "impact":40,
@@ -7845,7 +7845,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":524,
     "part":"Legs root",
     "cut":30,
     "impact":30,
@@ -7860,7 +7860,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":525,
     "part":"Tail root",
     "cut":30,
     "impact":25,
@@ -7875,7 +7875,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":526,
     "part":"Tail Tip",
     "cut":21,
     "impact":19,
@@ -7890,7 +7890,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":527,
     "part":"Head",
     "cut":55,
     "impact":55,
@@ -7905,7 +7905,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":528,
     "part":"Torso",
     "cut":25,
     "impact":25,
@@ -7920,7 +7920,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":529,
     "part":"Back",
     "cut":70,
     "impact":65,
@@ -7935,7 +7935,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":530,
     "part":"Front Legs",
     "cut":22,
     "impact":22,
@@ -7950,7 +7950,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":531,
     "part":"Back Leg",
     "cut":40,
     "impact":40,
@@ -7965,7 +7965,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":532,
     "part":"Legs root",
     "cut":25,
     "impact":25,
@@ -7980,7 +7980,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":533,
     "part":"Head",
     "cut":40,
     "impact":40,
@@ -7995,7 +7995,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":534,
     "part":"Torso",
     "cut":24,
     "impact":24,
@@ -8010,7 +8010,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":535,
     "part":"Lower body",
     "cut":27,
     "impact":27,
@@ -8025,7 +8025,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":536,
     "part":"Front Legs",
     "cut":25,
     "impact":25,
@@ -8040,7 +8040,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":537,
     "part":"Head",
     "cut":50,
     "impact":50,
@@ -8055,7 +8055,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":538,
     "part":"Torso",
     "cut":24,
     "impact":24,
@@ -8070,7 +8070,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":539,
     "part":"Lower body",
     "cut":15,
     "impact":15,
@@ -8085,7 +8085,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":540,
     "part":"Front Legs",
     "cut":28,
     "impact":28,
@@ -8100,7 +8100,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":541,
     "part":"Horn",
     "cut":40,
     "impact":40,
@@ -8115,7 +8115,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":542,
     "part":"Torso",
     "cut":24,
     "impact":24,
@@ -8130,7 +8130,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":543,
     "part":"Lower body",
     "cut":27,
     "impact":27,
@@ -8145,7 +8145,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":544,
     "part":"Front Legs",
     "cut":25,
     "impact":25,
@@ -8160,7 +8160,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":545,
     "part":"Head",
     "cut":50,
     "impact":50,
@@ -8175,7 +8175,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":546,
     "part":"Torso",
     "cut":24,
     "impact":24,
@@ -8190,7 +8190,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":547,
     "part":"Lower body",
     "cut":15,
     "impact":15,
@@ -8205,7 +8205,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":548,
     "part":"Front Legs",
     "cut":28,
     "impact":28,
@@ -8220,7 +8220,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":549,
     "part":"Head",
     "cut":65,
     "impact":60,
@@ -8235,7 +8235,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":550,
     "part":"Neck",
     "cut":50,
     "impact":40,
@@ -8250,7 +8250,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":551,
     "part":"Torso",
     "cut":25,
     "impact":25,
@@ -8265,7 +8265,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":552,
     "part":"Wing Limbs",
     "cut":20,
     "impact":20,
@@ -8280,7 +8280,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":553,
     "part":"Front Legs",
     "cut":40,
     "impact":40,
@@ -8295,7 +8295,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":554,
     "part":"Back Leg",
     "cut":36,
     "impact":36,
@@ -8310,7 +8310,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":555,
     "part":"Wing",
     "cut":26,
     "impact":26,
@@ -8325,7 +8325,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":556,
     "part":"Tail",
     "cut":36,
     "impact":36,
@@ -8340,7 +8340,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":557,
     "part":"Wing Limbs",
     "cut":36,
     "impact":36,
@@ -8355,7 +8355,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":558,
     "part":"Horn / Back Fin",
     "cut":18,
     "impact":18,
@@ -8370,7 +8370,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":559,
     "part":"Torso",
     "cut":21,
     "impact":21,
@@ -8385,7 +8385,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":560,
     "part":"Front Legs",
     "cut":38,
     "impact":38,
@@ -8400,7 +8400,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":561,
     "part":"Abdominal",
     "cut":60,
     "impact":55,
@@ -8415,7 +8415,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":562,
     "part":"Front Fin",
     "cut":40,
     "impact":40,
@@ -8430,7 +8430,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":563,
     "part":"Mouth",
     "cut":90,
     "impact":80,
@@ -8445,7 +8445,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":564,
     "part":"Blowhole",
     "cut":50,
     "impact":45,
@@ -8460,7 +8460,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":565,
     "part":"Front Legs",
     "cut":30,
     "impact":30,
@@ -8475,7 +8475,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":566,
     "part":"Head",
     "cut":50,
     "impact":45,
@@ -8490,7 +8490,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":567,
     "part":"Neck",
     "cut":45,
     "impact":40,
@@ -8505,7 +8505,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":568,
     "part":"Belly",
     "cut":35,
     "impact":50,
@@ -8520,7 +8520,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":569,
     "part":"Back",
     "cut":20,
     "impact":25,
@@ -8535,7 +8535,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":570,
     "part":"Tail",
     "cut":35,
     "impact":30,
@@ -8550,7 +8550,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":571,
     "part":"Front Legs",
     "cut":35,
     "impact":30,
@@ -8565,7 +8565,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":572,
     "part":"Back Leg",
     "cut":35,
     "impact":35,
@@ -8580,7 +8580,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":573,
     "part":"Wing",
     "cut":20,
     "impact":15,
@@ -8595,7 +8595,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":574,
     "part":"Head",
     "cut":45,
     "impact":40,
@@ -8610,7 +8610,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":575,
     "part":"Neck",
     "cut":40,
     "impact":40,
@@ -8625,7 +8625,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":576,
     "part":"Belly",
     "cut":25,
     "impact":40,
@@ -8640,7 +8640,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":577,
     "part":"Back",
     "cut":20,
     "impact":25,
@@ -8655,7 +8655,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":578,
     "part":"Tail",
     "cut":35,
     "impact":30,
@@ -8670,7 +8670,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":579,
     "part":"Front Legs",
     "cut":30,
     "impact":25,
@@ -8685,7 +8685,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":580,
     "part":"Back Leg",
     "cut":30,
     "impact":30,
@@ -8700,7 +8700,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":581,
     "part":"Wing",
     "cut":20,
     "impact":15,
@@ -8715,7 +8715,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":582,
     "part":"Head",
     "cut":45,
     "impact":45,
@@ -8730,7 +8730,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":583,
     "part":"Neck",
     "cut":40,
     "impact":35,
@@ -8745,7 +8745,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":584,
     "part":"Belly",
     "cut":30,
     "impact":40,
@@ -8760,7 +8760,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":585,
     "part":"Back",
     "cut":20,
     "impact":25,
@@ -8775,7 +8775,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":586,
     "part":"Tail",
     "cut":30,
     "impact":25,
@@ -8790,7 +8790,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":587,
     "part":"Front Legs",
     "cut":30,
     "impact":30,
@@ -8805,7 +8805,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":588,
     "part":"Back Leg",
     "cut":20,
     "impact":20,
@@ -8820,7 +8820,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":589,
     "part":"Wing",
     "cut":20,
     "impact":15,
@@ -8835,7 +8835,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":590,
     "part":"Head",
     "cut":40,
     "impact":40,
@@ -8850,7 +8850,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":591,
     "part":"Neck",
     "cut":35,
     "impact":30,
@@ -8865,7 +8865,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":592,
     "part":"Belly",
     "cut":25,
     "impact":35,
@@ -8880,7 +8880,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":593,
     "part":"Back",
     "cut":20,
     "impact":20,
@@ -8895,7 +8895,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":594,
     "part":"Tail",
     "cut":25,
     "impact":25,
@@ -8910,7 +8910,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":595,
     "part":"Front Legs",
     "cut":25,
     "impact":25,
@@ -8925,7 +8925,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":596,
     "part":"Back Leg",
     "cut":18,
     "impact":18,
@@ -8940,7 +8940,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":597,
     "part":"Wing",
     "cut":20,
     "impact":15,
@@ -8955,7 +8955,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":598,
     "part":"Head",
     "cut":50,
     "impact":50,
@@ -8970,7 +8970,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":599,
     "part":"Neck / Belly",
     "cut":25,
     "impact":40,
@@ -8985,7 +8985,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":600,
     "part":"Back",
     "cut":25,
     "impact":25,
@@ -9000,7 +9000,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":601,
     "part":"Tail",
     "cut":45,
     "impact":25,
@@ -9015,7 +9015,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":602,
     "part":"Front Legs",
     "cut":25,
     "impact":25,
@@ -9030,7 +9030,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":603,
     "part":"Back Leg",
     "cut":45,
     "impact":45,
@@ -9045,7 +9045,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":604,
     "part":"Wing Claw",
     "cut":20,
     "impact":20,
@@ -9060,7 +9060,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":605,
     "part":"Head",
     "cut":60,
     "impact":55,
@@ -9075,7 +9075,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":606,
     "part":"Neck / Belly",
     "cut":30,
     "impact":45,
@@ -9090,7 +9090,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":607,
     "part":"Back",
     "cut":25,
     "impact":25,
@@ -9105,7 +9105,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":608,
     "part":"Tail",
     "cut":55,
     "impact":35,
@@ -9120,7 +9120,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":609,
     "part":"Front Legs",
     "cut":35,
     "impact":35,
@@ -9135,7 +9135,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":610,
     "part":"Back Leg",
     "cut":55,
     "impact":55,
@@ -9150,7 +9150,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":611,
     "part":"Wing Claw",
     "cut":20,
     "impact":20,
@@ -9165,7 +9165,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":612,
     "part":"Head",
     "cut":45,
     "impact":50,
@@ -9180,7 +9180,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":613,
     "part":"Belly",
     "cut":25,
     "impact":30,
@@ -9195,7 +9195,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":614,
     "part":"Back",
     "cut":25,
     "impact":22,
@@ -9210,7 +9210,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":615,
     "part":"Wing",
     "cut":22,
     "impact":22,
@@ -9225,7 +9225,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":616,
     "part":"Front Legs",
     "cut":22,
     "impact":25,
@@ -9240,7 +9240,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":617,
     "part":"Back Leg",
     "cut":30,
     "impact":25,
@@ -9255,7 +9255,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":618,
     "part":"Tail",
     "cut":25,
     "impact":22,
@@ -9270,7 +9270,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":619,
     "part":"Head",
     "cut":40,
     "impact":45,
@@ -9285,7 +9285,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":620,
     "part":"Belly",
     "cut":22,
     "impact":30,
@@ -9300,7 +9300,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":621,
     "part":"Back",
     "cut":22,
     "impact":20,
@@ -9315,7 +9315,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":622,
     "part":"Wing",
     "cut":20,
     "impact":20,
@@ -9330,7 +9330,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":623,
     "part":"Front Legs",
     "cut":20,
     "impact":22,
@@ -9345,7 +9345,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":624,
     "part":"Back Leg",
     "cut":25,
     "impact":22,
@@ -9360,7 +9360,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":625,
     "part":"Tail",
     "cut":22,
     "impact":20,
@@ -9375,7 +9375,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":626,
     "part":"Head",
     "cut":67,
     "impact":67,
@@ -9390,7 +9390,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":627,
     "part":"Spine Blades",
     "cut":67,
     "impact":67,
@@ -9405,7 +9405,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":628,
     "part":"Chest",
     "cut":17,
     "impact":17,
@@ -9420,7 +9420,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":629,
     "part":"Front Legs",
     "cut":17,
     "impact":17,
@@ -9435,7 +9435,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":630,
     "part":"Tail Tip",
     "cut":75,
     "impact":75,
@@ -9450,7 +9450,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":631,
     "part":"Upper Body",
     "cut":24,
     "impact":24,
@@ -9465,7 +9465,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":632,
     "part":"Lower Body (Bottom)",
     "cut":58,
     "impact":58,
@@ -9480,7 +9480,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":633,
     "part":"Back Leg",
     "cut":80,
     "impact":80,
@@ -9495,7 +9495,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":634,
     "part":"Head Weakpoint",
     "cut":160,
     "impact":150,
@@ -9510,7 +9510,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":635,
     "part":"Lower Body (Top)",
     "cut":33,
     "impact":33,
@@ -9525,7 +9525,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":636,
     "part":"Head",
     "cut":90,
     "impact":90,
@@ -9540,7 +9540,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":637,
     "part":"Spine Blades",
     "cut":90,
     "impact":90,
@@ -9555,7 +9555,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":638,
     "part":"Chest",
     "cut":24,
     "impact":24,
@@ -9570,7 +9570,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":639,
     "part":"Front Legs",
     "cut":58,
     "impact":58,
@@ -9585,7 +9585,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":640,
     "part":"Tail Tip",
     "cut":63,
     "impact":63,
@@ -9600,7 +9600,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":641,
     "part":"Back Leg",
     "cut":17,
     "impact":17,
@@ -9615,7 +9615,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":642,
     "part":"Head",
     "cut":10,
     "impact":17,
@@ -9630,7 +9630,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":643,
     "part":"Head Weakpoint",
     "cut":160,
     "impact":150,
@@ -9645,7 +9645,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":644,
     "part":"Upper Body, Black Thorn, Claw",
     "cut":10,
     "impact":17,
@@ -9660,7 +9660,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":645,
     "part":"Thorax",
     "cut":10,
     "impact":17,
@@ -9675,7 +9675,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":646,
     "part":"Front Legs",
     "cut":10,
     "impact":17,
@@ -9690,7 +9690,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":647,
     "part":"Upper Body",
     "cut":10,
     "impact":17,
@@ -9705,7 +9705,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":648,
     "part":"Lower Body (Bottom)",
     "cut":33,
     "impact":33,
@@ -9720,7 +9720,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":649,
     "part":"Back Leg",
     "cut":80,
     "impact":80,
@@ -9735,7 +9735,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":650,
     "part":"Tail",
     "cut":63,
     "impact":63,
@@ -9750,7 +9750,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":651,
     "part":"Tail Tip",
     "cut":75,
     "impact":75,
@@ -9765,7 +9765,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":652,
     "part":"Head",
     "cut":75,
     "impact":75,
@@ -9780,7 +9780,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":653,
     "part":"Upper Body, Black Thorn, Claw",
     "cut":75,
     "impact":75,
@@ -9795,7 +9795,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":654,
     "part":"Chest",
     "cut":75,
     "impact":75,
@@ -9810,7 +9810,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":655,
     "part":"Front Legs",
     "cut":75,
     "impact":75,
@@ -9825,7 +9825,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":656,
     "part":"Head",
     "cut":20,
     "impact":30,
@@ -9840,7 +9840,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":657,
     "part":"Upper Body, Black Thorn, Claw",
     "cut":10,
     "impact":17,
@@ -9855,7 +9855,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":658,
     "part":"Thorax",
     "cut":20,
     "impact":30,
@@ -9870,7 +9870,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":659,
     "part":"Front Legs",
     "cut":20,
     "impact":30,
@@ -9885,7 +9885,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":660,
     "part":"Back Leg",
     "cut":17,
     "impact":17,
@@ -9900,7 +9900,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":661,
     "part":"Tail",
     "cut":33,
     "impact":33,
@@ -9915,7 +9915,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":662,
     "part":"Tail Tip",
     "cut":75,
     "impact":75,
@@ -9930,7 +9930,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":663,
     "part":"Head",
     "cut":23,
     "impact":27,
@@ -9945,7 +9945,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":664,
     "part":"Wing Limbs",
     "cut":22,
     "impact":23,
@@ -9960,7 +9960,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":665,
     "part":"Tail",
     "cut":22,
     "impact":25,
@@ -9975,7 +9975,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":666,
     "part":"Thorax",
     "cut":23,
     "impact":25,
@@ -9990,7 +9990,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":667,
     "part":"Waist, Back Legs",
     "cut":35,
     "impact":40,
@@ -10005,7 +10005,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":668,
     "part":"Belly, Front Legs, Neck",
     "cut":40,
     "impact":35,
@@ -10020,7 +10020,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":669,
     "part":"Head",
     "cut":40,
     "impact":45,
@@ -10035,7 +10035,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":670,
     "part":"Wing Limbs",
     "cut":35,
     "impact":35,
@@ -10050,7 +10050,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":671,
     "part":"Tail",
     "cut":45,
     "impact":40,
@@ -10065,7 +10065,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":672,
     "part":"Thorax",
     "cut":45,
     "impact":35,
@@ -10080,7 +10080,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":673,
     "part":"Head",
     "cut":50,
     "impact":55,
@@ -10095,7 +10095,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":674,
     "part":"Wing Limbs",
     "cut":45,
     "impact":40,
@@ -10110,7 +10110,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":675,
     "part":"Tail",
     "cut":55,
     "impact":50,
@@ -10125,7 +10125,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":676,
     "part":"Thorax",
     "cut":55,
     "impact":45,
@@ -10140,7 +10140,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":677,
     "part":"Face",
     "cut":80,
     "impact":75,
@@ -10155,7 +10155,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":678,
     "part":"Head",
     "cut":50,
     "impact":55,
@@ -10170,7 +10170,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":679,
     "part":"Neck",
     "cut":30,
     "impact":25,
@@ -10185,7 +10185,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":680,
     "part":"Chest",
     "cut":30,
     "impact":15,
@@ -10200,7 +10200,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":681,
     "part":"Wing",
     "cut":30,
     "impact":25,
@@ -10215,7 +10215,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":682,
     "part":"Back/Tail",
     "cut":10,
     "impact":20,
@@ -10230,7 +10230,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":683,
     "part":"Belly / Legs",
     "cut":20,
     "impact":20,
@@ -10245,7 +10245,7 @@
     "condition":"?"
   },
   {
-    "_id":428,
+    "_id":684,
     "part":"Whole Body",
     "cut":80,
     "impact":110,
