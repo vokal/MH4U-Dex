@@ -15,6 +15,11 @@
 /**
  Update the cell's labels with information based on the DamageZone object passed in.
  */
-- (void)displayContentsWithDamageZone:(DamageZone *)damageZone;
+- (void)displayContentsWithDamageZone:(DamageZone *)damageZone atCategory:(NSUInteger)category;
+
+/**
+ Update the cell's labels with predefined information, to act as a legend/header.
+ */
+- (void)displayHeaderContentsAtIndexPath:(NSIndexPath *)indexPath;
 
 @end
