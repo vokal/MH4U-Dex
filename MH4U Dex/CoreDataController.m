@@ -8,8 +8,6 @@
 
 #import "CoreDataController.h"
 
-#import <NSManagedObjectContext+Hydrate.h>
-
 #import "Constants.h"
 
 #import "Area.h"

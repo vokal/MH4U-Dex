@@ -8,6 +8,8 @@
 
 #import "HomeViewController.h"
 
+#import <MBProgressHUD.h>
+
 #import "CoreDataController.h"
 #import "Strings.h"
 
@@ -26,6 +28,21 @@
 - (IBAction)resetButtonPressed:(id)sender
 {
     [CoreDataController setShouldTriggerReloadUponRestart:YES];
+}
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    
+    [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+    dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+    dispatch_async(queue, ^{
+        [[CoreDataController sharedCDController] tryLoadSequence];
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [MBProgressHUD hideHUDForView:self.view animated:YES];
+        });
+    });
+    
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender

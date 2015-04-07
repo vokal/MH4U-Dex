@@ -6,9 +6,9 @@
 // project.
 
 
-// NSManagedObjectContext-Hydrate
-#define COCOAPODS_POD_AVAILABLE_NSManagedObjectContext_Hydrate
-#define COCOAPODS_VERSION_MAJOR_NSManagedObjectContext_Hydrate 1
-#define COCOAPODS_VERSION_MINOR_NSManagedObjectContext_Hydrate 0
-#define COCOAPODS_VERSION_PATCH_NSManagedObjectContext_Hydrate 4
+// MBProgressHUD
+#define COCOAPODS_POD_AVAILABLE_MBProgressHUD
+#define COCOAPODS_VERSION_MAJOR_MBProgressHUD 0
+#define COCOAPODS_VERSION_MINOR_MBProgressHUD 9
+#define COCOAPODS_VERSION_PATCH_MBProgressHUD 1
 

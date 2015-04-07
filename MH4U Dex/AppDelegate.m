@@ -10,8 +10,6 @@
 
 #import "CoreDataController.h"
 
-#import "HomeViewController.h"
-
 @interface AppDelegate ()
 
 @end
@@ -20,8 +18,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    CoreDataController *coreDataController = [CoreDataController sharedCDController];
-    [coreDataController tryLoadSequence];
     return YES;
 }
 
