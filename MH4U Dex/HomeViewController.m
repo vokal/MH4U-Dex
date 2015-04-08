@@ -35,12 +35,13 @@
     [super viewDidLoad];
     
     [MBProgressHUD showHUDAddedTo:self.view animated:YES];
-    dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+    dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0);
     dispatch_async(queue, ^{
         [[CoreDataController sharedCDController] tryLoadSequence];
-        dispatch_async(dispatch_get_main_queue(), ^{
+        [[NSOperationQueue mainQueue] addOperationWithBlock:^{
+            [[CoreDataController sharedCDController] resetManagedObjectContext];
             [MBProgressHUD hideHUDForView:self.view animated:YES];
-        });
+        }];
     });
     
 }

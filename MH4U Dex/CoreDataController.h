@@ -31,7 +31,14 @@
 /**
  Returns the Unique entity that matches the entityName and predicate, or nil if the entity does not exist, or is not unique.
  */
-- (NSManagedObject *)uniqueEntityWithEntityName:(NSString *)entityName withPredicate:(NSPredicate *)predicate;
+- (NSManagedObject *)uniqueEntityWithEntityName:(NSString *)entityName
+                                  withPredicate:(NSPredicate *)predicate
+                                    withContext:(NSManagedObjectContext *)context;
+
+/**
+ Sets the managedObjectContext to nil so that it can be reset.
+ */
+- (void)resetManagedObjectContext;
 
 #pragma mark - Boilerplate Core Data Code
 
