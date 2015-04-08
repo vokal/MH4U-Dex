@@ -20,7 +20,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="hi2-gC-x51">
-                                <rect key="frame" x="0.0" y="571" width="600" height="29"/>
+                                <rect key="frame" x="30" y="562" width="540" height="29"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="28" id="kKu-ci-poj"/>
                                 </constraints>
@@ -33,30 +34,30 @@
                                 </connections>
                             </segmentedControl>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DGq-JY-Vuu" userLabel="Caravan">
-                                <rect key="frame" x="0.0" y="64" width="600" height="506"/>
+                                <rect key="frame" x="0.0" y="64" width="600" height="488"/>
                                 <connections>
                                     <segue destination="zua-EO-zTb" kind="embed" identifier="showCaravanList" id="MKc-sF-dxr"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rwF-Qs-fQf" userLabel="GatheringHall">
-                                <rect key="frame" x="0.0" y="64" width="600" height="506"/>
+                                <rect key="frame" x="0.0" y="64" width="600" height="488"/>
                                 <connections>
                                     <segue destination="zua-EO-zTb" kind="embed" identifier="showGatheringHallList" id="29O-7M-oxN"/>
                                 </connections>
                             </containerView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="hi2-gC-x51" secondAttribute="centerX" constant="-0.5" id="2Vj-m5-48u"/>
+                            <constraint firstAttribute="centerX" secondItem="hi2-gC-x51" secondAttribute="centerX" id="2Vj-m5-48u"/>
                             <constraint firstItem="DGq-JY-Vuu" firstAttribute="height" secondItem="rwF-Qs-fQf" secondAttribute="height" id="9Qu-Ck-OZy"/>
-                            <constraint firstItem="hi2-gC-x51" firstAttribute="top" secondItem="DGq-JY-Vuu" secondAttribute="bottom" constant="1" id="Eou-YP-WtA"/>
+                            <constraint firstItem="hi2-gC-x51" firstAttribute="top" secondItem="DGq-JY-Vuu" secondAttribute="bottom" constant="10" id="Eou-YP-WtA"/>
                             <constraint firstItem="DGq-JY-Vuu" firstAttribute="width" secondItem="rwF-Qs-fQf" secondAttribute="width" id="Hbl-l0-UDq"/>
-                            <constraint firstItem="hi2-gC-x51" firstAttribute="width" secondItem="Fl2-8H-pMd" secondAttribute="width" id="dtZ-Q6-oss"/>
+                            <constraint firstItem="hi2-gC-x51" firstAttribute="width" secondItem="Fl2-8H-pMd" secondAttribute="width" multiplier="9/10" id="dtZ-Q6-oss"/>
                             <constraint firstItem="DGq-JY-Vuu" firstAttribute="centerY" secondItem="rwF-Qs-fQf" secondAttribute="centerY" id="lbk-yJ-L02"/>
                             <constraint firstAttribute="centerX" secondItem="DGq-JY-Vuu" secondAttribute="centerX" id="r6V-dS-Q6D"/>
                             <constraint firstItem="DGq-JY-Vuu" firstAttribute="width" secondItem="Fl2-8H-pMd" secondAttribute="width" id="sn4-lq-WZa"/>
                             <constraint firstItem="DGq-JY-Vuu" firstAttribute="top" secondItem="9hD-Kl-Gug" secondAttribute="bottom" id="t5N-sZ-tdh"/>
-                            <constraint firstItem="aiB-ap-L3K" firstAttribute="top" secondItem="hi2-gC-x51" secondAttribute="bottom" constant="1" id="u2F-Bn-F89"/>
+                            <constraint firstItem="aiB-ap-L3K" firstAttribute="top" secondItem="hi2-gC-x51" secondAttribute="bottom" constant="10" id="u2F-Bn-F89"/>
                             <constraint firstItem="DGq-JY-Vuu" firstAttribute="centerX" secondItem="rwF-Qs-fQf" secondAttribute="centerX" id="wAJ-vN-ilr"/>
                         </constraints>
                     </view>
@@ -74,7 +75,7 @@
             <objects>
                 <tableViewController id="zua-EO-zTb" customClass="QuestListTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="43" sectionHeaderHeight="22" sectionFooterHeight="22" id="dGl-4d-FGD">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="506"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="488"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
@@ -204,25 +205,25 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zoj-nd-0Bf" userLabel="LowRankDropContainer">
-                                <rect key="frame" x="0.0" y="114" width="600" height="456"/>
+                                <rect key="frame" x="0.0" y="114" width="600" height="438"/>
                                 <connections>
                                     <segue destination="jDA-QE-11i" kind="embed" identifier="embedLowRankRegionItems" id="mCf-Y8-vX3"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C79-9Q-R1N" userLabel="HighRankDropContainer">
-                                <rect key="frame" x="0.0" y="114" width="600" height="456"/>
+                                <rect key="frame" x="0.0" y="114" width="600" height="438"/>
                                 <connections>
                                     <segue destination="jDA-QE-11i" kind="embed" identifier="embedHighRankRegionItems" id="t5b-D9-VWj"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mkv-vf-Zjy" userLabel="GRankDropContainer">
-                                <rect key="frame" x="0.0" y="114" width="600" height="456"/>
+                                <rect key="frame" x="0.0" y="114" width="600" height="438"/>
                                 <connections>
                                     <segue destination="jDA-QE-11i" kind="embed" identifier="embedGRankRegionItems" id="W2D-xv-a7l"/>
                                 </connections>
                             </containerView>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="H3p-SW-Bxj">
-                                <rect key="frame" x="0.0" y="571" width="600" height="29"/>
+                                <rect key="frame" x="30" y="562" width="540" height="29"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="28" id="n4F-BX-thK"/>
@@ -237,11 +238,12 @@
                                 </connections>
                             </segmentedControl>
                         </subviews>
-                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="H3p-SW-Bxj" firstAttribute="width" secondItem="DpF-SY-oC9" secondAttribute="width" multiplier="9/10" id="0Ua-QG-Dup"/>
                             <constraint firstItem="zoj-nd-0Bf" firstAttribute="trailing" secondItem="Mkv-vf-Zjy" secondAttribute="trailing" id="6nD-DD-t4h"/>
                             <constraint firstItem="zoj-nd-0Bf" firstAttribute="width" secondItem="Mkv-vf-Zjy" secondAttribute="width" id="7cg-Vl-bTT"/>
-                            <constraint firstItem="4Ei-Nb-H0z" firstAttribute="top" secondItem="H3p-SW-Bxj" secondAttribute="bottom" constant="1" id="9np-cY-Aed"/>
+                            <constraint firstItem="4Ei-Nb-H0z" firstAttribute="top" secondItem="H3p-SW-Bxj" secondAttribute="bottom" constant="10" id="9np-cY-Aed"/>
                             <constraint firstItem="12S-jo-BsU" firstAttribute="leading" secondItem="DpF-SY-oC9" secondAttribute="leading" constant="20" id="ACD-RK-H90"/>
                             <constraint firstItem="zoj-nd-0Bf" firstAttribute="centerY" secondItem="Mkv-vf-Zjy" secondAttribute="centerY" id="CGD-Hc-ZP7"/>
                             <constraint firstItem="zoj-nd-0Bf" firstAttribute="centerX" secondItem="C79-9Q-R1N" secondAttribute="centerX" id="Ems-Xi-8YK"/>
@@ -252,13 +254,18 @@
                             <constraint firstItem="H3p-SW-Bxj" firstAttribute="width" secondItem="DpF-SY-oC9" secondAttribute="width" id="U1e-fP-d2G"/>
                             <constraint firstItem="zoj-nd-0Bf" firstAttribute="height" secondItem="Mkv-vf-Zjy" secondAttribute="height" id="UNa-Ve-x8K"/>
                             <constraint firstItem="zoj-nd-0Bf" firstAttribute="height" secondItem="C79-9Q-R1N" secondAttribute="height" id="XIX-K0-MPJ"/>
-                            <constraint firstItem="H3p-SW-Bxj" firstAttribute="top" secondItem="zoj-nd-0Bf" secondAttribute="bottom" constant="1" id="ac2-bC-VLX"/>
+                            <constraint firstItem="H3p-SW-Bxj" firstAttribute="top" secondItem="zoj-nd-0Bf" secondAttribute="bottom" constant="10" id="ac2-bC-VLX"/>
                             <constraint firstAttribute="centerX" secondItem="H3p-SW-Bxj" secondAttribute="centerX" id="hA5-4G-mii"/>
                             <constraint firstItem="zoj-nd-0Bf" firstAttribute="top" secondItem="12S-jo-BsU" secondAttribute="bottom" constant="14" id="t9o-Xs-oA7"/>
                             <constraint firstItem="zoj-nd-0Bf" firstAttribute="width" secondItem="C79-9Q-R1N" secondAttribute="width" id="xgU-8d-3sX"/>
                             <constraint firstItem="zoj-nd-0Bf" firstAttribute="centerY" secondItem="C79-9Q-R1N" secondAttribute="centerY" id="yWw-cE-Nax"/>
                             <constraint firstItem="12S-jo-BsU" firstAttribute="top" secondItem="WN5-EI-1Ru" secondAttribute="bottom" constant="15" id="zh8-h8-Mm5"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="U1e-fP-d2G"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <outlet property="regionGRankSubview" destination="Mkv-vf-Zjy" id="fGe-9I-ZAl"/>
@@ -276,7 +283,7 @@
             <objects>
                 <tableViewController id="jDA-QE-11i" customClass="RegionItemTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="45" sectionHeaderHeight="22" sectionFooterHeight="22" id="xSA-6a-RzW">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="456"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="438"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <view key="tableHeaderView" contentMode="scaleToFill" id="8ZX-NM-w2T">
@@ -448,7 +455,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="6Np-Cv-fRb">
-                                <rect key="frame" x="0.0" y="571" width="600" height="29"/>
+                                <rect key="frame" x="30" y="562" width="540" height="29"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <segments>
                                     <segment title="Monster Sources"/>
@@ -472,31 +479,31 @@
                                 </constraints>
                             </imageView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="myc-Rj-JoV" userLabel="Monster Source Container">
-                                <rect key="frame" x="0.0" y="160" width="600" height="410"/>
+                                <rect key="frame" x="0.0" y="160" width="600" height="392"/>
                                 <connections>
                                     <segue destination="n0T-Mc-SlZ" kind="embed" identifier="embedMonsterSources" id="0jB-6V-Ak8"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="quK-cv-pc1" userLabel="Gather Source Container">
-                                <rect key="frame" x="0.0" y="160" width="600" height="410"/>
+                                <rect key="frame" x="0.0" y="160" width="600" height="392"/>
                                 <connections>
                                     <segue destination="n0T-Mc-SlZ" kind="embed" identifier="embedAreaSources" id="cTp-2l-kMX"/>
                                 </connections>
                             </containerView>
                         </subviews>
-                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="wTo-N8-Ssa" firstAttribute="leading" secondItem="yoz-6J-J4K" secondAttribute="leadingMargin" id="5AM-2R-2pB"/>
                             <constraint firstAttribute="trailingMargin" secondItem="myc-Rj-JoV" secondAttribute="trailing" constant="-16" id="7fB-M3-vo8"/>
-                            <constraint firstItem="tZy-sb-DXk" firstAttribute="top" secondItem="6Np-Cv-fRb" secondAttribute="bottom" constant="1" id="AlF-c3-ro2"/>
+                            <constraint firstItem="tZy-sb-DXk" firstAttribute="top" secondItem="6Np-Cv-fRb" secondAttribute="bottom" constant="10" id="AlF-c3-ro2"/>
                             <constraint firstItem="myc-Rj-JoV" firstAttribute="top" secondItem="tWp-HV-Qcd" secondAttribute="bottom" constant="96" id="Bf4-aZ-Z6i"/>
-                            <constraint firstItem="6Np-Cv-fRb" firstAttribute="top" secondItem="myc-Rj-JoV" secondAttribute="bottom" constant="1" id="JWw-ef-bwI"/>
+                            <constraint firstItem="6Np-Cv-fRb" firstAttribute="top" secondItem="myc-Rj-JoV" secondAttribute="bottom" constant="10" id="JWw-ef-bwI"/>
                             <constraint firstItem="tZy-sb-DXk" firstAttribute="top" secondItem="6Np-Cv-fRb" secondAttribute="bottom" id="JZP-Zf-OQe"/>
                             <constraint firstItem="quK-cv-pc1" firstAttribute="centerY" secondItem="myc-Rj-JoV" secondAttribute="centerY" id="KA4-OQ-dHn"/>
                             <constraint firstAttribute="centerX" secondItem="6Np-Cv-fRb" secondAttribute="centerX" id="KdJ-w5-nNG"/>
                             <constraint firstItem="quK-cv-pc1" firstAttribute="top" secondItem="tWp-HV-Qcd" secondAttribute="bottom" constant="96" id="MwI-kc-eAB"/>
                             <constraint firstItem="quK-cv-pc1" firstAttribute="height" secondItem="myc-Rj-JoV" secondAttribute="height" id="dTX-ad-zVF"/>
-                            <constraint firstAttribute="width" secondItem="6Np-Cv-fRb" secondAttribute="width" id="eKM-YC-Ko8"/>
+                            <constraint firstAttribute="width" secondItem="6Np-Cv-fRb" secondAttribute="width" multiplier="10/9" id="eKM-YC-Ko8"/>
                             <constraint firstItem="quK-cv-pc1" firstAttribute="centerX" secondItem="myc-Rj-JoV" secondAttribute="centerX" id="efh-bO-gqE"/>
                             <constraint firstItem="myc-Rj-JoV" firstAttribute="leading" secondItem="yoz-6J-J4K" secondAttribute="leadingMargin" constant="-16" id="tVA-Zf-foM"/>
                             <constraint firstItem="quK-cv-pc1" firstAttribute="width" secondItem="myc-Rj-JoV" secondAttribute="width" id="teD-Yi-4p3"/>
@@ -523,7 +530,7 @@
             <objects>
                 <tableViewController id="n0T-Mc-SlZ" customClass="ItemSourcesTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="45" sectionHeaderHeight="22" sectionFooterHeight="22" id="KHj-aV-Mq3">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="410"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="392"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <view key="tableHeaderView" contentMode="scaleToFill" id="zOL-N3-ei4">
@@ -633,8 +640,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" restorationIdentifier="MonsterOverViewContainer" translatesAutoresizingMaskIntoConstraints="NO" id="Vmj-tc-gSh" userLabel="MonsterOverviewContainer">
+                                <rect key="frame" x="0.0" y="64" width="600" height="488"/>
+                                <connections>
+                                    <segue destination="Rgf-BT-g7X" kind="embed" identifier="embedOverview" id="PCD-AL-v2L"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" restorationIdentifier="MonsterLowRankContainer" translatesAutoresizingMaskIntoConstraints="NO" id="8JQ-yt-UGq" userLabel="MonsterLowRankContainer">
+                                <rect key="frame" x="0.0" y="64" width="600" height="488"/>
+                                <connections>
+                                    <segue destination="PJK-g0-5c6" kind="embed" identifier="embedLowRank" id="lL3-k8-0fN"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" restorationIdentifier="MonsterHighRankContainer" translatesAutoresizingMaskIntoConstraints="NO" id="HQ6-Ef-TMG" userLabel="MonsterHighRankContainer">
+                                <rect key="frame" x="0.0" y="64" width="600" height="488"/>
+                                <connections>
+                                    <segue destination="PJK-g0-5c6" kind="embed" identifier="embedHighRank" id="Q4G-NL-56b"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" restorationIdentifier="MonsterGRankContainer" translatesAutoresizingMaskIntoConstraints="NO" id="kuM-h9-52H" userLabel="MonsterGRankContainer">
+                                <rect key="frame" x="0.0" y="64" width="600" height="488"/>
+                                <connections>
+                                    <segue destination="PJK-g0-5c6" kind="embed" identifier="embedGRank" id="OWj-AQ-QBO"/>
+                                </connections>
+                            </containerView>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="LqV-qk-bVx">
-                                <rect key="frame" x="0.0" y="571" width="600" height="29"/>
+                                <rect key="frame" x="30" y="562" width="540" height="29"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <segments>
                                     <segment title="Overview"/>
                                     <segment title="Low-Rank"/>
@@ -645,37 +677,13 @@
                                     <action selector="segmentedControlChanged:" destination="2UP-qa-Qp3" eventType="valueChanged" id="cfR-k8-k5x"/>
                                 </connections>
                             </segmentedControl>
-                            <containerView opaque="NO" contentMode="scaleToFill" restorationIdentifier="MonsterOverViewContainer" translatesAutoresizingMaskIntoConstraints="NO" id="Vmj-tc-gSh" userLabel="MonsterOverviewContainer">
-                                <rect key="frame" x="0.0" y="64" width="600" height="506"/>
-                                <connections>
-                                    <segue destination="Rgf-BT-g7X" kind="embed" identifier="embedOverview" id="PCD-AL-v2L"/>
-                                </connections>
-                            </containerView>
-                            <containerView opaque="NO" contentMode="scaleToFill" restorationIdentifier="MonsterLowRankContainer" translatesAutoresizingMaskIntoConstraints="NO" id="8JQ-yt-UGq" userLabel="MonsterLowRankContainer">
-                                <rect key="frame" x="0.0" y="64" width="600" height="506"/>
-                                <connections>
-                                    <segue destination="PJK-g0-5c6" kind="embed" identifier="embedLowRank" id="lL3-k8-0fN"/>
-                                </connections>
-                            </containerView>
-                            <containerView opaque="NO" contentMode="scaleToFill" restorationIdentifier="MonsterHighRankContainer" translatesAutoresizingMaskIntoConstraints="NO" id="HQ6-Ef-TMG" userLabel="MonsterHighRankContainer">
-                                <rect key="frame" x="0.0" y="64" width="600" height="506"/>
-                                <connections>
-                                    <segue destination="PJK-g0-5c6" kind="embed" identifier="embedHighRank" id="Q4G-NL-56b"/>
-                                </connections>
-                            </containerView>
-                            <containerView opaque="NO" contentMode="scaleToFill" restorationIdentifier="MonsterGRankContainer" translatesAutoresizingMaskIntoConstraints="NO" id="kuM-h9-52H" userLabel="MonsterGRankContainer">
-                                <rect key="frame" x="0.0" y="64" width="600" height="506"/>
-                                <connections>
-                                    <segue destination="PJK-g0-5c6" kind="embed" identifier="embedGRank" id="OWj-AQ-QBO"/>
-                                </connections>
-                            </containerView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="fmB-Sh-Qwq" firstAttribute="top" secondItem="LqV-qk-bVx" secondAttribute="bottom" constant="1" id="9RL-He-vOj"/>
+                            <constraint firstItem="fmB-Sh-Qwq" firstAttribute="top" secondItem="LqV-qk-bVx" secondAttribute="bottom" constant="10" id="9RL-He-vOj"/>
                             <constraint firstItem="8JQ-yt-UGq" firstAttribute="centerX" secondItem="HQ6-Ef-TMG" secondAttribute="centerX" id="9YR-ku-HZE"/>
                             <constraint firstAttribute="trailingMargin" secondItem="8JQ-yt-UGq" secondAttribute="trailing" constant="-16" id="9up-Ro-szR"/>
-                            <constraint firstItem="LqV-qk-bVx" firstAttribute="top" secondItem="8JQ-yt-UGq" secondAttribute="bottom" constant="1" id="BPA-rp-GVN"/>
+                            <constraint firstItem="LqV-qk-bVx" firstAttribute="top" secondItem="8JQ-yt-UGq" secondAttribute="bottom" constant="10" id="BPA-rp-GVN"/>
                             <constraint firstItem="8JQ-yt-UGq" firstAttribute="leading" secondItem="E4a-6Z-bdR" secondAttribute="leadingMargin" constant="-16" id="BUx-ZJ-EhK"/>
                             <constraint firstAttribute="centerX" secondItem="LqV-qk-bVx" secondAttribute="centerX" id="FVC-Em-r8Z"/>
                             <constraint firstItem="LqV-qk-bVx" firstAttribute="leading" secondItem="E4a-6Z-bdR" secondAttribute="leading" id="HoK-7n-nHV"/>
@@ -684,14 +692,20 @@
                             <constraint firstItem="8JQ-yt-UGq" firstAttribute="height" secondItem="HQ6-Ef-TMG" secondAttribute="height" id="VPH-EQ-tCS"/>
                             <constraint firstItem="Vmj-tc-gSh" firstAttribute="top" secondItem="2DX-GU-ruT" secondAttribute="bottom" id="YD6-aj-gm3"/>
                             <constraint firstItem="8JQ-yt-UGq" firstAttribute="centerX" secondItem="kuM-h9-52H" secondAttribute="centerX" id="YvT-eJ-whM"/>
-                            <constraint firstItem="LqV-qk-bVx" firstAttribute="top" secondItem="Vmj-tc-gSh" secondAttribute="bottom" constant="1" id="ZF3-bl-9gl"/>
+                            <constraint firstItem="LqV-qk-bVx" firstAttribute="top" secondItem="Vmj-tc-gSh" secondAttribute="bottom" constant="10" id="ZF3-bl-9gl"/>
                             <constraint firstItem="8JQ-yt-UGq" firstAttribute="centerY" secondItem="HQ6-Ef-TMG" secondAttribute="centerY" id="bAY-96-aDq"/>
                             <constraint firstItem="8JQ-yt-UGq" firstAttribute="width" secondItem="HQ6-Ef-TMG" secondAttribute="width" id="hgv-mz-Tsf"/>
                             <constraint firstItem="8JQ-yt-UGq" firstAttribute="width" secondItem="kuM-h9-52H" secondAttribute="width" id="ijz-6d-J7y"/>
                             <constraint firstAttribute="trailing" secondItem="Vmj-tc-gSh" secondAttribute="trailing" id="sQI-Sv-LMb"/>
+                            <constraint firstItem="LqV-qk-bVx" firstAttribute="width" secondItem="E4a-6Z-bdR" secondAttribute="width" multiplier="9/10" id="wTg-h4-awI"/>
                             <constraint firstItem="Vmj-tc-gSh" firstAttribute="leading" secondItem="E4a-6Z-bdR" secondAttribute="leading" id="wkL-jT-HcG"/>
                             <constraint firstItem="8JQ-yt-UGq" firstAttribute="top" secondItem="2DX-GU-ruT" secondAttribute="bottom" id="ybL-dN-e2u"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="HoK-7n-nHV"/>
+                            </mask>
+                        </variation>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="search" id="dpB-D9-Vwk"/>
                     <navigationItem key="navigationItem" title="Monster Details" id="TGc-CV-55I" userLabel="Monster Details"/>
@@ -712,7 +726,7 @@
             <objects>
                 <tableViewController id="PJK-g0-5c6" customClass="MonsterItemTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Vss-k8-IJt">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="506"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="488"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <view key="tableHeaderView" contentMode="scaleToFill" id="1mv-Vm-ewZ">
@@ -972,7 +986,7 @@
             <objects>
                 <collectionViewController id="ZJS-Gc-JfR" customClass="DamageZonesCollectionViewController" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="N9d-LP-SUD">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="417"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="399"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.90135732319999995" green="0.90135732319999995" blue="0.90135732319999995" alpha="1" colorSpace="calibratedRGB"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="1" minimumInteritemSpacing="1" id="ePI-gN-zIW">
@@ -1032,7 +1046,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Ge9-zL-egu"/>
                     </layoutGuides>
                     <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="MonsterOverview" id="ada-ae-MY1">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="506"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="488"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Monster Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="37M-4V-9L4">
@@ -1049,7 +1063,7 @@
                                 </constraints>
                             </imageView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FJB-gP-L0c" userLabel="Damage Zones">
-                                <rect key="frame" x="0.0" y="89" width="600" height="417"/>
+                                <rect key="frame" x="0.0" y="89" width="600" height="399"/>
                                 <connections>
                                     <segue destination="ZJS-Gc-JfR" kind="embed" identifier="embedDamageZones" id="KGe-Lw-sxI"/>
                                 </connections>
