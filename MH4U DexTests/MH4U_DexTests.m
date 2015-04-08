@@ -71,7 +71,7 @@ static const NSString *InvalidMonsterName = @"Volvidon";
 {
     NSPredicate *predicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterAttributes.name, InvalidMonsterName];
     Monster *monster = (Monster *)[[CoreDataController sharedCDController]
-                                   uniqueEntityWithEntityName:[Monster entityName] withPredicate:predicate];
+                                   uniqueEntityWithEntityName:[Monster entityName] withPredicate:predicate withContext:[CoreDataController sharedCDController].managedObjectContext];
     XCTAssertNil(monster);
 }
 
