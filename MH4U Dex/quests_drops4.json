@@ -1,0 +1,6698 @@
+[
+  {
+    "dropID":2157,
+    "questID":45,
+    "row":"A",
+    "item":"Raw Meat",
+    "quantity":2,
+    "percent":"25%"
+  },
+  {
+    "dropID":2158,
+    "questID":45,
+    "row":"A",
+    "item":"Mystery Bone",
+    "quantity":1,
+    "percent":"20%"
+  },
+  {
+    "dropID":2159,
+    "questID":45,
+    "row":"A",
+    "item":"Worm",
+    "quantity":1,
+    "percent":"20%"
+  },
+  {
+    "dropID":2160,
+    "questID":45,
+    "row":"A",
+    "item":"Whetstone",
+    "quantity":2,
+    "percent":"20%"
+  },
+  {
+    "dropID":2161,
+    "questID":45,
+    "row":"A",
+    "item":"Power Nectar: Fire",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2162,
+    "questID":45,
+    "row":"A",
+    "item":"Stam Nectar: Water",
+    "quantity":1,
+    "percent":"5%"
+  },
+  {
+    "dropID":2163,
+    "questID":46,
+    "row":"A",
+    "item":"Raw Meat",
+    "quantity":2,
+    "percent":"25%"
+  },
+  {
+    "dropID":2164,
+    "questID":46,
+    "row":"A",
+    "item":"Mystery Bone",
+    "quantity":1,
+    "percent":"20%"
+  },
+  {
+    "dropID":2165,
+    "questID":46,
+    "row":"A",
+    "item":"Worm",
+    "quantity":1,
+    "percent":"20%"
+  },
+  {
+    "dropID":2166,
+    "questID":46,
+    "row":"A",
+    "item":"Whetstone",
+    "quantity":2,
+    "percent":"20%"
+  },
+  {
+    "dropID":2167,
+    "questID":46,
+    "row":"A",
+    "item":"Power Nectar: Fire",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2168,
+    "questID":46,
+    "row":"A",
+    "item":"Stam Nectar: Water",
+    "quantity":1,
+    "percent":"5%"
+  },
+  {
+    "dropID":2169,
+    "questID":47,
+    "row":"A",
+    "item":"Nerscylla Shell",
+    "quantity":1,
+    "percent":"28%"
+  },
+  {
+    "dropID":2170,
+    "questID":47,
+    "row":"A",
+    "item":"Nerscylla Claw",
+    "quantity":1,
+    "percent":"19%"
+  },
+  {
+    "dropID":2171,
+    "questID":47,
+    "row":"A",
+    "item":"Nerscylla Chelicera",
+    "quantity":1,
+    "percent":"16%"
+  },
+  {
+    "dropID":2172,
+    "questID":47,
+    "row":"A",
+    "item":"Sleep Sac",
+    "quantity":1,
+    "percent":"15%"
+  },
+  {
+    "dropID":2173,
+    "questID":47,
+    "row":"A",
+    "item":"Monster Fluid",
+    "quantity":2,
+    "percent":"12%"
+  },
+  {
+    "dropID":2174,
+    "questID":47,
+    "row":"A",
+    "item":"Nerscylla Spike",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2175,
+    "questID":47,
+    "row":"B",
+    "item":"Iron Ore",
+    "quantity":1,
+    "percent":"14%"
+  },
+  {
+    "dropID":2176,
+    "questID":47,
+    "row":"B",
+    "item":"Antidote Herb",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2177,
+    "questID":47,
+    "row":"B",
+    "item":"Fire Herb",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2178,
+    "questID":47,
+    "row":"B",
+    "item":"Spider Web",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2179,
+    "questID":47,
+    "row":"B",
+    "item":"Gloamgrass Root",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2180,
+    "questID":47,
+    "row":"B",
+    "item":"Armor Sphere",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2181,
+    "questID":47,
+    "row":"B",
+    "item":"Stam Nectar: Water",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2182,
+    "questID":47,
+    "row":"B",
+    "item":"Mystery Bone",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2183,
+    "questID":47,
+    "row":"B",
+    "item":"Glueglopper",
+    "quantity":1,
+    "percent":"6%"
+  },
+  {
+    "dropID":2184,
+    "questID":47,
+    "row":"B",
+    "item":"Spd Nectar: Thunder",
+    "quantity":1,
+    "percent":"6%"
+  },
+  {
+    "dropID":2185,
+    "questID":47,
+    "row":"B",
+    "item":"Stamina+ Nectar",
+    "quantity":1,
+    "percent":"4%"
+  },
+  {
+    "dropID":2186,
+    "questID":47,
+    "row":"Sub",
+    "item":"Iron Ore",
+    "quantity":1,
+    "percent":"14%"
+  },
+  {
+    "dropID":2187,
+    "questID":47,
+    "row":"Sub",
+    "item":"Antidote Herb",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2188,
+    "questID":47,
+    "row":"Sub",
+    "item":"Fire Herb",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2189,
+    "questID":47,
+    "row":"Sub",
+    "item":"Spider Web",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2190,
+    "questID":47,
+    "row":"Sub",
+    "item":"Gloamgrass Root",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2191,
+    "questID":47,
+    "row":"Sub",
+    "item":"Armor Sphere",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2192,
+    "questID":47,
+    "row":"Sub",
+    "item":"Stam Nectar: Water",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2193,
+    "questID":47,
+    "row":"Sub",
+    "item":"Mystery Bone",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2194,
+    "questID":47,
+    "row":"Sub",
+    "item":"Glueglopper",
+    "quantity":1,
+    "percent":"6%"
+  },
+  {
+    "dropID":2195,
+    "questID":47,
+    "row":"Sub",
+    "item":"Spd Nectar: Thunder",
+    "quantity":1,
+    "percent":"6%"
+  },
+  {
+    "dropID":2196,
+    "questID":47,
+    "row":"Sub",
+    "item":"Stamina+ Nectar",
+    "quantity":1,
+    "percent":"4%"
+  },
+  {
+    "dropID":2197,
+    "questID":48,
+    "row":"A",
+    "item":"Congalala Fang",
+    "quantity":1,
+    "percent":"42%"
+  },
+  {
+    "dropID":2198,
+    "questID":48,
+    "row":"A",
+    "item":"Congalala Pelt",
+    "quantity":1,
+    "percent":"28%"
+  },
+  {
+    "dropID":2199,
+    "questID":48,
+    "row":"A",
+    "item":"Congalala Claw",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2200,
+    "questID":48,
+    "row":"A",
+    "item":"Jumbo Bone",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2201,
+    "questID":48,
+    "row":"A",
+    "item":"Vibrant Pelt",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2202,
+    "questID":48,
+    "row":"B",
+    "item":"Toadstool",
+    "quantity":1,
+    "percent":"15%"
+  },
+  {
+    "dropID":2203,
+    "questID":48,
+    "row":"B",
+    "item":"Flashbug",
+    "quantity":1,
+    "percent":"15%"
+  },
+  {
+    "dropID":2204,
+    "questID":48,
+    "row":"B",
+    "item":"Armor Sphere",
+    "quantity":1,
+    "percent":"15%"
+  },
+  {
+    "dropID":2205,
+    "questID":48,
+    "row":"B",
+    "item":"Bone Husk",
+    "quantity":2,
+    "percent":"12%"
+  },
+  {
+    "dropID":2206,
+    "questID":48,
+    "row":"B",
+    "item":"Hot Pepper",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2207,
+    "questID":48,
+    "row":"B",
+    "item":"Killer Beetle",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2208,
+    "questID":48,
+    "row":"B",
+    "item":"Spd Nectar: Thunder",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2209,
+    "questID":48,
+    "row":"B",
+    "item":"Speed Nectar: Ice",
+    "quantity":1,
+    "percent":"6%"
+  },
+  {
+    "dropID":2210,
+    "questID":48,
+    "row":"B",
+    "item":"Speed+ Nectar",
+    "quantity":1,
+    "percent":"4%"
+  },
+  {
+    "dropID":2211,
+    "questID":48,
+    "row":"B",
+    "item":"Mystery Charm",
+    "quantity":1,
+    "percent":"3%"
+  },
+  {
+    "dropID":2212,
+    "questID":48,
+    "row":"Sub",
+    "item":"Toadstool",
+    "quantity":1,
+    "percent":"15%"
+  },
+  {
+    "dropID":2213,
+    "questID":48,
+    "row":"Sub",
+    "item":"Flashbug",
+    "quantity":1,
+    "percent":"15%"
+  },
+  {
+    "dropID":2214,
+    "questID":48,
+    "row":"Sub",
+    "item":"Armor Sphere",
+    "quantity":1,
+    "percent":"15%"
+  },
+  {
+    "dropID":2215,
+    "questID":48,
+    "row":"Sub",
+    "item":"Bone Husk",
+    "quantity":2,
+    "percent":"12%"
+  },
+  {
+    "dropID":2216,
+    "questID":48,
+    "row":"Sub",
+    "item":"Hot Pepper",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2217,
+    "questID":48,
+    "row":"Sub",
+    "item":"Killer Beetle",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2218,
+    "questID":48,
+    "row":"Sub",
+    "item":"Spd Nectar: Thunder",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2219,
+    "questID":48,
+    "row":"Sub",
+    "item":"Speed Nectar: Ice",
+    "quantity":1,
+    "percent":"6%"
+  },
+  {
+    "dropID":2220,
+    "questID":48,
+    "row":"Sub",
+    "item":"Speed+ Nectar",
+    "quantity":1,
+    "percent":"4%"
+  },
+  {
+    "dropID":2221,
+    "questID":48,
+    "row":"Sub",
+    "item":"Mystery Charm",
+    "quantity":1,
+    "percent":"3%"
+  },
+  {
+    "dropID":2222,
+    "questID":49,
+    "row":"A",
+    "item":"Congalala Fang",
+    "quantity":1,
+    "percent":"42%"
+  },
+  {
+    "dropID":2223,
+    "questID":49,
+    "row":"A",
+    "item":"Congalala Pelt",
+    "quantity":1,
+    "percent":"28%"
+  },
+  {
+    "dropID":2224,
+    "questID":49,
+    "row":"A",
+    "item":"Congalala Claw",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2225,
+    "questID":49,
+    "row":"A",
+    "item":"Jumbo Bone",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2226,
+    "questID":49,
+    "row":"A",
+    "item":"Vibrant Pelt",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2227,
+    "questID":49,
+    "row":"B",
+    "item":"Toadstool",
+    "quantity":1,
+    "percent":"15%"
+  },
+  {
+    "dropID":2228,
+    "questID":49,
+    "row":"B",
+    "item":"Flashbug",
+    "quantity":1,
+    "percent":"15%"
+  },
+  {
+    "dropID":2229,
+    "questID":49,
+    "row":"B",
+    "item":"Armor Sphere",
+    "quantity":1,
+    "percent":"15%"
+  },
+  {
+    "dropID":2230,
+    "questID":49,
+    "row":"B",
+    "item":"Bone Husk",
+    "quantity":2,
+    "percent":"12%"
+  },
+  {
+    "dropID":2231,
+    "questID":49,
+    "row":"B",
+    "item":"Hot Pepper",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2232,
+    "questID":49,
+    "row":"B",
+    "item":"Killer Beetle",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2233,
+    "questID":49,
+    "row":"B",
+    "item":"Spd Nectar: Thunder",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2234,
+    "questID":49,
+    "row":"B",
+    "item":"Speed Nectar: Ice",
+    "quantity":1,
+    "percent":"6%"
+  },
+  {
+    "dropID":2235,
+    "questID":49,
+    "row":"B",
+    "item":"Speed+ Nectar",
+    "quantity":1,
+    "percent":"4%"
+  },
+  {
+    "dropID":2236,
+    "questID":49,
+    "row":"B",
+    "item":"Mystery Charm",
+    "quantity":1,
+    "percent":"3%"
+  },
+  {
+    "dropID":2237,
+    "questID":49,
+    "row":"Sub",
+    "item":"Toadstool",
+    "quantity":1,
+    "percent":"15%"
+  },
+  {
+    "dropID":2238,
+    "questID":49,
+    "row":"Sub",
+    "item":"Flashbug",
+    "quantity":1,
+    "percent":"15%"
+  },
+  {
+    "dropID":2239,
+    "questID":49,
+    "row":"Sub",
+    "item":"Armor Sphere",
+    "quantity":1,
+    "percent":"15%"
+  },
+  {
+    "dropID":2240,
+    "questID":49,
+    "row":"Sub",
+    "item":"Bone Husk",
+    "quantity":2,
+    "percent":"12%"
+  },
+  {
+    "dropID":2241,
+    "questID":49,
+    "row":"Sub",
+    "item":"Hot Pepper",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2242,
+    "questID":49,
+    "row":"Sub",
+    "item":"Killer Beetle",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2243,
+    "questID":49,
+    "row":"Sub",
+    "item":"Spd Nectar: Thunder",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2244,
+    "questID":49,
+    "row":"Sub",
+    "item":"Speed Nectar: Ice",
+    "quantity":1,
+    "percent":"6%"
+  },
+  {
+    "dropID":2245,
+    "questID":49,
+    "row":"Sub",
+    "item":"Speed+ Nectar",
+    "quantity":1,
+    "percent":"4%"
+  },
+  {
+    "dropID":2246,
+    "questID":49,
+    "row":"Sub",
+    "item":"Mystery Charm",
+    "quantity":1,
+    "percent":"3%"
+  },
+  {
+    "dropID":2247,
+    "questID":50,
+    "row":"A",
+    "item":"Slagtoth Hide",
+    "quantity":1,
+    "percent":"32%"
+  },
+  {
+    "dropID":2248,
+    "questID":50,
+    "row":"A",
+    "item":"Raw Meat",
+    "quantity":1,
+    "percent":"25%"
+  },
+  {
+    "dropID":2249,
+    "questID":50,
+    "row":"A",
+    "item":"Monster Bone S",
+    "quantity":2,
+    "percent":"16%"
+  },
+  {
+    "dropID":2250,
+    "questID":50,
+    "row":"A",
+    "item":"Monster Bone M",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2251,
+    "questID":50,
+    "row":"A",
+    "item":"Blue Mushroom",
+    "quantity":3,
+    "percent":"9%"
+  },
+  {
+    "dropID":2252,
+    "questID":50,
+    "row":"A",
+    "item":"Parashroom",
+    "quantity":2,
+    "percent":"8%"
+  },
+  {
+    "dropID":2253,
+    "questID":50,
+    "row":"B",
+    "item":"Toadstool",
+    "quantity":1,
+    "percent":"15%"
+  },
+  {
+    "dropID":2254,
+    "questID":50,
+    "row":"B",
+    "item":"Flashbug",
+    "quantity":1,
+    "percent":"15%"
+  },
+  {
+    "dropID":2255,
+    "questID":50,
+    "row":"B",
+    "item":"Armor Sphere",
+    "quantity":1,
+    "percent":"15%"
+  },
+  {
+    "dropID":2256,
+    "questID":50,
+    "row":"B",
+    "item":"Bone Husk",
+    "quantity":2,
+    "percent":"12%"
+  },
+  {
+    "dropID":2257,
+    "questID":50,
+    "row":"B",
+    "item":"Hot Pepper",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2258,
+    "questID":50,
+    "row":"B",
+    "item":"Killer Beetle",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2259,
+    "questID":50,
+    "row":"B",
+    "item":"Spd Nectar: Thunder",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2260,
+    "questID":50,
+    "row":"B",
+    "item":"Speed Nectar: Ice",
+    "quantity":1,
+    "percent":"6%"
+  },
+  {
+    "dropID":2261,
+    "questID":50,
+    "row":"B",
+    "item":"Speed+ Nectar",
+    "quantity":1,
+    "percent":"4%"
+  },
+  {
+    "dropID":2262,
+    "questID":50,
+    "row":"B",
+    "item":"Mystery Charm",
+    "quantity":1,
+    "percent":"3%"
+  },
+  {
+    "dropID":2263,
+    "questID":50,
+    "row":"Sub",
+    "item":"Toadstool",
+    "quantity":1,
+    "percent":"15%"
+  },
+  {
+    "dropID":2264,
+    "questID":50,
+    "row":"Sub",
+    "item":"Flashbug",
+    "quantity":1,
+    "percent":"15%"
+  },
+  {
+    "dropID":2265,
+    "questID":50,
+    "row":"Sub",
+    "item":"Armor Sphere",
+    "quantity":1,
+    "percent":"15%"
+  },
+  {
+    "dropID":2266,
+    "questID":50,
+    "row":"Sub",
+    "item":"Bone Husk",
+    "quantity":2,
+    "percent":"12%"
+  },
+  {
+    "dropID":2267,
+    "questID":50,
+    "row":"Sub",
+    "item":"Hot Pepper",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2268,
+    "questID":50,
+    "row":"Sub",
+    "item":"Killer Beetle",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2269,
+    "questID":50,
+    "row":"Sub",
+    "item":"Spd Nectar: Thunder",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2270,
+    "questID":50,
+    "row":"Sub",
+    "item":"Speed Nectar: Ice",
+    "quantity":1,
+    "percent":"6%"
+  },
+  {
+    "dropID":2271,
+    "questID":50,
+    "row":"Sub",
+    "item":"Speed+ Nectar",
+    "quantity":1,
+    "percent":"4%"
+  },
+  {
+    "dropID":2272,
+    "questID":50,
+    "row":"Sub",
+    "item":"Mystery Charm",
+    "quantity":1,
+    "percent":"3%"
+  },
+  {
+    "dropID":2273,
+    "questID":51,
+    "row":"A",
+    "item":"Meaty Hide",
+    "quantity":1,
+    "percent":"31%"
+  },
+  {
+    "dropID":2274,
+    "questID":51,
+    "row":"A",
+    "item":"Sharqskin Scale",
+    "quantity":1,
+    "percent":"20%"
+  },
+  {
+    "dropID":2275,
+    "questID":51,
+    "row":"A",
+    "item":"Meaty Hide",
+    "quantity":2,
+    "percent":"15%"
+  },
+  {
+    "dropID":2276,
+    "questID":51,
+    "row":"A",
+    "item":"Sharp Fang",
+    "quantity":1,
+    "percent":"14%"
+  },
+  {
+    "dropID":2277,
+    "questID":51,
+    "row":"A",
+    "item":"Ice Crystal",
+    "quantity":2,
+    "percent":"12%"
+  },
+  {
+    "dropID":2278,
+    "questID":51,
+    "row":"A",
+    "item":"Ice Crystal",
+    "quantity":3,
+    "percent":"8%"
+  },
+  {
+    "dropID":2279,
+    "questID":51,
+    "row":"B",
+    "item":"Armor Sphere",
+    "quantity":1,
+    "percent":"15%"
+  },
+  {
+    "dropID":2280,
+    "questID":51,
+    "row":"B",
+    "item":"Ice Crystal",
+    "quantity":1,
+    "percent":"14%"
+  },
+  {
+    "dropID":2281,
+    "questID":51,
+    "row":"B",
+    "item":"Machalite Ore",
+    "quantity":1,
+    "percent":"14%"
+  },
+  {
+    "dropID":2282,
+    "questID":51,
+    "row":"B",
+    "item":"Sleep Herb",
+    "quantity":1,
+    "percent":"13%"
+  },
+  {
+    "dropID":2283,
+    "questID":51,
+    "row":"B",
+    "item":"Speed Nectar: Ice",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2284,
+    "questID":51,
+    "row":"B",
+    "item":"Unknown Skull",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2285,
+    "questID":51,
+    "row":"B",
+    "item":"Aquaglow Jewel",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2286,
+    "questID":51,
+    "row":"B",
+    "item":"Stam Nectar: Dragon",
+    "quantity":1,
+    "percent":"6%"
+  },
+  {
+    "dropID":2287,
+    "questID":51,
+    "row":"B",
+    "item":"Lightcrystal",
+    "quantity":1,
+    "percent":"5%"
+  },
+  {
+    "dropID":2288,
+    "questID":51,
+    "row":"B",
+    "item":"Nectar: Fire+",
+    "quantity":1,
+    "percent":"4%"
+  },
+  {
+    "dropID":2289,
+    "questID":51,
+    "row":"B",
+    "item":"Mystery Charm",
+    "quantity":1,
+    "percent":"3%"
+  },
+  {
+    "dropID":2290,
+    "questID":51,
+    "row":"Sub",
+    "item":"Armor Sphere",
+    "quantity":1,
+    "percent":"15%"
+  },
+  {
+    "dropID":2291,
+    "questID":51,
+    "row":"Sub",
+    "item":"Ice Crystal",
+    "quantity":1,
+    "percent":"14%"
+  },
+  {
+    "dropID":2292,
+    "questID":51,
+    "row":"Sub",
+    "item":"Machalite Ore",
+    "quantity":1,
+    "percent":"14%"
+  },
+  {
+    "dropID":2293,
+    "questID":51,
+    "row":"Sub",
+    "item":"Sleep Herb",
+    "quantity":1,
+    "percent":"13%"
+  },
+  {
+    "dropID":2294,
+    "questID":51,
+    "row":"Sub",
+    "item":"Speed Nectar: Ice",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2295,
+    "questID":51,
+    "row":"Sub",
+    "item":"Unknown Skull",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2296,
+    "questID":51,
+    "row":"Sub",
+    "item":"Aquaglow Jewel",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2297,
+    "questID":51,
+    "row":"Sub",
+    "item":"Stam Nectar: Dragon",
+    "quantity":1,
+    "percent":"6%"
+  },
+  {
+    "dropID":2298,
+    "questID":51,
+    "row":"Sub",
+    "item":"Lightcrystal",
+    "quantity":1,
+    "percent":"5%"
+  },
+  {
+    "dropID":2299,
+    "questID":51,
+    "row":"Sub",
+    "item":"Nectar: Fire+",
+    "quantity":1,
+    "percent":"4%"
+  },
+  {
+    "dropID":2300,
+    "questID":51,
+    "row":"Sub",
+    "item":"Mystery Charm",
+    "quantity":1,
+    "percent":"3%"
+  },
+  {
+    "dropID":2301,
+    "questID":52,
+    "row":"A",
+    "item":"Zamtrios Hide",
+    "quantity":1,
+    "percent":"22%"
+  },
+  {
+    "dropID":2302,
+    "questID":52,
+    "row":"A",
+    "item":"Zamtrios Fin",
+    "quantity":1,
+    "percent":"16%"
+  },
+  {
+    "dropID":2303,
+    "questID":52,
+    "row":"A",
+    "item":"Zamtrios Scale",
+    "quantity":1,
+    "percent":"16%"
+  },
+  {
+    "dropID":2304,
+    "questID":52,
+    "row":"A",
+    "item":"Frost Sac",
+    "quantity":1,
+    "percent":"14%"
+  },
+  {
+    "dropID":2305,
+    "questID":52,
+    "row":"A",
+    "item":"Zamtrios Sawtooth",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2306,
+    "questID":52,
+    "row":"A",
+    "item":"Paddock Oil",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2307,
+    "questID":52,
+    "row":"A",
+    "item":"Jumbo Bone",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2308,
+    "questID":52,
+    "row":"B",
+    "item":"Armor Sphere",
+    "quantity":1,
+    "percent":"15%"
+  },
+  {
+    "dropID":2309,
+    "questID":52,
+    "row":"B",
+    "item":"Ice Crystal",
+    "quantity":1,
+    "percent":"14%"
+  },
+  {
+    "dropID":2310,
+    "questID":52,
+    "row":"B",
+    "item":"Machalite Ore",
+    "quantity":1,
+    "percent":"14%"
+  },
+  {
+    "dropID":2311,
+    "questID":52,
+    "row":"B",
+    "item":"Sleep Herb",
+    "quantity":1,
+    "percent":"13%"
+  },
+  {
+    "dropID":2312,
+    "questID":52,
+    "row":"B",
+    "item":"Speed Nectar: Ice",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2313,
+    "questID":52,
+    "row":"B",
+    "item":"Unknown Skull",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2314,
+    "questID":52,
+    "row":"B",
+    "item":"Aquaglow Jewel",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2315,
+    "questID":52,
+    "row":"B",
+    "item":"Stam Nectar: Dragon",
+    "quantity":1,
+    "percent":"6%"
+  },
+  {
+    "dropID":2316,
+    "questID":52,
+    "row":"B",
+    "item":"Lightcrystal",
+    "quantity":1,
+    "percent":"5%"
+  },
+  {
+    "dropID":2317,
+    "questID":52,
+    "row":"B",
+    "item":"Nectar: Fire+",
+    "quantity":1,
+    "percent":"4%"
+  },
+  {
+    "dropID":2318,
+    "questID":52,
+    "row":"B",
+    "item":"Mystery Charm",
+    "quantity":1,
+    "percent":"3%"
+  },
+  {
+    "dropID":2319,
+    "questID":52,
+    "row":"Sub",
+    "item":"Armor Sphere",
+    "quantity":1,
+    "percent":"15%"
+  },
+  {
+    "dropID":2320,
+    "questID":52,
+    "row":"Sub",
+    "item":"Ice Crystal",
+    "quantity":1,
+    "percent":"14%"
+  },
+  {
+    "dropID":2321,
+    "questID":52,
+    "row":"Sub",
+    "item":"Machalite Ore",
+    "quantity":1,
+    "percent":"14%"
+  },
+  {
+    "dropID":2322,
+    "questID":52,
+    "row":"Sub",
+    "item":"Sleep Herb",
+    "quantity":1,
+    "percent":"13%"
+  },
+  {
+    "dropID":2323,
+    "questID":52,
+    "row":"Sub",
+    "item":"Speed Nectar: Ice",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2324,
+    "questID":52,
+    "row":"Sub",
+    "item":"Unknown Skull",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2325,
+    "questID":52,
+    "row":"Sub",
+    "item":"Aquaglow Jewel",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2326,
+    "questID":52,
+    "row":"Sub",
+    "item":"Stam Nectar: Dragon",
+    "quantity":1,
+    "percent":"6%"
+  },
+  {
+    "dropID":2327,
+    "questID":52,
+    "row":"Sub",
+    "item":"Lightcrystal",
+    "quantity":1,
+    "percent":"5%"
+  },
+  {
+    "dropID":2328,
+    "questID":52,
+    "row":"Sub",
+    "item":"Nectar: Fire+",
+    "quantity":1,
+    "percent":"4%"
+  },
+  {
+    "dropID":2329,
+    "questID":52,
+    "row":"Sub",
+    "item":"Mystery Charm",
+    "quantity":1,
+    "percent":"3%"
+  },
+  {
+    "dropID":2330,
+    "questID":53,
+    "row":"A",
+    "item":"Zamtrios Hide",
+    "quantity":1,
+    "percent":"22%"
+  },
+  {
+    "dropID":2331,
+    "questID":53,
+    "row":"A",
+    "item":"Zamtrios Fin",
+    "quantity":1,
+    "percent":"16%"
+  },
+  {
+    "dropID":2332,
+    "questID":53,
+    "row":"A",
+    "item":"Zamtrios Scale",
+    "quantity":1,
+    "percent":"16%"
+  },
+  {
+    "dropID":2333,
+    "questID":53,
+    "row":"A",
+    "item":"Frost Sac",
+    "quantity":1,
+    "percent":"14%"
+  },
+  {
+    "dropID":2334,
+    "questID":53,
+    "row":"A",
+    "item":"Zamtrios Sawtooth",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2335,
+    "questID":53,
+    "row":"A",
+    "item":"Paddock Oil",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2336,
+    "questID":53,
+    "row":"A",
+    "item":"Jumbo Bone",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2337,
+    "questID":53,
+    "row":"B",
+    "item":"Armor Sphere",
+    "quantity":1,
+    "percent":"15%"
+  },
+  {
+    "dropID":2338,
+    "questID":53,
+    "row":"B",
+    "item":"Ice Crystal",
+    "quantity":1,
+    "percent":"14%"
+  },
+  {
+    "dropID":2339,
+    "questID":53,
+    "row":"B",
+    "item":"Machalite Ore",
+    "quantity":1,
+    "percent":"14%"
+  },
+  {
+    "dropID":2340,
+    "questID":53,
+    "row":"B",
+    "item":"Sleep Herb",
+    "quantity":1,
+    "percent":"13%"
+  },
+  {
+    "dropID":2341,
+    "questID":53,
+    "row":"B",
+    "item":"Speed Nectar: Ice",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2342,
+    "questID":53,
+    "row":"B",
+    "item":"Unknown Skull",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2343,
+    "questID":53,
+    "row":"B",
+    "item":"Aquaglow Jewel",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2344,
+    "questID":53,
+    "row":"B",
+    "item":"Stam Nectar: Dragon",
+    "quantity":1,
+    "percent":"6%"
+  },
+  {
+    "dropID":2345,
+    "questID":53,
+    "row":"B",
+    "item":"Lightcrystal",
+    "quantity":1,
+    "percent":"5%"
+  },
+  {
+    "dropID":2346,
+    "questID":53,
+    "row":"B",
+    "item":"Nectar: Fire+",
+    "quantity":1,
+    "percent":"4%"
+  },
+  {
+    "dropID":2347,
+    "questID":53,
+    "row":"B",
+    "item":"Mystery Charm",
+    "quantity":1,
+    "percent":"3%"
+  },
+  {
+    "dropID":2348,
+    "questID":53,
+    "row":"Sub",
+    "item":"Armor Sphere",
+    "quantity":1,
+    "percent":"15%"
+  },
+  {
+    "dropID":2349,
+    "questID":53,
+    "row":"Sub",
+    "item":"Ice Crystal",
+    "quantity":1,
+    "percent":"14%"
+  },
+  {
+    "dropID":2350,
+    "questID":53,
+    "row":"Sub",
+    "item":"Machalite Ore",
+    "quantity":1,
+    "percent":"14%"
+  },
+  {
+    "dropID":2351,
+    "questID":53,
+    "row":"Sub",
+    "item":"Sleep Herb",
+    "quantity":1,
+    "percent":"13%"
+  },
+  {
+    "dropID":2352,
+    "questID":53,
+    "row":"Sub",
+    "item":"Speed Nectar: Ice",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2353,
+    "questID":53,
+    "row":"Sub",
+    "item":"Unknown Skull",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2354,
+    "questID":53,
+    "row":"Sub",
+    "item":"Aquaglow Jewel",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2355,
+    "questID":53,
+    "row":"Sub",
+    "item":"Stam Nectar: Dragon",
+    "quantity":1,
+    "percent":"6%"
+  },
+  {
+    "dropID":2356,
+    "questID":53,
+    "row":"Sub",
+    "item":"Lightcrystal",
+    "quantity":1,
+    "percent":"5%"
+  },
+  {
+    "dropID":2357,
+    "questID":53,
+    "row":"Sub",
+    "item":"Nectar: Fire+",
+    "quantity":1,
+    "percent":"4%"
+  },
+  {
+    "dropID":2358,
+    "questID":53,
+    "row":"Sub",
+    "item":"Mystery Charm",
+    "quantity":1,
+    "percent":"3%"
+  },
+  {
+    "dropID":2359,
+    "questID":54,
+    "row":"A",
+    "item":"Lagombi Plastron",
+    "quantity":1,
+    "percent":"32%"
+  },
+  {
+    "dropID":2360,
+    "questID":54,
+    "row":"A",
+    "item":"Lagombi Iceclaw",
+    "quantity":1,
+    "percent":"20%"
+  },
+  {
+    "dropID":2361,
+    "questID":54,
+    "row":"A",
+    "item":"Lagombi Pelt",
+    "quantity":1,
+    "percent":"14%"
+  },
+  {
+    "dropID":2362,
+    "questID":54,
+    "row":"A",
+    "item":"Lagombi Ear",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2363,
+    "questID":54,
+    "row":"A",
+    "item":"Jumbo Bone",
+    "quantity":2,
+    "percent":"10%"
+  },
+  {
+    "dropID":2364,
+    "questID":54,
+    "row":"A",
+    "item":"Brute Bone",
+    "quantity":6,
+    "percent":"6%"
+  },
+  {
+    "dropID":2365,
+    "questID":54,
+    "row":"A",
+    "item":"Ice Crystal",
+    "quantity":2,
+    "percent":"6%"
+  },
+  {
+    "dropID":2366,
+    "questID":54,
+    "row":"B",
+    "item":"Armor Sphere",
+    "quantity":1,
+    "percent":"15%"
+  },
+  {
+    "dropID":2367,
+    "questID":54,
+    "row":"B",
+    "item":"Ice Crystal",
+    "quantity":1,
+    "percent":"14%"
+  },
+  {
+    "dropID":2368,
+    "questID":54,
+    "row":"B",
+    "item":"Machalite Ore",
+    "quantity":1,
+    "percent":"14%"
+  },
+  {
+    "dropID":2369,
+    "questID":54,
+    "row":"B",
+    "item":"Sleep Herb",
+    "quantity":1,
+    "percent":"13%"
+  },
+  {
+    "dropID":2370,
+    "questID":54,
+    "row":"B",
+    "item":"Speed Nectar: Ice",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2371,
+    "questID":54,
+    "row":"B",
+    "item":"Unknown Skull",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2372,
+    "questID":54,
+    "row":"B",
+    "item":"Aquaglow Jewel",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2373,
+    "questID":54,
+    "row":"B",
+    "item":"Stam Nectar: Dragon",
+    "quantity":1,
+    "percent":"6%"
+  },
+  {
+    "dropID":2374,
+    "questID":54,
+    "row":"B",
+    "item":"Lightcrystal",
+    "quantity":1,
+    "percent":"5%"
+  },
+  {
+    "dropID":2375,
+    "questID":54,
+    "row":"B",
+    "item":"Nectar: Fire+",
+    "quantity":1,
+    "percent":"4%"
+  },
+  {
+    "dropID":2376,
+    "questID":54,
+    "row":"B",
+    "item":"Mystery Charm",
+    "quantity":1,
+    "percent":"3%"
+  },
+  {
+    "dropID":2377,
+    "questID":54,
+    "row":"Sub",
+    "item":"Armor Sphere",
+    "quantity":1,
+    "percent":"15%"
+  },
+  {
+    "dropID":2378,
+    "questID":54,
+    "row":"Sub",
+    "item":"Ice Crystal",
+    "quantity":1,
+    "percent":"14%"
+  },
+  {
+    "dropID":2379,
+    "questID":54,
+    "row":"Sub",
+    "item":"Machalite Ore",
+    "quantity":1,
+    "percent":"14%"
+  },
+  {
+    "dropID":2380,
+    "questID":54,
+    "row":"Sub",
+    "item":"Sleep Herb",
+    "quantity":1,
+    "percent":"13%"
+  },
+  {
+    "dropID":2381,
+    "questID":54,
+    "row":"Sub",
+    "item":"Speed Nectar: Ice",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2382,
+    "questID":54,
+    "row":"Sub",
+    "item":"Unknown Skull",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2383,
+    "questID":54,
+    "row":"Sub",
+    "item":"Aquaglow Jewel",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2384,
+    "questID":54,
+    "row":"Sub",
+    "item":"Stam Nectar: Dragon",
+    "quantity":1,
+    "percent":"6%"
+  },
+  {
+    "dropID":2385,
+    "questID":54,
+    "row":"Sub",
+    "item":"Lightcrystal",
+    "quantity":1,
+    "percent":"5%"
+  },
+  {
+    "dropID":2386,
+    "questID":54,
+    "row":"Sub",
+    "item":"Nectar: Fire+",
+    "quantity":1,
+    "percent":"4%"
+  },
+  {
+    "dropID":2387,
+    "questID":54,
+    "row":"Sub",
+    "item":"Mystery Charm",
+    "quantity":1,
+    "percent":"3%"
+  },
+  {
+    "dropID":2388,
+    "questID":55,
+    "row":"A",
+    "item":"Congalala Fang",
+    "quantity":1,
+    "percent":"42%"
+  },
+  {
+    "dropID":2389,
+    "questID":55,
+    "row":"A",
+    "item":"Congalala Pelt",
+    "quantity":1,
+    "percent":"28%"
+  },
+  {
+    "dropID":2390,
+    "questID":55,
+    "row":"A",
+    "item":"Congalala Claw",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2391,
+    "questID":55,
+    "row":"A",
+    "item":"Jumbo Bone",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2392,
+    "questID":55,
+    "row":"A",
+    "item":"Vibrant Pelt",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2393,
+    "questID":55,
+    "row":"B",
+    "item":"Genprey Fang",
+    "quantity":3,
+    "percent":"23%"
+  },
+  {
+    "dropID":2394,
+    "questID":55,
+    "row":"B",
+    "item":"Gendrome Hide",
+    "quantity":1,
+    "percent":"16%"
+  },
+  {
+    "dropID":2395,
+    "questID":55,
+    "row":"B",
+    "item":"Paralysis Sac",
+    "quantity":1,
+    "percent":"15%"
+  },
+  {
+    "dropID":2396,
+    "questID":55,
+    "row":"B",
+    "item":"Genprey Hide",
+    "quantity":2,
+    "percent":"14%"
+  },
+  {
+    "dropID":2397,
+    "questID":55,
+    "row":"B",
+    "item":"Monster Bone M",
+    "quantity":1,
+    "percent":"14%"
+  },
+  {
+    "dropID":2398,
+    "questID":55,
+    "row":"B",
+    "item":"Genprey Scale",
+    "quantity":2,
+    "percent":"12%"
+  },
+  {
+    "dropID":2399,
+    "questID":55,
+    "row":"B",
+    "item":"Bone Husk",
+    "quantity":8,
+    "percent":"6%"
+  },
+  {
+    "dropID":2400,
+    "questID":55,
+    "row":"Sub",
+    "item":"Genprey Fang",
+    "quantity":3,
+    "percent":"23%"
+  },
+  {
+    "dropID":2401,
+    "questID":55,
+    "row":"Sub",
+    "item":"Gendrome Hide",
+    "quantity":1,
+    "percent":"16%"
+  },
+  {
+    "dropID":2402,
+    "questID":55,
+    "row":"Sub",
+    "item":"Paralysis Sac",
+    "quantity":1,
+    "percent":"15%"
+  },
+  {
+    "dropID":2403,
+    "questID":55,
+    "row":"Sub",
+    "item":"Genprey Hide",
+    "quantity":2,
+    "percent":"14%"
+  },
+  {
+    "dropID":2404,
+    "questID":55,
+    "row":"Sub",
+    "item":"Monster Bone M",
+    "quantity":1,
+    "percent":"14%"
+  },
+  {
+    "dropID":2405,
+    "questID":55,
+    "row":"Sub",
+    "item":"Genprey Scale",
+    "quantity":2,
+    "percent":"12%"
+  },
+  {
+    "dropID":2406,
+    "questID":55,
+    "row":"Sub",
+    "item":"Bone Husk",
+    "quantity":8,
+    "percent":"6%"
+  },
+  {
+    "dropID":2407,
+    "questID":56,
+    "row":"A",
+    "item":"Nerscylla Shell",
+    "quantity":1,
+    "percent":"28%"
+  },
+  {
+    "dropID":2408,
+    "questID":56,
+    "row":"A",
+    "item":"Nerscylla Claw",
+    "quantity":1,
+    "percent":"19%"
+  },
+  {
+    "dropID":2409,
+    "questID":56,
+    "row":"A",
+    "item":"Nerscylla Chelicera",
+    "quantity":1,
+    "percent":"16%"
+  },
+  {
+    "dropID":2410,
+    "questID":56,
+    "row":"A",
+    "item":"Sleep Sac",
+    "quantity":1,
+    "percent":"15%"
+  },
+  {
+    "dropID":2411,
+    "questID":56,
+    "row":"A",
+    "item":"Monster Fluid",
+    "quantity":2,
+    "percent":"12%"
+  },
+  {
+    "dropID":2412,
+    "questID":56,
+    "row":"A",
+    "item":"Nerscylla Spike",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2413,
+    "questID":57,
+    "row":"A",
+    "item":"Rubbery Hide",
+    "quantity":1,
+    "percent":"31%"
+  },
+  {
+    "dropID":2414,
+    "questID":57,
+    "row":"A",
+    "item":"Poison Sac",
+    "quantity":1,
+    "percent":"24%"
+  },
+  {
+    "dropID":2415,
+    "questID":57,
+    "row":"A",
+    "item":"Wyvern Claw",
+    "quantity":2,
+    "percent":"18%"
+  },
+  {
+    "dropID":2416,
+    "questID":57,
+    "row":"A",
+    "item":"Wyvern Fang",
+    "quantity":3,
+    "percent":"13%"
+  },
+  {
+    "dropID":2417,
+    "questID":57,
+    "row":"A",
+    "item":"Monster Bone M",
+    "quantity":1,
+    "percent":"13%"
+  },
+  {
+    "dropID":2418,
+    "questID":57,
+    "row":"A",
+    "item":"Lightcrystal",
+    "quantity":1,
+    "percent":"1%"
+  },
+  {
+    "dropID":2419,
+    "questID":58,
+    "row":"A",
+    "item":"Najarala Shell",
+    "quantity":1,
+    "percent":"26%"
+  },
+  {
+    "dropID":2420,
+    "questID":58,
+    "row":"A",
+    "item":"Monster Bone L",
+    "quantity":1,
+    "percent":"15%"
+  },
+  {
+    "dropID":2421,
+    "questID":58,
+    "row":"A",
+    "item":"Najarala Fang",
+    "quantity":1,
+    "percent":"14%"
+  },
+  {
+    "dropID":2422,
+    "questID":58,
+    "row":"A",
+    "item":"Najarala Hide",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2423,
+    "questID":58,
+    "row":"A",
+    "item":"Najarala Sounder",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2424,
+    "questID":58,
+    "row":"A",
+    "item":"Paralysis Sac",
+    "quantity":2,
+    "percent":"8%"
+  },
+  {
+    "dropID":2425,
+    "questID":58,
+    "row":"A",
+    "item":"Najarala Marrow",
+    "quantity":1,
+    "percent":"7%"
+  },
+  {
+    "dropID":2426,
+    "questID":58,
+    "row":"A",
+    "item":"Najarala Fang",
+    "quantity":2,
+    "percent":"6%"
+  },
+  {
+    "dropID":2427,
+    "questID":58,
+    "row":"B",
+    "item":"Armor Sphere",
+    "quantity":1,
+    "percent":"20%"
+  },
+  {
+    "dropID":2428,
+    "questID":58,
+    "row":"B",
+    "item":"Monster Bone M",
+    "quantity":1,
+    "percent":"18%"
+  },
+  {
+    "dropID":2429,
+    "questID":58,
+    "row":"B",
+    "item":"Bone Husk",
+    "quantity":12,
+    "percent":"15%"
+  },
+  {
+    "dropID":2430,
+    "questID":58,
+    "row":"B",
+    "item":"Monster Bone L",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2431,
+    "questID":58,
+    "row":"B",
+    "item":"Wyvern Claw",
+    "quantity":4,
+    "percent":"10%"
+  },
+  {
+    "dropID":2432,
+    "questID":58,
+    "row":"B",
+    "item":"Wyvern Fang",
+    "quantity":4,
+    "percent":"10%"
+  },
+  {
+    "dropID":2433,
+    "questID":58,
+    "row":"B",
+    "item":"Armor Sphere+",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2434,
+    "questID":58,
+    "row":"B",
+    "item":"Mystery Charm",
+    "quantity":1,
+    "percent":"5%"
+  },
+  {
+    "dropID":2435,
+    "questID":58,
+    "row":"Sub",
+    "item":"Armor Sphere",
+    "quantity":1,
+    "percent":"20%"
+  },
+  {
+    "dropID":2436,
+    "questID":58,
+    "row":"Sub",
+    "item":"Monster Bone M",
+    "quantity":1,
+    "percent":"18%"
+  },
+  {
+    "dropID":2437,
+    "questID":58,
+    "row":"Sub",
+    "item":"Bone Husk",
+    "quantity":12,
+    "percent":"15%"
+  },
+  {
+    "dropID":2438,
+    "questID":58,
+    "row":"Sub",
+    "item":"Monster Bone L",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2439,
+    "questID":58,
+    "row":"Sub",
+    "item":"Wyvern Claw",
+    "quantity":4,
+    "percent":"10%"
+  },
+  {
+    "dropID":2440,
+    "questID":58,
+    "row":"Sub",
+    "item":"Wyvern Fang",
+    "quantity":4,
+    "percent":"10%"
+  },
+  {
+    "dropID":2441,
+    "questID":58,
+    "row":"Sub",
+    "item":"Armor Sphere+",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2442,
+    "questID":58,
+    "row":"Sub",
+    "item":"Mystery Charm",
+    "quantity":1,
+    "percent":"5%"
+  },
+  {
+    "dropID":2443,
+    "questID":60,
+    "row":"A",
+    "item":"Pale Extract",
+    "quantity":1,
+    "percent":"20%"
+  },
+  {
+    "dropID":2444,
+    "questID":60,
+    "row":"A",
+    "item":"Electro Sac",
+    "quantity":1,
+    "percent":"20%"
+  },
+  {
+    "dropID":2445,
+    "questID":60,
+    "row":"A",
+    "item":"Flabby Hide",
+    "quantity":1,
+    "percent":"16%"
+  },
+  {
+    "dropID":2446,
+    "questID":60,
+    "row":"A",
+    "item":"Monster Bone L",
+    "quantity":1,
+    "percent":"16%"
+  },
+  {
+    "dropID":2447,
+    "questID":60,
+    "row":"A",
+    "item":"Wyvern Claw",
+    "quantity":5,
+    "percent":"10%"
+  },
+  {
+    "dropID":2448,
+    "questID":60,
+    "row":"A",
+    "item":"Wyvern Fang",
+    "quantity":5,
+    "percent":"10%"
+  },
+  {
+    "dropID":2449,
+    "questID":60,
+    "row":"A",
+    "item":"Pale Bone",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2450,
+    "questID":60,
+    "row":"B",
+    "item":"Armor Sphere",
+    "quantity":1,
+    "percent":"20%"
+  },
+  {
+    "dropID":2451,
+    "questID":60,
+    "row":"B",
+    "item":"Monster Bone M",
+    "quantity":1,
+    "percent":"18%"
+  },
+  {
+    "dropID":2452,
+    "questID":60,
+    "row":"B",
+    "item":"Bone Husk",
+    "quantity":12,
+    "percent":"15%"
+  },
+  {
+    "dropID":2453,
+    "questID":60,
+    "row":"B",
+    "item":"Monster Bone L",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2454,
+    "questID":60,
+    "row":"B",
+    "item":"Wyvern Claw",
+    "quantity":4,
+    "percent":"10%"
+  },
+  {
+    "dropID":2455,
+    "questID":60,
+    "row":"B",
+    "item":"Wyvern Fang",
+    "quantity":4,
+    "percent":"10%"
+  },
+  {
+    "dropID":2456,
+    "questID":60,
+    "row":"B",
+    "item":"Armor Sphere+",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2457,
+    "questID":60,
+    "row":"B",
+    "item":"Mystery Charm",
+    "quantity":1,
+    "percent":"5%"
+  },
+  {
+    "dropID":2458,
+    "questID":60,
+    "row":"Sub",
+    "item":"Armor Sphere",
+    "quantity":1,
+    "percent":"20%"
+  },
+  {
+    "dropID":2459,
+    "questID":60,
+    "row":"Sub",
+    "item":"Monster Bone M",
+    "quantity":1,
+    "percent":"18%"
+  },
+  {
+    "dropID":2460,
+    "questID":60,
+    "row":"Sub",
+    "item":"Bone Husk",
+    "quantity":12,
+    "percent":"15%"
+  },
+  {
+    "dropID":2461,
+    "questID":60,
+    "row":"Sub",
+    "item":"Monster Bone L",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2462,
+    "questID":60,
+    "row":"Sub",
+    "item":"Wyvern Claw",
+    "quantity":4,
+    "percent":"10%"
+  },
+  {
+    "dropID":2463,
+    "questID":60,
+    "row":"Sub",
+    "item":"Wyvern Fang",
+    "quantity":4,
+    "percent":"10%"
+  },
+  {
+    "dropID":2464,
+    "questID":60,
+    "row":"Sub",
+    "item":"Armor Sphere+",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2465,
+    "questID":60,
+    "row":"Sub",
+    "item":"Mystery Charm",
+    "quantity":1,
+    "percent":"5%"
+  },
+  {
+    "dropID":2466,
+    "questID":61,
+    "row":"A",
+    "item":"Sleepyfish",
+    "quantity":1,
+    "percent":"16%"
+  },
+  {
+    "dropID":2467,
+    "questID":61,
+    "row":"A",
+    "item":"Bomb Arowana",
+    "quantity":1,
+    "percent":"16%"
+  },
+  {
+    "dropID":2468,
+    "questID":61,
+    "row":"A",
+    "item":"Wanchovy",
+    "quantity":2,
+    "percent":"15%"
+  },
+  {
+    "dropID":2469,
+    "questID":61,
+    "row":"A",
+    "item":"Pin Tuna",
+    "quantity":2,
+    "percent":"15%"
+  },
+  {
+    "dropID":2470,
+    "questID":61,
+    "row":"A",
+    "item":"Burst Arowana",
+    "quantity":2,
+    "percent":"12%"
+  },
+  {
+    "dropID":2471,
+    "questID":61,
+    "row":"A",
+    "item":"Scatterfish",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2472,
+    "questID":61,
+    "row":"A",
+    "item":"Worm",
+    "quantity":3,
+    "percent":"8%"
+  },
+  {
+    "dropID":2473,
+    "questID":61,
+    "row":"A",
+    "item":"Blue Cutthroat",
+    "quantity":1,
+    "percent":"6%"
+  },
+  {
+    "dropID":2474,
+    "questID":61,
+    "row":"B",
+    "item":"Toadstool",
+    "quantity":1,
+    "percent":"15%"
+  },
+  {
+    "dropID":2475,
+    "questID":61,
+    "row":"B",
+    "item":"Flashbug",
+    "quantity":1,
+    "percent":"15%"
+  },
+  {
+    "dropID":2476,
+    "questID":61,
+    "row":"B",
+    "item":"Armor Sphere",
+    "quantity":1,
+    "percent":"15%"
+  },
+  {
+    "dropID":2477,
+    "questID":61,
+    "row":"B",
+    "item":"Bone Husk",
+    "quantity":2,
+    "percent":"12%"
+  },
+  {
+    "dropID":2478,
+    "questID":61,
+    "row":"B",
+    "item":"Hot Pepper",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2479,
+    "questID":61,
+    "row":"B",
+    "item":"Killer Beetle",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2480,
+    "questID":61,
+    "row":"B",
+    "item":"Spd Nectar: Thunder",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2481,
+    "questID":61,
+    "row":"B",
+    "item":"Speed Nectar: Ice",
+    "quantity":1,
+    "percent":"6%"
+  },
+  {
+    "dropID":2482,
+    "questID":61,
+    "row":"B",
+    "item":"Speed+ Nectar",
+    "quantity":1,
+    "percent":"4%"
+  },
+  {
+    "dropID":2483,
+    "questID":61,
+    "row":"B",
+    "item":"Mystery Charm",
+    "quantity":1,
+    "percent":"3%"
+  },
+  {
+    "dropID":2484,
+    "questID":61,
+    "row":"Sub",
+    "item":"Toadstool",
+    "quantity":1,
+    "percent":"15%"
+  },
+  {
+    "dropID":2485,
+    "questID":61,
+    "row":"Sub",
+    "item":"Flashbug",
+    "quantity":1,
+    "percent":"15%"
+  },
+  {
+    "dropID":2486,
+    "questID":61,
+    "row":"Sub",
+    "item":"Armor Sphere",
+    "quantity":1,
+    "percent":"15%"
+  },
+  {
+    "dropID":2487,
+    "questID":61,
+    "row":"Sub",
+    "item":"Bone Husk",
+    "quantity":2,
+    "percent":"12%"
+  },
+  {
+    "dropID":2488,
+    "questID":61,
+    "row":"Sub",
+    "item":"Hot Pepper",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2489,
+    "questID":61,
+    "row":"Sub",
+    "item":"Killer Beetle",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2490,
+    "questID":61,
+    "row":"Sub",
+    "item":"Spd Nectar: Thunder",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2491,
+    "questID":61,
+    "row":"Sub",
+    "item":"Speed Nectar: Ice",
+    "quantity":1,
+    "percent":"6%"
+  },
+  {
+    "dropID":2492,
+    "questID":61,
+    "row":"Sub",
+    "item":"Speed+ Nectar",
+    "quantity":1,
+    "percent":"4%"
+  },
+  {
+    "dropID":2493,
+    "questID":61,
+    "row":"Sub",
+    "item":"Mystery Charm",
+    "quantity":1,
+    "percent":"3%"
+  },
+  {
+    "dropID":2494,
+    "questID":62,
+    "row":"A",
+    "item":"Mystery Charm",
+    "quantity":1,
+    "percent":"25%"
+  },
+  {
+    "dropID":2495,
+    "questID":62,
+    "row":"A",
+    "item":"Monster Bone M",
+    "quantity":1,
+    "percent":"20%"
+  },
+  {
+    "dropID":2496,
+    "questID":62,
+    "row":"A",
+    "item":"Armor Sphere",
+    "quantity":1,
+    "percent":"20%"
+  },
+  {
+    "dropID":2497,
+    "questID":62,
+    "row":"A",
+    "item":"Aquaglow Jewel",
+    "quantity":1,
+    "percent":"15%"
+  },
+  {
+    "dropID":2498,
+    "questID":62,
+    "row":"A",
+    "item":"Steel Egg",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2499,
+    "questID":62,
+    "row":"A",
+    "item":"Godbug",
+    "quantity":2,
+    "percent":"10%"
+  },
+  {
+    "dropID":2500,
+    "questID":62,
+    "row":"B",
+    "item":"Herb",
+    "quantity":1,
+    "percent":"14%"
+  },
+  {
+    "dropID":2501,
+    "questID":62,
+    "row":"B",
+    "item":"Blue Mushroom",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2502,
+    "questID":62,
+    "row":"B",
+    "item":"Honey",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2503,
+    "questID":62,
+    "row":"B",
+    "item":"Bitterbug",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2504,
+    "questID":62,
+    "row":"B",
+    "item":"Armor Sphere",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2505,
+    "questID":62,
+    "row":"B",
+    "item":"Power Nectar: Fire",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2506,
+    "questID":62,
+    "row":"B",
+    "item":"Nulberry",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2507,
+    "questID":62,
+    "row":"B",
+    "item":"Ivy",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2508,
+    "questID":62,
+    "row":"B",
+    "item":"Paintberry",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2509,
+    "questID":62,
+    "row":"B",
+    "item":"Stam Nectar: Water",
+    "quantity":1,
+    "percent":"6%"
+  },
+  {
+    "dropID":2510,
+    "questID":62,
+    "row":"B",
+    "item":"Power+ Nectar",
+    "quantity":1,
+    "percent":"4%"
+  },
+  {
+    "dropID":2511,
+    "questID":62,
+    "row":"Sub",
+    "item":"Herb",
+    "quantity":1,
+    "percent":"14%"
+  },
+  {
+    "dropID":2512,
+    "questID":62,
+    "row":"Sub",
+    "item":"Blue Mushroom",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2513,
+    "questID":62,
+    "row":"Sub",
+    "item":"Honey",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2514,
+    "questID":62,
+    "row":"Sub",
+    "item":"Bitterbug",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2515,
+    "questID":62,
+    "row":"Sub",
+    "item":"Armor Sphere",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2516,
+    "questID":62,
+    "row":"Sub",
+    "item":"Power Nectar: Fire",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2517,
+    "questID":62,
+    "row":"Sub",
+    "item":"Nulberry",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2518,
+    "questID":62,
+    "row":"Sub",
+    "item":"Ivy",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2519,
+    "questID":62,
+    "row":"Sub",
+    "item":"Paintberry",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2520,
+    "questID":62,
+    "row":"Sub",
+    "item":"Stam Nectar: Water",
+    "quantity":1,
+    "percent":"6%"
+  },
+  {
+    "dropID":2521,
+    "questID":62,
+    "row":"Sub",
+    "item":"Power+ Nectar",
+    "quantity":1,
+    "percent":"4%"
+  },
+  {
+    "dropID":2522,
+    "questID":63,
+    "row":"A",
+    "item":"Rathian Scale",
+    "quantity":1,
+    "percent":"24%"
+  },
+  {
+    "dropID":2523,
+    "questID":63,
+    "row":"A",
+    "item":"Rathian Webbing",
+    "quantity":1,
+    "percent":"19%"
+  },
+  {
+    "dropID":2524,
+    "questID":63,
+    "row":"A",
+    "item":"Flame Sac",
+    "quantity":1,
+    "percent":"15%"
+  },
+  {
+    "dropID":2525,
+    "questID":63,
+    "row":"A",
+    "item":"Monster Bone L",
+    "quantity":1,
+    "percent":"15%"
+  },
+  {
+    "dropID":2526,
+    "questID":63,
+    "row":"A",
+    "item":"Rathian Shell",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2527,
+    "questID":63,
+    "row":"A",
+    "item":"Wyvern Fang",
+    "quantity":5,
+    "percent":"9%"
+  },
+  {
+    "dropID":2528,
+    "questID":63,
+    "row":"A",
+    "item":"Rathian Spike",
+    "quantity":1,
+    "percent":"7%"
+  },
+  {
+    "dropID":2529,
+    "questID":63,
+    "row":"A",
+    "item":"Rathian Plate",
+    "quantity":1,
+    "percent":"1%"
+  },
+  {
+    "dropID":2530,
+    "questID":63,
+    "row":"B",
+    "item":"Armor Sphere",
+    "quantity":1,
+    "percent":"20%"
+  },
+  {
+    "dropID":2531,
+    "questID":63,
+    "row":"B",
+    "item":"Monster Bone M",
+    "quantity":1,
+    "percent":"18%"
+  },
+  {
+    "dropID":2532,
+    "questID":63,
+    "row":"B",
+    "item":"Bone Husk",
+    "quantity":12,
+    "percent":"15%"
+  },
+  {
+    "dropID":2533,
+    "questID":63,
+    "row":"B",
+    "item":"Monster Bone L",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2534,
+    "questID":63,
+    "row":"B",
+    "item":"Wyvern Claw",
+    "quantity":4,
+    "percent":"10%"
+  },
+  {
+    "dropID":2535,
+    "questID":63,
+    "row":"B",
+    "item":"Wyvern Fang",
+    "quantity":4,
+    "percent":"10%"
+  },
+  {
+    "dropID":2536,
+    "questID":63,
+    "row":"B",
+    "item":"Armor Sphere+",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2537,
+    "questID":63,
+    "row":"B",
+    "item":"Mystery Charm",
+    "quantity":1,
+    "percent":"5%"
+  },
+  {
+    "dropID":2538,
+    "questID":63,
+    "row":"Sub",
+    "item":"Armor Sphere",
+    "quantity":1,
+    "percent":"20%"
+  },
+  {
+    "dropID":2539,
+    "questID":63,
+    "row":"Sub",
+    "item":"Monster Bone M",
+    "quantity":1,
+    "percent":"18%"
+  },
+  {
+    "dropID":2540,
+    "questID":63,
+    "row":"Sub",
+    "item":"Bone Husk",
+    "quantity":12,
+    "percent":"15%"
+  },
+  {
+    "dropID":2541,
+    "questID":63,
+    "row":"Sub",
+    "item":"Monster Bone L",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2542,
+    "questID":63,
+    "row":"Sub",
+    "item":"Wyvern Claw",
+    "quantity":4,
+    "percent":"10%"
+  },
+  {
+    "dropID":2543,
+    "questID":63,
+    "row":"Sub",
+    "item":"Wyvern Fang",
+    "quantity":4,
+    "percent":"10%"
+  },
+  {
+    "dropID":2544,
+    "questID":63,
+    "row":"Sub",
+    "item":"Armor Sphere+",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2545,
+    "questID":63,
+    "row":"Sub",
+    "item":"Mystery Charm",
+    "quantity":1,
+    "percent":"5%"
+  },
+  {
+    "dropID":2546,
+    "questID":254,
+    "row":"A",
+    "item":"Raw Meat",
+    "quantity":2,
+    "percent":"25%"
+  },
+  {
+    "dropID":2547,
+    "questID":254,
+    "row":"A",
+    "item":"Mystery Bone",
+    "quantity":1,
+    "percent":"20%"
+  },
+  {
+    "dropID":2548,
+    "questID":254,
+    "row":"A",
+    "item":"Worm",
+    "quantity":1,
+    "percent":"20%"
+  },
+  {
+    "dropID":2549,
+    "questID":254,
+    "row":"A",
+    "item":"Whetstone",
+    "quantity":2,
+    "percent":"20%"
+  },
+  {
+    "dropID":2550,
+    "questID":254,
+    "row":"A",
+    "item":"Power Nectar: Fire",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2551,
+    "questID":254,
+    "row":"A",
+    "item":"Stam Nectar: Water",
+    "quantity":1,
+    "percent":"5%"
+  },
+  {
+    "dropID":2552,
+    "questID":255,
+    "row":"A",
+    "item":"Raw Meat",
+    "quantity":2,
+    "percent":"25%"
+  },
+  {
+    "dropID":2553,
+    "questID":255,
+    "row":"A",
+    "item":"Mystery Bone",
+    "quantity":1,
+    "percent":"20%"
+  },
+  {
+    "dropID":2554,
+    "questID":255,
+    "row":"A",
+    "item":"Worm",
+    "quantity":1,
+    "percent":"20%"
+  },
+  {
+    "dropID":2555,
+    "questID":255,
+    "row":"A",
+    "item":"Whetstone",
+    "quantity":2,
+    "percent":"20%"
+  },
+  {
+    "dropID":2556,
+    "questID":255,
+    "row":"A",
+    "item":"Power Nectar: Fire",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2557,
+    "questID":255,
+    "row":"A",
+    "item":"Stam Nectar: Water",
+    "quantity":1,
+    "percent":"5%"
+  },
+  {
+    "dropID":2558,
+    "questID":256,
+    "row":"A",
+    "item":"Raw Meat",
+    "quantity":2,
+    "percent":"25%"
+  },
+  {
+    "dropID":2559,
+    "questID":256,
+    "row":"A",
+    "item":"Mystery Bone",
+    "quantity":1,
+    "percent":"20%"
+  },
+  {
+    "dropID":2560,
+    "questID":256,
+    "row":"A",
+    "item":"Worm",
+    "quantity":1,
+    "percent":"20%"
+  },
+  {
+    "dropID":2561,
+    "questID":256,
+    "row":"A",
+    "item":"Whetstone",
+    "quantity":2,
+    "percent":"20%"
+  },
+  {
+    "dropID":2562,
+    "questID":256,
+    "row":"A",
+    "item":"Power Nectar: Fire",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2563,
+    "questID":256,
+    "row":"A",
+    "item":"Stam Nectar: Water",
+    "quantity":1,
+    "percent":"5%"
+  },
+  {
+    "dropID":2564,
+    "questID":257,
+    "row":"A",
+    "item":"Rhenoplos Carapace",
+    "quantity":2,
+    "percent":"28%"
+  },
+  {
+    "dropID":2565,
+    "questID":257,
+    "row":"A",
+    "item":"Monster Bone M",
+    "quantity":1,
+    "percent":"20%"
+  },
+  {
+    "dropID":2566,
+    "questID":257,
+    "row":"A",
+    "item":"Rhenoplos Scalp",
+    "quantity":1,
+    "percent":"19%"
+  },
+  {
+    "dropID":2567,
+    "questID":257,
+    "row":"A",
+    "item":"Rhenoplos Shell",
+    "quantity":2,
+    "percent":"18%"
+  },
+  {
+    "dropID":2568,
+    "questID":257,
+    "row":"A",
+    "item":"Raw Meat",
+    "quantity":3,
+    "percent":"15%"
+  },
+  {
+    "dropID":2569,
+    "questID":257,
+    "row":"B",
+    "item":"Spider Web",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2570,
+    "questID":257,
+    "row":"B",
+    "item":"Fire Herb",
+    "quantity":2,
+    "percent":"12%"
+  },
+  {
+    "dropID":2571,
+    "questID":257,
+    "row":"B",
+    "item":"Armor Sphere+",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2572,
+    "questID":257,
+    "row":"B",
+    "item":"Carbalite Ore",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2573,
+    "questID":257,
+    "row":"B",
+    "item":"Adv Armor Sphere",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2574,
+    "questID":257,
+    "row":"B",
+    "item":"Stam Nectar: Water",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2575,
+    "questID":257,
+    "row":"B",
+    "item":"Bloodrun Jewel",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2576,
+    "questID":257,
+    "row":"B",
+    "item":"Mystery Charm",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2577,
+    "questID":257,
+    "row":"B",
+    "item":"Iron Ore",
+    "quantity":2,
+    "percent":"7%"
+  },
+  {
+    "dropID":2578,
+    "questID":257,
+    "row":"B",
+    "item":"Nectar: Water+",
+    "quantity":1,
+    "percent":"6%"
+  },
+  {
+    "dropID":2579,
+    "questID":257,
+    "row":"B",
+    "item":"Shining Charm",
+    "quantity":1,
+    "percent":"5%"
+  },
+  {
+    "dropID":2580,
+    "questID":257,
+    "row":"Sub",
+    "item":"Spider Web",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2581,
+    "questID":257,
+    "row":"Sub",
+    "item":"Fire Herb",
+    "quantity":2,
+    "percent":"12%"
+  },
+  {
+    "dropID":2582,
+    "questID":257,
+    "row":"Sub",
+    "item":"Armor Sphere+",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2583,
+    "questID":257,
+    "row":"Sub",
+    "item":"Carbalite Ore",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2584,
+    "questID":257,
+    "row":"Sub",
+    "item":"Adv Armor Sphere",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2585,
+    "questID":257,
+    "row":"Sub",
+    "item":"Stam Nectar: Water",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2586,
+    "questID":257,
+    "row":"Sub",
+    "item":"Bloodrun Jewel",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2587,
+    "questID":257,
+    "row":"Sub",
+    "item":"Mystery Charm",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2588,
+    "questID":257,
+    "row":"Sub",
+    "item":"Iron Ore",
+    "quantity":2,
+    "percent":"7%"
+  },
+  {
+    "dropID":2589,
+    "questID":257,
+    "row":"Sub",
+    "item":"Nectar: Water+",
+    "quantity":1,
+    "percent":"6%"
+  },
+  {
+    "dropID":2590,
+    "questID":257,
+    "row":"Sub",
+    "item":"Shining Charm",
+    "quantity":1,
+    "percent":"5%"
+  },
+  {
+    "dropID":2591,
+    "questID":258,
+    "row":"A",
+    "item":"Bnahabra Carapace",
+    "quantity":2,
+    "percent":"30%"
+  },
+  {
+    "dropID":2592,
+    "questID":258,
+    "row":"A",
+    "item":"Bnahabra Shell",
+    "quantity":2,
+    "percent":"21%"
+  },
+  {
+    "dropID":2593,
+    "questID":258,
+    "row":"A",
+    "item":"Monster Broth",
+    "quantity":1,
+    "percent":"21%"
+  },
+  {
+    "dropID":2594,
+    "questID":258,
+    "row":"A",
+    "item":"Monster Fluid",
+    "quantity":2,
+    "percent":"16%"
+  },
+  {
+    "dropID":2595,
+    "questID":258,
+    "row":"A",
+    "item":"Bnahabra Wing",
+    "quantity":2,
+    "percent":"12%"
+  },
+  {
+    "dropID":2596,
+    "questID":258,
+    "row":"B",
+    "item":"Spider Web",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2597,
+    "questID":258,
+    "row":"B",
+    "item":"Fire Herb",
+    "quantity":2,
+    "percent":"12%"
+  },
+  {
+    "dropID":2598,
+    "questID":258,
+    "row":"B",
+    "item":"Armor Sphere+",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2599,
+    "questID":258,
+    "row":"B",
+    "item":"Carbalite Ore",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2600,
+    "questID":258,
+    "row":"B",
+    "item":"Adv Armor Sphere",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2601,
+    "questID":258,
+    "row":"B",
+    "item":"Stam Nectar: Water",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2602,
+    "questID":258,
+    "row":"B",
+    "item":"Bloodrun Jewel",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2603,
+    "questID":258,
+    "row":"B",
+    "item":"Mystery Charm",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2604,
+    "questID":258,
+    "row":"B",
+    "item":"Iron Ore",
+    "quantity":2,
+    "percent":"7%"
+  },
+  {
+    "dropID":2605,
+    "questID":258,
+    "row":"B",
+    "item":"Nectar: Water+",
+    "quantity":1,
+    "percent":"6%"
+  },
+  {
+    "dropID":2606,
+    "questID":258,
+    "row":"B",
+    "item":"Shining Charm",
+    "quantity":1,
+    "percent":"5%"
+  },
+  {
+    "dropID":2607,
+    "questID":258,
+    "row":"Sub",
+    "item":"Spider Web",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2608,
+    "questID":258,
+    "row":"Sub",
+    "item":"Fire Herb",
+    "quantity":2,
+    "percent":"12%"
+  },
+  {
+    "dropID":2609,
+    "questID":258,
+    "row":"Sub",
+    "item":"Armor Sphere+",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2610,
+    "questID":258,
+    "row":"Sub",
+    "item":"Carbalite Ore",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2611,
+    "questID":258,
+    "row":"Sub",
+    "item":"Adv Armor Sphere",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2612,
+    "questID":258,
+    "row":"Sub",
+    "item":"Stam Nectar: Water",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2613,
+    "questID":258,
+    "row":"Sub",
+    "item":"Bloodrun Jewel",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2614,
+    "questID":258,
+    "row":"Sub",
+    "item":"Mystery Charm",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2615,
+    "questID":258,
+    "row":"Sub",
+    "item":"Iron Ore",
+    "quantity":2,
+    "percent":"7%"
+  },
+  {
+    "dropID":2616,
+    "questID":258,
+    "row":"Sub",
+    "item":"Nectar: Water+",
+    "quantity":1,
+    "percent":"6%"
+  },
+  {
+    "dropID":2617,
+    "questID":258,
+    "row":"Sub",
+    "item":"Shining Charm",
+    "quantity":1,
+    "percent":"5%"
+  },
+  {
+    "dropID":2618,
+    "questID":259,
+    "row":"A",
+    "item":"G.Jaggi Claw+",
+    "quantity":1,
+    "percent":"24%"
+  },
+  {
+    "dropID":2619,
+    "questID":259,
+    "row":"A",
+    "item":"Screamer Sac",
+    "quantity":2,
+    "percent":"20%"
+  },
+  {
+    "dropID":2620,
+    "questID":259,
+    "row":"A",
+    "item":"G.Jaggi Hide+",
+    "quantity":1,
+    "percent":"18%"
+  },
+  {
+    "dropID":2621,
+    "questID":259,
+    "row":"A",
+    "item":"Avian Finebone",
+    "quantity":2,
+    "percent":"15%"
+  },
+  {
+    "dropID":2622,
+    "questID":259,
+    "row":"A",
+    "item":"Tough Bird Wyv Hide",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2623,
+    "questID":259,
+    "row":"A",
+    "item":"Great Jaggi Head",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2624,
+    "questID":259,
+    "row":"A",
+    "item":"Bird Wyvern Gem",
+    "quantity":1,
+    "percent":"5%"
+  },
+  {
+    "dropID":2625,
+    "questID":260,
+    "row":"A",
+    "item":"Seltas Carapace",
+    "quantity":1,
+    "percent":"24%"
+  },
+  {
+    "dropID":2626,
+    "questID":260,
+    "row":"A",
+    "item":"Seltas Innerwing",
+    "quantity":1,
+    "percent":"15%"
+  },
+  {
+    "dropID":2627,
+    "questID":260,
+    "row":"A",
+    "item":"Monster Broth",
+    "quantity":1,
+    "percent":"14%"
+  },
+  {
+    "dropID":2628,
+    "questID":260,
+    "row":"A",
+    "item":"Torrent Sac",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2629,
+    "questID":260,
+    "row":"A",
+    "item":"Seltas Horn",
+    "quantity":1,
+    "percent":"11%"
+  },
+  {
+    "dropID":2630,
+    "questID":260,
+    "row":"A",
+    "item":"Seltas Horn+",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2631,
+    "questID":260,
+    "row":"A",
+    "item":"Monster Fluid",
+    "quantity":2,
+    "percent":"8%"
+  },
+  {
+    "dropID":2632,
+    "questID":260,
+    "row":"A",
+    "item":"Thunderbug",
+    "quantity":2,
+    "percent":"8%"
+  },
+  {
+    "dropID":2633,
+    "questID":261,
+    "row":"A",
+    "item":"Kecha Pelt+",
+    "quantity":1,
+    "percent":"25%"
+  },
+  {
+    "dropID":2634,
+    "questID":261,
+    "row":"A",
+    "item":"Torrent Sac",
+    "quantity":1,
+    "percent":"18%"
+  },
+  {
+    "dropID":2635,
+    "questID":261,
+    "row":"A",
+    "item":"Stoutbone",
+    "quantity":1,
+    "percent":"14%"
+  },
+  {
+    "dropID":2636,
+    "questID":261,
+    "row":"A",
+    "item":"Kecha Grandbone",
+    "quantity":1,
+    "percent":"13%"
+  },
+  {
+    "dropID":2637,
+    "questID":261,
+    "row":"A",
+    "item":"Kecha Tail",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2638,
+    "questID":261,
+    "row":"A",
+    "item":"Kecha Ear+",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2639,
+    "questID":261,
+    "row":"A",
+    "item":"Kecha Talon",
+    "quantity":2,
+    "percent":"6%"
+  },
+  {
+    "dropID":2640,
+    "questID":261,
+    "row":"A",
+    "item":"Kecha Ear",
+    "quantity":1,
+    "percent":"6%"
+  },
+  {
+    "dropID":2641,
+    "questID":262,
+    "row":"A",
+    "item":"Kecha Pelt+",
+    "quantity":1,
+    "percent":"25%"
+  },
+  {
+    "dropID":2642,
+    "questID":262,
+    "row":"A",
+    "item":"Torrent Sac",
+    "quantity":1,
+    "percent":"18%"
+  },
+  {
+    "dropID":2643,
+    "questID":262,
+    "row":"A",
+    "item":"Stoutbone",
+    "quantity":1,
+    "percent":"14%"
+  },
+  {
+    "dropID":2644,
+    "questID":262,
+    "row":"A",
+    "item":"Kecha Grandbone",
+    "quantity":1,
+    "percent":"13%"
+  },
+  {
+    "dropID":2645,
+    "questID":262,
+    "row":"A",
+    "item":"Kecha Tail",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2646,
+    "questID":262,
+    "row":"A",
+    "item":"Kecha Ear+",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2647,
+    "questID":262,
+    "row":"A",
+    "item":"Kecha Talon",
+    "quantity":2,
+    "percent":"6%"
+  },
+  {
+    "dropID":2648,
+    "questID":262,
+    "row":"A",
+    "item":"Kecha Ear",
+    "quantity":1,
+    "percent":"6%"
+  },
+  {
+    "dropID":2649,
+    "questID":262,
+    "row":"B",
+    "item":"Adv Armor Sphere",
+    "quantity":1,
+    "percent":"20%"
+  },
+  {
+    "dropID":2650,
+    "questID":262,
+    "row":"B",
+    "item":"Monster Keenbone",
+    "quantity":2,
+    "percent":"13%"
+  },
+  {
+    "dropID":2651,
+    "questID":262,
+    "row":"B",
+    "item":"Shining Charm",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2652,
+    "questID":262,
+    "row":"B",
+    "item":"Bone Husk",
+    "quantity":12,
+    "percent":"10%"
+  },
+  {
+    "dropID":2653,
+    "questID":262,
+    "row":"B",
+    "item":"Bloodrun Jewel",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2654,
+    "questID":262,
+    "row":"B",
+    "item":"Wyvern Claw",
+    "quantity":8,
+    "percent":"8%"
+  },
+  {
+    "dropID":2655,
+    "questID":262,
+    "row":"B",
+    "item":"Wyvern Fang",
+    "quantity":8,
+    "percent":"8%"
+  },
+  {
+    "dropID":2656,
+    "questID":262,
+    "row":"B",
+    "item":"Armor Sphere+",
+    "quantity":2,
+    "percent":"8%"
+  },
+  {
+    "dropID":2657,
+    "questID":262,
+    "row":"B",
+    "item":"Rustshard",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2658,
+    "questID":262,
+    "row":"B",
+    "item":"Hard Armor Sphere",
+    "quantity":1,
+    "percent":"5%"
+  },
+  {
+    "dropID":2659,
+    "questID":262,
+    "row":"Sub",
+    "item":"Adv Armor Sphere",
+    "quantity":1,
+    "percent":"20%"
+  },
+  {
+    "dropID":2660,
+    "questID":262,
+    "row":"Sub",
+    "item":"Monster Keenbone",
+    "quantity":2,
+    "percent":"13%"
+  },
+  {
+    "dropID":2661,
+    "questID":262,
+    "row":"Sub",
+    "item":"Shining Charm",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2662,
+    "questID":262,
+    "row":"Sub",
+    "item":"Bone Husk",
+    "quantity":12,
+    "percent":"10%"
+  },
+  {
+    "dropID":2663,
+    "questID":262,
+    "row":"Sub",
+    "item":"Bloodrun Jewel",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2664,
+    "questID":262,
+    "row":"Sub",
+    "item":"Wyvern Claw",
+    "quantity":8,
+    "percent":"8%"
+  },
+  {
+    "dropID":2665,
+    "questID":262,
+    "row":"Sub",
+    "item":"Wyvern Fang",
+    "quantity":8,
+    "percent":"8%"
+  },
+  {
+    "dropID":2666,
+    "questID":262,
+    "row":"Sub",
+    "item":"Armor Sphere+",
+    "quantity":2,
+    "percent":"8%"
+  },
+  {
+    "dropID":2667,
+    "questID":262,
+    "row":"Sub",
+    "item":"Rustshard",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2668,
+    "questID":262,
+    "row":"Sub",
+    "item":"Hard Armor Sphere",
+    "quantity":1,
+    "percent":"5%"
+  },
+  {
+    "dropID":2669,
+    "questID":263,
+    "row":"A",
+    "item":"Toxin Sac",
+    "quantity":1,
+    "percent":"25%"
+  },
+  {
+    "dropID":2670,
+    "questID":263,
+    "row":"A",
+    "item":"Rubbery Purple Hide",
+    "quantity":1,
+    "percent":"21%"
+  },
+  {
+    "dropID":2671,
+    "questID":263,
+    "row":"A",
+    "item":"P.Gypceros Wing",
+    "quantity":1,
+    "percent":"17%"
+  },
+  {
+    "dropID":2672,
+    "questID":263,
+    "row":"A",
+    "item":"Monster Keenbone",
+    "quantity":1,
+    "percent":"16%"
+  },
+  {
+    "dropID":2673,
+    "questID":263,
+    "row":"A",
+    "item":"Wyvern Fang",
+    "quantity":5,
+    "percent":"10%"
+  },
+  {
+    "dropID":2674,
+    "questID":263,
+    "row":"A",
+    "item":"Wyvern Claw",
+    "quantity":5,
+    "percent":"10%"
+  },
+  {
+    "dropID":2675,
+    "questID":263,
+    "row":"A",
+    "item":"Novacrystal",
+    "quantity":1,
+    "percent":"1%"
+  },
+  {
+    "dropID":2676,
+    "questID":263,
+    "row":"B",
+    "item":"Flashbug",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2677,
+    "questID":263,
+    "row":"B",
+    "item":"Armor Sphere+",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2678,
+    "questID":263,
+    "row":"B",
+    "item":"Hercudrome",
+    "quantity":1,
+    "percent":"11%"
+  },
+  {
+    "dropID":2679,
+    "questID":263,
+    "row":"B",
+    "item":"Bone Husk",
+    "quantity":4,
+    "percent":"10%"
+  },
+  {
+    "dropID":2680,
+    "questID":263,
+    "row":"B",
+    "item":"Adv Armor Sphere",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2681,
+    "questID":263,
+    "row":"B",
+    "item":"Spd Nectar: Thunder",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2682,
+    "questID":263,
+    "row":"B",
+    "item":"Thunderbug",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2683,
+    "questID":263,
+    "row":"B",
+    "item":"Bloodrun Jewel",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2684,
+    "questID":263,
+    "row":"B",
+    "item":"Mystery Charm",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2685,
+    "questID":263,
+    "row":"B",
+    "item":"Nectar: Thunder+",
+    "quantity":1,
+    "percent":"6%"
+  },
+  {
+    "dropID":2686,
+    "questID":263,
+    "row":"B",
+    "item":"Shining Charm",
+    "quantity":1,
+    "percent":"5%"
+  },
+  {
+    "dropID":2687,
+    "questID":263,
+    "row":"Sub",
+    "item":"Flashbug",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2688,
+    "questID":263,
+    "row":"Sub",
+    "item":"Armor Sphere+",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2689,
+    "questID":263,
+    "row":"Sub",
+    "item":"Hercudrome",
+    "quantity":1,
+    "percent":"11%"
+  },
+  {
+    "dropID":2690,
+    "questID":263,
+    "row":"Sub",
+    "item":"Bone Husk",
+    "quantity":4,
+    "percent":"10%"
+  },
+  {
+    "dropID":2691,
+    "questID":263,
+    "row":"Sub",
+    "item":"Adv Armor Sphere",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2692,
+    "questID":263,
+    "row":"Sub",
+    "item":"Spd Nectar: Thunder",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2693,
+    "questID":263,
+    "row":"Sub",
+    "item":"Thunderbug",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2694,
+    "questID":263,
+    "row":"Sub",
+    "item":"Bloodrun Jewel",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2695,
+    "questID":263,
+    "row":"Sub",
+    "item":"Mystery Charm",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2696,
+    "questID":263,
+    "row":"Sub",
+    "item":"Nectar: Thunder+",
+    "quantity":1,
+    "percent":"6%"
+  },
+  {
+    "dropID":2697,
+    "questID":263,
+    "row":"Sub",
+    "item":"Shining Charm",
+    "quantity":1,
+    "percent":"5%"
+  },
+  {
+    "dropID":2698,
+    "questID":264,
+    "row":"A",
+    "item":"Rubbery Hide+",
+    "quantity":1,
+    "percent":"31%"
+  },
+  {
+    "dropID":2699,
+    "questID":264,
+    "row":"A",
+    "item":"Toxin Sac",
+    "quantity":1,
+    "percent":"25%"
+  },
+  {
+    "dropID":2700,
+    "questID":264,
+    "row":"A",
+    "item":"Monster Keenbone",
+    "quantity":1,
+    "percent":"16%"
+  },
+  {
+    "dropID":2701,
+    "questID":264,
+    "row":"A",
+    "item":"Wyvern Fang",
+    "quantity":5,
+    "percent":"10%"
+  },
+  {
+    "dropID":2702,
+    "questID":264,
+    "row":"A",
+    "item":"Wyvern Claw",
+    "quantity":5,
+    "percent":"10%"
+  },
+  {
+    "dropID":2703,
+    "questID":264,
+    "row":"A",
+    "item":"Gypceros Head",
+    "quantity":1,
+    "percent":"7%"
+  },
+  {
+    "dropID":2704,
+    "questID":264,
+    "row":"A",
+    "item":"Novacrystal",
+    "quantity":1,
+    "percent":"1%"
+  },
+  {
+    "dropID":2705,
+    "questID":264,
+    "row":"B",
+    "item":"Spider Web",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2706,
+    "questID":264,
+    "row":"B",
+    "item":"Fire Herb",
+    "quantity":2,
+    "percent":"12%"
+  },
+  {
+    "dropID":2707,
+    "questID":264,
+    "row":"B",
+    "item":"Armor Sphere+",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2708,
+    "questID":264,
+    "row":"B",
+    "item":"Carbalite Ore",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2709,
+    "questID":264,
+    "row":"B",
+    "item":"Adv Armor Sphere",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2710,
+    "questID":264,
+    "row":"B",
+    "item":"Stam Nectar: Water",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2711,
+    "questID":264,
+    "row":"B",
+    "item":"Bloodrun Jewel",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2712,
+    "questID":264,
+    "row":"B",
+    "item":"Mystery Charm",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2713,
+    "questID":264,
+    "row":"B",
+    "item":"Iron Ore",
+    "quantity":2,
+    "percent":"7%"
+  },
+  {
+    "dropID":2714,
+    "questID":264,
+    "row":"B",
+    "item":"Nectar: Water+",
+    "quantity":1,
+    "percent":"6%"
+  },
+  {
+    "dropID":2715,
+    "questID":264,
+    "row":"B",
+    "item":"Shining Charm",
+    "quantity":1,
+    "percent":"5%"
+  },
+  {
+    "dropID":2716,
+    "questID":264,
+    "row":"Sub",
+    "item":"Spider Web",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2717,
+    "questID":264,
+    "row":"Sub",
+    "item":"Fire Herb",
+    "quantity":2,
+    "percent":"12%"
+  },
+  {
+    "dropID":2718,
+    "questID":264,
+    "row":"Sub",
+    "item":"Armor Sphere+",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2719,
+    "questID":264,
+    "row":"Sub",
+    "item":"Carbalite Ore",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2720,
+    "questID":264,
+    "row":"Sub",
+    "item":"Adv Armor Sphere",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2721,
+    "questID":264,
+    "row":"Sub",
+    "item":"Stam Nectar: Water",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2722,
+    "questID":264,
+    "row":"Sub",
+    "item":"Bloodrun Jewel",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2723,
+    "questID":264,
+    "row":"Sub",
+    "item":"Mystery Charm",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2724,
+    "questID":264,
+    "row":"Sub",
+    "item":"Iron Ore",
+    "quantity":2,
+    "percent":"7%"
+  },
+  {
+    "dropID":2725,
+    "questID":264,
+    "row":"Sub",
+    "item":"Nectar: Water+",
+    "quantity":1,
+    "percent":"6%"
+  },
+  {
+    "dropID":2726,
+    "questID":264,
+    "row":"Sub",
+    "item":"Shining Charm",
+    "quantity":1,
+    "percent":"5%"
+  },
+  {
+    "dropID":2727,
+    "questID":265,
+    "row":"A",
+    "item":"Tetsucabra Scale+",
+    "quantity":1,
+    "percent":"24%"
+  },
+  {
+    "dropID":2728,
+    "questID":265,
+    "row":"A",
+    "item":"Tetsucabra Carapace",
+    "quantity":1,
+    "percent":"18%"
+  },
+  {
+    "dropID":2729,
+    "questID":265,
+    "row":"A",
+    "item":"Dignified Skull",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2730,
+    "questID":265,
+    "row":"A",
+    "item":"Paddock Oil+",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2731,
+    "questID":265,
+    "row":"A",
+    "item":"Tetsucabra Claw+",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2732,
+    "questID":265,
+    "row":"A",
+    "item":"Tetsucabra Tusks+",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2733,
+    "questID":265,
+    "row":"A",
+    "item":"Stoutbone",
+    "quantity":2,
+    "percent":"7%"
+  },
+  {
+    "dropID":2734,
+    "questID":265,
+    "row":"A",
+    "item":"Paddock Oil",
+    "quantity":2,
+    "percent":"7%"
+  },
+  {
+    "dropID":2735,
+    "questID":265,
+    "row":"B",
+    "item":"Spider Web",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2736,
+    "questID":265,
+    "row":"B",
+    "item":"Fire Herb",
+    "quantity":2,
+    "percent":"12%"
+  },
+  {
+    "dropID":2737,
+    "questID":265,
+    "row":"B",
+    "item":"Armor Sphere+",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2738,
+    "questID":265,
+    "row":"B",
+    "item":"Carbalite Ore",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2739,
+    "questID":265,
+    "row":"B",
+    "item":"Adv Armor Sphere",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2740,
+    "questID":265,
+    "row":"B",
+    "item":"Stam Nectar: Water",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2741,
+    "questID":265,
+    "row":"B",
+    "item":"Bloodrun Jewel",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2742,
+    "questID":265,
+    "row":"B",
+    "item":"Mystery Charm",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2743,
+    "questID":265,
+    "row":"B",
+    "item":"Iron Ore",
+    "quantity":2,
+    "percent":"7%"
+  },
+  {
+    "dropID":2744,
+    "questID":265,
+    "row":"B",
+    "item":"Nectar: Water+",
+    "quantity":1,
+    "percent":"6%"
+  },
+  {
+    "dropID":2745,
+    "questID":265,
+    "row":"B",
+    "item":"Shining Charm",
+    "quantity":1,
+    "percent":"5%"
+  },
+  {
+    "dropID":2746,
+    "questID":265,
+    "row":"Sub",
+    "item":"Spider Web",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2747,
+    "questID":265,
+    "row":"Sub",
+    "item":"Fire Herb",
+    "quantity":2,
+    "percent":"12%"
+  },
+  {
+    "dropID":2748,
+    "questID":265,
+    "row":"Sub",
+    "item":"Armor Sphere+",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2749,
+    "questID":265,
+    "row":"Sub",
+    "item":"Carbalite Ore",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2750,
+    "questID":265,
+    "row":"Sub",
+    "item":"Adv Armor Sphere",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2751,
+    "questID":265,
+    "row":"Sub",
+    "item":"Stam Nectar: Water",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2752,
+    "questID":265,
+    "row":"Sub",
+    "item":"Bloodrun Jewel",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2753,
+    "questID":265,
+    "row":"Sub",
+    "item":"Mystery Charm",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2754,
+    "questID":265,
+    "row":"Sub",
+    "item":"Iron Ore",
+    "quantity":2,
+    "percent":"7%"
+  },
+  {
+    "dropID":2755,
+    "questID":265,
+    "row":"Sub",
+    "item":"Nectar: Water+",
+    "quantity":1,
+    "percent":"6%"
+  },
+  {
+    "dropID":2756,
+    "questID":265,
+    "row":"Sub",
+    "item":"Shining Charm",
+    "quantity":1,
+    "percent":"5%"
+  },
+  {
+    "dropID":2757,
+    "questID":266,
+    "row":"A",
+    "item":"E.Congalala Pelt+",
+    "quantity":1,
+    "percent":"28%"
+  },
+  {
+    "dropID":2758,
+    "questID":266,
+    "row":"A",
+    "item":"E.Congalala Fang+",
+    "quantity":1,
+    "percent":"22%"
+  },
+  {
+    "dropID":2759,
+    "questID":266,
+    "row":"A",
+    "item":"Vibrant Pelt",
+    "quantity":1,
+    "percent":"16%"
+  },
+  {
+    "dropID":2760,
+    "questID":266,
+    "row":"A",
+    "item":"Stoutbone",
+    "quantity":1,
+    "percent":"14%"
+  },
+  {
+    "dropID":2761,
+    "questID":266,
+    "row":"A",
+    "item":"E.Congalala Claw+",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2762,
+    "questID":266,
+    "row":"A",
+    "item":"Jumbo Bone",
+    "quantity":2,
+    "percent":"8%"
+  },
+  {
+    "dropID":2763,
+    "questID":266,
+    "row":"B",
+    "item":"Spider Web",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2764,
+    "questID":266,
+    "row":"B",
+    "item":"Fire Herb",
+    "quantity":2,
+    "percent":"12%"
+  },
+  {
+    "dropID":2765,
+    "questID":266,
+    "row":"B",
+    "item":"Armor Sphere+",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2766,
+    "questID":266,
+    "row":"B",
+    "item":"Carbalite Ore",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2767,
+    "questID":266,
+    "row":"B",
+    "item":"Adv Armor Sphere",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2768,
+    "questID":266,
+    "row":"B",
+    "item":"Stam Nectar: Water",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2769,
+    "questID":266,
+    "row":"B",
+    "item":"Bloodrun Jewel",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2770,
+    "questID":266,
+    "row":"B",
+    "item":"Mystery Charm",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2771,
+    "questID":266,
+    "row":"B",
+    "item":"Iron Ore",
+    "quantity":2,
+    "percent":"7%"
+  },
+  {
+    "dropID":2772,
+    "questID":266,
+    "row":"B",
+    "item":"Nectar: Water+",
+    "quantity":1,
+    "percent":"6%"
+  },
+  {
+    "dropID":2773,
+    "questID":266,
+    "row":"B",
+    "item":"Shining Charm",
+    "quantity":1,
+    "percent":"5%"
+  },
+  {
+    "dropID":2774,
+    "questID":266,
+    "row":"Sub",
+    "item":"Spider Web",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2775,
+    "questID":266,
+    "row":"Sub",
+    "item":"Fire Herb",
+    "quantity":2,
+    "percent":"12%"
+  },
+  {
+    "dropID":2776,
+    "questID":266,
+    "row":"Sub",
+    "item":"Armor Sphere+",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2777,
+    "questID":266,
+    "row":"Sub",
+    "item":"Carbalite Ore",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2778,
+    "questID":266,
+    "row":"Sub",
+    "item":"Adv Armor Sphere",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2779,
+    "questID":266,
+    "row":"Sub",
+    "item":"Stam Nectar: Water",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2780,
+    "questID":266,
+    "row":"Sub",
+    "item":"Bloodrun Jewel",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2781,
+    "questID":266,
+    "row":"Sub",
+    "item":"Mystery Charm",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2782,
+    "questID":266,
+    "row":"Sub",
+    "item":"Iron Ore",
+    "quantity":2,
+    "percent":"7%"
+  },
+  {
+    "dropID":2783,
+    "questID":266,
+    "row":"Sub",
+    "item":"Nectar: Water+",
+    "quantity":1,
+    "percent":"6%"
+  },
+  {
+    "dropID":2784,
+    "questID":266,
+    "row":"Sub",
+    "item":"Shining Charm",
+    "quantity":1,
+    "percent":"5%"
+  },
+  {
+    "dropID":2785,
+    "questID":267,
+    "row":"A",
+    "item":"Nerscylla Carapace",
+    "quantity":1,
+    "percent":"28%"
+  },
+  {
+    "dropID":2786,
+    "questID":267,
+    "row":"A",
+    "item":"Nerscylla Sharpclaw",
+    "quantity":1,
+    "percent":"20%"
+  },
+  {
+    "dropID":2787,
+    "questID":267,
+    "row":"A",
+    "item":"Nerscylla Shear",
+    "quantity":1,
+    "percent":"18%"
+  },
+  {
+    "dropID":2788,
+    "questID":267,
+    "row":"A",
+    "item":"Monster Broth",
+    "quantity":2,
+    "percent":"12%"
+  },
+  {
+    "dropID":2789,
+    "questID":267,
+    "row":"A",
+    "item":"Nerscylla Spike+",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2790,
+    "questID":267,
+    "row":"A",
+    "item":"Nerscylla Spike",
+    "quantity":2,
+    "percent":"10%"
+  },
+  {
+    "dropID":2791,
+    "questID":267,
+    "row":"B",
+    "item":"Flashbug",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2792,
+    "questID":267,
+    "row":"B",
+    "item":"Armor Sphere+",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2793,
+    "questID":267,
+    "row":"B",
+    "item":"Hercudrome",
+    "quantity":1,
+    "percent":"11%"
+  },
+  {
+    "dropID":2794,
+    "questID":267,
+    "row":"B",
+    "item":"Bone Husk",
+    "quantity":4,
+    "percent":"10%"
+  },
+  {
+    "dropID":2795,
+    "questID":267,
+    "row":"B",
+    "item":"Adv Armor Sphere",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2796,
+    "questID":267,
+    "row":"B",
+    "item":"Spd Nectar: Thunder",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2797,
+    "questID":267,
+    "row":"B",
+    "item":"Thunderbug",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2798,
+    "questID":267,
+    "row":"B",
+    "item":"Bloodrun Jewel",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2799,
+    "questID":267,
+    "row":"B",
+    "item":"Mystery Charm",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2800,
+    "questID":267,
+    "row":"B",
+    "item":"Nectar: Thunder+",
+    "quantity":1,
+    "percent":"6%"
+  },
+  {
+    "dropID":2801,
+    "questID":267,
+    "row":"B",
+    "item":"Shining Charm",
+    "quantity":1,
+    "percent":"5%"
+  },
+  {
+    "dropID":2802,
+    "questID":267,
+    "row":"Sub",
+    "item":"Flashbug",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2803,
+    "questID":267,
+    "row":"Sub",
+    "item":"Armor Sphere+",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2804,
+    "questID":267,
+    "row":"Sub",
+    "item":"Hercudrome",
+    "quantity":1,
+    "percent":"11%"
+  },
+  {
+    "dropID":2805,
+    "questID":267,
+    "row":"Sub",
+    "item":"Bone Husk",
+    "quantity":4,
+    "percent":"10%"
+  },
+  {
+    "dropID":2806,
+    "questID":267,
+    "row":"Sub",
+    "item":"Adv Armor Sphere",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2807,
+    "questID":267,
+    "row":"Sub",
+    "item":"Spd Nectar: Thunder",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2808,
+    "questID":267,
+    "row":"Sub",
+    "item":"Thunderbug",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2809,
+    "questID":267,
+    "row":"Sub",
+    "item":"Bloodrun Jewel",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2810,
+    "questID":267,
+    "row":"Sub",
+    "item":"Mystery Charm",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2811,
+    "questID":267,
+    "row":"Sub",
+    "item":"Nectar: Thunder+",
+    "quantity":1,
+    "percent":"6%"
+  },
+  {
+    "dropID":2812,
+    "questID":267,
+    "row":"Sub",
+    "item":"Shining Charm",
+    "quantity":1,
+    "percent":"5%"
+  },
+  {
+    "dropID":2813,
+    "questID":268,
+    "row":"A",
+    "item":"Gendrome Tail",
+    "quantity":1,
+    "percent":"21%"
+  },
+  {
+    "dropID":2814,
+    "questID":268,
+    "row":"A",
+    "item":"Avian Finebone",
+    "quantity":2,
+    "percent":"15%"
+  },
+  {
+    "dropID":2815,
+    "questID":268,
+    "row":"A",
+    "item":"Paralysis Sac",
+    "quantity":2,
+    "percent":"15%"
+  },
+  {
+    "dropID":2816,
+    "questID":268,
+    "row":"A",
+    "item":"Genprey Hide+",
+    "quantity":2,
+    "percent":"13%"
+  },
+  {
+    "dropID":2817,
+    "questID":268,
+    "row":"A",
+    "item":"Genprey Scale+",
+    "quantity":2,
+    "percent":"11%"
+  },
+  {
+    "dropID":2818,
+    "questID":268,
+    "row":"A",
+    "item":"Tough Bird Wyv Hide",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2819,
+    "questID":268,
+    "row":"A",
+    "item":"Gendrome Head",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2820,
+    "questID":268,
+    "row":"A",
+    "item":"Bird Wyvern Gem",
+    "quantity":1,
+    "percent":"5%"
+  },
+  {
+    "dropID":2821,
+    "questID":268,
+    "row":"B",
+    "item":"Tetsucabra Scale+",
+    "quantity":1,
+    "percent":"24%"
+  },
+  {
+    "dropID":2822,
+    "questID":268,
+    "row":"B",
+    "item":"Tetsucabra Carapace",
+    "quantity":1,
+    "percent":"18%"
+  },
+  {
+    "dropID":2823,
+    "questID":268,
+    "row":"B",
+    "item":"Dignified Skull",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2824,
+    "questID":268,
+    "row":"B",
+    "item":"Paddock Oil+",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2825,
+    "questID":268,
+    "row":"B",
+    "item":"Tetsucabra Claw+",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2826,
+    "questID":268,
+    "row":"B",
+    "item":"Tetsucabra Tusks+",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2827,
+    "questID":268,
+    "row":"B",
+    "item":"Stoutbone",
+    "quantity":2,
+    "percent":"7%"
+  },
+  {
+    "dropID":2828,
+    "questID":268,
+    "row":"B",
+    "item":"Paddock Oil",
+    "quantity":2,
+    "percent":"7%"
+  },
+  {
+    "dropID":2829,
+    "questID":268,
+    "row":"Sub",
+    "item":"Tetsucabra Scale+",
+    "quantity":1,
+    "percent":"24%"
+  },
+  {
+    "dropID":2830,
+    "questID":268,
+    "row":"Sub",
+    "item":"Tetsucabra Carapace",
+    "quantity":1,
+    "percent":"18%"
+  },
+  {
+    "dropID":2831,
+    "questID":268,
+    "row":"Sub",
+    "item":"Dignified Skull",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2832,
+    "questID":268,
+    "row":"Sub",
+    "item":"Paddock Oil+",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2833,
+    "questID":268,
+    "row":"Sub",
+    "item":"Tetsucabra Claw+",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2834,
+    "questID":268,
+    "row":"Sub",
+    "item":"Tetsucabra Tusks+",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2835,
+    "questID":268,
+    "row":"Sub",
+    "item":"Stoutbone",
+    "quantity":2,
+    "percent":"7%"
+  },
+  {
+    "dropID":2836,
+    "questID":268,
+    "row":"Sub",
+    "item":"Paddock Oil",
+    "quantity":2,
+    "percent":"7%"
+  },
+  {
+    "dropID":2837,
+    "questID":269,
+    "row":"A",
+    "item":"Bomb Arowana",
+    "quantity":2,
+    "percent":"15%"
+  },
+  {
+    "dropID":2838,
+    "questID":269,
+    "row":"A",
+    "item":"Scatterfish",
+    "quantity":2,
+    "percent":"15%"
+  },
+  {
+    "dropID":2839,
+    "questID":269,
+    "row":"A",
+    "item":"Burst Arowana",
+    "quantity":2,
+    "percent":"12%"
+  },
+  {
+    "dropID":2840,
+    "questID":269,
+    "row":"A",
+    "item":"Sleepyfish",
+    "quantity":2,
+    "percent":"10%"
+  },
+  {
+    "dropID":2841,
+    "questID":269,
+    "row":"A",
+    "item":"Wanchovy",
+    "quantity":3,
+    "percent":"10%"
+  },
+  {
+    "dropID":2842,
+    "questID":269,
+    "row":"A",
+    "item":"Pin Tuna",
+    "quantity":3,
+    "percent":"8%"
+  },
+  {
+    "dropID":2843,
+    "questID":269,
+    "row":"A",
+    "item":"Whetfish",
+    "quantity":3,
+    "percent":"8%"
+  },
+  {
+    "dropID":2844,
+    "questID":269,
+    "row":"A",
+    "item":"Popfish",
+    "quantity":3,
+    "percent":"8%"
+  },
+  {
+    "dropID":2845,
+    "questID":269,
+    "row":"A",
+    "item":"Mega Fishing Fly",
+    "quantity":3,
+    "percent":"8%"
+  },
+  {
+    "dropID":2846,
+    "questID":269,
+    "row":"A",
+    "item":"Blue Cutthroat",
+    "quantity":1,
+    "percent":"6%"
+  },
+  {
+    "dropID":2847,
+    "questID":269,
+    "row":"B",
+    "item":"Flashbug",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2848,
+    "questID":269,
+    "row":"B",
+    "item":"Armor Sphere+",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2849,
+    "questID":269,
+    "row":"B",
+    "item":"Hercudrome",
+    "quantity":1,
+    "percent":"11%"
+  },
+  {
+    "dropID":2850,
+    "questID":269,
+    "row":"B",
+    "item":"Bone Husk",
+    "quantity":4,
+    "percent":"10%"
+  },
+  {
+    "dropID":2851,
+    "questID":269,
+    "row":"B",
+    "item":"Adv Armor Sphere",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2852,
+    "questID":269,
+    "row":"B",
+    "item":"Spd Nectar: Thunder",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2853,
+    "questID":269,
+    "row":"B",
+    "item":"Thunderbug",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2854,
+    "questID":269,
+    "row":"B",
+    "item":"Bloodrun Jewel",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2855,
+    "questID":269,
+    "row":"B",
+    "item":"Mystery Charm",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2856,
+    "questID":269,
+    "row":"B",
+    "item":"Nectar: Thunder+",
+    "quantity":1,
+    "percent":"6%"
+  },
+  {
+    "dropID":2857,
+    "questID":269,
+    "row":"B",
+    "item":"Shining Charm",
+    "quantity":1,
+    "percent":"5%"
+  },
+  {
+    "dropID":2858,
+    "questID":269,
+    "row":"Sub",
+    "item":"Flashbug",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2859,
+    "questID":269,
+    "row":"Sub",
+    "item":"Armor Sphere+",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2860,
+    "questID":269,
+    "row":"Sub",
+    "item":"Hercudrome",
+    "quantity":1,
+    "percent":"11%"
+  },
+  {
+    "dropID":2861,
+    "questID":269,
+    "row":"Sub",
+    "item":"Bone Husk",
+    "quantity":4,
+    "percent":"10%"
+  },
+  {
+    "dropID":2862,
+    "questID":269,
+    "row":"Sub",
+    "item":"Adv Armor Sphere",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2863,
+    "questID":269,
+    "row":"Sub",
+    "item":"Spd Nectar: Thunder",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2864,
+    "questID":269,
+    "row":"Sub",
+    "item":"Thunderbug",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2865,
+    "questID":269,
+    "row":"Sub",
+    "item":"Bloodrun Jewel",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2866,
+    "questID":269,
+    "row":"Sub",
+    "item":"Mystery Charm",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2867,
+    "questID":269,
+    "row":"Sub",
+    "item":"Nectar: Thunder+",
+    "quantity":1,
+    "percent":"6%"
+  },
+  {
+    "dropID":2868,
+    "questID":269,
+    "row":"Sub",
+    "item":"Shining Charm",
+    "quantity":1,
+    "percent":"5%"
+  },
+  {
+    "dropID":2869,
+    "questID":270,
+    "row":"A",
+    "item":"Carbalite Ore",
+    "quantity":1,
+    "percent":"21%"
+  },
+  {
+    "dropID":2870,
+    "questID":270,
+    "row":"A",
+    "item":"Adv Armor Sphere",
+    "quantity":1,
+    "percent":"15%"
+  },
+  {
+    "dropID":2871,
+    "questID":270,
+    "row":"A",
+    "item":"Dragonite Ore",
+    "quantity":2,
+    "percent":"14%"
+  },
+  {
+    "dropID":2872,
+    "questID":270,
+    "row":"A",
+    "item":"Lightcrystal",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2873,
+    "questID":270,
+    "row":"A",
+    "item":"Shining Charm",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2874,
+    "questID":270,
+    "row":"A",
+    "item":"Armor Sphere+",
+    "quantity":2,
+    "percent":"10%"
+  },
+  {
+    "dropID":2875,
+    "questID":270,
+    "row":"A",
+    "item":"Novacrystal",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2876,
+    "questID":270,
+    "row":"A",
+    "item":"Silver Egg",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2877,
+    "questID":270,
+    "row":"B",
+    "item":"Spider Web",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2878,
+    "questID":270,
+    "row":"B",
+    "item":"Fire Herb",
+    "quantity":2,
+    "percent":"12%"
+  },
+  {
+    "dropID":2879,
+    "questID":270,
+    "row":"B",
+    "item":"Armor Sphere+",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2880,
+    "questID":270,
+    "row":"B",
+    "item":"Carbalite Ore",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2881,
+    "questID":270,
+    "row":"B",
+    "item":"Adv Armor Sphere",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2882,
+    "questID":270,
+    "row":"B",
+    "item":"Stam Nectar: Water",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2883,
+    "questID":270,
+    "row":"B",
+    "item":"Bloodrun Jewel",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2884,
+    "questID":270,
+    "row":"B",
+    "item":"Mystery Charm",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2885,
+    "questID":270,
+    "row":"B",
+    "item":"Iron Ore",
+    "quantity":2,
+    "percent":"7%"
+  },
+  {
+    "dropID":2886,
+    "questID":270,
+    "row":"B",
+    "item":"Nectar: Water+",
+    "quantity":1,
+    "percent":"6%"
+  },
+  {
+    "dropID":2887,
+    "questID":270,
+    "row":"B",
+    "item":"Shining Charm",
+    "quantity":1,
+    "percent":"5%"
+  },
+  {
+    "dropID":2888,
+    "questID":270,
+    "row":"Sub",
+    "item":"Spider Web",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2889,
+    "questID":270,
+    "row":"Sub",
+    "item":"Fire Herb",
+    "quantity":2,
+    "percent":"12%"
+  },
+  {
+    "dropID":2890,
+    "questID":270,
+    "row":"Sub",
+    "item":"Armor Sphere+",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2891,
+    "questID":270,
+    "row":"Sub",
+    "item":"Carbalite Ore",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2892,
+    "questID":270,
+    "row":"Sub",
+    "item":"Adv Armor Sphere",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2893,
+    "questID":270,
+    "row":"Sub",
+    "item":"Stam Nectar: Water",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2894,
+    "questID":270,
+    "row":"Sub",
+    "item":"Bloodrun Jewel",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2895,
+    "questID":270,
+    "row":"Sub",
+    "item":"Mystery Charm",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2896,
+    "questID":270,
+    "row":"Sub",
+    "item":"Iron Ore",
+    "quantity":2,
+    "percent":"7%"
+  },
+  {
+    "dropID":2897,
+    "questID":270,
+    "row":"Sub",
+    "item":"Nectar: Water+",
+    "quantity":1,
+    "percent":"6%"
+  },
+  {
+    "dropID":2898,
+    "questID":270,
+    "row":"Sub",
+    "item":"Shining Charm",
+    "quantity":1,
+    "percent":"5%"
+  },
+  {
+    "dropID":2899,
+    "questID":271,
+    "row":"A",
+    "item":"Kecha Pelt+",
+    "quantity":1,
+    "percent":"25%"
+  },
+  {
+    "dropID":2900,
+    "questID":271,
+    "row":"A",
+    "item":"Torrent Sac",
+    "quantity":1,
+    "percent":"18%"
+  },
+  {
+    "dropID":2901,
+    "questID":271,
+    "row":"A",
+    "item":"Stoutbone",
+    "quantity":1,
+    "percent":"14%"
+  },
+  {
+    "dropID":2902,
+    "questID":271,
+    "row":"A",
+    "item":"Kecha Grandbone",
+    "quantity":1,
+    "percent":"13%"
+  },
+  {
+    "dropID":2903,
+    "questID":271,
+    "row":"A",
+    "item":"Kecha Tail",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2904,
+    "questID":271,
+    "row":"A",
+    "item":"Kecha Ear+",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2905,
+    "questID":271,
+    "row":"A",
+    "item":"Kecha Talon",
+    "quantity":2,
+    "percent":"6%"
+  },
+  {
+    "dropID":2906,
+    "questID":271,
+    "row":"A",
+    "item":"Kecha Ear",
+    "quantity":1,
+    "percent":"6%"
+  },
+  {
+    "dropID":2907,
+    "questID":271,
+    "row":"B",
+    "item":"E.Congalala Pelt+",
+    "quantity":1,
+    "percent":"28%"
+  },
+  {
+    "dropID":2908,
+    "questID":271,
+    "row":"B",
+    "item":"E.Congalala Fang+",
+    "quantity":1,
+    "percent":"22%"
+  },
+  {
+    "dropID":2909,
+    "questID":271,
+    "row":"B",
+    "item":"Vibrant Pelt",
+    "quantity":1,
+    "percent":"16%"
+  },
+  {
+    "dropID":2910,
+    "questID":271,
+    "row":"B",
+    "item":"Stoutbone",
+    "quantity":1,
+    "percent":"14%"
+  },
+  {
+    "dropID":2911,
+    "questID":271,
+    "row":"B",
+    "item":"E.Congalala Claw+",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2912,
+    "questID":271,
+    "row":"B",
+    "item":"Jumbo Bone",
+    "quantity":2,
+    "percent":"8%"
+  },
+  {
+    "dropID":2913,
+    "questID":271,
+    "row":"Sub",
+    "item":"E.Congalala Pelt+",
+    "quantity":1,
+    "percent":"28%"
+  },
+  {
+    "dropID":2914,
+    "questID":271,
+    "row":"Sub",
+    "item":"E.Congalala Fang+",
+    "quantity":1,
+    "percent":"22%"
+  },
+  {
+    "dropID":2915,
+    "questID":271,
+    "row":"Sub",
+    "item":"Vibrant Pelt",
+    "quantity":1,
+    "percent":"16%"
+  },
+  {
+    "dropID":2916,
+    "questID":271,
+    "row":"Sub",
+    "item":"Stoutbone",
+    "quantity":1,
+    "percent":"14%"
+  },
+  {
+    "dropID":2917,
+    "questID":271,
+    "row":"Sub",
+    "item":"E.Congalala Claw+",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2918,
+    "questID":271,
+    "row":"Sub",
+    "item":"Jumbo Bone",
+    "quantity":2,
+    "percent":"8%"
+  },
+  {
+    "dropID":2919,
+    "questID":272,
+    "row":"A",
+    "item":"Tetsucabra Scale+",
+    "quantity":1,
+    "percent":"24%"
+  },
+  {
+    "dropID":2920,
+    "questID":272,
+    "row":"A",
+    "item":"Tetsucabra Carapace",
+    "quantity":1,
+    "percent":"18%"
+  },
+  {
+    "dropID":2921,
+    "questID":272,
+    "row":"A",
+    "item":"Dignified Skull",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2922,
+    "questID":272,
+    "row":"A",
+    "item":"Paddock Oil+",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2923,
+    "questID":272,
+    "row":"A",
+    "item":"Tetsucabra Claw+",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2924,
+    "questID":272,
+    "row":"A",
+    "item":"Tetsucabra Tusks+",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2925,
+    "questID":272,
+    "row":"A",
+    "item":"Stoutbone",
+    "quantity":2,
+    "percent":"7%"
+  },
+  {
+    "dropID":2926,
+    "questID":272,
+    "row":"A",
+    "item":"Paddock Oil",
+    "quantity":2,
+    "percent":"7%"
+  },
+  {
+    "dropID":2927,
+    "questID":273,
+    "row":"A",
+    "item":"Congalala Pelt+",
+    "quantity":1,
+    "percent":"28%"
+  },
+  {
+    "dropID":2928,
+    "questID":273,
+    "row":"A",
+    "item":"Congalala Fang",
+    "quantity":1,
+    "percent":"22%"
+  },
+  {
+    "dropID":2929,
+    "questID":273,
+    "row":"A",
+    "item":"Vibrant Pelt",
+    "quantity":1,
+    "percent":"14%"
+  },
+  {
+    "dropID":2930,
+    "questID":273,
+    "row":"A",
+    "item":"Stoutbone",
+    "quantity":1,
+    "percent":"14%"
+  },
+  {
+    "dropID":2931,
+    "questID":273,
+    "row":"A",
+    "item":"Congalala Claw+",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2932,
+    "questID":273,
+    "row":"A",
+    "item":"Jumbo Bone",
+    "quantity":2,
+    "percent":"10%"
+  },
+  {
+    "dropID":2933,
+    "questID":273,
+    "row":"B",
+    "item":"Flashbug",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2934,
+    "questID":273,
+    "row":"B",
+    "item":"Armor Sphere+",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2935,
+    "questID":273,
+    "row":"B",
+    "item":"Hercudrome",
+    "quantity":1,
+    "percent":"11%"
+  },
+  {
+    "dropID":2936,
+    "questID":273,
+    "row":"B",
+    "item":"Bone Husk",
+    "quantity":4,
+    "percent":"10%"
+  },
+  {
+    "dropID":2937,
+    "questID":273,
+    "row":"B",
+    "item":"Adv Armor Sphere",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2938,
+    "questID":273,
+    "row":"B",
+    "item":"Spd Nectar: Thunder",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2939,
+    "questID":273,
+    "row":"B",
+    "item":"Thunderbug",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2940,
+    "questID":273,
+    "row":"B",
+    "item":"Bloodrun Jewel",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2941,
+    "questID":273,
+    "row":"B",
+    "item":"Mystery Charm",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2942,
+    "questID":273,
+    "row":"B",
+    "item":"Nectar: Thunder+",
+    "quantity":1,
+    "percent":"6%"
+  },
+  {
+    "dropID":2943,
+    "questID":273,
+    "row":"B",
+    "item":"Shining Charm",
+    "quantity":1,
+    "percent":"5%"
+  },
+  {
+    "dropID":2944,
+    "questID":273,
+    "row":"Sub",
+    "item":"Flashbug",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2945,
+    "questID":273,
+    "row":"Sub",
+    "item":"Armor Sphere+",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2946,
+    "questID":273,
+    "row":"Sub",
+    "item":"Hercudrome",
+    "quantity":1,
+    "percent":"11%"
+  },
+  {
+    "dropID":2947,
+    "questID":273,
+    "row":"Sub",
+    "item":"Bone Husk",
+    "quantity":4,
+    "percent":"10%"
+  },
+  {
+    "dropID":2948,
+    "questID":273,
+    "row":"Sub",
+    "item":"Adv Armor Sphere",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2949,
+    "questID":273,
+    "row":"Sub",
+    "item":"Spd Nectar: Thunder",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2950,
+    "questID":273,
+    "row":"Sub",
+    "item":"Thunderbug",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2951,
+    "questID":273,
+    "row":"Sub",
+    "item":"Bloodrun Jewel",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2952,
+    "questID":273,
+    "row":"Sub",
+    "item":"Mystery Charm",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2953,
+    "questID":273,
+    "row":"Sub",
+    "item":"Nectar: Thunder+",
+    "quantity":1,
+    "percent":"6%"
+  },
+  {
+    "dropID":2954,
+    "questID":273,
+    "row":"Sub",
+    "item":"Shining Charm",
+    "quantity":1,
+    "percent":"5%"
+  },
+  {
+    "dropID":2955,
+    "questID":274,
+    "row":"A",
+    "item":"Nerscylla Carapace",
+    "quantity":1,
+    "percent":"28%"
+  },
+  {
+    "dropID":2956,
+    "questID":274,
+    "row":"A",
+    "item":"Nerscylla Sharpclaw",
+    "quantity":1,
+    "percent":"20%"
+  },
+  {
+    "dropID":2957,
+    "questID":274,
+    "row":"A",
+    "item":"Nerscylla Shear",
+    "quantity":1,
+    "percent":"18%"
+  },
+  {
+    "dropID":2958,
+    "questID":274,
+    "row":"A",
+    "item":"Monster Broth",
+    "quantity":2,
+    "percent":"12%"
+  },
+  {
+    "dropID":2959,
+    "questID":274,
+    "row":"A",
+    "item":"Nerscylla Spike+",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2960,
+    "questID":274,
+    "row":"A",
+    "item":"Nerscylla Spike",
+    "quantity":2,
+    "percent":"10%"
+  },
+  {
+    "dropID":2961,
+    "questID":275,
+    "row":"A",
+    "item":"Rubbery Hide+",
+    "quantity":1,
+    "percent":"22%"
+  },
+  {
+    "dropID":2962,
+    "questID":275,
+    "row":"A",
+    "item":"Congalala Pelt+",
+    "quantity":1,
+    "percent":"15%"
+  },
+  {
+    "dropID":2963,
+    "questID":275,
+    "row":"A",
+    "item":"Seltas Innerwing",
+    "quantity":1,
+    "percent":"13%"
+  },
+  {
+    "dropID":2964,
+    "questID":275,
+    "row":"A",
+    "item":"Seltas Carapace",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2965,
+    "questID":275,
+    "row":"A",
+    "item":"Congalala Claw+",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2966,
+    "questID":275,
+    "row":"A",
+    "item":"Gypceros Head",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2967,
+    "questID":275,
+    "row":"A",
+    "item":"Seltas Horn+",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2968,
+    "questID":275,
+    "row":"A",
+    "item":"Vibrant Pelt",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2969,
+    "questID":275,
+    "row":"A",
+    "item":"Novacrystal",
+    "quantity":1,
+    "percent":"2%"
+  },
+  {
+    "dropID":2970,
+    "questID":275,
+    "row":"B",
+    "item":"Armor Sphere+",
+    "quantity":1,
+    "percent":"15%"
+  },
+  {
+    "dropID":2971,
+    "questID":275,
+    "row":"B",
+    "item":"Stoutbone",
+    "quantity":1,
+    "percent":"14%"
+  },
+  {
+    "dropID":2972,
+    "questID":275,
+    "row":"B",
+    "item":"Shining Charm",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2973,
+    "questID":275,
+    "row":"B",
+    "item":"Torrent Sac",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2974,
+    "questID":275,
+    "row":"B",
+    "item":"Monster Broth",
+    "quantity":2,
+    "percent":"8%"
+  },
+  {
+    "dropID":2975,
+    "questID":275,
+    "row":"B",
+    "item":"Congalala Pelt+",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2976,
+    "questID":275,
+    "row":"B",
+    "item":"Toxin Sac",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2977,
+    "questID":275,
+    "row":"B",
+    "item":"Armor Sphere+",
+    "quantity":2,
+    "percent":"7%"
+  },
+  {
+    "dropID":2978,
+    "questID":275,
+    "row":"B",
+    "item":"Wyvern Fang",
+    "quantity":8,
+    "percent":"5%"
+  },
+  {
+    "dropID":2979,
+    "questID":275,
+    "row":"B",
+    "item":"Wyvern Claw",
+    "quantity":8,
+    "percent":"5%"
+  },
+  {
+    "dropID":2980,
+    "questID":275,
+    "row":"B",
+    "item":"Seltas Carapace",
+    "quantity":1,
+    "percent":"4%"
+  },
+  {
+    "dropID":2981,
+    "questID":275,
+    "row":"B",
+    "item":"Monster Keenbone",
+    "quantity":1,
+    "percent":"4%"
+  },
+  {
+    "dropID":2982,
+    "questID":275,
+    "row":"Sub",
+    "item":"Armor Sphere+",
+    "quantity":1,
+    "percent":"15%"
+  },
+  {
+    "dropID":2983,
+    "questID":275,
+    "row":"Sub",
+    "item":"Stoutbone",
+    "quantity":1,
+    "percent":"14%"
+  },
+  {
+    "dropID":2984,
+    "questID":275,
+    "row":"Sub",
+    "item":"Shining Charm",
+    "quantity":1,
+    "percent":"12%"
+  },
+  {
+    "dropID":2985,
+    "questID":275,
+    "row":"Sub",
+    "item":"Torrent Sac",
+    "quantity":1,
+    "percent":"10%"
+  },
+  {
+    "dropID":2986,
+    "questID":275,
+    "row":"Sub",
+    "item":"Monster Broth",
+    "quantity":2,
+    "percent":"8%"
+  },
+  {
+    "dropID":2987,
+    "questID":275,
+    "row":"Sub",
+    "item":"Congalala Pelt+",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2988,
+    "questID":275,
+    "row":"Sub",
+    "item":"Toxin Sac",
+    "quantity":1,
+    "percent":"8%"
+  },
+  {
+    "dropID":2989,
+    "questID":275,
+    "row":"Sub",
+    "item":"Armor Sphere+",
+    "quantity":2,
+    "percent":"7%"
+  },
+  {
+    "dropID":2990,
+    "questID":275,
+    "row":"Sub",
+    "item":"Wyvern Fang",
+    "quantity":8,
+    "percent":"5%"
+  },
+  {
+    "dropID":2991,
+    "questID":275,
+    "row":"Sub",
+    "item":"Wyvern Claw",
+    "quantity":8,
+    "percent":"5%"
+  },
+  {
+    "dropID":2992,
+    "questID":275,
+    "row":"Sub",
+    "item":"Seltas Carapace",
+    "quantity":1,
+    "percent":"4%"
+  },
+  {
+    "dropID":2993,
+    "questID":275,
+    "row":"Sub",
+    "item":"Monster Keenbone",
+    "quantity":1,
+    "percent":"4%"
+  }
+]

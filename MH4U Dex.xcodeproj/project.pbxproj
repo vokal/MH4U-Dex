@@ -25,7 +25,6 @@
 		49F47D237297F3247242BECB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EB6B9A1DC54B606E11EEE77 /* libPods.a */; };
 		E40D07201ACAFA19001B8E04 /* _Drop.m in Sources */ = {isa = PBXBuildFile; fileRef = E40D071F1ACAFA19001B8E04 /* _Drop.m */; };
 		E40D07231ACAFA27001B8E04 /* Drop.m in Sources */ = {isa = PBXBuildFile; fileRef = E40D07221ACAFA27001B8E04 /* Drop.m */; };
-		E41C4D1C1A8BBF5E00A2D0CB /* monsters.json in Resources */ = {isa = PBXBuildFile; fileRef = E41C4D1B1A8BBF5E00A2D0CB /* monsters.json */; };
 		E42DDC8B1A83FD140016596C /* MH4U_Dex.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E42DDC891A83FD140016596C /* MH4U_Dex.xcdatamodeld */; };
 		E434F36E1A83F5CA004C10BF /* _Armor.m in Sources */ = {isa = PBXBuildFile; fileRef = E434F3421A83F5CA004C10BF /* _Armor.m */; };
 		E434F36F1A83F5CA004C10BF /* _ArmorSet.m in Sources */ = {isa = PBXBuildFile; fileRef = E434F3441A83F5CA004C10BF /* _ArmorSet.m */; };
@@ -59,7 +58,6 @@
 		E45F51AE1ACDB14500C65741 /* PREBUILT_STORE.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = E45F51AD1ACDB14500C65741 /* PREBUILT_STORE.sqlite */; };
 		E46BBBA31AAA483100068F02 /* RegionContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E46BBBA21AAA483000068F02 /* RegionContainerViewController.m */; };
 		E46BBBA61AAA4CEE00068F02 /* RegionItemTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E46BBBA51AAA4CEE00068F02 /* RegionItemTableViewController.m */; };
-		E471BE1A1A96456F0076CBD7 /* monsterDrops.json in Resources */ = {isa = PBXBuildFile; fileRef = E471BE191A96456F0076CBD7 /* monsterDrops.json */; };
 		E471BE1D1A96620E0076CBD7 /* DropTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E471BE1C1A96620E0076CBD7 /* DropTableViewCell.m */; };
 		E471BE211A9671690076CBD7 /* ItemEncyclopediaTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E471BE201A9671690076CBD7 /* ItemEncyclopediaTableViewController.m */; };
 		E471BE241A9672A80076CBD7 /* ItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E471BE231A9672A80076CBD7 /* ItemTableViewCell.m */; };
@@ -96,6 +94,13 @@
 		E4A769921A8521B100AC93DA /* MonsterEncyclopediaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A769911A8521B100AC93DA /* MonsterEncyclopediaCell.m */; };
 		E4B4938E1ABC72F700B29B18 /* Strings.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B4938D1ABC72F700B29B18 /* Strings.m */; };
 		E4C76B341A85638D00AD753B /* MonsterOverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C76B331A85638D00AD753B /* MonsterOverviewViewController.m */; };
+		E4CBD8351AD6D14A001B8105 /* quests_drops6.json in Resources */ = {isa = PBXBuildFile; fileRef = E4CBD82E1AD6D14A001B8105 /* quests_drops6.json */; };
+		E4CBD8361AD6D14A001B8105 /* quests_drops5.json in Resources */ = {isa = PBXBuildFile; fileRef = E4CBD82F1AD6D14A001B8105 /* quests_drops5.json */; };
+		E4CBD8371AD6D14A001B8105 /* quests_drops4.json in Resources */ = {isa = PBXBuildFile; fileRef = E4CBD8301AD6D14A001B8105 /* quests_drops4.json */; };
+		E4CBD8381AD6D14A001B8105 /* quests_drops3.json in Resources */ = {isa = PBXBuildFile; fileRef = E4CBD8311AD6D14A001B8105 /* quests_drops3.json */; };
+		E4CBD8391AD6D14A001B8105 /* quests_drops2.json in Resources */ = {isa = PBXBuildFile; fileRef = E4CBD8321AD6D14A001B8105 /* quests_drops2.json */; };
+		E4CBD83A1AD6D14A001B8105 /* quests_drops1.json in Resources */ = {isa = PBXBuildFile; fileRef = E4CBD8331AD6D14A001B8105 /* quests_drops1.json */; };
+		E4CBD83B1AD6D14A001B8105 /* quests.json in Resources */ = {isa = PBXBuildFile; fileRef = E4CBD8341AD6D14A001B8105 /* quests.json */; };
 		E4CE45C31A97A8D30059C056 /* _MonsterDrop.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CE45C21A97A8D30059C056 /* _MonsterDrop.m */; };
 		E4CE45C61A97A8DA0059C056 /* _AreaDrop.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CE45C51A97A8DA0059C056 /* _AreaDrop.m */; };
 		E4CE45C91A97A8E70059C056 /* AreaDrop.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CE45C81A97A8E70059C056 /* AreaDrop.m */; };
@@ -107,8 +112,6 @@
 		E4D95EE51AC3536D001E7100 /* MonsterEncyclopediaHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D95EE41AC3536D001E7100 /* MonsterEncyclopediaHeader.m */; };
 		E4DAD2231AB734CE0048DACA /* QuestDrop.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAD2221AB734CE0048DACA /* QuestDrop.m */; };
 		E4DAD2261AB734DF0048DACA /* _QuestDrop.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAD2251AB734DF0048DACA /* _QuestDrop.m */; };
-		E4DAD2281AB739050048DACA /* quests.json in Resources */ = {isa = PBXBuildFile; fileRef = E4DAD2271AB739050048DACA /* quests.json */; };
-		E4DAD22A1AB772C50048DACA /* quest_drops.json in Resources */ = {isa = PBXBuildFile; fileRef = E4DAD2291AB772C50048DACA /* quest_drops.json */; };
 		E4DAD22E1AB77F8B0048DACA /* QuestEncyclopediaContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAD22D1AB77F8B0048DACA /* QuestEncyclopediaContainerViewController.m */; };
 		E4DAD2311AB7813C0048DACA /* QuestListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAD2301AB7813C0048DACA /* QuestListTableViewController.m */; };
 		E4DAD2341AB89A210048DACA /* QuestListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAD2331AB89A210048DACA /* QuestListTableViewCell.m */; };
@@ -146,7 +149,6 @@
 		E40D071F1ACAFA19001B8E04 /* _Drop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Drop.m; sourceTree = "<group>"; };
 		E40D07211ACAFA27001B8E04 /* Drop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drop.h; sourceTree = "<group>"; };
 		E40D07221ACAFA27001B8E04 /* Drop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Drop.m; sourceTree = "<group>"; };
-		E41C4D1B1A8BBF5E00A2D0CB /* monsters.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = monsters.json; sourceTree = "<group>"; };
 		E42DDC8A1A83FD140016596C /* MH4U_Dex.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MH4U_Dex.xcdatamodel; sourceTree = "<group>"; };
 		E434F3411A83F5CA004C10BF /* _Armor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Armor.h; sourceTree = "<group>"; };
 		E434F3421A83F5CA004C10BF /* _Armor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Armor.m; sourceTree = "<group>"; };
@@ -211,7 +213,6 @@
 		E46BBBA21AAA483000068F02 /* RegionContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegionContainerViewController.m; sourceTree = "<group>"; };
 		E46BBBA41AAA4CEE00068F02 /* RegionItemTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionItemTableViewController.h; sourceTree = "<group>"; };
 		E46BBBA51AAA4CEE00068F02 /* RegionItemTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegionItemTableViewController.m; sourceTree = "<group>"; };
-		E471BE191A96456F0076CBD7 /* monsterDrops.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = monsterDrops.json; sourceTree = "<group>"; };
 		E471BE1B1A96620E0076CBD7 /* DropTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropTableViewCell.h; sourceTree = "<group>"; };
 		E471BE1C1A96620E0076CBD7 /* DropTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropTableViewCell.m; sourceTree = "<group>"; };
 		E471BE1F1A9671690076CBD7 /* ItemEncyclopediaTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemEncyclopediaTableViewController.h; sourceTree = "<group>"; };
@@ -269,6 +270,13 @@
 		E4B4938D1ABC72F700B29B18 /* Strings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Strings.m; sourceTree = "<group>"; };
 		E4C76B321A85638D00AD753B /* MonsterOverviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonsterOverviewViewController.h; sourceTree = "<group>"; };
 		E4C76B331A85638D00AD753B /* MonsterOverviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonsterOverviewViewController.m; sourceTree = "<group>"; };
+		E4CBD82E1AD6D14A001B8105 /* quests_drops6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quests_drops6.json; sourceTree = "<group>"; };
+		E4CBD82F1AD6D14A001B8105 /* quests_drops5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quests_drops5.json; sourceTree = "<group>"; };
+		E4CBD8301AD6D14A001B8105 /* quests_drops4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quests_drops4.json; sourceTree = "<group>"; };
+		E4CBD8311AD6D14A001B8105 /* quests_drops3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quests_drops3.json; sourceTree = "<group>"; };
+		E4CBD8321AD6D14A001B8105 /* quests_drops2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quests_drops2.json; sourceTree = "<group>"; };
+		E4CBD8331AD6D14A001B8105 /* quests_drops1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quests_drops1.json; sourceTree = "<group>"; };
+		E4CBD8341AD6D14A001B8105 /* quests.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quests.json; sourceTree = "<group>"; };
 		E4CE45C11A97A8D30059C056 /* _MonsterDrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _MonsterDrop.h; sourceTree = "<group>"; };
 		E4CE45C21A97A8D30059C056 /* _MonsterDrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _MonsterDrop.m; sourceTree = "<group>"; };
 		E4CE45C41A97A8DA0059C056 /* _AreaDrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _AreaDrop.h; sourceTree = "<group>"; };
@@ -289,8 +297,6 @@
 		E4DAD2221AB734CE0048DACA /* QuestDrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestDrop.m; sourceTree = "<group>"; };
 		E4DAD2241AB734DF0048DACA /* _QuestDrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _QuestDrop.h; sourceTree = "<group>"; };
 		E4DAD2251AB734DF0048DACA /* _QuestDrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _QuestDrop.m; sourceTree = "<group>"; };
-		E4DAD2271AB739050048DACA /* quests.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quests.json; sourceTree = "<group>"; };
-		E4DAD2291AB772C50048DACA /* quest_drops.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quest_drops.json; sourceTree = "<group>"; };
 		E4DAD22C1AB77F8B0048DACA /* QuestEncyclopediaContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestEncyclopediaContainerViewController.h; sourceTree = "<group>"; };
 		E4DAD22D1AB77F8B0048DACA /* QuestEncyclopediaContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestEncyclopediaContainerViewController.m; sourceTree = "<group>"; };
 		E4DAD22F1AB7813C0048DACA /* QuestListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestListTableViewController.h; sourceTree = "<group>"; };
@@ -566,11 +572,8 @@
 			isa = PBXGroup;
 			children = (
 				E48A67771ABB7A8000C5EE81 /* Monsters */,
+				E4CBD82D1AD6D0F7001B8105 /* Quests */,
 				E471BE301A979DB30076CBD7 /* Regions */,
-				E4DAD2271AB739050048DACA /* quests.json */,
-				E4DAD2291AB772C50048DACA /* quest_drops.json */,
-				E41C4D1B1A8BBF5E00A2D0CB /* monsters.json */,
-				E471BE191A96456F0076CBD7 /* monsterDrops.json */,
 				E42DDC891A83FD140016596C /* MH4U_Dex.xcdatamodeld */,
 				E434F3401A83F5CA004C10BF /* Private */,
 				E434F3571A83F5CA004C10BF /* Public */,
@@ -629,6 +632,20 @@
 				E4C76B331A85638D00AD753B /* MonsterOverviewViewController.m */,
 			);
 			name = Monster;
+			sourceTree = "<group>";
+		};
+		E4CBD82D1AD6D0F7001B8105 /* Quests */ = {
+			isa = PBXGroup;
+			children = (
+				E4CBD82E1AD6D14A001B8105 /* quests_drops6.json */,
+				E4CBD82F1AD6D14A001B8105 /* quests_drops5.json */,
+				E4CBD8301AD6D14A001B8105 /* quests_drops4.json */,
+				E4CBD8311AD6D14A001B8105 /* quests_drops3.json */,
+				E4CBD8321AD6D14A001B8105 /* quests_drops2.json */,
+				E4CBD8331AD6D14A001B8105 /* quests_drops1.json */,
+				E4CBD8341AD6D14A001B8105 /* quests.json */,
+			);
+			name = Quests;
 			sourceTree = "<group>";
 		};
 		E4D95ED61AC1D83D001E7100 /* MH4U Dex UITests */ = {
@@ -809,33 +826,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4CBD8351AD6D14A001B8105 /* quests_drops6.json in Resources */,
+				E4CBD83A1AD6D14A001B8105 /* quests_drops1.json in Resources */,
 				E48A67831ABB7A8E00C5EE81 /* monster_drops10.json in Resources */,
 				E47878CE1ACEE012007AD8DE /* monsterDamage.json in Resources */,
 				E4CE45D61A97E34D0059C056 /* primal_forest_drops.json in Resources */,
 				E48A67851ABB7A8E00C5EE81 /* monster_drops8.json in Resources */,
 				E4CE45D41A97E03A0059C056 /* sunken_hollow_drops.json in Resources */,
 				E48A67871ABB7A8E00C5EE81 /* monster_drops6.json in Resources */,
-				E471BE1A1A96456F0076CBD7 /* monsterDrops.json in Resources */,
 				E49958111A83D28E00799BBE /* Main.storyboard in Resources */,
 				E48A678A1ABB7A8E00C5EE81 /* monster_drops3.json in Resources */,
 				E4E2127C1AB1FDBE00320E39 /* volcanic_hollow_drops.json in Resources */,
+				E4CBD8371AD6D14A001B8105 /* quests_drops4.json in Resources */,
 				E48A678B1ABB7A8E00C5EE81 /* monster_drops2.json in Resources */,
+				E4CBD8391AD6D14A001B8105 /* quests_drops2.json in Resources */,
 				E471BE321A979DF40076CBD7 /* regions.json in Resources */,
+				E4CBD8361AD6D14A001B8105 /* quests_drops5.json in Resources */,
 				E48A67881ABB7A8E00C5EE81 /* monster_drops5.json in Resources */,
 				E48A67841ABB7A8E00C5EE81 /* monster_drops9.json in Resources */,
 				E48A67861ABB7A8E00C5EE81 /* monster_drops7.json in Resources */,
-				E4DAD22A1AB772C50048DACA /* quest_drops.json in Resources */,
 				E45F51AE1ACDB14500C65741 /* PREBUILT_STORE.sqlite in Resources */,
 				E48A678D1ABB7A8E00C5EE81 /* monster_list.json in Resources */,
 				E471BE2F1A979DAC0076CBD7 /* ancestral_steppe_drops.json in Resources */,
-				E4DAD2281AB739050048DACA /* quests.json in Resources */,
-				E41C4D1C1A8BBF5E00A2D0CB /* monsters.json in Resources */,
 				E4E212851AB1FE7E00320E39 /* dunes_day_drops.json in Resources */,
 				E49958161A83D28E00799BBE /* LaunchScreen.xib in Resources */,
+				E4CBD83B1AD6D14A001B8105 /* quests.json in Resources */,
 				E49958131A83D28E00799BBE /* Images.xcassets in Resources */,
 				E48A678C1ABB7A8E00C5EE81 /* monster_drops1.json in Resources */,
 				E4E2127E1AB1FE1200320E39 /* heavens_mount_drops.json in Resources */,
 				E4E212861AB1FE7E00320E39 /* dunes_night_drops.json in Resources */,
+				E4CBD8381AD6D14A001B8105 /* quests_drops3.json in Resources */,
 				E48A67891ABB7A8E00C5EE81 /* monster_drops4.json in Resources */,
 				E4CE45D81A97E6F80059C056 /* frozen_seaway_drops.json in Resources */,
 			);
