@@ -66,6 +66,7 @@ NSString *const MHDQuestTypeKey = @"type";
 NSString *const MHDQuestUrgentKey = @"urgent";
 NSString *const MHDQuestCaravanKey = @"caravan";
 NSString *const MHDQuestNoneString = @"None";
+NSString *const MHDQuestFirstPrereq = @"prereq";
 
 #pragma mark - Quest Drop Constants
 

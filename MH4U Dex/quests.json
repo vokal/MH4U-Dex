@@ -1,6 +1,6 @@
 [
   {
-    "3":"Steak Your Ground",
+    "name":"Steak Your Ground",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Deliver 1 Well-done Steak or Rare Steak",
@@ -25,7 +25,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"A Winning Combination",
+    "name":"A Winning Combination",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Deliver 1 Mega Potion",
@@ -50,7 +50,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Training: Insect Glaive",
+    "name":"Training: Insect Glaive",
     "type":"Training",
     "urgent":"FALSE",
     "objective":"Slay a Great Jaggi",
@@ -75,7 +75,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Training: Great Sword",
+    "name":"Training: Great Sword",
     "type":"Training",
     "urgent":"FALSE",
     "objective":"Slay a Great Jaggi",
@@ -100,7 +100,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Training: Long Sword",
+    "name":"Training: Long Sword",
     "type":"Training",
     "urgent":"FALSE",
     "objective":"Slay a Great Jaggi",
@@ -125,7 +125,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Training: Sword & Shield",
+    "name":"Training: Sword & Shield",
     "type":"Training",
     "urgent":"FALSE",
     "objective":"Slay a Great Jaggi",
@@ -150,7 +150,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Training: Dual Blades",
+    "name":"Training: Dual Blades",
     "type":"Training",
     "urgent":"FALSE",
     "objective":"Slay a Great Jaggi",
@@ -175,7 +175,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Training: Hammer",
+    "name":"Training: Hammer",
     "type":"Training",
     "urgent":"FALSE",
     "objective":"Slay a Great Jaggi",
@@ -200,7 +200,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Training: Hunting Horn",
+    "name":"Training: Hunting Horn",
     "type":"Training",
     "urgent":"FALSE",
     "objective":"Slay a Great Jaggi",
@@ -225,7 +225,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Training: Lance",
+    "name":"Training: Lance",
     "type":"Training",
     "urgent":"FALSE",
     "objective":"Slay a Great Jaggi",
@@ -250,7 +250,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Training: Gunlance",
+    "name":"Training: Gunlance",
     "type":"Training",
     "urgent":"FALSE",
     "objective":"Slay a Great Jaggi",
@@ -275,7 +275,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Training: Switch Axe",
+    "name":"Training: Switch Axe",
     "type":"Training",
     "urgent":"FALSE",
     "objective":"Slay a Great Jaggi",
@@ -300,7 +300,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Training: Charge Blade",
+    "name":"Training: Charge Blade",
     "type":"Training",
     "urgent":"FALSE",
     "objective":"Slay a Great Jaggi",
@@ -325,7 +325,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Training: Bow",
+    "name":"Training: Bow",
     "type":"Training",
     "urgent":"FALSE",
     "objective":"Slay a Great Jaggi",
@@ -350,7 +350,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Training: Light Bowgun",
+    "name":"Training: Light Bowgun",
     "type":"Training",
     "urgent":"FALSE",
     "objective":"Slay a Great Jaggi",
@@ -375,7 +375,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Training: Heavy Bowgun",
+    "name":"Training: Heavy Bowgun",
     "type":"Training",
     "urgent":"FALSE",
     "objective":"Slay a Great Jaggi",
@@ -400,7 +400,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Ancestral Steppe Fungus Run",
+    "name":"Ancestral Steppe Fungus Run",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Deliver 5 Unique Mushrooms",
@@ -425,7 +425,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Den Mothers",
+    "name":"Den Mothers",
     "type":"Slaying",
     "urgent":"FALSE",
     "objective":"Slay 5 Jaggia",
@@ -450,7 +450,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Kelbi Cure-All",
+    "name":"Kelbi Cure-All",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Deliver 3 Kelbi Horns",
@@ -475,7 +475,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Chip Off the Old Blockade",
+    "name":"Chip Off the Old Blockade",
     "type":"Slaying",
     "urgent":"FALSE",
     "objective":"Slay 8 Konchu",
@@ -500,7 +500,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Lair Scare",
+    "name":"Lair Scare",
     "type":"Slaying",
     "urgent":"FALSE",
     "objective":"Slay 8 Jaggi",
@@ -525,7 +525,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Egg-straction: Gargwa",
+    "name":"Egg-straction: Gargwa",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Deliver 2 Gargwa Eggs",
@@ -550,7 +550,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Sushifish SOS",
+    "name":"Sushifish SOS",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Deliver 5 Sushifish",
@@ -575,7 +575,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Jaggi Alliance",
+    "name":"Jaggi Alliance",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Great Jaggi",
@@ -600,7 +600,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"The Stinking Seltas",
+    "name":"The Stinking Seltas",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Seltas",
@@ -625,7 +625,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Research: Velocidrome",
+    "name":"Research: Velocidrome",
     "type":"Special",
     "urgent":"FALSE",
     "objective":"Return on the Wagon",
@@ -650,7 +650,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Research: Yian Kut-Ku",
+    "name":"Research: Yian Kut-Ku",
     "type":"Special",
     "urgent":"FALSE",
     "objective":"Return on the Wagon",
@@ -675,7 +675,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Crystal Clearing",
+    "name":"Crystal Clearing",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Deliver 4 Sulfur Crystals",
@@ -700,7 +700,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Bug Appétit",
+    "name":"Bug Appétit",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Seltas",
@@ -725,7 +725,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Harvest Tour: Anc. Steppe",
+    "name":"Harvest Tour: Anc. Steppe",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Survive until time expires or deliver a Paw Pass Ticket",
@@ -750,7 +750,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Harvest Tour: Sunken Hollow",
+    "name":"Harvest Tour: Sunken Hollow",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Survive until time expires or deliver a Paw Pass Ticket",
@@ -775,7 +775,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Swing into Action",
+    "name":"Swing into Action",
     "type":"Hunting",
     "urgent":"TRUE",
     "objective":"Hunt a Kecha Wacha",
@@ -800,7 +800,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Boulder-bash",
+    "name":"Boulder-bash",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Tetsucabra",
@@ -825,7 +825,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Rhenoplos Slayer",
+    "name":"Rhenoplos Slayer",
     "type":"Slaying",
     "urgent":"FALSE",
     "objective":"Slay 5 Rhenoplos",
@@ -850,7 +850,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Kecha Wacha Wallop",
+    "name":"Kecha Wacha Wallop",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Kecha Wacha",
@@ -875,7 +875,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Research: Basarios",
+    "name":"Research: Basarios",
     "type":"Special",
     "urgent":"TRUE",
     "objective":"Hunt a Basarios",
@@ -900,7 +900,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Shipshape Skin",
+    "name":"Shipshape Skin",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Gypceros",
@@ -925,7 +925,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Genprey Payback",
+    "name":"Genprey Payback",
     "type":"Slaying",
     "urgent":"FALSE",
     "objective":"Slay 8 Genprey",
@@ -950,7 +950,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Crystal Bone Collector",
+    "name":"Crystal Bone Collector",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Deliver 5 Crystal Bones",
@@ -975,7 +975,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Road Work",
+    "name":"Road Work",
     "type":"Capture",
     "urgent":"FALSE",
     "objective":"Capture a Gendrome",
@@ -1000,7 +1000,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Conga Bongo",
+    "name":"Conga Bongo",
     "type":"Slaying",
     "urgent":"FALSE",
     "objective":"Slay 5 Congas",
@@ -1025,7 +1025,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Fish Wish",
+    "name":"Fish Wish",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Deliver 4 Small Goldenfish",
@@ -1050,7 +1050,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Egg-straction: Herbivores",
+    "name":"Egg-straction: Herbivores",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Deliver 2 Herbivore Eggs",
@@ -1075,7 +1075,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"???",
+    "name":"???",
     "type":"Special",
     "urgent":"TRUE",
     "objective":"Repel a ???",
@@ -1100,7 +1100,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Harvest Tour: Primal Forest",
+    "name":"Harvest Tour: Primal Forest",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Survive until time expires or deliver a Paw Pass Ticket",
@@ -1125,7 +1125,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Harvest Tour: Frozen Seaway",
+    "name":"Harvest Tour: Frozen Seaway",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Survive until time expires or deliver a Paw Pass Ticket",
@@ -1150,7 +1150,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Nerscylla Thrilla",
+    "name":"Nerscylla Thrilla",
     "type":"Hunting",
     "urgent":"TRUE",
     "objective":"Hunt a Nerscylla",
@@ -1175,7 +1175,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Wild Palico Panic",
+    "name":"Wild Palico Panic",
     "type":"Special",
     "urgent":"FALSE",
     "objective":"Hunt a Congalala",
@@ -1200,7 +1200,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Pink Stink",
+    "name":"Pink Stink",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Congalala",
@@ -1225,7 +1225,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Oil Toil",
+    "name":"Oil Toil",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Deliver 5 Slagtoth Oils",
@@ -1250,7 +1250,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Zamite Fight",
+    "name":"Zamite Fight",
     "type":"Slaying",
     "urgent":"FALSE",
     "objective":"Slay 8 Zamite",
@@ -1275,7 +1275,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Meownster Hunter Havoc",
+    "name":"Meownster Hunter Havoc",
     "type":"Special",
     "urgent":"FALSE",
     "objective":"Hunt a Zamtrios",
@@ -1300,7 +1300,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"An Ice Surprise",
+    "name":"An Ice Surprise",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Zamtrios",
@@ -1325,7 +1325,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Snow with Occasional Lagombi",
+    "name":"Snow with Occasional Lagombi",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Lagombi",
@@ -1350,7 +1350,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"The Smell of Fear",
+    "name":"The Smell of Fear",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Congalala and a Gendrome",
@@ -1375,7 +1375,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Hanging by a Thread",
+    "name":"Hanging by a Thread",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt 2 Nerscylla",
@@ -1400,7 +1400,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Poison Patrol",
+    "name":"Poison Patrol",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt 2 Gypceros",
@@ -1425,7 +1425,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Najarala Hunt",
+    "name":"Najarala Hunt",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Najarala",
@@ -1450,7 +1450,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Gore Magala Drama",
+    "name":"Gore Magala Drama",
     "type":"Special",
     "urgent":"FALSE",
     "objective":"Repel Gore Magala",
@@ -1475,7 +1475,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"The Walls Have Eyes",
+    "name":"The Walls Have Eyes",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Khezu",
@@ -1500,7 +1500,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Goldenfish Gold Mine",
+    "name":"Goldenfish Gold Mine",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Deliver 3 Goldenfish",
@@ -1525,7 +1525,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Egg-straction: Wyvern",
+    "name":"Egg-straction: Wyvern",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Deliver 2 Wyvern Eggs",
@@ -1550,7 +1550,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Troverian Trouble",
+    "name":"Troverian Trouble",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Rathian",
@@ -1575,7 +1575,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Harvest Tour: Volcanic Hollow",
+    "name":"Harvest Tour: Volcanic Hollow",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Survive until time expires or deliver a Paw Pass Ticket",
@@ -1600,7 +1600,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Harvest Tour: Heaven's Mount",
+    "name":"Harvest Tour: Heaven's Mount",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Survive until time expires or deliver a Paw Pass Ticket",
@@ -1625,7 +1625,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Tipping the Scales",
+    "name":"Tipping the Scales",
     "type":"Hunting",
     "urgent":"TRUE",
     "objective":"Hunt Gore Magala",
@@ -1650,7 +1650,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Pick Your Poison",
+    "name":"Pick Your Poison",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt an Iodrome",
@@ -1675,7 +1675,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Energy Crisis",
+    "name":"Energy Crisis",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Deliver 5 Coals",
@@ -1700,7 +1700,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Learning Experience",
+    "name":"Learning Experience",
     "type":"Slaying",
     "urgent":"FALSE",
     "objective":"Slay 8 Ioprey",
@@ -1725,7 +1725,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Major Miner Problem",
+    "name":"Major Miner Problem",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Gravios",
@@ -1750,7 +1750,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Uncorner the Market",
+    "name":"Uncorner the Market",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Rathalos and a Zinogre",
@@ -1775,7 +1775,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Zinogre Zone",
+    "name":"Zinogre Zone",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Zinogre",
@@ -1800,7 +1800,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"The Royal Guard",
+    "name":"The Royal Guard",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Seltas Queen",
@@ -1825,7 +1825,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"King of the Skies",
+    "name":"King of the Skies",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Rathalos",
@@ -1850,7 +1850,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Remobra Remedy",
+    "name":"Remobra Remedy",
     "type":"Slaying",
     "urgent":"FALSE",
     "objective":"Slay 6 Remobras",
@@ -1875,7 +1875,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Research: Yian Garuga",
+    "name":"Research: Yian Garuga",
     "type":"Special",
     "urgent":"TRUE",
     "objective":"Hunt a Yian Garuga",
@@ -1900,7 +1900,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Rathalos Renovation",
+    "name":"Rathalos Renovation",
     "type":"Capture",
     "urgent":"FALSE",
     "objective":"Capture a Rathalos",
@@ -1925,7 +1925,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Ruler of the Frozen Seaway",
+    "name":"Ruler of the Frozen Seaway",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Tigrex",
@@ -1950,7 +1950,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Speartuna Fishing",
+    "name":"Speartuna Fishing",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Deliver 3 Speartuna",
@@ -1975,7 +1975,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Advanced: Odd Ape Out",
+    "name":"Advanced: Odd Ape Out",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Congalala",
@@ -2000,7 +2000,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Advanced: Tigrex Terror",
+    "name":"Advanced: Tigrex Terror",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Tigrex",
@@ -2025,7 +2025,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Advanced: Khezu Chaos",
+    "name":"Advanced: Khezu Chaos",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt 2 Khezu",
@@ -2050,7 +2050,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Advanced: En Trade Route",
+    "name":"Advanced: En Trade Route",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Zamtrios and a Lagombi",
@@ -2075,7 +2075,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Two Live Crew",
+    "name":"Two Live Crew",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Rathian and a Rathalos",
@@ -2100,7 +2100,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Egg-straction: Final Mission",
+    "name":"Egg-straction: Final Mission",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Deliver 3 Wyvern Eggs",
@@ -2125,7 +2125,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Mistentoe Delivery",
+    "name":"Mistentoe Delivery",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Deliver 5 Mistentoe",
@@ -2150,7 +2150,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Hammer It Out",
+    "name":"Hammer It Out",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Tetsucabra",
@@ -2175,7 +2175,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Arachnophobia",
+    "name":"Arachnophobia",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Nerscylla",
@@ -2200,7 +2200,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Catch and Release",
+    "name":"Catch and Release",
     "type":"Capture",
     "urgent":"FALSE",
     "objective":"Capture a Seltas",
@@ -2225,7 +2225,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Hammer It Home",
+    "name":"Hammer It Home",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Gravios",
@@ -2250,7 +2250,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Fear Factor",
+    "name":"Fear Factor",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Najarala",
@@ -2275,7 +2275,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"See the Lightning",
+    "name":"See the Lightning",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Zinogre",
@@ -2300,7 +2300,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Crazy Stupid Love",
+    "name":"Crazy Stupid Love",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt Gore Magala",
@@ -2325,7 +2325,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Advanced: Heaven's Wheel",
+    "name":"Advanced: Heaven's Wheel",
     "type":"Slaying",
     "urgent":"TRUE",
     "objective":"Slay Shagaru Magala",
@@ -2350,7 +2350,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Advanced: Dragon's Din",
+    "name":"Advanced: Dragon's Din",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Brachydios",
@@ -2375,7 +2375,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Advanced: Order of Magnitude",
+    "name":"Advanced: Order of Magnitude",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Kecha Wacha and a Rathian",
@@ -2400,7 +2400,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Advanced: Hell Hunters",
+    "name":"Advanced: Hell Hunters",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt 2 Tigrex",
@@ -2425,7 +2425,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Advanced: Shipping Out",
+    "name":"Advanced: Shipping Out",
     "type":"Slaying",
     "urgent":"FALSE",
     "objective":"Slay Dah'ren Mohran or repel it",
@@ -2450,7 +2450,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Advanced: Miner Issues",
+    "name":"Advanced: Miner Issues",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Gendrome and a Khezu",
@@ -2475,7 +2475,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Advanced: Predator into Prey",
+    "name":"Advanced: Predator into Prey",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Nerscylla and a Gypceros",
@@ -2500,7 +2500,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Advanced: Amphibiphobia",
+    "name":"Advanced: Amphibiphobia",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Zamtrios and a Tetsucabra",
@@ -2525,7 +2525,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Advanced: Afraid of the Dark",
+    "name":"Advanced: Afraid of the Dark",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt all large monsters",
@@ -2550,7 +2550,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Advanced: Howling for Blood",
+    "name":"Advanced: Howling for Blood",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Zinogre",
@@ -2575,7 +2575,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Advanced: Tigrex Challenge",
+    "name":"Advanced: Tigrex Challenge",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Brute Tigrex",
@@ -2600,7 +2600,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Research: Kirin",
+    "name":"Research: Kirin",
     "type":"Special",
     "urgent":"TRUE",
     "objective":"Slay a Kirin",
@@ -2625,7 +2625,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Whole Lava Love",
+    "name":"Whole Lava Love",
     "type":"Hunting",
     "urgent":"TRUE",
     "objective":"Hunt a Brachydios",
@@ -2650,7 +2650,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Advanced: Fleet Action",
+    "name":"Advanced: Fleet Action",
     "type":"Slaying",
     "urgent":"TRUE",
     "objective":"Slay Dah'ren Mohran or repel it",
@@ -2675,7 +2675,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Advanced: Deep Trouble",
+    "name":"Advanced: Deep Trouble",
     "type":"Slaying",
     "urgent":"TRUE",
     "objective":"Slay a Teostra or repel it",
@@ -2700,7 +2700,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Advanced: Stand Tall",
+    "name":"Advanced: Stand Tall",
     "type":"Slaying",
     "urgent":"TRUE",
     "objective":"Slay an Akantor",
@@ -2725,7 +2725,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Advanced: Wicked Wings",
+    "name":"Advanced: Wicked Wings",
     "type":"Slaying",
     "urgent":"TRUE",
     "objective":"Slay a Kushala Daora or repel it",
@@ -2750,7 +2750,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Advanced: Tough Love",
+    "name":"Advanced: Tough Love",
     "type":"Hunting",
     "urgent":"TRUE",
     "objective":"Hunt a Rajang",
@@ -2775,7 +2775,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"The Caravaneer's Challenge",
+    "name":"The Caravaneer's Challenge",
     "type":"Hunting",
     "urgent":"TRUE",
     "objective":"Hunt all large monsters",
@@ -2800,7 +2800,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Harvest Tour: Anc. Steppe",
+    "name":"Harvest Tour: Anc. Steppe",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Survive until time expires or deliver a Paw Pass Ticket",
@@ -2825,7 +2825,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Harvest Tour: Sunken Hollow",
+    "name":"Harvest Tour: Sunken Hollow",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Survive until time expires or deliver a Paw Pass Ticket",
@@ -2850,7 +2850,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Harvest Tour: Primal Forest",
+    "name":"Harvest Tour: Primal Forest",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Survive until time expires or deliver a Paw Pass Ticket",
@@ -2875,7 +2875,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Harvest Tour: Dunes (Day)",
+    "name":"Harvest Tour: Dunes (Day)",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Survive until time expires or deliver a Paw Pass Ticket",
@@ -2900,7 +2900,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Skiff Scuttler",
+    "name":"Skiff Scuttler",
     "type":"Hunting",
     "urgent":"TRUE",
     "objective":"Hunt a Daimyo Hermitaur",
@@ -2925,7 +2925,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Hot-air Buffoon",
+    "name":"Hot-air Buffoon",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt an Emerald Congalala",
@@ -2950,7 +2950,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Hermit Grab",
+    "name":"Hermit Grab",
     "type":"Slaying",
     "urgent":"FALSE",
     "objective":"Slay 8 Hermitaurs",
@@ -2975,7 +2975,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Dinner Guests",
+    "name":"Dinner Guests",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Great Jaggi and a Gendrome",
@@ -3000,7 +3000,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Bnahabra Buffet",
+    "name":"Bnahabra Buffet",
     "type":"Slaying",
     "urgent":"FALSE",
     "objective":"Slay 12 Bnahabra",
@@ -3025,7 +3025,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Singin' the Blues",
+    "name":"Singin' the Blues",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Blue Yian Kut-Ku",
@@ -3050,7 +3050,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"The Hero & the Captain's Trap",
+    "name":"The Hero & the Captain's Trap",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt 2 Velocidrome",
@@ -3075,7 +3075,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Purse Snatcher",
+    "name":"Purse Snatcher",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Purple Gypceros",
@@ -3100,7 +3100,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Pungent Pairing",
+    "name":"Pungent Pairing",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Gypceros and a Congalala",
@@ -3125,7 +3125,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Facility Facilitation",
+    "name":"Facility Facilitation",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Cephadrome",
@@ -3150,7 +3150,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Hunt-a-thon: Kecha Wacha",
+    "name":"Hunt-a-thon: Kecha Wacha",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt 2 Kecha Wacha before time expires or deliver a Paw P.Tkt",
@@ -3175,7 +3175,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Hunt-a-thon: Tetsucabra",
+    "name":"Hunt-a-thon: Tetsucabra",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt 2 Tetsucabra before time expires or deliver a Paw P.Tkt",
@@ -3200,7 +3200,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Hunt-a-thon: Nerscylla",
+    "name":"Hunt-a-thon: Nerscylla",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt 2 Nerscylla before time expires or deliver a Paw P.Tkt",
@@ -3225,7 +3225,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Harvest Tour: Frozen Seaway",
+    "name":"Harvest Tour: Frozen Seaway",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Survive until time expires or deliver a Paw Pass Ticket",
@@ -3250,7 +3250,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Harvest Tour: Volcanic Hollow",
+    "name":"Harvest Tour: Volcanic Hollow",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Survive until time expires or deliver a Paw Pass Ticket",
@@ -3275,7 +3275,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Harvest Tour: Heaven's Mount",
+    "name":"Harvest Tour: Heaven's Mount",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Survive until time expires or deliver a Paw Pass Ticket",
@@ -3300,7 +3300,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Harvest Tour: Dunes (Night)",
+    "name":"Harvest Tour: Dunes (Night)",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Survive until time expires or deliver a Paw Pass Ticket",
@@ -3325,7 +3325,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Skiff Competition",
+    "name":"Skiff Competition",
     "type":"Hunting",
     "urgent":"TRUE",
     "objective":"Hunt a Monoblos",
@@ -3350,7 +3350,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Hide-and-Freak",
+    "name":"Hide-and-Freak",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Khezu",
@@ -3375,7 +3375,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Take a Powderstone",
+    "name":"Take a Powderstone",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Deliver 1 Powderstone",
@@ -3400,7 +3400,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Primal Pests",
+    "name":"Primal Pests",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt an Iodrome and a Seltas",
@@ -3425,7 +3425,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Desert Delinquents",
+    "name":"Desert Delinquents",
     "type":"Slaying",
     "urgent":"FALSE",
     "objective":"Slay 8 Remobras",
@@ -3450,7 +3450,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Snowbound Showdown",
+    "name":"Snowbound Showdown",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Lagombi and a Red Khezu",
@@ -3475,7 +3475,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Fin Finder",
+    "name":"Fin Finder",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Zamtrios",
@@ -3500,7 +3500,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"In the Pink",
+    "name":"In the Pink",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Pink Rathian",
@@ -3525,7 +3525,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Hi Ho Silver",
+    "name":"Hi Ho Silver",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Deliver 3 Silverfish",
@@ -3550,7 +3550,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"The Hero and the Sandy Spear",
+    "name":"The Hero and the Sandy Spear",
     "type":"Capture",
     "urgent":"FALSE",
     "objective":"Capture a Monoblos",
@@ -3575,7 +3575,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"The Hero and the Fiery King",
+    "name":"The Hero and the Fiery King",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Rathalos",
@@ -3600,7 +3600,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Ladykiller",
+    "name":"Ladykiller",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Seltas Queen",
@@ -3625,7 +3625,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Midnight Madness",
+    "name":"Midnight Madness",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Tigrex",
@@ -3650,7 +3650,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Nocturnal Commission",
+    "name":"Nocturnal Commission",
     "type":"Special",
     "urgent":"FALSE",
     "objective":"Capture a Rathian",
@@ -3675,7 +3675,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Killer Queens",
+    "name":"Killer Queens",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt 2 Rathians",
@@ -3700,7 +3700,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Meteoric Prize",
+    "name":"Meteoric Prize",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Deliver 1 Meteor Chunk",
@@ -3725,7 +3725,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Hunt-a-thon: Zinogre",
+    "name":"Hunt-a-thon: Zinogre",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt 2 Zinogre before time expires or deliver a Paw P.Tkt",
@@ -3750,7 +3750,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Hunt-a-thon: Najarala",
+    "name":"Hunt-a-thon: Najarala",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt 2 Najarala before time expires or deliver a Paw P.Tkt",
@@ -3775,7 +3775,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Hunt-a-thon: Gravios",
+    "name":"Hunt-a-thon: Gravios",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt 2 Gravios before time expires or deliver a Paw P.Tkt",
@@ -3800,7 +3800,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Dance of a Thousand Blades",
+    "name":"Dance of a Thousand Blades",
     "type":"Hunting",
     "urgent":"TRUE",
     "objective":"Hunt a Seregios",
@@ -3825,7 +3825,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Black Rock Down",
+    "name":"Black Rock Down",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Black Gravios",
@@ -3850,7 +3850,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Thunder and Stone",
+    "name":"Thunder and Stone",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Zinogre and a Gravios",
@@ -3875,7 +3875,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"An Omen in the Skies",
+    "name":"An Omen in the Skies",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt an Azure Rathalos",
@@ -3900,7 +3900,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"The Echoing Roar",
+    "name":"The Echoing Roar",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Brute Tigrex",
@@ -3925,7 +3925,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Forge Ahead",
+    "name":"Forge Ahead",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Stygian Zinogre",
@@ -3950,7 +3950,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Hunting Vicariously",
+    "name":"Hunting Vicariously",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Yian Garuga",
@@ -3975,7 +3975,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Advanced: Glacier's Bane",
+    "name":"Advanced: Glacier's Bane",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Brachydios",
@@ -4000,7 +4000,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Advanced: Tyrant's Maw",
+    "name":"Advanced: Tyrant's Maw",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Deviljho",
@@ -4025,7 +4025,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Advanced: Risky Research",
+    "name":"Advanced: Risky Research",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Rathalos and a Seltas Queen",
@@ -4050,7 +4050,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Advanced: Whale of a Hammer",
+    "name":"Advanced: Whale of a Hammer",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt 2 Black Gravios",
@@ -4075,7 +4075,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Terrible Tyrant",
+    "name":"Terrible Tyrant",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Molten Tigrex",
@@ -4100,7 +4100,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Silver Sovereign",
+    "name":"Silver Sovereign",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Silver Rathalos",
@@ -4125,7 +4125,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Egg-straction: The Reckoning",
+    "name":"Egg-straction: The Reckoning",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Deliver 2 Wyvern Eggs",
@@ -4150,7 +4150,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Bad Hair Day: Brachydios",
+    "name":"Bad Hair Day: Brachydios",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Brachydios",
@@ -4175,7 +4175,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Devil at Heaven's Gate",
+    "name":"Devil at Heaven's Gate",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Deviljho",
@@ -4200,7 +4200,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Striking Gold",
+    "name":"Striking Gold",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Gold Rathian",
@@ -4225,7 +4225,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Wasteland Warrior",
+    "name":"Wasteland Warrior",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Desert Seltas",
@@ -4250,7 +4250,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Bad Hair Day: Iodrome",
+    "name":"Bad Hair Day: Iodrome",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt 2 Iodrome",
@@ -4275,7 +4275,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Haughty Hell Hunters",
+    "name":"Haughty Hell Hunters",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Gypceros",
@@ -4300,7 +4300,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Icy Shadow",
+    "name":"Icy Shadow",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Khezu",
@@ -4325,7 +4325,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Puffer Fish",
+    "name":"Puffer Fish",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Zamtrios",
@@ -4350,7 +4350,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"1000 Shimmering Swords",
+    "name":"1000 Shimmering Swords",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Seregios",
@@ -4375,7 +4375,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Shrouded in Mystery",
+    "name":"Shrouded in Mystery",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Shrouded Nerscylla",
@@ -4400,7 +4400,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Bad Hair Day: Monoblos",
+    "name":"Bad Hair Day: Monoblos",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Monoblos",
@@ -4425,7 +4425,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"The Silvery Spear",
+    "name":"The Silvery Spear",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a White Monoblos",
@@ -4450,7 +4450,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Harebrained Hell Hunters",
+    "name":"Harebrained Hell Hunters",
     "type":"Special",
     "urgent":"FALSE",
     "objective":"Hunt a Diablos",
@@ -4475,7 +4475,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Duel With the Devil",
+    "name":"Duel With the Devil",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Diablos",
@@ -4500,7 +4500,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Advanced: Prickly Pair",
+    "name":"Advanced: Prickly Pair",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Stygian Zinogre and a Seregios",
@@ -4525,7 +4525,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Advanced: A Hero's Icy Test",
+    "name":"Advanced: A Hero's Icy Test",
     "type":"Slaying",
     "urgent":"FALSE",
     "objective":"Slay an Oroshi Kirin",
@@ -4550,7 +4550,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Advanced: Beyond the Pale",
+    "name":"Advanced: Beyond the Pale",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt an Ash Kecha Wacha",
@@ -4575,7 +4575,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Advanced: Hell Hunter Hoax",
+    "name":"Advanced: Hell Hunter Hoax",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Tigrex and a Brute Tigrex",
@@ -4600,7 +4600,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Death of a Thousand Cuts",
+    "name":"Death of a Thousand Cuts",
     "type":"Special",
     "urgent":"TRUE",
     "objective":"Hunt a Seregios",
@@ -4625,7 +4625,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Kushala Kushowdown",
+    "name":"Kushala Kushowdown",
     "type":"Special",
     "urgent":"TRUE",
     "objective":"Repel a Kushala Daora",
@@ -4650,7 +4650,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Advanced: Red Dragon's Dawn",
+    "name":"Advanced: Red Dragon's Dawn",
     "type":"Slaying",
     "urgent":"TRUE",
     "objective":"Slay a Fatalis or repel it",
@@ -4675,7 +4675,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Advanced: Moving Mountains",
+    "name":"Advanced: Moving Mountains",
     "type":"Slaying",
     "urgent":"TRUE",
     "objective":"Slay Dah'ren Mohran or repel it",
@@ -4700,7 +4700,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Into the Mist",
+    "name":"Into the Mist",
     "type":"Special",
     "urgent":"TRUE",
     "objective":"Slay a Chameleos or repel it",
@@ -4725,7 +4725,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Advanced: Elder Dragon of Mist",
+    "name":"Advanced: Elder Dragon of Mist",
     "type":"Slaying",
     "urgent":"TRUE",
     "objective":"Slay a Chameleos or repel it",
@@ -4750,7 +4750,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Advanced: Bad Hair Rajang",
+    "name":"Advanced: Bad Hair Rajang",
     "type":"Hunting",
     "urgent":"TRUE",
     "objective":"Hunt a Rajang",
@@ -4775,7 +4775,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Advanced: All in Its Place",
+    "name":"Advanced: All in Its Place",
     "type":"Hunting",
     "urgent":"TRUE",
     "objective":"Hunt Gore Magala",
@@ -4800,7 +4800,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Advanced: The Master's Test",
+    "name":"Advanced: The Master's Test",
     "type":"Hunting",
     "urgent":"TRUE",
     "objective":"Hunt all large monsters",
@@ -4825,7 +4825,7 @@
     "fourth_prereq":null
   },
   {
-    "3":"Harvest Tour: Anc. Steppe",
+    "name":"Harvest Tour: Anc. Steppe",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Survive until time expires or deliver a Paw Pass Ticket",
@@ -4850,7 +4850,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Harvest Tour: Sunken Hollow",
+    "name":"Harvest Tour: Sunken Hollow",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Survive until time expires or deliver a Paw Pass Ticket",
@@ -4875,7 +4875,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Local Yolk",
+    "name":"Local Yolk",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Deliver 4 Gargwa Eggs",
@@ -4900,7 +4900,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Fishing's Lure",
+    "name":"Fishing's Lure",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Deliver 8 Small Goldenfish",
@@ -4925,7 +4925,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Ancestral Steppe Fungus Run",
+    "name":"Ancestral Steppe Fungus Run",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Deliver 8 Unique Mushrooms",
@@ -4950,7 +4950,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Konchu Collector",
+    "name":"Konchu Collector",
     "type":"Slaying",
     "urgent":"FALSE",
     "objective":"Slay 10 Konchu",
@@ -4975,7 +4975,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Bnahabra Bloodbath",
+    "name":"Bnahabra Bloodbath",
     "type":"Slaying",
     "urgent":"FALSE",
     "objective":"Slay 12 Bnahabra",
@@ -5000,7 +5000,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Genprey Payback",
+    "name":"Genprey Payback",
     "type":"Slaying",
     "urgent":"FALSE",
     "objective":"Slay 10 Genprey",
@@ -5025,7 +5025,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Rhenoplos Headache",
+    "name":"Rhenoplos Headache",
     "type":"Slaying",
     "urgent":"FALSE",
     "objective":"Slay 8 Rhenoplos",
@@ -5050,7 +5050,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Bug Burger",
+    "name":"Bug Burger",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Seltas",
@@ -5075,7 +5075,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Field Trip",
+    "name":"Field Trip",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Great Jaggi",
@@ -5100,7 +5100,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Kecha Konundrum",
+    "name":"Kecha Konundrum",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Kecha Wacha",
@@ -5125,7 +5125,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Tackling a Tetsucabra",
+    "name":"Tackling a Tetsucabra",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Tetsucabra",
@@ -5150,7 +5150,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"The Gypceros Project",
+    "name":"The Gypceros Project",
     "type":"Capture",
     "urgent":"FALSE",
     "objective":"Capture a Gypceros",
@@ -5175,7 +5175,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Operation Catch-a-Kecha",
+    "name":"Operation Catch-a-Kecha",
     "type":"Capture",
     "urgent":"FALSE",
     "objective":"Capture a Kecha Wacha",
@@ -5200,7 +5200,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Robbed Blind",
+    "name":"Robbed Blind",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Gypceros",
@@ -5225,7 +5225,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Harvest Tour: Primal Forest",
+    "name":"Harvest Tour: Primal Forest",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Survive until time expires or deliver a Paw Pass Ticket",
@@ -5250,7 +5250,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Harvest Tour: Frozen Seaway",
+    "name":"Harvest Tour: Frozen Seaway",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Survive until time expires or deliver a Paw Pass Ticket",
@@ -5275,7 +5275,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Web Sighting",
+    "name":"Web Sighting",
     "type":"Hunting",
     "urgent":"TRUE",
     "objective":"Hunt a Nerscylla",
@@ -5300,7 +5300,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Sootstone Search",
+    "name":"Sootstone Search",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Deliver 3 Sootstone Ores",
@@ -5325,7 +5325,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Bite Your Tongues",
+    "name":"Bite Your Tongues",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Deliver 6 Popo Tongues",
@@ -5350,7 +5350,7 @@
     "fourth_prereq":221
   },
   {
-    "3":"Stone-cold Stones",
+    "name":"Stone-cold Stones",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Deliver 8 Bloodstones",
@@ -5375,7 +5375,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Zamite Fight",
+    "name":"Zamite Fight",
     "type":"Slaying",
     "urgent":"FALSE",
     "objective":"Slay 10 Zamite",
@@ -5400,7 +5400,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Conga Bongo",
+    "name":"Conga Bongo",
     "type":"Slaying",
     "urgent":"FALSE",
     "objective":"Slay 6 Congas",
@@ -5425,7 +5425,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Gendrome Roadblock",
+    "name":"Gendrome Roadblock",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Gendrome",
@@ -5450,7 +5450,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Royal Assassination",
+    "name":"Royal Assassination",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Rathian",
@@ -5475,7 +5475,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Snow with Occasional Lagombi",
+    "name":"Snow with Occasional Lagombi",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Lagombi",
@@ -5500,7 +5500,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"A Ghastly Gift",
+    "name":"A Ghastly Gift",
     "type":"Capture",
     "urgent":"FALSE",
     "objective":"Capture a Khezu",
@@ -5525,7 +5525,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Zamtrios of the Deep",
+    "name":"Zamtrios of the Deep",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Zamtrios",
@@ -5550,7 +5550,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Eau de Congalala",
+    "name":"Eau de Congalala",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Congalala",
@@ -5575,7 +5575,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Nix the Najarala",
+    "name":"Nix the Najarala",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Najarala",
@@ -5600,7 +5600,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Subterranean Serenade",
+    "name":"Subterranean Serenade",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Nerscylla and a Gypceros",
@@ -5625,7 +5625,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Tails from the Sunken Hollow",
+    "name":"Tails from the Sunken Hollow",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt 2 Khezu",
@@ -5650,7 +5650,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Snowed In",
+    "name":"Snowed In",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Zamtrios and a Lagombi",
@@ -5675,7 +5675,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Field Study: Primal Forest",
+    "name":"Field Study: Primal Forest",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Najarala and a Rathian",
@@ -5700,7 +5700,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Harvest Tour: Heaven's Mount",
+    "name":"Harvest Tour: Heaven's Mount",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Survive until time expires or deliver a Paw Pass Ticket",
@@ -5725,7 +5725,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Harvest Tour: Volcanic Hollow",
+    "name":"Harvest Tour: Volcanic Hollow",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Survive until time expires or deliver a Paw Pass Ticket",
@@ -5750,7 +5750,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Dark Wings, Dark Work",
+    "name":"Dark Wings, Dark Work",
     "type":"Hunting",
     "urgent":"TRUE",
     "objective":"Hunt Gore Magala",
@@ -5775,7 +5775,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Tigrex Tough Love",
+    "name":"Tigrex Tough Love",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Tigrex",
@@ -5800,7 +5800,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Heat Exhaustion",
+    "name":"Heat Exhaustion",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Deliver 3 Powderstones",
@@ -5825,7 +5825,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Energy Crisis",
+    "name":"Energy Crisis",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Deliver 10 Coals",
@@ -5850,7 +5850,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Ioprey In the Way",
+    "name":"Ioprey In the Way",
     "type":"Slaying",
     "urgent":"FALSE",
     "objective":"Slay 12 Ioprey",
@@ -5875,7 +5875,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Remobra Remedy",
+    "name":"Remobra Remedy",
     "type":"Slaying",
     "urgent":"FALSE",
     "objective":"Slay 7 Remobras",
@@ -5900,7 +5900,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Temper Tantrum",
+    "name":"Temper Tantrum",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Gravios",
@@ -5925,7 +5925,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Pick Your Poison",
+    "name":"Pick Your Poison",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt an Iodrome",
@@ -5950,7 +5950,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Royal Audience",
+    "name":"Royal Audience",
     "type":"Capture",
     "urgent":"FALSE",
     "objective":"Capture a Rathalos",
@@ -5975,7 +5975,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Rathalos Run",
+    "name":"Rathalos Run",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Rathalos",
@@ -6000,7 +6000,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Tuff Turf",
+    "name":"Tuff Turf",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Zinogre",
@@ -6025,7 +6025,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"The Royal Guard",
+    "name":"The Royal Guard",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Seltas Queen",
@@ -6050,7 +6050,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"The Angry Couple",
+    "name":"The Angry Couple",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Rathian and a Rathalos",
@@ -6075,7 +6075,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Queen and Rook",
+    "name":"Queen and Rook",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Rathian and a Gravios",
@@ -6100,7 +6100,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Hunters' Heaven",
+    "name":"Hunters' Heaven",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Tigrex and a Zinogre",
@@ -6125,7 +6125,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Advanced: Rock and Rolled",
+    "name":"Advanced: Rock and Rolled",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Brachydios",
@@ -6150,7 +6150,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Advanced: Sand Sailor",
+    "name":"Advanced: Sand Sailor",
     "type":"Slaying",
     "urgent":"TRUE",
     "objective":"Slay Dah'ren Mohran or repel it",
@@ -6175,7 +6175,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Advanced: Family Business",
+    "name":"Advanced: Family Business",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Gravios",
@@ -6200,7 +6200,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Advanced: Fearsome Rumblings",
+    "name":"Advanced: Fearsome Rumblings",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Tigrex",
@@ -6225,7 +6225,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Advanced: Approaching Storm",
+    "name":"Advanced: Approaching Storm",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Zinogre",
@@ -6250,7 +6250,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Advanced: Bug Buffet",
+    "name":"Advanced: Bug Buffet",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Seltas Queen",
@@ -6275,7 +6275,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Advanced: Purge and Binge",
+    "name":"Advanced: Purge and Binge",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Tetsucabra and a Zamtrios",
@@ -6300,7 +6300,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Advanced: One-man Army",
+    "name":"Advanced: One-man Army",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Nerscylla and a Kecha Wacha",
@@ -6325,7 +6325,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Harvest Tour: Anc. Steppe",
+    "name":"Harvest Tour: Anc. Steppe",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Survive until time expires or deliver a Paw Pass Ticket",
@@ -6350,7 +6350,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Harvest Tour: Sunken Hollow",
+    "name":"Harvest Tour: Sunken Hollow",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Survive until time expires or deliver a Paw Pass Ticket",
@@ -6375,7 +6375,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Harvest Tour: Primal Forest",
+    "name":"Harvest Tour: Primal Forest",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Survive until time expires or deliver a Paw Pass Ticket",
@@ -6400,7 +6400,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Rhenoplos Headache",
+    "name":"Rhenoplos Headache",
     "type":"Slaying",
     "urgent":"FALSE",
     "objective":"Slay 10 Rhenoplos",
@@ -6425,7 +6425,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Bnahabra Bloodbath",
+    "name":"Bnahabra Bloodbath",
     "type":"Slaying",
     "urgent":"FALSE",
     "objective":"Slay 20 Bnahabra",
@@ -6450,7 +6450,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Pack Attack",
+    "name":"Pack Attack",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt 2 Great Jaggi",
@@ -6475,7 +6475,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Seltas Romance",
+    "name":"Seltas Romance",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt 2 Seltas",
@@ -6500,7 +6500,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Face Two Face",
+    "name":"Face Two Face",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt 2 Kecha Wacha",
@@ -6525,7 +6525,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Operation Catch-a-Kecha",
+    "name":"Operation Catch-a-Kecha",
     "type":"Capture",
     "urgent":"FALSE",
     "objective":"Capture a Kecha Wacha",
@@ -6550,7 +6550,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Purple People Eater",
+    "name":"Purple People Eater",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Purple Gypceros",
@@ -6575,7 +6575,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Gypceros Overload",
+    "name":"Gypceros Overload",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt 2 Gypceros before time expires or deliver a Paw P.Tkt",
@@ -6600,7 +6600,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Tetsucabra Bounty",
+    "name":"Tetsucabra Bounty",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Tetsucabra",
@@ -6625,7 +6625,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Buffoonish Baboon",
+    "name":"Buffoonish Baboon",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt an Emerald Congalala",
@@ -6650,7 +6650,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Arachnophilia",
+    "name":"Arachnophilia",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Nerscylla",
@@ -6675,7 +6675,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Dastardly Duo",
+    "name":"Dastardly Duo",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Gendrome and a Tetsucabra",
@@ -6700,7 +6700,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Gold in Them There Fish",
+    "name":"Gold in Them There Fish",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Deliver 10 Goldenfish",
@@ -6725,7 +6725,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Splendid Sootstone",
+    "name":"Splendid Sootstone",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Deliver 4 Sootstone Ores",
@@ -6750,7 +6750,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Apes of Wrath",
+    "name":"Apes of Wrath",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Kecha Wacha and an Emerald Congalala",
@@ -6775,7 +6775,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Sunken Hollow Showdown",
+    "name":"Sunken Hollow Showdown",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt 2 Tetsucabras",
@@ -6800,7 +6800,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Pink Stink",
+    "name":"Pink Stink",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Congalala",
@@ -6825,7 +6825,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Distress Signal",
+    "name":"Distress Signal",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt 2 Nerscylla",
@@ -6850,7 +6850,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Material Effect",
+    "name":"Material Effect",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt all large monsters",
@@ -6875,7 +6875,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Harvest Tour: Frozen Seaway",
+    "name":"Harvest Tour: Frozen Seaway",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Survive until time expires or deliver a Paw Pass Ticket",
@@ -6900,7 +6900,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Harvest Tour: Volcanic Hollow",
+    "name":"Harvest Tour: Volcanic Hollow",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Survive until time expires or deliver a Paw Pass Ticket",
@@ -6925,7 +6925,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Harvest Tour: Heaven's Mount",
+    "name":"Harvest Tour: Heaven's Mount",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Survive until time expires or deliver a Paw Pass Ticket",
@@ -6950,7 +6950,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Rathian's Wrath",
+    "name":"Rathian's Wrath",
     "type":"Hunting",
     "urgent":"TRUE",
     "objective":"Hunt a Pink Rathian",
@@ -6975,7 +6975,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Heat Exhaustion",
+    "name":"Heat Exhaustion",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Deliver 4 Powderstones",
@@ -7000,7 +7000,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Mistentoe Mission",
+    "name":"Mistentoe Mission",
     "type":"Gathering",
     "urgent":"FALSE",
     "objective":"Deliver 10 Mistentoe",
@@ -7025,7 +7025,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Zamite Fight",
+    "name":"Zamite Fight",
     "type":"Slaying",
     "urgent":"FALSE",
     "objective":"Slay 20 Zamite",
@@ -7050,7 +7050,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Party Pants",
+    "name":"Party Pants",
     "type":"Slaying",
     "urgent":"FALSE",
     "objective":"Slay 12 Remobras",
@@ -7075,7 +7075,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Poisonous Pair",
+    "name":"Poisonous Pair",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt 2 Iodrome",
@@ -7100,7 +7100,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Lagombi Lair",
+    "name":"Lagombi Lair",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt 2 Lagombi",
@@ -7125,7 +7125,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Fin Finder",
+    "name":"Fin Finder",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Zamtrios",
@@ -7150,7 +7150,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Cold-blooded Combo",
+    "name":"Cold-blooded Combo",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Zamtrios and a Lagombi",
@@ -7175,7 +7175,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Writer's Block",
+    "name":"Writer's Block",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Najarala and a Rathian",
@@ -7200,7 +7200,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"The Red Menace",
+    "name":"The Red Menace",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Red Khezu",
@@ -7225,7 +7225,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Trader in Trouble",
+    "name":"Trader in Trouble",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Red Khezu and a Pink Rathian",
@@ -7250,7 +7250,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Electrifying Encounter",
+    "name":"Electrifying Encounter",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Khezu and a Red Khezu",
@@ -7275,7 +7275,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Royal Rumble",
+    "name":"Royal Rumble",
     "type":"Capture",
     "urgent":"FALSE",
     "objective":"Capture a Rathian",
@@ -7300,7 +7300,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Newlywed Game Hunter",
+    "name":"Newlywed Game Hunter",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Najarala",
@@ -7325,7 +7325,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Dread Locked",
+    "name":"Dread Locked",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt Gore Magala",
@@ -7350,7 +7350,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Topple the Monarch",
+    "name":"Topple the Monarch",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Zinogre",
@@ -7375,7 +7375,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Queen's Academy",
+    "name":"Queen's Academy",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Seltas Queen",
@@ -7400,7 +7400,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Tigrex by the Tail",
+    "name":"Tigrex by the Tail",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Tigrex",
@@ -7425,7 +7425,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Pyres Beware",
+    "name":"Pyres Beware",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Rathian and a Rathalos",
@@ -7450,7 +7450,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Temper Tantrum",
+    "name":"Temper Tantrum",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Gravios",
@@ -7475,7 +7475,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Dragons' Tale",
+    "name":"Dragons' Tale",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Gravios and a Tigrex",
@@ -7500,7 +7500,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Gathering of Dragons",
+    "name":"Gathering of Dragons",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt all large monsters",
@@ -7525,7 +7525,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Primal Forest M.I.A.",
+    "name":"Primal Forest M.I.A.",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt all large monsters",
@@ -7550,7 +7550,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Advanced: Frenzied Foe",
+    "name":"Advanced: Frenzied Foe",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Tigrex",
@@ -7575,7 +7575,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Advanced: Approaching Storm",
+    "name":"Advanced: Approaching Storm",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Zinogre",
@@ -7600,7 +7600,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Advanced: Eerie Aerie",
+    "name":"Advanced: Eerie Aerie",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Rathalos",
@@ -7625,7 +7625,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Advanced: Bug Bite",
+    "name":"Advanced: Bug Bite",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Seltas Queen",
@@ -7650,7 +7650,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Ore D'oeuvre",
+    "name":"Ore D'oeuvre",
     "type":"Hunting",
     "urgent":"TRUE",
     "objective":"Hunt a Black Gravios",
@@ -7675,7 +7675,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Bring Down the Sky King",
+    "name":"Bring Down the Sky King",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt an Azure Rathalos",
@@ -7700,7 +7700,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Infernal Overlord",
+    "name":"Infernal Overlord",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Stygian Zinogre",
@@ -7725,7 +7725,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Ear Ache",
+    "name":"Ear Ache",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Brute Tigrex",
@@ -7750,7 +7750,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Brimstone and Brachydios",
+    "name":"Brimstone and Brachydios",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Brachydios",
@@ -7775,7 +7775,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Advanced: Dance with Dragons",
+    "name":"Advanced: Dance with Dragons",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt all large monsters",
@@ -7800,7 +7800,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Advanced: Mega Hunt-a-thon",
+    "name":"Advanced: Mega Hunt-a-thon",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt all large monsters",
@@ -7825,7 +7825,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Advanced: Dragon Attack",
+    "name":"Advanced: Dragon Attack",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Brute Tigrex and a Stygian Zinogre",
@@ -7850,7 +7850,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Advanced: Heaven and Earth",
+    "name":"Advanced: Heaven and Earth",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt an Azure Rathalos and a Pink Rathian",
@@ -7875,7 +7875,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Advanced: Forest Gone Wild",
+    "name":"Advanced: Forest Gone Wild",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Tigrex and a Brute Tigrex",
@@ -7900,7 +7900,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Advanced: Armor Amore",
+    "name":"Advanced: Armor Amore",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Gravios and a Black Gravios",
@@ -7925,7 +7925,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Advanced: Arena Emergency",
+    "name":"Advanced: Arena Emergency",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Zinogre and a Stygian Zinogre",
@@ -7950,7 +7950,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Advanced: Pair of Kings",
+    "name":"Advanced: Pair of Kings",
     "type":"Hunting",
     "urgent":"FALSE",
     "objective":"Hunt a Rathalos and an Azure Rathalos",
@@ -7975,7 +7975,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Advanced: Wake-up Call",
+    "name":"Advanced: Wake-up Call",
     "type":"Capture",
     "urgent":"FALSE",
     "objective":"Capture a Brute Tigrex",
@@ -8000,7 +8000,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Advanced: Gravios Fortunes",
+    "name":"Advanced: Gravios Fortunes",
     "type":"Capture",
     "urgent":"FALSE",
     "objective":"Capture a Black Gravios",
@@ -8025,7 +8025,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Advanced: Insecticide",
+    "name":"Advanced: Insecticide",
     "type":"Capture",
     "urgent":"FALSE",
     "objective":"Capture a Stygian Zinogre",
@@ -8050,7 +8050,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Advanced: Azure Alert",
+    "name":"Advanced: Azure Alert",
     "type":"Capture",
     "urgent":"FALSE",
     "objective":"Capture an Azure Rathalos",
@@ -8075,7 +8075,7 @@
     "fourth_prereq":0
   },
   {
-    "3":"Advanced: Bag a Brachydios",
+    "name":"Advanced: Bag a Brachydios",
     "type":"Capture",
     "urgent":"FALSE",
     "objective":"Capture a Brachydios",

@@ -65,6 +65,7 @@ FOUNDATION_EXPORT NSString *const MHDQuestTypeKey;
 FOUNDATION_EXPORT NSString *const MHDQuestUrgentKey;
 FOUNDATION_EXPORT NSString *const MHDQuestCaravanKey;
 FOUNDATION_EXPORT NSString *const MHDQuestNoneString;
+FOUNDATION_EXPORT NSString *const MHDQuestFirstPrereq;
 
 #pragma mark - Quest Drop Constants
 
