@@ -2819,10 +2819,10 @@
     "map":"ancestral_steppe",
     "hrp":0,
     "unique_id":113,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Harvest Tour: Sunken Hollow",
@@ -2844,10 +2844,10 @@
     "map":"sunken_hollow",
     "hrp":0,
     "unique_id":114,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Harvest Tour: Primal Forest",
@@ -2869,10 +2869,10 @@
     "map":"primal_forest",
     "hrp":0,
     "unique_id":115,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Harvest Tour: Dunes (Day)",
@@ -2894,10 +2894,10 @@
     "map":"dunes_day",
     "hrp":0,
     "unique_id":116,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Skiff Scuttler",
@@ -2919,10 +2919,10 @@
     "map":"dunes_day",
     "hrp":270,
     "unique_id":117,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Hot-air Buffoon",
@@ -2944,10 +2944,10 @@
     "map":"sunken_hollow",
     "hrp":330,
     "unique_id":118,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Hermit Grab",
@@ -2969,10 +2969,10 @@
     "map":"dunes_day",
     "hrp":160,
     "unique_id":119,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Dinner Guests",
@@ -2994,10 +2994,10 @@
     "map":"dunes_day",
     "hrp":220,
     "unique_id":120,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Bnahabra Buffet",
@@ -3019,10 +3019,10 @@
     "map":"dunes_day",
     "hrp":180,
     "unique_id":121,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Singin' the Blues",
@@ -3044,10 +3044,10 @@
     "map":"ancestral_steppe",
     "hrp":260,
     "unique_id":122,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"The Hero & the Captain's Trap",
@@ -3069,10 +3069,10 @@
     "map":"everwood",
     "hrp":200,
     "unique_id":123,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Purse Snatcher",
@@ -3094,10 +3094,10 @@
     "map":"sunken_hollow",
     "hrp":290,
     "unique_id":124,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Pungent Pairing",
@@ -3119,10 +3119,10 @@
     "map":"primal_forest",
     "hrp":460,
     "unique_id":125,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Facility Facilitation",
@@ -3144,10 +3144,10 @@
     "map":"dunes_day",
     "hrp":270,
     "unique_id":126,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Hunt-a-thon: Kecha Wacha",
@@ -3169,10 +3169,10 @@
     "map":"primal_forest",
     "hrp":540,
     "unique_id":127,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Hunt-a-thon: Tetsucabra",
@@ -3194,10 +3194,10 @@
     "map":"sunken_hollow",
     "hrp":540,
     "unique_id":128,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Hunt-a-thon: Nerscylla",
@@ -3219,10 +3219,10 @@
     "map":"primal_forest",
     "hrp":600,
     "unique_id":129,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Harvest Tour: Frozen Seaway",
@@ -3244,10 +3244,10 @@
     "map":"frozen_seaway",
     "hrp":0,
     "unique_id":130,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Harvest Tour: Volcanic Hollow",
@@ -3269,10 +3269,10 @@
     "map":"volcanic_hollow",
     "hrp":0,
     "unique_id":131,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Harvest Tour: Heaven's Mount",
@@ -3294,10 +3294,10 @@
     "map":"heavens_mount",
     "hrp":0,
     "unique_id":132,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Harvest Tour: Dunes (Night)",
@@ -3319,10 +3319,10 @@
     "map":"dunes_night",
     "hrp":0,
     "unique_id":133,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Skiff Competition",
@@ -3344,10 +3344,10 @@
     "map":"dunes_day",
     "hrp":480,
     "unique_id":134,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Hide-and-Freak",
@@ -3369,10 +3369,10 @@
     "map":"frozen_seaway",
     "hrp":320,
     "unique_id":135,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Take a Powderstone",
@@ -3394,10 +3394,10 @@
     "map":"volcanic_hollow",
     "hrp":180,
     "unique_id":136,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Primal Pests",
@@ -3419,10 +3419,10 @@
     "map":"primal_forest",
     "hrp":250,
     "unique_id":137,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Desert Delinquents",
@@ -3444,10 +3444,10 @@
     "map":"dunes_day",
     "hrp":210,
     "unique_id":138,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Snowbound Showdown",
@@ -3469,10 +3469,10 @@
     "map":"frozen_seaway",
     "hrp":460,
     "unique_id":139,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Fin Finder",
@@ -3494,10 +3494,10 @@
     "map":"frozen_seaway",
     "hrp":380,
     "unique_id":140,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"In the Pink",
@@ -3519,10 +3519,10 @@
     "map":"dunes_night",
     "hrp":410,
     "unique_id":141,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Hi Ho Silver",
@@ -3544,10 +3544,10 @@
     "map":"dunes_night",
     "hrp":180,
     "unique_id":142,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"The Hero and the Sandy Spear",
@@ -3569,10 +3569,10 @@
     "map":"dunes_night",
     "hrp":680,
     "unique_id":143,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"The Hero and the Fiery King",
@@ -3594,10 +3594,10 @@
     "map":"volcanic_hollow",
     "hrp":480,
     "unique_id":144,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Ladykiller",
@@ -3619,10 +3619,10 @@
     "map":"ancestral_steppe",
     "hrp":480,
     "unique_id":145,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Midnight Madness",
@@ -3644,10 +3644,10 @@
     "map":"dunes_night",
     "hrp":480,
     "unique_id":146,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Nocturnal Commission",
@@ -3669,10 +3669,10 @@
     "map":"dunes_night",
     "hrp":540,
     "unique_id":147,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Killer Queens",
@@ -3694,10 +3694,10 @@
     "map":"heavens_mount",
     "hrp":610,
     "unique_id":148,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Meteoric Prize",
@@ -3719,10 +3719,10 @@
     "map":"dunes_night",
     "hrp":180,
     "unique_id":149,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Hunt-a-thon: Zinogre",
@@ -3744,10 +3744,10 @@
     "map":"heavens_mount",
     "hrp":960,
     "unique_id":150,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Hunt-a-thon: Najarala",
@@ -3769,10 +3769,10 @@
     "map":"primal_forest",
     "hrp":760,
     "unique_id":151,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Hunt-a-thon: Gravios",
@@ -3794,10 +3794,10 @@
     "map":"primal_forest",
     "hrp":960,
     "unique_id":152,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Dance of a Thousand Blades",
@@ -3819,10 +3819,10 @@
     "map":"dunes_night",
     "hrp":480,
     "unique_id":153,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Black Rock Down",
@@ -3844,10 +3844,10 @@
     "map":"volcanic_hollow",
     "hrp":520,
     "unique_id":154,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Thunder and Stone",
@@ -3869,10 +3869,10 @@
     "map":"primal_forest",
     "hrp":770,
     "unique_id":155,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"An Omen in the Skies",
@@ -3894,10 +3894,10 @@
     "map":"volcanic_hollow",
     "hrp":520,
     "unique_id":156,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"The Echoing Roar",
@@ -3919,10 +3919,10 @@
     "map":"heavens_mount",
     "hrp":520,
     "unique_id":157,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Forge Ahead",
@@ -3944,10 +3944,10 @@
     "map":"volcanic_hollow",
     "hrp":520,
     "unique_id":158,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Hunting Vicariously",
@@ -3969,10 +3969,10 @@
     "map":"everwood",
     "hrp":400,
     "unique_id":159,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Advanced: Glacier's Bane",
@@ -3994,10 +3994,10 @@
     "map":"frozen_seaway",
     "hrp":700,
     "unique_id":160,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Advanced: Tyrant's Maw",
@@ -4019,10 +4019,10 @@
     "map":"primal_forest",
     "hrp":900,
     "unique_id":161,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Advanced: Risky Research",
@@ -4044,10 +4044,10 @@
     "map":"ancestral_steppe",
     "hrp":1080,
     "unique_id":162,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Advanced: Whale of a Hammer",
@@ -4069,10 +4069,10 @@
     "map":"volcanic_hollow",
     "hrp":1170,
     "unique_id":163,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Terrible Tyrant",
@@ -4094,10 +4094,10 @@
     "map":"tower_summit",
     "hrp":880,
     "unique_id":164,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Silver Sovereign",
@@ -4119,10 +4119,10 @@
     "map":"tower_summit",
     "hrp":740,
     "unique_id":165,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Egg-straction: The Reckoning",
@@ -4144,10 +4144,10 @@
     "map":"dunes_day",
     "hrp":300,
     "unique_id":166,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Bad Hair Day: Brachydios",
@@ -4169,10 +4169,10 @@
     "map":"arena",
     "hrp":500,
     "unique_id":167,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Devil at Heaven's Gate",
@@ -4194,10 +4194,10 @@
     "map":"heavens_mount",
     "hrp":720,
     "unique_id":168,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Striking Gold",
@@ -4219,10 +4219,10 @@
     "map":"tower_summit",
     "hrp":740,
     "unique_id":169,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Wasteland Warrior",
@@ -4244,10 +4244,10 @@
     "map":"dunes_day",
     "hrp":220,
     "unique_id":170,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Bad Hair Day: Iodrome",
@@ -4269,10 +4269,10 @@
     "map":"primal_forest",
     "hrp":440,
     "unique_id":171,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Haughty Hell Hunters",
@@ -4294,10 +4294,10 @@
     "map":"sunken_hollow",
     "hrp":400,
     "unique_id":172,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Icy Shadow",
@@ -4319,10 +4319,10 @@
     "map":"frozen_seaway",
     "hrp":570,
     "unique_id":173,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Puffer Fish",
@@ -4344,10 +4344,10 @@
     "map":"frozen_seaway",
     "hrp":480,
     "unique_id":174,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"1000 Shimmering Swords",
@@ -4369,10 +4369,10 @@
     "map":"dunes_day",
     "hrp":710,
     "unique_id":175,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Shrouded in Mystery",
@@ -4394,10 +4394,10 @@
     "map":"dunes_night",
     "hrp":500,
     "unique_id":176,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Bad Hair Day: Monoblos",
@@ -4419,10 +4419,10 @@
     "map":"dunes_day",
     "hrp":710,
     "unique_id":177,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"The Silvery Spear",
@@ -4444,10 +4444,10 @@
     "map":"everwood",
     "hrp":780,
     "unique_id":178,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Harebrained Hell Hunters",
@@ -4469,10 +4469,10 @@
     "map":"everwood",
     "hrp":710,
     "unique_id":179,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Duel With the Devil",
@@ -4494,10 +4494,10 @@
     "map":"dunes_night",
     "hrp":710,
     "unique_id":180,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Advanced: Prickly Pair",
@@ -4519,10 +4519,10 @@
     "map":"frozen_seaway",
     "hrp":1120,
     "unique_id":181,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Advanced: A Hero's Icy Test",
@@ -4544,10 +4544,10 @@
     "map":"everwood",
     "hrp":900,
     "unique_id":182,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Advanced: Beyond the Pale",
@@ -4569,10 +4569,10 @@
     "map":"ancestral_steppe",
     "hrp":530,
     "unique_id":183,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Advanced: Hell Hunter Hoax",
@@ -4594,10 +4594,10 @@
     "map":"dunes_day",
     "hrp":1440,
     "unique_id":184,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Death of a Thousand Cuts",
@@ -4619,10 +4619,10 @@
     "map":"everwood",
     "hrp":790,
     "unique_id":185,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Kushala Kushowdown",
@@ -4644,10 +4644,10 @@
     "map":"battlequarters",
     "hrp":0,
     "unique_id":186,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Advanced: Red Dragon's Dawn",
@@ -4669,10 +4669,10 @@
     "map":"ingle_isle",
     "hrp":2020,
     "unique_id":187,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Advanced: Moving Mountains",
@@ -4694,10 +4694,10 @@
     "map":"great_desert",
     "hrp":1730,
     "unique_id":188,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Into the Mist",
@@ -4719,10 +4719,10 @@
     "map":"everwood",
     "hrp":1440,
     "unique_id":189,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Advanced: Elder Dragon of Mist",
@@ -4744,10 +4744,10 @@
     "map":"ancestral_steppe",
     "hrp":1440,
     "unique_id":190,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Advanced: Bad Hair Rajang",
@@ -4769,10 +4769,10 @@
     "map":"ancestral_steppe",
     "hrp":1300,
     "unique_id":191,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Advanced: All in Its Place",
@@ -4794,10 +4794,10 @@
     "map":"heavens_mount",
     "hrp":1160,
     "unique_id":192,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Advanced: The Master's Test",
@@ -4819,10 +4819,10 @@
     "map":"arena",
     "hrp":2370,
     "unique_id":193,
-    "prereq":null,
-    "second_prereq":null,
-    "third_prereq":null,
-    "fourth_prereq":null
+    "prereq":0,
+    "second_prereq":0,
+    "third_prereq":0,
+    "fourth_prereq":0
   },
   {
     "name":"Harvest Tour: Anc. Steppe",
