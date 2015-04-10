@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+@class Quest;
+
 @interface QuestListTableViewCell : UITableViewCell
+
+/**
+ Update the cell's labels.
+ */
+- (void)displayContentsWithQuest:(Quest *)quest;
 
 @end
