@@ -76,10 +76,7 @@
         <attribute name="sort_name" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="damageZone" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DamageZone" inverseName="monster" inverseEntity="DamageZone" syncable="YES"/>
         <relationship name="monsterDrop" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="MonsterDrop" inverseName="monsterSource" inverseEntity="MonsterDrop" syncable="YES"/>
-        <relationship name="questFirstTarget" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Quest" inverseName="firstMonster" inverseEntity="Quest" syncable="YES"/>
-        <relationship name="questFourthTarget" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Quest" inverseName="fourthMonster" inverseEntity="Quest" syncable="YES"/>
-        <relationship name="questSecondTarget" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Quest" inverseName="secondMonster" inverseEntity="Quest" syncable="YES"/>
-        <relationship name="questThirdTarget" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Quest" inverseName="thirdMonster" inverseEntity="Quest" syncable="YES"/>
+        <relationship name="quest" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Quest" inverseName="monster" inverseEntity="Quest" syncable="YES"/>
     </entity>
     <entity name="MonsterDrop" representedClassName="MonsterDrop" parentEntity="Drop" syncable="YES">
         <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
@@ -94,7 +91,7 @@
         <attribute name="fee" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="hrp" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
-        <attribute name="key" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="keyQuest" optional="YES" attributeType="Boolean" syncable="YES"/>
         <attribute name="name" attributeType="String" syncable="YES"/>
         <attribute name="objective" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="reward" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
@@ -103,11 +100,10 @@
         <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="urgent" optional="YES" attributeType="Boolean" syncable="YES"/>
         <relationship name="drop" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="QuestDrop" inverseName="quest" inverseEntity="QuestDrop" syncable="YES"/>
-        <relationship name="firstMonster" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Monster" inverseName="questFirstTarget" inverseEntity="Monster" syncable="YES"/>
-        <relationship name="fourthMonster" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Monster" inverseName="questFourthTarget" inverseEntity="Monster" syncable="YES"/>
+        <relationship name="followUp" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Quest" inverseName="prerequisite" inverseEntity="Quest" syncable="YES"/>
+        <relationship name="monster" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Monster" inverseName="quest" inverseEntity="Monster" syncable="YES"/>
+        <relationship name="prerequisite" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Quest" inverseName="followUp" inverseEntity="Quest" syncable="YES"/>
         <relationship name="region" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Region" inverseName="quest" inverseEntity="Region" syncable="YES"/>
-        <relationship name="secondMonster" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Monster" inverseName="questSecondTarget" inverseEntity="Monster" syncable="YES"/>
-        <relationship name="thirdMonster" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Monster" inverseName="questThirdTarget" inverseEntity="Monster" syncable="YES"/>
     </entity>
     <entity name="QuestDrop" representedClassName="QuestDrop" parentEntity="Drop" syncable="YES">
         <attribute name="id" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
@@ -147,9 +143,9 @@
         <element name="Decoration" positionX="0" positionY="0" width="128" height="90"/>
         <element name="Drop" positionX="9" positionY="153" width="128" height="73"/>
         <element name="Item" positionX="0" positionY="0" width="128" height="225"/>
-        <element name="Monster" positionX="0" positionY="0" width="128" height="193"/>
+        <element name="Monster" positionX="0" positionY="0" width="128" height="150"/>
         <element name="MonsterDrop" positionX="0" positionY="0" width="128" height="118"/>
-        <element name="Quest" positionX="0" positionY="0" width="128" height="330"/>
+        <element name="Quest" positionX="0" positionY="0" width="128" height="313"/>
         <element name="QuestDrop" positionX="0" positionY="0" width="128" height="103"/>
         <element name="Region" positionX="0" positionY="0" width="128" height="120"/>
         <element name="Skilltree" positionX="0" positionY="0" width="128" height="90"/>

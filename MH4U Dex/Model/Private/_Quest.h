@@ -9,7 +9,7 @@ extern const struct QuestAttributes {
 	__unsafe_unretained NSString *fee;
 	__unsafe_unretained NSString *hrp;
 	__unsafe_unretained NSString *id;
-	__unsafe_unretained NSString *key;
+	__unsafe_unretained NSString *keyQuest;
 	__unsafe_unretained NSString *name;
 	__unsafe_unretained NSString *objective;
 	__unsafe_unretained NSString *reward;
@@ -21,19 +21,17 @@ extern const struct QuestAttributes {
 
 extern const struct QuestRelationships {
 	__unsafe_unretained NSString *drop;
-	__unsafe_unretained NSString *firstMonster;
-	__unsafe_unretained NSString *fourthMonster;
+	__unsafe_unretained NSString *followUp;
+	__unsafe_unretained NSString *monster;
+	__unsafe_unretained NSString *prerequisite;
 	__unsafe_unretained NSString *region;
-	__unsafe_unretained NSString *secondMonster;
-	__unsafe_unretained NSString *thirdMonster;
 } QuestRelationships;
 
 @class QuestDrop;
+@class Quest;
 @class Monster;
-@class Monster;
+@class Quest;
 @class Region;
-@class Monster;
-@class Monster;
 
 @interface QuestID : NSManagedObjectID {}
 @end
@@ -84,13 +82,13 @@ extern const struct QuestRelationships {
 
 //- (BOOL)validateId:(id*)value_ error:(NSError**)error_;
 
-@property (nonatomic, strong) NSNumber* key;
+@property (nonatomic, strong) NSNumber* keyQuest;
 
-@property (atomic) BOOL keyValue;
-- (BOOL)keyValue;
-- (void)setKeyValue:(BOOL)value_;
+@property (atomic) BOOL keyQuestValue;
+- (BOOL)keyQuestValue;
+- (void)setKeyQuestValue:(BOOL)value_;
 
-//- (BOOL)validateKey:(id*)value_ error:(NSError**)error_;
+//- (BOOL)validateKeyQuest:(id*)value_ error:(NSError**)error_;
 
 @property (nonatomic, strong) NSString* name;
 
@@ -136,25 +134,21 @@ extern const struct QuestRelationships {
 
 - (NSMutableSet*)dropSet;
 
-@property (nonatomic, strong) Monster *firstMonster;
+@property (nonatomic, strong) NSSet *followUp;
 
-//- (BOOL)validateFirstMonster:(id*)value_ error:(NSError**)error_;
+- (NSMutableSet*)followUpSet;
 
-@property (nonatomic, strong) Monster *fourthMonster;
+@property (nonatomic, strong) NSSet *monster;
 
-//- (BOOL)validateFourthMonster:(id*)value_ error:(NSError**)error_;
+- (NSMutableSet*)monsterSet;
+
+@property (nonatomic, strong) NSSet *prerequisite;
+
+- (NSMutableSet*)prerequisiteSet;
 
 @property (nonatomic, strong) Region *region;
 
 //- (BOOL)validateRegion:(id*)value_ error:(NSError**)error_;
-
-@property (nonatomic, strong) Monster *secondMonster;
-
-//- (BOOL)validateSecondMonster:(id*)value_ error:(NSError**)error_;
-
-@property (nonatomic, strong) Monster *thirdMonster;
-
-//- (BOOL)validateThirdMonster:(id*)value_ error:(NSError**)error_;
 
 @end
 
@@ -163,6 +157,30 @@ extern const struct QuestRelationships {
 - (void)removeDrop:(NSSet*)value_;
 - (void)addDropObject:(QuestDrop*)value_;
 - (void)removeDropObject:(QuestDrop*)value_;
+
+@end
+
+@interface _Quest (FollowUpCoreDataGeneratedAccessors)
+- (void)addFollowUp:(NSSet*)value_;
+- (void)removeFollowUp:(NSSet*)value_;
+- (void)addFollowUpObject:(Quest*)value_;
+- (void)removeFollowUpObject:(Quest*)value_;
+
+@end
+
+@interface _Quest (MonsterCoreDataGeneratedAccessors)
+- (void)addMonster:(NSSet*)value_;
+- (void)removeMonster:(NSSet*)value_;
+- (void)addMonsterObject:(Monster*)value_;
+- (void)removeMonsterObject:(Monster*)value_;
+
+@end
+
+@interface _Quest (PrerequisiteCoreDataGeneratedAccessors)
+- (void)addPrerequisite:(NSSet*)value_;
+- (void)removePrerequisite:(NSSet*)value_;
+- (void)addPrerequisiteObject:(Quest*)value_;
+- (void)removePrerequisiteObject:(Quest*)value_;
 
 @end
 
@@ -198,11 +216,11 @@ extern const struct QuestRelationships {
 - (int16_t)primitiveIdValue;
 - (void)setPrimitiveIdValue:(int16_t)value_;
 
-- (NSNumber*)primitiveKey;
-- (void)setPrimitiveKey:(NSNumber*)value;
+- (NSNumber*)primitiveKeyQuest;
+- (void)setPrimitiveKeyQuest:(NSNumber*)value;
 
-- (BOOL)primitiveKeyValue;
-- (void)setPrimitiveKeyValue:(BOOL)value_;
+- (BOOL)primitiveKeyQuestValue;
+- (void)setPrimitiveKeyQuestValue:(BOOL)value_;
 
 - (NSString*)primitiveName;
 - (void)setPrimitiveName:(NSString*)value;
@@ -234,19 +252,16 @@ extern const struct QuestRelationships {
 - (NSMutableSet*)primitiveDrop;
 - (void)setPrimitiveDrop:(NSMutableSet*)value;
 
-- (Monster*)primitiveFirstMonster;
-- (void)setPrimitiveFirstMonster:(Monster*)value;
+- (NSMutableSet*)primitiveFollowUp;
+- (void)setPrimitiveFollowUp:(NSMutableSet*)value;
 
-- (Monster*)primitiveFourthMonster;
-- (void)setPrimitiveFourthMonster:(Monster*)value;
+- (NSMutableSet*)primitiveMonster;
+- (void)setPrimitiveMonster:(NSMutableSet*)value;
+
+- (NSMutableSet*)primitivePrerequisite;
+- (void)setPrimitivePrerequisite:(NSMutableSet*)value;
 
 - (Region*)primitiveRegion;
 - (void)setPrimitiveRegion:(Region*)value;
-
-- (Monster*)primitiveSecondMonster;
-- (void)setPrimitiveSecondMonster:(Monster*)value;
-
-- (Monster*)primitiveThirdMonster;
-- (void)setPrimitiveThirdMonster:(Monster*)value;
 
 @end

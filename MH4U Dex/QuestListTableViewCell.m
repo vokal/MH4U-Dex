@@ -8,7 +8,19 @@
 
 #import "QuestListTableViewCell.h"
 
+#import "Quest.h"
+
+@interface QuestListTableViewCell ()
+
+@property (nonatomic, weak) IBOutlet UILabel *questNameLabel;
+
+@end
+
 @implementation QuestListTableViewCell
 
-//TODO: Add implementation details
+- (void)displayContentsWithQuest:(Quest *)quest
+{
+    self.questNameLabel.text = quest.name;
+}
+
 @end
