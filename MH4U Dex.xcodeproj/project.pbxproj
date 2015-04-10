@@ -94,12 +94,12 @@
 		E4A769921A8521B100AC93DA /* MonsterEncyclopediaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A769911A8521B100AC93DA /* MonsterEncyclopediaCell.m */; };
 		E4B4938E1ABC72F700B29B18 /* Strings.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B4938D1ABC72F700B29B18 /* Strings.m */; };
 		E4C76B341A85638D00AD753B /* MonsterOverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C76B331A85638D00AD753B /* MonsterOverviewViewController.m */; };
-		E4CBD8351AD6D14A001B8105 /* quests_drops6.json in Resources */ = {isa = PBXBuildFile; fileRef = E4CBD82E1AD6D14A001B8105 /* quests_drops6.json */; };
-		E4CBD8361AD6D14A001B8105 /* quests_drops5.json in Resources */ = {isa = PBXBuildFile; fileRef = E4CBD82F1AD6D14A001B8105 /* quests_drops5.json */; };
-		E4CBD8371AD6D14A001B8105 /* quests_drops4.json in Resources */ = {isa = PBXBuildFile; fileRef = E4CBD8301AD6D14A001B8105 /* quests_drops4.json */; };
-		E4CBD8381AD6D14A001B8105 /* quests_drops3.json in Resources */ = {isa = PBXBuildFile; fileRef = E4CBD8311AD6D14A001B8105 /* quests_drops3.json */; };
-		E4CBD8391AD6D14A001B8105 /* quests_drops2.json in Resources */ = {isa = PBXBuildFile; fileRef = E4CBD8321AD6D14A001B8105 /* quests_drops2.json */; };
-		E4CBD83A1AD6D14A001B8105 /* quests_drops1.json in Resources */ = {isa = PBXBuildFile; fileRef = E4CBD8331AD6D14A001B8105 /* quests_drops1.json */; };
+		E4CBD8351AD6D14A001B8105 /* quest_drops6.json in Resources */ = {isa = PBXBuildFile; fileRef = E4CBD82E1AD6D14A001B8105 /* quest_drops6.json */; };
+		E4CBD8361AD6D14A001B8105 /* quest_drops5.json in Resources */ = {isa = PBXBuildFile; fileRef = E4CBD82F1AD6D14A001B8105 /* quest_drops5.json */; };
+		E4CBD8371AD6D14A001B8105 /* quest_drops4.json in Resources */ = {isa = PBXBuildFile; fileRef = E4CBD8301AD6D14A001B8105 /* quest_drops4.json */; };
+		E4CBD8381AD6D14A001B8105 /* quest_drops3.json in Resources */ = {isa = PBXBuildFile; fileRef = E4CBD8311AD6D14A001B8105 /* quest_drops3.json */; };
+		E4CBD8391AD6D14A001B8105 /* quest_drops2.json in Resources */ = {isa = PBXBuildFile; fileRef = E4CBD8321AD6D14A001B8105 /* quest_drops2.json */; };
+		E4CBD83A1AD6D14A001B8105 /* quest_drops1.json in Resources */ = {isa = PBXBuildFile; fileRef = E4CBD8331AD6D14A001B8105 /* quest_drops1.json */; };
 		E4CBD83B1AD6D14A001B8105 /* quests.json in Resources */ = {isa = PBXBuildFile; fileRef = E4CBD8341AD6D14A001B8105 /* quests.json */; };
 		E4CE45C31A97A8D30059C056 /* _MonsterDrop.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CE45C21A97A8D30059C056 /* _MonsterDrop.m */; };
 		E4CE45C61A97A8DA0059C056 /* _AreaDrop.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CE45C51A97A8DA0059C056 /* _AreaDrop.m */; };
@@ -270,12 +270,12 @@
 		E4B4938D1ABC72F700B29B18 /* Strings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Strings.m; sourceTree = "<group>"; };
 		E4C76B321A85638D00AD753B /* MonsterOverviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonsterOverviewViewController.h; sourceTree = "<group>"; };
 		E4C76B331A85638D00AD753B /* MonsterOverviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonsterOverviewViewController.m; sourceTree = "<group>"; };
-		E4CBD82E1AD6D14A001B8105 /* quests_drops6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quests_drops6.json; sourceTree = "<group>"; };
-		E4CBD82F1AD6D14A001B8105 /* quests_drops5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quests_drops5.json; sourceTree = "<group>"; };
-		E4CBD8301AD6D14A001B8105 /* quests_drops4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quests_drops4.json; sourceTree = "<group>"; };
-		E4CBD8311AD6D14A001B8105 /* quests_drops3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quests_drops3.json; sourceTree = "<group>"; };
-		E4CBD8321AD6D14A001B8105 /* quests_drops2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quests_drops2.json; sourceTree = "<group>"; };
-		E4CBD8331AD6D14A001B8105 /* quests_drops1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quests_drops1.json; sourceTree = "<group>"; };
+		E4CBD82E1AD6D14A001B8105 /* quest_drops6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quest_drops6.json; sourceTree = "<group>"; };
+		E4CBD82F1AD6D14A001B8105 /* quest_drops5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quest_drops5.json; sourceTree = "<group>"; };
+		E4CBD8301AD6D14A001B8105 /* quest_drops4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quest_drops4.json; sourceTree = "<group>"; };
+		E4CBD8311AD6D14A001B8105 /* quest_drops3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quest_drops3.json; sourceTree = "<group>"; };
+		E4CBD8321AD6D14A001B8105 /* quest_drops2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quest_drops2.json; sourceTree = "<group>"; };
+		E4CBD8331AD6D14A001B8105 /* quest_drops1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quest_drops1.json; sourceTree = "<group>"; };
 		E4CBD8341AD6D14A001B8105 /* quests.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quests.json; sourceTree = "<group>"; };
 		E4CE45C11A97A8D30059C056 /* _MonsterDrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _MonsterDrop.h; sourceTree = "<group>"; };
 		E4CE45C21A97A8D30059C056 /* _MonsterDrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _MonsterDrop.m; sourceTree = "<group>"; };
@@ -637,12 +637,12 @@
 		E4CBD82D1AD6D0F7001B8105 /* Quests */ = {
 			isa = PBXGroup;
 			children = (
-				E4CBD82E1AD6D14A001B8105 /* quests_drops6.json */,
-				E4CBD82F1AD6D14A001B8105 /* quests_drops5.json */,
-				E4CBD8301AD6D14A001B8105 /* quests_drops4.json */,
-				E4CBD8311AD6D14A001B8105 /* quests_drops3.json */,
-				E4CBD8321AD6D14A001B8105 /* quests_drops2.json */,
-				E4CBD8331AD6D14A001B8105 /* quests_drops1.json */,
+				E4CBD82E1AD6D14A001B8105 /* quest_drops6.json */,
+				E4CBD82F1AD6D14A001B8105 /* quest_drops5.json */,
+				E4CBD8301AD6D14A001B8105 /* quest_drops4.json */,
+				E4CBD8311AD6D14A001B8105 /* quest_drops3.json */,
+				E4CBD8321AD6D14A001B8105 /* quest_drops2.json */,
+				E4CBD8331AD6D14A001B8105 /* quest_drops1.json */,
 				E4CBD8341AD6D14A001B8105 /* quests.json */,
 			);
 			name = Quests;
@@ -826,8 +826,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4CBD8351AD6D14A001B8105 /* quests_drops6.json in Resources */,
-				E4CBD83A1AD6D14A001B8105 /* quests_drops1.json in Resources */,
+				E4CBD8351AD6D14A001B8105 /* quest_drops6.json in Resources */,
+				E4CBD83A1AD6D14A001B8105 /* quest_drops1.json in Resources */,
 				E48A67831ABB7A8E00C5EE81 /* monster_drops10.json in Resources */,
 				E47878CE1ACEE012007AD8DE /* monsterDamage.json in Resources */,
 				E4CE45D61A97E34D0059C056 /* primal_forest_drops.json in Resources */,
@@ -837,11 +837,11 @@
 				E49958111A83D28E00799BBE /* Main.storyboard in Resources */,
 				E48A678A1ABB7A8E00C5EE81 /* monster_drops3.json in Resources */,
 				E4E2127C1AB1FDBE00320E39 /* volcanic_hollow_drops.json in Resources */,
-				E4CBD8371AD6D14A001B8105 /* quests_drops4.json in Resources */,
+				E4CBD8371AD6D14A001B8105 /* quest_drops4.json in Resources */,
 				E48A678B1ABB7A8E00C5EE81 /* monster_drops2.json in Resources */,
-				E4CBD8391AD6D14A001B8105 /* quests_drops2.json in Resources */,
+				E4CBD8391AD6D14A001B8105 /* quest_drops2.json in Resources */,
 				E471BE321A979DF40076CBD7 /* regions.json in Resources */,
-				E4CBD8361AD6D14A001B8105 /* quests_drops5.json in Resources */,
+				E4CBD8361AD6D14A001B8105 /* quest_drops5.json in Resources */,
 				E48A67881ABB7A8E00C5EE81 /* monster_drops5.json in Resources */,
 				E48A67841ABB7A8E00C5EE81 /* monster_drops9.json in Resources */,
 				E48A67861ABB7A8E00C5EE81 /* monster_drops7.json in Resources */,
@@ -855,7 +855,7 @@
 				E48A678C1ABB7A8E00C5EE81 /* monster_drops1.json in Resources */,
 				E4E2127E1AB1FE1200320E39 /* heavens_mount_drops.json in Resources */,
 				E4E212861AB1FE7E00320E39 /* dunes_night_drops.json in Resources */,
-				E4CBD8381AD6D14A001B8105 /* quests_drops3.json in Resources */,
+				E4CBD8381AD6D14A001B8105 /* quest_drops3.json in Resources */,
 				E48A67891ABB7A8E00C5EE81 /* monster_drops4.json in Resources */,
 				E4CE45D81A97E6F80059C056 /* frozen_seaway_drops.json in Resources */,
 			);

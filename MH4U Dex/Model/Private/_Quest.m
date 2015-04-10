@@ -9,7 +9,7 @@ const struct QuestAttributes QuestAttributes = {
 	.fee = @"fee",
 	.hrp = @"hrp",
 	.id = @"id",
-	.key = @"key",
+	.keyQuest = @"keyQuest",
 	.name = @"name",
 	.objective = @"objective",
 	.reward = @"reward",
@@ -21,11 +21,10 @@ const struct QuestAttributes QuestAttributes = {
 
 const struct QuestRelationships QuestRelationships = {
 	.drop = @"drop",
-	.firstMonster = @"firstMonster",
-	.fourthMonster = @"fourthMonster",
+	.followUp = @"followUp",
+	.monster = @"monster",
+	.prerequisite = @"prerequisite",
 	.region = @"region",
-	.secondMonster = @"secondMonster",
-	.thirdMonster = @"thirdMonster",
 };
 
 @implementation QuestID
@@ -79,8 +78,8 @@ const struct QuestRelationships QuestRelationships = {
 		keyPaths = [keyPaths setByAddingObjectsFromSet:affectingKey];
 		return keyPaths;
 	}
-	if ([key isEqualToString:@"keyValue"]) {
-		NSSet *affectingKey = [NSSet setWithObject:@"key"];
+	if ([key isEqualToString:@"keyQuestValue"]) {
+		NSSet *affectingKey = [NSSet setWithObject:@"keyQuest"];
 		keyPaths = [keyPaths setByAddingObjectsFromSet:affectingKey];
 		return keyPaths;
 	}
@@ -203,24 +202,24 @@ const struct QuestRelationships QuestRelationships = {
 	[self setPrimitiveId:[NSNumber numberWithShort:value_]];
 }
 
-@dynamic key;
+@dynamic keyQuest;
 
-- (BOOL)keyValue {
-	NSNumber *result = [self key];
+- (BOOL)keyQuestValue {
+	NSNumber *result = [self keyQuest];
 	return [result boolValue];
 }
 
-- (void)setKeyValue:(BOOL)value_ {
-	[self setKey:[NSNumber numberWithBool:value_]];
+- (void)setKeyQuestValue:(BOOL)value_ {
+	[self setKeyQuest:[NSNumber numberWithBool:value_]];
 }
 
-- (BOOL)primitiveKeyValue {
-	NSNumber *result = [self primitiveKey];
+- (BOOL)primitiveKeyQuestValue {
+	NSNumber *result = [self primitiveKeyQuest];
 	return [result boolValue];
 }
 
-- (void)setPrimitiveKeyValue:(BOOL)value_ {
-	[self setPrimitiveKey:[NSNumber numberWithBool:value_]];
+- (void)setPrimitiveKeyQuestValue:(BOOL)value_ {
+	[self setPrimitiveKeyQuest:[NSNumber numberWithBool:value_]];
 }
 
 @dynamic name;
@@ -302,15 +301,40 @@ const struct QuestRelationships QuestRelationships = {
 	return result;
 }
 
-@dynamic firstMonster;
+@dynamic followUp;
 
-@dynamic fourthMonster;
+- (NSMutableSet*)followUpSet {
+	[self willAccessValueForKey:@"followUp"];
+
+	NSMutableSet *result = (NSMutableSet*)[self mutableSetValueForKey:@"followUp"];
+
+	[self didAccessValueForKey:@"followUp"];
+	return result;
+}
+
+@dynamic monster;
+
+- (NSMutableSet*)monsterSet {
+	[self willAccessValueForKey:@"monster"];
+
+	NSMutableSet *result = (NSMutableSet*)[self mutableSetValueForKey:@"monster"];
+
+	[self didAccessValueForKey:@"monster"];
+	return result;
+}
+
+@dynamic prerequisite;
+
+- (NSMutableSet*)prerequisiteSet {
+	[self willAccessValueForKey:@"prerequisite"];
+
+	NSMutableSet *result = (NSMutableSet*)[self mutableSetValueForKey:@"prerequisite"];
+
+	[self didAccessValueForKey:@"prerequisite"];
+	return result;
+}
 
 @dynamic region;
-
-@dynamic secondMonster;
-
-@dynamic thirdMonster;
 
 @end
 
