@@ -8,43 +8,23 @@
 
 #import "QuestDetailsTableViewController.h"
 
+#import "Constants.h"
+
 #import "Monster.h"
 #import "Quest.h"
 
 #import "MonsterContainerViewController.h"
 
-typedef NS_ENUM(NSInteger, QuestDetailEntries) {
-    CaravanOrHall = 0,
-    Stars = 1,
-    Objective = 2,
-    SubObjective = 3,
-    Type = 4,
-    Key = 5,
-    Urgent = 6,
-    Danger = 7,
-    Fee = 8,
-    RewardMoney = 9,
-    RewardPoints = 10,
-    
-    QuestDetailEntriesCount
+typedef NS_ENUM(NSInteger, QuestDetailSections) {
+    DetailsSection = 0,
+    MonstersSection = 1
 };
-
-static NSString *CaravanHallConst = @"Caravan/Hall";
-static NSString *StarsConst = @"Stars";
-static NSString *ObjectiveConst = @"Objective";
-static NSString *SubObjectiveConst = @"Sub Objective";
-static NSString *TypeConst = @"Quest Type";
-static NSString *KeyConst = @"Key Quest";
-static NSString *UrgentConst = @"Urgent Quest";
-static NSString *DangerConst = @"Unstable Quest";
-static NSString *FeeConst = @"Quest Fee";
-static NSString *RewardConst = @"Zenny Reward";
-static NSString *PointsConst = @"HRP Reward";
 
 @interface QuestDetailsTableViewController ()
 
 @property (nonatomic, strong) NSDictionary *questDetailsDict;
 @property (nonatomic, strong) NSArray *questMonsters;
+@property (nonatomic, strong) NSArray *questDetailLabels;
 
 @end
 
@@ -54,20 +34,32 @@ static NSString *PointsConst = @"HRP Reward";
 {
     [super viewDidLoad];
     
+    self.questDetailLabels = @[
+                               @"Caravan/Hall",
+                               @"Stars",
+                               @"Objective",
+                               @"Sub Objective",
+                               @"Quest Type",
+                               @"Key Quest",
+                               @"Urgent Quest",
+                               @"Unstable Quest",
+                               @"Quest Fee",
+                               @"Zenny Reward",
+                               @"HRP Reward",
+                               ];
     self.questDetailsDict = @{
-                               CaravanHallConst: self.quest.caravan,
-                               StarsConst: self.quest.stars,
-                               ObjectiveConst: self.quest.objective,
-                               SubObjectiveConst: self.quest.subObjective,
-                               TypeConst: self.quest.type,
-                               KeyConst: self.quest.keyQuest,
-                               UrgentConst: self.quest.urgent,
-                               DangerConst: self.quest.danger,
-                               FeeConst: self.quest.fee,
-                               RewardConst: self.quest.reward,
-                               PointsConst: self.quest.hrp,
+                               self.questDetailLabels[0]: self.quest.caravan,
+                               self.questDetailLabels[1]: self.quest.stars,
+                               self.questDetailLabels[2]: self.quest.objective,
+                               self.questDetailLabels[3]: self.quest.subObjective,
+                               self.questDetailLabels[4]: self.quest.type,
+                               self.questDetailLabels[5]: self.quest.keyQuest,
+                               self.questDetailLabels[6]: self.quest.urgent,
+                               self.questDetailLabels[7]: self.quest.danger,
+                               self.questDetailLabels[8]: self.quest.fee,
+                               self.questDetailLabels[9]: self.quest.reward,
+                               self.questDetailLabels[10]: self.quest.hrp,
                                };
-    
     NSSortDescriptor *descriptor = [[NSSortDescriptor alloc] initWithKey:MonsterAttributes.sort_name ascending:YES];
     self.questMonsters = [self.quest.monster sortedArrayUsingDescriptors:@[descriptor]];
 }
@@ -83,10 +75,10 @@ static NSString *PointsConst = @"HRP Reward";
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     switch (section) {
-        case 0:
-            return QuestDetailEntriesCount;
+        case DetailsSection:
+            return self.questDetailLabels.count;
             break;
-        case 1:
+        case MonstersSection:
             return self.questMonsters.count;
             break;
         default:
@@ -94,85 +86,65 @@ static NSString *PointsConst = @"HRP Reward";
     }
 }
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+- (UITableViewCell *)tableView:(UITableView *)tableView detailCellForIndexPath:(NSIndexPath *)indexPath
 {
     //TODO: Consider wrapping relevant strings with NSLocalizedString and moving to Strings.h
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"QuestDetailCell" forIndexPath:indexPath];
-    NSString *rowKey;
-    Monster *monster;
-    switch (indexPath.section) {
-        case 0:
-            cell.userInteractionEnabled = NO;
-            switch (indexPath.row) {
-                case CaravanOrHall:
-                    rowKey = CaravanHallConst;
-                    break;
-                case Stars:
-                    rowKey = StarsConst;
-                    break;
-                case Objective:
-                    rowKey = ObjectiveConst;
-                    break;
-                case SubObjective:
-                    rowKey = SubObjectiveConst;
-                    break;
-                case Type:
-                    rowKey = TypeConst;
-                    break;
-                case Key:
-                    rowKey = KeyConst;
-                    break;
-                case Urgent:
-                    rowKey = UrgentConst;
-                    break;
-                case Danger:
-                    rowKey = DangerConst;
-                    break;
-                case Fee:
-                    rowKey = FeeConst;
-                    break;
-                case RewardMoney:
-                    rowKey = RewardConst;
-                    break;
-                case RewardPoints:
-                    rowKey = PointsConst;
-                    break;
-            }
-            cell.textLabel.text = rowKey;
-            if ([self.questDetailsDict[rowKey] isKindOfClass:[NSNumber class]]) {
-                NSNumber *number = self.questDetailsDict[rowKey];
-                if (rowKey == CaravanHallConst) {
-                    cell.detailTextLabel.text = (number.boolValue) ? @"Caravan" : @"Gathering Hall";
-                } else if (rowKey == KeyConst
-                           || rowKey == UrgentConst
-                           || rowKey == DangerConst) {
-                    cell.detailTextLabel.text = (number.boolValue) ? @"True" : @"False";
-                } else {
-                    cell.detailTextLabel.text = number.stringValue;
-                }
-            } else {
-                cell.detailTextLabel.text = self.questDetailsDict[rowKey];
-            }
-            break;
-        case 1:
-            cell.userInteractionEnabled = YES;
-            monster = self.questMonsters[indexPath.row];
-            cell.textLabel.text = @"Large Monster";
-            cell.detailTextLabel.text = monster.name;
-            break;
+    cell.userInteractionEnabled = NO;
+    NSString *rowKey = self.questDetailLabels[indexPath.row];
+    cell.textLabel.text = rowKey;
+    if ([self.questDetailsDict[rowKey] isKindOfClass:[NSNumber class]]) {
+        NSNumber *number = self.questDetailsDict[rowKey];
+        if (rowKey == self.questDetailLabels[0]) {
+            // A quest is either a Caravan or a Hall quest.  This is stored as a bool number, and needs to be converted.
+            cell.detailTextLabel.text = (number.boolValue) ? @"Caravan" : @"Gathering Hall";
+        } else if (rowKey == self.questDetailLabels[5]
+                   || rowKey == self.questDetailLabels[6]
+                   || rowKey == self.questDetailLabels[7]) {
+            // These three numbers represent boolean values
+            cell.detailTextLabel.text = (number.boolValue) ? @"True" : @"False";
+        } else {
+            // All other numbers represent actual numbers.
+            cell.detailTextLabel.text = number.stringValue;
+        }
+    } else {
+        cell.detailTextLabel.text = self.questDetailsDict[rowKey];
     }
     return cell;
 }
 
+- (UITableViewCell *)tableView:(UITableView *)tableView monsterCellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    //TODO: Consider wrapping relevant strings with NSLocalizedString and moving to Strings.h
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"QuestDetailCell" forIndexPath:indexPath];
+    cell.userInteractionEnabled = YES;
+    Monster *monster = [self monsterForIndexPath:indexPath];
+    cell.textLabel.text = @"Large Monster";
+    cell.detailTextLabel.text = monster.name;
+
+    return cell;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    switch (indexPath.section) {
+        case DetailsSection:
+            return [self tableView:tableView detailCellForIndexPath:indexPath];
+        case MonstersSection:
+            return [self tableView:tableView monsterCellForRowAtIndexPath:indexPath];
+    }
+    return nil;
+}
+
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:MHDStoryBoardIdentifier.main bundle:nil];
     MonsterContainerViewController *monsterVC = [storyBoard instantiateViewControllerWithIdentifier:NSStringFromClass([MonsterContainerViewController class])];
     switch (indexPath.section) {
-        case 0:
+        case DetailsSection:
             //Do nothing.
             return;
-        case 1:
+        case MonstersSection:
             // Push Monster's view.
             monsterVC.monster = [self monsterForIndexPath:indexPath];
             [self.navigationController pushViewController:monsterVC animated:YES];

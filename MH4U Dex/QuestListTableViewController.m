@@ -10,6 +10,7 @@
 
 #import <CoreData/CoreData.h>
 
+#import "Constants.h"
 #import "CoreDataController.h"
 
 #import "Quest.h"
@@ -37,7 +38,7 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     QuestContainerViewController *questVC = (QuestContainerViewController *)segue.destinationViewController;
-    if ([segue.identifier isEqualToString:@"showQuestContainerView"]) {
+    if ([segue.identifier isEqualToString:MHDSegueIdentifier.showQuestContainer]) {
         if ([sender isMemberOfClass:[QuestListTableViewCell class]]) {
             QuestListTableViewCell *cell = (QuestListTableViewCell *)sender;
             questVC.quest = [self questAtIndexPath:[self.tableView indexPathForCell:cell]];
