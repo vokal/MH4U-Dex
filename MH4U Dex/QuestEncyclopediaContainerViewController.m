@@ -10,6 +10,13 @@
 
 #import "QuestListTableViewController.h"
 
+typedef NS_ENUM(NSInteger, QuestListSegmentedControlPage) {
+    CaravanQuests = 0,
+    HallQuests = 1,
+    
+    QuestListPageCount
+};
+
 @interface QuestEncyclopediaContainerViewController ()
 
 @property (nonatomic, weak) IBOutlet UIView *caravanSubView;
@@ -19,9 +26,25 @@
 
 @implementation QuestEncyclopediaContainerViewController
 
-- (IBAction)segmentedControlChanged:(id)sender
+- (void)viewDidLoad
 {
-    // TODO: Implement
+    [super viewDidLoad];
+    
+    self.hallSubView.hidden = YES;
+}
+
+- (IBAction)segmentedControlChanged:(UISegmentedControl *)segmentedControl
+{
+    switch (segmentedControl.selectedSegmentIndex) {
+        case CaravanQuests:
+            self.hallSubView.hidden = YES;
+            self.caravanSubView.hidden = NO;
+            break;
+        case HallQuests:
+            self.hallSubView.hidden = NO;
+            self.caravanSubView.hidden = YES;
+            break;
+    }
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender

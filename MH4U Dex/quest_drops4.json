@@ -5,7 +5,7 @@
     "row":"A",
     "item":"Raw Meat",
     "quantity":2,
-    "percent":"25%"
+    "percent":25
   },
   {
     "dropID":2158,
@@ -13,7 +13,7 @@
     "row":"A",
     "item":"Mystery Bone",
     "quantity":1,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":2159,
@@ -21,7 +21,7 @@
     "row":"A",
     "item":"Worm",
     "quantity":1,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":2160,
@@ -29,7 +29,7 @@
     "row":"A",
     "item":"Whetstone",
     "quantity":2,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":2161,
@@ -37,7 +37,7 @@
     "row":"A",
     "item":"Power Nectar: Fire",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2162,
@@ -45,7 +45,7 @@
     "row":"A",
     "item":"Stam Nectar: Water",
     "quantity":1,
-    "percent":"5%"
+    "percent":5
   },
   {
     "dropID":2163,
@@ -53,7 +53,7 @@
     "row":"A",
     "item":"Raw Meat",
     "quantity":2,
-    "percent":"25%"
+    "percent":25
   },
   {
     "dropID":2164,
@@ -61,7 +61,7 @@
     "row":"A",
     "item":"Mystery Bone",
     "quantity":1,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":2165,
@@ -69,7 +69,7 @@
     "row":"A",
     "item":"Worm",
     "quantity":1,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":2166,
@@ -77,7 +77,7 @@
     "row":"A",
     "item":"Whetstone",
     "quantity":2,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":2167,
@@ -85,7 +85,7 @@
     "row":"A",
     "item":"Power Nectar: Fire",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2168,
@@ -93,7 +93,7 @@
     "row":"A",
     "item":"Stam Nectar: Water",
     "quantity":1,
-    "percent":"5%"
+    "percent":5
   },
   {
     "dropID":2169,
@@ -101,7 +101,7 @@
     "row":"A",
     "item":"Nerscylla Shell",
     "quantity":1,
-    "percent":"28%"
+    "percent":28
   },
   {
     "dropID":2170,
@@ -109,7 +109,7 @@
     "row":"A",
     "item":"Nerscylla Claw",
     "quantity":1,
-    "percent":"19%"
+    "percent":19
   },
   {
     "dropID":2171,
@@ -117,7 +117,7 @@
     "row":"A",
     "item":"Nerscylla Chelicera",
     "quantity":1,
-    "percent":"16%"
+    "percent":16
   },
   {
     "dropID":2172,
@@ -125,7 +125,7 @@
     "row":"A",
     "item":"Sleep Sac",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2173,
@@ -133,7 +133,7 @@
     "row":"A",
     "item":"Monster Fluid",
     "quantity":2,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2174,
@@ -141,7 +141,7 @@
     "row":"A",
     "item":"Nerscylla Spike",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2175,
@@ -149,7 +149,7 @@
     "row":"B",
     "item":"Iron Ore",
     "quantity":1,
-    "percent":"14%"
+    "percent":14
   },
   {
     "dropID":2176,
@@ -157,7 +157,7 @@
     "row":"B",
     "item":"Antidote Herb",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2177,
@@ -165,7 +165,7 @@
     "row":"B",
     "item":"Fire Herb",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2178,
@@ -173,7 +173,7 @@
     "row":"B",
     "item":"Spider Web",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2179,
@@ -181,7 +181,7 @@
     "row":"B",
     "item":"Gloamgrass Root",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2180,
@@ -189,7 +189,7 @@
     "row":"B",
     "item":"Armor Sphere",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2181,
@@ -197,7 +197,7 @@
     "row":"B",
     "item":"Stam Nectar: Water",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2182,
@@ -205,7 +205,7 @@
     "row":"B",
     "item":"Mystery Bone",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2183,
@@ -213,7 +213,7 @@
     "row":"B",
     "item":"Glueglopper",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2184,
@@ -221,7 +221,7 @@
     "row":"B",
     "item":"Spd Nectar: Thunder",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2185,
@@ -229,7 +229,7 @@
     "row":"B",
     "item":"Stamina+ Nectar",
     "quantity":1,
-    "percent":"4%"
+    "percent":4
   },
   {
     "dropID":2186,
@@ -237,7 +237,7 @@
     "row":"Sub",
     "item":"Iron Ore",
     "quantity":1,
-    "percent":"14%"
+    "percent":14
   },
   {
     "dropID":2187,
@@ -245,7 +245,7 @@
     "row":"Sub",
     "item":"Antidote Herb",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2188,
@@ -253,7 +253,7 @@
     "row":"Sub",
     "item":"Fire Herb",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2189,
@@ -261,7 +261,7 @@
     "row":"Sub",
     "item":"Spider Web",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2190,
@@ -269,7 +269,7 @@
     "row":"Sub",
     "item":"Gloamgrass Root",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2191,
@@ -277,7 +277,7 @@
     "row":"Sub",
     "item":"Armor Sphere",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2192,
@@ -285,7 +285,7 @@
     "row":"Sub",
     "item":"Stam Nectar: Water",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2193,
@@ -293,7 +293,7 @@
     "row":"Sub",
     "item":"Mystery Bone",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2194,
@@ -301,7 +301,7 @@
     "row":"Sub",
     "item":"Glueglopper",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2195,
@@ -309,7 +309,7 @@
     "row":"Sub",
     "item":"Spd Nectar: Thunder",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2196,
@@ -317,7 +317,7 @@
     "row":"Sub",
     "item":"Stamina+ Nectar",
     "quantity":1,
-    "percent":"4%"
+    "percent":4
   },
   {
     "dropID":2197,
@@ -325,7 +325,7 @@
     "row":"A",
     "item":"Congalala Fang",
     "quantity":1,
-    "percent":"42%"
+    "percent":42
   },
   {
     "dropID":2198,
@@ -333,7 +333,7 @@
     "row":"A",
     "item":"Congalala Pelt",
     "quantity":1,
-    "percent":"28%"
+    "percent":28
   },
   {
     "dropID":2199,
@@ -341,7 +341,7 @@
     "row":"A",
     "item":"Congalala Claw",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2200,
@@ -349,7 +349,7 @@
     "row":"A",
     "item":"Jumbo Bone",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2201,
@@ -357,7 +357,7 @@
     "row":"A",
     "item":"Vibrant Pelt",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2202,
@@ -365,7 +365,7 @@
     "row":"B",
     "item":"Toadstool",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2203,
@@ -373,7 +373,7 @@
     "row":"B",
     "item":"Flashbug",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2204,
@@ -381,7 +381,7 @@
     "row":"B",
     "item":"Armor Sphere",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2205,
@@ -389,7 +389,7 @@
     "row":"B",
     "item":"Bone Husk",
     "quantity":2,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2206,
@@ -397,7 +397,7 @@
     "row":"B",
     "item":"Hot Pepper",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2207,
@@ -405,7 +405,7 @@
     "row":"B",
     "item":"Killer Beetle",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2208,
@@ -413,7 +413,7 @@
     "row":"B",
     "item":"Spd Nectar: Thunder",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2209,
@@ -421,7 +421,7 @@
     "row":"B",
     "item":"Speed Nectar: Ice",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2210,
@@ -429,7 +429,7 @@
     "row":"B",
     "item":"Speed+ Nectar",
     "quantity":1,
-    "percent":"4%"
+    "percent":4
   },
   {
     "dropID":2211,
@@ -437,7 +437,7 @@
     "row":"B",
     "item":"Mystery Charm",
     "quantity":1,
-    "percent":"3%"
+    "percent":3
   },
   {
     "dropID":2212,
@@ -445,7 +445,7 @@
     "row":"Sub",
     "item":"Toadstool",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2213,
@@ -453,7 +453,7 @@
     "row":"Sub",
     "item":"Flashbug",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2214,
@@ -461,7 +461,7 @@
     "row":"Sub",
     "item":"Armor Sphere",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2215,
@@ -469,7 +469,7 @@
     "row":"Sub",
     "item":"Bone Husk",
     "quantity":2,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2216,
@@ -477,7 +477,7 @@
     "row":"Sub",
     "item":"Hot Pepper",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2217,
@@ -485,7 +485,7 @@
     "row":"Sub",
     "item":"Killer Beetle",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2218,
@@ -493,7 +493,7 @@
     "row":"Sub",
     "item":"Spd Nectar: Thunder",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2219,
@@ -501,7 +501,7 @@
     "row":"Sub",
     "item":"Speed Nectar: Ice",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2220,
@@ -509,7 +509,7 @@
     "row":"Sub",
     "item":"Speed+ Nectar",
     "quantity":1,
-    "percent":"4%"
+    "percent":4
   },
   {
     "dropID":2221,
@@ -517,7 +517,7 @@
     "row":"Sub",
     "item":"Mystery Charm",
     "quantity":1,
-    "percent":"3%"
+    "percent":3
   },
   {
     "dropID":2222,
@@ -525,7 +525,7 @@
     "row":"A",
     "item":"Congalala Fang",
     "quantity":1,
-    "percent":"42%"
+    "percent":42
   },
   {
     "dropID":2223,
@@ -533,7 +533,7 @@
     "row":"A",
     "item":"Congalala Pelt",
     "quantity":1,
-    "percent":"28%"
+    "percent":28
   },
   {
     "dropID":2224,
@@ -541,7 +541,7 @@
     "row":"A",
     "item":"Congalala Claw",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2225,
@@ -549,7 +549,7 @@
     "row":"A",
     "item":"Jumbo Bone",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2226,
@@ -557,7 +557,7 @@
     "row":"A",
     "item":"Vibrant Pelt",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2227,
@@ -565,7 +565,7 @@
     "row":"B",
     "item":"Toadstool",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2228,
@@ -573,7 +573,7 @@
     "row":"B",
     "item":"Flashbug",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2229,
@@ -581,7 +581,7 @@
     "row":"B",
     "item":"Armor Sphere",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2230,
@@ -589,7 +589,7 @@
     "row":"B",
     "item":"Bone Husk",
     "quantity":2,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2231,
@@ -597,7 +597,7 @@
     "row":"B",
     "item":"Hot Pepper",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2232,
@@ -605,7 +605,7 @@
     "row":"B",
     "item":"Killer Beetle",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2233,
@@ -613,7 +613,7 @@
     "row":"B",
     "item":"Spd Nectar: Thunder",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2234,
@@ -621,7 +621,7 @@
     "row":"B",
     "item":"Speed Nectar: Ice",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2235,
@@ -629,7 +629,7 @@
     "row":"B",
     "item":"Speed+ Nectar",
     "quantity":1,
-    "percent":"4%"
+    "percent":4
   },
   {
     "dropID":2236,
@@ -637,7 +637,7 @@
     "row":"B",
     "item":"Mystery Charm",
     "quantity":1,
-    "percent":"3%"
+    "percent":3
   },
   {
     "dropID":2237,
@@ -645,7 +645,7 @@
     "row":"Sub",
     "item":"Toadstool",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2238,
@@ -653,7 +653,7 @@
     "row":"Sub",
     "item":"Flashbug",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2239,
@@ -661,7 +661,7 @@
     "row":"Sub",
     "item":"Armor Sphere",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2240,
@@ -669,7 +669,7 @@
     "row":"Sub",
     "item":"Bone Husk",
     "quantity":2,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2241,
@@ -677,7 +677,7 @@
     "row":"Sub",
     "item":"Hot Pepper",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2242,
@@ -685,7 +685,7 @@
     "row":"Sub",
     "item":"Killer Beetle",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2243,
@@ -693,7 +693,7 @@
     "row":"Sub",
     "item":"Spd Nectar: Thunder",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2244,
@@ -701,7 +701,7 @@
     "row":"Sub",
     "item":"Speed Nectar: Ice",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2245,
@@ -709,7 +709,7 @@
     "row":"Sub",
     "item":"Speed+ Nectar",
     "quantity":1,
-    "percent":"4%"
+    "percent":4
   },
   {
     "dropID":2246,
@@ -717,7 +717,7 @@
     "row":"Sub",
     "item":"Mystery Charm",
     "quantity":1,
-    "percent":"3%"
+    "percent":3
   },
   {
     "dropID":2247,
@@ -725,7 +725,7 @@
     "row":"A",
     "item":"Slagtoth Hide",
     "quantity":1,
-    "percent":"32%"
+    "percent":32
   },
   {
     "dropID":2248,
@@ -733,7 +733,7 @@
     "row":"A",
     "item":"Raw Meat",
     "quantity":1,
-    "percent":"25%"
+    "percent":25
   },
   {
     "dropID":2249,
@@ -741,7 +741,7 @@
     "row":"A",
     "item":"Monster Bone S",
     "quantity":2,
-    "percent":"16%"
+    "percent":16
   },
   {
     "dropID":2250,
@@ -749,7 +749,7 @@
     "row":"A",
     "item":"Monster Bone M",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2251,
@@ -757,7 +757,7 @@
     "row":"A",
     "item":"Blue Mushroom",
     "quantity":3,
-    "percent":"9%"
+    "percent":9
   },
   {
     "dropID":2252,
@@ -765,7 +765,7 @@
     "row":"A",
     "item":"Parashroom",
     "quantity":2,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2253,
@@ -773,7 +773,7 @@
     "row":"B",
     "item":"Toadstool",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2254,
@@ -781,7 +781,7 @@
     "row":"B",
     "item":"Flashbug",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2255,
@@ -789,7 +789,7 @@
     "row":"B",
     "item":"Armor Sphere",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2256,
@@ -797,7 +797,7 @@
     "row":"B",
     "item":"Bone Husk",
     "quantity":2,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2257,
@@ -805,7 +805,7 @@
     "row":"B",
     "item":"Hot Pepper",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2258,
@@ -813,7 +813,7 @@
     "row":"B",
     "item":"Killer Beetle",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2259,
@@ -821,7 +821,7 @@
     "row":"B",
     "item":"Spd Nectar: Thunder",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2260,
@@ -829,7 +829,7 @@
     "row":"B",
     "item":"Speed Nectar: Ice",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2261,
@@ -837,7 +837,7 @@
     "row":"B",
     "item":"Speed+ Nectar",
     "quantity":1,
-    "percent":"4%"
+    "percent":4
   },
   {
     "dropID":2262,
@@ -845,7 +845,7 @@
     "row":"B",
     "item":"Mystery Charm",
     "quantity":1,
-    "percent":"3%"
+    "percent":3
   },
   {
     "dropID":2263,
@@ -853,7 +853,7 @@
     "row":"Sub",
     "item":"Toadstool",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2264,
@@ -861,7 +861,7 @@
     "row":"Sub",
     "item":"Flashbug",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2265,
@@ -869,7 +869,7 @@
     "row":"Sub",
     "item":"Armor Sphere",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2266,
@@ -877,7 +877,7 @@
     "row":"Sub",
     "item":"Bone Husk",
     "quantity":2,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2267,
@@ -885,7 +885,7 @@
     "row":"Sub",
     "item":"Hot Pepper",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2268,
@@ -893,7 +893,7 @@
     "row":"Sub",
     "item":"Killer Beetle",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2269,
@@ -901,7 +901,7 @@
     "row":"Sub",
     "item":"Spd Nectar: Thunder",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2270,
@@ -909,7 +909,7 @@
     "row":"Sub",
     "item":"Speed Nectar: Ice",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2271,
@@ -917,7 +917,7 @@
     "row":"Sub",
     "item":"Speed+ Nectar",
     "quantity":1,
-    "percent":"4%"
+    "percent":4
   },
   {
     "dropID":2272,
@@ -925,7 +925,7 @@
     "row":"Sub",
     "item":"Mystery Charm",
     "quantity":1,
-    "percent":"3%"
+    "percent":3
   },
   {
     "dropID":2273,
@@ -933,7 +933,7 @@
     "row":"A",
     "item":"Meaty Hide",
     "quantity":1,
-    "percent":"31%"
+    "percent":31
   },
   {
     "dropID":2274,
@@ -941,7 +941,7 @@
     "row":"A",
     "item":"Sharqskin Scale",
     "quantity":1,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":2275,
@@ -949,7 +949,7 @@
     "row":"A",
     "item":"Meaty Hide",
     "quantity":2,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2276,
@@ -957,7 +957,7 @@
     "row":"A",
     "item":"Sharp Fang",
     "quantity":1,
-    "percent":"14%"
+    "percent":14
   },
   {
     "dropID":2277,
@@ -965,7 +965,7 @@
     "row":"A",
     "item":"Ice Crystal",
     "quantity":2,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2278,
@@ -973,7 +973,7 @@
     "row":"A",
     "item":"Ice Crystal",
     "quantity":3,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2279,
@@ -981,7 +981,7 @@
     "row":"B",
     "item":"Armor Sphere",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2280,
@@ -989,7 +989,7 @@
     "row":"B",
     "item":"Ice Crystal",
     "quantity":1,
-    "percent":"14%"
+    "percent":14
   },
   {
     "dropID":2281,
@@ -997,7 +997,7 @@
     "row":"B",
     "item":"Machalite Ore",
     "quantity":1,
-    "percent":"14%"
+    "percent":14
   },
   {
     "dropID":2282,
@@ -1005,7 +1005,7 @@
     "row":"B",
     "item":"Sleep Herb",
     "quantity":1,
-    "percent":"13%"
+    "percent":13
   },
   {
     "dropID":2283,
@@ -1013,7 +1013,7 @@
     "row":"B",
     "item":"Speed Nectar: Ice",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2284,
@@ -1021,7 +1021,7 @@
     "row":"B",
     "item":"Unknown Skull",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2285,
@@ -1029,7 +1029,7 @@
     "row":"B",
     "item":"Aquaglow Jewel",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2286,
@@ -1037,7 +1037,7 @@
     "row":"B",
     "item":"Stam Nectar: Dragon",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2287,
@@ -1045,7 +1045,7 @@
     "row":"B",
     "item":"Lightcrystal",
     "quantity":1,
-    "percent":"5%"
+    "percent":5
   },
   {
     "dropID":2288,
@@ -1053,7 +1053,7 @@
     "row":"B",
     "item":"Nectar: Fire+",
     "quantity":1,
-    "percent":"4%"
+    "percent":4
   },
   {
     "dropID":2289,
@@ -1061,7 +1061,7 @@
     "row":"B",
     "item":"Mystery Charm",
     "quantity":1,
-    "percent":"3%"
+    "percent":3
   },
   {
     "dropID":2290,
@@ -1069,7 +1069,7 @@
     "row":"Sub",
     "item":"Armor Sphere",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2291,
@@ -1077,7 +1077,7 @@
     "row":"Sub",
     "item":"Ice Crystal",
     "quantity":1,
-    "percent":"14%"
+    "percent":14
   },
   {
     "dropID":2292,
@@ -1085,7 +1085,7 @@
     "row":"Sub",
     "item":"Machalite Ore",
     "quantity":1,
-    "percent":"14%"
+    "percent":14
   },
   {
     "dropID":2293,
@@ -1093,7 +1093,7 @@
     "row":"Sub",
     "item":"Sleep Herb",
     "quantity":1,
-    "percent":"13%"
+    "percent":13
   },
   {
     "dropID":2294,
@@ -1101,7 +1101,7 @@
     "row":"Sub",
     "item":"Speed Nectar: Ice",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2295,
@@ -1109,7 +1109,7 @@
     "row":"Sub",
     "item":"Unknown Skull",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2296,
@@ -1117,7 +1117,7 @@
     "row":"Sub",
     "item":"Aquaglow Jewel",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2297,
@@ -1125,7 +1125,7 @@
     "row":"Sub",
     "item":"Stam Nectar: Dragon",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2298,
@@ -1133,7 +1133,7 @@
     "row":"Sub",
     "item":"Lightcrystal",
     "quantity":1,
-    "percent":"5%"
+    "percent":5
   },
   {
     "dropID":2299,
@@ -1141,7 +1141,7 @@
     "row":"Sub",
     "item":"Nectar: Fire+",
     "quantity":1,
-    "percent":"4%"
+    "percent":4
   },
   {
     "dropID":2300,
@@ -1149,7 +1149,7 @@
     "row":"Sub",
     "item":"Mystery Charm",
     "quantity":1,
-    "percent":"3%"
+    "percent":3
   },
   {
     "dropID":2301,
@@ -1157,7 +1157,7 @@
     "row":"A",
     "item":"Zamtrios Hide",
     "quantity":1,
-    "percent":"22%"
+    "percent":22
   },
   {
     "dropID":2302,
@@ -1165,7 +1165,7 @@
     "row":"A",
     "item":"Zamtrios Fin",
     "quantity":1,
-    "percent":"16%"
+    "percent":16
   },
   {
     "dropID":2303,
@@ -1173,7 +1173,7 @@
     "row":"A",
     "item":"Zamtrios Scale",
     "quantity":1,
-    "percent":"16%"
+    "percent":16
   },
   {
     "dropID":2304,
@@ -1181,7 +1181,7 @@
     "row":"A",
     "item":"Frost Sac",
     "quantity":1,
-    "percent":"14%"
+    "percent":14
   },
   {
     "dropID":2305,
@@ -1189,7 +1189,7 @@
     "row":"A",
     "item":"Zamtrios Sawtooth",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2306,
@@ -1197,7 +1197,7 @@
     "row":"A",
     "item":"Paddock Oil",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2307,
@@ -1205,7 +1205,7 @@
     "row":"A",
     "item":"Jumbo Bone",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2308,
@@ -1213,7 +1213,7 @@
     "row":"B",
     "item":"Armor Sphere",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2309,
@@ -1221,7 +1221,7 @@
     "row":"B",
     "item":"Ice Crystal",
     "quantity":1,
-    "percent":"14%"
+    "percent":14
   },
   {
     "dropID":2310,
@@ -1229,7 +1229,7 @@
     "row":"B",
     "item":"Machalite Ore",
     "quantity":1,
-    "percent":"14%"
+    "percent":14
   },
   {
     "dropID":2311,
@@ -1237,7 +1237,7 @@
     "row":"B",
     "item":"Sleep Herb",
     "quantity":1,
-    "percent":"13%"
+    "percent":13
   },
   {
     "dropID":2312,
@@ -1245,7 +1245,7 @@
     "row":"B",
     "item":"Speed Nectar: Ice",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2313,
@@ -1253,7 +1253,7 @@
     "row":"B",
     "item":"Unknown Skull",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2314,
@@ -1261,7 +1261,7 @@
     "row":"B",
     "item":"Aquaglow Jewel",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2315,
@@ -1269,7 +1269,7 @@
     "row":"B",
     "item":"Stam Nectar: Dragon",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2316,
@@ -1277,7 +1277,7 @@
     "row":"B",
     "item":"Lightcrystal",
     "quantity":1,
-    "percent":"5%"
+    "percent":5
   },
   {
     "dropID":2317,
@@ -1285,7 +1285,7 @@
     "row":"B",
     "item":"Nectar: Fire+",
     "quantity":1,
-    "percent":"4%"
+    "percent":4
   },
   {
     "dropID":2318,
@@ -1293,7 +1293,7 @@
     "row":"B",
     "item":"Mystery Charm",
     "quantity":1,
-    "percent":"3%"
+    "percent":3
   },
   {
     "dropID":2319,
@@ -1301,7 +1301,7 @@
     "row":"Sub",
     "item":"Armor Sphere",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2320,
@@ -1309,7 +1309,7 @@
     "row":"Sub",
     "item":"Ice Crystal",
     "quantity":1,
-    "percent":"14%"
+    "percent":14
   },
   {
     "dropID":2321,
@@ -1317,7 +1317,7 @@
     "row":"Sub",
     "item":"Machalite Ore",
     "quantity":1,
-    "percent":"14%"
+    "percent":14
   },
   {
     "dropID":2322,
@@ -1325,7 +1325,7 @@
     "row":"Sub",
     "item":"Sleep Herb",
     "quantity":1,
-    "percent":"13%"
+    "percent":13
   },
   {
     "dropID":2323,
@@ -1333,7 +1333,7 @@
     "row":"Sub",
     "item":"Speed Nectar: Ice",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2324,
@@ -1341,7 +1341,7 @@
     "row":"Sub",
     "item":"Unknown Skull",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2325,
@@ -1349,7 +1349,7 @@
     "row":"Sub",
     "item":"Aquaglow Jewel",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2326,
@@ -1357,7 +1357,7 @@
     "row":"Sub",
     "item":"Stam Nectar: Dragon",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2327,
@@ -1365,7 +1365,7 @@
     "row":"Sub",
     "item":"Lightcrystal",
     "quantity":1,
-    "percent":"5%"
+    "percent":5
   },
   {
     "dropID":2328,
@@ -1373,7 +1373,7 @@
     "row":"Sub",
     "item":"Nectar: Fire+",
     "quantity":1,
-    "percent":"4%"
+    "percent":4
   },
   {
     "dropID":2329,
@@ -1381,7 +1381,7 @@
     "row":"Sub",
     "item":"Mystery Charm",
     "quantity":1,
-    "percent":"3%"
+    "percent":3
   },
   {
     "dropID":2330,
@@ -1389,7 +1389,7 @@
     "row":"A",
     "item":"Zamtrios Hide",
     "quantity":1,
-    "percent":"22%"
+    "percent":22
   },
   {
     "dropID":2331,
@@ -1397,7 +1397,7 @@
     "row":"A",
     "item":"Zamtrios Fin",
     "quantity":1,
-    "percent":"16%"
+    "percent":16
   },
   {
     "dropID":2332,
@@ -1405,7 +1405,7 @@
     "row":"A",
     "item":"Zamtrios Scale",
     "quantity":1,
-    "percent":"16%"
+    "percent":16
   },
   {
     "dropID":2333,
@@ -1413,7 +1413,7 @@
     "row":"A",
     "item":"Frost Sac",
     "quantity":1,
-    "percent":"14%"
+    "percent":14
   },
   {
     "dropID":2334,
@@ -1421,7 +1421,7 @@
     "row":"A",
     "item":"Zamtrios Sawtooth",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2335,
@@ -1429,7 +1429,7 @@
     "row":"A",
     "item":"Paddock Oil",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2336,
@@ -1437,7 +1437,7 @@
     "row":"A",
     "item":"Jumbo Bone",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2337,
@@ -1445,7 +1445,7 @@
     "row":"B",
     "item":"Armor Sphere",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2338,
@@ -1453,7 +1453,7 @@
     "row":"B",
     "item":"Ice Crystal",
     "quantity":1,
-    "percent":"14%"
+    "percent":14
   },
   {
     "dropID":2339,
@@ -1461,7 +1461,7 @@
     "row":"B",
     "item":"Machalite Ore",
     "quantity":1,
-    "percent":"14%"
+    "percent":14
   },
   {
     "dropID":2340,
@@ -1469,7 +1469,7 @@
     "row":"B",
     "item":"Sleep Herb",
     "quantity":1,
-    "percent":"13%"
+    "percent":13
   },
   {
     "dropID":2341,
@@ -1477,7 +1477,7 @@
     "row":"B",
     "item":"Speed Nectar: Ice",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2342,
@@ -1485,7 +1485,7 @@
     "row":"B",
     "item":"Unknown Skull",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2343,
@@ -1493,7 +1493,7 @@
     "row":"B",
     "item":"Aquaglow Jewel",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2344,
@@ -1501,7 +1501,7 @@
     "row":"B",
     "item":"Stam Nectar: Dragon",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2345,
@@ -1509,7 +1509,7 @@
     "row":"B",
     "item":"Lightcrystal",
     "quantity":1,
-    "percent":"5%"
+    "percent":5
   },
   {
     "dropID":2346,
@@ -1517,7 +1517,7 @@
     "row":"B",
     "item":"Nectar: Fire+",
     "quantity":1,
-    "percent":"4%"
+    "percent":4
   },
   {
     "dropID":2347,
@@ -1525,7 +1525,7 @@
     "row":"B",
     "item":"Mystery Charm",
     "quantity":1,
-    "percent":"3%"
+    "percent":3
   },
   {
     "dropID":2348,
@@ -1533,7 +1533,7 @@
     "row":"Sub",
     "item":"Armor Sphere",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2349,
@@ -1541,7 +1541,7 @@
     "row":"Sub",
     "item":"Ice Crystal",
     "quantity":1,
-    "percent":"14%"
+    "percent":14
   },
   {
     "dropID":2350,
@@ -1549,7 +1549,7 @@
     "row":"Sub",
     "item":"Machalite Ore",
     "quantity":1,
-    "percent":"14%"
+    "percent":14
   },
   {
     "dropID":2351,
@@ -1557,7 +1557,7 @@
     "row":"Sub",
     "item":"Sleep Herb",
     "quantity":1,
-    "percent":"13%"
+    "percent":13
   },
   {
     "dropID":2352,
@@ -1565,7 +1565,7 @@
     "row":"Sub",
     "item":"Speed Nectar: Ice",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2353,
@@ -1573,7 +1573,7 @@
     "row":"Sub",
     "item":"Unknown Skull",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2354,
@@ -1581,7 +1581,7 @@
     "row":"Sub",
     "item":"Aquaglow Jewel",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2355,
@@ -1589,7 +1589,7 @@
     "row":"Sub",
     "item":"Stam Nectar: Dragon",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2356,
@@ -1597,7 +1597,7 @@
     "row":"Sub",
     "item":"Lightcrystal",
     "quantity":1,
-    "percent":"5%"
+    "percent":5
   },
   {
     "dropID":2357,
@@ -1605,7 +1605,7 @@
     "row":"Sub",
     "item":"Nectar: Fire+",
     "quantity":1,
-    "percent":"4%"
+    "percent":4
   },
   {
     "dropID":2358,
@@ -1613,7 +1613,7 @@
     "row":"Sub",
     "item":"Mystery Charm",
     "quantity":1,
-    "percent":"3%"
+    "percent":3
   },
   {
     "dropID":2359,
@@ -1621,7 +1621,7 @@
     "row":"A",
     "item":"Lagombi Plastron",
     "quantity":1,
-    "percent":"32%"
+    "percent":32
   },
   {
     "dropID":2360,
@@ -1629,7 +1629,7 @@
     "row":"A",
     "item":"Lagombi Iceclaw",
     "quantity":1,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":2361,
@@ -1637,7 +1637,7 @@
     "row":"A",
     "item":"Lagombi Pelt",
     "quantity":1,
-    "percent":"14%"
+    "percent":14
   },
   {
     "dropID":2362,
@@ -1645,7 +1645,7 @@
     "row":"A",
     "item":"Lagombi Ear",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2363,
@@ -1653,7 +1653,7 @@
     "row":"A",
     "item":"Jumbo Bone",
     "quantity":2,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2364,
@@ -1661,7 +1661,7 @@
     "row":"A",
     "item":"Brute Bone",
     "quantity":6,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2365,
@@ -1669,7 +1669,7 @@
     "row":"A",
     "item":"Ice Crystal",
     "quantity":2,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2366,
@@ -1677,7 +1677,7 @@
     "row":"B",
     "item":"Armor Sphere",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2367,
@@ -1685,7 +1685,7 @@
     "row":"B",
     "item":"Ice Crystal",
     "quantity":1,
-    "percent":"14%"
+    "percent":14
   },
   {
     "dropID":2368,
@@ -1693,7 +1693,7 @@
     "row":"B",
     "item":"Machalite Ore",
     "quantity":1,
-    "percent":"14%"
+    "percent":14
   },
   {
     "dropID":2369,
@@ -1701,7 +1701,7 @@
     "row":"B",
     "item":"Sleep Herb",
     "quantity":1,
-    "percent":"13%"
+    "percent":13
   },
   {
     "dropID":2370,
@@ -1709,7 +1709,7 @@
     "row":"B",
     "item":"Speed Nectar: Ice",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2371,
@@ -1717,7 +1717,7 @@
     "row":"B",
     "item":"Unknown Skull",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2372,
@@ -1725,7 +1725,7 @@
     "row":"B",
     "item":"Aquaglow Jewel",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2373,
@@ -1733,7 +1733,7 @@
     "row":"B",
     "item":"Stam Nectar: Dragon",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2374,
@@ -1741,7 +1741,7 @@
     "row":"B",
     "item":"Lightcrystal",
     "quantity":1,
-    "percent":"5%"
+    "percent":5
   },
   {
     "dropID":2375,
@@ -1749,7 +1749,7 @@
     "row":"B",
     "item":"Nectar: Fire+",
     "quantity":1,
-    "percent":"4%"
+    "percent":4
   },
   {
     "dropID":2376,
@@ -1757,7 +1757,7 @@
     "row":"B",
     "item":"Mystery Charm",
     "quantity":1,
-    "percent":"3%"
+    "percent":3
   },
   {
     "dropID":2377,
@@ -1765,7 +1765,7 @@
     "row":"Sub",
     "item":"Armor Sphere",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2378,
@@ -1773,7 +1773,7 @@
     "row":"Sub",
     "item":"Ice Crystal",
     "quantity":1,
-    "percent":"14%"
+    "percent":14
   },
   {
     "dropID":2379,
@@ -1781,7 +1781,7 @@
     "row":"Sub",
     "item":"Machalite Ore",
     "quantity":1,
-    "percent":"14%"
+    "percent":14
   },
   {
     "dropID":2380,
@@ -1789,7 +1789,7 @@
     "row":"Sub",
     "item":"Sleep Herb",
     "quantity":1,
-    "percent":"13%"
+    "percent":13
   },
   {
     "dropID":2381,
@@ -1797,7 +1797,7 @@
     "row":"Sub",
     "item":"Speed Nectar: Ice",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2382,
@@ -1805,7 +1805,7 @@
     "row":"Sub",
     "item":"Unknown Skull",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2383,
@@ -1813,7 +1813,7 @@
     "row":"Sub",
     "item":"Aquaglow Jewel",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2384,
@@ -1821,7 +1821,7 @@
     "row":"Sub",
     "item":"Stam Nectar: Dragon",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2385,
@@ -1829,7 +1829,7 @@
     "row":"Sub",
     "item":"Lightcrystal",
     "quantity":1,
-    "percent":"5%"
+    "percent":5
   },
   {
     "dropID":2386,
@@ -1837,7 +1837,7 @@
     "row":"Sub",
     "item":"Nectar: Fire+",
     "quantity":1,
-    "percent":"4%"
+    "percent":4
   },
   {
     "dropID":2387,
@@ -1845,7 +1845,7 @@
     "row":"Sub",
     "item":"Mystery Charm",
     "quantity":1,
-    "percent":"3%"
+    "percent":3
   },
   {
     "dropID":2388,
@@ -1853,7 +1853,7 @@
     "row":"A",
     "item":"Congalala Fang",
     "quantity":1,
-    "percent":"42%"
+    "percent":42
   },
   {
     "dropID":2389,
@@ -1861,7 +1861,7 @@
     "row":"A",
     "item":"Congalala Pelt",
     "quantity":1,
-    "percent":"28%"
+    "percent":28
   },
   {
     "dropID":2390,
@@ -1869,7 +1869,7 @@
     "row":"A",
     "item":"Congalala Claw",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2391,
@@ -1877,7 +1877,7 @@
     "row":"A",
     "item":"Jumbo Bone",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2392,
@@ -1885,7 +1885,7 @@
     "row":"A",
     "item":"Vibrant Pelt",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2393,
@@ -1893,7 +1893,7 @@
     "row":"B",
     "item":"Genprey Fang",
     "quantity":3,
-    "percent":"23%"
+    "percent":23
   },
   {
     "dropID":2394,
@@ -1901,7 +1901,7 @@
     "row":"B",
     "item":"Gendrome Hide",
     "quantity":1,
-    "percent":"16%"
+    "percent":16
   },
   {
     "dropID":2395,
@@ -1909,7 +1909,7 @@
     "row":"B",
     "item":"Paralysis Sac",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2396,
@@ -1917,7 +1917,7 @@
     "row":"B",
     "item":"Genprey Hide",
     "quantity":2,
-    "percent":"14%"
+    "percent":14
   },
   {
     "dropID":2397,
@@ -1925,7 +1925,7 @@
     "row":"B",
     "item":"Monster Bone M",
     "quantity":1,
-    "percent":"14%"
+    "percent":14
   },
   {
     "dropID":2398,
@@ -1933,7 +1933,7 @@
     "row":"B",
     "item":"Genprey Scale",
     "quantity":2,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2399,
@@ -1941,7 +1941,7 @@
     "row":"B",
     "item":"Bone Husk",
     "quantity":8,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2400,
@@ -1949,7 +1949,7 @@
     "row":"Sub",
     "item":"Genprey Fang",
     "quantity":3,
-    "percent":"23%"
+    "percent":23
   },
   {
     "dropID":2401,
@@ -1957,7 +1957,7 @@
     "row":"Sub",
     "item":"Gendrome Hide",
     "quantity":1,
-    "percent":"16%"
+    "percent":16
   },
   {
     "dropID":2402,
@@ -1965,7 +1965,7 @@
     "row":"Sub",
     "item":"Paralysis Sac",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2403,
@@ -1973,7 +1973,7 @@
     "row":"Sub",
     "item":"Genprey Hide",
     "quantity":2,
-    "percent":"14%"
+    "percent":14
   },
   {
     "dropID":2404,
@@ -1981,7 +1981,7 @@
     "row":"Sub",
     "item":"Monster Bone M",
     "quantity":1,
-    "percent":"14%"
+    "percent":14
   },
   {
     "dropID":2405,
@@ -1989,7 +1989,7 @@
     "row":"Sub",
     "item":"Genprey Scale",
     "quantity":2,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2406,
@@ -1997,7 +1997,7 @@
     "row":"Sub",
     "item":"Bone Husk",
     "quantity":8,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2407,
@@ -2005,7 +2005,7 @@
     "row":"A",
     "item":"Nerscylla Shell",
     "quantity":1,
-    "percent":"28%"
+    "percent":28
   },
   {
     "dropID":2408,
@@ -2013,7 +2013,7 @@
     "row":"A",
     "item":"Nerscylla Claw",
     "quantity":1,
-    "percent":"19%"
+    "percent":19
   },
   {
     "dropID":2409,
@@ -2021,7 +2021,7 @@
     "row":"A",
     "item":"Nerscylla Chelicera",
     "quantity":1,
-    "percent":"16%"
+    "percent":16
   },
   {
     "dropID":2410,
@@ -2029,7 +2029,7 @@
     "row":"A",
     "item":"Sleep Sac",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2411,
@@ -2037,7 +2037,7 @@
     "row":"A",
     "item":"Monster Fluid",
     "quantity":2,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2412,
@@ -2045,7 +2045,7 @@
     "row":"A",
     "item":"Nerscylla Spike",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2413,
@@ -2053,7 +2053,7 @@
     "row":"A",
     "item":"Rubbery Hide",
     "quantity":1,
-    "percent":"31%"
+    "percent":31
   },
   {
     "dropID":2414,
@@ -2061,7 +2061,7 @@
     "row":"A",
     "item":"Poison Sac",
     "quantity":1,
-    "percent":"24%"
+    "percent":24
   },
   {
     "dropID":2415,
@@ -2069,7 +2069,7 @@
     "row":"A",
     "item":"Wyvern Claw",
     "quantity":2,
-    "percent":"18%"
+    "percent":18
   },
   {
     "dropID":2416,
@@ -2077,7 +2077,7 @@
     "row":"A",
     "item":"Wyvern Fang",
     "quantity":3,
-    "percent":"13%"
+    "percent":13
   },
   {
     "dropID":2417,
@@ -2085,7 +2085,7 @@
     "row":"A",
     "item":"Monster Bone M",
     "quantity":1,
-    "percent":"13%"
+    "percent":13
   },
   {
     "dropID":2418,
@@ -2093,7 +2093,7 @@
     "row":"A",
     "item":"Lightcrystal",
     "quantity":1,
-    "percent":"1%"
+    "percent":1
   },
   {
     "dropID":2419,
@@ -2101,7 +2101,7 @@
     "row":"A",
     "item":"Najarala Shell",
     "quantity":1,
-    "percent":"26%"
+    "percent":26
   },
   {
     "dropID":2420,
@@ -2109,7 +2109,7 @@
     "row":"A",
     "item":"Monster Bone L",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2421,
@@ -2117,7 +2117,7 @@
     "row":"A",
     "item":"Najarala Fang",
     "quantity":1,
-    "percent":"14%"
+    "percent":14
   },
   {
     "dropID":2422,
@@ -2125,7 +2125,7 @@
     "row":"A",
     "item":"Najarala Hide",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2423,
@@ -2133,7 +2133,7 @@
     "row":"A",
     "item":"Najarala Sounder",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2424,
@@ -2141,7 +2141,7 @@
     "row":"A",
     "item":"Paralysis Sac",
     "quantity":2,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2425,
@@ -2149,7 +2149,7 @@
     "row":"A",
     "item":"Najarala Marrow",
     "quantity":1,
-    "percent":"7%"
+    "percent":7
   },
   {
     "dropID":2426,
@@ -2157,7 +2157,7 @@
     "row":"A",
     "item":"Najarala Fang",
     "quantity":2,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2427,
@@ -2165,7 +2165,7 @@
     "row":"B",
     "item":"Armor Sphere",
     "quantity":1,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":2428,
@@ -2173,7 +2173,7 @@
     "row":"B",
     "item":"Monster Bone M",
     "quantity":1,
-    "percent":"18%"
+    "percent":18
   },
   {
     "dropID":2429,
@@ -2181,7 +2181,7 @@
     "row":"B",
     "item":"Bone Husk",
     "quantity":12,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2430,
@@ -2189,7 +2189,7 @@
     "row":"B",
     "item":"Monster Bone L",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2431,
@@ -2197,7 +2197,7 @@
     "row":"B",
     "item":"Wyvern Claw",
     "quantity":4,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2432,
@@ -2205,7 +2205,7 @@
     "row":"B",
     "item":"Wyvern Fang",
     "quantity":4,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2433,
@@ -2213,7 +2213,7 @@
     "row":"B",
     "item":"Armor Sphere+",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2434,
@@ -2221,7 +2221,7 @@
     "row":"B",
     "item":"Mystery Charm",
     "quantity":1,
-    "percent":"5%"
+    "percent":5
   },
   {
     "dropID":2435,
@@ -2229,7 +2229,7 @@
     "row":"Sub",
     "item":"Armor Sphere",
     "quantity":1,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":2436,
@@ -2237,7 +2237,7 @@
     "row":"Sub",
     "item":"Monster Bone M",
     "quantity":1,
-    "percent":"18%"
+    "percent":18
   },
   {
     "dropID":2437,
@@ -2245,7 +2245,7 @@
     "row":"Sub",
     "item":"Bone Husk",
     "quantity":12,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2438,
@@ -2253,7 +2253,7 @@
     "row":"Sub",
     "item":"Monster Bone L",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2439,
@@ -2261,7 +2261,7 @@
     "row":"Sub",
     "item":"Wyvern Claw",
     "quantity":4,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2440,
@@ -2269,7 +2269,7 @@
     "row":"Sub",
     "item":"Wyvern Fang",
     "quantity":4,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2441,
@@ -2277,7 +2277,7 @@
     "row":"Sub",
     "item":"Armor Sphere+",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2442,
@@ -2285,7 +2285,7 @@
     "row":"Sub",
     "item":"Mystery Charm",
     "quantity":1,
-    "percent":"5%"
+    "percent":5
   },
   {
     "dropID":2443,
@@ -2293,7 +2293,7 @@
     "row":"A",
     "item":"Pale Extract",
     "quantity":1,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":2444,
@@ -2301,7 +2301,7 @@
     "row":"A",
     "item":"Electro Sac",
     "quantity":1,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":2445,
@@ -2309,7 +2309,7 @@
     "row":"A",
     "item":"Flabby Hide",
     "quantity":1,
-    "percent":"16%"
+    "percent":16
   },
   {
     "dropID":2446,
@@ -2317,7 +2317,7 @@
     "row":"A",
     "item":"Monster Bone L",
     "quantity":1,
-    "percent":"16%"
+    "percent":16
   },
   {
     "dropID":2447,
@@ -2325,7 +2325,7 @@
     "row":"A",
     "item":"Wyvern Claw",
     "quantity":5,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2448,
@@ -2333,7 +2333,7 @@
     "row":"A",
     "item":"Wyvern Fang",
     "quantity":5,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2449,
@@ -2341,7 +2341,7 @@
     "row":"A",
     "item":"Pale Bone",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2450,
@@ -2349,7 +2349,7 @@
     "row":"B",
     "item":"Armor Sphere",
     "quantity":1,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":2451,
@@ -2357,7 +2357,7 @@
     "row":"B",
     "item":"Monster Bone M",
     "quantity":1,
-    "percent":"18%"
+    "percent":18
   },
   {
     "dropID":2452,
@@ -2365,7 +2365,7 @@
     "row":"B",
     "item":"Bone Husk",
     "quantity":12,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2453,
@@ -2373,7 +2373,7 @@
     "row":"B",
     "item":"Monster Bone L",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2454,
@@ -2381,7 +2381,7 @@
     "row":"B",
     "item":"Wyvern Claw",
     "quantity":4,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2455,
@@ -2389,7 +2389,7 @@
     "row":"B",
     "item":"Wyvern Fang",
     "quantity":4,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2456,
@@ -2397,7 +2397,7 @@
     "row":"B",
     "item":"Armor Sphere+",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2457,
@@ -2405,7 +2405,7 @@
     "row":"B",
     "item":"Mystery Charm",
     "quantity":1,
-    "percent":"5%"
+    "percent":5
   },
   {
     "dropID":2458,
@@ -2413,7 +2413,7 @@
     "row":"Sub",
     "item":"Armor Sphere",
     "quantity":1,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":2459,
@@ -2421,7 +2421,7 @@
     "row":"Sub",
     "item":"Monster Bone M",
     "quantity":1,
-    "percent":"18%"
+    "percent":18
   },
   {
     "dropID":2460,
@@ -2429,7 +2429,7 @@
     "row":"Sub",
     "item":"Bone Husk",
     "quantity":12,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2461,
@@ -2437,7 +2437,7 @@
     "row":"Sub",
     "item":"Monster Bone L",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2462,
@@ -2445,7 +2445,7 @@
     "row":"Sub",
     "item":"Wyvern Claw",
     "quantity":4,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2463,
@@ -2453,7 +2453,7 @@
     "row":"Sub",
     "item":"Wyvern Fang",
     "quantity":4,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2464,
@@ -2461,7 +2461,7 @@
     "row":"Sub",
     "item":"Armor Sphere+",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2465,
@@ -2469,7 +2469,7 @@
     "row":"Sub",
     "item":"Mystery Charm",
     "quantity":1,
-    "percent":"5%"
+    "percent":5
   },
   {
     "dropID":2466,
@@ -2477,7 +2477,7 @@
     "row":"A",
     "item":"Sleepyfish",
     "quantity":1,
-    "percent":"16%"
+    "percent":16
   },
   {
     "dropID":2467,
@@ -2485,7 +2485,7 @@
     "row":"A",
     "item":"Bomb Arowana",
     "quantity":1,
-    "percent":"16%"
+    "percent":16
   },
   {
     "dropID":2468,
@@ -2493,7 +2493,7 @@
     "row":"A",
     "item":"Wanchovy",
     "quantity":2,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2469,
@@ -2501,7 +2501,7 @@
     "row":"A",
     "item":"Pin Tuna",
     "quantity":2,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2470,
@@ -2509,7 +2509,7 @@
     "row":"A",
     "item":"Burst Arowana",
     "quantity":2,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2471,
@@ -2517,7 +2517,7 @@
     "row":"A",
     "item":"Scatterfish",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2472,
@@ -2525,7 +2525,7 @@
     "row":"A",
     "item":"Worm",
     "quantity":3,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2473,
@@ -2533,7 +2533,7 @@
     "row":"A",
     "item":"Blue Cutthroat",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2474,
@@ -2541,7 +2541,7 @@
     "row":"B",
     "item":"Toadstool",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2475,
@@ -2549,7 +2549,7 @@
     "row":"B",
     "item":"Flashbug",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2476,
@@ -2557,7 +2557,7 @@
     "row":"B",
     "item":"Armor Sphere",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2477,
@@ -2565,7 +2565,7 @@
     "row":"B",
     "item":"Bone Husk",
     "quantity":2,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2478,
@@ -2573,7 +2573,7 @@
     "row":"B",
     "item":"Hot Pepper",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2479,
@@ -2581,7 +2581,7 @@
     "row":"B",
     "item":"Killer Beetle",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2480,
@@ -2589,7 +2589,7 @@
     "row":"B",
     "item":"Spd Nectar: Thunder",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2481,
@@ -2597,7 +2597,7 @@
     "row":"B",
     "item":"Speed Nectar: Ice",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2482,
@@ -2605,7 +2605,7 @@
     "row":"B",
     "item":"Speed+ Nectar",
     "quantity":1,
-    "percent":"4%"
+    "percent":4
   },
   {
     "dropID":2483,
@@ -2613,7 +2613,7 @@
     "row":"B",
     "item":"Mystery Charm",
     "quantity":1,
-    "percent":"3%"
+    "percent":3
   },
   {
     "dropID":2484,
@@ -2621,7 +2621,7 @@
     "row":"Sub",
     "item":"Toadstool",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2485,
@@ -2629,7 +2629,7 @@
     "row":"Sub",
     "item":"Flashbug",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2486,
@@ -2637,7 +2637,7 @@
     "row":"Sub",
     "item":"Armor Sphere",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2487,
@@ -2645,7 +2645,7 @@
     "row":"Sub",
     "item":"Bone Husk",
     "quantity":2,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2488,
@@ -2653,7 +2653,7 @@
     "row":"Sub",
     "item":"Hot Pepper",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2489,
@@ -2661,7 +2661,7 @@
     "row":"Sub",
     "item":"Killer Beetle",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2490,
@@ -2669,7 +2669,7 @@
     "row":"Sub",
     "item":"Spd Nectar: Thunder",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2491,
@@ -2677,7 +2677,7 @@
     "row":"Sub",
     "item":"Speed Nectar: Ice",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2492,
@@ -2685,7 +2685,7 @@
     "row":"Sub",
     "item":"Speed+ Nectar",
     "quantity":1,
-    "percent":"4%"
+    "percent":4
   },
   {
     "dropID":2493,
@@ -2693,7 +2693,7 @@
     "row":"Sub",
     "item":"Mystery Charm",
     "quantity":1,
-    "percent":"3%"
+    "percent":3
   },
   {
     "dropID":2494,
@@ -2701,7 +2701,7 @@
     "row":"A",
     "item":"Mystery Charm",
     "quantity":1,
-    "percent":"25%"
+    "percent":25
   },
   {
     "dropID":2495,
@@ -2709,7 +2709,7 @@
     "row":"A",
     "item":"Monster Bone M",
     "quantity":1,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":2496,
@@ -2717,7 +2717,7 @@
     "row":"A",
     "item":"Armor Sphere",
     "quantity":1,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":2497,
@@ -2725,7 +2725,7 @@
     "row":"A",
     "item":"Aquaglow Jewel",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2498,
@@ -2733,7 +2733,7 @@
     "row":"A",
     "item":"Steel Egg",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2499,
@@ -2741,7 +2741,7 @@
     "row":"A",
     "item":"Godbug",
     "quantity":2,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2500,
@@ -2749,7 +2749,7 @@
     "row":"B",
     "item":"Herb",
     "quantity":1,
-    "percent":"14%"
+    "percent":14
   },
   {
     "dropID":2501,
@@ -2757,7 +2757,7 @@
     "row":"B",
     "item":"Blue Mushroom",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2502,
@@ -2765,7 +2765,7 @@
     "row":"B",
     "item":"Honey",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2503,
@@ -2773,7 +2773,7 @@
     "row":"B",
     "item":"Bitterbug",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2504,
@@ -2781,7 +2781,7 @@
     "row":"B",
     "item":"Armor Sphere",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2505,
@@ -2789,7 +2789,7 @@
     "row":"B",
     "item":"Power Nectar: Fire",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2506,
@@ -2797,7 +2797,7 @@
     "row":"B",
     "item":"Nulberry",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2507,
@@ -2805,7 +2805,7 @@
     "row":"B",
     "item":"Ivy",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2508,
@@ -2813,7 +2813,7 @@
     "row":"B",
     "item":"Paintberry",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2509,
@@ -2821,7 +2821,7 @@
     "row":"B",
     "item":"Stam Nectar: Water",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2510,
@@ -2829,7 +2829,7 @@
     "row":"B",
     "item":"Power+ Nectar",
     "quantity":1,
-    "percent":"4%"
+    "percent":4
   },
   {
     "dropID":2511,
@@ -2837,7 +2837,7 @@
     "row":"Sub",
     "item":"Herb",
     "quantity":1,
-    "percent":"14%"
+    "percent":14
   },
   {
     "dropID":2512,
@@ -2845,7 +2845,7 @@
     "row":"Sub",
     "item":"Blue Mushroom",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2513,
@@ -2853,7 +2853,7 @@
     "row":"Sub",
     "item":"Honey",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2514,
@@ -2861,7 +2861,7 @@
     "row":"Sub",
     "item":"Bitterbug",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2515,
@@ -2869,7 +2869,7 @@
     "row":"Sub",
     "item":"Armor Sphere",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2516,
@@ -2877,7 +2877,7 @@
     "row":"Sub",
     "item":"Power Nectar: Fire",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2517,
@@ -2885,7 +2885,7 @@
     "row":"Sub",
     "item":"Nulberry",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2518,
@@ -2893,7 +2893,7 @@
     "row":"Sub",
     "item":"Ivy",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2519,
@@ -2901,7 +2901,7 @@
     "row":"Sub",
     "item":"Paintberry",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2520,
@@ -2909,7 +2909,7 @@
     "row":"Sub",
     "item":"Stam Nectar: Water",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2521,
@@ -2917,7 +2917,7 @@
     "row":"Sub",
     "item":"Power+ Nectar",
     "quantity":1,
-    "percent":"4%"
+    "percent":4
   },
   {
     "dropID":2522,
@@ -2925,7 +2925,7 @@
     "row":"A",
     "item":"Rathian Scale",
     "quantity":1,
-    "percent":"24%"
+    "percent":24
   },
   {
     "dropID":2523,
@@ -2933,7 +2933,7 @@
     "row":"A",
     "item":"Rathian Webbing",
     "quantity":1,
-    "percent":"19%"
+    "percent":19
   },
   {
     "dropID":2524,
@@ -2941,7 +2941,7 @@
     "row":"A",
     "item":"Flame Sac",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2525,
@@ -2949,7 +2949,7 @@
     "row":"A",
     "item":"Monster Bone L",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2526,
@@ -2957,7 +2957,7 @@
     "row":"A",
     "item":"Rathian Shell",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2527,
@@ -2965,7 +2965,7 @@
     "row":"A",
     "item":"Wyvern Fang",
     "quantity":5,
-    "percent":"9%"
+    "percent":9
   },
   {
     "dropID":2528,
@@ -2973,7 +2973,7 @@
     "row":"A",
     "item":"Rathian Spike",
     "quantity":1,
-    "percent":"7%"
+    "percent":7
   },
   {
     "dropID":2529,
@@ -2981,7 +2981,7 @@
     "row":"A",
     "item":"Rathian Plate",
     "quantity":1,
-    "percent":"1%"
+    "percent":1
   },
   {
     "dropID":2530,
@@ -2989,7 +2989,7 @@
     "row":"B",
     "item":"Armor Sphere",
     "quantity":1,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":2531,
@@ -2997,7 +2997,7 @@
     "row":"B",
     "item":"Monster Bone M",
     "quantity":1,
-    "percent":"18%"
+    "percent":18
   },
   {
     "dropID":2532,
@@ -3005,7 +3005,7 @@
     "row":"B",
     "item":"Bone Husk",
     "quantity":12,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2533,
@@ -3013,7 +3013,7 @@
     "row":"B",
     "item":"Monster Bone L",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2534,
@@ -3021,7 +3021,7 @@
     "row":"B",
     "item":"Wyvern Claw",
     "quantity":4,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2535,
@@ -3029,7 +3029,7 @@
     "row":"B",
     "item":"Wyvern Fang",
     "quantity":4,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2536,
@@ -3037,7 +3037,7 @@
     "row":"B",
     "item":"Armor Sphere+",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2537,
@@ -3045,7 +3045,7 @@
     "row":"B",
     "item":"Mystery Charm",
     "quantity":1,
-    "percent":"5%"
+    "percent":5
   },
   {
     "dropID":2538,
@@ -3053,7 +3053,7 @@
     "row":"Sub",
     "item":"Armor Sphere",
     "quantity":1,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":2539,
@@ -3061,7 +3061,7 @@
     "row":"Sub",
     "item":"Monster Bone M",
     "quantity":1,
-    "percent":"18%"
+    "percent":18
   },
   {
     "dropID":2540,
@@ -3069,7 +3069,7 @@
     "row":"Sub",
     "item":"Bone Husk",
     "quantity":12,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2541,
@@ -3077,7 +3077,7 @@
     "row":"Sub",
     "item":"Monster Bone L",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2542,
@@ -3085,7 +3085,7 @@
     "row":"Sub",
     "item":"Wyvern Claw",
     "quantity":4,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2543,
@@ -3093,7 +3093,7 @@
     "row":"Sub",
     "item":"Wyvern Fang",
     "quantity":4,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2544,
@@ -3101,7 +3101,7 @@
     "row":"Sub",
     "item":"Armor Sphere+",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2545,
@@ -3109,7 +3109,7 @@
     "row":"Sub",
     "item":"Mystery Charm",
     "quantity":1,
-    "percent":"5%"
+    "percent":5
   },
   {
     "dropID":2546,
@@ -3117,7 +3117,7 @@
     "row":"A",
     "item":"Raw Meat",
     "quantity":2,
-    "percent":"25%"
+    "percent":25
   },
   {
     "dropID":2547,
@@ -3125,7 +3125,7 @@
     "row":"A",
     "item":"Mystery Bone",
     "quantity":1,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":2548,
@@ -3133,7 +3133,7 @@
     "row":"A",
     "item":"Worm",
     "quantity":1,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":2549,
@@ -3141,7 +3141,7 @@
     "row":"A",
     "item":"Whetstone",
     "quantity":2,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":2550,
@@ -3149,7 +3149,7 @@
     "row":"A",
     "item":"Power Nectar: Fire",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2551,
@@ -3157,7 +3157,7 @@
     "row":"A",
     "item":"Stam Nectar: Water",
     "quantity":1,
-    "percent":"5%"
+    "percent":5
   },
   {
     "dropID":2552,
@@ -3165,7 +3165,7 @@
     "row":"A",
     "item":"Raw Meat",
     "quantity":2,
-    "percent":"25%"
+    "percent":25
   },
   {
     "dropID":2553,
@@ -3173,7 +3173,7 @@
     "row":"A",
     "item":"Mystery Bone",
     "quantity":1,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":2554,
@@ -3181,7 +3181,7 @@
     "row":"A",
     "item":"Worm",
     "quantity":1,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":2555,
@@ -3189,7 +3189,7 @@
     "row":"A",
     "item":"Whetstone",
     "quantity":2,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":2556,
@@ -3197,7 +3197,7 @@
     "row":"A",
     "item":"Power Nectar: Fire",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2557,
@@ -3205,7 +3205,7 @@
     "row":"A",
     "item":"Stam Nectar: Water",
     "quantity":1,
-    "percent":"5%"
+    "percent":5
   },
   {
     "dropID":2558,
@@ -3213,7 +3213,7 @@
     "row":"A",
     "item":"Raw Meat",
     "quantity":2,
-    "percent":"25%"
+    "percent":25
   },
   {
     "dropID":2559,
@@ -3221,7 +3221,7 @@
     "row":"A",
     "item":"Mystery Bone",
     "quantity":1,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":2560,
@@ -3229,7 +3229,7 @@
     "row":"A",
     "item":"Worm",
     "quantity":1,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":2561,
@@ -3237,7 +3237,7 @@
     "row":"A",
     "item":"Whetstone",
     "quantity":2,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":2562,
@@ -3245,7 +3245,7 @@
     "row":"A",
     "item":"Power Nectar: Fire",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2563,
@@ -3253,7 +3253,7 @@
     "row":"A",
     "item":"Stam Nectar: Water",
     "quantity":1,
-    "percent":"5%"
+    "percent":5
   },
   {
     "dropID":2564,
@@ -3261,7 +3261,7 @@
     "row":"A",
     "item":"Rhenoplos Carapace",
     "quantity":2,
-    "percent":"28%"
+    "percent":28
   },
   {
     "dropID":2565,
@@ -3269,7 +3269,7 @@
     "row":"A",
     "item":"Monster Bone M",
     "quantity":1,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":2566,
@@ -3277,7 +3277,7 @@
     "row":"A",
     "item":"Rhenoplos Scalp",
     "quantity":1,
-    "percent":"19%"
+    "percent":19
   },
   {
     "dropID":2567,
@@ -3285,7 +3285,7 @@
     "row":"A",
     "item":"Rhenoplos Shell",
     "quantity":2,
-    "percent":"18%"
+    "percent":18
   },
   {
     "dropID":2568,
@@ -3293,7 +3293,7 @@
     "row":"A",
     "item":"Raw Meat",
     "quantity":3,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2569,
@@ -3301,7 +3301,7 @@
     "row":"B",
     "item":"Spider Web",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2570,
@@ -3309,7 +3309,7 @@
     "row":"B",
     "item":"Fire Herb",
     "quantity":2,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2571,
@@ -3317,7 +3317,7 @@
     "row":"B",
     "item":"Armor Sphere+",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2572,
@@ -3325,7 +3325,7 @@
     "row":"B",
     "item":"Carbalite Ore",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2573,
@@ -3333,7 +3333,7 @@
     "row":"B",
     "item":"Adv Armor Sphere",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2574,
@@ -3341,7 +3341,7 @@
     "row":"B",
     "item":"Stam Nectar: Water",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2575,
@@ -3349,7 +3349,7 @@
     "row":"B",
     "item":"Bloodrun Jewel",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2576,
@@ -3357,7 +3357,7 @@
     "row":"B",
     "item":"Mystery Charm",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2577,
@@ -3365,7 +3365,7 @@
     "row":"B",
     "item":"Iron Ore",
     "quantity":2,
-    "percent":"7%"
+    "percent":7
   },
   {
     "dropID":2578,
@@ -3373,7 +3373,7 @@
     "row":"B",
     "item":"Nectar: Water+",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2579,
@@ -3381,7 +3381,7 @@
     "row":"B",
     "item":"Shining Charm",
     "quantity":1,
-    "percent":"5%"
+    "percent":5
   },
   {
     "dropID":2580,
@@ -3389,7 +3389,7 @@
     "row":"Sub",
     "item":"Spider Web",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2581,
@@ -3397,7 +3397,7 @@
     "row":"Sub",
     "item":"Fire Herb",
     "quantity":2,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2582,
@@ -3405,7 +3405,7 @@
     "row":"Sub",
     "item":"Armor Sphere+",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2583,
@@ -3413,7 +3413,7 @@
     "row":"Sub",
     "item":"Carbalite Ore",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2584,
@@ -3421,7 +3421,7 @@
     "row":"Sub",
     "item":"Adv Armor Sphere",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2585,
@@ -3429,7 +3429,7 @@
     "row":"Sub",
     "item":"Stam Nectar: Water",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2586,
@@ -3437,7 +3437,7 @@
     "row":"Sub",
     "item":"Bloodrun Jewel",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2587,
@@ -3445,7 +3445,7 @@
     "row":"Sub",
     "item":"Mystery Charm",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2588,
@@ -3453,7 +3453,7 @@
     "row":"Sub",
     "item":"Iron Ore",
     "quantity":2,
-    "percent":"7%"
+    "percent":7
   },
   {
     "dropID":2589,
@@ -3461,7 +3461,7 @@
     "row":"Sub",
     "item":"Nectar: Water+",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2590,
@@ -3469,7 +3469,7 @@
     "row":"Sub",
     "item":"Shining Charm",
     "quantity":1,
-    "percent":"5%"
+    "percent":5
   },
   {
     "dropID":2591,
@@ -3477,7 +3477,7 @@
     "row":"A",
     "item":"Bnahabra Carapace",
     "quantity":2,
-    "percent":"30%"
+    "percent":30
   },
   {
     "dropID":2592,
@@ -3485,7 +3485,7 @@
     "row":"A",
     "item":"Bnahabra Shell",
     "quantity":2,
-    "percent":"21%"
+    "percent":21
   },
   {
     "dropID":2593,
@@ -3493,7 +3493,7 @@
     "row":"A",
     "item":"Monster Broth",
     "quantity":1,
-    "percent":"21%"
+    "percent":21
   },
   {
     "dropID":2594,
@@ -3501,7 +3501,7 @@
     "row":"A",
     "item":"Monster Fluid",
     "quantity":2,
-    "percent":"16%"
+    "percent":16
   },
   {
     "dropID":2595,
@@ -3509,7 +3509,7 @@
     "row":"A",
     "item":"Bnahabra Wing",
     "quantity":2,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2596,
@@ -3517,7 +3517,7 @@
     "row":"B",
     "item":"Spider Web",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2597,
@@ -3525,7 +3525,7 @@
     "row":"B",
     "item":"Fire Herb",
     "quantity":2,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2598,
@@ -3533,7 +3533,7 @@
     "row":"B",
     "item":"Armor Sphere+",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2599,
@@ -3541,7 +3541,7 @@
     "row":"B",
     "item":"Carbalite Ore",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2600,
@@ -3549,7 +3549,7 @@
     "row":"B",
     "item":"Adv Armor Sphere",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2601,
@@ -3557,7 +3557,7 @@
     "row":"B",
     "item":"Stam Nectar: Water",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2602,
@@ -3565,7 +3565,7 @@
     "row":"B",
     "item":"Bloodrun Jewel",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2603,
@@ -3573,7 +3573,7 @@
     "row":"B",
     "item":"Mystery Charm",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2604,
@@ -3581,7 +3581,7 @@
     "row":"B",
     "item":"Iron Ore",
     "quantity":2,
-    "percent":"7%"
+    "percent":7
   },
   {
     "dropID":2605,
@@ -3589,7 +3589,7 @@
     "row":"B",
     "item":"Nectar: Water+",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2606,
@@ -3597,7 +3597,7 @@
     "row":"B",
     "item":"Shining Charm",
     "quantity":1,
-    "percent":"5%"
+    "percent":5
   },
   {
     "dropID":2607,
@@ -3605,7 +3605,7 @@
     "row":"Sub",
     "item":"Spider Web",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2608,
@@ -3613,7 +3613,7 @@
     "row":"Sub",
     "item":"Fire Herb",
     "quantity":2,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2609,
@@ -3621,7 +3621,7 @@
     "row":"Sub",
     "item":"Armor Sphere+",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2610,
@@ -3629,7 +3629,7 @@
     "row":"Sub",
     "item":"Carbalite Ore",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2611,
@@ -3637,7 +3637,7 @@
     "row":"Sub",
     "item":"Adv Armor Sphere",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2612,
@@ -3645,7 +3645,7 @@
     "row":"Sub",
     "item":"Stam Nectar: Water",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2613,
@@ -3653,7 +3653,7 @@
     "row":"Sub",
     "item":"Bloodrun Jewel",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2614,
@@ -3661,7 +3661,7 @@
     "row":"Sub",
     "item":"Mystery Charm",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2615,
@@ -3669,7 +3669,7 @@
     "row":"Sub",
     "item":"Iron Ore",
     "quantity":2,
-    "percent":"7%"
+    "percent":7
   },
   {
     "dropID":2616,
@@ -3677,7 +3677,7 @@
     "row":"Sub",
     "item":"Nectar: Water+",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2617,
@@ -3685,7 +3685,7 @@
     "row":"Sub",
     "item":"Shining Charm",
     "quantity":1,
-    "percent":"5%"
+    "percent":5
   },
   {
     "dropID":2618,
@@ -3693,7 +3693,7 @@
     "row":"A",
     "item":"G.Jaggi Claw+",
     "quantity":1,
-    "percent":"24%"
+    "percent":24
   },
   {
     "dropID":2619,
@@ -3701,7 +3701,7 @@
     "row":"A",
     "item":"Screamer Sac",
     "quantity":2,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":2620,
@@ -3709,7 +3709,7 @@
     "row":"A",
     "item":"G.Jaggi Hide+",
     "quantity":1,
-    "percent":"18%"
+    "percent":18
   },
   {
     "dropID":2621,
@@ -3717,7 +3717,7 @@
     "row":"A",
     "item":"Avian Finebone",
     "quantity":2,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2622,
@@ -3725,7 +3725,7 @@
     "row":"A",
     "item":"Tough Bird Wyv Hide",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2623,
@@ -3733,7 +3733,7 @@
     "row":"A",
     "item":"Great Jaggi Head",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2624,
@@ -3741,7 +3741,7 @@
     "row":"A",
     "item":"Bird Wyvern Gem",
     "quantity":1,
-    "percent":"5%"
+    "percent":5
   },
   {
     "dropID":2625,
@@ -3749,7 +3749,7 @@
     "row":"A",
     "item":"Seltas Carapace",
     "quantity":1,
-    "percent":"24%"
+    "percent":24
   },
   {
     "dropID":2626,
@@ -3757,7 +3757,7 @@
     "row":"A",
     "item":"Seltas Innerwing",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2627,
@@ -3765,7 +3765,7 @@
     "row":"A",
     "item":"Monster Broth",
     "quantity":1,
-    "percent":"14%"
+    "percent":14
   },
   {
     "dropID":2628,
@@ -3773,7 +3773,7 @@
     "row":"A",
     "item":"Torrent Sac",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2629,
@@ -3781,7 +3781,7 @@
     "row":"A",
     "item":"Seltas Horn",
     "quantity":1,
-    "percent":"11%"
+    "percent":11
   },
   {
     "dropID":2630,
@@ -3789,7 +3789,7 @@
     "row":"A",
     "item":"Seltas Horn+",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2631,
@@ -3797,7 +3797,7 @@
     "row":"A",
     "item":"Monster Fluid",
     "quantity":2,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2632,
@@ -3805,7 +3805,7 @@
     "row":"A",
     "item":"Thunderbug",
     "quantity":2,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2633,
@@ -3813,7 +3813,7 @@
     "row":"A",
     "item":"Kecha Pelt+",
     "quantity":1,
-    "percent":"25%"
+    "percent":25
   },
   {
     "dropID":2634,
@@ -3821,7 +3821,7 @@
     "row":"A",
     "item":"Torrent Sac",
     "quantity":1,
-    "percent":"18%"
+    "percent":18
   },
   {
     "dropID":2635,
@@ -3829,7 +3829,7 @@
     "row":"A",
     "item":"Stoutbone",
     "quantity":1,
-    "percent":"14%"
+    "percent":14
   },
   {
     "dropID":2636,
@@ -3837,7 +3837,7 @@
     "row":"A",
     "item":"Kecha Grandbone",
     "quantity":1,
-    "percent":"13%"
+    "percent":13
   },
   {
     "dropID":2637,
@@ -3845,7 +3845,7 @@
     "row":"A",
     "item":"Kecha Tail",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2638,
@@ -3853,7 +3853,7 @@
     "row":"A",
     "item":"Kecha Ear+",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2639,
@@ -3861,7 +3861,7 @@
     "row":"A",
     "item":"Kecha Talon",
     "quantity":2,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2640,
@@ -3869,7 +3869,7 @@
     "row":"A",
     "item":"Kecha Ear",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2641,
@@ -3877,7 +3877,7 @@
     "row":"A",
     "item":"Kecha Pelt+",
     "quantity":1,
-    "percent":"25%"
+    "percent":25
   },
   {
     "dropID":2642,
@@ -3885,7 +3885,7 @@
     "row":"A",
     "item":"Torrent Sac",
     "quantity":1,
-    "percent":"18%"
+    "percent":18
   },
   {
     "dropID":2643,
@@ -3893,7 +3893,7 @@
     "row":"A",
     "item":"Stoutbone",
     "quantity":1,
-    "percent":"14%"
+    "percent":14
   },
   {
     "dropID":2644,
@@ -3901,7 +3901,7 @@
     "row":"A",
     "item":"Kecha Grandbone",
     "quantity":1,
-    "percent":"13%"
+    "percent":13
   },
   {
     "dropID":2645,
@@ -3909,7 +3909,7 @@
     "row":"A",
     "item":"Kecha Tail",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2646,
@@ -3917,7 +3917,7 @@
     "row":"A",
     "item":"Kecha Ear+",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2647,
@@ -3925,7 +3925,7 @@
     "row":"A",
     "item":"Kecha Talon",
     "quantity":2,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2648,
@@ -3933,7 +3933,7 @@
     "row":"A",
     "item":"Kecha Ear",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2649,
@@ -3941,7 +3941,7 @@
     "row":"B",
     "item":"Adv Armor Sphere",
     "quantity":1,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":2650,
@@ -3949,7 +3949,7 @@
     "row":"B",
     "item":"Monster Keenbone",
     "quantity":2,
-    "percent":"13%"
+    "percent":13
   },
   {
     "dropID":2651,
@@ -3957,7 +3957,7 @@
     "row":"B",
     "item":"Shining Charm",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2652,
@@ -3965,7 +3965,7 @@
     "row":"B",
     "item":"Bone Husk",
     "quantity":12,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2653,
@@ -3973,7 +3973,7 @@
     "row":"B",
     "item":"Bloodrun Jewel",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2654,
@@ -3981,7 +3981,7 @@
     "row":"B",
     "item":"Wyvern Claw",
     "quantity":8,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2655,
@@ -3989,7 +3989,7 @@
     "row":"B",
     "item":"Wyvern Fang",
     "quantity":8,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2656,
@@ -3997,7 +3997,7 @@
     "row":"B",
     "item":"Armor Sphere+",
     "quantity":2,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2657,
@@ -4005,7 +4005,7 @@
     "row":"B",
     "item":"Rustshard",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2658,
@@ -4013,7 +4013,7 @@
     "row":"B",
     "item":"Hard Armor Sphere",
     "quantity":1,
-    "percent":"5%"
+    "percent":5
   },
   {
     "dropID":2659,
@@ -4021,7 +4021,7 @@
     "row":"Sub",
     "item":"Adv Armor Sphere",
     "quantity":1,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":2660,
@@ -4029,7 +4029,7 @@
     "row":"Sub",
     "item":"Monster Keenbone",
     "quantity":2,
-    "percent":"13%"
+    "percent":13
   },
   {
     "dropID":2661,
@@ -4037,7 +4037,7 @@
     "row":"Sub",
     "item":"Shining Charm",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2662,
@@ -4045,7 +4045,7 @@
     "row":"Sub",
     "item":"Bone Husk",
     "quantity":12,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2663,
@@ -4053,7 +4053,7 @@
     "row":"Sub",
     "item":"Bloodrun Jewel",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2664,
@@ -4061,7 +4061,7 @@
     "row":"Sub",
     "item":"Wyvern Claw",
     "quantity":8,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2665,
@@ -4069,7 +4069,7 @@
     "row":"Sub",
     "item":"Wyvern Fang",
     "quantity":8,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2666,
@@ -4077,7 +4077,7 @@
     "row":"Sub",
     "item":"Armor Sphere+",
     "quantity":2,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2667,
@@ -4085,7 +4085,7 @@
     "row":"Sub",
     "item":"Rustshard",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2668,
@@ -4093,7 +4093,7 @@
     "row":"Sub",
     "item":"Hard Armor Sphere",
     "quantity":1,
-    "percent":"5%"
+    "percent":5
   },
   {
     "dropID":2669,
@@ -4101,7 +4101,7 @@
     "row":"A",
     "item":"Toxin Sac",
     "quantity":1,
-    "percent":"25%"
+    "percent":25
   },
   {
     "dropID":2670,
@@ -4109,7 +4109,7 @@
     "row":"A",
     "item":"Rubbery Purple Hide",
     "quantity":1,
-    "percent":"21%"
+    "percent":21
   },
   {
     "dropID":2671,
@@ -4117,7 +4117,7 @@
     "row":"A",
     "item":"P.Gypceros Wing",
     "quantity":1,
-    "percent":"17%"
+    "percent":17
   },
   {
     "dropID":2672,
@@ -4125,7 +4125,7 @@
     "row":"A",
     "item":"Monster Keenbone",
     "quantity":1,
-    "percent":"16%"
+    "percent":16
   },
   {
     "dropID":2673,
@@ -4133,7 +4133,7 @@
     "row":"A",
     "item":"Wyvern Fang",
     "quantity":5,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2674,
@@ -4141,7 +4141,7 @@
     "row":"A",
     "item":"Wyvern Claw",
     "quantity":5,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2675,
@@ -4149,7 +4149,7 @@
     "row":"A",
     "item":"Novacrystal",
     "quantity":1,
-    "percent":"1%"
+    "percent":1
   },
   {
     "dropID":2676,
@@ -4157,7 +4157,7 @@
     "row":"B",
     "item":"Flashbug",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2677,
@@ -4165,7 +4165,7 @@
     "row":"B",
     "item":"Armor Sphere+",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2678,
@@ -4173,7 +4173,7 @@
     "row":"B",
     "item":"Hercudrome",
     "quantity":1,
-    "percent":"11%"
+    "percent":11
   },
   {
     "dropID":2679,
@@ -4181,7 +4181,7 @@
     "row":"B",
     "item":"Bone Husk",
     "quantity":4,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2680,
@@ -4189,7 +4189,7 @@
     "row":"B",
     "item":"Adv Armor Sphere",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2681,
@@ -4197,7 +4197,7 @@
     "row":"B",
     "item":"Spd Nectar: Thunder",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2682,
@@ -4205,7 +4205,7 @@
     "row":"B",
     "item":"Thunderbug",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2683,
@@ -4213,7 +4213,7 @@
     "row":"B",
     "item":"Bloodrun Jewel",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2684,
@@ -4221,7 +4221,7 @@
     "row":"B",
     "item":"Mystery Charm",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2685,
@@ -4229,7 +4229,7 @@
     "row":"B",
     "item":"Nectar: Thunder+",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2686,
@@ -4237,7 +4237,7 @@
     "row":"B",
     "item":"Shining Charm",
     "quantity":1,
-    "percent":"5%"
+    "percent":5
   },
   {
     "dropID":2687,
@@ -4245,7 +4245,7 @@
     "row":"Sub",
     "item":"Flashbug",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2688,
@@ -4253,7 +4253,7 @@
     "row":"Sub",
     "item":"Armor Sphere+",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2689,
@@ -4261,7 +4261,7 @@
     "row":"Sub",
     "item":"Hercudrome",
     "quantity":1,
-    "percent":"11%"
+    "percent":11
   },
   {
     "dropID":2690,
@@ -4269,7 +4269,7 @@
     "row":"Sub",
     "item":"Bone Husk",
     "quantity":4,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2691,
@@ -4277,7 +4277,7 @@
     "row":"Sub",
     "item":"Adv Armor Sphere",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2692,
@@ -4285,7 +4285,7 @@
     "row":"Sub",
     "item":"Spd Nectar: Thunder",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2693,
@@ -4293,7 +4293,7 @@
     "row":"Sub",
     "item":"Thunderbug",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2694,
@@ -4301,7 +4301,7 @@
     "row":"Sub",
     "item":"Bloodrun Jewel",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2695,
@@ -4309,7 +4309,7 @@
     "row":"Sub",
     "item":"Mystery Charm",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2696,
@@ -4317,7 +4317,7 @@
     "row":"Sub",
     "item":"Nectar: Thunder+",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2697,
@@ -4325,7 +4325,7 @@
     "row":"Sub",
     "item":"Shining Charm",
     "quantity":1,
-    "percent":"5%"
+    "percent":5
   },
   {
     "dropID":2698,
@@ -4333,7 +4333,7 @@
     "row":"A",
     "item":"Rubbery Hide+",
     "quantity":1,
-    "percent":"31%"
+    "percent":31
   },
   {
     "dropID":2699,
@@ -4341,7 +4341,7 @@
     "row":"A",
     "item":"Toxin Sac",
     "quantity":1,
-    "percent":"25%"
+    "percent":25
   },
   {
     "dropID":2700,
@@ -4349,7 +4349,7 @@
     "row":"A",
     "item":"Monster Keenbone",
     "quantity":1,
-    "percent":"16%"
+    "percent":16
   },
   {
     "dropID":2701,
@@ -4357,7 +4357,7 @@
     "row":"A",
     "item":"Wyvern Fang",
     "quantity":5,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2702,
@@ -4365,7 +4365,7 @@
     "row":"A",
     "item":"Wyvern Claw",
     "quantity":5,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2703,
@@ -4373,7 +4373,7 @@
     "row":"A",
     "item":"Gypceros Head",
     "quantity":1,
-    "percent":"7%"
+    "percent":7
   },
   {
     "dropID":2704,
@@ -4381,7 +4381,7 @@
     "row":"A",
     "item":"Novacrystal",
     "quantity":1,
-    "percent":"1%"
+    "percent":1
   },
   {
     "dropID":2705,
@@ -4389,7 +4389,7 @@
     "row":"B",
     "item":"Spider Web",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2706,
@@ -4397,7 +4397,7 @@
     "row":"B",
     "item":"Fire Herb",
     "quantity":2,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2707,
@@ -4405,7 +4405,7 @@
     "row":"B",
     "item":"Armor Sphere+",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2708,
@@ -4413,7 +4413,7 @@
     "row":"B",
     "item":"Carbalite Ore",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2709,
@@ -4421,7 +4421,7 @@
     "row":"B",
     "item":"Adv Armor Sphere",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2710,
@@ -4429,7 +4429,7 @@
     "row":"B",
     "item":"Stam Nectar: Water",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2711,
@@ -4437,7 +4437,7 @@
     "row":"B",
     "item":"Bloodrun Jewel",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2712,
@@ -4445,7 +4445,7 @@
     "row":"B",
     "item":"Mystery Charm",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2713,
@@ -4453,7 +4453,7 @@
     "row":"B",
     "item":"Iron Ore",
     "quantity":2,
-    "percent":"7%"
+    "percent":7
   },
   {
     "dropID":2714,
@@ -4461,7 +4461,7 @@
     "row":"B",
     "item":"Nectar: Water+",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2715,
@@ -4469,7 +4469,7 @@
     "row":"B",
     "item":"Shining Charm",
     "quantity":1,
-    "percent":"5%"
+    "percent":5
   },
   {
     "dropID":2716,
@@ -4477,7 +4477,7 @@
     "row":"Sub",
     "item":"Spider Web",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2717,
@@ -4485,7 +4485,7 @@
     "row":"Sub",
     "item":"Fire Herb",
     "quantity":2,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2718,
@@ -4493,7 +4493,7 @@
     "row":"Sub",
     "item":"Armor Sphere+",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2719,
@@ -4501,7 +4501,7 @@
     "row":"Sub",
     "item":"Carbalite Ore",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2720,
@@ -4509,7 +4509,7 @@
     "row":"Sub",
     "item":"Adv Armor Sphere",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2721,
@@ -4517,7 +4517,7 @@
     "row":"Sub",
     "item":"Stam Nectar: Water",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2722,
@@ -4525,7 +4525,7 @@
     "row":"Sub",
     "item":"Bloodrun Jewel",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2723,
@@ -4533,7 +4533,7 @@
     "row":"Sub",
     "item":"Mystery Charm",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2724,
@@ -4541,7 +4541,7 @@
     "row":"Sub",
     "item":"Iron Ore",
     "quantity":2,
-    "percent":"7%"
+    "percent":7
   },
   {
     "dropID":2725,
@@ -4549,7 +4549,7 @@
     "row":"Sub",
     "item":"Nectar: Water+",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2726,
@@ -4557,7 +4557,7 @@
     "row":"Sub",
     "item":"Shining Charm",
     "quantity":1,
-    "percent":"5%"
+    "percent":5
   },
   {
     "dropID":2727,
@@ -4565,7 +4565,7 @@
     "row":"A",
     "item":"Tetsucabra Scale+",
     "quantity":1,
-    "percent":"24%"
+    "percent":24
   },
   {
     "dropID":2728,
@@ -4573,7 +4573,7 @@
     "row":"A",
     "item":"Tetsucabra Carapace",
     "quantity":1,
-    "percent":"18%"
+    "percent":18
   },
   {
     "dropID":2729,
@@ -4581,7 +4581,7 @@
     "row":"A",
     "item":"Dignified Skull",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2730,
@@ -4589,7 +4589,7 @@
     "row":"A",
     "item":"Paddock Oil+",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2731,
@@ -4597,7 +4597,7 @@
     "row":"A",
     "item":"Tetsucabra Claw+",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2732,
@@ -4605,7 +4605,7 @@
     "row":"A",
     "item":"Tetsucabra Tusks+",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2733,
@@ -4613,7 +4613,7 @@
     "row":"A",
     "item":"Stoutbone",
     "quantity":2,
-    "percent":"7%"
+    "percent":7
   },
   {
     "dropID":2734,
@@ -4621,7 +4621,7 @@
     "row":"A",
     "item":"Paddock Oil",
     "quantity":2,
-    "percent":"7%"
+    "percent":7
   },
   {
     "dropID":2735,
@@ -4629,7 +4629,7 @@
     "row":"B",
     "item":"Spider Web",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2736,
@@ -4637,7 +4637,7 @@
     "row":"B",
     "item":"Fire Herb",
     "quantity":2,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2737,
@@ -4645,7 +4645,7 @@
     "row":"B",
     "item":"Armor Sphere+",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2738,
@@ -4653,7 +4653,7 @@
     "row":"B",
     "item":"Carbalite Ore",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2739,
@@ -4661,7 +4661,7 @@
     "row":"B",
     "item":"Adv Armor Sphere",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2740,
@@ -4669,7 +4669,7 @@
     "row":"B",
     "item":"Stam Nectar: Water",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2741,
@@ -4677,7 +4677,7 @@
     "row":"B",
     "item":"Bloodrun Jewel",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2742,
@@ -4685,7 +4685,7 @@
     "row":"B",
     "item":"Mystery Charm",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2743,
@@ -4693,7 +4693,7 @@
     "row":"B",
     "item":"Iron Ore",
     "quantity":2,
-    "percent":"7%"
+    "percent":7
   },
   {
     "dropID":2744,
@@ -4701,7 +4701,7 @@
     "row":"B",
     "item":"Nectar: Water+",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2745,
@@ -4709,7 +4709,7 @@
     "row":"B",
     "item":"Shining Charm",
     "quantity":1,
-    "percent":"5%"
+    "percent":5
   },
   {
     "dropID":2746,
@@ -4717,7 +4717,7 @@
     "row":"Sub",
     "item":"Spider Web",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2747,
@@ -4725,7 +4725,7 @@
     "row":"Sub",
     "item":"Fire Herb",
     "quantity":2,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2748,
@@ -4733,7 +4733,7 @@
     "row":"Sub",
     "item":"Armor Sphere+",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2749,
@@ -4741,7 +4741,7 @@
     "row":"Sub",
     "item":"Carbalite Ore",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2750,
@@ -4749,7 +4749,7 @@
     "row":"Sub",
     "item":"Adv Armor Sphere",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2751,
@@ -4757,7 +4757,7 @@
     "row":"Sub",
     "item":"Stam Nectar: Water",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2752,
@@ -4765,7 +4765,7 @@
     "row":"Sub",
     "item":"Bloodrun Jewel",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2753,
@@ -4773,7 +4773,7 @@
     "row":"Sub",
     "item":"Mystery Charm",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2754,
@@ -4781,7 +4781,7 @@
     "row":"Sub",
     "item":"Iron Ore",
     "quantity":2,
-    "percent":"7%"
+    "percent":7
   },
   {
     "dropID":2755,
@@ -4789,7 +4789,7 @@
     "row":"Sub",
     "item":"Nectar: Water+",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2756,
@@ -4797,7 +4797,7 @@
     "row":"Sub",
     "item":"Shining Charm",
     "quantity":1,
-    "percent":"5%"
+    "percent":5
   },
   {
     "dropID":2757,
@@ -4805,7 +4805,7 @@
     "row":"A",
     "item":"E.Congalala Pelt+",
     "quantity":1,
-    "percent":"28%"
+    "percent":28
   },
   {
     "dropID":2758,
@@ -4813,7 +4813,7 @@
     "row":"A",
     "item":"E.Congalala Fang+",
     "quantity":1,
-    "percent":"22%"
+    "percent":22
   },
   {
     "dropID":2759,
@@ -4821,7 +4821,7 @@
     "row":"A",
     "item":"Vibrant Pelt",
     "quantity":1,
-    "percent":"16%"
+    "percent":16
   },
   {
     "dropID":2760,
@@ -4829,7 +4829,7 @@
     "row":"A",
     "item":"Stoutbone",
     "quantity":1,
-    "percent":"14%"
+    "percent":14
   },
   {
     "dropID":2761,
@@ -4837,7 +4837,7 @@
     "row":"A",
     "item":"E.Congalala Claw+",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2762,
@@ -4845,7 +4845,7 @@
     "row":"A",
     "item":"Jumbo Bone",
     "quantity":2,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2763,
@@ -4853,7 +4853,7 @@
     "row":"B",
     "item":"Spider Web",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2764,
@@ -4861,7 +4861,7 @@
     "row":"B",
     "item":"Fire Herb",
     "quantity":2,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2765,
@@ -4869,7 +4869,7 @@
     "row":"B",
     "item":"Armor Sphere+",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2766,
@@ -4877,7 +4877,7 @@
     "row":"B",
     "item":"Carbalite Ore",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2767,
@@ -4885,7 +4885,7 @@
     "row":"B",
     "item":"Adv Armor Sphere",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2768,
@@ -4893,7 +4893,7 @@
     "row":"B",
     "item":"Stam Nectar: Water",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2769,
@@ -4901,7 +4901,7 @@
     "row":"B",
     "item":"Bloodrun Jewel",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2770,
@@ -4909,7 +4909,7 @@
     "row":"B",
     "item":"Mystery Charm",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2771,
@@ -4917,7 +4917,7 @@
     "row":"B",
     "item":"Iron Ore",
     "quantity":2,
-    "percent":"7%"
+    "percent":7
   },
   {
     "dropID":2772,
@@ -4925,7 +4925,7 @@
     "row":"B",
     "item":"Nectar: Water+",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2773,
@@ -4933,7 +4933,7 @@
     "row":"B",
     "item":"Shining Charm",
     "quantity":1,
-    "percent":"5%"
+    "percent":5
   },
   {
     "dropID":2774,
@@ -4941,7 +4941,7 @@
     "row":"Sub",
     "item":"Spider Web",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2775,
@@ -4949,7 +4949,7 @@
     "row":"Sub",
     "item":"Fire Herb",
     "quantity":2,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2776,
@@ -4957,7 +4957,7 @@
     "row":"Sub",
     "item":"Armor Sphere+",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2777,
@@ -4965,7 +4965,7 @@
     "row":"Sub",
     "item":"Carbalite Ore",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2778,
@@ -4973,7 +4973,7 @@
     "row":"Sub",
     "item":"Adv Armor Sphere",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2779,
@@ -4981,7 +4981,7 @@
     "row":"Sub",
     "item":"Stam Nectar: Water",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2780,
@@ -4989,7 +4989,7 @@
     "row":"Sub",
     "item":"Bloodrun Jewel",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2781,
@@ -4997,7 +4997,7 @@
     "row":"Sub",
     "item":"Mystery Charm",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2782,
@@ -5005,7 +5005,7 @@
     "row":"Sub",
     "item":"Iron Ore",
     "quantity":2,
-    "percent":"7%"
+    "percent":7
   },
   {
     "dropID":2783,
@@ -5013,7 +5013,7 @@
     "row":"Sub",
     "item":"Nectar: Water+",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2784,
@@ -5021,7 +5021,7 @@
     "row":"Sub",
     "item":"Shining Charm",
     "quantity":1,
-    "percent":"5%"
+    "percent":5
   },
   {
     "dropID":2785,
@@ -5029,7 +5029,7 @@
     "row":"A",
     "item":"Nerscylla Carapace",
     "quantity":1,
-    "percent":"28%"
+    "percent":28
   },
   {
     "dropID":2786,
@@ -5037,7 +5037,7 @@
     "row":"A",
     "item":"Nerscylla Sharpclaw",
     "quantity":1,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":2787,
@@ -5045,7 +5045,7 @@
     "row":"A",
     "item":"Nerscylla Shear",
     "quantity":1,
-    "percent":"18%"
+    "percent":18
   },
   {
     "dropID":2788,
@@ -5053,7 +5053,7 @@
     "row":"A",
     "item":"Monster Broth",
     "quantity":2,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2789,
@@ -5061,7 +5061,7 @@
     "row":"A",
     "item":"Nerscylla Spike+",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2790,
@@ -5069,7 +5069,7 @@
     "row":"A",
     "item":"Nerscylla Spike",
     "quantity":2,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2791,
@@ -5077,7 +5077,7 @@
     "row":"B",
     "item":"Flashbug",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2792,
@@ -5085,7 +5085,7 @@
     "row":"B",
     "item":"Armor Sphere+",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2793,
@@ -5093,7 +5093,7 @@
     "row":"B",
     "item":"Hercudrome",
     "quantity":1,
-    "percent":"11%"
+    "percent":11
   },
   {
     "dropID":2794,
@@ -5101,7 +5101,7 @@
     "row":"B",
     "item":"Bone Husk",
     "quantity":4,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2795,
@@ -5109,7 +5109,7 @@
     "row":"B",
     "item":"Adv Armor Sphere",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2796,
@@ -5117,7 +5117,7 @@
     "row":"B",
     "item":"Spd Nectar: Thunder",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2797,
@@ -5125,7 +5125,7 @@
     "row":"B",
     "item":"Thunderbug",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2798,
@@ -5133,7 +5133,7 @@
     "row":"B",
     "item":"Bloodrun Jewel",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2799,
@@ -5141,7 +5141,7 @@
     "row":"B",
     "item":"Mystery Charm",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2800,
@@ -5149,7 +5149,7 @@
     "row":"B",
     "item":"Nectar: Thunder+",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2801,
@@ -5157,7 +5157,7 @@
     "row":"B",
     "item":"Shining Charm",
     "quantity":1,
-    "percent":"5%"
+    "percent":5
   },
   {
     "dropID":2802,
@@ -5165,7 +5165,7 @@
     "row":"Sub",
     "item":"Flashbug",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2803,
@@ -5173,7 +5173,7 @@
     "row":"Sub",
     "item":"Armor Sphere+",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2804,
@@ -5181,7 +5181,7 @@
     "row":"Sub",
     "item":"Hercudrome",
     "quantity":1,
-    "percent":"11%"
+    "percent":11
   },
   {
     "dropID":2805,
@@ -5189,7 +5189,7 @@
     "row":"Sub",
     "item":"Bone Husk",
     "quantity":4,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2806,
@@ -5197,7 +5197,7 @@
     "row":"Sub",
     "item":"Adv Armor Sphere",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2807,
@@ -5205,7 +5205,7 @@
     "row":"Sub",
     "item":"Spd Nectar: Thunder",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2808,
@@ -5213,7 +5213,7 @@
     "row":"Sub",
     "item":"Thunderbug",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2809,
@@ -5221,7 +5221,7 @@
     "row":"Sub",
     "item":"Bloodrun Jewel",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2810,
@@ -5229,7 +5229,7 @@
     "row":"Sub",
     "item":"Mystery Charm",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2811,
@@ -5237,7 +5237,7 @@
     "row":"Sub",
     "item":"Nectar: Thunder+",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2812,
@@ -5245,7 +5245,7 @@
     "row":"Sub",
     "item":"Shining Charm",
     "quantity":1,
-    "percent":"5%"
+    "percent":5
   },
   {
     "dropID":2813,
@@ -5253,7 +5253,7 @@
     "row":"A",
     "item":"Gendrome Tail",
     "quantity":1,
-    "percent":"21%"
+    "percent":21
   },
   {
     "dropID":2814,
@@ -5261,7 +5261,7 @@
     "row":"A",
     "item":"Avian Finebone",
     "quantity":2,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2815,
@@ -5269,7 +5269,7 @@
     "row":"A",
     "item":"Paralysis Sac",
     "quantity":2,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2816,
@@ -5277,7 +5277,7 @@
     "row":"A",
     "item":"Genprey Hide+",
     "quantity":2,
-    "percent":"13%"
+    "percent":13
   },
   {
     "dropID":2817,
@@ -5285,7 +5285,7 @@
     "row":"A",
     "item":"Genprey Scale+",
     "quantity":2,
-    "percent":"11%"
+    "percent":11
   },
   {
     "dropID":2818,
@@ -5293,7 +5293,7 @@
     "row":"A",
     "item":"Tough Bird Wyv Hide",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2819,
@@ -5301,7 +5301,7 @@
     "row":"A",
     "item":"Gendrome Head",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2820,
@@ -5309,7 +5309,7 @@
     "row":"A",
     "item":"Bird Wyvern Gem",
     "quantity":1,
-    "percent":"5%"
+    "percent":5
   },
   {
     "dropID":2821,
@@ -5317,7 +5317,7 @@
     "row":"B",
     "item":"Tetsucabra Scale+",
     "quantity":1,
-    "percent":"24%"
+    "percent":24
   },
   {
     "dropID":2822,
@@ -5325,7 +5325,7 @@
     "row":"B",
     "item":"Tetsucabra Carapace",
     "quantity":1,
-    "percent":"18%"
+    "percent":18
   },
   {
     "dropID":2823,
@@ -5333,7 +5333,7 @@
     "row":"B",
     "item":"Dignified Skull",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2824,
@@ -5341,7 +5341,7 @@
     "row":"B",
     "item":"Paddock Oil+",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2825,
@@ -5349,7 +5349,7 @@
     "row":"B",
     "item":"Tetsucabra Claw+",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2826,
@@ -5357,7 +5357,7 @@
     "row":"B",
     "item":"Tetsucabra Tusks+",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2827,
@@ -5365,7 +5365,7 @@
     "row":"B",
     "item":"Stoutbone",
     "quantity":2,
-    "percent":"7%"
+    "percent":7
   },
   {
     "dropID":2828,
@@ -5373,7 +5373,7 @@
     "row":"B",
     "item":"Paddock Oil",
     "quantity":2,
-    "percent":"7%"
+    "percent":7
   },
   {
     "dropID":2829,
@@ -5381,7 +5381,7 @@
     "row":"Sub",
     "item":"Tetsucabra Scale+",
     "quantity":1,
-    "percent":"24%"
+    "percent":24
   },
   {
     "dropID":2830,
@@ -5389,7 +5389,7 @@
     "row":"Sub",
     "item":"Tetsucabra Carapace",
     "quantity":1,
-    "percent":"18%"
+    "percent":18
   },
   {
     "dropID":2831,
@@ -5397,7 +5397,7 @@
     "row":"Sub",
     "item":"Dignified Skull",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2832,
@@ -5405,7 +5405,7 @@
     "row":"Sub",
     "item":"Paddock Oil+",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2833,
@@ -5413,7 +5413,7 @@
     "row":"Sub",
     "item":"Tetsucabra Claw+",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2834,
@@ -5421,7 +5421,7 @@
     "row":"Sub",
     "item":"Tetsucabra Tusks+",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2835,
@@ -5429,7 +5429,7 @@
     "row":"Sub",
     "item":"Stoutbone",
     "quantity":2,
-    "percent":"7%"
+    "percent":7
   },
   {
     "dropID":2836,
@@ -5437,7 +5437,7 @@
     "row":"Sub",
     "item":"Paddock Oil",
     "quantity":2,
-    "percent":"7%"
+    "percent":7
   },
   {
     "dropID":2837,
@@ -5445,7 +5445,7 @@
     "row":"A",
     "item":"Bomb Arowana",
     "quantity":2,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2838,
@@ -5453,7 +5453,7 @@
     "row":"A",
     "item":"Scatterfish",
     "quantity":2,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2839,
@@ -5461,7 +5461,7 @@
     "row":"A",
     "item":"Burst Arowana",
     "quantity":2,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2840,
@@ -5469,7 +5469,7 @@
     "row":"A",
     "item":"Sleepyfish",
     "quantity":2,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2841,
@@ -5477,7 +5477,7 @@
     "row":"A",
     "item":"Wanchovy",
     "quantity":3,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2842,
@@ -5485,7 +5485,7 @@
     "row":"A",
     "item":"Pin Tuna",
     "quantity":3,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2843,
@@ -5493,7 +5493,7 @@
     "row":"A",
     "item":"Whetfish",
     "quantity":3,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2844,
@@ -5501,7 +5501,7 @@
     "row":"A",
     "item":"Popfish",
     "quantity":3,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2845,
@@ -5509,7 +5509,7 @@
     "row":"A",
     "item":"Mega Fishing Fly",
     "quantity":3,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2846,
@@ -5517,7 +5517,7 @@
     "row":"A",
     "item":"Blue Cutthroat",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2847,
@@ -5525,7 +5525,7 @@
     "row":"B",
     "item":"Flashbug",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2848,
@@ -5533,7 +5533,7 @@
     "row":"B",
     "item":"Armor Sphere+",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2849,
@@ -5541,7 +5541,7 @@
     "row":"B",
     "item":"Hercudrome",
     "quantity":1,
-    "percent":"11%"
+    "percent":11
   },
   {
     "dropID":2850,
@@ -5549,7 +5549,7 @@
     "row":"B",
     "item":"Bone Husk",
     "quantity":4,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2851,
@@ -5557,7 +5557,7 @@
     "row":"B",
     "item":"Adv Armor Sphere",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2852,
@@ -5565,7 +5565,7 @@
     "row":"B",
     "item":"Spd Nectar: Thunder",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2853,
@@ -5573,7 +5573,7 @@
     "row":"B",
     "item":"Thunderbug",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2854,
@@ -5581,7 +5581,7 @@
     "row":"B",
     "item":"Bloodrun Jewel",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2855,
@@ -5589,7 +5589,7 @@
     "row":"B",
     "item":"Mystery Charm",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2856,
@@ -5597,7 +5597,7 @@
     "row":"B",
     "item":"Nectar: Thunder+",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2857,
@@ -5605,7 +5605,7 @@
     "row":"B",
     "item":"Shining Charm",
     "quantity":1,
-    "percent":"5%"
+    "percent":5
   },
   {
     "dropID":2858,
@@ -5613,7 +5613,7 @@
     "row":"Sub",
     "item":"Flashbug",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2859,
@@ -5621,7 +5621,7 @@
     "row":"Sub",
     "item":"Armor Sphere+",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2860,
@@ -5629,7 +5629,7 @@
     "row":"Sub",
     "item":"Hercudrome",
     "quantity":1,
-    "percent":"11%"
+    "percent":11
   },
   {
     "dropID":2861,
@@ -5637,7 +5637,7 @@
     "row":"Sub",
     "item":"Bone Husk",
     "quantity":4,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2862,
@@ -5645,7 +5645,7 @@
     "row":"Sub",
     "item":"Adv Armor Sphere",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2863,
@@ -5653,7 +5653,7 @@
     "row":"Sub",
     "item":"Spd Nectar: Thunder",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2864,
@@ -5661,7 +5661,7 @@
     "row":"Sub",
     "item":"Thunderbug",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2865,
@@ -5669,7 +5669,7 @@
     "row":"Sub",
     "item":"Bloodrun Jewel",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2866,
@@ -5677,7 +5677,7 @@
     "row":"Sub",
     "item":"Mystery Charm",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2867,
@@ -5685,7 +5685,7 @@
     "row":"Sub",
     "item":"Nectar: Thunder+",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2868,
@@ -5693,7 +5693,7 @@
     "row":"Sub",
     "item":"Shining Charm",
     "quantity":1,
-    "percent":"5%"
+    "percent":5
   },
   {
     "dropID":2869,
@@ -5701,7 +5701,7 @@
     "row":"A",
     "item":"Carbalite Ore",
     "quantity":1,
-    "percent":"21%"
+    "percent":21
   },
   {
     "dropID":2870,
@@ -5709,7 +5709,7 @@
     "row":"A",
     "item":"Adv Armor Sphere",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2871,
@@ -5717,7 +5717,7 @@
     "row":"A",
     "item":"Dragonite Ore",
     "quantity":2,
-    "percent":"14%"
+    "percent":14
   },
   {
     "dropID":2872,
@@ -5725,7 +5725,7 @@
     "row":"A",
     "item":"Lightcrystal",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2873,
@@ -5733,7 +5733,7 @@
     "row":"A",
     "item":"Shining Charm",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2874,
@@ -5741,7 +5741,7 @@
     "row":"A",
     "item":"Armor Sphere+",
     "quantity":2,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2875,
@@ -5749,7 +5749,7 @@
     "row":"A",
     "item":"Novacrystal",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2876,
@@ -5757,7 +5757,7 @@
     "row":"A",
     "item":"Silver Egg",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2877,
@@ -5765,7 +5765,7 @@
     "row":"B",
     "item":"Spider Web",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2878,
@@ -5773,7 +5773,7 @@
     "row":"B",
     "item":"Fire Herb",
     "quantity":2,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2879,
@@ -5781,7 +5781,7 @@
     "row":"B",
     "item":"Armor Sphere+",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2880,
@@ -5789,7 +5789,7 @@
     "row":"B",
     "item":"Carbalite Ore",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2881,
@@ -5797,7 +5797,7 @@
     "row":"B",
     "item":"Adv Armor Sphere",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2882,
@@ -5805,7 +5805,7 @@
     "row":"B",
     "item":"Stam Nectar: Water",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2883,
@@ -5813,7 +5813,7 @@
     "row":"B",
     "item":"Bloodrun Jewel",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2884,
@@ -5821,7 +5821,7 @@
     "row":"B",
     "item":"Mystery Charm",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2885,
@@ -5829,7 +5829,7 @@
     "row":"B",
     "item":"Iron Ore",
     "quantity":2,
-    "percent":"7%"
+    "percent":7
   },
   {
     "dropID":2886,
@@ -5837,7 +5837,7 @@
     "row":"B",
     "item":"Nectar: Water+",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2887,
@@ -5845,7 +5845,7 @@
     "row":"B",
     "item":"Shining Charm",
     "quantity":1,
-    "percent":"5%"
+    "percent":5
   },
   {
     "dropID":2888,
@@ -5853,7 +5853,7 @@
     "row":"Sub",
     "item":"Spider Web",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2889,
@@ -5861,7 +5861,7 @@
     "row":"Sub",
     "item":"Fire Herb",
     "quantity":2,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2890,
@@ -5869,7 +5869,7 @@
     "row":"Sub",
     "item":"Armor Sphere+",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2891,
@@ -5877,7 +5877,7 @@
     "row":"Sub",
     "item":"Carbalite Ore",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2892,
@@ -5885,7 +5885,7 @@
     "row":"Sub",
     "item":"Adv Armor Sphere",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2893,
@@ -5893,7 +5893,7 @@
     "row":"Sub",
     "item":"Stam Nectar: Water",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2894,
@@ -5901,7 +5901,7 @@
     "row":"Sub",
     "item":"Bloodrun Jewel",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2895,
@@ -5909,7 +5909,7 @@
     "row":"Sub",
     "item":"Mystery Charm",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2896,
@@ -5917,7 +5917,7 @@
     "row":"Sub",
     "item":"Iron Ore",
     "quantity":2,
-    "percent":"7%"
+    "percent":7
   },
   {
     "dropID":2897,
@@ -5925,7 +5925,7 @@
     "row":"Sub",
     "item":"Nectar: Water+",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2898,
@@ -5933,7 +5933,7 @@
     "row":"Sub",
     "item":"Shining Charm",
     "quantity":1,
-    "percent":"5%"
+    "percent":5
   },
   {
     "dropID":2899,
@@ -5941,7 +5941,7 @@
     "row":"A",
     "item":"Kecha Pelt+",
     "quantity":1,
-    "percent":"25%"
+    "percent":25
   },
   {
     "dropID":2900,
@@ -5949,7 +5949,7 @@
     "row":"A",
     "item":"Torrent Sac",
     "quantity":1,
-    "percent":"18%"
+    "percent":18
   },
   {
     "dropID":2901,
@@ -5957,7 +5957,7 @@
     "row":"A",
     "item":"Stoutbone",
     "quantity":1,
-    "percent":"14%"
+    "percent":14
   },
   {
     "dropID":2902,
@@ -5965,7 +5965,7 @@
     "row":"A",
     "item":"Kecha Grandbone",
     "quantity":1,
-    "percent":"13%"
+    "percent":13
   },
   {
     "dropID":2903,
@@ -5973,7 +5973,7 @@
     "row":"A",
     "item":"Kecha Tail",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2904,
@@ -5981,7 +5981,7 @@
     "row":"A",
     "item":"Kecha Ear+",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2905,
@@ -5989,7 +5989,7 @@
     "row":"A",
     "item":"Kecha Talon",
     "quantity":2,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2906,
@@ -5997,7 +5997,7 @@
     "row":"A",
     "item":"Kecha Ear",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2907,
@@ -6005,7 +6005,7 @@
     "row":"B",
     "item":"E.Congalala Pelt+",
     "quantity":1,
-    "percent":"28%"
+    "percent":28
   },
   {
     "dropID":2908,
@@ -6013,7 +6013,7 @@
     "row":"B",
     "item":"E.Congalala Fang+",
     "quantity":1,
-    "percent":"22%"
+    "percent":22
   },
   {
     "dropID":2909,
@@ -6021,7 +6021,7 @@
     "row":"B",
     "item":"Vibrant Pelt",
     "quantity":1,
-    "percent":"16%"
+    "percent":16
   },
   {
     "dropID":2910,
@@ -6029,7 +6029,7 @@
     "row":"B",
     "item":"Stoutbone",
     "quantity":1,
-    "percent":"14%"
+    "percent":14
   },
   {
     "dropID":2911,
@@ -6037,7 +6037,7 @@
     "row":"B",
     "item":"E.Congalala Claw+",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2912,
@@ -6045,7 +6045,7 @@
     "row":"B",
     "item":"Jumbo Bone",
     "quantity":2,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2913,
@@ -6053,7 +6053,7 @@
     "row":"Sub",
     "item":"E.Congalala Pelt+",
     "quantity":1,
-    "percent":"28%"
+    "percent":28
   },
   {
     "dropID":2914,
@@ -6061,7 +6061,7 @@
     "row":"Sub",
     "item":"E.Congalala Fang+",
     "quantity":1,
-    "percent":"22%"
+    "percent":22
   },
   {
     "dropID":2915,
@@ -6069,7 +6069,7 @@
     "row":"Sub",
     "item":"Vibrant Pelt",
     "quantity":1,
-    "percent":"16%"
+    "percent":16
   },
   {
     "dropID":2916,
@@ -6077,7 +6077,7 @@
     "row":"Sub",
     "item":"Stoutbone",
     "quantity":1,
-    "percent":"14%"
+    "percent":14
   },
   {
     "dropID":2917,
@@ -6085,7 +6085,7 @@
     "row":"Sub",
     "item":"E.Congalala Claw+",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2918,
@@ -6093,7 +6093,7 @@
     "row":"Sub",
     "item":"Jumbo Bone",
     "quantity":2,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2919,
@@ -6101,7 +6101,7 @@
     "row":"A",
     "item":"Tetsucabra Scale+",
     "quantity":1,
-    "percent":"24%"
+    "percent":24
   },
   {
     "dropID":2920,
@@ -6109,7 +6109,7 @@
     "row":"A",
     "item":"Tetsucabra Carapace",
     "quantity":1,
-    "percent":"18%"
+    "percent":18
   },
   {
     "dropID":2921,
@@ -6117,7 +6117,7 @@
     "row":"A",
     "item":"Dignified Skull",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2922,
@@ -6125,7 +6125,7 @@
     "row":"A",
     "item":"Paddock Oil+",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2923,
@@ -6133,7 +6133,7 @@
     "row":"A",
     "item":"Tetsucabra Claw+",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2924,
@@ -6141,7 +6141,7 @@
     "row":"A",
     "item":"Tetsucabra Tusks+",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2925,
@@ -6149,7 +6149,7 @@
     "row":"A",
     "item":"Stoutbone",
     "quantity":2,
-    "percent":"7%"
+    "percent":7
   },
   {
     "dropID":2926,
@@ -6157,7 +6157,7 @@
     "row":"A",
     "item":"Paddock Oil",
     "quantity":2,
-    "percent":"7%"
+    "percent":7
   },
   {
     "dropID":2927,
@@ -6165,7 +6165,7 @@
     "row":"A",
     "item":"Congalala Pelt+",
     "quantity":1,
-    "percent":"28%"
+    "percent":28
   },
   {
     "dropID":2928,
@@ -6173,7 +6173,7 @@
     "row":"A",
     "item":"Congalala Fang",
     "quantity":1,
-    "percent":"22%"
+    "percent":22
   },
   {
     "dropID":2929,
@@ -6181,7 +6181,7 @@
     "row":"A",
     "item":"Vibrant Pelt",
     "quantity":1,
-    "percent":"14%"
+    "percent":14
   },
   {
     "dropID":2930,
@@ -6189,7 +6189,7 @@
     "row":"A",
     "item":"Stoutbone",
     "quantity":1,
-    "percent":"14%"
+    "percent":14
   },
   {
     "dropID":2931,
@@ -6197,7 +6197,7 @@
     "row":"A",
     "item":"Congalala Claw+",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2932,
@@ -6205,7 +6205,7 @@
     "row":"A",
     "item":"Jumbo Bone",
     "quantity":2,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2933,
@@ -6213,7 +6213,7 @@
     "row":"B",
     "item":"Flashbug",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2934,
@@ -6221,7 +6221,7 @@
     "row":"B",
     "item":"Armor Sphere+",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2935,
@@ -6229,7 +6229,7 @@
     "row":"B",
     "item":"Hercudrome",
     "quantity":1,
-    "percent":"11%"
+    "percent":11
   },
   {
     "dropID":2936,
@@ -6237,7 +6237,7 @@
     "row":"B",
     "item":"Bone Husk",
     "quantity":4,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2937,
@@ -6245,7 +6245,7 @@
     "row":"B",
     "item":"Adv Armor Sphere",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2938,
@@ -6253,7 +6253,7 @@
     "row":"B",
     "item":"Spd Nectar: Thunder",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2939,
@@ -6261,7 +6261,7 @@
     "row":"B",
     "item":"Thunderbug",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2940,
@@ -6269,7 +6269,7 @@
     "row":"B",
     "item":"Bloodrun Jewel",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2941,
@@ -6277,7 +6277,7 @@
     "row":"B",
     "item":"Mystery Charm",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2942,
@@ -6285,7 +6285,7 @@
     "row":"B",
     "item":"Nectar: Thunder+",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2943,
@@ -6293,7 +6293,7 @@
     "row":"B",
     "item":"Shining Charm",
     "quantity":1,
-    "percent":"5%"
+    "percent":5
   },
   {
     "dropID":2944,
@@ -6301,7 +6301,7 @@
     "row":"Sub",
     "item":"Flashbug",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2945,
@@ -6309,7 +6309,7 @@
     "row":"Sub",
     "item":"Armor Sphere+",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2946,
@@ -6317,7 +6317,7 @@
     "row":"Sub",
     "item":"Hercudrome",
     "quantity":1,
-    "percent":"11%"
+    "percent":11
   },
   {
     "dropID":2947,
@@ -6325,7 +6325,7 @@
     "row":"Sub",
     "item":"Bone Husk",
     "quantity":4,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2948,
@@ -6333,7 +6333,7 @@
     "row":"Sub",
     "item":"Adv Armor Sphere",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2949,
@@ -6341,7 +6341,7 @@
     "row":"Sub",
     "item":"Spd Nectar: Thunder",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2950,
@@ -6349,7 +6349,7 @@
     "row":"Sub",
     "item":"Thunderbug",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2951,
@@ -6357,7 +6357,7 @@
     "row":"Sub",
     "item":"Bloodrun Jewel",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2952,
@@ -6365,7 +6365,7 @@
     "row":"Sub",
     "item":"Mystery Charm",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2953,
@@ -6373,7 +6373,7 @@
     "row":"Sub",
     "item":"Nectar: Thunder+",
     "quantity":1,
-    "percent":"6%"
+    "percent":6
   },
   {
     "dropID":2954,
@@ -6381,7 +6381,7 @@
     "row":"Sub",
     "item":"Shining Charm",
     "quantity":1,
-    "percent":"5%"
+    "percent":5
   },
   {
     "dropID":2955,
@@ -6389,7 +6389,7 @@
     "row":"A",
     "item":"Nerscylla Carapace",
     "quantity":1,
-    "percent":"28%"
+    "percent":28
   },
   {
     "dropID":2956,
@@ -6397,7 +6397,7 @@
     "row":"A",
     "item":"Nerscylla Sharpclaw",
     "quantity":1,
-    "percent":"20%"
+    "percent":20
   },
   {
     "dropID":2957,
@@ -6405,7 +6405,7 @@
     "row":"A",
     "item":"Nerscylla Shear",
     "quantity":1,
-    "percent":"18%"
+    "percent":18
   },
   {
     "dropID":2958,
@@ -6413,7 +6413,7 @@
     "row":"A",
     "item":"Monster Broth",
     "quantity":2,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2959,
@@ -6421,7 +6421,7 @@
     "row":"A",
     "item":"Nerscylla Spike+",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2960,
@@ -6429,7 +6429,7 @@
     "row":"A",
     "item":"Nerscylla Spike",
     "quantity":2,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2961,
@@ -6437,7 +6437,7 @@
     "row":"A",
     "item":"Rubbery Hide+",
     "quantity":1,
-    "percent":"22%"
+    "percent":22
   },
   {
     "dropID":2962,
@@ -6445,7 +6445,7 @@
     "row":"A",
     "item":"Congalala Pelt+",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2963,
@@ -6453,7 +6453,7 @@
     "row":"A",
     "item":"Seltas Innerwing",
     "quantity":1,
-    "percent":"13%"
+    "percent":13
   },
   {
     "dropID":2964,
@@ -6461,7 +6461,7 @@
     "row":"A",
     "item":"Seltas Carapace",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2965,
@@ -6469,7 +6469,7 @@
     "row":"A",
     "item":"Congalala Claw+",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2966,
@@ -6477,7 +6477,7 @@
     "row":"A",
     "item":"Gypceros Head",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2967,
@@ -6485,7 +6485,7 @@
     "row":"A",
     "item":"Seltas Horn+",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2968,
@@ -6493,7 +6493,7 @@
     "row":"A",
     "item":"Vibrant Pelt",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2969,
@@ -6501,7 +6501,7 @@
     "row":"A",
     "item":"Novacrystal",
     "quantity":1,
-    "percent":"2%"
+    "percent":2
   },
   {
     "dropID":2970,
@@ -6509,7 +6509,7 @@
     "row":"B",
     "item":"Armor Sphere+",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2971,
@@ -6517,7 +6517,7 @@
     "row":"B",
     "item":"Stoutbone",
     "quantity":1,
-    "percent":"14%"
+    "percent":14
   },
   {
     "dropID":2972,
@@ -6525,7 +6525,7 @@
     "row":"B",
     "item":"Shining Charm",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2973,
@@ -6533,7 +6533,7 @@
     "row":"B",
     "item":"Torrent Sac",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2974,
@@ -6541,7 +6541,7 @@
     "row":"B",
     "item":"Monster Broth",
     "quantity":2,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2975,
@@ -6549,7 +6549,7 @@
     "row":"B",
     "item":"Congalala Pelt+",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2976,
@@ -6557,7 +6557,7 @@
     "row":"B",
     "item":"Toxin Sac",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2977,
@@ -6565,7 +6565,7 @@
     "row":"B",
     "item":"Armor Sphere+",
     "quantity":2,
-    "percent":"7%"
+    "percent":7
   },
   {
     "dropID":2978,
@@ -6573,7 +6573,7 @@
     "row":"B",
     "item":"Wyvern Fang",
     "quantity":8,
-    "percent":"5%"
+    "percent":5
   },
   {
     "dropID":2979,
@@ -6581,7 +6581,7 @@
     "row":"B",
     "item":"Wyvern Claw",
     "quantity":8,
-    "percent":"5%"
+    "percent":5
   },
   {
     "dropID":2980,
@@ -6589,7 +6589,7 @@
     "row":"B",
     "item":"Seltas Carapace",
     "quantity":1,
-    "percent":"4%"
+    "percent":4
   },
   {
     "dropID":2981,
@@ -6597,7 +6597,7 @@
     "row":"B",
     "item":"Monster Keenbone",
     "quantity":1,
-    "percent":"4%"
+    "percent":4
   },
   {
     "dropID":2982,
@@ -6605,7 +6605,7 @@
     "row":"Sub",
     "item":"Armor Sphere+",
     "quantity":1,
-    "percent":"15%"
+    "percent":15
   },
   {
     "dropID":2983,
@@ -6613,7 +6613,7 @@
     "row":"Sub",
     "item":"Stoutbone",
     "quantity":1,
-    "percent":"14%"
+    "percent":14
   },
   {
     "dropID":2984,
@@ -6621,7 +6621,7 @@
     "row":"Sub",
     "item":"Shining Charm",
     "quantity":1,
-    "percent":"12%"
+    "percent":12
   },
   {
     "dropID":2985,
@@ -6629,7 +6629,7 @@
     "row":"Sub",
     "item":"Torrent Sac",
     "quantity":1,
-    "percent":"10%"
+    "percent":10
   },
   {
     "dropID":2986,
@@ -6637,7 +6637,7 @@
     "row":"Sub",
     "item":"Monster Broth",
     "quantity":2,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2987,
@@ -6645,7 +6645,7 @@
     "row":"Sub",
     "item":"Congalala Pelt+",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2988,
@@ -6653,7 +6653,7 @@
     "row":"Sub",
     "item":"Toxin Sac",
     "quantity":1,
-    "percent":"8%"
+    "percent":8
   },
   {
     "dropID":2989,
@@ -6661,7 +6661,7 @@
     "row":"Sub",
     "item":"Armor Sphere+",
     "quantity":2,
-    "percent":"7%"
+    "percent":7
   },
   {
     "dropID":2990,
@@ -6669,7 +6669,7 @@
     "row":"Sub",
     "item":"Wyvern Fang",
     "quantity":8,
-    "percent":"5%"
+    "percent":5
   },
   {
     "dropID":2991,
@@ -6677,7 +6677,7 @@
     "row":"Sub",
     "item":"Wyvern Claw",
     "quantity":8,
-    "percent":"5%"
+    "percent":5
   },
   {
     "dropID":2992,
@@ -6685,7 +6685,7 @@
     "row":"Sub",
     "item":"Seltas Carapace",
     "quantity":1,
-    "percent":"4%"
+    "percent":4
   },
   {
     "dropID":2993,
@@ -6693,6 +6693,6 @@
     "row":"Sub",
     "item":"Monster Keenbone",
     "quantity":1,
-    "percent":"4%"
+    "percent":4
   }
 ]

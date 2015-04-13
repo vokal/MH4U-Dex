@@ -16,24 +16,9 @@
 
 #import "QuestListTableViewCell.h"
 
-typedef NS_ENUM(NSInteger, StarSections) {
-    OneStarSection = 0,
-    TwoStarSection = 1,
-    ThreeStarSection = 2,
-    FourStarSection = 3,
-    FiveStarSection = 4,
-    SixStarSection = 5,
-    SevenStarSection = 6,
-    EightStarSection = 7,
-    NineStarSection = 8,
-    TenStarSection = 9,
-    
-    StarSectionCount
-};
-
 @interface QuestListTableViewController ()
 
-@property (nonatomic, strong) NSMutableArray *questMasterArray;
+@property (nonatomic, strong) NSFetchedResultsController *fetchedResultsController;
 
 @end
 
@@ -42,49 +27,71 @@ typedef NS_ENUM(NSInteger, StarSections) {
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-    NSManagedObjectContext *managedObjectContext = [CoreDataController sharedCDController].managedObjectContext;
-    NSError *fetchError = nil;
-    NSPredicate *caravanPredicate = [NSPredicate predicateWithFormat:@"%K == %@", QuestAttributes.caravan, [NSNumber numberWithBool:self.isCaravan]];
-    NSFetchRequest *questFetchRequest = [NSFetchRequest fetchRequestWithEntityName:[Quest entityName]];
-    self.questMasterArray = [NSMutableArray array];
-    NSPredicate *starPredicate;
-    for (NSUInteger starNumber = 1; starNumber <= 10; starNumber++) {
-        starPredicate = [NSPredicate predicateWithFormat:@"%K == %@", QuestAttributes.stars, @(starNumber)];
-        questFetchRequest.predicate = [NSCompoundPredicate andPredicateWithSubpredicates:@[caravanPredicate, starPredicate]];
-        NSArray *questList = [managedObjectContext executeFetchRequest:questFetchRequest error:&fetchError];
-        if (questList) {
-            [self.questMasterArray addObject:questList];
-        } else {
-            //TODO: Consider doing something with fetchError
-        }
-    }
+    NSPredicate *caravanPredicate = [NSPredicate predicateWithFormat:@"%K == %@", QuestAttributes.caravan, @(self.isCaravan)];
+    self.fetchedResultsController = [self fetchedResultsControllerWithPredicate:caravanPredicate];
+    self.fetchedResultsController.delegate = self;
 }
 
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    return StarSectionCount;
+    return self.fetchedResultsController.sections.count;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    NSArray *questList = [self questArrayForSection:section];
-    return questList.count;
+     return [self.fetchedResultsController.sections[section] numberOfObjects];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    QuestListTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"QuestListTableViewCell" forIndexPath:indexPath];
+    QuestListTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([QuestListTableViewCell class]) forIndexPath:indexPath];
+    [cell displayContentsWithQuest:[self questAtIndexPath:indexPath]];
     return cell;
+}
+
+- (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView
+{
+    NSMutableArray *mutArray = [NSMutableArray arrayWithArray:self.fetchedResultsController.sectionIndexTitles];
+    if ([mutArray.lastObject isEqualToString:@"1"]) {
+        [mutArray removeLastObject];
+        [mutArray addObject:@"10"];
+    }
+    
+    return mutArray;
+}
+
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
+    return [NSString stringWithFormat:@"%@-Star Quests", @(section + 1)];
 }
 
 #pragma mark - Helper Methods
 
-- (NSArray *)questArrayForSection:(NSInteger)section
+- (Quest *)questAtIndexPath:(NSIndexPath *)indexPath
 {
-    return self.questMasterArray[section];
+    return [self.fetchedResultsController objectAtIndexPath:indexPath];
+}
+
+- (NSFetchedResultsController *)fetchedResultsControllerWithPredicate:(NSPredicate *)predicate
+{
+    NSError *fetchError = nil;
+    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:[Quest entityName]];
+    fetchRequest.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:QuestAttributes.id ascending:YES]];
+    fetchRequest.fetchBatchSize = 20;//TODO: Tinker with this.
+    fetchRequest.predicate = predicate;
+    NSFetchedResultsController *newResultsController = [[NSFetchedResultsController alloc]
+                                                        initWithFetchRequest:fetchRequest
+                                                        managedObjectContext:[CoreDataController sharedCDController].managedObjectContext
+                                                        sectionNameKeyPath:QuestAttributes.stars
+                                                        cacheName:@"Root"];
+    [newResultsController performFetch:&fetchError];
+    if (fetchError) {
+        NSLog(@"Error fetching quest data.");
+        NSLog(@"%@, %@", fetchError, fetchError.localizedDescription);
+    }
+    return newResultsController;
 }
 
 @end

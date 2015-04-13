@@ -22,6 +22,7 @@
 
 static NSString *const NeedsReloadKey = @"NEED_RELOAD";
 static NSString *const MonsterDropFilePrefix = @"monster_drops";
+static NSString *const QuestDropFilePrefix = @"quest_drops";
 
 @interface CoreDataController ()
 
@@ -53,25 +54,29 @@ static NSString *const MonsterDropFilePrefix = @"monster_drops";
     if ([[NSUserDefaults standardUserDefaults] boolForKey:NeedsReloadKey]) {
         NSLog(@"Resetting Core Data");
         [self resetCoreData];
-        NSManagedObjectContext *backgroundContext = [self backgroundManagedObjectContext];
-        //TODO: Uncomment this when needed, when changing the model or adding new data
-//        NSLog(@"Core Data Reset. Loading Data.");
-//        [self loadMonsterDataWithContext:backgroundContext];
-//        NSLog(@"Monster data loaded.");
-//        [self loadMonsterDamageZoneDataWithContext:backgroundContext];
-//        NSLog(@"Monster Damage Zone data loaded.");
-//        [self loadMonsterDropDataWithContext:backgroundContext];
-//        NSLog(@"Monster Drop data loaded.");
-//        [self loadRegionDataWithContext:backgroundContext];
-//        NSLog(@"Region data loaded.");
-//        [self loadQuestDataWithContext:backgroundContext];
-//        NSLog(@"Quest Data loaded.");
-//        [self loadQuestDropDataWithContext:backgroundContext];
-//        NSLog(@"Quest Drop Data loaded.");
-        [self attemptSaveContext:backgroundContext];
-        NSLog(@"Core Data Context Saved.");
+        //TODO: Call [self rebuildPersistentStore] when it is time to rebuild the prebuilt store.
         [CoreDataController setShouldTriggerReloadUponRestart:NO];
     }
+}
+
+- (void)rebuildPersistentStore
+{
+    NSManagedObjectContext *backgroundContext = [self backgroundManagedObjectContext];
+    NSLog(@"Core Data Reset. Loading Data.");
+    [self loadMonsterDataWithContext:backgroundContext];
+    NSLog(@"Monster data loaded.");
+    [self loadMonsterDamageZoneDataWithContext:backgroundContext];
+    NSLog(@"Monster Damage Zone data loaded.");
+    [self loadMonsterDropDataWithContext:backgroundContext];
+    NSLog(@"Monster Drop data loaded.");
+    [self loadRegionDataWithContext:backgroundContext];
+    NSLog(@"Region data loaded.");
+    [self loadQuestDataWithContext:backgroundContext];
+    NSLog(@"Quest Data loaded.");
+    [self loadQuestDropDataWithContext:backgroundContext];
+    NSLog(@"Quest Drop Data loaded.");
+    [self attemptSaveContext:backgroundContext];
+    NSLog(@"Core Data Context Saved.");
 }
 
 + (void)setShouldTriggerReloadUponRestart:(BOOL)shouldTriggerReloadUponRestart
@@ -167,40 +172,50 @@ static NSString *const MonsterDropFilePrefix = @"monster_drops";
         quest = (Quest *)[self uniqueEntityWithEntityName:[Quest entityName]
                                             withPredicate:questPredicate
                                               withContext:context];
-        //Only add the quest if it is not already there
+        //Even if the quest is already there, it may have been created as a dummy prerequisite quest, and may need more options filled out.
         if (!quest) {
-            // Quests have a lot of information to populate, so I'm moving this to a helper method to cut down on the size of this method.
-            quest = [self questFromDictionary:questDict withContext:context];
+            quest = [Quest insertInManagedObjectContext:context];
         }
-    }
-    if (![self attemptSaveContext:context]) {
-        NSLog(@"WARNING: Failed to save the item context!");
+        [self updateQuest:quest
+           fromDictionary:questDict
+              withContext:context];
     }
 }
 
 - (void)loadQuestDropDataWithContext:(NSManagedObjectContext *)context
 {
-    NSArray *questDropList = [self loadArrayFromJsonFileNamed:MHDQuestDropsFileName];
-    
-    for (NSDictionary *dropDict in questDropList) {
-        NSNumber *dropID = dropDict[MHDQuestDropIDKey];
-        NSPredicate *dropPredicate = [NSPredicate predicateWithFormat:@"%K == %@", QuestDropAttributes.id, dropID];
-        QuestDrop *drop = (QuestDrop *)[self uniqueEntityWithEntityName:[QuestDrop entityName]
-                                                          withPredicate:dropPredicate
-                                                            withContext:context];
-        if (!drop) {
-            //Returns nil if the quest corresponding to this drop does not exist.
-            drop = [self questDropFromDictionary:dropDict WithContext:context];
-            if (!drop) {
-                //If we reach this point, then the quest that this drop belongs to did not exist, and we should return without saving the context;
-                //TODO: Better way to handle this?  Though this never SHOULD happen.
-                return;
+    //Repeat this process for each JSON file
+    NSArray *urlArray = [[NSBundle mainBundle] URLsForResourcesWithExtension:MHDJSON subdirectory:nil];
+    for (NSURL *url in urlArray)  {
+        NSString *fileName = [[url URLByDeletingPathExtension] lastPathComponent];
+        if ([fileName hasPrefix:QuestDropFilePrefix]) {
+            NSLog(@"Loading in quest drop file: %@", fileName);
+            NSArray *dropList = [self loadArrayFromJsonFileNamed:fileName];
+            for (NSDictionary *questDropDict in dropList) {
+                //Check if the quest even exists
+                NSPredicate *questPredicate = [NSPredicate predicateWithFormat:@"%K == %@", QuestAttributes.id, questDropDict[MHDQuestDropQuestIDKey]];
+                Quest *quest = (Quest *)[self uniqueEntityWithEntityName:[Quest entityName]
+                                                           withPredicate:questPredicate
+                                                             withContext:context];
+                if (!quest) {
+                    continue;
+                }
+                
+                NSPredicate *questDropPredicate = [NSPredicate predicateWithFormat:@"%K == %@", QuestDropAttributes.id, questDropDict[MHDQuestDropIDKey]];
+                QuestDrop *questDrop = (QuestDrop *)[self uniqueEntityWithEntityName:[QuestDrop entityName]
+                                                                       withPredicate:questDropPredicate
+                                                                         withContext:context];
+                if (!questDrop) {
+                    questDrop = [QuestDrop insertInManagedObjectContext:context];
+                }
+                questDrop.item = [self getOrCreateItemWithName:questDropDict[MHDQuestDropItemNameKey] withContext:context];
+                questDrop.quest = quest;
+                questDrop.percent = questDropDict[MHDQuestDropPercentKey];
+                questDrop.quantity = questDropDict[MHDQuestDropQuantityKey];
+                questDrop.row = questDropDict[MHDQuestDropRowKey];
+                questDrop.id = questDropDict[MHDQuestDropIDKey];
             }
         }
-    }
-    
-    if (![self attemptSaveContext:context]) {
-        NSLog(@"WARNING: Failed to save the item context!");
     }
 }
 
@@ -430,9 +445,10 @@ static NSString *const MonsterDropFilePrefix = @"monster_drops";
     return drop;
 }
 
-- (Quest *)questFromDictionary:(NSDictionary *)questDict withContext:(NSManagedObjectContext *)context
+- (void)updateQuest:(Quest *)quest
+     fromDictionary:(NSDictionary *)questDict
+        withContext:(NSManagedObjectContext *)context
 {
-    Quest *quest = [Quest insertInManagedObjectContext:context];
     quest.id = questDict[MHDQuestIDKey];
     quest.name = questDict[MHDQuestNameKey];
     if ([questDict[MHDQuestCaravanHallKey] isEqualToString:MHDQuestCaravanKey]) {
@@ -448,9 +464,9 @@ static NSString *const MonsterDropFilePrefix = @"monster_drops";
     quest.fee = questDict[MHDQuestFeeKey];
     quest.hrp = questDict[MHDQuestHRPKey];
     if ([questDict[MHDQuestKeyIndicatorKey] isEqualToString:MHDTrueString]) {
-        quest.keyValue = YES;
+        quest.keyQuestValue = YES;
     } else {
-        quest.keyValue = NO;
+        quest.keyQuestValue = NO;
     }
     quest.objective = questDict[MHDQuestObjectiveKey];
     quest.subObjective = questDict[MHDQuestSubQuestObjectiveKey];
@@ -472,29 +488,71 @@ static NSString *const MonsterDropFilePrefix = @"monster_drops";
     
     NSPredicate *monsterPredicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterAttributes.name, questDict[MHDQuestFirstMonsterKey]];
     // The same is the case with the following monster-fetching calls
-    quest.firstMonster = (Monster *)[self uniqueEntityWithEntityName:[Monster entityName]
-                                                       withPredicate:monsterPredicate
-                                                         withContext:context];
-    if (quest.firstMonster) {
-        //Continue on to the second, and so on.  By nesting this way, we can avoid unnecessary fetches
-        monsterPredicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterAttributes.name, questDict[MHDQuestSecondMonsterKey]];
-        quest.secondMonster = (Monster *)[self uniqueEntityWithEntityName:[Monster entityName]
-                                                            withPredicate:monsterPredicate
-                                                              withContext:context];
-        if (quest.secondMonster) {
-            monsterPredicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterAttributes.name, questDict[MHDQuestThirdMonsterKey]];
-            quest.thirdMonster = (Monster *)[self uniqueEntityWithEntityName:[Monster entityName]
-                                                               withPredicate:monsterPredicate
+    Monster *monster = (Monster *)[self uniqueEntityWithEntityName:[Monster entityName]
+                                                     withPredicate:monsterPredicate
+                                                       withContext:context];
+    if (monster) {
+        [quest.monsterSet addObject:monster];
+        NSPredicate *secondMonsterPredicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterAttributes.name, questDict[MHDQuestSecondMonsterKey]];
+        Monster *secondMonster = (Monster *)[self uniqueEntityWithEntityName:[Monster entityName]
+                                                               withPredicate:secondMonsterPredicate
                                                                  withContext:context];
-            if (quest.thirdMonster) {
-                monsterPredicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterAttributes.name, questDict[MHDQuestFourthMonsterKey]];
-                quest.fourthMonster = (Monster *)[self uniqueEntityWithEntityName:[Monster entityName]
-                                                                    withPredicate:monsterPredicate
-                                                                      withContext:context];
+        if (secondMonster) {
+            [quest.monsterSet addObject:secondMonster];
+            NSPredicate *thirdMonsterPredicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterAttributes.name, questDict[MHDQuestThirdMonsterKey]];
+            Monster *thirdMonster = (Monster *)[self uniqueEntityWithEntityName:[Monster entityName]
+                                                                  withPredicate:thirdMonsterPredicate
+                                                                    withContext:context];
+            if (thirdMonster) {
+                [quest.monsterSet addObject:thirdMonster];
+                NSPredicate *fourthMonsterPredicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterAttributes.name, questDict[MHDQuestFourthMonsterKey]];
+                Monster *fourthMonster = (Monster *)[self uniqueEntityWithEntityName:[Monster entityName]
+                                                                       withPredicate:fourthMonsterPredicate
+                                                                         withContext:context];
+                if (fourthMonster) {
+                    [quest.monsterSet addObject:fourthMonster];
+                }
             }
         }
     }
-    return quest;
+    
+    // Now it is time to handle the quest's prerequisites
+    //TODO: Uncomment once solution for handling "dummy" quests has been thought up.
+    //TODO: Also, change preReq into four different pointers to avoid potential confusion
+//    Quest *preReq = [self preRequisiteQuestWithID:questDict[MHDQuestFirstPrereqKey] withContext:context];
+//    if (preReq) {
+//        [quest.prerequisiteSet addObject:preReq];
+//        preReq = [self preRequisiteQuestWithID:questDict[MHDQuestSecondPrereqKey] withContext:context];
+//        if (preReq) {
+//            [quest.prerequisiteSet addObject:preReq];
+//            preReq = [self preRequisiteQuestWithID:questDict[MHDQuestThirdPrereqKey] withContext:context];
+//            if (preReq) {
+//                [quest.prerequisiteSet addObject:preReq];
+//                preReq = [self preRequisiteQuestWithID:questDict[MHDQuestFourthPrereqKey] withContext:context];
+//                if (preReq) {
+//                    [quest.prerequisiteSet addObject:preReq];
+//                }
+//            }
+//        }
+//    }
+}
+
+- (Quest *)preRequisiteQuestWithID:(NSNumber *)preReqID withContext:(NSManagedObjectContext *)context
+{
+    if (!preReqID) {
+        return nil;
+    }
+    NSPredicate *questPredicate = [NSPredicate predicateWithFormat:@"%K == %@", QuestAttributes.id, preReqID];
+    Quest *preReq = (Quest *)[self uniqueEntityWithEntityName:[Quest entityName]
+                                                withPredicate:questPredicate
+                                                  withContext:context];
+    if (!preReq) {
+        // We need to create an empty preRequisite quest.
+        preReq = [Quest insertInManagedObjectContext:context];
+        preReq.id = preReqID;
+    }
+    
+    return preReq;
 }
 
 - (Monster *)monsterWithName:(NSString *)name withContext:(NSManagedObjectContext *)context
@@ -571,6 +629,7 @@ static NSString *const MonsterDropFilePrefix = @"monster_drops";
     }
     
     NSURL *storeURL = [self.applicationDocumentsDirectory URLByAppendingPathComponent:@"MH4U_DEX.sqlite"];
+//    NSLog(@"%@", storeURL);
     NSFileManager *fileManager = [NSFileManager defaultManager];
     
     // If the expected store doesn't exist, copy the default store.
