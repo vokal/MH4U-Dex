@@ -76,6 +76,7 @@ static NSString *PointsConst = @"HRP Reward";
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
+    // We always need a general details section, but we don't need a section for the quest's monsters if the quest has no monsters.
     return self.questMonsters.count ? 2 : 1;
 }
 
