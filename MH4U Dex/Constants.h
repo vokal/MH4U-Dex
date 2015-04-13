@@ -133,7 +133,9 @@ FOUNDATION_EXPORT const struct MHDStoryBoardIdentifiers {
 
 FOUNDATION_EXPORT const struct MHDSegueIdentifiers {
     __unsafe_unretained NSString *embedQuestDetails;
+    __unsafe_unretained NSString *embedQuestRewards;
     __unsafe_unretained NSString *showQuestContainer;
+    __unsafe_unretained NSString *showQuestDropItem;
 } MHDSegueIdentifier;
 
 @end

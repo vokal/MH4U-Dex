@@ -133,6 +133,9 @@ const struct MHDStoryBoardIdentifiers MHDStoryBoardIdentifier = {
 
 const struct MHDSegueIdentifiers MHDSegueIdentifier = {
     .embedQuestDetails = @"embedQuestDetails",
+    .embedQuestRewards = @"embedQuestRewards",
     .showQuestContainer = @"showQuestContainerView",
+    .showQuestDropItem = @"showQuestDropItem",
 };
+
 @end
