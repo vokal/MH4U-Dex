@@ -8,6 +8,8 @@
 
 #import "QuestContainerViewController.h"
 
+#import "Constants.h"
+
 #import "Quest.h"
 
 #import "QuestDetailsTableViewController.h"
@@ -52,7 +54,7 @@ typedef NS_ENUM(NSInteger, QuestContainerSegmentedControlPage) {
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    if ([segue.identifier isEqualToString:@"embedQuestDetails"]) {
+    if ([segue.identifier isEqualToString:MHDSegueIdentifier.embedQuestDetails]) {
         QuestDetailsTableViewController *detailVC = (QuestDetailsTableViewController *)segue.destinationViewController;
         detailVC.quest = self.quest;
     }
