@@ -70,6 +70,8 @@
 		E471BE391A979F4C0076CBD7 /* RegionEncyclopediaCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E471BE381A979F4C0076CBD7 /* RegionEncyclopediaCollectionViewController.m */; };
 		E471BE3C1A979FF70076CBD7 /* Area.m in Sources */ = {isa = PBXBuildFile; fileRef = E471BE3B1A979FF70076CBD7 /* Area.m */; };
 		E471BE3F1A979FFE0076CBD7 /* _Area.m in Sources */ = {isa = PBXBuildFile; fileRef = E471BE3E1A979FFE0076CBD7 /* _Area.m */; };
+		E477BAB71ADC226E00930824 /* QuestContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E477BAB61ADC226E00930824 /* QuestContainerViewController.m */; };
+		E477BABA1ADC27A800930824 /* QuestDetailsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E477BAB91ADC27A800930824 /* QuestDetailsTableViewController.m */; };
 		E47878CE1ACEE012007AD8DE /* monsterDamage.json in Resources */ = {isa = PBXBuildFile; fileRef = E47878CD1ACEE012007AD8DE /* monsterDamage.json */; };
 		E48A67831ABB7A8E00C5EE81 /* monster_drops10.json in Resources */ = {isa = PBXBuildFile; fileRef = E48A67781ABB7A8E00C5EE81 /* monster_drops10.json */; };
 		E48A67841ABB7A8E00C5EE81 /* monster_drops9.json in Resources */ = {isa = PBXBuildFile; fileRef = E48A67791ABB7A8E00C5EE81 /* monster_drops9.json */; };
@@ -235,6 +237,10 @@
 		E471BE3B1A979FF70076CBD7 /* Area.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Area.m; sourceTree = "<group>"; };
 		E471BE3D1A979FFE0076CBD7 /* _Area.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Area.h; sourceTree = "<group>"; };
 		E471BE3E1A979FFE0076CBD7 /* _Area.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Area.m; sourceTree = "<group>"; };
+		E477BAB51ADC226E00930824 /* QuestContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestContainerViewController.h; sourceTree = "<group>"; };
+		E477BAB61ADC226E00930824 /* QuestContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestContainerViewController.m; sourceTree = "<group>"; };
+		E477BAB81ADC27A800930824 /* QuestDetailsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestDetailsTableViewController.h; sourceTree = "<group>"; };
+		E477BAB91ADC27A800930824 /* QuestDetailsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestDetailsTableViewController.m; sourceTree = "<group>"; };
 		E47878CD1ACEE012007AD8DE /* monsterDamage.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = monsterDamage.json; sourceTree = "<group>"; };
 		E48A67781ABB7A8E00C5EE81 /* monster_drops10.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = monster_drops10.json; sourceTree = "<group>"; };
 		E48A67791ABB7A8E00C5EE81 /* monster_drops9.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = monster_drops9.json; sourceTree = "<group>"; };
@@ -681,6 +687,10 @@
 				E4DAD22D1AB77F8B0048DACA /* QuestEncyclopediaContainerViewController.m */,
 				E4DAD22F1AB7813C0048DACA /* QuestListTableViewController.h */,
 				E4DAD2301AB7813C0048DACA /* QuestListTableViewController.m */,
+				E477BAB51ADC226E00930824 /* QuestContainerViewController.h */,
+				E477BAB61ADC226E00930824 /* QuestContainerViewController.m */,
+				E477BAB81ADC27A800930824 /* QuestDetailsTableViewController.h */,
+				E477BAB91ADC27A800930824 /* QuestDetailsTableViewController.m */,
 			);
 			name = Quests;
 			sourceTree = "<group>";
@@ -987,6 +997,7 @@
 				E434F3731A83F5CA004C10BF /* _Monster.m in Sources */,
 				E45F51A61ACC648E00C65741 /* UITableViewController+HeaderFooterChanger.m in Sources */,
 				E434F3791A83F5CA004C10BF /* Armor.m in Sources */,
+				E477BAB71ADC226E00930824 /* QuestContainerViewController.m in Sources */,
 				E4DAD22E1AB77F8B0048DACA /* QuestEncyclopediaContainerViewController.m in Sources */,
 				E434F36F1A83F5CA004C10BF /* _ArmorSet.m in Sources */,
 				E471BE351A979F060076CBD7 /* RegionEncyclopediaCollectionViewCell.m in Sources */,
@@ -1034,6 +1045,7 @@
 				E4C76B341A85638D00AD753B /* MonsterOverviewViewController.m in Sources */,
 				E4A72CE71AB0A75B006D338A /* AreaDropTableViewCell.m in Sources */,
 				E434F3811A83F5CA004C10BF /* Skilltree.m in Sources */,
+				E477BABA1ADC27A800930824 /* QuestDetailsTableViewController.m in Sources */,
 				E49958051A83D28E00799BBE /* main.m in Sources */,
 				E434F3711A83F5CA004C10BF /* _Decoration.m in Sources */,
 			);

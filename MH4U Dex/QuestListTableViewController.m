@@ -10,9 +10,12 @@
 
 #import <CoreData/CoreData.h>
 
+#import "Constants.h"
 #import "CoreDataController.h"
 
 #import "Quest.h"
+
+#import "QuestContainerViewController.h"
 
 #import "QuestListTableViewCell.h"
 
@@ -30,6 +33,17 @@
     NSPredicate *caravanPredicate = [NSPredicate predicateWithFormat:@"%K == %@", QuestAttributes.caravan, @(self.isCaravan)];
     self.fetchedResultsController = [self fetchedResultsControllerWithPredicate:caravanPredicate];
     self.fetchedResultsController.delegate = self;
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    QuestContainerViewController *questVC = (QuestContainerViewController *)segue.destinationViewController;
+    if ([segue.identifier isEqualToString:MHDSegueIdentifier.showQuestContainer]) {
+        if ([sender isMemberOfClass:[QuestListTableViewCell class]]) {
+            QuestListTableViewCell *cell = (QuestListTableViewCell *)sender;
+            questVC.quest = [self questAtIndexPath:[self.tableView indexPathForCell:cell]];
+        }
+    }
 }
 
 #pragma mark - Table view data source

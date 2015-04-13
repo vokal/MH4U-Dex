@@ -127,4 +127,12 @@ NSString *const MHDItemMonsterSources = @"ItemMonsterSources";
 NSString *const MHDAreaDropsTable = @"AreaDropsTable";
 NSString *const MHDMonsterDropsTable = @"MonsterDropsTable";
 
+const struct MHDStoryBoardIdentifiers MHDStoryBoardIdentifier = {
+    .main = @"Main",
+};
+
+const struct MHDSegueIdentifiers MHDSegueIdentifier = {
+    .embedQuestDetails = @"embedQuestDetails",
+    .showQuestContainer = @"showQuestContainerView",
+};
 @end

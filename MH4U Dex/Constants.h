@@ -125,4 +125,15 @@ FOUNDATION_EXPORT NSString *const MHDItemMonsterSources;
 FOUNDATION_EXPORT NSString *const MHDAreaDropsTable;
 FOUNDATION_EXPORT NSString *const MHDMonsterDropsTable;
 
+#pragma mark - StoryBoard/Segue Identifiers
+
+FOUNDATION_EXPORT const struct MHDStoryBoardIdentifiers {
+    __unsafe_unretained NSString *main;
+} MHDStoryBoardIdentifier;
+
+FOUNDATION_EXPORT const struct MHDSegueIdentifiers {
+    __unsafe_unretained NSString *embedQuestDetails;
+    __unsafe_unretained NSString *showQuestContainer;
+} MHDSegueIdentifier;
+
 @end
