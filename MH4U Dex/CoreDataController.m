@@ -191,8 +191,8 @@ static NSString *const QuestDropFilePrefix = @"quest_drops";
                 //Check if the quest even exists
                 NSPredicate *questPredicate = [NSPredicate predicateWithFormat:@"%K == %@", QuestAttributes.id, questDropDict[MHDQuestDropQuestIDKey]];
                 Quest *quest = (Quest *)[self uniqueEntityWithEntityName:[Quest entityName]
-                                                  withPredicate:questPredicate
-                                                    withContext:context];
+                                                           withPredicate:questPredicate
+                                                             withContext:context];
                 if (!quest) {
                     continue;
                 }
@@ -490,23 +490,23 @@ static NSString *const QuestDropFilePrefix = @"quest_drops";
     if (monster) {
         [quest.monsterSet addObject:monster];
         monsterPredicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterAttributes.name, questDict[MHDQuestSecondMonsterKey]];
-        monster = (Monster *)[self uniqueEntityWithEntityName:[Monster entityName]
-                                                withPredicate:monsterPredicate
-                                                  withContext:context];
-        if (monster) {
-            [quest.monsterSet addObject:monster];
+        Monster *secondMonster = (Monster *)[self uniqueEntityWithEntityName:[Monster entityName]
+                                                               withPredicate:monsterPredicate
+                                                                 withContext:context];
+        if (secondMonster) {
+            [quest.monsterSet addObject:secondMonster];
             monsterPredicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterAttributes.name, questDict[MHDQuestThirdMonsterKey]];
-            monster = (Monster *)[self uniqueEntityWithEntityName:[Monster entityName]
-                                                    withPredicate:monsterPredicate
-                                                      withContext:context];
-            if (monster) {
-                [quest.monsterSet addObject:monster];
+            Monster *thirdMonster = (Monster *)[self uniqueEntityWithEntityName:[Monster entityName]
+                                                                  withPredicate:monsterPredicate
+                                                                    withContext:context];
+            if (thirdMonster) {
+                [quest.monsterSet addObject:thirdMonster];
                 monsterPredicate = [NSPredicate predicateWithFormat:@"%K == %@", MonsterAttributes.name, questDict[MHDQuestFourthMonsterKey]];
-                monster = (Monster *)[self uniqueEntityWithEntityName:[Monster entityName]
-                                                        withPredicate:monsterPredicate
-                                                          withContext:context];
-                if (monster) {
-                    [quest.monsterSet addObject:monster];
+                Monster *fourthMonster = (Monster *)[self uniqueEntityWithEntityName:[Monster entityName]
+                                                                       withPredicate:monsterPredicate
+                                                                         withContext:context];
+                if (fourthMonster) {
+                    [quest.monsterSet addObject:fourthMonster];
                 }
             }
         }
