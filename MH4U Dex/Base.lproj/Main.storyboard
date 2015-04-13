@@ -111,7 +111,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oB9-Gy-ofg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2141" y="-3983"/>
+            <point key="canvasLocation" x="-2135" y="-3775"/>
         </scene>
         <!--Quest Container View Controller-->
         <scene sceneID="NTe-jJ-iLK">
@@ -147,6 +147,9 @@
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5RO-1F-B72" userLabel="Quest Rewards Container">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="440"/>
+                                <connections>
+                                    <segue destination="TKH-6I-ysc" kind="embed" identifier="embedQuestRewards" id="0gs-lP-udc"/>
+                                </connections>
                             </containerView>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -211,7 +214,77 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S8z-M2-tec" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2168" y="-4670"/>
+            <point key="canvasLocation" x="-2135" y="-4295"/>
+        </scene>
+        <!--Quest Rewards Table View Controller-->
+        <scene sceneID="do2-Ha-wa0">
+            <objects>
+                <tableViewController id="TKH-6I-ysc" customClass="QuestRewardsTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="45" sectionHeaderHeight="22" sectionFooterHeight="22" id="5n9-Lu-yvK">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="440"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="QuestRewardTableViewCell" id="ZI5-mK-9SV" customClass="QuestRewardTableViewCell">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ZI5-mK-9SV" id="o65-Q6-ARH">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quantity" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dlv-aS-3No">
+                                            <rect key="frame" x="488" y="11" width="50" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="50" id="3Gp-gy-LhD"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Percent" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V09-uQ-wjX">
+                                            <rect key="frame" x="548" y="11" width="42" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="42" id="dcP-g3-xnl"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="4" translatesAutoresizingMaskIntoConstraints="NO" id="22p-4R-bNW">
+                                            <rect key="frame" x="10" y="11" width="46" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="21" id="IZz-OL-12O"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="centerY" secondItem="V09-uQ-wjX" secondAttribute="centerY" id="Mdt-zN-Ugq"/>
+                                        <constraint firstItem="Dlv-aS-3No" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="22p-4R-bNW" secondAttribute="trailing" constant="10" id="WYm-rq-xUW"/>
+                                        <constraint firstItem="V09-uQ-wjX" firstAttribute="leading" secondItem="Dlv-aS-3No" secondAttribute="trailing" constant="10" id="aPk-ND-fnl"/>
+                                        <constraint firstAttribute="centerY" secondItem="22p-4R-bNW" secondAttribute="centerY" id="bfI-MF-aGA"/>
+                                        <constraint firstAttribute="centerY" secondItem="Dlv-aS-3No" secondAttribute="centerY" id="wIa-JV-vS2"/>
+                                        <constraint firstItem="22p-4R-bNW" firstAttribute="leading" secondItem="o65-Q6-ARH" secondAttribute="leading" constant="10" id="ytq-G8-mkG"/>
+                                        <constraint firstAttribute="trailing" secondItem="V09-uQ-wjX" secondAttribute="trailing" constant="10" id="zsi-lY-tzb"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="itemNameLabel" destination="22p-4R-bNW" id="e4Y-O6-zWL"/>
+                                    <outlet property="percentLabel" destination="V09-uQ-wjX" id="NEC-Os-Xnu"/>
+                                    <outlet property="quantityLabel" destination="Dlv-aS-3No" id="CEg-vX-P2h"/>
+                                    <segue destination="ilN-Gx-iPA" kind="show" identifier="showQuestDropItem" id="HGZ-Nr-qTV"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="TKH-6I-ysc" id="8Ep-cz-kcD"/>
+                            <outlet property="delegate" destination="TKH-6I-ysc" id="NQ9-0B-tPQ"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PUh-N6-oyw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2135" y="-4804"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="hG2-jh-r0j">
@@ -568,11 +641,11 @@
                         <viewControllerLayoutGuide type="bottom" id="tZy-sb-DXk"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="yoz-6J-J4K">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="440"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="6Np-Cv-fRb">
-                                <rect key="frame" x="30" y="562" width="540" height="29"/>
+                                <rect key="frame" x="30" y="402" width="540" height="29"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <segments>
                                     <segment title="Monster Sources"/>
@@ -589,20 +662,20 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wTo-N8-Ssa">
-                                <rect key="frame" x="16" y="82" width="64" height="65"/>
+                                <rect key="frame" x="16" y="18" width="64" height="65"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="65" id="4Ui-13-R2j"/>
                                     <constraint firstAttribute="width" constant="64" id="uD7-Iy-neY"/>
                                 </constraints>
                             </imageView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="myc-Rj-JoV" userLabel="Monster Source Container">
-                                <rect key="frame" x="0.0" y="160" width="600" height="392"/>
+                                <rect key="frame" x="0.0" y="96" width="600" height="296"/>
                                 <connections>
                                     <segue destination="n0T-Mc-SlZ" kind="embed" identifier="embedMonsterSources" id="0jB-6V-Ak8"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="quK-cv-pc1" userLabel="Gather Source Container">
-                                <rect key="frame" x="0.0" y="160" width="600" height="392"/>
+                                <rect key="frame" x="0.0" y="96" width="600" height="296"/>
                                 <connections>
                                     <segue destination="n0T-Mc-SlZ" kind="embed" identifier="embedAreaSources" id="cTp-2l-kMX"/>
                                 </connections>
@@ -647,7 +720,7 @@
             <objects>
                 <tableViewController id="n0T-Mc-SlZ" customClass="ItemSourcesTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="45" sectionHeaderHeight="22" sectionFooterHeight="22" id="KHj-aV-Mq3">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="392"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="296"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <view key="tableHeaderView" contentMode="scaleToFill" id="zOL-N3-ei4">
@@ -1209,9 +1282,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="OWj-AQ-QBO"/>
         <segue reference="W2D-xv-a7l"/>
         <segue reference="MKc-sF-dxr"/>
+        <segue reference="HGZ-Nr-qTV"/>
         <segue reference="0jB-6V-Ak8"/>
+        <segue reference="OWj-AQ-QBO"/>
     </inferredMetricsTieBreakers>
 </document>

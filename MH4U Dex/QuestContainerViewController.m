@@ -13,6 +13,7 @@
 #import "Quest.h"
 
 #import "QuestDetailsTableViewController.h"
+#import "QuestRewardsTableViewController.h"
 
 typedef NS_ENUM(NSInteger, QuestContainerSegmentedControlPage) {
     Details = 0,
@@ -57,6 +58,9 @@ typedef NS_ENUM(NSInteger, QuestContainerSegmentedControlPage) {
     if ([segue.identifier isEqualToString:MHDSegueIdentifier.embedQuestDetails]) {
         QuestDetailsTableViewController *detailVC = (QuestDetailsTableViewController *)segue.destinationViewController;
         detailVC.quest = self.quest;
+    } else if ([segue.identifier isEqualToString:MHDSegueIdentifier.embedQuestRewards]) {
+        QuestRewardsTableViewController *rewardVC = (QuestRewardsTableViewController *)segue.destinationViewController;
+        rewardVC.quest = self.quest;
     }
 }
 
