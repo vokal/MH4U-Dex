@@ -88,6 +88,7 @@ typedef NS_ENUM(NSInteger, MonsterSegmentedControlPage) {
     } else if ([segue.identifier isEqualToString:@"embedMonsterQuests"]) {
         MonsterQuestsTableViewController *questVC = (MonsterQuestsTableViewController *)segue.destinationViewController;
         questVC.monster = self.monster;
+        questVC.isMonsterLink = YES;
     } else {
         MonsterItemTableViewController *itemVC = (MonsterItemTableViewController *)segue.destinationViewController;
         itemVC.monster = self.monster;

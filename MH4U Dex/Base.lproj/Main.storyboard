@@ -122,11 +122,11 @@
                         <viewControllerLayoutGuide type="bottom" id="43c-gw-CuH"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="tAx-fA-lYb">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="488"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="438"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="YWD-hu-ve8">
-                                <rect key="frame" x="30" y="450" width="540" height="29"/>
+                                <rect key="frame" x="30" y="400" width="540" height="29"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="28" id="INL-tE-8Je"/>
@@ -140,13 +140,13 @@
                                 </connections>
                             </segmentedControl>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xFi-7d-SGB" userLabel="Quest Details Container">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="440"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="390"/>
                                 <connections>
                                     <segue destination="peA-nf-2UA" kind="embed" identifier="embedQuestDetails" id="rLU-63-9Yb"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5RO-1F-B72" userLabel="Quest Rewards Container">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="440"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="390"/>
                                 <connections>
                                     <segue destination="TKH-6I-ysc" kind="embed" identifier="embedQuestRewards" id="0gs-lP-udc"/>
                                 </connections>
@@ -181,7 +181,7 @@
             <objects>
                 <tableViewController id="peA-nf-2UA" customClass="QuestDetailsTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="0V4-2s-CHM">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="440"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="390"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
@@ -221,7 +221,7 @@
             <objects>
                 <tableViewController id="TKH-6I-ysc" customClass="QuestRewardsTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="45" sectionHeaderHeight="22" sectionFooterHeight="22" id="5n9-Lu-yvK">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="440"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="390"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
@@ -417,6 +417,12 @@
                                     <segue destination="jDA-QE-11i" kind="embed" identifier="embedGRankRegionItems" id="W2D-xv-a7l"/>
                                 </connections>
                             </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bpj-yM-osb" userLabel="QuestContainer">
+                                <rect key="frame" x="0.0" y="114" width="600" height="438"/>
+                                <connections>
+                                    <segue destination="uha-c7-Hwa" kind="embed" identifier="embedRegionQuests" id="pwN-vp-pcV"/>
+                                </connections>
+                            </containerView>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="H3p-SW-Bxj">
                                 <rect key="frame" x="30" y="562" width="540" height="29"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -427,6 +433,7 @@
                                     <segment title="Low-Rank Items"/>
                                     <segment title="High-Rank Items"/>
                                     <segment title="G-Rank Items"/>
+                                    <segment title="Quests"/>
                                 </segments>
                                 <connections>
                                     <action selector="segmentedControlChanged:" destination="3ay-fh-pTm" eventType="valueChanged" id="s6P-aO-OeF"/>
@@ -436,11 +443,13 @@
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="H3p-SW-Bxj" firstAttribute="width" secondItem="DpF-SY-oC9" secondAttribute="width" multiplier="9/10" id="0Ua-QG-Dup"/>
+                            <constraint firstItem="zoj-nd-0Bf" firstAttribute="centerY" secondItem="Bpj-yM-osb" secondAttribute="centerY" id="3IZ-53-h77"/>
                             <constraint firstItem="zoj-nd-0Bf" firstAttribute="trailing" secondItem="Mkv-vf-Zjy" secondAttribute="trailing" id="6nD-DD-t4h"/>
                             <constraint firstItem="zoj-nd-0Bf" firstAttribute="width" secondItem="Mkv-vf-Zjy" secondAttribute="width" id="7cg-Vl-bTT"/>
                             <constraint firstItem="4Ei-Nb-H0z" firstAttribute="top" secondItem="H3p-SW-Bxj" secondAttribute="bottom" constant="10" id="9np-cY-Aed"/>
                             <constraint firstItem="12S-jo-BsU" firstAttribute="leading" secondItem="DpF-SY-oC9" secondAttribute="leading" constant="20" id="ACD-RK-H90"/>
                             <constraint firstItem="zoj-nd-0Bf" firstAttribute="centerY" secondItem="Mkv-vf-Zjy" secondAttribute="centerY" id="CGD-Hc-ZP7"/>
+                            <constraint firstItem="zoj-nd-0Bf" firstAttribute="width" secondItem="Bpj-yM-osb" secondAttribute="width" id="DbK-iJ-FNN"/>
                             <constraint firstItem="zoj-nd-0Bf" firstAttribute="centerX" secondItem="C79-9Q-R1N" secondAttribute="centerX" id="Ems-Xi-8YK"/>
                             <constraint firstAttribute="width" secondItem="zoj-nd-0Bf" secondAttribute="width" id="MBo-fh-xeA"/>
                             <constraint firstAttribute="trailingMargin" secondItem="12S-jo-BsU" secondAttribute="trailing" constant="20" id="Q5w-9q-PxZ"/>
@@ -450,8 +459,10 @@
                             <constraint firstItem="zoj-nd-0Bf" firstAttribute="height" secondItem="Mkv-vf-Zjy" secondAttribute="height" id="UNa-Ve-x8K"/>
                             <constraint firstItem="zoj-nd-0Bf" firstAttribute="height" secondItem="C79-9Q-R1N" secondAttribute="height" id="XIX-K0-MPJ"/>
                             <constraint firstItem="H3p-SW-Bxj" firstAttribute="top" secondItem="zoj-nd-0Bf" secondAttribute="bottom" constant="10" id="ac2-bC-VLX"/>
+                            <constraint firstItem="zoj-nd-0Bf" firstAttribute="centerX" secondItem="Bpj-yM-osb" secondAttribute="centerX" id="fEa-fl-hqg"/>
                             <constraint firstAttribute="centerX" secondItem="H3p-SW-Bxj" secondAttribute="centerX" id="hA5-4G-mii"/>
                             <constraint firstItem="zoj-nd-0Bf" firstAttribute="top" secondItem="12S-jo-BsU" secondAttribute="bottom" constant="14" id="t9o-Xs-oA7"/>
+                            <constraint firstItem="zoj-nd-0Bf" firstAttribute="height" secondItem="Bpj-yM-osb" secondAttribute="height" id="tQw-dx-sDG"/>
                             <constraint firstItem="zoj-nd-0Bf" firstAttribute="width" secondItem="C79-9Q-R1N" secondAttribute="width" id="xgU-8d-3sX"/>
                             <constraint firstItem="zoj-nd-0Bf" firstAttribute="centerY" secondItem="C79-9Q-R1N" secondAttribute="centerY" id="yWw-cE-Nax"/>
                             <constraint firstItem="12S-jo-BsU" firstAttribute="top" secondItem="WN5-EI-1Ru" secondAttribute="bottom" constant="15" id="zh8-h8-Mm5"/>
@@ -467,6 +478,7 @@
                         <outlet property="regionHighRankSubview" destination="C79-9Q-R1N" id="dOb-Md-9r5"/>
                         <outlet property="regionLowRankSubview" destination="zoj-nd-0Bf" id="kSW-fz-PJc"/>
                         <outlet property="regionNameLabel" destination="12S-jo-BsU" id="u6m-7l-OgW"/>
+                        <outlet property="regionQuestSubview" destination="Bpj-yM-osb" id="a98-gP-F18"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oaf-EH-2f7" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -646,11 +658,11 @@
                         <viewControllerLayoutGuide type="bottom" id="tZy-sb-DXk"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="yoz-6J-J4K">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="440"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="390"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="6Np-Cv-fRb">
-                                <rect key="frame" x="30" y="402" width="540" height="29"/>
+                                <rect key="frame" x="30" y="352" width="540" height="29"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <segments>
                                     <segment title="Monster Sources"/>
@@ -675,19 +687,19 @@
                                 </constraints>
                             </imageView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="myc-Rj-JoV" userLabel="Monster Source Container">
-                                <rect key="frame" x="0.0" y="96" width="600" height="296"/>
+                                <rect key="frame" x="0.0" y="96" width="600" height="246"/>
                                 <connections>
                                     <segue destination="n0T-Mc-SlZ" kind="embed" identifier="embedMonsterSources" id="0jB-6V-Ak8"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="quK-cv-pc1" userLabel="Gather Source Container">
-                                <rect key="frame" x="0.0" y="96" width="600" height="296"/>
+                                <rect key="frame" x="0.0" y="96" width="600" height="246"/>
                                 <connections>
                                     <segue destination="n0T-Mc-SlZ" kind="embed" identifier="embedAreaSources" id="cTp-2l-kMX"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6yH-aS-M0b" userLabel="Quest Source Container">
-                                <rect key="frame" x="0.0" y="96" width="600" height="296"/>
+                                <rect key="frame" x="0.0" y="96" width="600" height="246"/>
                                 <connections>
                                     <segue destination="n0T-Mc-SlZ" kind="embed" identifier="embedQuestSources" id="xOn-Oq-Bwg"/>
                                 </connections>
@@ -737,7 +749,7 @@
             <objects>
                 <tableViewController id="n0T-Mc-SlZ" customClass="ItemSourcesTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="45" sectionHeaderHeight="22" sectionFooterHeight="22" id="KHj-aV-Mq3">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="296"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="246"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <view key="tableHeaderView" contentMode="scaleToFill" id="zOL-N3-ei4">
@@ -840,7 +852,7 @@
             <objects>
                 <tableViewController title="MonsterQuestsTableViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="uha-c7-Hwa" customClass="MonsterQuestsTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Dmp-4d-Db2">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="488"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="438"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <view key="tableHeaderView" contentMode="scaleToFill" id="lgj-q7-5QV">
@@ -1371,11 +1383,12 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="pwN-vp-pcV"/>
         <segue reference="W2D-xv-a7l"/>
-        <segue reference="MKc-sF-dxr"/>
-        <segue reference="OWj-AQ-QBO"/>
         <segue reference="wN5-Bs-zYP"/>
         <segue reference="HGZ-Nr-qTV"/>
         <segue reference="xOn-Oq-Bwg"/>
+        <segue reference="MKc-sF-dxr"/>
+        <segue reference="OWj-AQ-QBO"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -13,6 +13,7 @@
 #import "Constants.h"
 #import "CoreDataController.h"
 
+#import "MonsterQuestsTableViewController.h"
 #import "RegionItemTableViewController.h"
 
 #import "Region.h"
@@ -21,9 +22,10 @@ typedef NS_ENUM(NSInteger, RegionSegmentedControlPage) {
     LowRank = 0,
     HighRank = 1,
     GRank = 2,
-    Map = 3,
+    RegionQuest = 3,
+    Map = 4,
     
-    MonsterSegmentedControlCount
+    RegionSegmentedControlCount
 };
 
 @interface RegionContainerViewController ()
@@ -31,6 +33,7 @@ typedef NS_ENUM(NSInteger, RegionSegmentedControlPage) {
 @property (nonatomic, weak) IBOutlet UIView *regionLowRankSubview;
 @property (nonatomic, weak) IBOutlet UIView *regionHighRankSubview;
 @property (nonatomic, weak) IBOutlet UIView *regionGRankSubview;
+@property (nonatomic, weak) IBOutlet UIView *regionQuestSubview;
 @property (nonatomic, weak) IBOutlet UILabel *regionNameLabel;
 
 @end
@@ -60,6 +63,10 @@ typedef NS_ENUM(NSInteger, RegionSegmentedControlPage) {
         dropVC.rank = MHDHighConstString;
     } else if ([segue.identifier isEqualToString:@"embedGRankRegionItems"]) {
         dropVC.rank = MHDGConstString;
+    } else if ([segue.identifier isEqualToString:@"embedRegionQuests"]) {
+        MonsterQuestsTableViewController *questVC = (MonsterQuestsTableViewController *)segue.destinationViewController;
+        questVC.region = self.region;
+        questVC.isMonsterLink = NO;
     }
 }
 
@@ -70,19 +77,29 @@ typedef NS_ENUM(NSInteger, RegionSegmentedControlPage) {
             self.regionLowRankSubview.hidden = NO;
             self.regionHighRankSubview.hidden = YES;
             self.regionGRankSubview.hidden = YES;
+            self.regionQuestSubview.hidden = YES;
             self.title = [NSString stringWithFormat:@"%@ Low-Rank Items", self.region.name];
             break;
         case HighRank:
             self.regionLowRankSubview.hidden = YES;
             self.regionHighRankSubview.hidden = NO;
             self.regionGRankSubview.hidden = YES;
+            self.regionQuestSubview.hidden = YES;
             self.title = [NSString stringWithFormat:@"%@ High-Rank Items", self.region.name];
             break;
         case GRank:
             self.regionLowRankSubview.hidden = YES;
             self.regionHighRankSubview.hidden = YES;
             self.regionGRankSubview.hidden = NO;
+            self.regionQuestSubview.hidden = YES;
             self.title = [NSString stringWithFormat:@"%@ G-Rank Items", self.region.name];
+            break;
+        case RegionQuest:
+            self.regionLowRankSubview.hidden = YES;
+            self.regionHighRankSubview.hidden = YES;
+            self.regionGRankSubview.hidden = YES;
+            self.regionQuestSubview.hidden = NO;
+            self.title = [NSString stringWithFormat:@"Quests in %@", self.region.name];
             break;
     }
 }

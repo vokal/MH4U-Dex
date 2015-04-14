@@ -9,9 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @class Monster;
+@class Region;
 
 @interface MonsterQuestsTableViewController : UITableViewController
 
 @property (nonatomic, strong) Monster *monster;
+@property (nonatomic, strong) Region *region;
+@property (nonatomic, assign) BOOL isMonsterLink;
 
 @end

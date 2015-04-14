@@ -12,6 +12,7 @@
 
 #import "Monster.h"
 #import "Quest.h"
+#import "Region.h"
 
 #import "QuestContainerViewController.h"
 
@@ -28,7 +29,11 @@
     [super viewDidLoad];
     
     NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:QuestAttributes.id ascending:YES];
-    self.questArray = [self.monster.quest sortedArrayUsingDescriptors:@[sortDescriptor]];
+    if (self.isMonsterLink) {
+        self.questArray = [self.monster.quest sortedArrayUsingDescriptors:@[sortDescriptor]];
+    } else {
+        self.questArray = [self.region.quest sortedArrayUsingDescriptors:@[sortDescriptor]];
+    }
     [self mhd_changeHeaderFooterForArray:self.questArray];
 }
 
