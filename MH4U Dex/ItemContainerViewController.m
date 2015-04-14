@@ -15,6 +15,7 @@
 typedef NS_ENUM(NSInteger, ItemSegmentedControlPage) {
     MonsterSources = 0,
     AreaSources = 1,
+    QuestSources = 2,
     
     ItemSegmentedControlCount
 };
@@ -23,6 +24,7 @@ typedef NS_ENUM(NSInteger, ItemSegmentedControlPage) {
 
 @property (weak, nonatomic) IBOutlet UIView *monsterSourceSubView;
 @property (weak, nonatomic) IBOutlet UIView *areaSourceSubView;
+@property (weak, nonatomic) IBOutlet UIView *questSourceSubView;
 @property (weak, nonatomic) IBOutlet UILabel *itemNameLabel;
 
 @end
@@ -33,6 +35,7 @@ typedef NS_ENUM(NSInteger, ItemSegmentedControlPage) {
 {
     [super viewDidLoad];
     self.areaSourceSubView.hidden = YES;
+    self.questSourceSubView.hidden = YES;
     self.navigationItem.title = [NSString stringWithFormat:@"%@ Drop Sources", self.item.name];
     self.itemNameLabel.text = self.item.name;
 }
@@ -43,10 +46,17 @@ typedef NS_ENUM(NSInteger, ItemSegmentedControlPage) {
         case MonsterSources:
             self.monsterSourceSubView.hidden = NO;
             self.areaSourceSubView.hidden = YES;
+            self.questSourceSubView.hidden = YES;
             break;
         case AreaSources:
             self.monsterSourceSubView.hidden = YES;
             self.areaSourceSubView.hidden = NO;
+            self.questSourceSubView.hidden = YES;
+            break;
+        case QuestSources:
+            self.monsterSourceSubView.hidden = YES;
+            self.areaSourceSubView.hidden = YES;
+            self.questSourceSubView.hidden = NO;
             break;
         default:
             break;
@@ -57,11 +67,15 @@ typedef NS_ENUM(NSInteger, ItemSegmentedControlPage) {
 {
     if ([segue.identifier isEqualToString:@"embedMonsterSources"]) {
         ItemSourcesTableViewController *dropVC = (ItemSourcesTableViewController *)segue.destinationViewController;
-        dropVC.isMonsterSource = YES;
+        dropVC.sourceType = @"Monster";
         dropVC.item = self.item;
     } else if ([segue.identifier isEqualToString:@"embedAreaSources"]) {
         ItemSourcesTableViewController *dropVC = (ItemSourcesTableViewController *)segue.destinationViewController;
-        dropVC.isMonsterSource = NO;
+        dropVC.sourceType = @"Area";
+        dropVC.item = self.item;
+    } else if ([segue.identifier isEqualToString:@"embedQuestSources"]) {
+        ItemSourcesTableViewController *dropVC = (ItemSourcesTableViewController *)segue.destinationViewController;
+        dropVC.sourceType = @"Quest";
         dropVC.item = self.item;
     }
 }

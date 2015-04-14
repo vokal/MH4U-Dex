@@ -17,6 +17,7 @@
 
 #import "MonsterContainerViewController.h"
 #import "RegionContainerViewController.h"
+#import "QuestContainerViewController.h"
 
 #import "Area.h"
 #import "AreaDrop.h"
@@ -24,6 +25,8 @@
 #import "Item.h"
 #import "Monster.h"
 #import "MonsterDrop.h"
+#import "Quest.h"
+#import "QuestDrop.h"
 
 #import "ItemSourceTableViewCell.h"
 
@@ -39,12 +42,15 @@
 {
     [super viewDidLoad];
 
-    if (self.isMonsterSource) {
+    if ([self.sourceType isEqualToString:@"Monster"]) {
         self.sources = [self.item.monsterSource sortedArrayUsingDescriptors:@[[NSSortDescriptor sortDescriptorWithKey:MonsterDropAttributes.id ascending:YES]]];
         self.tableView.accessibilityIdentifier = MHDItemMonsterSources;
-    } else {
+    } else if ([self.sourceType isEqualToString:@"Area"]) {
         self.sources = [self.item.areaSource sortedArrayUsingDescriptors:@[[NSSortDescriptor sortDescriptorWithKey:AreaDropAttributes.idDecimalString ascending:YES]]];
         self.tableView.accessibilityIdentifier = MHDItemAreaSources;
+    } else {
+        self.sources = [self.item.questSource sortedArrayUsingDescriptors:@[[NSSortDescriptor sortDescriptorWithKey:DropAttributes.percent ascending:NO]]];
+        self.tableView.accessibilityHint = MHDItemQuestSources;
     }
     // If the item cannot be found from any monsters/areas ...
     if (!self.sources) {
@@ -76,16 +82,21 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    if (self.isMonsterSource) {
+    if ([self.sourceType isEqualToString:@"Monster"]) {
         MonsterContainerViewController *monsterVC = [storyBoard instantiateViewControllerWithIdentifier:NSStringFromClass([MonsterContainerViewController class])];
         MonsterDrop *drop = (MonsterDrop *)[self dropAtIndexPath:indexPath];
         monsterVC.monster = drop.monsterSource;
         [self.navigationController pushViewController:monsterVC animated:YES];
-    } else {
+    } else if ([self.sourceType isEqualToString:@"Area"]) {
         RegionContainerViewController *regionVC = [storyBoard instantiateViewControllerWithIdentifier:NSStringFromClass([RegionContainerViewController class])];
         AreaDrop *drop = (AreaDrop *)[self dropAtIndexPath:indexPath];
         regionVC.region = drop.area.region;
         [self.navigationController pushViewController:regionVC animated:YES];
+    } else {
+        QuestContainerViewController *questVC = [storyBoard instantiateViewControllerWithIdentifier:NSStringFromClass([QuestContainerViewController class])];
+        QuestDrop *drop = (QuestDrop *)[self dropAtIndexPath:indexPath];
+        questVC.quest = drop.quest;
+        [self.navigationController pushViewController:questVC animated:YES];
     }
 }
 

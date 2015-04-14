@@ -650,6 +650,7 @@
                                 <segments>
                                     <segment title="Monster Sources"/>
                                     <segment title="Gathering Sources"/>
+                                    <segment title="Quest Sources"/>
                                 </segments>
                                 <connections>
                                     <action selector="segmentedControlChanged:" destination="ilN-Gx-iPA" eventType="valueChanged" id="bgx-F0-0es"/>
@@ -680,10 +681,17 @@
                                     <segue destination="n0T-Mc-SlZ" kind="embed" identifier="embedAreaSources" id="cTp-2l-kMX"/>
                                 </connections>
                             </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6yH-aS-M0b" userLabel="Quest Source Container">
+                                <rect key="frame" x="0.0" y="96" width="600" height="296"/>
+                                <connections>
+                                    <segue destination="n0T-Mc-SlZ" kind="embed" identifier="embedQuestSources" id="xOn-Oq-Bwg"/>
+                                </connections>
+                            </containerView>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="wTo-N8-Ssa" firstAttribute="leading" secondItem="yoz-6J-J4K" secondAttribute="leadingMargin" id="5AM-2R-2pB"/>
+                            <constraint firstItem="6yH-aS-M0b" firstAttribute="centerY" secondItem="myc-Rj-JoV" secondAttribute="centerY" id="7QH-8J-VkG"/>
                             <constraint firstAttribute="trailingMargin" secondItem="myc-Rj-JoV" secondAttribute="trailing" constant="-16" id="7fB-M3-vo8"/>
                             <constraint firstItem="tZy-sb-DXk" firstAttribute="top" secondItem="6Np-Cv-fRb" secondAttribute="bottom" constant="10" id="AlF-c3-ro2"/>
                             <constraint firstItem="myc-Rj-JoV" firstAttribute="top" secondItem="tWp-HV-Qcd" secondAttribute="bottom" constant="96" id="Bf4-aZ-Z6i"/>
@@ -692,6 +700,9 @@
                             <constraint firstItem="quK-cv-pc1" firstAttribute="centerY" secondItem="myc-Rj-JoV" secondAttribute="centerY" id="KA4-OQ-dHn"/>
                             <constraint firstAttribute="centerX" secondItem="6Np-Cv-fRb" secondAttribute="centerX" id="KdJ-w5-nNG"/>
                             <constraint firstItem="quK-cv-pc1" firstAttribute="top" secondItem="tWp-HV-Qcd" secondAttribute="bottom" constant="96" id="MwI-kc-eAB"/>
+                            <constraint firstItem="6yH-aS-M0b" firstAttribute="height" secondItem="myc-Rj-JoV" secondAttribute="height" id="SR1-Lj-vpM"/>
+                            <constraint firstItem="6yH-aS-M0b" firstAttribute="width" secondItem="myc-Rj-JoV" secondAttribute="width" id="ZCD-kG-rRW"/>
+                            <constraint firstItem="6yH-aS-M0b" firstAttribute="centerX" secondItem="myc-Rj-JoV" secondAttribute="centerX" id="ZwB-6z-QyJ"/>
                             <constraint firstItem="quK-cv-pc1" firstAttribute="height" secondItem="myc-Rj-JoV" secondAttribute="height" id="dTX-ad-zVF"/>
                             <constraint firstAttribute="width" secondItem="6Np-Cv-fRb" secondAttribute="width" multiplier="10/9" id="eKM-YC-Ko8"/>
                             <constraint firstItem="quK-cv-pc1" firstAttribute="centerX" secondItem="myc-Rj-JoV" secondAttribute="centerX" id="efh-bO-gqE"/>
@@ -709,6 +720,7 @@
                         <outlet property="areaSourceSubView" destination="quK-cv-pc1" id="g78-kE-YNL"/>
                         <outlet property="itemNameLabel" destination="I2e-Mc-7Fg" id="MeS-H0-z01"/>
                         <outlet property="monsterSourceSubView" destination="myc-Rj-JoV" id="CjN-UO-gWq"/>
+                        <outlet property="questSourceSubView" destination="6yH-aS-M0b" id="qUh-cs-dp6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="80c-c8-yUa" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1285,7 +1297,7 @@
         <segue reference="W2D-xv-a7l"/>
         <segue reference="MKc-sF-dxr"/>
         <segue reference="HGZ-Nr-qTV"/>
-        <segue reference="0jB-6V-Ak8"/>
+        <segue reference="xOn-Oq-Bwg"/>
         <segue reference="OWj-AQ-QBO"/>
     </inferredMetricsTieBreakers>
 </document>
