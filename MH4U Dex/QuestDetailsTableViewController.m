@@ -12,6 +12,7 @@
 
 #import "Monster.h"
 #import "Quest.h"
+#import "Region.h"
 
 #import "MonsterContainerViewController.h"
 
@@ -46,6 +47,7 @@ typedef NS_ENUM(NSInteger, QuestDetailSections) {
                                @"Quest Fee",
                                @"Zenny Reward",
                                @"HRP Reward",
+                               @"Quest Region",
                                ];
     self.questDetailsDict = @{
                                self.questDetailLabels[0]: self.quest.caravan,
@@ -59,6 +61,7 @@ typedef NS_ENUM(NSInteger, QuestDetailSections) {
                                self.questDetailLabels[8]: self.quest.fee,
                                self.questDetailLabels[9]: self.quest.reward,
                                self.questDetailLabels[10]: self.quest.hrp,
+                               self.questDetailLabels[11]: self.quest.region.name,
                                };
     NSSortDescriptor *descriptor = [[NSSortDescriptor alloc] initWithKey:MonsterAttributes.sort_name ascending:YES];
     self.questMonsters = [self.quest.monster sortedArrayUsingDescriptors:@[descriptor]];
@@ -108,7 +111,8 @@ typedef NS_ENUM(NSInteger, QuestDetailSections) {
             cell.detailTextLabel.text = number.stringValue;
         }
     } else {
-        cell.detailTextLabel.text = self.questDetailsDict[rowKey];
+        // If the entry is nil, (as may be the case for some quest regions) write "Other"
+        cell.detailTextLabel.text = self.questDetailsDict[rowKey] ?: @"Other";
     }
     return cell;
 }
