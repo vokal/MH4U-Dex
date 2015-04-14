@@ -314,16 +314,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="MonsterButton" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6nV-ZO-7g8">
-                                <rect key="frame" x="48" y="91" width="110" height="24"/>
+                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="MonsterButton" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6nV-ZO-7g8">
+                                <rect key="frame" x="268" y="91" width="64" height="30"/>
                                 <accessibility key="accessibilityConfiguration" label="Monsters"/>
                                 <state key="normal" title="Monsters"/>
                                 <connections>
                                     <segue destination="7R8-uo-bma" kind="show" identifier="showMonsterEncyclopedia" id="CrV-vF-6Tz"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zaX-YV-BZF">
-                                <rect key="frame" x="84" y="138" width="38" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zaX-YV-BZF">
+                                <rect key="frame" x="281" y="138" width="38" height="30"/>
                                 <accessibility key="accessibilityConfiguration" label="Items"/>
                                 <state key="normal" title="Items">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -332,8 +332,8 @@
                                     <segue destination="9ls-kE-ufZ" kind="show" identifier="showItemEncyclopedia" id="eQQ-lS-C0y"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cqU-e0-FKq">
-                                <rect key="frame" x="60" y="195" width="87" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cqU-e0-FKq">
+                                <rect key="frame" x="272" y="195" width="56" height="30"/>
                                 <accessibility key="accessibilityConfiguration" label="Regions"/>
                                 <state key="normal" title="Regions">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -342,8 +342,8 @@
                                     <segue destination="mCb-Rc-oQ0" kind="show" identifier="showRegionEncyclopedia" id="mid-SU-e3D"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B6S-ij-o9c">
-                                <rect key="frame" x="76" y="256" width="49" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B6S-ij-o9c">
+                                <rect key="frame" x="276" y="256" width="49" height="30"/>
                                 <state key="normal" title="Quests">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -351,8 +351,8 @@
                                     <segue destination="hfi-eK-gsg" kind="show" id="dX6-Hf-8Bu"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cxa-Tg-f1x">
-                                <rect key="frame" x="35" y="377" width="136" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cxa-Tg-f1x">
+                                <rect key="frame" x="232" y="305" width="136" height="30"/>
                                 <state key="normal" title="RESET CORE DATA">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -360,15 +360,20 @@
                                     <action selector="resetButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Pq4-Sn-1uo"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Home Screen" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hoY-tt-n3W">
-                                <rect key="frame" x="248" y="72" width="105" height="21"/>
-                                <accessibility key="accessibilityConfiguration" label="Home Screen"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="cqU-e0-FKq" secondAttribute="centerX" id="4Ze-c8-CFs"/>
+                            <constraint firstAttribute="centerX" secondItem="6nV-ZO-7g8" secondAttribute="centerX" id="Av4-eu-lsK"/>
+                            <constraint firstItem="zaX-YV-BZF" firstAttribute="top" secondItem="6nV-ZO-7g8" secondAttribute="bottom" constant="17" id="JYa-Fx-HWN"/>
+                            <constraint firstItem="Cxa-Tg-f1x" firstAttribute="top" secondItem="B6S-ij-o9c" secondAttribute="bottom" constant="19" id="WDN-1f-oav"/>
+                            <constraint firstAttribute="centerX" secondItem="B6S-ij-o9c" secondAttribute="centerX" id="YRC-yf-DJx"/>
+                            <constraint firstAttribute="centerX" secondItem="Cxa-Tg-f1x" secondAttribute="centerX" id="e9u-Jd-Hjc"/>
+                            <constraint firstItem="6nV-ZO-7g8" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="27" id="flV-Mb-Ndn"/>
+                            <constraint firstAttribute="centerX" secondItem="zaX-YV-BZF" secondAttribute="centerX" id="qaZ-l6-9Le"/>
+                            <constraint firstItem="B6S-ij-o9c" firstAttribute="top" secondItem="cqU-e0-FKq" secondAttribute="bottom" constant="31" id="ugc-wb-go6"/>
+                            <constraint firstItem="cqU-e0-FKq" firstAttribute="top" secondItem="zaX-YV-BZF" secondAttribute="bottom" constant="27" id="zJc-YG-8bQ"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="QMz-Yj-ify"/>
                 </viewController>
