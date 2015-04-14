@@ -9,12 +9,14 @@
 #import "QuestDetailsTableViewController.h"
 
 #import "Constants.h"
+#import "CoreDataController.h"
 
 #import "Monster.h"
 #import "Quest.h"
 #import "Region.h"
 
 #import "MonsterContainerViewController.h"
+#import "RegionContainerViewController.h"
 
 typedef NS_ENUM(NSInteger, QuestDetailSections) {
     DetailsSection = 0,
@@ -49,20 +51,38 @@ typedef NS_ENUM(NSInteger, QuestDetailSections) {
                                @"HRP Reward",
                                @"Quest Region",
                                ];
-    self.questDetailsDict = @{
-                               self.questDetailLabels[0]: self.quest.caravan,
-                               self.questDetailLabels[1]: self.quest.stars,
-                               self.questDetailLabels[2]: self.quest.objective,
-                               self.questDetailLabels[3]: self.quest.subObjective,
-                               self.questDetailLabels[4]: self.quest.type,
-                               self.questDetailLabels[5]: self.quest.keyQuest,
-                               self.questDetailLabels[6]: self.quest.urgent,
-                               self.questDetailLabels[7]: self.quest.danger,
-                               self.questDetailLabels[8]: self.quest.fee,
-                               self.questDetailLabels[9]: self.quest.reward,
-                               self.questDetailLabels[10]: self.quest.hrp,
-                               self.questDetailLabels[11]: self.quest.region.name,
-                               };
+    //TODO: Can this be organized better?
+    if (!self.quest.region) {
+        self.questDetailsDict = @{
+                                  self.questDetailLabels[0]: self.quest.caravan,
+                                  self.questDetailLabels[1]: self.quest.stars,
+                                  self.questDetailLabels[2]: self.quest.objective,
+                                  self.questDetailLabels[3]: self.quest.subObjective,
+                                  self.questDetailLabels[4]: self.quest.type,
+                                  self.questDetailLabels[5]: self.quest.keyQuest,
+                                  self.questDetailLabels[6]: self.quest.urgent,
+                                  self.questDetailLabels[7]: self.quest.danger,
+                                  self.questDetailLabels[8]: self.quest.fee,
+                                  self.questDetailLabels[9]: self.quest.reward,
+                                  self.questDetailLabels[10]: self.quest.hrp,
+                                  self.questDetailLabels[11]: @"Other",
+                                  };
+    } else {
+        self.questDetailsDict = @{
+                                  self.questDetailLabels[0]: self.quest.caravan,
+                                  self.questDetailLabels[1]: self.quest.stars,
+                                  self.questDetailLabels[2]: self.quest.objective,
+                                  self.questDetailLabels[3]: self.quest.subObjective,
+                                  self.questDetailLabels[4]: self.quest.type,
+                                  self.questDetailLabels[5]: self.quest.keyQuest,
+                                  self.questDetailLabels[6]: self.quest.urgent,
+                                  self.questDetailLabels[7]: self.quest.danger,
+                                  self.questDetailLabels[8]: self.quest.fee,
+                                  self.questDetailLabels[9]: self.quest.reward,
+                                  self.questDetailLabels[10]: self.quest.hrp,
+                                  self.questDetailLabels[11]: self.quest.region.name,
+                                  };
+    }
     NSSortDescriptor *descriptor = [[NSSortDescriptor alloc] initWithKey:MonsterAttributes.sort_name ascending:YES];
     self.questMonsters = [self.quest.monster sortedArrayUsingDescriptors:@[descriptor]];
 }
@@ -91,9 +111,13 @@ typedef NS_ENUM(NSInteger, QuestDetailSections) {
 
 - (UITableViewCell *)tableView:(UITableView *)tableView detailCellForIndexPath:(NSIndexPath *)indexPath
 {
-    //TODO: Consider wrapping relevant strings with NSLocalizedString and moving to Strings.h
+    //TODO: This is REALLY messy.  If time permits, refactor into a separate regionCellForIndexPath method.
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"QuestDetailCell" forIndexPath:indexPath];
     cell.userInteractionEnabled = NO;
+    //Make the area cell selectable if a region.
+    if (indexPath.row == 11) {
+        cell.userInteractionEnabled = YES;
+    }
     NSString *rowKey = self.questDetailLabels[indexPath.row];
     cell.textLabel.text = rowKey;
     if ([self.questDetailsDict[rowKey] isKindOfClass:[NSNumber class]]) {
@@ -110,9 +134,12 @@ typedef NS_ENUM(NSInteger, QuestDetailSections) {
             // All other numbers represent actual numbers.
             cell.detailTextLabel.text = number.stringValue;
         }
+    } else if ([self.questDetailsDict[rowKey] isEqualToString:@"Other"]) {
+        // If the entry is nil, don't enable interaction
+        cell.userInteractionEnabled = NO;
+        cell.detailTextLabel.text = self.questDetailsDict[rowKey];
     } else {
-        // If the entry is nil, (as may be the case for some quest regions) write "Other"
-        cell.detailTextLabel.text = self.questDetailsDict[rowKey] ?: @"Other";
+        cell.detailTextLabel.text = self.questDetailsDict[rowKey];
     }
     return cell;
 }
@@ -144,10 +171,21 @@ typedef NS_ENUM(NSInteger, QuestDetailSections) {
 {
     UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:MHDStoryBoardIdentifier.main bundle:nil];
     MonsterContainerViewController *monsterVC = [storyBoard instantiateViewControllerWithIdentifier:NSStringFromClass([MonsterContainerViewController class])];
+    RegionContainerViewController *regionVC = [storyBoard instantiateViewControllerWithIdentifier:NSStringFromClass([RegionContainerViewController class])];
     switch (indexPath.section) {
         case DetailsSection:
-            //Do nothing.
-            return;
+            if (indexPath.row != 11) {
+                //Do nothing.
+                return;
+            } else {
+                regionVC.region = [self regionWithName:self.questDetailsDict[self.questDetailLabels[11]]];
+                if (regionVC.region) {
+                    [self.navigationController pushViewController:regionVC animated:YES];
+                }
+                return;
+            }
+            //Push the Region's view.
+            //TODO: Implement
         case MonstersSection:
             // Push Monster's view.
             monsterVC.monster = [self monsterForIndexPath:indexPath];
@@ -161,6 +199,16 @@ typedef NS_ENUM(NSInteger, QuestDetailSections) {
 - (Monster *)monsterForIndexPath:(NSIndexPath *)indexPath
 {
     return self.questMonsters[indexPath.row];
+}
+
+- (Region *)regionWithName:(NSString *)regionName
+{
+    NSFetchRequest *regionRequest = [NSFetchRequest fetchRequestWithEntityName:[Region entityName]];
+    NSPredicate *regionPredicate = [NSPredicate predicateWithFormat:@"%K == %@", RegionAttributes.name, regionName];
+    regionRequest.predicate = regionPredicate;
+    NSError *error = nil;
+    Region *region = (Region *)[[CoreDataController sharedCDController].managedObjectContext executeFetchRequest:regionRequest error:&error].firstObject;
+    return region;
 }
 
 @end
