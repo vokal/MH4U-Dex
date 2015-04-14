@@ -835,6 +835,66 @@
             </objects>
             <point key="canvasLocation" x="-913" y="-1839"/>
         </scene>
+        <!--MonsterQuestsTableViewController-->
+        <scene sceneID="o8x-s4-cNv">
+            <objects>
+                <tableViewController title="MonsterQuestsTableViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="uha-c7-Hwa" customClass="MonsterQuestsTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Dmp-4d-Db2">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="488"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="lgj-q7-5QV">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="62"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Not Found in any Quests" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="82x-bi-gMQ">
+                                    <rect key="frame" x="205" y="15" width="191" height="21"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="centerX" secondItem="82x-bi-gMQ" secondAttribute="centerX" id="9uK-PO-QNe"/>
+                                <constraint firstItem="82x-bi-gMQ" firstAttribute="top" secondItem="lgj-q7-5QV" secondAttribute="top" constant="15" id="HPh-pf-fcA"/>
+                            </constraints>
+                        </view>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MonsterQuestCell" textLabel="41g-HH-coz" detailTextLabel="1ZX-wA-Ple" style="IBUITableViewCellStyleValue1" id="GPb-xp-nRT">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GPb-xp-nRT" id="NqJ-ic-5vC">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="41g-HH-coz">
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1ZX-wA-Ple">
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="jqd-Ub-Y6Z" kind="show" identifier="showQuestContainer" id="wN5-Bs-zYP"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="uha-c7-Hwa" id="ZGj-Kq-dYB"/>
+                            <outlet property="delegate" destination="uha-c7-Hwa" id="sGh-Nx-Mpg"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XPn-ta-64k" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-739" y="-1272"/>
+        </scene>
         <!--Monster Details-->
         <scene sceneID="J3X-KY-ARg">
             <objects>
@@ -871,6 +931,12 @@
                                     <segue destination="PJK-g0-5c6" kind="embed" identifier="embedGRank" id="OWj-AQ-QBO"/>
                                 </connections>
                             </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" restorationIdentifier="MonsterQuestsContainer" translatesAutoresizingMaskIntoConstraints="NO" id="3ue-9h-qx7" userLabel="MonsterQuestsContainer">
+                                <rect key="frame" x="0.0" y="64" width="600" height="488"/>
+                                <connections>
+                                    <segue destination="uha-c7-Hwa" kind="embed" identifier="embedMonsterQuests" id="lAN-7o-0bH"/>
+                                </connections>
+                            </containerView>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="LqV-qk-bVx">
                                 <rect key="frame" x="30" y="562" width="540" height="29"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -879,6 +945,7 @@
                                     <segment title="Low-Rank"/>
                                     <segment title="High-Rank"/>
                                     <segment title="G-Rank"/>
+                                    <segment title="Quests"/>
                                 </segments>
                                 <connections>
                                     <action selector="segmentedControlChanged:" destination="2UP-qa-Qp3" eventType="valueChanged" id="cfR-k8-k5x"/>
@@ -896,13 +963,17 @@
                             <constraint firstItem="LqV-qk-bVx" firstAttribute="leading" secondItem="E4a-6Z-bdR" secondAttribute="leading" id="HoK-7n-nHV"/>
                             <constraint firstItem="8JQ-yt-UGq" firstAttribute="height" secondItem="kuM-h9-52H" secondAttribute="height" id="LRu-kf-Mrf"/>
                             <constraint firstItem="8JQ-yt-UGq" firstAttribute="centerY" secondItem="kuM-h9-52H" secondAttribute="centerY" id="LxO-rG-PTc"/>
+                            <constraint firstItem="3ue-9h-qx7" firstAttribute="centerX" secondItem="Vmj-tc-gSh" secondAttribute="centerX" id="NWP-Ib-bey"/>
                             <constraint firstItem="8JQ-yt-UGq" firstAttribute="height" secondItem="HQ6-Ef-TMG" secondAttribute="height" id="VPH-EQ-tCS"/>
                             <constraint firstItem="Vmj-tc-gSh" firstAttribute="top" secondItem="2DX-GU-ruT" secondAttribute="bottom" id="YD6-aj-gm3"/>
                             <constraint firstItem="8JQ-yt-UGq" firstAttribute="centerX" secondItem="kuM-h9-52H" secondAttribute="centerX" id="YvT-eJ-whM"/>
                             <constraint firstItem="LqV-qk-bVx" firstAttribute="top" secondItem="Vmj-tc-gSh" secondAttribute="bottom" constant="10" id="ZF3-bl-9gl"/>
                             <constraint firstItem="8JQ-yt-UGq" firstAttribute="centerY" secondItem="HQ6-Ef-TMG" secondAttribute="centerY" id="bAY-96-aDq"/>
+                            <constraint firstItem="3ue-9h-qx7" firstAttribute="centerY" secondItem="Vmj-tc-gSh" secondAttribute="centerY" id="chQ-sD-yab"/>
                             <constraint firstItem="8JQ-yt-UGq" firstAttribute="width" secondItem="HQ6-Ef-TMG" secondAttribute="width" id="hgv-mz-Tsf"/>
                             <constraint firstItem="8JQ-yt-UGq" firstAttribute="width" secondItem="kuM-h9-52H" secondAttribute="width" id="ijz-6d-J7y"/>
+                            <constraint firstItem="3ue-9h-qx7" firstAttribute="width" secondItem="Vmj-tc-gSh" secondAttribute="width" id="mKC-s3-qY6"/>
+                            <constraint firstItem="3ue-9h-qx7" firstAttribute="height" secondItem="Vmj-tc-gSh" secondAttribute="height" id="ome-nr-43b"/>
                             <constraint firstAttribute="trailing" secondItem="Vmj-tc-gSh" secondAttribute="trailing" id="sQI-Sv-LMb"/>
                             <constraint firstItem="LqV-qk-bVx" firstAttribute="width" secondItem="E4a-6Z-bdR" secondAttribute="width" multiplier="9/10" id="wTg-h4-awI"/>
                             <constraint firstItem="Vmj-tc-gSh" firstAttribute="leading" secondItem="E4a-6Z-bdR" secondAttribute="leading" id="wkL-jT-HcG"/>
@@ -921,6 +992,7 @@
                         <outlet property="highRankSubView" destination="HQ6-Ef-TMG" id="Ra8-Gx-mg8"/>
                         <outlet property="lowRankSubView" destination="8JQ-yt-UGq" id="YgO-e2-ngv"/>
                         <outlet property="overviewSubView" destination="Vmj-tc-gSh" id="PfW-ed-VKR"/>
+                        <outlet property="questsSubView" destination="3ue-9h-qx7" id="pNB-4w-mtj"/>
                         <outlet property="segmentedControl" destination="LqV-qk-bVx" id="fJ4-nF-anb"/>
                     </connections>
                 </viewController>
@@ -1301,8 +1373,9 @@
     <inferredMetricsTieBreakers>
         <segue reference="W2D-xv-a7l"/>
         <segue reference="MKc-sF-dxr"/>
+        <segue reference="OWj-AQ-QBO"/>
+        <segue reference="wN5-Bs-zYP"/>
         <segue reference="HGZ-Nr-qTV"/>
         <segue reference="xOn-Oq-Bwg"/>
-        <segue reference="OWj-AQ-QBO"/>
     </inferredMetricsTieBreakers>
 </document>

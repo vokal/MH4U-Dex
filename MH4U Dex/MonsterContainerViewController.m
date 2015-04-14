@@ -12,6 +12,7 @@
 
 #import "MonsterItemTableViewController.h"
 #import "MonsterOverviewViewController.h"
+#import "MonsterQuestsTableViewController.h"
 
 #import "Monster.h"
 
@@ -20,6 +21,7 @@ typedef NS_ENUM(NSInteger, MonsterSegmentedControlPage) {
     LowRank = 1,
     HighRank = 2,
     GRank = 3,
+    QuestPage = 4,
     
     MonsterSegmentedControlCount
 };
@@ -30,6 +32,7 @@ typedef NS_ENUM(NSInteger, MonsterSegmentedControlPage) {
 @property (nonatomic, weak) IBOutlet UIView *lowRankSubView;
 @property (nonatomic, weak) IBOutlet UIView *highRankSubView;
 @property (nonatomic, weak) IBOutlet UIView *GRankSubView;
+@property (nonatomic, weak) IBOutlet UIView *questsSubView;
 @property (nonatomic, weak) IBOutlet UISegmentedControl *segmentedControl;
 
 @end
@@ -49,6 +52,7 @@ typedef NS_ENUM(NSInteger, MonsterSegmentedControlPage) {
     self.lowRankSubView.hidden = YES;
     self.highRankSubView.hidden = YES;
     self.GRankSubView.hidden = YES;
+    self.questsSubView.hidden = YES;
     
     switch (segmentedControl.selectedSegmentIndex) {
         case Overview:
@@ -67,6 +71,9 @@ typedef NS_ENUM(NSInteger, MonsterSegmentedControlPage) {
             self.GRankSubView.hidden = NO;
             self.title = [NSString stringWithFormat:@"%@ GR Drops", self.monster.name];
             break;
+        case QuestPage:
+            self.questsSubView.hidden = NO;
+            self.title = [NSString stringWithFormat:@"Quests with %@", self.monster.name];
         default:
             break;
     }
@@ -78,6 +85,9 @@ typedef NS_ENUM(NSInteger, MonsterSegmentedControlPage) {
     if ([segue.identifier isEqualToString:@"embedOverview"]) {
         MonsterOverviewViewController *overViewVC = (MonsterOverviewViewController *)segue.destinationViewController;
         overViewVC.monster = self.monster;
+    } else if ([segue.identifier isEqualToString:@"embedMonsterQuests"]) {
+        MonsterQuestsTableViewController *questVC = (MonsterQuestsTableViewController *)segue.destinationViewController;
+        questVC.monster = self.monster;
     } else {
         MonsterItemTableViewController *itemVC = (MonsterItemTableViewController *)segue.destinationViewController;
         itemVC.monster = self.monster;

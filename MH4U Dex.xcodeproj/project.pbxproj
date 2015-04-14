@@ -54,6 +54,7 @@
 		E4456EB61A89664F00FCC7DC /* DamageZone.m in Sources */ = {isa = PBXBuildFile; fileRef = E4456EB51A89664F00FCC7DC /* DamageZone.m */; };
 		E45728C11ADC5B0400123AB7 /* QuestRewardsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E45728C01ADC5B0400123AB7 /* QuestRewardsTableViewController.m */; };
 		E45728C41ADC5B7A00123AB7 /* QuestRewardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E45728C31ADC5B7A00123AB7 /* QuestRewardTableViewCell.m */; };
+		E45728C71ADDB69500123AB7 /* MonsterQuestsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E45728C61ADDB69500123AB7 /* MonsterQuestsTableViewController.m */; };
 		E45E9A8E1A890CC400D75592 /* MonsterContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E45E9A8D1A890CC400D75592 /* MonsterContainerViewController.m */; };
 		E45E9A911A890ED300D75592 /* MonsterItemTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E45E9A901A890ED300D75592 /* MonsterItemTableViewController.m */; };
 		E45F51A61ACC648E00C65741 /* UITableViewController+HeaderFooterChanger.m in Sources */ = {isa = PBXBuildFile; fileRef = E45F51A51ACC648E00C65741 /* UITableViewController+HeaderFooterChanger.m */; };
@@ -210,6 +211,8 @@
 		E45728C01ADC5B0400123AB7 /* QuestRewardsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestRewardsTableViewController.m; sourceTree = "<group>"; };
 		E45728C21ADC5B7A00123AB7 /* QuestRewardTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestRewardTableViewCell.h; sourceTree = "<group>"; };
 		E45728C31ADC5B7A00123AB7 /* QuestRewardTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestRewardTableViewCell.m; sourceTree = "<group>"; };
+		E45728C51ADDB69500123AB7 /* MonsterQuestsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonsterQuestsTableViewController.h; sourceTree = "<group>"; };
+		E45728C61ADDB69500123AB7 /* MonsterQuestsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonsterQuestsTableViewController.m; sourceTree = "<group>"; };
 		E45E9A8C1A890CC400D75592 /* MonsterContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonsterContainerViewController.h; sourceTree = "<group>"; };
 		E45E9A8D1A890CC400D75592 /* MonsterContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonsterContainerViewController.m; sourceTree = "<group>"; };
 		E45E9A8F1A890ED300D75592 /* MonsterItemTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonsterItemTableViewController.h; sourceTree = "<group>"; };
@@ -638,12 +641,14 @@
 				E4456EAC1A895D7600FCC7DC /* DamageZonesCollectionViewController.m */,
 				E45E9A8C1A890CC400D75592 /* MonsterContainerViewController.h */,
 				E45E9A8D1A890CC400D75592 /* MonsterContainerViewController.m */,
+				E45728C51ADDB69500123AB7 /* MonsterQuestsTableViewController.h */,
+				E45728C61ADDB69500123AB7 /* MonsterQuestsTableViewController.m */,
 				E4A7698B1A85207D00AC93DA /* MonsterEncyclopediaViewController.h */,
 				E4A7698C1A85207D00AC93DA /* MonsterEncyclopediaViewController.m */,
-				E45E9A8F1A890ED300D75592 /* MonsterItemTableViewController.h */,
 				E4C76B321A85638D00AD753B /* MonsterOverviewViewController.h */,
-				E45E9A901A890ED300D75592 /* MonsterItemTableViewController.m */,
 				E4C76B331A85638D00AD753B /* MonsterOverviewViewController.m */,
+				E45E9A8F1A890ED300D75592 /* MonsterItemTableViewController.h */,
+				E45E9A901A890ED300D75592 /* MonsterItemTableViewController.m */,
 			);
 			name = Monster;
 			sourceTree = "<group>";
@@ -1019,6 +1024,7 @@
 				E46BBBA31AAA483100068F02 /* RegionContainerViewController.m in Sources */,
 				E4CE45CC1A97A8F50059C056 /* MonsterDrop.m in Sources */,
 				E40D07201ACAFA19001B8E04 /* _Drop.m in Sources */,
+				E45728C71ADDB69500123AB7 /* MonsterQuestsTableViewController.m in Sources */,
 				E434F3761A83F5CA004C10BF /* _Skilltree.m in Sources */,
 				E471BE391A979F4C0076CBD7 /* RegionEncyclopediaCollectionViewController.m in Sources */,
 				E45728C11ADC5B0400123AB7 /* QuestRewardsTableViewController.m in Sources */,
