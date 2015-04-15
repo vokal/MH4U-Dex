@@ -673,8 +673,8 @@
                                     <action selector="segmentedControlChanged:" destination="ilN-Gx-iPA" eventType="valueChanged" id="bgx-F0-0es"/>
                                 </connections>
                             </segmentedControl>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Item Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I2e-Mc-7Fg">
-                                <rect key="frame" x="88" y="94" width="127" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Item Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I2e-Mc-7Fg">
+                                <rect key="frame" x="88" y="85" width="496" height="65"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -712,12 +712,15 @@
                             <constraint firstAttribute="trailingMargin" secondItem="myc-Rj-JoV" secondAttribute="trailing" constant="-16" id="7fB-M3-vo8"/>
                             <constraint firstItem="tZy-sb-DXk" firstAttribute="top" secondItem="6Np-Cv-fRb" secondAttribute="bottom" constant="10" id="AlF-c3-ro2"/>
                             <constraint firstItem="myc-Rj-JoV" firstAttribute="top" secondItem="tWp-HV-Qcd" secondAttribute="bottom" constant="96" id="Bf4-aZ-Z6i"/>
+                            <constraint firstItem="I2e-Mc-7Fg" firstAttribute="centerY" secondItem="wTo-N8-Ssa" secondAttribute="centerY" constant="3" id="HlJ-1o-jAH"/>
                             <constraint firstItem="6Np-Cv-fRb" firstAttribute="top" secondItem="myc-Rj-JoV" secondAttribute="bottom" constant="10" id="JWw-ef-bwI"/>
                             <constraint firstItem="tZy-sb-DXk" firstAttribute="top" secondItem="6Np-Cv-fRb" secondAttribute="bottom" id="JZP-Zf-OQe"/>
                             <constraint firstItem="quK-cv-pc1" firstAttribute="centerY" secondItem="myc-Rj-JoV" secondAttribute="centerY" id="KA4-OQ-dHn"/>
                             <constraint firstAttribute="centerX" secondItem="6Np-Cv-fRb" secondAttribute="centerX" id="KdJ-w5-nNG"/>
                             <constraint firstItem="quK-cv-pc1" firstAttribute="top" secondItem="tWp-HV-Qcd" secondAttribute="bottom" constant="96" id="MwI-kc-eAB"/>
+                            <constraint firstItem="I2e-Mc-7Fg" firstAttribute="trailing" secondItem="yoz-6J-J4K" secondAttribute="trailingMargin" id="NXt-ly-8gD"/>
                             <constraint firstItem="6yH-aS-M0b" firstAttribute="height" secondItem="myc-Rj-JoV" secondAttribute="height" id="SR1-Lj-vpM"/>
+                            <constraint firstItem="I2e-Mc-7Fg" firstAttribute="leading" secondItem="wTo-N8-Ssa" secondAttribute="trailing" constant="8" id="W2y-qJ-H9s"/>
                             <constraint firstItem="6yH-aS-M0b" firstAttribute="width" secondItem="myc-Rj-JoV" secondAttribute="width" id="ZCD-kG-rRW"/>
                             <constraint firstItem="6yH-aS-M0b" firstAttribute="centerX" secondItem="myc-Rj-JoV" secondAttribute="centerX" id="ZwB-6z-QyJ"/>
                             <constraint firstItem="quK-cv-pc1" firstAttribute="height" secondItem="myc-Rj-JoV" secondAttribute="height" id="dTX-ad-zVF"/>
@@ -726,6 +729,7 @@
                             <constraint firstItem="myc-Rj-JoV" firstAttribute="leading" secondItem="yoz-6J-J4K" secondAttribute="leadingMargin" constant="-16" id="tVA-Zf-foM"/>
                             <constraint firstItem="quK-cv-pc1" firstAttribute="width" secondItem="myc-Rj-JoV" secondAttribute="width" id="teD-Yi-4p3"/>
                             <constraint firstItem="wTo-N8-Ssa" firstAttribute="top" secondItem="tWp-HV-Qcd" secondAttribute="bottom" constant="18" id="vE8-Iv-v17"/>
+                            <constraint firstItem="I2e-Mc-7Fg" firstAttribute="height" secondItem="wTo-N8-Ssa" secondAttribute="height" id="zTn-zs-45I"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
@@ -733,6 +737,13 @@
                             </mask>
                         </variation>
                     </view>
+                    <navigationItem key="navigationItem" id="50n-ux-K4G">
+                        <barButtonItem key="rightBarButtonItem" title="Home" id="qwh-0q-hWF">
+                            <connections>
+                                <segue destination="kxw-Fe-lqF" kind="presentation" id="kF6-L9-UpG"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="areaSourceSubView" destination="quK-cv-pc1" id="g78-kE-YNL"/>
                         <outlet property="itemNameLabel" destination="I2e-Mc-7Fg" id="MeS-H0-z01"/>
@@ -1387,12 +1398,12 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="MKc-sF-dxr"/>
         <segue reference="W2D-xv-a7l"/>
-        <segue reference="OWj-AQ-QBO"/>
-        <segue reference="lAN-7o-0bH"/>
-        <segue reference="wN5-Bs-zYP"/>
         <segue reference="zth-ns-tNR"/>
         <segue reference="xOn-Oq-Bwg"/>
+        <segue reference="MKc-sF-dxr"/>
+        <segue reference="lAN-7o-0bH"/>
+        <segue reference="OWj-AQ-QBO"/>
+        <segue reference="wN5-Bs-zYP"/>
     </inferredMetricsTieBreakers>
 </document>
