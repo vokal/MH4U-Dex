@@ -122,11 +122,11 @@
                         <viewControllerLayoutGuide type="bottom" id="43c-gw-CuH"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="tAx-fA-lYb">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="438"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="488"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="YWD-hu-ve8">
-                                <rect key="frame" x="30" y="400" width="540" height="29"/>
+                                <rect key="frame" x="30" y="450" width="540" height="29"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="28" id="INL-tE-8Je"/>
@@ -140,13 +140,13 @@
                                 </connections>
                             </segmentedControl>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xFi-7d-SGB" userLabel="Quest Details Container">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="390"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="440"/>
                                 <connections>
                                     <segue destination="peA-nf-2UA" kind="embed" identifier="embedQuestDetails" id="rLU-63-9Yb"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5RO-1F-B72" userLabel="Quest Rewards Container">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="390"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="440"/>
                                 <connections>
                                     <segue destination="TKH-6I-ysc" kind="embed" identifier="embedQuestRewards" id="0gs-lP-udc"/>
                                 </connections>
@@ -181,7 +181,7 @@
             <objects>
                 <tableViewController id="peA-nf-2UA" customClass="QuestDetailsTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="0V4-2s-CHM">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="390"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="440"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
@@ -221,7 +221,7 @@
             <objects>
                 <tableViewController id="TKH-6I-ysc" customClass="QuestRewardsTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="45" sectionHeaderHeight="22" sectionFooterHeight="22" id="5n9-Lu-yvK">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="390"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="440"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
@@ -351,7 +351,7 @@
                                     <segue destination="hfi-eK-gsg" kind="show" id="dX6-Hf-8Bu"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cxa-Tg-f1x">
+                            <button hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cxa-Tg-f1x">
                                 <rect key="frame" x="232" y="305" width="136" height="30"/>
                                 <state key="normal" title="RESET CORE DATA">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -658,11 +658,11 @@
                         <viewControllerLayoutGuide type="bottom" id="tZy-sb-DXk"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="yoz-6J-J4K">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="390"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="440"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="6Np-Cv-fRb">
-                                <rect key="frame" x="30" y="352" width="540" height="29"/>
+                                <rect key="frame" x="30" y="402" width="540" height="29"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <segments>
                                     <segment title="Monster Sources"/>
@@ -687,19 +687,19 @@
                                 </constraints>
                             </imageView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="myc-Rj-JoV" userLabel="Monster Source Container">
-                                <rect key="frame" x="0.0" y="96" width="600" height="246"/>
+                                <rect key="frame" x="0.0" y="96" width="600" height="296"/>
                                 <connections>
                                     <segue destination="n0T-Mc-SlZ" kind="embed" identifier="embedMonsterSources" id="0jB-6V-Ak8"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="quK-cv-pc1" userLabel="Gather Source Container">
-                                <rect key="frame" x="0.0" y="96" width="600" height="246"/>
+                                <rect key="frame" x="0.0" y="96" width="600" height="296"/>
                                 <connections>
                                     <segue destination="n0T-Mc-SlZ" kind="embed" identifier="embedAreaSources" id="cTp-2l-kMX"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6yH-aS-M0b" userLabel="Quest Source Container">
-                                <rect key="frame" x="0.0" y="96" width="600" height="246"/>
+                                <rect key="frame" x="0.0" y="96" width="600" height="296"/>
                                 <connections>
                                     <segue destination="n0T-Mc-SlZ" kind="embed" identifier="embedQuestSources" id="xOn-Oq-Bwg"/>
                                 </connections>
@@ -749,7 +749,7 @@
             <objects>
                 <tableViewController id="n0T-Mc-SlZ" customClass="ItemSourcesTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="45" sectionHeaderHeight="22" sectionFooterHeight="22" id="KHj-aV-Mq3">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="246"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="296"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <view key="tableHeaderView" contentMode="scaleToFill" id="zOL-N3-ei4">
@@ -852,7 +852,7 @@
             <objects>
                 <tableViewController title="MonsterQuestsTableViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="uha-c7-Hwa" customClass="MonsterQuestsTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Dmp-4d-Db2">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="438"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="488"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <view key="tableHeaderView" contentMode="scaleToFill" id="lgj-q7-5QV">
@@ -1120,7 +1120,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="aRh-fE-ihX">
-                            <size key="itemSize" width="205" height="205"/>
+                            <size key="itemSize" width="205" height="255"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -1129,18 +1129,18 @@
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="RegionEncyclopediaCollectionViewCell" id="loO-8V-vTo" customClass="RegionEncyclopediaCollectionViewCell">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="205" height="205"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="205" height="255"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="2" translatesAutoresizingMaskIntoConstraints="NO" id="c7I-sS-fBV">
-                                            <rect key="frame" x="79" y="179" width="46" height="21"/>
+                                            <rect key="frame" x="79" y="207" width="46" height="43"/>
                                             <accessibility key="accessibilityConfiguration" label="RegionName"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1TO-H9-jO8">
-                                            <rect key="frame" x="19" y="5" width="167" height="167"/>
+                                            <rect key="frame" x="5" y="5" width="195" height="195"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" secondItem="1TO-H9-jO8" secondAttribute="height" multiplier="1:1" id="gFv-2U-PEI"/>
                                             </constraints>
@@ -1340,12 +1340,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="488"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Monster Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="37M-4V-9L4">
-                                <rect key="frame" x="80" y="20" width="127" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bHR-T2-eYd">
                                 <rect key="frame" x="8" y="8" width="64" height="65"/>
                                 <constraints>
@@ -1359,13 +1353,23 @@
                                     <segue destination="ZJS-Gc-JfR" kind="embed" identifier="embedDamageZones" id="KGe-Lw-sxI"/>
                                 </connections>
                             </containerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Monster Name" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" minimumFontSize="1" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="37M-4V-9L4">
+                                <rect key="frame" x="80" y="14" width="504" height="65"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="37M-4V-9L4" firstAttribute="centerY" secondItem="bHR-T2-eYd" secondAttribute="centerY" constant="6" id="37A-Yd-dpI"/>
+                            <constraint firstItem="37M-4V-9L4" firstAttribute="trailing" secondItem="ada-ae-MY1" secondAttribute="trailingMargin" id="8wp-PP-yLg"/>
                             <constraint firstItem="bHR-T2-eYd" firstAttribute="leading" secondItem="ada-ae-MY1" secondAttribute="leadingMargin" constant="-8" id="Tgu-0n-ITd"/>
                             <constraint firstItem="bHR-T2-eYd" firstAttribute="top" secondItem="kM9-OG-iIl" secondAttribute="bottom" constant="8" id="UtC-KJ-pvP"/>
                             <constraint firstItem="FJB-gP-L0c" firstAttribute="top" secondItem="bHR-T2-eYd" secondAttribute="bottom" constant="16" id="Vzu-b5-ABR"/>
+                            <constraint firstItem="37M-4V-9L4" firstAttribute="leading" secondItem="bHR-T2-eYd" secondAttribute="trailing" constant="8" id="g9b-TJ-gHZ"/>
                             <constraint firstAttribute="trailing" secondItem="FJB-gP-L0c" secondAttribute="trailing" id="nFd-g1-fP8"/>
+                            <constraint firstItem="37M-4V-9L4" firstAttribute="height" secondItem="bHR-T2-eYd" secondAttribute="height" id="rFB-c2-pvO"/>
                             <constraint firstItem="Ge9-zL-egu" firstAttribute="top" secondItem="FJB-gP-L0c" secondAttribute="bottom" id="uAz-xk-OSg"/>
                             <constraint firstItem="FJB-gP-L0c" firstAttribute="leading" secondItem="ada-ae-MY1" secondAttribute="leading" id="zTv-03-Ygt"/>
                         </constraints>
@@ -1383,12 +1387,12 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="pwN-vp-pcV"/>
-        <segue reference="W2D-xv-a7l"/>
-        <segue reference="wN5-Bs-zYP"/>
-        <segue reference="HGZ-Nr-qTV"/>
-        <segue reference="xOn-Oq-Bwg"/>
         <segue reference="MKc-sF-dxr"/>
+        <segue reference="W2D-xv-a7l"/>
         <segue reference="OWj-AQ-QBO"/>
+        <segue reference="lAN-7o-0bH"/>
+        <segue reference="wN5-Bs-zYP"/>
+        <segue reference="zth-ns-tNR"/>
+        <segue reference="xOn-Oq-Bwg"/>
     </inferredMetricsTieBreakers>
 </document>

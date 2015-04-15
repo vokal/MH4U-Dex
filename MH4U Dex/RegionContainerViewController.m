@@ -48,6 +48,7 @@ typedef NS_ENUM(NSInteger, RegionSegmentedControlPage) {
     self.regionLowRankSubview.hidden = NO;
     self.regionHighRankSubview.hidden = YES;
     self.regionGRankSubview.hidden = YES;
+    self.regionQuestSubview.hidden = YES;
     self.title = [NSString stringWithFormat:@"%@ Low-Rank Items", self.region.name];
     self.regionNameLabel.text = self.region.name;
 }
