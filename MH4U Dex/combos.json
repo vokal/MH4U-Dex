@@ -1,0 +1,1178 @@
+[
+  {
+    "Result":"Potion",
+    "ItemA":"Herb",
+    "ItemB":"Blue Mushroom",
+    "Percent":95,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Mega Potion",
+    "ItemA":"Potion",
+    "ItemB":"Honey",
+    "Percent":90,
+    "Quantity":"1"
+  },
+  {
+    "Result":"First-aid Med+",
+    "ItemA":"Honey",
+    "ItemB":"First-aid Med",
+    "Percent":90,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Nutrients",
+    "ItemA":"Blue Mushroom",
+    "ItemB":"Godbug",
+    "Percent":90,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Mega Nutrients",
+    "ItemA":"Nutrients",
+    "ItemB":"Honey",
+    "Percent":75,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Antidote",
+    "ItemA":"Antidote Herb",
+    "ItemB":"Blue Mushroom",
+    "Percent":95,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Herbal Medicine",
+    "ItemA":"Gloamgrass Root",
+    "ItemB":"Bitterbug",
+    "Percent":90,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Max Potion",
+    "ItemA":"Mega Nutrients",
+    "ItemB":"Dragon Toadstool",
+    "Percent":65,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Ancient Potion",
+    "ItemA":"Immunizer",
+    "ItemB":"Kelbi Horn",
+    "Percent":55,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Ancient Potion",
+    "ItemA":"Kelbi Horn",
+    "ItemB":"Gloamgrass Bud",
+    "Percent":55,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Catalyst",
+    "ItemA":"Honey",
+    "ItemB":"Bitterbug",
+    "Percent":75,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Immunizer",
+    "ItemA":"Catalyst",
+    "ItemB":"Dragon Toadstool",
+    "Percent":75,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Cleanser",
+    "ItemA":"Catalyst",
+    "ItemB":"Popfish",
+    "Percent":90,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Dash Juice",
+    "ItemA":"Catalyst",
+    "ItemB":"Rare Steak",
+    "Percent":75,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Mega Dash Juice",
+    "ItemA":"Well-done Steak",
+    "ItemB":"Dash Extract",
+    "Percent":65,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Energy Drink",
+    "ItemA":"Honey",
+    "ItemB":"Nitroshroom",
+    "Percent":65,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Energy Drink",
+    "ItemA":"Hot Pepper",
+    "ItemB":"Sleepyfish",
+    "Percent":75,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Demondrug",
+    "ItemA":"Catalyst",
+    "ItemB":"Might Seed",
+    "Percent":65,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Mega Demondrug",
+    "ItemA":"Demondrug",
+    "ItemB":"Pale Extract",
+    "Percent":55,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Might Pill",
+    "ItemA":"Immunizer",
+    "ItemB":"Might Seed",
+    "Percent":75,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Armorskin",
+    "ItemA":"Catalyst",
+    "ItemB":"Adamant Seed",
+    "Percent":65,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Mega Armorskin",
+    "ItemA":"Armorskin",
+    "ItemB":"Pale Extract",
+    "Percent":55,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Adamant Pill",
+    "ItemA":"Immunizer",
+    "ItemB":"Adamant Seed",
+    "Percent":75,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Hot Drink",
+    "ItemA":"Hot Pepper",
+    "ItemB":"Bitterbug",
+    "Percent":90,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Hot Meat",
+    "ItemA":"Well-done Steak",
+    "ItemB":"Hot Pepper",
+    "Percent":95,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Cool Drink",
+    "ItemA":"Ice Crystal",
+    "ItemB":"Bitterbug",
+    "Percent":90,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Chilled Meat",
+    "ItemA":"Well-done Steak",
+    "ItemB":"Ice Crystal",
+    "Percent":95,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Frozen Berry",
+    "ItemA":"Ice Crystal",
+    "ItemB":"Tropical Berry",
+    "Percent":90,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Poisoned Meat",
+    "ItemA":"Raw Meat",
+    "ItemB":"Toadstool",
+    "Percent":90,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Tinged Meat",
+    "ItemA":"Raw Meat",
+    "ItemB":"Parashroom",
+    "Percent":90,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Drugged Meat",
+    "ItemA":"Raw Meat",
+    "ItemB":"Sleep Herb",
+    "Percent":90,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Bomb Casing",
+    "ItemA":"Sap Plant",
+    "ItemB":"Stone",
+    "Percent":95,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Bomb Casing",
+    "ItemA":"Sap Plant",
+    "ItemB":"Iron Ore",
+    "Percent":95,
+    "Quantity":"1~3"
+  },
+  {
+    "Result":"Deodorant",
+    "ItemA":"Bomb Casing",
+    "ItemB":"Bitterbug",
+    "Percent":95,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Smoke Bomb",
+    "ItemA":"Bomb Casing",
+    "ItemB":"Ivy",
+    "Percent":75,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Poison Smoke Bomb",
+    "ItemA":"Bomb Casing",
+    "ItemB":"Toadstool",
+    "Percent":75,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Poison Smoke Bomb",
+    "ItemA":"Bomb Casing",
+    "ItemB":"Poison Sac",
+    "Percent":90,
+    "Quantity":"2"
+  },
+  {
+    "Result":"Flash Bomb",
+    "ItemA":"Bomb Casing",
+    "ItemB":"Flashbug",
+    "Percent":75,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Dung Bomb",
+    "ItemA":"Bomb Casing",
+    "ItemB":"Dung",
+    "Percent":75,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Paintball",
+    "ItemA":"Sap Plant",
+    "ItemB":"Paintberry",
+    "Percent":95,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Farcaster",
+    "ItemA":"Bomb Casing",
+    "ItemB":"Exciteshroom",
+    "Percent":95,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Gunpowder",
+    "ItemA":"Fire Herb",
+    "ItemB":"Nitroshroom",
+    "Percent":95,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Barrel Bomb S",
+    "ItemA":"Small Barrel",
+    "ItemB":"Fire Herb",
+    "Percent":90,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Barrel Bomb S+",
+    "ItemA":"Barrel Bomb S",
+    "ItemB":"Burst Arowana",
+    "Percent":75,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Barrel Bomb L",
+    "ItemA":"Gunpowder",
+    "ItemB":"Large Barrel",
+    "Percent":75,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Barrel Bomb L+",
+    "ItemA":"Barrel Bomb L",
+    "ItemB":"Scatterfish",
+    "Percent":55,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Bounce Bomb",
+    "ItemA":"Barrel Bomb S",
+    "ItemB":"Bnahabra Wing",
+    "Percent":55,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Bounce Bomb+",
+    "ItemA":"Bounce Bomb",
+    "ItemB":"Bomb Arowana",
+    "Percent":55,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Sonic Bomb",
+    "ItemA":"Gunpowder",
+    "ItemB":"Screamer Sac",
+    "Percent":75,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Felvine Bomb",
+    "ItemA":"Barrel Bomb S",
+    "ItemB":"Felvine",
+    "Percent":90,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Net",
+    "ItemA":"Spider Web",
+    "ItemB":"Ivy",
+    "Percent":90,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Pitfall Trap",
+    "ItemA":"Net",
+    "ItemB":"Trap Tool",
+    "Percent":65,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Shock Trap",
+    "ItemA":"Trap Tool",
+    "ItemB":"Thunderbug",
+    "Percent":90,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Shock Trap",
+    "ItemA":"Trap Tool",
+    "ItemB":"Genprey Fang",
+    "Percent":90,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Goldenfish Bait",
+    "ItemA":"Mega Fishing Fly",
+    "ItemB":"Snakebee Larva",
+    "Percent":90,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Sushifish Bait",
+    "ItemA":"Mega Fishing Fly",
+    "ItemB":"Insect Husk",
+    "Percent":95,
+    "Quantity":"1~2"
+  },
+  {
+    "Result":"Burst Bait",
+    "ItemA":"Mega Fishing Fly",
+    "ItemB":"Stinkhopper",
+    "Percent":90,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Old Pickaxe",
+    "ItemA":"Stone",
+    "ItemB":"Mystery Bone",
+    "Percent":95,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Iron Pickaxe",
+    "ItemA":"Iron Ore",
+    "ItemB":"Mystery Bone",
+    "Percent":75,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Mega Pickaxe",
+    "ItemA":"Machalite Ore",
+    "ItemB":"Mystery Bone",
+    "Percent":95,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Old Bug Net",
+    "ItemA":"Ivy",
+    "ItemB":"Mystery Bone",
+    "Percent":95,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Bug Net",
+    "ItemA":"Ivy",
+    "ItemB":"Monster Bone S",
+    "Percent":75,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Mega Bug Net",
+    "ItemA":"Ivy",
+    "ItemB":"Monster Bone M",
+    "Percent":95,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Lifecrystals",
+    "ItemA":"Godbug",
+    "ItemB":"Wyvern Fang",
+    "Percent":90,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Lifepowder",
+    "ItemA":"Lifecrystals",
+    "ItemB":"Wyvern Claw",
+    "Percent":65,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Health Horn",
+    "ItemA":"Lifecrystals",
+    "ItemB":"Field Horn",
+    "Percent":65,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Antidote Horn",
+    "ItemA":"Antidote",
+    "ItemB":"Field Horn",
+    "Percent":65,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Demon Horn",
+    "ItemA":"Mega Demondrug",
+    "ItemB":"Monster Bone M",
+    "Percent":55,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Armor Horn",
+    "ItemA":"Mega Armorskin",
+    "ItemB":"Monster Bone M",
+    "Percent":55,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Poison Knife",
+    "ItemA":"Throwing Knife",
+    "ItemB":"Toadstool",
+    "Percent":65,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Sleep Knife",
+    "ItemA":"Throwing Knife",
+    "ItemB":"Sleep Herb",
+    "Percent":65,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Paralysis Knife",
+    "ItemA":"Throwing Knife",
+    "ItemB":"Parashroom",
+    "Percent":65,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Boomerang",
+    "ItemA":"Whetstone",
+    "ItemB":"Monster Bone S",
+    "Percent":75,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Powertalon",
+    "ItemA":"Powercharm",
+    "ItemB":"Deviljho Talon",
+    "Percent":95,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Armortalon",
+    "ItemA":"Armorcharm",
+    "ItemB":"Deviljho Talon",
+    "Percent":95,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Normal S Lv2",
+    "ItemA":"Huskberry",
+    "ItemB":"Needleberry",
+    "Percent":95,
+    "Quantity":"2~4"
+  },
+  {
+    "Result":"Normal S Lv3",
+    "ItemA":"Huskberry",
+    "ItemB":"Popfish",
+    "Percent":95,
+    "Quantity":"2~4"
+  },
+  {
+    "Result":"Pierce S Lv1",
+    "ItemA":"Huskberry",
+    "ItemB":"Latchberry",
+    "Percent":90,
+    "Quantity":"1~3"
+  },
+  {
+    "Result":"Pierce S Lv2",
+    "ItemA":"Bone Husk",
+    "ItemB":"Bird Wyvern Fang",
+    "Percent":75,
+    "Quantity":"1~3"
+  },
+  {
+    "Result":"Pierce S Lv3",
+    "ItemA":"Bone Husk",
+    "ItemB":"Pin Tuna",
+    "Percent":75,
+    "Quantity":"1~2"
+  },
+  {
+    "Result":"Pellet S Lv1",
+    "ItemA":"Huskberry",
+    "ItemB":"Scatternut",
+    "Percent":90,
+    "Quantity":"1~3"
+  },
+  {
+    "Result":"Pellet S Lv2",
+    "ItemA":"Huskberry",
+    "ItemB":"Wyvern Fang",
+    "Percent":75,
+    "Quantity":"1~3"
+  },
+  {
+    "Result":"Pellet S Lv3",
+    "ItemA":"Bone Husk",
+    "ItemB":"Wyvern Fang",
+    "Percent":75,
+    "Quantity":"1~3"
+  },
+  {
+    "Result":"Crag S Lv1",
+    "ItemA":"Huskberry",
+    "ItemB":"Nitroshroom",
+    "Percent":90,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Crag S Lv2",
+    "ItemA":"Huskberry",
+    "ItemB":"Burst Arowana",
+    "Percent":90,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Crag S Lv3",
+    "ItemA":"Bone Husk",
+    "ItemB":"Bomb Arowana",
+    "Percent":75,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Clust S Lv1",
+    "ItemA":"Huskberry",
+    "ItemB":"Bomberry",
+    "Percent":90,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Clust S Lv2",
+    "ItemA":"Bone Husk",
+    "ItemB":"Wyvern Claw",
+    "Percent":75,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Clust S Lv3",
+    "ItemA":"Bone Husk",
+    "ItemB":"Scatterfish",
+    "Percent":75,
+    "Quantity":"1"
+  },
+  {
+    "Result":"WyvernFire",
+    "ItemA":"Bone Husk",
+    "ItemB":"Burst Arowana",
+    "Percent":65,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Blast S",
+    "ItemA":"Huskberry",
+    "ItemB":"Bomb Arowana",
+    "Percent":65,
+    "Quantity":"1~3"
+  },
+  {
+    "Result":"Flaming S",
+    "ItemA":"Huskberry",
+    "ItemB":"Fire Herb",
+    "Percent":90,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Water S",
+    "ItemA":"Huskberry",
+    "ItemB":"Whetfish",
+    "Percent":75,
+    "Quantity":"1~3"
+  },
+  {
+    "Result":"Freeze S",
+    "ItemA":"Huskberry",
+    "ItemB":"Ice Crystal",
+    "Percent":75,
+    "Quantity":"1~3"
+  },
+  {
+    "Result":"Thunder S",
+    "ItemA":"Huskberry",
+    "ItemB":"Flashbug",
+    "Percent":75,
+    "Quantity":"2~4"
+  },
+  {
+    "Result":"Dragon S",
+    "ItemA":"Bone Husk",
+    "ItemB":"Dragonfell Berry",
+    "Percent":75,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Recover S Lv1",
+    "ItemA":"Huskberry",
+    "ItemB":"Herb",
+    "Percent":90,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Recover S Lv2",
+    "ItemA":"Potion",
+    "ItemB":"Huskberry",
+    "Percent":90,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Poison S Lv1",
+    "ItemA":"Huskberry",
+    "ItemB":"Toadstool",
+    "Percent":90,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Poison S Lv2",
+    "ItemA":"Bone Husk",
+    "ItemB":"Ioprey Fang",
+    "Percent":75,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Para S Lv1",
+    "ItemA":"Huskberry",
+    "ItemB":"Parashroom",
+    "Percent":90,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Para S Lv2",
+    "ItemA":"Bone Husk",
+    "ItemB":"Genprey Fang",
+    "Percent":90,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Sleep S Lv1",
+    "ItemA":"Huskberry",
+    "ItemB":"Sleep Herb",
+    "Percent":90,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Sleep S Lv2",
+    "ItemA":"Bone Husk",
+    "ItemB":"Sleepyfish",
+    "Percent":75,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Paint S",
+    "ItemA":"Huskberry",
+    "ItemB":"Paintberry",
+    "Percent":90,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Demon S",
+    "ItemA":"Demondrug",
+    "ItemB":"Bone Husk",
+    "Percent":75,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Armor S",
+    "ItemA":"Armorskin",
+    "ItemB":"Bone Husk",
+    "Percent":75,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Exhaust S Lv1",
+    "ItemA":"Huskberry",
+    "ItemB":"Mopeshroom",
+    "Percent":75,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Exhaust S Lv2",
+    "ItemA":"Bone Husk",
+    "ItemB":"Wanchovy",
+    "Percent":75,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Slicing S",
+    "ItemA":"Huskberry",
+    "ItemB":"Whetstone",
+    "Percent":75,
+    "Quantity":"1~3"
+  },
+  {
+    "Result":"Empty Phial",
+    "ItemA":"Bone Husk",
+    "ItemB":"Whetstone",
+    "Percent":90,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Poison Coating",
+    "ItemA":"Empty Phial",
+    "ItemB":"Toadstool",
+    "Percent":90,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Para Coating",
+    "ItemA":"Empty Phial",
+    "ItemB":"Parashroom",
+    "Percent":90,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Sleep Coating",
+    "ItemA":"Empty Phial",
+    "ItemB":"Sleep Herb",
+    "Percent":90,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Power Coating",
+    "ItemA":"Empty Phial",
+    "ItemB":"Nitroshroom",
+    "Percent":90,
+    "Quantity":"1"
+  },
+  {
+    "Result":"C.Range Coating",
+    "ItemA":"Empty Phial",
+    "ItemB":"Whetfish",
+    "Percent":90,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Paint Coating",
+    "ItemA":"Empty Phial",
+    "ItemB":"Paintberry",
+    "Percent":90,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Exhaust Coating",
+    "ItemA":"Empty Phial",
+    "ItemB":"Mopeshroom",
+    "Percent":90,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Blast Coating",
+    "ItemA":"Empty Phial",
+    "ItemB":"Bomb Arowana",
+    "Percent":90,
+    "Quantity":"1~3"
+  },
+  {
+    "Result":"Tranquilizer",
+    "ItemA":"Sleep Herb",
+    "ItemB":"Parashroom",
+    "Percent":65,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Tranq Knife",
+    "ItemA":"Tranquilizer",
+    "ItemB":"Throwing Knife",
+    "Percent":75,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Tranq Bomb",
+    "ItemA":"Tranquilizer",
+    "ItemB":"Bomb Casing",
+    "Percent":75,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Tranq S",
+    "ItemA":"Tranquilizer",
+    "ItemB":"Bone Husk",
+    "Percent":90,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Armor Sphere",
+    "ItemA":"Machalite Ore",
+    "ItemB":"Armor Stone",
+    "Percent":95,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Armor Sphere",
+    "ItemA":"Armor Stone",
+    "ItemB":"Glueglopper",
+    "Percent":95,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Armor Sphere+",
+    "ItemA":"Dragonite Ore",
+    "ItemB":"Armor Stone",
+    "Percent":95,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Armor Sphere+",
+    "ItemA":"Armor Stone",
+    "ItemB":"Killer Beetle",
+    "Percent":95,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Adv Armor Sphere",
+    "ItemA":"Carbalite Ore",
+    "ItemB":"Armor Stone",
+    "Percent":95,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Adv Armor Sphere",
+    "ItemA":"Armor Stone",
+    "ItemB":"Hercudrome",
+    "Percent":95,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Hard Armor Sphere",
+    "ItemA":"Fucium Ore",
+    "ItemB":"Armor Stone",
+    "Percent":95,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Hard Armor Sphere",
+    "ItemA":"Armor Stone",
+    "ItemB":"Rare Scarab",
+    "Percent":95,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Heavy Armor Sphere",
+    "ItemA":"Firecell Stone",
+    "ItemB":"Armor Stone",
+    "Percent":95,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Heavy Armor Sphere",
+    "ItemA":"Yoldspar Ore",
+    "ItemB":"Armor Stone",
+    "Percent":95,
+    "Quantity":"1"
+  },
+  {
+    "Result":"True Armor Sphere",
+    "ItemA":"Armor Stone",
+    "ItemB":"Meldspar Ore",
+    "Percent":95,
+    "Quantity":"1"
+  },
+  {
+    "Result":"True Armor Sphere",
+    "ItemA":"Armor Stone",
+    "ItemB":"Flutterfly",
+    "Percent":95,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Strong Armor Sphere",
+    "ItemA":"Armor Stone",
+    "ItemB":"Allfire Stone",
+    "Percent":95,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Strong Armor Sphere",
+    "ItemA":"Armor Stone",
+    "ItemB":"Cosmicite Ore",
+    "Percent":95,
+    "Quantity":"1"
+  },
+  {
+    "Result":"Iron Ore",
+    "ItemA":"Iron Ore",
+    "ItemB":"Slickaxe",
+    "Percent":100,
+    "Quantity":"5"
+  },
+  {
+    "Result":"Earth Crystal",
+    "ItemA":"Earth Crystal",
+    "ItemB":"Slickaxe",
+    "Percent":100,
+    "Quantity":"5"
+  },
+  {
+    "Result":"Heavenly Crystal",
+    "ItemA":"Heavenly Crystal",
+    "ItemB":"Slickaxe",
+    "Percent":100,
+    "Quantity":"2"
+  },
+  {
+    "Result":"Machalite Ore",
+    "ItemA":"Machalite Ore",
+    "ItemB":"Slickaxe",
+    "Percent":100,
+    "Quantity":"3"
+  },
+  {
+    "Result":"Dragonite Ore",
+    "ItemA":"Dragonite Ore",
+    "ItemB":"Slickaxe",
+    "Percent":100,
+    "Quantity":"3"
+  },
+  {
+    "Result":"Carbalite Ore",
+    "ItemA":"Carbalite Ore",
+    "ItemB":"Slickaxe",
+    "Percent":100,
+    "Quantity":"2"
+  },
+  {
+    "Result":"Fucium Ore",
+    "ItemA":"Fucium Ore",
+    "ItemB":"Slickaxe",
+    "Percent":100,
+    "Quantity":"2"
+  },
+  {
+    "Result":"Firestone",
+    "ItemA":"Firestone",
+    "ItemB":"Slickaxe",
+    "Percent":100,
+    "Quantity":"2"
+  },
+  {
+    "Result":"Firecell Stone",
+    "ItemA":"Firecell Stone",
+    "ItemB":"Slickaxe",
+    "Percent":100,
+    "Quantity":"2"
+  },
+  {
+    "Result":"Gossamite Ore",
+    "ItemA":"Gossamite Ore",
+    "ItemB":"Slickaxe",
+    "Percent":100,
+    "Quantity":"2"
+  },
+  {
+    "Result":"Yoldspar Ore",
+    "ItemA":"Yoldspar Ore",
+    "ItemB":"Slickaxe",
+    "Percent":100,
+    "Quantity":"2"
+  },
+  {
+    "Result":"Lightcrystal",
+    "ItemA":"Lightcrystal",
+    "ItemB":"Slickaxe",
+    "Percent":100,
+    "Quantity":"2"
+  },
+  {
+    "Result":"Novacrystal",
+    "ItemA":"Novacrystal",
+    "ItemB":"Slickaxe",
+    "Percent":100,
+    "Quantity":"2"
+  },
+  {
+    "Result":"Meteor Crystal",
+    "ItemA":"Slickaxe",
+    "ItemB":"Meteor Crystal",
+    "Percent":100,
+    "Quantity":"2"
+  },
+  {
+    "Result":"Eltalite Ore",
+    "ItemA":"Slickaxe",
+    "ItemB":"Eltalite Ore",
+    "Percent":100,
+    "Quantity":"2"
+  },
+  {
+    "Result":"Meldspar Ore",
+    "ItemA":"Slickaxe",
+    "ItemB":"Meldspar Ore",
+    "Percent":100,
+    "Quantity":"2"
+  },
+  {
+    "Result":"Allfire Stone",
+    "ItemA":"Slickaxe",
+    "ItemB":"Allfire Stone",
+    "Percent":100,
+    "Quantity":"2"
+  },
+  {
+    "Result":"Purecrystal",
+    "ItemA":"Slickaxe",
+    "ItemB":"Purecrystal",
+    "Percent":100,
+    "Quantity":"2"
+  },
+  {
+    "Result":"Cosmicite Ore",
+    "ItemA":"Slickaxe",
+    "ItemB":"Cosmicite Ore",
+    "Percent":100,
+    "Quantity":"2"
+  },
+  {
+    "Result":"Monster Bone+",
+    "ItemA":"Monster Bone+",
+    "ItemB":"Slickaxe",
+    "Percent":100,
+    "Quantity":"5"
+  },
+  {
+    "Result":"Monster Keenbone",
+    "ItemA":"Monster Keenbone",
+    "ItemB":"Slickaxe",
+    "Percent":100,
+    "Quantity":"2"
+  },
+  {
+    "Result":"Monster Hardbone",
+    "ItemA":"Monster Hardbone",
+    "ItemB":"Slickaxe",
+    "Percent":100,
+    "Quantity":"2"
+  },
+  {
+    "Result":"Monster Slogbone",
+    "ItemA":"Slickaxe",
+    "ItemB":"Monster Slogbone",
+    "Percent":100,
+    "Quantity":"2"
+  },
+  {
+    "Result":"Glueglopper",
+    "ItemA":"Glueglopper",
+    "ItemB":"Slickaxe",
+    "Percent":100,
+    "Quantity":"5"
+  },
+  {
+    "Result":"Killer Beetle",
+    "ItemA":"Killer Beetle",
+    "ItemB":"Slickaxe",
+    "Percent":100,
+    "Quantity":"3"
+  },
+  {
+    "Result":"Hercudrome",
+    "ItemA":"Hercudrome",
+    "ItemB":"Slickaxe",
+    "Percent":100,
+    "Quantity":"3"
+  },
+  {
+    "Result":"Rare Scarab",
+    "ItemA":"Rare Scarab",
+    "ItemB":"Slickaxe",
+    "Percent":100,
+    "Quantity":"2"
+  },
+  {
+    "Result":"Emperor Hopper",
+    "ItemA":"Slickaxe",
+    "ItemB":"Emperor Hopper",
+    "Percent":100,
+    "Quantity":"2"
+  },
+  {
+    "Result":"Flutterfly",
+    "ItemA":"Slickaxe",
+    "ItemB":"Flutterfly",
+    "Percent":100,
+    "Quantity":"2"
+  },
+  {
+    "Result":"Dragonbone Relic",
+    "ItemA":"Dragonbone Relic",
+    "ItemB":"Slickaxe",
+    "Percent":100,
+    "Quantity":"2"
+  },
+  {
+    "Result":"Dragonbone Artifact",
+    "ItemA":"Slickaxe",
+    "ItemB":"Dragonbone Artifact",
+    "Percent":100,
+    "Quantity":"2"
+  }
+]
