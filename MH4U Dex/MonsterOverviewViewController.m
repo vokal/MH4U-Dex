@@ -25,12 +25,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.monsterNameLabel.text = self.monster.name;
+    self.monsterNameLabel.text = self.monster.monster_description;
     NSString *imageName = [NSString stringWithFormat:@"%@-icon", [self.monster.name lowercaseString]];
     UIImage *image = [UIImage imageNamed:imageName];
     if (image) {
         self.monsterIconImage.image = image;
     }
+    
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender

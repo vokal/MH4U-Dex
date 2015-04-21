@@ -13,6 +13,6 @@
 @interface ItemSourcesTableViewController : UITableViewController
 
 @property (nonatomic, strong) Item *item;
-@property (nonatomic, assign) BOOL isMonsterSource;
+@property (nonatomic, assign) NSString *sourceType;
 
 @end

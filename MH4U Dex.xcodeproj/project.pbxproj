@@ -54,6 +54,7 @@
 		E4456EB61A89664F00FCC7DC /* DamageZone.m in Sources */ = {isa = PBXBuildFile; fileRef = E4456EB51A89664F00FCC7DC /* DamageZone.m */; };
 		E45728C11ADC5B0400123AB7 /* QuestRewardsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E45728C01ADC5B0400123AB7 /* QuestRewardsTableViewController.m */; };
 		E45728C41ADC5B7A00123AB7 /* QuestRewardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E45728C31ADC5B7A00123AB7 /* QuestRewardTableViewCell.m */; };
+		E45728C71ADDB69500123AB7 /* MonsterQuestsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E45728C61ADDB69500123AB7 /* MonsterQuestsTableViewController.m */; };
 		E45E9A8E1A890CC400D75592 /* MonsterContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E45E9A8D1A890CC400D75592 /* MonsterContainerViewController.m */; };
 		E45E9A911A890ED300D75592 /* MonsterItemTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E45E9A901A890ED300D75592 /* MonsterItemTableViewController.m */; };
 		E45F51A61ACC648E00C65741 /* UITableViewController+HeaderFooterChanger.m in Sources */ = {isa = PBXBuildFile; fileRef = E45F51A51ACC648E00C65741 /* UITableViewController+HeaderFooterChanger.m */; };
@@ -125,6 +126,8 @@
 		E4E2127E1AB1FE1200320E39 /* heavens_mount_drops.json in Resources */ = {isa = PBXBuildFile; fileRef = E4E2127D1AB1FE1200320E39 /* heavens_mount_drops.json */; };
 		E4E212851AB1FE7E00320E39 /* dunes_day_drops.json in Resources */ = {isa = PBXBuildFile; fileRef = E4E212831AB1FE7E00320E39 /* dunes_day_drops.json */; };
 		E4E212861AB1FE7E00320E39 /* dunes_night_drops.json in Resources */ = {isa = PBXBuildFile; fileRef = E4E212841AB1FE7E00320E39 /* dunes_night_drops.json */; };
+		E4F894FF1AE6C0E700E5BA6A /* CombinationEncyclopediaCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F894FE1AE6C0E700E5BA6A /* CombinationEncyclopediaCollectionViewController.m */; };
+		E4F895011AE6CD0700E5BA6A /* combos.json in Resources */ = {isa = PBXBuildFile; fileRef = E4F895001AE6CD0700E5BA6A /* combos.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -210,6 +213,8 @@
 		E45728C01ADC5B0400123AB7 /* QuestRewardsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestRewardsTableViewController.m; sourceTree = "<group>"; };
 		E45728C21ADC5B7A00123AB7 /* QuestRewardTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestRewardTableViewCell.h; sourceTree = "<group>"; };
 		E45728C31ADC5B7A00123AB7 /* QuestRewardTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestRewardTableViewCell.m; sourceTree = "<group>"; };
+		E45728C51ADDB69500123AB7 /* MonsterQuestsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonsterQuestsTableViewController.h; sourceTree = "<group>"; };
+		E45728C61ADDB69500123AB7 /* MonsterQuestsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonsterQuestsTableViewController.m; sourceTree = "<group>"; };
 		E45E9A8C1A890CC400D75592 /* MonsterContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonsterContainerViewController.h; sourceTree = "<group>"; };
 		E45E9A8D1A890CC400D75592 /* MonsterContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonsterContainerViewController.m; sourceTree = "<group>"; };
 		E45E9A8F1A890ED300D75592 /* MonsterItemTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonsterItemTableViewController.h; sourceTree = "<group>"; };
@@ -323,6 +328,9 @@
 		E4E2127D1AB1FE1200320E39 /* heavens_mount_drops.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = heavens_mount_drops.json; sourceTree = "<group>"; };
 		E4E212831AB1FE7E00320E39 /* dunes_day_drops.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dunes_day_drops.json; sourceTree = "<group>"; };
 		E4E212841AB1FE7E00320E39 /* dunes_night_drops.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dunes_night_drops.json; sourceTree = "<group>"; };
+		E4F894FD1AE6C0E600E5BA6A /* CombinationEncyclopediaCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CombinationEncyclopediaCollectionViewController.h; sourceTree = "<group>"; };
+		E4F894FE1AE6C0E700E5BA6A /* CombinationEncyclopediaCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CombinationEncyclopediaCollectionViewController.m; sourceTree = "<group>"; };
+		E4F895001AE6CD0700E5BA6A /* combos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = combos.json; sourceTree = "<group>"; };
 		EFF686F2CEDA0CD8DF2150B1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		F904FDDA2793D13F477F4B09 /* Pods-MH4U Dex UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MH4U Dex UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MH4U Dex UITests/Pods-MH4U Dex UITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -452,6 +460,7 @@
 		E471BE1E1A9671460076CBD7 /* Item */ = {
 			isa = PBXGroup;
 			children = (
+				E4F894FC1AE6C08200E5BA6A /* Combinations */,
 				E471BE1F1A9671690076CBD7 /* ItemEncyclopediaTableViewController.h */,
 				E471BE201A9671690076CBD7 /* ItemEncyclopediaTableViewController.m */,
 				E471BE251A9677E30076CBD7 /* ItemContainerViewController.h */,
@@ -583,6 +592,7 @@
 		E499582B1A83DA4400799BBE /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E4F895001AE6CD0700E5BA6A /* combos.json */,
 				E48A67771ABB7A8000C5EE81 /* Monsters */,
 				E4CBD82D1AD6D0F7001B8105 /* Quests */,
 				E471BE301A979DB30076CBD7 /* Regions */,
@@ -638,12 +648,14 @@
 				E4456EAC1A895D7600FCC7DC /* DamageZonesCollectionViewController.m */,
 				E45E9A8C1A890CC400D75592 /* MonsterContainerViewController.h */,
 				E45E9A8D1A890CC400D75592 /* MonsterContainerViewController.m */,
+				E45728C51ADDB69500123AB7 /* MonsterQuestsTableViewController.h */,
+				E45728C61ADDB69500123AB7 /* MonsterQuestsTableViewController.m */,
 				E4A7698B1A85207D00AC93DA /* MonsterEncyclopediaViewController.h */,
 				E4A7698C1A85207D00AC93DA /* MonsterEncyclopediaViewController.m */,
-				E45E9A8F1A890ED300D75592 /* MonsterItemTableViewController.h */,
 				E4C76B321A85638D00AD753B /* MonsterOverviewViewController.h */,
-				E45E9A901A890ED300D75592 /* MonsterItemTableViewController.m */,
 				E4C76B331A85638D00AD753B /* MonsterOverviewViewController.m */,
+				E45E9A8F1A890ED300D75592 /* MonsterItemTableViewController.h */,
+				E45E9A901A890ED300D75592 /* MonsterItemTableViewController.m */,
 			);
 			name = Monster;
 			sourceTree = "<group>";
@@ -723,6 +735,15 @@
 				E4A7698F1A85219B00AC93DA /* Cells */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		E4F894FC1AE6C08200E5BA6A /* Combinations */ = {
+			isa = PBXGroup;
+			children = (
+				E4F894FD1AE6C0E600E5BA6A /* CombinationEncyclopediaCollectionViewController.h */,
+				E4F894FE1AE6C0E700E5BA6A /* CombinationEncyclopediaCollectionViewController.m */,
+			);
+			name = Combinations;
 			sourceTree = "<group>";
 		};
 		EF4AF38E16F5139EA4B2C356 /* Frameworks */ = {
@@ -875,6 +896,7 @@
 				E48A678C1ABB7A8E00C5EE81 /* monster_drops1.json in Resources */,
 				E4E2127E1AB1FE1200320E39 /* heavens_mount_drops.json in Resources */,
 				E4E212861AB1FE7E00320E39 /* dunes_night_drops.json in Resources */,
+				E4F895011AE6CD0700E5BA6A /* combos.json in Resources */,
 				E4CBD8381AD6D14A001B8105 /* quest_drops3.json in Resources */,
 				E48A67891ABB7A8E00C5EE81 /* monster_drops4.json in Resources */,
 				E4CE45D81A97E6F80059C056 /* frozen_seaway_drops.json in Resources */,
@@ -992,6 +1014,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4F894FF1AE6C0E700E5BA6A /* CombinationEncyclopediaCollectionViewController.m in Sources */,
 				E40D07231ACAFA27001B8E04 /* Drop.m in Sources */,
 				E4A769921A8521B100AC93DA /* MonsterEncyclopediaCell.m in Sources */,
 				E4DAD2311AB7813C0048DACA /* QuestListTableViewController.m in Sources */,
@@ -1019,6 +1042,7 @@
 				E46BBBA31AAA483100068F02 /* RegionContainerViewController.m in Sources */,
 				E4CE45CC1A97A8F50059C056 /* MonsterDrop.m in Sources */,
 				E40D07201ACAFA19001B8E04 /* _Drop.m in Sources */,
+				E45728C71ADDB69500123AB7 /* MonsterQuestsTableViewController.m in Sources */,
 				E434F3761A83F5CA004C10BF /* _Skilltree.m in Sources */,
 				E471BE391A979F4C0076CBD7 /* RegionEncyclopediaCollectionViewController.m in Sources */,
 				E45728C11ADC5B0400123AB7 /* QuestRewardsTableViewController.m in Sources */,

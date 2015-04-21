@@ -124,6 +124,7 @@ NSString *const MHDMonsterEncyclopediaCollectionIdentifier = @"MonsterEncycloped
 NSString *const MHDRegionEncyclopediaCollectionIdentifier = @"RegionEncyclopediaCollection";
 NSString *const MHDItemAreaSources = @"ItemAreaSources";
 NSString *const MHDItemMonsterSources = @"ItemMonsterSources";
+NSString *const MHDItemQuestSources = @"ItemQuestSources";
 NSString *const MHDAreaDropsTable = @"AreaDropsTable";
 NSString *const MHDMonsterDropsTable = @"MonsterDropsTable";
 

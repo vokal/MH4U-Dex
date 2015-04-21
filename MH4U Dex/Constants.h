@@ -122,6 +122,7 @@ FOUNDATION_EXPORT NSString *const MHDMonsterEncyclopediaCollectionIdentifier;
 FOUNDATION_EXPORT NSString *const MHDRegionEncyclopediaCollectionIdentifier;
 FOUNDATION_EXPORT NSString *const MHDItemAreaSources;
 FOUNDATION_EXPORT NSString *const MHDItemMonsterSources;
+FOUNDATION_EXPORT NSString *const MHDItemQuestSources;
 FOUNDATION_EXPORT NSString *const MHDAreaDropsTable;
 FOUNDATION_EXPORT NSString *const MHDMonsterDropsTable;
 
